@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Lars Vilhuber - Reproducibility Expert</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .logo {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .header-info h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .header-info p {
+            color: #666;
+            font-size: 16px;
+        }
+        
+        .main-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .chat-wrapper {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            width: 100%;
+            max-width: 900px;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        .chat-header {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .chat-header h2 {
+            font-size: 20px;
+        }
+        
+        .chat-actions {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .btn-small {
+            padding: 8px 16px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .btn-small:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        
+        .quick-topics {
+            padding: 15px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            scrollbar-width: thin;
+        }
+        
+        .quick-topic {
+            padding: 8px 16px;
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.3s;
+        }
+        
+        .quick-topic:hover {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: #667eea;
+        }
+        
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: #ffffff;
+            scroll-behavior: smooth;
+        }
+        
+        .message {
+            margin-bottom: 20px;
+            display: flex;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { 
+                opacity: 0; 
+                transform: translateY(10px); 
+            }
+            to { 
+                opacity: 1; 
+                transform: translateY(0); 
+            }
+        }
+        
+        .message.user {
+            justify-content: flex-end;
+        }
+        
+        .message-wrapper {
+            max-width: 75%;
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+        }
+        
+        .message.user .message-wrapper {
+            flex-direction: row-reverse;
+        }
+        
+        .message-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .message.bot .message-avatar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .message.user .message-avatar {
+            background: #f0f0f0;
+            color: #666;
+        }
+        
+        .message-content {
+            padding: 12px 18px;
+            border-radius: 18px;
+            word-wrap: break-word;
+            line-height: 1.5;
+        }
+        
+        .message.bot .message-content {
+            background: #f8f9fa;
+            color: #333;
+            border-bottom-left-radius: 5px;
+        }
+        
+        .message.user .message-content {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-bottom-right-radius: 5px;
+        }
+        
+        .typing-indicator {
+            display: none;
+            padding: 20px;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .typing-indicator.active {
+            display: flex;
+        }
+        
+        .typing-dots {
+            display: flex;
+            gap: 4px;
+            padding: 12px 18px;
+            background: #f8f9fa;
+            border-radius: 18px;
+            border-bottom-left-radius: 5px;
+        }
+        
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #999;
+            animation: typing 1.4s infinite;
+        }
+        
+        .typing-dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        
+        .typing-dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        
+        @keyframes typing {
+            0%, 60%, 100% {
+                transform: translateY(0);
+            }
+            30% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        .chat-input-container {
+            padding: 20px;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .chat-input-wrapper {
+            display: flex;
+            gap: 10px;
+            max-width: 100%;
+        }
+        
+        #chatInput {
+            flex: 1;
+            padding: 14px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        
+        #chatInput:focus {
+            border-color: #667eea;
+        }
+        
+        #sendButton {
+            padding: 14px 28px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        #sendButton:hover {
+            transform: scale(1.05);
+        }
+        
+        #sendButton:active {
+            transform: scale(0.95);
+        }
+        
+        #sendButton:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: scale(1);
+        }
+        
+        .info-section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .info-card {
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .info-card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        .info-card p {
+            color: #666;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .header-info h1 {
+                font-size: 22px;
+            }
+            
+            .chat-wrapper {
+                height: 80vh;
+                border-radius: 0;
+            }
+            
+            .message-wrapper {
+                max-width: 85%;
+            }
+            
+            .quick-topics {
+                padding: 10px;
+            }
+            
+            #sendButton {
+                padding: 14px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="logo">LV</div>
+            <div class="header-info">
+                <h1>Lars Vilhuber Chatbot</h1>
+                <p>Expert in Reproducibility and Data Transparency in Economics</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-container">
+        <div class="chat-wrapper">
+            <div class="chat-header">
+                <h2>Ask me about reproducibility</h2>
+                <div class="chat-actions">
+                    <button class="btn-small" onclick="resetChat()">Reset Chat</button>
+                    <button class="btn-small" onclick="showHelp()">Help</button>
+                </div>
+            </div>
+            
+            <div class="quick-topics">
+                <div class="quick-topic" onclick="sendQuickMessage('What is computational empathy?')">
+                    Computational Empathy
+                </div>
+                <div class="quick-topic" onclick="sendQuickMessage('How do I make my research reproducible?')">
+                    Reproducibility Basics
+                </div>
+                <div class="quick-topic" onclick="sendQuickMessage('How should I handle confidential data?')">
+                    Confidential Data
+                </div>
+                <div class="quick-topic" onclick="sendQuickMessage('What should go in a README file?')">
+                    README Template
+                </div>
+                <div class="quick-topic" onclick="sendQuickMessage('Best practices for Stata code')">
+                    Stata Best Practices
+                </div>
+                <div class="quick-topic" onclick="sendQuickMessage('How do I use Docker for reproducibility?')">
+                    Docker & Containers
+                </div>
+                <div class="quick-topic" onclick="sendQuickMessage('Where should I archive my data?')">
+                    Data Repositories
+                </div>
+            </div>
+            
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <div class="message-wrapper">
+                        <div class="message-avatar">LV</div>
+                        <div class="message-content">
+                            Hello! I'm Lars Vilhuber, Data Editor at the American Economic Association. I help researchers make their work more reproducible and transparent. 
+                            <br><br>
+                            Feel free to ask me about reproducibility, data transparency, replication packages, or any related topics. You can click the quick topics above or type your own question below!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="typing-indicator" id="typingIndicator">
+                <div class="message-avatar" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">LV</div>
+                <div class="typing-dots">
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                </div>
+            </div>
+            
+            <div class="chat-input-container">
+                <div class="chat-input-wrapper">
+                    <input type="text" 
+                           id="chatInput" 
+                           placeholder="Ask about reproducibility, data transparency, or replication packages..." 
+                           autocomplete="off">
+                    <button id="sendButton" onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="info-section">
+        <div class="info-card">
+            <h3>📚 Expertise Areas</h3>
+            <p>Reproducibility, data transparency, replication packages, computational empathy, software environments, and documentation standards.</p>
+        </div>
+        <div class="info-card">
+            <h3>🛠️ Software Coverage</h3>
+            <p>Stata, R, Python, MATLAB, Julia, Docker, and general best practices for cross-platform compatibility.</p>
+        </div>
+        <div class="info-card">
+            <h3>🎯 Mission</h3>
+            <p>Making economics research more reproducible and transparent through education, standards, and practical guidance.</p>
+        </div>
+        <div class="info-card">
+            <h3>💡 Key Concept</h3>
+            <p>"Computational Empathy" - thinking about what someone else will face when trying to reproduce your work.</p>
+        </div>
+    </div>
+    
+    <script>
+        let sessionId = localStorage.getItem('chatSessionId') || generateSessionId();
+        localStorage.setItem('chatSessionId', sessionId);
+        
+        function generateSessionId() {
+            return 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+        }
+        
+        async function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            
+            // Disable input while sending
+            input.disabled = true;
+            document.getElementById('sendButton').disabled = true;
+            
+            // Add user message to chat
+            addMessage(message, 'user');
+            input.value = '';
+            
+            // Show typing indicator
+            showTypingIndicator();
+            
+            try {
+                // Send message to backend
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        session_id: sessionId
+                    })
+                });
+                
+                const data = await response.json();
+                
+                // Hide typing indicator
+                hideTypingIndicator();
+                
+                // Add bot response
+                addMessage(data.response, 'bot');
+                
+            } catch (error) {
+                console.error('Error:', error);
+                hideTypingIndicator();
+                addMessage('I apologize, but I encountered an error. Please try again or refresh the page.', 'bot');
+            } finally {
+                // Re-enable input
+                input.disabled = false;
+                document.getElementById('sendButton').disabled = false;
+                input.focus();
+            }
+        }
+        
+        function sendQuickMessage(message) {
+            document.getElementById('chatInput').value = message;
+            sendMessage();
+        }
+        
+        function addMessage(text, sender) {
+            const messagesContainer = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}`;
+            
+            const wrapperDiv = document.createElement('div');
+            wrapperDiv.className = 'message-wrapper';
+            
+            const avatarDiv = document.createElement('div');
+            avatarDiv.className = 'message-avatar';
+            avatarDiv.textContent = sender === 'bot' ? 'LV' : 'You';
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.innerHTML = text.replace(/\n/g, '<br>');
+            
+            wrapperDiv.appendChild(avatarDiv);
+            wrapperDiv.appendChild(contentDiv);
+            messageDiv.appendChild(wrapperDiv);
+            
+            messagesContainer.appendChild(messageDiv);
+            
+            // Scroll to bottom
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+        
+        function showTypingIndicator() {
+            document.getElementById('typingIndicator').classList.add('active');
+            const messagesContainer = document.getElementById('chatMessages');
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+        
+        function hideTypingIndicator() {
+            document.getElementById('typingIndicator').classList.remove('active');
+        }
+        
+        async function resetChat() {
+            if (confirm('Are you sure you want to reset the conversation?')) {
+                try {
+                    await fetch('/api/reset', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            session_id: sessionId
+                        })
+                    });
+                    
+                    // Clear chat messages except the initial greeting
+                    const messagesContainer = document.getElementById('chatMessages');
+                    messagesContainer.innerHTML = `
+                        <div class="message bot">
+                            <div class="message-wrapper">
+                                <div class="message-avatar">LV</div>
+                                <div class="message-content">
+                                    Hello! I'm Lars Vilhuber, Data Editor at the American Economic Association. I help researchers make their work more reproducible and transparent. 
+                                    <br><br>
+                                    Feel free to ask me about reproducibility, data transparency, replication packages, or any related topics. You can click the quick topics above or type your own question below!
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    
+                    // Generate new session ID
+                    sessionId = generateSessionId();
+                    localStorage.setItem('chatSessionId', sessionId);
+                    
+                } catch (error) {
+                    console.error('Error resetting chat:', error);
+                    alert('Failed to reset chat. Please refresh the page.');
+                }
+            }
+        }
+        
+        function showHelp() {
+            const helpMessage = `I can help you with:
+            
+• Reproducibility best practices
+• Data transparency and confidential data
+• Software environments (Stata, R, Python, etc.)
+• Documentation standards and README templates
+• Data repositories and archiving
+• Computational empathy concept
+• Teaching reproducibility
+
+Just type your question or click one of the quick topics above!`;
+            
+            addMessage(helpMessage, 'bot');
+        }
+        
+        // Allow Enter key to send message
+        document.getElementById('chatInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+        
+        // Focus input on load
+        window.addEventListener('load', function() {
+            document.getElementById('chatInput').focus();
+        });
+    </script>
+</body>
+</html>

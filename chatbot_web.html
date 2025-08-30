@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lars Vilhuber - Reproducibility Expert Chatbot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .chat-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            width: 100%;
+            max-width: 800px;
+            height: 90vh;
+            max-height: 700px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        .chat-header {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 20px 20px 0 0;
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .avatar {
+            width: 60px;
+            height: 60px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .header-info h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        
+        .header-info p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        
+        .message {
+            margin-bottom: 20px;
+            display: flex;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .message.user {
+            justify-content: flex-end;
+        }
+        
+        .message-content {
+            max-width: 70%;
+            padding: 12px 18px;
+            border-radius: 18px;
+            word-wrap: break-word;
+        }
+        
+        .message.bot .message-content {
+            background: white;
+            color: #333;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-bottom-left-radius: 5px;
+        }
+        
+        .message.user .message-content {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-bottom-right-radius: 5px;
+        }
+        
+        .chat-input-container {
+            padding: 20px;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .chat-input-wrapper {
+            display: flex;
+            gap: 10px;
+        }
+        
+        #chatInput {
+            flex: 1;
+            padding: 12px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        
+        #chatInput:focus {
+            border-color: #667eea;
+        }
+        
+        #sendButton {
+            padding: 12px 25px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        #sendButton:hover {
+            transform: scale(1.05);
+        }
+        
+        #sendButton:active {
+            transform: scale(0.95);
+        }
+        
+        .typing-indicator {
+            display: none;
+            padding: 10px 20px;
+            background: white;
+            border-radius: 18px;
+            border-bottom-left-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: fit-content;
+        }
+        
+        .typing-indicator span {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #999;
+            margin: 0 2px;
+            animation: typing 1.4s infinite;
+        }
+        
+        .typing-indicator span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        
+        .typing-indicator span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        
+        @keyframes typing {
+            0%, 60%, 100% {
+                transform: translateY(0);
+            }
+            30% {
+                transform: translateY(-10px);
+            }
+        }
+        
+        .quick-actions {
+            padding: 10px 20px;
+            background: #f0f0f0;
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+        }
+        
+        .quick-action {
+            padding: 8px 15px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.3s;
+        }
+        
+        .quick-action:hover {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-content">
+                <div class="avatar">LV</div>
+                <div class="header-info">
+                    <h1>Lars Vilhuber</h1>
+                    <p>Data Editor, AEA | Cornell University | Reproducibility Expert</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="quick-actions">
+            <div class="quick-action" onclick="sendQuickMessage('What is computational empathy?')">What is computational empathy?</div>
+            <div class="quick-action" onclick="sendQuickMessage('How do I make my research reproducible?')">How to make research reproducible?</div>
+            <div class="quick-action" onclick="sendQuickMessage('Best practices for data sharing')">Data sharing best practices</div>
+            <div class="quick-action" onclick="sendQuickMessage('Help with Stata reproducibility')">Stata reproducibility</div>
+            <div class="quick-action" onclick="sendQuickMessage('README template')">README template</div>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                <div class="message-content">
+                    Hello! I'm Lars Vilhuber, Data Editor at the American Economic Association. I help researchers make their work more reproducible and transparent. 
+                    How can I assist you today? Feel free to ask about reproducibility, data transparency, replication packages, or any related topics!
+                </div>
+            </div>
+        </div>
+        
+        <div class="typing-indicator" id="typingIndicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <div class="chat-input-container">
+            <div class="chat-input-wrapper">
+                <input type="text" id="chatInput" placeholder="Ask me about reproducibility, data transparency, or replication packages..." />
+                <button id="sendButton" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Knowledge base for the chatbot
+        const knowledgeBase = {
+            computational_empathy: {
+                keywords: ['computational empathy', 'empathy'],
+                response: "Computational empathy is a concept I developed to describe thinking about what an unknown person attempting to reproduce your results might face. It means considering different operating systems, software versions, skill levels, and access to resources. The key is to document everything explicitly and test your code as if you were a stranger to your own work."
+            },
+            reproducibility: {
+                keywords: ['reproducible', 'reproducibility', 'replication', 'replicate'],
+                response: "Making research reproducible starts with good habits: clear file organization, documented dependencies, and tested code. I recommend the 'run it again' test - delete your output and see if you can recreate everything from scratch. A good replication package has three key elements: all the data (or clear access instructions), all the code in runnable form, and clear documentation linking the code to the paper results."
+            },
+            data_sharing: {
+                keywords: ['data', 'sharing', 'access', 'confidential', 'restricted'],
+                response: "Data transparency doesn't mean everything must be public. When data can't be shared, document the data structure, provide access instructions, and consider creating synthetic data that demonstrates your code works. Data availability statements should be precise: what data exists, where it can be found, and what restrictions apply. 'Data available upon request' is no longer sufficient."
+            },
+            stata: {
+                keywords: ['stata'],
+                response: "For Stata reproducibility, always set the version explicitly with the 'version' command, document all ado files needed, and remember that not everyone has access to Stata/MP or the latest version. Use 'ssc install' or 'net install' with specific sources for packages. Consider using creturn list to document your system configuration."
+            },
+            r_language: {
+                keywords: ['r programming', 'r language', 'rstudio'],
+                response: "For R reproducibility, use renv for package management, document your R version and all package versions. Use sessionInfo() to capture your environment, consider using groundhog for date-based package versions, and be careful with compiled packages that may be OS-specific."
+            },
+            python: {
+                keywords: ['python'],
+                response: "For Python reproducibility, use virtual environments or conda, create requirements.txt with specific versions using 'pip freeze'. Consider using poetry or pipenv for dependency management, and be explicit about the Python version (3.8, 3.9, etc.)."
+            },
+            readme: {
+                keywords: ['readme', 'documentation', 'document'],
+                response: "A good README should include: software requirements with versions, data availability statement, instructions to run the code, expected runtime, hardware requirements if substantial, and description of expected output. Think of it as a letter to a stranger who needs to understand and run your work."
+            },
+            repositories: {
+                keywords: ['repository', 'zenodo', 'archive', 'openicpsr', 'dataverse'],
+                response: "For long-term preservation, use trusted repositories. Zenodo is excellent for preservation and provides DOIs. OpenICPSR is the AEA's preferred repository. Harvard Dataverse is widely used in social sciences. GitHub is great for collaboration but isn't an archive - it's for development, not preservation."
+            },
+            teaching: {
+                keywords: ['teach', 'student', 'education', 'learning'],
+                response: "Teaching reproducibility is crucial for the next generation. I recommend starting with simple exercises - have students reproduce a basic analysis, then gradually introduce complications. The 'have an undergrad run it' test is remarkably effective for finding issues in your replication package!"
+            },
+            docker: {
+                keywords: ['docker', 'container', 'containerization'],
+                response: "Docker and containers provide complete environment reproducibility. They're especially useful for complex setups with multiple software dependencies. Start with a minimal base image, document the build process, and consider the accessibility - not everyone is familiar with containers, so provide clear instructions."
+            },
+            general_advice: {
+                keywords: ['help', 'advice', 'tips', 'best practice'],
+                response: "Start with small steps toward reproducibility. Remember, perfect is the enemy of good - any documentation is better than none. Focus on making your future self happy - good reproducibility practices save you time too. The reproducibility community is supportive, and we're all learning together!"
+            }
+        };
+        
+        function findBestResponse(message) {
+            const messageLower = message.toLowerCase();
+            let bestMatch = null;
+            let bestScore = 0;
+            
+            for (const [topic, data] of Object.entries(knowledgeBase)) {
+                let score = 0;
+                for (const keyword of data.keywords) {
+                    if (messageLower.includes(keyword)) {
+                        score += keyword.split(' ').length; // Weight multi-word matches higher
+                    }
+                }
+                
+                if (score > bestScore) {
+                    bestScore = score;
+                    bestMatch = data.response;
+                }
+            }
+            
+            // Default response if no good match
+            if (bestScore === 0) {
+                const defaults = [
+                    "That's an interesting question about reproducibility. Could you tell me more about your specific situation so I can provide better guidance?",
+                    "I'd be happy to help with that. Are you working on preparing a replication package, or trying to reproduce someone else's work?",
+                    "Good question! To give you the most relevant advice, could you let me know what software or type of data you're working with?",
+                    "This is something many researchers ask about. Let me know more details about your project, and I can provide specific recommendations."
+                ];
+                return defaults[Math.floor(Math.random() * defaults.length)];
+            }
+            
+            return bestMatch;
+        }
+        
+        function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            
+            // Add user message
+            addMessage(message, 'user');
+            input.value = '';
+            
+            // Show typing indicator
+            showTypingIndicator();
+            
+            // Simulate response delay
+            setTimeout(() => {
+                hideTypingIndicator();
+                const response = findBestResponse(message);
+                addMessage(response, 'bot');
+            }, 1000 + Math.random() * 1000);
+        }
+        
+        function sendQuickMessage(message) {
+            document.getElementById('chatInput').value = message;
+            sendMessage();
+        }
+        
+        function addMessage(text, sender) {
+            const messagesContainer = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}`;
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.textContent = text;
+            
+            messageDiv.appendChild(contentDiv);
+            messagesContainer.appendChild(messageDiv);
+            
+            // Scroll to bottom
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+        
+        function showTypingIndicator() {
+            document.getElementById('typingIndicator').style.display = 'block';
+            const messagesContainer = document.getElementById('chatMessages');
+            messagesContainer.appendChild(document.getElementById('typingIndicator'));
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+        
+        function hideTypingIndicator() {
+            document.getElementById('typingIndicator').style.display = 'none';
+        }
+        
+        // Allow Enter key to send message
+        document.getElementById('chatInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html>
