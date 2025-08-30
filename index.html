@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lars Vilhuber Chatbot - Choose Your Experience</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 800px;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header {
+            margin-bottom: 40px;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .description {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        
+        .options {
+            display: grid;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .option {
+            background: #f8f9fa;
+            border: 2px solid #e0e0e0;
+            border-radius: 15px;
+            padding: 30px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s;
+        }
+        
+        .option:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .option h3 {
+            font-size: 24px;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .option p {
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .features {
+            text-align: left;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .features h3 {
+            color: #333;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 15px;
+        }
+        
+        .feature-icon {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        
+        .feature h4 {
+            color: #667eea;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .feature p {
+            color: #666;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">LV</div>
+            <h1>Lars Vilhuber Chatbot</h1>
+            <p class="subtitle">Expert in Reproducibility and Data Transparency</p>
+            <p class="description">
+                Chat with an AI trained on the expertise of Lars Vilhuber, Data Editor at the American Economic Association. 
+                Get guidance on making your research reproducible, handling data transparency, and following best practices.
+            </p>
+        </div>
+        
+        <div class="options">
+            <a href="chatbot_web.html" class="option">
+                <div class="badge">AVAILABLE NOW</div>
+                <h3>🚀 Start Chatting (Static Version)</h3>
+                <p>Basic chatbot experience that works offline. Click to start immediately - no installation required!</p>
+            </a>
+            
+            <div class="option" style="opacity: 0.7;">
+                <div class="badge">COMING SOON</div>
+                <h3>⭐ Full Web App (Advanced Version)</h3>
+                <p>Complete chat experience with session memory, typing indicators, and advanced features. Currently being deployed.</p>
+            </div>
+        </div>
+        
+        <div class="features">
+            <h3>💡 What You Can Ask About</h3>
+            <div class="feature-grid">
+                <div class="feature">
+                    <div class="feature-icon">🧠</div>
+                    <h4>Computational Empathy</h4>
+                    <p>Understanding what replicators face</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔄</div>
+                    <h4>Reproducibility</h4>
+                    <p>Making research reproducible</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📊</div>
+                    <h4>Data Transparency</h4>
+                    <p>Handling confidential data</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💻</div>
+                    <h4>Software Guidance</h4>
+                    <p>Stata, R, Python best practices</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📝</div>
+                    <h4>Documentation</h4>
+                    <p>README templates & standards</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🗄️</div>
+                    <h4>Data Repositories</h4>
+                    <p>Where to archive your work</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
