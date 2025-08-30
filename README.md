@@ -90,6 +90,10 @@ Then open `http://localhost:5000` in your browser.
 - Mobile-responsive design
 - RESTful API endpoints
 
+### 5. Optional: Fine-tuned GPT backend
+
+You can optionally fine-tune a GPT model on this project's curated knowledge and have the Flask app call that model. See section "Fine-tuning and integration" below.
+
 ## Key Features
 
 ### Knowledge Areas Covered
@@ -199,9 +203,42 @@ For official resources, see:
 - [AEA Data Editor](https://aeadataeditor.github.io/)
 - [Social Science Data Editors](https://social-science-data-editors.github.io/)
 
+## Additional Guides
+
+- [Atlassian vs GitHub: Selection Guide](./ATLASSIAN_GITHUB_GUIDE.md)
+
 ## License
 
 MIT
 
 ---
 *Created: 2025-08-30*
+
+---
+
+## Fine-tuning and integration
+
+1) Prepare dataset
+
+```bash
+python3 tools/build_finetune_dataset.py --out data/finetune.jsonl
+```
+
+2) Start fine-tuning (requires OpenAI API key)
+
+```bash
+export OPENAI_API_KEY=...  # your key
+python3 tools/start_finetune.py data/finetune.jsonl
+```
+
+This prints a fine-tuned model id (e.g., ft:gpt-4o-mini:org:slug:xxxx). Save it to `.env` as `FINE_TUNED_MODEL=...`.
+
+3) Run server using the fine-tuned model
+
+```bash
+export USE_OPENAI=1
+export FINE_TUNED_MODEL=ft:your-model-id
+python3 run.py
+```
+
+When `USE_OPENAI=1` is set, the app will call the fine-tuned model; otherwise it uses the built-in rules-based bot.
