@@ -46,3 +46,28 @@ ENV/
 
 # Log files
 *.log
+.fake
+
+# Large files and directories (>50MB)
+AEAREP-103-ssh/
+*.zip
+*.tar.gz
+
+# Large PDFs (>10MB)
+*.pdf
+!docs/AI_Agent_2025_商业计划书_提交版.pdf
+!docs/团队资质与技术背景.pdf
+
+# Large images (>5MB) 
+*.png
+!SciAgents.png
+
+# Chrome temp files
+.chrome-tmp/
+
+# AEA replication data (large datasets)
+aea_replication_packages/
+
+# Temporary files
+*.tmp
+*.temp
