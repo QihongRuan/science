@@ -1,0 +1,68 @@
+================================================================================
+ECONOMETRIC METHODS ANALYSIS REPORT
+================================================================================
+
+### STATA ECONOMETRIC METHODS ###
+Time Series: 2814 repositories
+DID: 1002 repositories
+OLS: 944 repositories
+Clustering: 713 repositories
+Fixed Effects: 537 repositories
+Bootstrap: 296 repositories
+Panel: 198 repositories
+IV/2SLS: 113 repositories
+Quantile: 107 repositories
+Probit/Logit: 104 repositories
+Machine Learning: 61 repositories
+Structural: 50 repositories
+Random Effects: 43 repositories
+Synthetic Control: 21 repositories
+RDD: 12 repositories
+Survival: 11 repositories
+GMM: 10 repositories
+Tobit: 7 repositories
+Matching: 7 repositories
+
+### R STATISTICAL METHODS ###
+Bayesian: 125 repositories
+OLS: 58 repositories
+Time Series: 50 repositories
+Causal: 15 repositories
+ML: 6 repositories
+Panel: 5 repositories
+IV: 1 repositories
+
+### PYTHON/ML METHODS ###
+ML: 3 repositories
+
+### ROBUSTNESS CHECKS ###
+alternative_specifications: 756 repositories
+bootstrap: 337 repositories
+winsorize: 293 repositories
+heterogeneity: 213 repositories
+placebo_tests: 109 repositories
+cross_validation: 79 repositories
+sensitivity_analysis: 22 repositories
+jackknife: 5 repositories
+
+### DATA CLEANING PRACTICES ###
+recoding: 3771 repositories
+missing_values: 2781 repositories
+merging: 2415 repositories
+reshaping: 1019 repositories
+duplicates: 841 repositories
+outliers: 391 repositories
+
+### ADVANCED TECHNIQUES ###
+machine_learning: 60 repositories
+  Examples: aearep-1331, aearep-1593, aearep-1556
+causal_inference: 106 repositories
+  Examples: aearep-1593, AEAREP-1900, AEAREP-1797
+structural_models: 20 repositories
+  Examples: aearep-1908, AEAREP-103, aearep-1819
+bayesian: 130 repositories
+  Examples: aearep-1331, aearep-1593, AEAREP-1900
+text_analysis: 1 repositories
+  Examples: aearep-1796
+network_analysis: 133 repositories
+  Examples: aearep-1331, aearep-1593, AEAREP-1900
