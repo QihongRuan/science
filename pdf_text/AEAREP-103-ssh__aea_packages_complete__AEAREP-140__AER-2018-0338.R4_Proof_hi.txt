@@ -1,0 +1,135 @@
+Are Ideas Getting Harder to Find?
+Journal: American Economic Review
+Manuscript ID AER-2018-0338.R4
+Manuscript Type: For Administrative Use Only
+Keywords: O40, O30, Economic growth, productivity, R&D
+
+Page 1 of 74
+
+March 1, 2018
+Editors, The American Economic Review
+I would like to disclose I have received honorarium, speaking, teaching or consulting
+fees from:
+-
+
+Toulouse Network for Information Technology, sponsored by Microsoft
+Atlanta Federal Reserve Bank
+Inter-American Development Bank
+Asian Development Bank
+World Bank
+IMF
+Kauffman Foundation
+
+I have received grants from:
+-
+
+National Science Foundation
+Kauffman Foundation
+Sloan Foundation
+International Growth Center
+Russell Sage Foundation
+Stanford University
+
+I have the following editorial positions:
+-
+
+Quarterly Journal of Economics
+Econometrica
+Economic Journal
+Journal of Economic Perspectives
+
+I have no other relevant interests to disclose
+
+Best regards
+
+Nicholas Bloom
+
+Page 2 of 74
+
+March 5, 2018
+The author declares that (s)he has no relevant or material financial interests that relate to the
+research described in this paper
+Charles I. Jones
+Stanford University
+
+Page 3 of 74
+
+March 5, 2018
+
+Over the past three years, I have received financial support from the following organizations:
+Google DeepMind. I have no positions as officer, director, or board member of any non-profit
+organizations or profit-making entities.
+Michael Webb
+Stanford University
+
+Page 4 of 74
+
+American Economic Review Disclosure Statement 02/07/18
+1. Financial support is as stated in the article.
+2. From 2003-2017, John Van Reenen directed the Centre for Economic
+Performance which was core funded by the Economic and Social Research
+Council. Both these centres also receive additional government and
+research council funding.
+3. No paid or unpaid positions, other than that disclosed under (2).
+4. No necessary disclosure for relatives or partners.
+
+John Van Reenen,
+Gordon Y. Billard Professor of Management and Economics, MIT
+Department of Economics and Sloan Management School
+
+Page 5 of 74
+
+Are Ideas Getting Harder to Find?
+By N ICHOLAS B LOOM , C HARLES I. J ONES , J OHN VAN R EENEN , AND M ICHAEL
+W EBB∗
+Long-run growth in many models is the product of two terms: the effective number of researchers and their research productivity. We present
+evidence from various industries, products, and firms showing that research effort is rising substantially while research productivity is declining sharply. A good example is Moore’s Law. The number of researchers
+required today to achieve the famous doubling of computer chip density is more than 18 times larger than the number required in the early
+1970s. More generally, everywhere we look we find that ideas — and
+the exponential growth they imply — are getting harder to find.
+JEL: O40, O30
+Keywords: Economic growth, productivity, R&D
+This paper applies the growth accounting of Robert M. Solow (1957) to the production function for new ideas. The basic insight can be explained with a simple equation,
+highlighting a stylized view of economic growth that emerges from idea-based growth
+models:
+Economic
+growth
+e.g. 2% or 5%
+
+=
+
+Research
+productivity
+↓(falling)
+
+×
+
+Number of
+researchers
+↑(rising)
+
+Economic growth arises from people creating ideas. As a matter of accounting, we can
+decompose the long-run growth rate into the product of two terms: the effective number
+of researchers and their research productivity. We present a wide range of empirical
+evidence showing that in many contexts and at various levels of disaggregation, research
+effort is rising substantially, while research productivity is declining sharply. Steady
+growth, when it occurs, results from the offsetting of these two trends.
+∗ Bloom: Stanford University, Department of Economics, Stanford, CA 94305 and NBER, nbloom@stanford.edu.
+Jones: Stanford University, Graduate School of Business, 655 Knight Way, Stanford, CA 94305 and NBER,
+chad.jones@stanford.edu. Van Reenen: MIT, Department of Economics, 77 Massachusetts Avenue, Cambridge, MA
+02139 and NBER, vanreene@mit.edu. Webb: Stanford University, Department of Economics, Stanford, CA 94305,
+mww@stanford.edu. We are grateful to Emi Nakamura and three anonymous referees for detailed comments. We also
+thank Daron Acemoglu, Philippe Aghion, Ufuk Akcigit, Michele Boldrin, Ben Jones, Pete Klenow, Sam Kortum, Peter
+Kruse-Andersen, Rachel Ngai, Pietro Peretto, John Seater, Chris Tonetti, and seminar participants at Bocconi, the CEPR
+Macroeconomics and Growth Conference, CREI, George Mason, Harvard, LSE, MIT, Minneapolis Fed, NBER growth
+meeting, the NBER Macro across Time and Space conference, the Rimini Conference on Economics and Finance, and
+Stanford for helpful comments. We are grateful to Antoine Dechezlepretre, Keith Fuglie, Dietmar Harhoff, Wallace
+Huffman, Brian Lucking, Unni Pillai, and Greg Traxler for extensive assistance with data. The Alfred Sloan Foundation,
+SRF, ERC and ESRC have provided financial support. Any opinions and conclusions expressed herein are those of the
+author(s) and do not necessarily represent the views of the U.S. Census Bureau. This research was performed at a Federal
+Statistical Research Data Center under FSRDC Project Number FSRDC1057. All results have been reviewed to ensure
+that no confidential information is disclosed.
+
+1
+
+

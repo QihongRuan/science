@@ -1,0 +1,214 @@
+The Selection of Talent
+Experimental and Structural Evidence from Ethiopia∗
+
+Girum Abebe†, A. Stefano Caria‡, Esteban Ortiz-Ospina§
+November 25, 2020
+
+Abstract
+We study how search frictions in the labour market affect firms’ ability to recruit talented workers. In a field experiment in Ethiopia, we show that an employer can attract
+more talented applicants by offering a small monetary incentive for making a job application. Estimates from a structural model suggest that the intervention is effective because
+the cost of making a job application is large, and positively correlated with jobseeker ability. We provide evidence that this positive correlation is driven by dynamic selection. In
+a second experiment, we show that local recruiters underestimate the positive impacts
+of application incentives.
+∗
+
+We are grateful to Abi Adams, Arun Advani, Nava Ashraf, Oriana Bandiera, Vittorio Bassi, Gaurav
+
+Chiplunkar, Stefano DellaVigna, David Eil, Marcel Fafchamps, Erica Field, James Fenske, Simon Franklin,
+Douglas Gollin, Clément Imbert, Supreet Kaur, Philipp Kircher, Rocco Macchiavello, Jeremy Magruder, David
+McKenzie, Guy Michaels, Paul Niehaus, Barbara Petrongolo, Simon Quinn, Imran Rasul, Chris Roth, Yared
+Seid, Alemayehu Seyoum Taffesse, Chris Woodruff, Liam Wren-Lewis, Yanos Zylberberg and seminar audiences at NBER Summer Institute, BREAD/CEPR/STICERD/TCD (LSE), Warwick, Toulouse, Cornell Dyson,
+Sciences Po, PSE, McGill, IFS, NEUDC (Tufts), Mannheim, Oxford, Bristol, Essex, Royal Holloway, Cologne,
+Ohlstadt for helpful comments. We thank Ian Jewitt for invaluable discussion of the theoretical model. Koen
+Maskaant and Alemayehu Woldu provided outstanding research assistance. The project would not have been
+possible without the support of Rose Page, Simon Quinn, CSAE and EDRI. We acknowledge funding from the
+IGC (Project No. 1-VCC-VETH-VXXXX-32304) and the John Fell Fund. The trial was registered on the AEA
+RCT registry (AEARCTR-0001900).
+†
+World Bank. Email: gtefera@worldbank.org.
+‡
+University of Warwick. stefano.caria@warwick.ac.uk, Web: www.stefanocaria.com.
+§
+Our World in Data and University of Oxford. Email: esteban@ourworldindata.org.
+
+Selection problems occur everywhere in society. Firms want to hire talented workers; universities need to attract competent students; welfare programs have to select
+poor recipients. A key insight that often guides the design of selection policies is that
+a costly application process can improve selection by discouraging the participation of
+unwanted candidates. This logic underpins ordeal mechanisms in welfare programs
+(Nichols and Zeckhauser, 1982; Alatas et al., 2016) and is often applied in recruitment
+and marketing (Ashraf et al., 2010; Bandiera et al., 2011; Alonso, 2018). In this paper,
+we show experimentally that the opposite is true in an important economic context —
+decreasing application costs significantly improves selection. Our results are driven by
+the fact that high-ability candidates face on average higher application costs. We quantify this positive correlation between applicant ability and application costs, provide
+evidence on the mechanism that generates it, and show how it can be leveraged for
+policy.
+Our evidence comes from studying an employer who wants to attract talented workers for a clerical position in Addis Ababa, Ethiopia. There are two important features
+in this context. First, job search and application costs are high on average; formal jobs
+require an application in person, which is time consuming and often requires the use
+of public transport. Second, these costs are heterogenous, as individuals have different
+access to liquidity and live at a varying distance from employers.
+Using unique high-frequency data on job search and employment, we document
+that this heterogeneity generates a dynamic selection effect. High-ability individuals who face relatively low application costs find work faster and stop searching for
+work earlier than individuals who have similar ability, but face higher application costs.
+Thus, over time, a positive correlation between ability and application costs emerges
+among individuals searching for work.1 This correlation overturns the standard intuition on the screening role of application costs and suggests that lowering costs may
+actually be a beneficial policy for an employer in this market. We test this prediction
+empirically with our experiment.
+In the experiment, the employer reduces application costs by offering a small monetary payment to all job applicants. This monetary incentive is worth 4.5 USD and is
+calibrated to reimburse applicants for both transport costs — an in-person application
+is required for this position — and the opportunity cost of time. In a second treatment,
+the employer doubles the wage offer but does not provide any financial incentive for
+applications. The expected value of the wage increase is 105 USD. The employer ran1
+
+At the end of the paper, we present evidence from a number of studies suggesting that a similar
+
+correlation may be found in other contexts as well, in both developed and developing countries.
+
+2
+
+domises the offer of these two treatments over the sample of individuals who call to
+inquire about the position.
+Our key finding is that the application incentive improves the quality of the applicant
+pool. We measure applicant ability through standardised tests of cognitive and noncognitive ability, job-specific experience, and GPA (a measure of academic achievement
+widely used as a proxy of ability in this context).2 Applicants from the application incentive group have higher cognitive ability and GPA compared to control applicants,
+and similar levels of non-cognitive ability and experience. The ability gains occur across
+the whole distribution of ability and are particularly large at the top. GPA and cognitive ability among the highest-scoring applicants invited for an interview increase by
+.5 and .3 standard deviations, respectively. The number of top applicants (defined as
+those with cognitive ability above the 90th percentile of the control group distribution)
+doubles. We also find that raising the wage increases average applicant ability. The
+magnitude of this effect is similar to the impact of the application incentive, although
+the two interventions operate through different mechanisms, as we discuss in detail
+below.
+These findings surprise local employers. To show this, we sample 196 recruiters
+in the same market and ask them to predict the effect of the application incentive, after being informed of the characteristics of the applicant pool in the control and high
+wage conditions (DellaVigna and Pope, 2016). The majority of employers underestimate the effect of application incentives and the average employer incorrectly expects
+this intervention to decrease applicant quality. However, when asked to invite selected
+jobseekers to make an application at their firm on the basis of anonymised CVs, employers strongly prefer the applicants from the incentive treatment over the applicants
+from the other two experimental groups. This gives us further evidence that application incentives attract applicants that are preferred by employers.
+The treatment effect on ability is driven by women, and by those jobseekers who are
+currently unemployed and less-experienced — all groups that do not usually perform
+well in the labour market. This is not the case for the high wage treatment. This suggests
+that the application incentive does not increase ability at the cost of attracting individuals who have better outside options and, hence, a lower likelihood of accepting and
+keeping the job. On the contrary, this intervention mostly taps the pool of low-income
+jobseekers who stand to benefit the most from the job. To explore this point further, we
+2
+
+We use the Raven and Stroop tests for cognitive ability (Schmidt and Hunter, 1998). For non-cognitive
+
+skills we administer the Big-5 personality test and the Grit scale (John and Srivastava, 1999; Duckworth
+et al., 2007). To identify job-specific experience, we follow Autor and Handel (2013) and collect measures
+of experience in several relevant tasks.
+
+3
+
+generate an individual measure of the net present value of the experiment’s job using
+a simple calibration framework and a Post-LASSO forecast of each individual’s market
+wage (Belloni et al., 2014). We find that the increase in ability is significantly larger for
+the group of jobseekers that values the job the most.
+We rule out several potential explanations for our findings that are not related to
+job application costs. First, the interventions could induce individuals to exert greater
+test effort. To study this, we administer a task that requires effort, but very little ability.
+We do not find significant differences in performance on this task, which provides evidence against differential test effort. The positive impacts on GPA, a measure of ability
+determined before the interventions, further support this conclusion. Second, the application incentive could help individuals overcome self-control problems. However,
+we find that incentive group applicants are as likely to be present biased as control
+group applicants, which is inconsistent with this explanation. Third, subjects could
+misinterpret the offer of the incentive as a signal about their quality or about the tightness of the labour market. Contrary to this hypothesis, we show that the incentive does
+not affect subjects’ expectations about how long it will take them to find a new job, or
+the wage that this new job would pay. We also find that the incentive is associated with
+only minor changes in beliefs about the attributes of the job. We estimate that these
+changes can account for only 5 percent of the total effect of the application incentive.
+To shed light on the structural features of the labour market that drive our reducedform results we propose a simple model of application decisions. The model captures
+two key frictions in job search: application costs and uncertainty about the probability
+of being offered the job. There is only one type of vacancy, but we allow for worker
+heterogeneity — jobseekers differ in terms of their ability, the magnitude of the application costs they face, and the benefit that they derive from being offered the job. Using
+this model, we show formally that the incentive can attract better applicants in markets
+where higher-ability jobseekers face larger application costs.
+We identify and structurally estimate the key parameters of the model using the
+exogenous variation generated by the experiment (DellaVigna, 2018). The simulated
+moments closely track the empirical moments used for estimation. For example, we fit
+all application rates with less than one percentage point of error. Further, the model
+can match a key non-targeted moment — jobseekers’ assessment of the probability of
+receiving a job offer — and replicates non-targeted patterns of the data such as the fact
+that control applicants are negatively selected.
+We estimate that application costs are large and, consistently with our initial descriptive evidence, positively correlated with jobseeker ability. For the group of indi-
+
+4
+
+viduals who value the job the most, the correlation between application costs and jobseeker ability is .57. The magnitude of application costs is also substantial. At the mean,
+application costs amount to 13.5 percent of the monthly wage for the same group of
+jobseekers. These central findings are robust to the use of different assumptions about
+the information available to jobseekers, alternative sets of empirical moments, and different restrictions on parameter heterogeneity.3 Using a local estimate of the value of
+cognitive ability, we calculate that for the average firm in this market the internal rate
+of return (IRR) of the application incentive is 9.8 percent. This is much higher than the
+IRR of the high wage treatment, which is a costlier intervention. However, this IRR
+estimate is somewhat imprecise: the 90 percent bootstrapped confidence interval has
+a lower bound of -18.7 percent and an upper bound of 38.3 percent. Through counterfactual policy analysis, we show that the IRR increases substantially and becomes
+significantly different from zero when the incentive is either (i) targeted to the demographics that drive the treatment effects (e.g. women) or (ii) offered conditional on a
+good performance on the selection test.
+Our results make several contributions to the literature. First, we highlight that upfront costs can worsen selection in an important economic context. To our knowledge,
+ours is the first worker selection experiment that manipulates application costs. Some
+recent experiments in developing and developed countries have manipulated the wage,
+or workers’ expectations about the wage (Dal Bó et al., 2013; Deserranno, 2019; Belot et
+al., 2017; Ashraf et al., 2018). These studies typically find that higher wages attract better applicants. For example, Ashraf et al. (2018) show that offering career incentives
+enables the Zambian government to recruit more talented nurses.4 A number of papers set in the US have also studied how various contract features affect applications
+decisions (Flory et al., 2014; Mas and Pallais, 2016). Finally, a recent paper by Hardy and
+McCasland (2017) studies the experimental placement of apprentices in small firms in
+Ghana and finds evidence consistent with hiring frictions. None of these studies directly varies applications costs. Our findings highlight that, when jobseekers find it
+costly to participate in the labour market, firms may hire better workers if they reduce
+application costs.
+Second, we contribute to a recent, growing literature that studies frictions in the
+3
+
+A potential concern is that unobserved variation in the value of the job may inflate the estimates of
+
+application costs and of the cost-ability correlation. While we cannot fully rule out this possibility, we
+show that our key results are robust to the use of two different estimation strategies that plausibly reduce
+this unobserved variation.
+4
+An exception is Deserranno (2019), who finds that higher expected salaries select less motivated
+candidates for a non-profit organisation in Uganda.
+
+5
+
+allocation of talent. Previous studies have focused on the role of discrimination (Hsieh
+et al., 2013), migration costs (Bryan and Morten, 2015; Imbert and Papp, 2016; Lagakos
+et al., 2017), housing market failures (Hsieh and Moretti, 2015), and corruption (Weaver,
+2016). We provide original empirical evidence on the importance of search frictions —
+in particular, frictions in the job-application process. These frictions have been the focus
+of several theoretical papers, but direct evidence on their magnitude has been limited to
+date (Banerjee and Newman, 1993; Marimon and Zilibotti, 1999; Rogerson et al., 2005;
+Paserman, 2008; Galenianos et al., 2011). A unique feature of our study — and a key
+contribution to this literature — is that search frictions are identified using exogenous
+experimental variation.
+Our findings are consistent with those of an emerging literature that studies spatial
+frictions in urban labor markets. This literature shows that across a range of different
+contexts — including the US, Ethiopia and South Africa — transport subsidies increase
+job search intensity and impact labor market outcomes (Phillips, 2014; Franklin, 2017;
+Abebe et al., 2020; Banerjee and Sequeira, 2020). These papers, however, do not observe
+the counterfactual workers that would have been attracted by firms in the absence of
+the program, and thus do not capture changes in the selection of talent.5 Our study,
+on the other hand, documents that decreasing application costs enables employers to
+attract higher-ability applicants, by incentivising a pool of female, inexperienced, unemployed jobseekers that are unlikely to quickly secure good positions otherwise. This
+suggest that job search assistance policies may have positive impacts on the allocation
+of talent and motivates the implementation of new market-level evaluations designed
+to investigate these effects (Crépon et al., 2013).
+Lastly, our results highlight that managers do not have accurate beliefs about the returns to different recruitment practices and may thus fail to optimise firms’ recruitment
+policies. Providing information to managers may thus be a cost-effective intervention
+in this context. These results contribute to the nascent literature on behavioural firms
+(DellaVigna and Pope, 2016; DellaVigna and Gentzkow, 2017; Kremer et al., 2018).
+
+I
+
+Context
+
+In this section we describe the labour market in Addis Ababa from the point of view of
+both firms and workers. We rely both on descriptive statistics from our data on jobseek5
+
+Crépon and Van den Berg (2016) and McKenzie (2017a) offer recent reviews of the job search assis-
+
+tance literature. Additionally, there is a relevant literature at the intersection of urban and labour economics that studies spatial frictions that result from urban segregation, mostly in developed countries,
+which is summarised in Gobillon et al. (2007) and Zenou (2009).
+
+6
+
+

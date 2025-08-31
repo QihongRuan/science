@@ -1,0 +1,112 @@
+What Motivates Paternalism? An Experimental Study
+Journal: American Economic Review
+Manuscript ID AER-2019-1039.R2
+Manuscript Type: For Administrative Use Only
+Keywords: Paternalism, Welfare Economics, Experiment
+
+Page 1 of 97
+
+Stanford, 8/25/2020
+Disclosure Statement
+Paper: “What Motivates Paternalism? An Experimental Study"
+I declare that I have no relevant or material financial interests that relate to
+the research described in this paper.
+For the collection of the data, we have obtained a Research Ethics Board
+(IRB) approval at the University of Toronto (protocol 10279).
+
+B. Douglas Bernheim
+
+Page 2 of 97
+
+Cologne, 8/25/2019
+Disclosure Statement
+Paper: “What Motivates Paternalism? An Experimental Study "
+I declare that I have no relevant or material financial interests that relate to
+the research described in this paper.
+For the collection of the data, we have obtained a Research Ethics Board
+(IRB) approval at the University of Toronto (protocol 10279).
+
+Page 3 of 97
+
+Zurich, 8/25/2020
+Disclosure Statement
+Paper: “What Motivates Paternalism? An Experimental Study "
+I declare that I have no relevant or material financial interests that relate to
+the research described in this paper.
+For the collection of the data, we have obtained a Research Ethics Board
+(IRB) approval at the University of Toronto (protocol 10279).
+
+Sandro Ambuehl
+
+Page 4 of 97
+
+What Motivates Paternalism?
+An Experimental Study
+Sandro Ambuehl, B. Douglas Bernheim, and Axel Ockenfels⇤
+August 27, 2020
+
+Abstract
+We study experimentally when, why, and how people intervene in others’ choices. Choice Architects
+(CAs) construct opportunity sets containing bundles of time-indexed payments for Choosers. CAs frequently prevent impatient choices despite opportunities to provide advice, believing Choosers benefit.
+They violate common behavioral welfare criteria by removing impatient options even when all payo↵s
+are delayed. CAs intervene not by removing options they wish they could resist when choosing for themselves (mistakes-projective paternalism), but rather as if they seek to align others’ choices with their
+own aspirations (ideals-projective paternalism). Laboratory choices predict subjects’ support for actual
+paternalistic policies.
+
+⇤
+Ambuehl:
+University of Zurich, Department of Economics, Blüemlisalpstrasse 10, 8006 Zürich, Switzerland, sandro.ambuehl@econ.uzh.ch. Bernheim: Stanford University, Department of Economics, 579 Serra Mall, Stanford, CA, 94305, USA,
+bernheim@stanford.edu. Ockenfels: University of Cologne, Department of Economics, Universitätsstrasse 22a, 50923 Cologne, Germany, ockenfels@uni-koeln.de. This paper previously circulated under the title “Projective Paternalism.” We thank the editor, Stefano
+DellaVigna, as well as three anonymous referees, Joshua Knobe, Yoram Halevy, Armin Falk, Glenn W. Harrison, Kiryl Khalmetski,
+Frank Schilbach, Cass Sunstein, Dmitry Taubinsky, Stefan Trautmann, and seminar and conference audiences in Berkeley, Copenhagen,
+Cork, Cornell, Heidelberg, Innsbruck, Nijmegen, NYU, Stanford, Toronto, and Zurich for helpful comments and discussions. Max Rainer
+Pascal Grossmann and Yero Samuel Ndiaye provided excellent research assistance. Ambuehl gratefully acknowledges support through
+a University of Toronto Connaught New Researcher Award and the University of Toronto Scarborough Wynne and Bertil Plumptre
+Fellowship. Parts of this paper were written while Ambuehl visited the briq Institute in Bonn. This research has been approved by
+the University of Toronto Research Ethics Board (protocol 10279). Ambuehl and Bernheim gratefully acknowledge funding from the
+Alfred P. Sloan foundation (grant number G-2017-9017). Ambuehl and Ockenfels gratefully acknowledge funding from the European
+Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No 741409);
+the results reflect only the authors’ views; the ERC is not responsible for any use that may be made of the information it contains.
+Ockenfels gratefully acknowledges funding by the German Research Foundation (DFG) under Germany’s Excellence Strategy (EXC
+2126/1-390838866).
+
+Page 5 of 97
+
+Normative discussions of paternalism have featured in economics, philosophy, and public policy for centuries (Locke, 1764; Mill, 1869; Thaler and Sunstein, 2003). A wide range of government regulations, such
+as retirement savings mandates, restrictions on payday loans and investment products, various forms of
+consumer protection, the criminalization of suicide, and legal doctrines concerning undue inducement and
+unconscionability all address paternalistic concerns (Dworkin, 1971; Zamir, 1998). Paternalistically motivated social programs play a large role in the U.S. economy (Mulligan and Philipson, 2000; Moffitt, 2003;
+Currie and Gahvari, 2008), and in some instances even the business models of private companies are paternalistically motivated.1 Despite the prevalence of paternalism, a positive investigation of the phenomenon
+is largely lacking. Significantly, paternalistic decision making often falls to voters (Faravelli et al., 2015),
+low-level government officials (Moffitt, 2006), and managers of private firms, rather than to experts, omniscient benevolent planners (Besley, 1988), or despotic autocrats (Glaeser, 2005). A large body of research
+catalogues the fallibility of human judgment when people choose for themselves (Kahneman, 2011). It is
+reasonable to assume that normative judgments that guide paternalism are also susceptible to systematic
+confusion or bias (Rizzo and Whitman, 2019).
+This paper studies experimentally when, why, and how people act paternalistically. These questions are
+difficult to address in naturally occurring contexts because real-world policies with paternalistic elements
+generally implicate non-paternalistic concerns, such as externalities, and in any event people usually disagree
+about their efficacy. Conducting a laboratory experiment allows us to remove extraneous factors and study
+paternalistic behavior in isolation. In order to demonstrate external validity, we show that our main results
+extend to subjects’ assessments of real-world paternalistic policies, and that these assessments are directly
+related to subjects’ decisions within the experiment.
+Subjects in the role of Choice Architects construct choice sets that determine the opportunities available
+to others in the role of Choosers. Each choice option consists of two payments, one received the day of
+the experiment (“sooner”) and the other received half a year later (“later”). Impatience is costly: larger
+earlier payments are associated with smaller total payments. We employ the intertemporal choice domain
+because of its central importance across all of economics, because of ex ante reasons to believe that certain
+choices would meet with disapproval, and because it allows us to examine normative judgments that feature
+prominently in applications of behavioral welfare economics, including in a substantial and rapidly expanding
+literature (reviewed in Bernheim and Taubinsky, 2018) that argues for a wide range of paternalistic policies.
+In the first part of our analysis, we show that Choice Architects frequently choose to restrict others’
+choice options, then we establish several fact patterns that shed light on their motivations. Significantly,
+subjects frequently withhold options from Choosers despite ample opportunities to provide advice. The
+typical intervention requires the Chooser to exercise a minimum level of patience. For instance, when
+the available options include receiving D0 sooner and D15 later, 15% of Choice Architects withhold the
+1
+The Vanguard Group, for instance, argues that financial advisors should attempt to help clients by “providing discipline and reason
+to clients who are often undisciplined and emotional” and that they “can act as emotional circuit breakers ... by circumventing their
+clients’ tendencies” (Bennyho↵ and Kinniry Jr, 2011).
+
+1
+
+

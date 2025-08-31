@@ -1,0 +1,197 @@
+Job Displacement Insurance and (the Lack of)
+Consumption-Smoothing
+Journal: American Economic Review
+Manuscript ID AER-2019-0388.R3
+Manuscript Type: For Administrative Use Only
+Keywords: J65, E21, E26
+
+Page 1 of 100
+
+Mandatory Disclosure Statement: François Gerard
+I would like to disclose the following information according to the AER disclosure
+requirements regarding the manuscript “Job Displacement Insurance and (the Lack of)
+Consumption-Smoothing”. The numbered items below refer to the numbered items in the
+“American Economic Association Disclosure Policy."
+1. This article is part of a project that received research support from the International Growth
+Centre (IGC), the National Science Foundation (NSF grant SES-1757105), and the Suntory and
+Toyota International Centres for Economics and Related Disciplines (STICERD).
+2. This article is part of a research collaboration between an unnamed start-up firm (“data
+owner”) and Columbia University. The article also used data from the Brazilian Ministry of
+Labor. In both instances, the covenants contained in the data use authorization did not involve
+any transfer of financial or pecuniary resources among the parties.
+3. I have no disclosures regarding paid or unpaid positions.
+4. I have no disclosures regarding a relative or partner.
+5. We had complete academic freedom in all aspects of the data analysis and interpretation.
+All the administrative data used in this article were de-identified and a number of measures
+were taken to protect the confidentiality of the data. Yet, the data are still considered
+confidential, and the agreement requires that the data owner reviews the research prior to its
+release in order to ensure that the confidentiality of the data was not unintentionally
+compromised. The data owner did not have any say in how the analysis was conducted; the
+disclosure procedure was restricted to ensuring that the publication only included aggregated
+statistics of the data.
+6. I have no disclosures regarding potential conflicts of interest.
+This article is part of a project that obtained Institutional Review Board (IRB) approval from
+Columbia University and Research Ethics approval from the London School of Economics.
+
+Page 2 of 100
+
+Mandatory Disclosure Statement: Joana Naritomi
+I would like to disclose the following information according to the AER disclosure
+requirements regarding the manuscript “Job Displacement Insurance and (the Lack of)
+Consumption-Smoothing”. The numbered items below refer to the numbered items in the
+“American Economic Association Disclosure Policy."
+1. This article is part of a project that received research support from the International Growth
+Centre (IGC), the National Science Foundation (NSF grant SES-1757105), and the Suntory and
+Toyota International Centres for Economics and Related Disciplines (STICERD).
+2. This article is part of a research collaboration between an unnamed start-up firm (“data
+owner”) and Columbia University. The article also used data from the Brazilian Ministry of
+Labor. In both instances, the covenants contained in the data use authorization did not involve
+any transfer of financial or pecuniary resources among the parties.
+3. I have no disclosures regarding paid or unpaid positions.
+4. I have no disclosures regarding a relative or partner.
+5. We had complete academic freedom in all aspects of the data analysis and interpretation.
+All the administrative data used in this article were de-identified and a number of measures
+were taken to protect the confidentiality of the data. Yet, the data are still considered
+confidential, and the agreement requires that the data owner reviews the research prior to its
+release in order to ensure that the confidentiality of the data was not unintentionally
+compromised. The data owner did not have any say in how the analysis was conducted; the
+disclosure procedure was restricted to ensuring that the publication only included aggregated
+statistics of the data.
+6. I have no disclosures regarding potential conflicts of interest.
+This article is part of a project that obtained Institutional Review Board (IRB) approval from
+Columbia University and Research Ethics approval from the London School of Economics.
+
+Page 3 of 100
+
+Job Displacement Insurance and
+(the Lack of) Consumption-Smoothing
+By François Gerard and Joana Naritomi∗
+We study the spending profile of workers who experience both a
+positive transitory income shock (lump-sum severance pay) and
+a negative permanent income shock (layoff ). Using de-identified
+expenditure and employment data from Brazil, we show that workers increase spending at layoff by 35% despite experiencing a 14%
+long-term loss. We find high sensitivity of spending to cash-onhand across consumption categories and for several sources of variation, including predictable income drops. A model with presentbiased workers can rationalize our findings, and highlights the importance of the timing of benefit disbursement for the consumptionsmoothing gains of job displacement insurance policies.
+Do consumers smooth consumption? This classic question in economics has
+received renewed attention in recent years following the availability of new data
+sources on consumer spending (Gelman et al. 2014, Pistaferri 2015). Across different contexts, this recent body of work has documented a high sensitivity of
+consumption to positive transitory income shocks (e.g., Shapiro 2005, Parker et
+al. 2013, Baker and Yannelis 2017, Olafsson and Pagel 2018). In this paper, we
+study a context in which incentives to smooth are particularly strong. We examine the spending behavior of individuals who receive a lump-sum severance
+pay – a positive transitory income shock – at the same time as they are laid-off
+and thus experience a negative permanent income shock (e.g., Stephens 2001,
+Hendren 2017). Standard economic models with forward-looking agents would
+typically predict that a large part of this lump-sum should be saved to smooth
+consumption losses from the negative permanent income shock.
+We use de-identified expenditure data linked to matched employee-employer
+data from Brazil, where laid-off workers are eligible for a government-mandated
+Severance Pay (SP), in addition to Unemployment Insurance (UI) benefits. Figure 1 shows that these two forms of job displacement insurance have become
+∗ Gerard: Queen Mary University, Mile End Road London E1 4NS UK, f.gerard@qmul.ac.uk. Naritomi: London School of Economics, Houghton Street London WC2A 2AE UK, J.Naritomi@lse.ac.uk.
+IRB protocol: IRB-AAAQ8869. We would like to thank Alberto Alesina, Oriana Bandiera, Michael Best,
+Lorenzo Casaburi, Raj Chetty, Mark Dean, Stefano DellaVigna, Itzik Fadlon, John Friedman, Gustavo
+Gonzaga, Nathan Hendren, Nate Hilger, Ethan Ilzetzki, Yuhta Ishii, Camille Landais, Guilherme Lichand,
+Attila Lindner, Arash Nekoei, Paul Niehaus, Matthew Notowidigdo, Debraj Ray, Johannes Schmieder,
+Jesse Shapiro, Johannes Spinnewijn, and many participants at various seminars and conferences. We
+would also like to thank the International Growth Centre, the National Science Foundation (NSF grant
+SES-1757105), and STICERD for their financial support. Otávio Braga, Rodrigo Candido, Cristiano
+Carvalho, Daniel Deibler, Jack Fisher, Dario Fonseca, Samira Noronha, Luiz Superti and a wonderful
+team of Columbia undergraduates provided outstanding research assistance.
+
+1
+
+Page 4 of 100
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+increasingly common around the world in the last 100 years, and that SP and UI
+programs often co-exist today (Holzmann et al., 2012).
+Our main result is that workers increase spending upon layoff by about 35%
+despite experiencing a 14% long-term loss when they stop receiving any benefits.
+We interpret these patterns as changes in consumption because they are robust
+across spending categories, and are not driven by durable goods. Moreover, this
+high sensitivity of consumer spending to cash-on-hand is present for other sources
+of variation, including the predictable income drop at the exhaustion of UI benefits
+(Ganong and Noel, 2019). We show that a simple structural model with presentbiased workers can rationalize our findings. We then use the model to illustrate
+their implications for disbursement policies, which have been largely overlooked
+by the UI literature. We show that the insurance value of providing liquidity to
+workers in a lump-sum fashion at layoff – as with SP programs – can be severely
+reduced when consumption is over-sensitive to the timing of benefit disbursement.
+We begin by describing the empirical setting. We study the state of São Paulo,
+which is the largest and most developed state of Brazil.1 During the period of
+analysis, displaced workers were eligible for up to 5 months of UI (at an average replacement rate of 0.75 in our sample), and for a lump-sum payment that
+combines a government-mandated severance pay from the employer and the permission to withdraw from a forced Severance Savings Account. Because we focus
+on the way benefits are paid (rather than how they are financed),2 we refer to both
+of these lump-sums under the term Severance Pay (SP) in the paper (combined,
+they amount to 4.73 times a worker’s monthly wage on average in our sample).
+We also present our data. In 2007, the state of São Paulo introduced monetary
+incentives for consumers to ask for receipts (Nota Fiscal Paulista program) in
+order to reduce the misreporting of sales subject to the state Value Added Tax.
+To participate, consumers only have to spell out their ID number at the moment of
+purchase to be included on the receipt, and sellers are required to report receipts to
+the tax authority, including the consumers’ ID number when provided (Naritomi
+2019). This is analogous to giving a loyalty card number at the grocery store,
+which is not very burdensome (Hastings and Shapiro 2018). Perhaps due to low
+participation costs, the take-up of this program has been substantial. By 2015,
+more than 18 million people had created online accounts at the tax authority’s
+website to monitor receipts issued with their ID numbers and to claim rewards.
+Although the program did not aim at recording individual expenditures, its implementation linked receipts to individual ID numbers, creating a high-frequency
+record of participants’ reported expenditures. We obtained access to these ex1 The informal sector remains important in São Paulo. We discuss informality and how it interacts with
+the formal labor market in section I.A. Henceforth, we use employment to refer to formal employment.
+2 Job displacement insurance programs differ in their benefit payout schemes – lump-sum vs. statecontingent – and in their financing schemes – insurance-based vs. savings-based (Parsons, 2016). According to this typology, SP and UI programs are typically insurance-based. Severance Savings Accounts
+(SSA) – forced savings accounts that workers can withdraw from at separation – are common in Latin
+American countries. Unemployment Insurance Savings accounts (UISA) – forced savings accounts from
+which workers can withdraw a fixed amount periodically, contingent on non-employment – remain rare.
+
+Page 5 of 100
+
+VOL. VOL NO. ISSUE
+
+JOB DISPLACEMENT INSURANCE AND CONSUMPTION
+
+3
+
+penditure data for about 400,000 de-identified workers that were anonymously
+matched with the Brazilian employee-employer dataset.3 The matched data allow us to trace individual labor market information, displacement events, and
+consumer spending from 2010 to 2015. We also have data on UI benefit claims
+for these workers from 2010 to 2012 (with exact payment dates). One data limitation is that we do not observe SP, but we have rich data to calculate the lump-sum
+amount that each worker should receive based on the statutory rules.
+We show that displaced workers in our data are relatively comparable to the
+universe of displaced workers in São Paulo. We also show that our expenditure
+data provide partial but meaningful coverage for purchases subject to the VAT
+(it excludes services and housing) and that its coverage is stable across income
+groups. Importantly, these data include the date and amount of each receipt, and
+detailed sector information for the seller allowing us to categorize expenditures.
+Receipts are also reported irrespective of the amount or mode of payment.
+Next, we turn to the empirics. First, we present the results of a difference-indifferences analysis in which we estimate changes in expenditures for displaced
+workers in the 12 months before and after layoff, compared to a control group of
+workers employed over the whole 25-month period. Trends are similar prior to
+layoff, but spending increases sharply after layoff for displaced workers, by about
+35%. Consumer spending decreases in subsequent months, implying a long-run
+loss of 17% for workers who remain non-employed 12 months after layoff, and of
+14% for the overall sample. In present value, the change in consumer spending
+after layoff (including the transitory increase and the long-term loss) corresponds
+to a loss of 9% per month (using a 6% annual discount rate).
+Importantly, workers who are fired for cause are not eligible for any benefits
+and they experience a sharp and persistent expenditure drop at separation. This
+suggests that the job displacement insurance benefits are the key driver of the
+spending profile that we observe for laid-off workers. In addition, workers eligible
+for higher SP amounts have higher consumption levels in the first months after
+layoff. These empirical links between spending and benefits – comparing workers
+who had similar changes in economic condition but different benefits – alleviate
+concerns that the results are driven by changes in receipt reporting. Moreover,
+our estimates are not driven by composition effects or differences in time-inhand: the spike at layoff is similar whether workers are reemployed immediately
+or remain non-employed 12 months after layoff. Finally, the effects are large for
+various definitions of non-durables, including for sub-categories like food. We
+thus interpret our findings, at least for non-durables, as consumption responses.
+We also exploit other sources of variation in the data. In so doing, we provide
+further support for the quality of our data as we are able to replicate related
+findings from the literature. First, we study changes in non-durable expenditures
+3 The sample of de-identified workers was drawn from users of a smartphone application that offers
+services to its users based on their account data (see Section I.C). De-identified versions of the data
+were analyzed in a secure network-isolated data room; no data was shared with the developers of the
+application, and no original matched data was taken outside the secure data room.
+
+

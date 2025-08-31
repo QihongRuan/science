@@ -1,0 +1,233 @@
+Corporate Taxation Under Weak Enforcement
+Journal: American Economic Journal: Economic Policy
+Manuscript ID AEJPol-2018-0564.R5
+Manuscript Type: For Administrative Use Only
+Keywords: O23, H25, H26
+
+Page 1 of 66
+
+Corporate Taxation under Weak Enforcement
+By P IERRE BACHAS & M AURICIO S OTO∗
+How should developing countries tax corporate income? We study this
+question in Costa Rica, where firms face higher average tax rates on
+profits when revenues marginally increase. We combine discontinuity
+and bunching designs to estimate the elasticity of taxable profit and separate it into revenue and cost elasticities. We find that firms faced with a
+higher tax rate slightly reduce revenues but considerably increase costs,
+thus producing a large elasticity of taxable profit of 3–5. In this context,
+the revenue-maximizing rate for a corporate tax on profit is below 25%,
+and we show that a tax policy that broadens the base while lowering the rate can almost double the tax revenue collected from these firms.
+JEL: H25, H26, H32, O23
+Keywords: Corporate Tax, Tax Elasticity, Tax Evasion
+Developing countries collect substantially less tax revenue as a share of their gross
+domestic product than rich countries (Gordon and Li 2009; Besley and Persson 2013).
+This revenue gap also exists for the corporate income tax: low-income countries collect
+on average 2% of their GDP in corporate taxes compared to 3.5% for high-income countries, even though the former levy higher statutory tax rates (Figure 1). It is plausible
+that the elasticity of reported profits with respect to the tax rate is larger in developing
+countries due to widespread tax evasion. Contrary to the personal income tax, which
+permits few deductions, the corporate income tax allows firms to deduct all production
+costs. Thus, firms can reduce their reported tax bases both by underreporting revenues
+and by overreporting costs (Slemrod et al. 2015; Carrillo, Pomeranz and Singhal 2017).
+We take advantage of Costa Rica’s corporate tax design and administrative data to
+measure how firms respond to higher tax rates in a context with weak enforcement. We
+obtain three main results. First, firms’ reported profits are very elastic to the corporate
+tax rate: we find that a 1% increase in the net of tax rate leads to a 3%–5% reduction in
+reported profits. Second, this drop in profits stems mainly from an increase in reported
+∗ Pierre Bachas: World Bank Research, pbachas@worldbank.org. Mauricio Soto: Superintendency of Pensions of
+Costa Rica, mausot84@gmail.com. Financial support from the Burch Center for Tax Policy and the Center for Equitable Growth at UC Berkeley, and the Julis-Rabinowitz Center for Public Policy and Finance at Princeton is gratefully
+acknowledged. We gratefully acknowledge data assistance by Oscar Fonseca and Jorge Richard Munoz from DGH at the
+Ministry of Finance and DGIE and DIE at BCCR. We thank Edward Miguel and Emmanuel Saez for their support and
+encouragement; we also benefited from suggestions and comments by Miguel Almunia, Juan Pablo Atal, Alan Auerbach,
+Youssef Benzarti, Michael Best, Anne Brockmeyer, Natalie Cox, Paul Gertler, Anders Jensen, Claus Kreiner, Etienne
+Lehman, Joana Naritomi, Alvaro Ramos, Andres Rodriguez Clare, Dan Silverman, Joel Slemrod, Danny Yagan, Andrew
+Zeitlin, Gabriel Zucman, and seminar participants at Columbia, IDB, IFS, Michigan, Munich, the Oxford Center for
+Business Taxation, Paris II, Princeton, TSE, UC Berkeley, U. de Costa Rica, UPF, World Bank DEC, and ZEW, Zurich.
+The findings, interpretations, and conclusions expressed in this paper are entirely those of the authors. They do not necessarily represent the views of the World Bank and its affiliated organizations, or those of the Executive Directors of the
+World Bank or the governments they represent.
+
+1
+
+Page 2 of 66
+
+2
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+costs instead of a decrease in reported revenues. Third, the drop in profits appears to
+arise from tax evasion with no evidence of production responses.
+Our findings support the hypothesis that the elasticity of taxable profit is an order of
+magnitude higher in Costa Rica than in rich countries (Michael P. Devereux, Li Liu and
+Simon Loretz 2014; Elena Patel, Nathan Seegert and Matt Smith 2015) and highlight
+the challenge in collecting tax revenue with a narrow based corporate tax. A key policy
+implication is that a tax rate on profit above 25% is on the wrong side of the Laffer curve
+for the firms we study, given the current tax base. But, the government can also collect
+tax revenue by broadening the tax base (i.e., permitting fewer deductions): we use our
+decomposition of the profit elasticity into a revenue and cost elasticity to simulate the
+optimal tax rate and tax base for Costa Rica. We find that broadening the base while
+lowering the rate would increase government revenue by 80% without changing firms’
+pretax profits.
+While most corporate tax systems apply a flat tax rate to profits, Costa Rica levies
+increasing average tax rates on profits as a function of firms’ revenues. Hence, the determinant of the tax rate (revenue) is different from that of the tax base (profit). This
+produces a notched tax schedule, where the average tax rate jumps from 10% to 20% at
+the first revenue threshold and from 20% to 30% at the second threshold. The change
+in the average tax rate above the threshold should induce two types of responses. First,
+firms that would have reported revenues slightly above the threshold—absent the tax
+increase—have a strong incentive to report revenues at the threshold (bunching), thus
+lowering the average tax rate for their profits. Moreover, firms should select into bunching as a function of their costs: firms with low costs gain the most by reporting revenues
+at the threshold, while firms with high costs (e.g., making zero profit) have no incentives to change their revenues. Second, for firms further up the revenue distribution (and
+thus inframarginal to the bunching behavior), the change in the tax rate produces equal
+incentives to lower revenues and increase costs since both behaviors lower the tax base
+equally but do not change the tax rate.
+Administrative tax return data show a clear excess mass in the revenue distribution below each threshold and a missing mass above. We use the size of the bunch at the notch
+to estimate the elasticity of revenue with respect to the tax rate, following Kleven and
+Waseem (2013). More importantly, we find that firms with revenues above the thresholds respond to higher tax rates by sharply reducing their reported profits. This can be
+observed with the large discontinuities of average profits around the revenue thresholds,
+including for firms inframarginal to the bunching behavior. Our methodological innovation is to combine bunching on revenues with the discontinuity in profits to measure the
+elasticity of taxable profit with respect to the tax rate, and to decompose the observed
+reduction in profits into a decrease in reported revenue and an increase in reported cost.
+The resulting profit elasticities are very large: 5 at the first threshold and 3 at the second
+threshold, and the decomposition highlights that costs are more elastic than revenues.
+We show that our measure of the profit discontinuity around each threshold is robust
+to our assumptions. First, the profit discontinuity estimates rely on a stable functional
+form between firms’ average costs and revenues, absent the tax change. We find that
+
+Page 3 of 66
+
+VOL. VOL NO. ISSUE
+
+CORPORATE TAXATION UNDER WEAK ENFORCEMENT
+
+3
+
+this relation is perfectly linear away from the thresholds. Second, firms’ observable
+fixed characteristics (industry, location, and age) are balanced for inframarginal firms on
+either side of the thresholds. Third, the discontinuities in profits at each threshold are
+not driven by a few outliers but occur at all percentiles of the profit distribution in every
+sector for every year. Fourth, the panel data results reinforce those of the cross-sectional
+data; when firms’ revenues grow past the threshold, their profit margins sharply drop
+compared to the previous year.
+Our reduced-form estimation strategy uses two empirical patterns: discontinuities in
+firms’ profits around the thresholds and bunching of revenues at the thresholds. While
+our approach robustly estimates the profit elasticity, it only provides an upper (lower)
+bound to the revenue (cost) elasticity due to two limitations of the bunching estimation.
+First, if firms have heterogeneous revenue elasticities, bunching recovers the response of
+the highest-elasticity firm instead of the average. Second, it does not consider that firms
+select into bunching as a function of their costs. To address these issues, we match the
+model’s parameters to the key moments of the data, allowing firms to select into bunching
+as a function of their costs. This lets us recover estimates of the average revenue and cost
+elasticities. We find that reported costs are much more elastic than reported revenues and
+account for 70% of the drop in profits when firms face a higher tax rate.
+We then draw on administrative data from multiple sources to study whether firms’ reporting responses spring from evasion, avoidance, or production decisions. In the panel
+data we observe that firms’ profit margins are constant when their revenues increase
+within a tax bracket, but fall starkly once firms change tax bracket. This suggests that the
+large discontinuities in firms’ costs at the revenue thresholds are an order of magnitude
+too large to be explained by a reduction in economic activity and are due to overreporting
+of costs. Moreover, we find no evidence of production or avoidance responses: employment and payroll are continuous at the thresholds, large firms do not divide into smaller
+ones, and firms do not shift sales across fiscal years. We also show that bunching firms
+underreport part of their revenues. These firms are more likely to display inconsistencies when their revenues are cross-checked with third-party data, and to report higher
+revenues when faced with an increased audit probability.
+Finally, we discuss the three main implications of our findings for the optimal design of
+corporate income taxes in developing countries. First, the large taxable profit elasticities
+severely constrain the range of desirable tax rates when the tax base is profit, regardless
+of the mechanisms that drive firms’ responses. We find that tax rates above 17% (25%)
+are on the wrong side of the Laffer curve for small (medium) firms in Costa Rica. Thus,
+with the current tax base, it is Pareto improving to locally reduce tax rates. Second, our
+results provide a plausible rationale for Costa Rica’s corporate tax design, which assigns
+increasing average tax rates as a function of revenue. If the profit elasticity decreases
+with firms’ revenues, as our two estimates suggest, then the current tax design satisfies
+an inverse elasticity rule: small firms, whose profits are more elastic, are taxed at a lower
+rate. Moreover, the thresholds depend on firms’ revenues, which are harder to manipulate
+than profits (or costs).
+Third, we simulate the impact on tax collection of broadening the tax base (i.e., per-
+
+Page 4 of 66
+
+4
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+mitting fewer deductions) while applying a lower tax rate. This change limits the scope
+for tax evasion but introduces distortions to firms’ optimal sizes and violates production
+efficiency (Diamond and Mirrlees 1971). Best et al. (2015) present this trade-off clearly:
+a broadening of the base distorts production proportionally to the elasticity of real output
+with the tax rate, and it reduces the returns to tax evasion proportionally to the evasion
+elasticity.1 We use our decomposition of the profit elasticity into a revenue and a cost
+elasticity to simulate the optimal tax rate and tax base for Costa Rica: our revenue elasticity is an upper bound to the real output elasticity—since part of the revenue responses
+come from evasion—and our cost elasticity is a lower bound to the evasion elasticity.
+We find that a tax reform that considerably broadens the base and simultaneously lowers
+the rate increases tax revenue by 80% while leaving firms’ pretax profits unchanged.2
+Concretely, two policies could be effective: the adoption of a turnover tax (i.e., no deductions) with a tax rate of 3% realizes 90% of the revenue gains; and the removal of
+the deductibility of administrative costs with a rate of 5% realizes 95% of the achievable
+revenue gains. Our findings support that a tax on turnover could raise much more revenue than a tax on profit, thus complementing those of Best et al. (2015).
+The paper is organized as follows. Section I describes the tax system and the theoretical framework. Section II presents the data and the estimation strategy. Section III
+estimates the key elasticities. Section IV adds structure to measure averages of the revenue and cost elasticities. Section V shows that part of firms’ reporting responses spring
+from tax evasion, with no evidence of production responses. Section VI discusses the
+implications for optimal corporate tax design. Section VII concludes.
+A. Contributions and Related Literature
+It is challenging to estimate the elasticity of taxable profit for several reasons. First,
+corporate tax reforms are endogenous to the economic context, and changes in tax rates
+often happen simultaneously with changes in the base and in enforcement (Kawano and
+Slemrod 2016). Second, when using variation in tax rates from tax reforms, the typical
+method instruments the rate change with a counterfactual rate change, assuming taxpayers earn their base-year profits.3 This estimation is prone to mean reversion and sensitive
+to specification choices (Gruber and Saez 2002; Kopczuk 2005; Weber 2014). Third,
+corporate tax schedules are often flat, thus less amenable to the discontinuity methods
+applied to the personal income tax (Saez 2010; Chetty et al. 2011; Kleven and Waseem
+2013). By using the design of the corporate tax in Costa Rica, we credibly estimate one
+of the first elasticities of taxable profit in a developing country, and we find that it is substantially higher than in rich countries: Devereux, Liu and Loretz (2014) for the UK and
+1 The main criticism of a broad-based corporate tax is its potential cascading effect (i.e., taxing the same item multiple
+times through the production chain, see Keen (2013)). We do not address this issue here.
+2 We simulate the tax system locally for the small and medium-sized firms. Our estimated parameters might not apply
+to larger firms, and this calculation might not be valid for the aggregate corporate tax revenue.
+3 Using this method, Gruber and Rauh (2007) estimate a profit elasticity of 0.2 for large US corporations and Dwenger
+and Steiner (2012) estimate an elasticity of 0.5 for German firms.
+
+Page 5 of 66
+
+VOL. VOL NO. ISSUE
+
+CORPORATE TAXATION UNDER WEAK ENFORCEMENT
+
+5
+
+Patel, Seegert and Smith (2015) for the US estimate elasticities of 0.5 for small firms.
+Our large elasticities can be explained by weaker enforcement. A growing literature
+shows that a lack of third-party information and low fiscal capacity lead to widespread
+tax evasion (Pomeranz 2015; Adnan Q. Khan, Asim I. Khwaja and Benjamin A. Olken
+2015; Naritomi 2016; Brockmeyer and Hernandez 2017).4 Our results imply that lowering the corporate tax rate could increase tax collection from SMEs. This resonates with
+Gorodnichenko, Martinez-Vazquez and Sabirianova Peter (2009) and Kopczuk (2012),
+who find that tax reforms in Eastern Europe, which lowered the rate and simplified the
+tax code, raised more revenue.5
+Our paper also contributes to the literature on optimal taxation with weak enforcement
+(Emran and Stiglitz 2005; Gordon and Li 2009). A seminal paper in this literature is
+Best et al. (2015), which models the revenue-efficiency trade-off between a turnover and
+a profit tax. Empirically, the authors relate bunching at the minimum tax kink (which
+changes the tax base as a function of firms’ profit margins) to a ratio of the evasion-toreal-output elasticity. They find bunching consistent with large evasion responses for a
+wide range of real output elasticities, and thus, in Pakistan, a turnover tax collects much
+more revenue than a profit tax. Best et al. (2015) do not estimate the elasticity of reported profit but only the aggregate evasion rate. Moreover, they only measure a ratio
+of the evasion-to-real-output elasticity, while under some assumptions, our separation of
+elasticities into revenue and cost allows us to estimate bounds of the optimal tax base and
+tax rate. In a different context, our policy simulations support the idea that broadening
+the tax base while lowering the rate produces large tax revenue gains. In addition to its
+role as an input to simulate the optimal tax base and tax rate, the decomposition of the
+profit elasticity reveals a novel result: costs are much more elastic than revenues. This
+finding complements Carrillo, Pomeranz and Singhal (2017) and Slemrod et al. (2015)
+who show that after the Tax Administration cross-checks revenue, firms adjust reported
+revenue upwards and compensate by overreporting costs, leaving their tax liabilities unchanged. Our results imply that revenue is harder to manipulate than profit and should
+be preferred as a threshold for size-based policies and that tax enforcement should pay
+increased attention to cost overreporting.
+Finally, we contribute to the literature that uses discontinuities in tax schedules to estimate tax elasticities (Saez 2010; Chetty et al. 2011; Kleven and Waseem 2013).6 We
+show that the discontinuities of a tax system with increasing tax rates on profit as a function of revenue can be leveraged to estimate the elasticity of profit, and to decompose
+the profit response into revenue and cost responses. Several large countries (e.g., India,
+Indonesia, Malaysia, Thailand, Vietnam) have similar corporate tax systems, and thus
+our estimation method could be applied widely.
+
+4 Tax evasion is not only a developing country issue: Kleven et al. (2011) and Slemrod, Blumenthal and Christian
+(2001) use randomized audits to estimate tax evasion in Denmark and Minnesota, respectively. They find tax evasion
+rates as high as 40% on income not subject to third-party reporting, which is concentrated among the self-employed.
+5 Waseem (2018) shows that changes in firms’ incentives to incorporate increased tax collection in Pakistan.
+6 For a thorough review of bunching methods, see Kleven (2016).
+
+

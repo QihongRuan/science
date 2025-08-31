@@ -1,0 +1,146 @@
+How well targeted are soda taxes?
+Journal: American Economic Review
+Manuscript ID AER-2017-1898.R4
+Manuscript Type: Administrator
+Keywords: D12, H31, I18
+
+Page 1 of 83
+
+Martin O'Connell
+IFS
+7 Ridgmount Street
+London WC1E 7AE
+UK
+8 July 2020
+O’Connell's time on this project was funded by the European Research Council (ERC) under
+ERC-2015-AdG-694822, the Economic and Social Research Council (ESRC) under the Centre
+for the Microeconomic Analysis of Public Policy (CPP), RES-544-28-0001, and the Open
+Research Area (ESRC), ES/N011562/1 and the British Academy under
+pf160093. The views expressed are those of the authors and do not necessary reflect the
+views of the EU or UK governments. The author declares that he has no additional relevant
+or material financial interests that relate to the research described in this paper.
+
+Martin O’Connell
+
+Page 2 of 83
+
+Rachel Griffith
+IFS
+7 Ridgmount Street
+London WC1E 7AE
+UK
+6 July 2019
+Griffith's time on this project was funded by the European Research Council under ERC-2015-AdG694822 and by the Economic and Social Research Council under ES/T014334/1. The views expressed
+are those of the authors and do not necessary reflect the views of the EU or UK governments. The
+author declares that she has no additional relevant or material financial interests that relate to the
+research described in this paper.
+
+Rachel Griffith
+
+Page 3 of 83
+
+Pierre Dubois
+Toulouse School of Economics
+Universite Toulouse 1 Capitole
+1 Esplanade de l’université
+31080 TOULOUSE
+France
+2 July 2020
+Dubois' time on this project was funded by the European Research Council under ERC-2015AdG-694822 and by the Economic and Social Research Council under ANR-ESRC ORA grant
+number ES/ N011562/1. The views expressed are those of the authors and do not necessary
+reflect the views of the EU or UK governments. The author declares that he has no
+additional relevant or material financial interests that relate to the research described in
+this paper.
+
+Pierre Dubois
+
+Page 4 of 83
+
+How well targeted are soda taxes?
+By Pierre Dubois, Rachel Griffith and Martin O’Connell∗
+Soda taxes aim to reduce excessive sugar consumption. We assess who are most impacted by soda taxes. We estimate demand
+using micro longitudinal data covering on-the-go purchases, and
+exploit the panel dimension to estimate individual specific preferences. We relate these preferences and counterfactual predictions
+to individual characteristics and show that soda taxes are relatively
+effective at targeting the sugar intake of the young, are less successful at targeting the intake of those with high total dietary sugar,
+and are unlikely to be strongly regressive especially if consumers
+benefit from averted internalities.
+JEL: D12, H31, I18
+Keywords: preference heterogeneity, discrete choice demand, passthrough, soda tax
+Sugar consumption is far in excess of medically recommended levels in much
+of the developed world. Excess sugar consumption is linked with a range of dietrelated diseases, including diabetes, cancers and heart disease, and is thought to
+be particularly detrimental to children (WHO (2015)). Soft drinks products are a
+leading contributor to dietary sugar (see CDC (2016)). Taxes on these products
+(soda taxes) have been proposed as a way to reduce sugar consumption for individuals whose consumption generates costs that are borne by others (externalities)
+or for whom any future costs of consumption are large and partially ignored at
+the point of consumption (internalities). A growing number of jurisdictions have
+adopted soda taxes.1 Soft drinks are a particularly large contributor to dietary
+sugar among the young, those with high overall dietary sugar, and youth from
+low income households, and policymakers have identified these groups as the ones
+whose behavior they would most like to change.2 The impact of soda taxes, and
+∗ Dubois: Toulouse School of Economics, pierre.dubois@tse-fr.eu; Griffith: Institute for Fiscal Studies and University of Manchester, rgriffith@ifs.org.uk; O’Connell: Institute for Fiscal Studies, martin o@ifs.org.uk. The authors gratefully acknowledge financial support from the European Research
+Council (ERC) under ERC-2015-AdG-694822, the Economic and Social Research Council (ESRC) under
+the Centre for the Microeconomic Analysis of Public Policy (CPP), grant number ES/T014334/1, the
+Open Research Area (ORA) grant number ES/I012222/1, ANR-10-ORAR-009-01 and ES/N011562/1,
+ANR-17-EURE-0010 (Investissements d'Avenir program) and the British Academy under pf160093. Data
+supplied by Kantar. The use of these data in this work does not imply the endorsement of Kantar in
+relation to the interpretation or analysis of the data. All errors and omissions remained the responsibility
+of the authors.
+1 As of December 2019 43 countries and 8 US cities had soda taxes in clear (GFRP (GFRP)).
+2 See, for example, Han and Powell (2013), Cavadini, Siega-Riz and Popkin (2000), CDC (2016) and
+Public Health England (2015), and Online Appendix A.1 where we provide evidence of this based on
+dietary intake data from the UK and the US. As an example of policymakers targeting these groups,
+Public Health England (2017) says on p.4: “In August 2016, government set out its approach to reduce
+the prevalence of childhood obesity in Childhood obesity: a plan for action. A key commitment in the
+
+1
+
+Page 5 of 83
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+whether ultimately they are successful in improving welfare, will depend crucially
+on how demand responses vary across individuals from these targeted groups.
+Our contribution in this paper is to assess whether soda taxes are effective
+at lowering the sugar consumption of individuals that policy has targeted (i.e.
+the young, high sugar consumers and the poor). We focus on the important
+but understudied on-the-go segment of the market. We use novel data on UK
+individuals to estimate a model of consumer choice, uncover individual specific
+preferences, and simulate the impacts of a soda tax. We show that the tax does
+a good job at targeting young consumers and those from low income households,
+but not individuals from households with high total dietary sugar. The economic
+burden of the tax is moderately higher for individuals from lower income households; however, we also find that they reduce sugar consumption by more, so this
+leaves open the possibility that these offset the economic burden. Relative to the
+existing literature we make two main advances.
+First, we study purchase decisions made by individuals for immediate consumption on-the-go. Studying the on-the-go segment is important for a number
+of reasons. Firstly, consumption on-the-go is common – close to half of sugar from
+soft drinks is obtained outside the home. Yet there is little evidence on choice
+behavior on-the-go, with the bulk of the literature focusing on purchases made
+in supermarkets and brought into the home for future consumption. Secondly,
+observing individual on-the-go purchases provides an excellent opportunity for
+identification of individual preferences; in contrast to information on household
+level at-home purchases, purchases and consumption are closely aligned and individual preference estimates can be obtained without the need to place strong
+restrictions on the intra-household preference structure (see, for example, Adams
+et al. (2014)) Thirdly, the on-the-go data contain information on teenagers and
+young adults, who are explicit targets of the soda taxes, but who are typically
+not identified as a distinct group in data based on household purchases.
+Second, we model consumer preferences as individual level parameters that
+we estimate, rather than modeling them using the standard random coefficient
+approach (where they are treated as random effects drawn from a known distribution). This is important because it allows us to better assess how well targeted
+a tax is and whether it is regressive. In particular, it means we avoid placing
+restrictions on (or ruling out) correlation between consumer level preferences and
+attributes (including purchase behavior for other goods). As a result we are able
+to directly relate individual level preferences and predictions of the impact of the
+tax to consumer attributes, and can therefore assess precisely which individuals respond to the tax and on whom the economic burden of the tax falls most
+plan was to launch a broad, structured sugar reduction program to remove sugar from everyday products.
+... Although the program focuses on foods consumed by children, the reality is that families eat the same
+foods. The program will therefore help all family members to reduce their sugar consumption, thereby
+reducing the risk of weight gain and the consequences of this to their health. It will also help to reduce
+health inequalities, as sugar consumption, and the rates of obesity in children, tend to be highest in the
+most deprived.”
+
+

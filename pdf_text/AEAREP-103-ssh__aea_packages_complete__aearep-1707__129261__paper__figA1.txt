@@ -1,0 +1,50 @@
+% of State Population Enrolled in Medicaid and CHIP
+(States that Expanded as of Jan 1, 2014)
+North Dakota
+New Hampshire
+Nevada
+Kentucky
+Maryland
+New Jersey
+Montana
+Colorado
+Oregon
+Washington
+Iowa
+Minnesota
+Alaska
+Indiana
+Arizona
+Rhode Island
+Pennsylvania
+Arkansas
+West Virginia
+Massachusetts
+Michigan
+Ohio
+Hawaii
+Illinois
+Louisiana
+New Mexico
+California
+Delaware
+Vermont
+New York
+District of Columbia
+
+0
+
+10
+
+20
+% of State Population Enrolled
+
+Average July-Sept 2013
+
+30
+
+Net Change to Oct 2016
+
+40
+
+

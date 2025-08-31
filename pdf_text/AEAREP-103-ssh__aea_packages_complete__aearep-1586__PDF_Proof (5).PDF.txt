@@ -1,0 +1,128 @@
+The Role of Behavioral Frictions in Health Insurance
+Marketplace Enrollment and Risk:
+Evidence from a Field Experiment
+Journal: American Economic Review
+Manuscript ID AER-2019-0823.R3
+Manuscript Type: For Administrative Use Only
+Keywords: I11, I12, D9
+
+Page 1 of 58
+
+Page 2 of 58
+
+November 4, 2020
+American Economic Review
+AEA Publications
+2403 Sidney Street, Suite 260
+Pittsburgh, PA 15203
+Re: Disclosure Statement
+To the Editorial Board of the American Economics Review:
+I am an employee of the State of California, working as the Deputy Director for
+Evaluation & Research at Covered California, where I have worked full-time since 2013.
+As my supervisor, Katie Ravel, the Director for the Policy, Eligibility & Research
+Division, had the authority to review and approve the design and implementation of the
+mailers used in the RCT described in this research to ensure compliance with
+applicable regulations and a seamless consumer experience. With regard to the
+analysis and the drafting of the manuscript, Ms. Ravel and other Covered California
+colleagues saw early drafts and provided feedback – but at no time did they exercise
+editorial control over the research questions, methods, analysis, or the drafting of the
+manuscript.
+I have not engaged in any outside consulting (paid or otherwise) while working at
+Covered California (since 2013).
+IRB approval was obtained for this study through the Office of Human Subjects
+Research Protections Program at UCLA (IRB#15-001549).
+This submitted research article was based on RCT, which was pre-registered with the
+AEA RCT Registry (ID# AEARCTR-0002115).
+
+Page 3 of 58
+November 4, 2020
+Page 2
+
+Please do not hesitate to contact me if I can provide any additional information about
+this project and how it relates to my employment at Covered California. I can be
+reached at isaac.menashe@covered.ca.gov or at (916) 228-8357.
+Sincerely,
+
+Isaac Menashe
+Deputy Director for Evaluation & Research
+
+Page 4 of 58
+
+UNIVERSITY OF CALIFORNIA, LOS ANGELES
+BERKELEY • DAVIS • IRVINE • LOS ANGELES • MERCED • RIVERSIDE • SAN DIEGO • SAN FRANCISCO
+
+WESLEY E. YIN
+LUSKIN SCHOOL OF PUBLIC AFFAIRS, DEPT. OF PUBLIC POLICY
+ANDERSON SCHOOL OF MANAGEMENT
+
+wyin@ucla.edu
+
+UCLA
+SANTA BARBARA • SANTA CRUZ
+
+UCLA SCHOOL OF PUBLIC AFFAIRS
+DEPARTMENT OF PUBLIC POLICY
+3250 PUBLIC AFFAIRS BLDG, ROOM 6391
+LOS ANGELES, CA 90095
+
+(301) 928-4308
+
+November 2, 2020
+Re: Disclosure Statement
+
+To the Editorial Board of the American Economic Review:
+From 2016 to 2019, I provided paid consulting to Covered California on topics unrelated to the submitted research
+article. In that consulting work, I provided Covered California projections for premiums, enrollment and
+government spending in response to hypothetical new state subsidies and plan entry/exit. I have not held a paid or
+unpaid positions at an organization whose goals or interests relate to this research.
+IRB approval was obtained for this study through the Office of Human Subjects Research Protections Program at
+UCLA (IRB#15-001549).
+This submitted research article was based on RCT, which was pre-registered with the AEA RCT Registry (ID#
+AEARCTR-0002115).
+
+Sincerely,
+
+Wesley Yin
+Associate Professor
+Department of Public Policy, UCLA
+Anderson School of Management, UCLA
+
+Page 5 of 58
+
+The Role of Behavioral Frictions in Health Insurance Marketplace Enrollment and Risk:
+Evidence from a Field Experiment+
+
+Richard Domurat
+University of California at Los Angeles
+Isaac Menashe
+Covered California
+Wesley Yin
+University of California at Los Angeles and NBER
+
+October 22, 2020
+
+Abstract
+We experimentally varied information mailed to 87,000 households in California's health insurance
+marketplace to study the role of frictions in insurance take-up. Reminders about the enrollment deadline
+raised enrollment by 1.3 pp (16 percent) in this typically low take-up population. Heterogeneous effects of
+personalized subsidy information indicate misperceptions about program benefits. Consistent with an
+adverse selection model with frictional enrollment costs, the intervention lowered average spending risk
+by 5.1 percent, implying that marginal respondents were 37 percent less costly than inframarginal
+consumers. We observe the largest positive selection among low income consumers, who exhibit the
+largest frictions in enrollment. Finally, we estimate the implied value of the letter intervention to be $25
+to $53 per month in subsidy dollars. These results suggest that frictions may partially explain low take-up
+for marketplace insurance, and that interventions reducing them can improve enrollment and market risk
+in exchanges.
+JEL Codes: I11, I13, D9
++ We thank John Bertko, Tom Chang, Amy Finkelstein, Craig Fox, Ori Heffetz, Ted O'Donoghue, Sarah Reber, Jessie Shapiro, Mark
+Shepard, Doug Staiger, Josh Tasoff, Robert Town, our anonymous referees, and seminar participants at Claremont Graduate
+University, Covered California, NBER Winter Health Care meeting, the University of Maryland, University of Chicago, the Wharton
+School at the University of Pennsylvania, and the J-PAL North America Health Care Delivery Conference for comments. We also
+thank Leah Horgan for graphic design, Sam Lau for research assistance, and Carolina Arteaga, Niza Muñoz, Bianca Vargas and Maria
+Lucia Yanguas for their translations. We thank Jim Watkins at the State of California’s Department of Health Care Services. Finally,
+we are grateful to our collaborators at Covered California. We are especially thankful to Ahmed Al-Dulaimi, James DeBenedetti,
+Andrew Feher, Raymond Jacobs, Lance Lang, Peter V. Lee, Allie Mangiaracino, Vishaal Pegany, Katie Ravel, Yolanda Richardson,
+and Colleen Stevens. This study was supported by the Abdul Latif Jameel Poverty Action Lab, North America. All errors are our
+own. This study was pre-registered with the AEA (AEARCTR-0002115). Corresponding author: Wesley Yin, wyin@ucla.edu
+
+

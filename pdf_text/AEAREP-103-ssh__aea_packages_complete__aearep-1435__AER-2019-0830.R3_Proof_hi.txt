@@ -1,0 +1,122 @@
+How Research Affects Policy: Experimental Evidence from
+2,150 Brazilian Municipalities
+Journal: American Economic Review
+Manuscript ID AER-2019-0830.R3
+Manuscript Type: For Administrative Use Only
+Keywords: beliefs, evidence-based policy, impact evaluation
+
+Page 1 of 81
+
+Disclosure Statement for Jonas Hjort for “How Research Affects Policy:
+Experimental Evidence from 2,150 Brazilian Municipalities”
+1. Funding for this project came was provided by Lemann Brazil Research Fund at
+Harvard, the Weiss Family Fund, the Warburg Fund at Harvard, and a JPAL
+Governance Initiative Pilot Grant.
+2. No funding was received from any interested parties.
+3. I hold no relevant board or directorship positions.
+4. The above (2-3) also apply to all close family members.
+5. No parties had the right to review the paper prior to disclosure.
+6. IRB approval was obtained from the Committee on the Use of Human Subjects
+(CUHS) at Harvard University.
+
+Jonas Hjort
+Sep 20, 2020
+
+Page 2 of 81
+
+Disclosure Statement for Diana Moreira for “How Research Affects Policy: Experimental
+Evidence from 2,150 Brazilian Municipalities”
+
+1. Funding for this project came was provided by Lemann Brazil Research Fund at Harvard, the
+Weiss Family Fund, the Warburg Fund at Harvard, and a JPAL Governance Initiative Pilot
+Grant.
+2. No funding was received from any interested parties.
+3. I hold no relevant board or directorship positions.
+4. The above (2-3) also apply to all close family members.
+5. No parties had the right to review the paper prior to disclosure.
+6. IRB approval was obtained from the Committee on the Use of Human Subjects (CUHS) at
+Harvard University.
+
+Diana Moreira
+Sep 20, 2020
+
+Page 3 of 81
+
+Disclosure Statement for Gautam Rao for “How Research Affects Policy: Experimental Evidence
+from 2,150 Brazilian Municipalities”
+
+Sep 20, 2020
+
+1. Funding for this project came was provided by Lemann Brazil Research Fund at Harvard, the
+Weiss Family Fund, the Warburg Fund at Harvard, and a JPAL Governance Initiative Pilot
+Grant.
+2. No funding was received from any interested parties.
+3. I hold no relevant board or directorship positions.
+4. The above (2-3) also apply to all close family members.
+5. No parties had the right to review the paper prior to disclosure.
+6. IRB approval was obtained from the Committee on the Use of Human Subjects (CUHS) at
+Harvard University.
+
+Gautam Rao
+Associate Professor of Economics
+Harvard University
+
+Page 4 of 81
+
+Disclosure Statement for Juan Francisco Santini for “How Research Affects Policy:
+Experimental Evidence from 2,150 Brazilian Municipalities”
+1. Funding for this project came was provided by Lemann Brazil Research Fund at Harvard, the
+Weiss Family Fund, the Warburg Fund at Harvard, and a JPAL Governance Initiative Pilot
+Grant.
+2. No funding was received from any interested parties.
+3. I hold no relevant board or directorship positions.
+4. The above (2-3) also apply to all close family members.
+5. No parties had the right to review the paper prior to disclosure.
+6. IRB approval was obtained from the Committee on the Use of Human Subjects (CUHS) at
+Harvard University.
+
+Juan Francisco Santini
+Sep 20, 2020
+
+Page 5 of 81
+
+How Research Affects Policy:
+Experimental Evidence from 2,150 Brazilian Municipalities
+By Jonas Hjort, Diana Moreira, Gautam Rao & Juan Francisco
+Santini∗
+Can research findings change political leaders’ beliefs and policies? We use experiments with 2,150 Brazilian municipalities to
+measure mayors’ demand for and response to research information. In one experiment, we find that mayors are willing to pay
+to learn the results of evaluation studies, and update their beliefs
+when informed of the findings. They value larger-sample studies
+more, while not distinguishing between studies in rich and poor
+countries. In a second experiment, we find that informing mayors
+about research on a simple and effective policy—taxpayer reminder
+letters—increases the probability the policy is implemented by 10
+percentage points.
+Recent decades have seen an explosion of program evaluation research in economics.1 But how interested in and open to academic research are political
+leaders? And, insofar as they “consume” research, can and do they act on new
+findings? These are questions of fundamental importance for the science ecosystem. Despite the money and effort devoted to evaluating policy impact, we have
+little understanding of whether the conditions necessary for the public to ultimately benefit hold: whether political leaders value such research; whether it
+changes their beliefs about policy effectiveness; and whether leaders ultimately
+implement policies that they otherwise would not have in response to new research findings. In short, is a lack of (access to) research information a binding
+∗ Hjort:
+Columbia University, BREAD, CEPR and NBER, 3022 Broadway, New York, NY,
+hjort@columbia.edu. Diana Moreira: University of California at Davis, 1 Shields Ave, Davis, CA, dsmoreira@ucdavis.edu. Gautam Rao: Harvard University, NBER and BREAD, 1805 Cambridge St, Cambridge, MA, grao@fas.harvard.edu. Juan Santini: Innovations for Poverty Action, 101 Whitney Ave, New
+Haven, CT, jsantini@poverty-action.org. We thank the mayors and municipal officials who gave us their
+time; Paulo Ziulkoski, Glademir Aroldi, Gustavo Cezario, Tatiane de Jesus, Jasmim Madueno, Zione
+Rego and others at CNM for their enthusiastic collaboration; Lemann Brazil Research Fund at Harvard,
+the Weiss Family Fund, the Warburg Fund, and a JPAL Governance Initiative Pilot Grant for financial
+support; Teresita Cruz Vital, Xinyue Lin, Brian Wheaton, Felipe Lima and especially Deivis Angeli and
+Vinı́cius Schuabb for excellent research assistance; the editors and three anonymous referees, Alberto
+Alesina, Juliano Assunção, Doug Bernheim, Nicolas Caramp, Stefano DellaVigna, Esther Duflo, Pascaline Dupas, Benjamin Enke, Bruno Ferman, Claudio Ferraz, Gustavo Gonzaga, Gianmarco León, Joana
+Naritomi, Muriel Niederle, Rohini Pande, Ricardo Perez-Truglia, Rudi Rocha, Chris Roth and seminar
+audiences at Columbia, the Escola de Economia de São Paulo, Harvard, PACDEV, PUC-Rio, Stanford,
+U.C. Davis, and USC for helpful suggestions. This project underwent ethics review by the Committee
+on the Use of Human Subjects at Harvard University. The two experiments reported in this paper are
+registered at the AEA’s Social Science Registry, numbers AEARCTR-0004274 and AEARCTR-0004273.
+The initial draft of this paper was part of Juan Santini’s Ph.D. dissertation at PUC-Rio.
+1 For example, more than 2,500 studies have been registered with the American Economic Association’s registry for randomized controlled trials (RCTs) since its launch in May 2013.
+
+1
+
+

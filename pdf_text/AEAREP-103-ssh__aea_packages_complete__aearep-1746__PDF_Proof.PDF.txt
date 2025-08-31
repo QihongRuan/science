@@ -1,0 +1,193 @@
+From Mad Men to Maths Men: Concentration and Buyer
+Power in Online Advertising
+Journal: American Economic Review
+Manuscript ID AER-2019-0811.R4
+Manuscript Type: For Administrative Use Only
+Keywords: L10, D44, L86
+
+Page 1 of 59
+
+Disclosure Statement of Francesco Decarolis
+
+I declare that I have no relevant or material financial interests that relate to the
+research described in this paper.
+
+The sources of financial support received for the article “From Mad Men to Maths
+Men: Concentration and Buyer Power in Online Advertising” are:
+•
+
+NET Institute
+
+•
+
+PRIN Italy
+
+In the three years prior to this submission I received financial support in excess of
+$10,000 USD from:
+Bocconi University
+Boston University
+Einaudi Institute for Economics and Finance
+and I received in-kind support from:
+Bocconi university
+Boston University
+Einaudi Institute for Economics and Finance
+
+I did not receive any payment from any “relevant” organization. The same is true for
+my wife and for all my close relatives.
+No other party has the right to review the paper prior to its circulation.
+
+Francesco Decarolis
+
+AEA # 000415512
+
+Milan, 6/1/2019
+
+Page 2 of 59
+
+Disclosure Statement of Gabriele Rovigatti
+
+I declare that I have no relevant or material financial interests that relate to the
+research described in this paper.
+
+The sources of financial support received for the article “From Mad Men to Maths
+Men: Concentration and Buyer Power in Online Advertising” are:
+•
+
+NET Institute
+
+•
+
+PRIN Italy
+
+In the three years prior to this submission I received financial support in excess of
+$10,000 USD from:
+Bocconi University
+Bank of Italy
+Einaudi Institute for Economics and Finance
+and I received in-kind support from:
+Bocconi University
+Bank of Italy
+Einaudi Institute for Economics and Finance
+
+I did not receive any payment from any “relevant” organization. The same is true for
+my wife and for all my close relatives.
+No other party has the right to review the paper prior to its circulation.
+
+Gabriele Rovigatti
+
+Rome, 6/1/2019
+
+Page 3 of 59
+
+From Mad Men to Maths Men:
+Concentration and Buyer Power in Online Advertising ∗
+Francesco Decarolis
+
+Gabriele Rovigatti
+
+May 11, 2021
+
+Abstract
+This paper analyzes the impact of intermediary concentration on the allocation of
+revenue in online platforms. We study sponsored search documenting how advertisers
+increasingly bid through a handful of specialized intermediaries. This enhances automated bidding and data pooling, but lessens competition whenever the intermediary
+represents competing advertisers. Using data on nearly 40 million Google keywordauctions, we first apply machine learning algorithms to cluster keywords into thematic
+groups serving as relevant markets. Using an instrumental variable strategy, we estimate a decline in the platform’s revenue of approximately 11 percent due to the average
+rise in concentration associated with intermediary M&A activity.
+Keywords: Buyer power, concentration, online advertising, platforms, sponsored search
+JEL Classification: C72, D44, L81.
+
+∗
+
+Francesco Decarolis: Bocconi University, Department of Economics and IGIER. Via Roentgen 1, Milan, Italy. E-mail address: francesco.decarolis@unibocconi.it. Gabriele Rovigatti: Bank of Italy, Research
+Department. Via Nazionale 91, Rome, Italy. E-mail address: gabriele.rovigatti@bancaditalia.it. The authors would also like to thank for their many comments colleagues at their institutions as well as seminar
+participants at the EU, UK and US competition authorities (DG Comp, CMA and FTC), at university departmental seminars (BU Questrom, Duke Fuqua, MIT Sloan, Toulouse School of Economics, Paris School
+of Economics, Tilburg and McGill, University of Mannheim) and conferences (NBER, MaCCI, NET Institute, IIOC, BECCLE) where earlier drafts of this study were presented. Decarolis gratefully acknowledges
+financial support from the Italian Ministry of Education grant PRIN (2017TMFPSH). IRB approval for the
+Amazon Mechanical Turk survey from Bocconi University ECR (SA000267).
+
+Page 4 of 59
+
+“....Essentially, we are investment managers for our clients, advising them how to spend around $90
+billion of media. So it makes sense that WPP should offer platforms that are agnostic, and help clients plan
+and buy media. To that end, we are applying more and more technology to our business, along with big
+data. We are now Maths Men as well as Mad Men (and Women). Thus we go head to head not only with
+advertising and market research groups such as Omnicom, IPG, Publicis, Dentsu, Havas, Nielsen, Ipsos and
+GfK, but also new technology companies such as Google, Facebook, Twitter, Apple and Amazon...”
+(Sir Martin Sorrell, WPP founder and former CEO, WPP’s 2012 Annual Report)
+
+I
+
+Introduction
+
+Online advertising sales are the main fuel of all of the major digital platforms. In the internet era, advertising
+means capturing the attention of consumers who are browsing the web and this requires both detailed
+data to effectively target the ad to the right customers and algorithms to bid in the online auctions where
+ad space is sold. These needs have led to a major, but understudied, shift in the industry: rather than
+bidding individually, advertisers increasingly delegate their bidding to highly specialized intermediaries.
+This concentration of demand within a few large intermediaries raises the question of countervailing buyer
+power. Can the emergence of intermediaries counterbalance the highly concentrated supply of online ads?
+This study presents the first empirical assessment of how demand concentration at the level of intermediaries affects the creation and allocation of revenue from digital ads. Our setting is that of sponsored
+search ads, a market worth $40 billion dollars in 2017 in the US, which represents about half of all internet
+advertising revenue [IAB, 2018]. The supply side of this market is highly concentrated: 75-80 percent of
+search advertising revenue were earned by Google in 2016-18 [eMarketer, 2018]. Advertisers, the demand
+side, compete against each other to buy one of a limited number of ‘slots’ available on the search engine’s
+result page for a given search term or keyword. In the early days of this market, advertisers used to operate
+individually but, over time, more and more ad buying is conducted through intermediaries. In our data,
+intermediaries are involved in about 75 percent of the slots sold.
+Moreover, while thousands of intermediaries operate in the market, most of them belong to an agency
+network (henceforth network ). Thus, essentially only seven networks are responsible for collecting data
+and optimizing bidding algorithms for most advertisers.1 In the 2014-2017 period covered by our data, the
+four largest networks had a market share of approximately 70 percent of search volume and it was growing
+over time. The main goal of this study is to quantify the extent to which such increases in intermediary
+concentration affect platform revenue.
+The research strategy is based on three ingredients. The first one is a novel dataset built by combining
+1
+
+The seven networks are IPG, WPP, Publicis Groupe, Omnicom Group, Dentsu-Aegis, Havas and MDC.
+
+1
+
+Page 5 of 59
+
+multiple sources. We obtained from Redbooks [2017]—the most comprehensive database on marketing
+agencies (MAs)—the list of the 6,000 largest US online advertisers. For these advertisers, we observe the
+MAs that they are affiliated with, together with the network that each individual agency belongs to. We
+combine this with data on Google’s sponsored search auctions from SEMrush [2017], a major data provider
+for MAs.2 For all of Redbooks advertisers, we know which keywords, if any, they bid on in Google’s auctions.
+For each keyword, the data includes the position of the domain (and consequently of the advertiser) in the
+search results page, the volume of searches (i.e., the average number of search queries for the given keyword
+in the last 12 months) and the keyword-specific average price advertisers paid for a user’s click on the ad
+(Cost-Per-Click, or CPC).
+The second ingredient is market definition. We use natural language processing to move from the 23
+industries provided by Redbooks to more granular clusters of keywords representing individual markets.
+The approach involves a 2-layer clustering procedure: keywords are initially split into thematic clusters on
+the basis of their semantic content (via the GloVe algorithm of Pennington, Socher and Manning [2014])
+and then each thematic cluster is further partitioned using a similarity measure based on the co-occurrency
+of advertisers across keywords. Although not in a strict antitrust sense, we can treat these latter groups
+as relevant markets. They contain keywords closely connected in terms of both consumer perceptions and
+advertiser competition: the consumer side is captured in the first layer, where the algorithm is trained over
+840 billion documents in a way that resembles how consumers learn about products from the web, while the
+advertiser side is captured in the second layer.
+The third ingredient is an instrumental variable strategy. Instruments are needed for two reasons:
+measurement error in the proxy for demand concentration and potential omitted variable bias. For instance,
+there might be unobservable shocks to the popularity of some keywords that drive changes in both revenue
+and demand concentration. Similar to Dafny, Duggan and Ramanarayanan [2012], we address this problem
+by exploiting the variation in intermediary concentration driven by changes in network ownership of MAs.
+In our sample period, there were 21 acquisitions and 2 divestments, affecting 6 out of the 7 agency networks.
+These M&A operations, especially the larger ones involving a multiplicity of markets, are a useful source of
+variation in demand concentration as the revenue dynamics in each local market are too small by themselves
+to cause the M&A operations. We extensively discuss this empirical strategy and evaluate its robustness.
+We find with both OLS and IV estimates that greater network concentration induces lower search
+engine revenue. Under our baseline IV model, a change in the HHI of 245 points—the average HHI increase
+observed across the markets experiencing a merger event—leads to an 11.3 percent decrease in revenue. This
+quantitatively large estimate should be interpreted as a short run response, ignoring a series of changes to
+the auction environment that the selling platform has implemented in more recent years not covered in our
+2
+
+Hereinafter, Redbooks [2017] shall be referred to as Redbooks and the SEMrush [2017] shall be referred
+to as SEMrush.
+
+2
+
+

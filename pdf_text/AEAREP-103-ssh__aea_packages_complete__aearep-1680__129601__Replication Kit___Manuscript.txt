@@ -1,0 +1,286 @@
+The Economic Consequences of Bankruptcy Reform
+By Tal Gross and Raymond Kluender and Feng Liu and Matthew J.
+Notowidigdo and Jialan Wang∗
+A more generous consumer bankruptcy system provides greater
+insurance against financial risks but may also raise the cost of
+credit. We study this trade-off using the 2005 Bankruptcy Abuse
+Prevention and Consumer Protection Act (BAPCPA), which increased the costs of filing for bankruptcy. We identify the effects
+of BAPCPA on borrowing costs using variation in the effects of
+the reform across credit scores. We find that a one-percentagepoint reduction in bankruptcy-filing risk decreased credit-card interest rates by 70–90 basis points. Conversely, BAPCPA reduced
+the insurance value of bankruptcy, with uninsured hospitalizations
+70 percent less likely to obtain bankruptcy relief after the reform.
+JEL: K35, D14, D18
+In recent decades, the rate of consumer bankruptcy filings in the United States
+climbed from 0.3 percent of households annually in the early 1980s to 1.5 percent in the early 2000s (Board of Governors, 2006). This five-fold increase in the
+bankruptcy rate was cited by lawmakers as a reason to pass the 2005 Bankruptcy
+Abuse Prevention and Consumer Protection Act (BAPCPA). The bill implemented a number of provisions that collectively made filing for bankruptcy more
+onerous, more expensive, and less financially beneficial.
+By making bankruptcy less attractive, BAPCPA was widely expected to reduce
+bankruptcy filings; however, there was considerable debate regarding how the reform would affect consumer credit markets. Proponents of the bill argued that
+creditors would pass through higher debt-recovery rates to borrowers in the form
+∗ Gross: Questrom School of Business, Boston University, 595 Commonwealth Avenue, Boston, MA
+02215, talgross@bu.edu. Kluender: Harvard Business School, Harvard University, Rock Center 217, Soldiers Field Road, Boston, MA 02163, rkluender@hbs.edu. Liu: Consumer Financial Protection Bureau,
+1700 G St NW, Washington, DC 20552, feng.liu@cfpb.gov. Notowidigdo: Booth School of Business,
+University of Chicago, 5807 S Woodlawn Avenue, Chicago, IL 60637, noto@chicagobooth.edu. Wang:
+Gies College of Business, University of Illinois at Urbana-Champaign, 470 D Wohlers Hall, 1206 South
+Sixth Street, Champaign, IL 61820, jialanw@illinois.edu. The views expressed are those of the authors
+and do not necessarily reflect those of the Consumer Financial Protection Bureau or the United States.
+We thank Huan Zhao, staff at the California Office of Statewide Health Planning and Development,
+and Carlos Dobkin for their assistance accessing and compiling datasets used in this project. We are
+grateful to Amy Finkelstein, Andra Ghent, Paul Goldsmith-Pinkham, Erik Hurst, Richard Hynes, Sasha
+Indarte, Neale Mahoney, Brian Melzer, Scott Nelson, Christopher Palmer, James Poterba, Amit Seru,
+Tavneet Suri, Heidi Williams, Jonathan Zinman, four anonymous referees, and seminar participants at
+MIT, NYU, AEA Annual Meeting, Harvard Business School (EM), Arizona, Arizona State, CU Leeds
+(Finance), Wharton (BEPP), the Federal Reserve Bank of New York, Microsoft Research, Montana
+State, GWU, CFPB, Duke Fuqua (Finance), Harvard Law School, MoFIR, Johns Hopkins, WAPFIN,
+NBER Summer Institute Corporate Finance and Law and Economics, and SFS Cavalcade sessions for
+thoughtful feedback and comments. Anran Li, Pinchuan Ong, and Calvin Jahnke provided excellent
+research assistance.
+
+1
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+of lower interest rates. Judge Richard Posner argued that “the new Act. . . should
+reduce interest rates and thus make borrowers better off” (Posner, 2005). By
+contrast, critics of the reform argued that a reduction in filings would not be
+passed-through to borrowers but would instead be captured by lenders.1 Additionally, critics contended that claims of abuse were overstated and that the
+bill would harm filers struggling with medical expenses and job loss (Warren and
+Tyagi, 2005).
+This paper informs this debate by estimating how BAPCPA affected the number of bankruptcy filings, the interest rates offered to consumers in unsecured
+credit markets, and the likelihood an individual obtains bankruptcy relief in the
+wake of an adverse health shock. First, we develop a stylized model of consumer
+bankruptcy to study the relationship between the bankruptcy-filing rate and the
+cost of credit. We use the model to calibrate a benchmark for the effects of
+bankruptcy reform on interest rates and find an interest-rate pass-through of 80–
+113 basis points for each one-percentage-point change in the bankruptcy-filing
+rate.
+Second, we document that the reform indeed dramatically decreased the number
+of bankruptcies. We establish this using techniques developed in the recent tax
+notch literature (Kleven and Waseem, 2013). We use this approach to estimate
+the net effect of BAPCPA after accounting for the large increase in bankruptcies
+just prior to the effective date of BAPCPA in October 2005.2 In the months
+immediately before the reform, we estimate a net increase in filings of more than
+750,000, as consumers rushed to file for bankruptcy before the new bankruptcy
+code was implemented. Over time, however, we find that the reform reduced
+the bankruptcy rate by roughly 50 percent. Net of the short-run increase during
+the “rush-to-file period,” we estimate that there were roughly one million fewer
+bankruptcy filings in the two years after BAPCPA than would have occurred
+without the reform.
+One of the central provisions of BAPCPA was a “means test” which restricted
+the options available to high-income filers and was intended to “ensure that
+debtors repay creditors the maximum they can afford” (House Report, 2005).
+The means test was designed to shift filers with higher incomes from Chapter 7
+to Chapter 13 by eliminating the option to file under Chapter 7.3 Counter to the
+intent of the law, we find no change in the distribution of income of bankruptcy
+filers when we proxy for income using the median income in the filer’s ZIP Code.4
+1 For instance, Warren (2004) wrote that the “industry never said that the $44 billion it planned to
+recover from bankrupt families would be passed on to customers. History suggests that it would not.”
+2 Specifically, we estimate the “excess mass” and “missing mass” of bankruptcy filings around the
+effective date of BAPCPA to recover a net effect of BAPCPA.
+3 Chapter 7 bankruptcy offers filers a “fresh start.” All qualifying debts are discharged in exchange
+for filers’ non-exempt assets. Chapter 13 bankruptcy offers filers a “reorganization.” Chapter 13 filers
+lose no assets, but must commit to a repayment plan out of their future income.
+4 Additionally, we find only a small increase in the share of Chapter 13 filings and find that filings of
+both chapters declined after the reform. These results suggest that the BAPCPA caused large declines
+in bankruptcy rates across a broad range of consumers, swamping an effect of the means test on inducing
+consumers to switch between Chapter 7 and Chapter 13.
+
+VOL. VOL NO. ISSUE
+
+THE ECONOMIC CONSEQUENCES OF BANKRUPTCY REFORM
+
+3
+
+This evidence suggests that the decline in bankruptcies caused by BAPCPA was
+not concentrated among high-income filers as policymakers had intended.
+Third, we estimate the pass-through of the change in bankruptcy filings to
+interest rates by exploiting variation in the effect of the reform on bankruptcy
+filings across credit scores. To do so, we first estimate the effect of BAPCPA on
+the bankruptcy-filing rate within each 10-point credit-score segment using creditreport data for a large sample of individuals. We combine the change in filing
+risk with proprietary data on interest rates of credit-card offers for the same
+segments. We then estimate event-study and difference-in-difference regression
+models that compare the change in the average credit-card interest rate to the
+change in filing risk for each credit-score segment before and after the reform.
+The key identifying assumption is that interest rates would have evolved similarly
+across credit-score segments absent the reform. We provide evidence supporting
+this “common trends” assumption with an event-study figure, which shows no
+differential trends across credit-score segments in the years leading up to the
+reform. We also show that the main results are robust to subprime-by-year-month
+fixed effects, suggesting that the results are not driven by other unobserved factors
+differentially affecting the subprime credit market during this time period.
+We find that a one-percentage-point decline in bankruptcy-filing risk within a
+credit-score segment decreases average interest rates by 70–90 basis points. Interpreting these estimates through the lens of the model-based calibration, we
+conclude that a meaningful share of the cost savings to creditors was passed on
+to consumers in the form of lower interest rates. Additionally, according to the
+model, the pass-through results imply that lenders expected that the marginal
+non-filers — i.e., the consumers deterred from filing by BAPCPA — would ultimately repay a meaningful share of their unsecured debts. We use detailed
+loan-level data to provide corroborating evidence that the interest-rate response
+we estimate is associated with real changes in loan performance for loans that
+originated after BAPCPA.
+Our last contribution is documenting that BAPCPA reduced the bankruptcyfiling rate following a hospital admission. Building on the event-study approach of
+Dobkin et al. (2018a) that uses variation in the timing of hospitalizations, we find
+that an uninsured hospitalization increases the likelihood of filing for bankruptcy
+by 1.5 percentage points prior to the reform, but by just 0.4 percentage points
+after the reform. The reduction in the likelihood that an uninsured hospitalization
+obtains bankruptcy relief occurs right around the implementation of BAPCPA,
+and the reduction is persistent. While a hospitalization is just one example of
+an adverse shock, to the extent that this finding generalizes to other types of
+adverse shocks, these results provide suggestive evidence that the bankruptcies
+deterred by BAPCPA were not limited to the most “abusive” filings. Instead,
+these results imply that BAPCPA may have meaningfully reduced the insurance
+value of bankruptcy.5
+5 While the share of all bankruptcies caused by hospitalizations appears to be small according to
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+Taken together, the results in this paper suggest that BAPCPA reduced bankruptcy
+filings, but not in the targeted way that proponents had intended. Nevertheless,
+the law still appears to have provided some benefits to consumers in the form of
+lower credit-card interest rates, and the model clarifies that the pass-through we
+estimate is consistent with relatively high “all-in” costs of filing (accounting for
+the filing fees, legal costs, and stigma costs associated with filing). Our results
+highlight the stark trade-off for policymakers: marginal non-filers may benefit
+substantially from a more generous bankruptcy system (getting a “fresh start”
+instead of repaying a meaningful share of their debts), but these benefits come at
+the cost of higher interest rates for other consumers.
+This paper contributes to three main areas of research. First, it contributes
+new, reduced-form empirical evidence on the effects of BAPCPA. Several previous studies have explored the impacts of BAPCPA using reduced-form methods.
+Albanesi and Nosal (2018) study the likelihood that consumers delinquent on their
+debts transition to declaring bankruptcy and estimate transition probabilities before and after BAPCPA. They find that transition probabilities into Chapter 7
+bankruptcy decreased after BAPCPA, while transition probabilities into insolvency increased. Chakrabarti and Pattison (2019) focus on BAPCPA’s effect
+on auto loans, in particular the reform’s elimination of “cramdowns” in Chapter
+13.6 The authors compare the impact of BAPCPA in states with a high share
+of Chapter 13 bankruptcies to states in which Chapter 13 was historically rare
+and find the elimination of auto loan cramdowns under Chapter 13 reduced interest rates on auto loans. There exist relatively few other reduced-form studies of
+BAPCPA’s effect on credit-market outcomes. Li, White and Zhu (2011) examine
+mortgages and find that, by worsening the bankruptcy option for homeowners,
+BAPCPA increased foreclosure rates.7
+Relative to these previous studies, this paper estimates the causal impact of
+the reform on interest rates for unsecured loans, the most commonly held type
+of debt and the most frequently discharged in bankruptcy. We are not aware of
+other work that uses variation in the effect of BAPCPA on bankruptcy filings
+across credit scores for identification. We develop this empirical approach, assess
+its validity, and present the first quasi-experimental estimates of the effect of
+BAPCPA on credit-card interest rates.8 This paper also estimates changes in the
+rate at which uninsured hospitalizations lead to bankruptcy around the time of
+BAPCPA, which speaks to the “insurance value” of bankruptcy. Both of these
+estimates are key inputs into a more comprehensive evaluation of bankruptcy
+reform and speak to the trade-off of lower interest rates versus more generous
+Dobkin et al. (2018b), it is a frequently-cited source of financial risk faced by households and one the
+bankruptcy system is frequently referenced as insuring.
+6 Cramdowns in Chapter 13 allowed borrowers to reduce the principal of their loan to the current
+market value of the vehicle.
+7 Mitman (2016) and Morgan, Iverson and Botsch (2012) also conclude that the reform increased
+foreclosure rates.
+8 Severino and Brown (2017) study the effect of bankruptcy on interest rates for unsecured credit but
+focus on the pre-BAPCPA era, studying changes in state homestead exemptions.
+
+VOL. VOL NO. ISSUE
+
+THE ECONOMIC CONSEQUENCES OF BANKRUPTCY REFORM
+
+5
+
+social insurance.
+Second, this paper is related to studies of the consumer bankruptcy system that
+calibrate structural models (Zame, 1993; Dubey, Geanakoplos and Shubik, 2005;
+Livshits, MacGee and Tertilt, 2007; Chatterjee et al., 2007; Mitman, 2016; Nakajima, 2017). Those models emphasize the trade-off between using bankruptcy to
+smooth consumption across states of the world and the higher cost of smoothing
+consumption over time, often while assuming perfectly competitive credit markets
+(and thus full pass-through of the costs of lending to consumers). Our estimates
+of interest-rate pass-through provide some empirical support to the assumptions
+underlying these models of bankruptcy and credit markets.
+Finally, this paper provides new evidence on pass-through in consumer credit
+markets. Existing research on pass-through in credit markets emphasizes sticky
+interest rates (and thus limited pass-through), but this research typically estimates pass-through using shocks to the cost of funds rather than shocks to default risk (e.g., Ausubel, 1991; Calem and Mester, 1995; Stavins, 1996; Stango,
+2000; Calem, Gordy and Mester, 2006; Agarwal et al., 2017). We thus contribute
+new evidence to this literature by estimating how changes in bankruptcy-filing
+risk are passed-through to credit-card interest rates. While a full reconciliation of
+the different pass-through estimates is beyond the scope of this paper, Grodzicki
+(2017) argues that credit-card markets have become more competitive in recent
+years following the costly adoption of screening technology, which is consistent
+with the price responsiveness to changes in default risk that we document in this
+paper.9
+The remainder of this paper proceeds as follows. The next section provides
+background information on bankruptcy before and after BAPCPA. Section II
+describes our data sources and sample construction. Section III develops a simple
+model that we use to calibrate a benchmark for the effects of bankruptcy reform
+on interest rates. Section IV evaluates how BAPCPA affected the number of
+bankruptcy filings. Section V then estimates the pass-through of this decline in
+bankruptcy to borrowing costs. Section VI estimates the effect of BAPCPA on
+the bankruptcy-filing rate following a hospital admission. Section VII concludes.
+I.
+
+Institutional Background
+
+In contrast to other developed countries, American consumers have historically enjoyed an exceptionally debtor-friendly bankruptcy system.10 In particular, American consumers filing for bankruptcy have had the option to freely
+choose between a “fresh start” (liquidating outstanding debts through Chapter
+7) and a “reorganization” of debts (repaying debts on an installment plan over
+9 More broadly, this paper is also related to other empirical studies of pass-through in imperfectly
+competitive markets, such as recent work on Medicare Advantage (Cabral, Geruso and Mahoney, 2018)
+and the Spanish electricity market (Fabra and Reguant, 2014).
+10 Italy, for instance, had no form of consumer bankruptcy until 2015, and Germany only began
+allowing consumer bankruptcy in 1999. Before then, consumers in those countries had few options to
+discharge their debts (Tabb, 2005).
+
+6
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+several years through Chapter 13). Chapter 7 filers must forfeit all non-exempt
+assets in exchange for discharge of their debt, while Chapter 13 filers are allowed
+to keep all of their assets but must repay their debt out of future income.
+Despite the potential financial benefits for many consumers, consumer bankruptcy
+has historically been a relatively rare phenomenon in the United States. In the
+late 1970s, just 0.3 percent of households filed for bankruptcy in a given year.
+In 1978, the United States adopted a new bankruptcy code and legalized advertisements by bankruptcy attorneys. A 1978 Supreme Court decision allowed
+banks to export their home interest rates and effectively evade state usury laws.11
+These changes in policy catalyzed the growth of unsecured borrowing in the ensuing decades (White, 2007). By 1999, the bankruptcy rate had increased to 1.5
+percent annually, prompting creditors to lobby for a more stringent bankruptcy
+code.
+To make their case, credit-industry lobbyists pointed to a handful of high-profile
+cases of “exemption shopping.” For those bankruptcies, debtors moved across
+state lines to select the most beneficial bankruptcy regime, and this was held up
+as emblematic of the abuse rampant in the bankruptcy system. A reform of the
+bankruptcy system was first drafted in 1998 and passed by Congress in 2000,
+but pocket-vetoed by President Clinton. The bill was reintroduced each Congress
+until it finally passed with broad bipartisan support in 2005. The Senate passed
+the bill on March 10, 2005, the House on April 14, 2005, and the bill was signed
+by President Bush on April 20, 2005. The new bankruptcy code went into effect
+for all bankruptcies filed on or after Monday, October 17, 2005.
+BAPCPA made filing for bankruptcy less attractive in three primary ways.
+First, the law sought to prohibit higher-income households from filing Chapter 7.
+To do so, lawmakers introduced a means test which they referred to as “the heart
+of the bill” (House Report, 2005). The means test added a “presumption of abuse”
+for filers whose income is above certain thresholds. Debtors are subject to the
+means test if their income from the previous six full months before filing, adjusted
+for family size, is more than the state median income (Parra, 2018).12 Debtors
+subject to the means test are functionally prohibited from filing Chapter 7 and
+can only file Chapter 13 (which, post-BAPCPA, required higher repayment). This
+created an incentive for borrowers to suppress their labor supply and earnings
+below the state median in order to skirt the means test and file Chapter 7 or
+reduce their repayment obligation under Chapter 13.13
+11 In Marquette National Bank of Minneapolis v. First of Omaha Service Corporation (439 U.S.
+299 (1978)), the U.S. Supreme Court ruled that state anti-usury laws regulating interest rates are not
+enforceable against nationally chartered banks based in other states.
+12 Virtually all income is included in this calculation with the notable exception of Social Security
+income. Those with debts that are not “primarily consumer debts” (e.g., business investments) are also
+exempt from the means test. Debtors with monthly disposable income of less than $100.00 were exempt
+and this cutoff increased to $166.67 depending on the share of unsecured debt this represents. Beginning
+in 2007, these numbers increased to $109.58 and $182.50.
+13 The incentive to suppress income prior to filing is relevant even if households cannot suppress it
+enough to get under the state median. Chapter 13 repayment plans, which are paid over the subsequent
+five years, are based on documented disposable income over the prior six months. As White (2007)
+
+

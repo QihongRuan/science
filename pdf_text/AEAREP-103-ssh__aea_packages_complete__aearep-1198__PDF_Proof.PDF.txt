@@ -1,0 +1,243 @@
+The Rising Return to Non-cognitive Skill
+Journal: American Economic Journal: Applied Economics
+Manuscript ID AEJApp-2019-0199.R3
+Manuscript Type: For Administrative Use Only
+Keywords: J24, J31
+
+Page 1 of 58
+
+The Rising Return to Non-cognitive Skill
+By Per-Anders Edin, Peter Fredriksson, Martin Nybom and Björn
+Öckert∗
+This paper uses administrative data from Sweden to document
+trends in the labor market returns to skills. Between 1992 and
+2013, the economic return to non-cognitive skill – a psychologistassessed measure of teamwork and leadership skill – roughly doubled. The return to cognitive skill was relatively stable and decreased modestly during the 2000s, however. Among men with similar levels of education, the return to non-cognitive skill is higher
+than the return to cognitive skill. The increasing return to noncognitive skill is driven by changes at the top of the wage distribution and by sorting into higher-paying occupations.
+JEL: J24; J31
+Keywords: Wage inequality, skill returns, cognitive/non-cognitive
+skill, sorting.
+According to a recent (and exclusively US) literature, the return to cognitive
+skill fell during the 2000s; see Acemoglu and Autor (2011), Beaudry, Green and
+Sand (2016) and Castex and Dechter (2014). Concomitantly, the demand for
+social skill appear to have moved in the opposite direction. According to Deming
+(2017), employment increased more, and wages grew faster, in occupations which
+are intensive in social skills.1
+We contribute to this literature by providing estimates of the returns to cognitive and non-cognitive skill derived from consistently measured, and nationally
+representative, data. We use Swedish enlistment data for the universe of drafted
+men, including high-quality information on cognitive and non-cognitive skill. The
+draft featured a relatively standard test of cognitive skill (similar to the Armed
+Forces Qualification Test). Draftees were also scored on their “non-cognitive”
+skill, e.g., their ability to interact with others and their leadership abilities, based
+∗ Edin: Department of Economics, Uppsala University, Box 513, SE-75120 Uppsala, UCLS, IFAU, and
+STIAS (Email: per-anders.edin@nek.uu.se); Fredriksson: Department of Economics, Uppsala University,
+Box 513, SE-75120 Uppsala, UCLS, IZA, and IFAU (Email: peter.fredriksson@nek.uu.se); Nybom: Institute for Evaluation of Labour Market and Education Policy (IFAU), Box 513, SE-75120 Uppsala, UCLS,
+and SOFI (Email: martin.nybom@ifau.uu.se); Öckert: IFAU, Box 513, SE-75120 Uppsala, Uppsala University, and UCLS (Email: bjorn.ockert@ifau.uu.se). We thank David Deming, Thomas Lemieux, Anna
+Sjögren, Jan Stuhler, and Roope Uusitalo as well as seminar participants at the AASLE (Canberra),
+BeNA Workshop (Berlin), Copenhagen University, IIPF (Tokyo) Nordic Summer Institute in Labor Economics (Aarhus), SOFI, Tinbergen Institute, the UCLS workshop on Industrial Relations (Uppsala),
+Uppsala University, and the Workshop in Honor of Kjell Salvanes (Bergen) for very helpful comments
+and suggestions. We also thank Fredrik Heyman for providing information on automation. Fredriksson
+gratefully acknowledges funding from Marcus and Amalia Wallenberg Foundation, Handelsbanken, and
+Riksbankens Jubileumsfond.
+1 Relatedly, Cortes, Jaimovich and Siu (2018) argue that the increasing prevalence of women in highwage occupations is due to an increasing importance of social skills in top-end jobs.
+
+1
+
+Page 2 of 58
+
+2
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+on a semi-structured interview with a certified psychologist. By combining the
+draft data with annual wage and employment data from administrative registers,
+we provide estimates of wage returns to cognitive and non-cognitive skill spanning
+more than two decades.2
+Our paper is obviously related to the huge literature on skill-biased technical
+change (e.g., Tinbergen 1974 and Katz and Murphy 1992) as well as the taskbased approach (e.g., Autor, Levy and Murnane 2003 and Acemoglu and Autor
+2011). Acemoglu and Autor (2011) show that the 2000s has been distinctively
+different in the sense that employment in the US grew much slower at the topend of the wage distribution than during previous decades. A few explanations
+for this recent development have been put forward in the literature. Beaudry,
+Green and Sand (2016) argue that the slowdown in the demand for cognitive
+skill is due to a boom-to-bust cycle caused by the maturation of information
+technology (IT). Brynjolfsson and McAfee (2014) have a very different take, and
+argue that the advances in computing technology rapidly expand the set of tasks
+that computers can do; with the advances in computer technology, tasks which
+used to be performed by cognitively skilled workers are now becoming “routine”.
+Others point out that increasing possibilities for offshoring can have similar effects;
+with reductions in trade or coordination costs, the world supply of cognitive skill
+can more easily substitute for the internal supply of cognitive skill (see Hummels,
+Munch and Xiang 2018).
+Our paper is most closely related to Deming (2017), who focuses on the evolution of the return to social skill. As a starting point he notes that skills that
+cannot be easily substituted for by technology or trade likely complement these
+factors. Social skills are difficult to automate (see also Autor 2015) and production at different sites (generated by offshoring) may require coordination skills.
+Deming (2017) sets up a model where social skills facilitate trade in tasks and
+examines the implications of this model empirically. He documents an increase in
+the return to social skill using the National Longitudinal Study of Youth (NLSY),
+from 2 percent per standard deviation increase in social skill in NLSY 1979 to
+3.7 percent in NLSY 1997.3 Also using the NLSY, Castex and Dechter (2014)
+find a substantial decline in the return to cognitive skill between the 1980s and
+2000s. Beaudry, Green and Sand (2016) find a similar decline in the demand for
+cognitive skill based on occupation data, but without using any direct measures
+of skill. While this research provides an important starting point, it also suffers from considerable data limitations. The evidence is based either on indirect
+occupation-based skill measures or on survey measurements of skills with some
+2 The paper is similar in spirit to Lindqvist and Vestman (2011), who examined the relationship
+between employment and earnings, respectively, and skills in a cross-section. Relative to Lindqvist and
+Vestman (2011) we take on the time series dimension.
+3 In additional analyses, Deming (2017) shows that the increase in the return to social skill is robust
+to adding controls for educational attainment and including a measure of “non-cognitive skill” (for NLSY
+1979 this is a normalized average of the Rotter score (locus of control) and Rosenberg score (self-esteem)
+and for NLSY 1997 he uses two Big 5 questions capturing conscientiousness).
+
+Page 3 of 58
+
+VOL. VOL NO. ISSUE
+
+THE RISING RETURN TO NON-COGNITIVE SKILL
+
+3
+
+uncertainty about their comparability over time. For example, the evidence in
+Deming (2017) is based on self-reported data about ones personality and sociability, and the survey questions underlying the skill measure change across the
+two NLSY surveys.4
+We document and compare the year-on-year evolution of the returns to cognitive and non-cognitive skill during the time period 1992-2013. With access to
+population-wide data on individual skills, which are comparable over time and
+measured before labor-market entry, we provide a more detailed and robust picture than has been possible hitherto. We examine, among other things, whether
+the returns to skills changed differentially across the wage distribution, the exact
+timing of any changes in the returns to skills, the mediating role of education
+for skill returns, and how the changes in the returns to skills are associated with
+changes in sorting across occupations and industries. We also explore whether
+there are differential effects of offshoring and IT investments on the return to
+non-cognitive and cognitive skill, using shift-share analyses.
+We establish four main facts. First, we document a strong, secular increase in
+the wage return to non-cognitive skill. From 1992 to 2013, the return to noncognitive skill among men in the private sector roughly doubled, from about 7 to
+14 percent for a standard deviation increase in skill. Second, there was much less
+overall change in the return to cognitive skill. Interestingly, the return to cognitive
+skill has fallen since 2000. We demonstrate that these first two facts are robust
+to potential trends in measurement error and selection into employment, among
+other things.5 Third, the return to non-cognitive skill is higher than the return
+to cognitive skill among men with similar educational attainment; again, we see
+a doubling of the return to non-cognitive skill over the time period. Fourth, we
+find that the increase in the return to non-cognitive skill was substantially larger
+at the top-end of the wage distribution.
+The first two facts largely match previous evidence from the US. The large
+relative increase in the return to non-cognitive skill is similar to Deming (2017).
+Nevertheless, the magnitude of the increase is much larger in our data, both in
+terms of how the return changes over time and how it compares to the return to
+cognitive skill.6 The stagnant, and declining, return to cognitive skill are broadly
+in line with the evidence in Castex and Dechter (2014) and Beaudry, Green and
+Sand (2016). Our first two facts thus consolidate the US evidence using superior
+data.
+Our data also enable us to extend the previous literature in various ways. For
+example, we study how the returns evolved across the wage distribution. Us4 For NLSY 1979, Deming (2017) uses two measures of self-reported sociability; for NLSY 1997, he
+uses two Big 5 questions capturing extraversion.
+5 In the online Appendix (Figure A11b) we show that the results are similar when the analysis is
+extended to 2017, although moving beyond 2013 is complicated by changes in sample composition.
+6 In Sweden the return to non-cognitive skill (14%) was higher than the return to cognitive skill (12%)
+in 2013. In the US context, the return to social skill (3.7%) was a quarter of the return to cognitive skill
+(15.1%).
+
+Page 4 of 58
+
+4
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+ing quantile regressions, we find that the return to non-cognitive skill increased
+from 10 to 19 percent at the 90th percentile, while at 10th percentile the return
+grew from 5 to 8 percent. Conversely, while the return to cognitive skill grew
+moderately at the 50th and 10th percentiles, the fall in the average return to
+cognitive skill is driven by the evolution at the 90th percentile. Taken together,
+non-cognitive skill has become relatively more important for wages at the top of
+the distribution.
+In addition to our four main facts, we present a set of auxiliary analyses that
+may help us understand the large changes in skill returns. For example, about
+half of the increase in the return to non-cognitive skill takes place across occupations; the occupational component accounts for more of the increase than firms or
+industries. Across occupations, there is positive correlation between the change
+in the relative return to non-cognitive skill (compared to cognitive skill) and the
+intensity of non-cognitive skill usage. This is suggestive evidence of sorting on
+returns and that the changes in returns came mainly from the demand side. Finally, a shift-share analysis suggests that offshoring may drive part of the increase
+in the relative return to non-cognitive skill and non–cognitive skill use, across industries and occupations. To our knowledge, several of these findings are new to
+the literature.
+The paper unfolds as follows. Section I describes the data. Section II documents our four main empirical facts, including the large increase in the return
+to non-cognitive skill. Section III investigates skill sorting across occupations,
+occupational skill returns, and examines whether offshoring and IT-investments
+increase the the demand non-cognitive skill. Section IV concludes.
+I.
+
+Data
+
+Our primary data sources are administrative wage registers collected by Statistics Sweden and test scores from the Swedish War Archives. The complete wage
+data contain information on (full-time equivalent) wages for a very large sample
+of establishments covering almost 50 percent of all private sector workers and all
+public sector workers during 1985-2017 (Statistics Sweden 2017b).7
+To these wage data we add military enlistment test scores, collected when the
+individuals were age 18 or 19 (Swedish National Archives 2005). For males who
+were born between 1951 and 1975, complete enlistment scores are available for
+88-96 percent of each birth cohort.8
+Linked to the data there is also information on educational attainment, annual
+7 Wage and occupation information is collected during a measurement week (in September-November)
+each year, conditional on being employed for at least one hour during the sampling week. Sampling is
+stratified by firm size and industry; small firms in the private sector are underrepresented. We do not
+use the sampling weights in the regressions; note that the essence of the results does not change with
+weighting – see online Appendix Section A3.8. The wage measure includes all wage components, such
+as regular pay, piece-rates, performance pay, and fringe benefits; overtime pay is not included, however.
+Full-time equivalent wages are constructed from information on monthly pay and contracted hours.
+8 Online Appendix Figure A5 shows the fraction of men covered by the draft data over time.
+
+Page 5 of 58
+
+VOL. VOL NO. ISSUE
+
+THE RISING RETURN TO NON-COGNITIVE SKILL
+
+5
+
+earnings, employment, occupation, and plants (Statistics Sweden 2017e; Statistics Sweden 2017a; Statistics Sweden 1990; Statistics Sweden 2017d; Statistics
+Sweden 2017c). We make frequent use of the occupational information (available
+from 1994 and onwards), as well as the task content of different occupations from
+O*NET (The Occupational Information Network 2020);9 some of our analyses
+also tap information on education, industry, sector, and firm. Adminstrative tax
+records provide information on annual earnings; the data also contain an employment indicator constructed by Statistics Sweden on the basis of the earnings
+data.
+Since we are interested in structural change in the labor market, we focus the
+analysis on prime-aged individuals; this group of workers is insulated from the
+cyclical variation that affects younger as well as older workers. Our main analysis
+is based on workers aged 38-42. The evolution of wage inequality for this age group
+is representative of the evolution of inequality among a broader set of prime-aged
+workers and the returns to skills evolve in the same way for workers aged 38-42 as
+they do for workers aged 30-50 (see online Appendix). The advantage of basing
+the main analysis on workers aged 38-42 (rather than individuals aged 30-50) is
+that this group is observed throughout the time period 1992-2013, which we focus
+on in our main analyses.10 Given the availability of draft data (the first available
+draft cohort is born in 1951) we would miss older workers in the early part of the
+period; for the later part of the time period coverage of the draft data is lower
+for younger workers. For workers aged 38-42, on the other hand, we are able
+to hold the age composition constant non-parametrically, which is an advantage
+since returns to skills vary by age (Nybom, 2017). The availability of the draft
+data, combined with the age restriction in our main analysis, means that our
+analysis is based on 25 cohorts of males born between 1951 and 1975.
+The data from the draft procedure include an overall measure of cognitive
+skill and a corresponding measure of non-cognitive skill. The overall cognitive
+score is based on four sub-tests measuring: inductive skill (or reasoning); verbal
+comprehension; spatial ability; and technical understanding. Overall cognitive
+skill is reported on an integer Stanine scale, which varies from one to nine.11 There
+is a slight drift in the Stanines over cohorts and, therefore, we re-standardize the
+cognitive score such that it has zero mean and unit standard deviation within
+9 Online Appendix Section A2.3 describes the cross-walk between O*NET job attributes to the Swedish
+occupational classification.
+10 In Section A3.4 of the online Appendix, we present results for the population aged 30-50 during
+1985-2013. This time window incorporates the severe crisis hitting Sweden in the late 1980s; for Sweden,
+this “unemployment crisis” was more severe than the Great Recession. The results show that there is
+more variation in the estimated returns, and this variation is arguably driven by the cycle, but that the
+long-run trends are similar.
+11 The Stanines are normally distributed with a mean of 5 and a standard deviation of 2. The data also
+contain the raw scores on each subtest. We prefer to use the Stanine score, since we only have the Stanine
+score for non-cognitive skill. Online Appendix Figure A1 shows that the spread of the distribution of raw
+scores has not changed over time. Figure A12b shows that the return to the raw cognitive score evolved
+in the same way as the return to the stanine cognitive score.
+
+

@@ -1,0 +1,196 @@
+Competition and Entry in Agricultural Markets: Experimental
+Evidence from Kenya
+Journal: American Economic Review
+Manuscript ID AER-2017-1397.R3
+Manuscript Type: Administrator
+Keywords: D43, O13, Q13
+
+Page 1 of 90
+
+Competition and Entry in Agricultural Markets:
+Experimental Evidence from Kenya
+Lauren Falcao Bergquist and Michael Dinerstein∗
+June 6, 2020
+
+Abstract
+African agricultural markets are characterized by low farmer revenues and high consumer food prices. Many have worried that this wedge is partially driven by imperfect
+competition among intermediaries. This paper provides experimental evidence from
+Kenya on intermediary market structure. Randomized cost shocks and demand subsidies are used to identify a structural model of market competition. Estimates reveal
+that traders act consistently with joint profit maximization and earn median markups
+of 39%. Exogenously-induced firm entry has negligible effects on prices, and low takeup of subsidized entry offers implies large fixed costs. We estimate that traders capture
+82% of total surplus.
+
+JEL Classifications: D22, D43, F12, L13, L81, O13, Q13
+
+∗
+
+We thank Hoyt Bleakley, Marshall Burke, Ying Fan, Benjamin Faber, Willa Friedman, Benjamin Handel, Kaushik Krishnan, Nicolas Li, Jeremy Magruder, Jamie McCasland, Edward Miguel, Craig McIntosh,
+Odyssia Ng, Katalin Springel, Christopher Sullivan, Michael Walker, Dean Yang and numerous seminar participants. We also thank Honglin Li, Meshack Odhiambo Okello, Ben Wekesa, Deborrah Muthoki Wambua,
+and Innovations for Poverty Action for excellent research assistance. This research was supported by funding
+from the NSF Graduate Research Fellowship and the research initiative “Private Enterprise Development in
+Low-Income Countries” (EG 1764 and MRG004_3854), a program funded jointly by the Centre for Economic
+Policy Research (CEPR) and the Department for International Development (DFID). The views expressed
+are not necessarily those of CEPR or DFID. The design for this experiment was registered with the AEA RCT
+Registry AEARCTR-0000682 (see Bergquist (2015)). IRB approval provided by the University of California, Berkeley (CPHS Protocol Number 2014-08-6612) and the Maseno University Ethics Review Committee
+(Proposal Reference Number MSU/DRPC/MUERC/000081/14). The data repository is openicpsr-119743
+(see Bergquist and Dinerstein (2020)). All errors are our own. Authors can be reached at lfb@umich.edu
+and mdinerstein@uchicago.edu.
+
+1
+
+Page 2 of 90
+
+The 1980s and 1990s saw a wave of liberalization sweep across African agricultural markets as part of broad structural adjustment plans. Inherent in the promise of these reforms
+was the presumption that a competitive private sector would emerge to take advantage of
+newly created arbitrage opportunities, with agricultural traders efficiently moving crops from
+surplus to deficit regions, and from harvest to lean seasons. However, recent empirical estimates suggest that agricultural markets remain poorly integrated, with prices varying widely
+across regions and seasons (Moser et al., 2009; Burke et al., 2019). High transaction costs
+contribute to this limited market integration. Transport costs in Africa are the highest in
+the world (Teravaninthorn and Raballand, 2009); also prevalent are harder-to-measure costs
+associated with search (Aker, 2010), contractual risk (Startz, 2017), and price uncertainty
+(Dillon and Dambro, 2016).
+However, much less is known about the form of competition among intermediary traders
+in agricultural markets in developing countries. Whether, and how much, traders are exerting
+market power matters for policymaking: if intermediaries are operating in a competitive
+environment in which price gaps are purely due to high transactions costs, then policies
+that reduce these transaction costs – road improvements, preferential terms for business
+expansion loans, and trade intelligence systems for broadcasting prices to traders, for example
+– would yield savings that traders will pass on to farmers (in the form of higher prices) and
+consumers (in the form of lower prices). On the other hand, if traders are exercising a high
+degree of market power, gains from policies that reduce traders’ operating costs may be
+captured mostly by intermediaries. To meaningfully improve farmer and consumer welfare
+in this environment, policies may need to explicitly target enhanced competition among
+intermediaries.
+In this paper, we present some of the first experimental evidence on the market structure
+in which African agricultural traders operate. To this end, we implement three randomized
+control trials that deliver new empirical evidence on the extent of cost pass-through, the
+shape of demand, and the effects of entry on market prices. We interpret these estimates
+in the context of a structural model and estimate the model of imperfect competition that
+best fits the data and its welfare implications.
+In the first experiment, we exogenously reduce traders’ marginal costs by offering to all
+traders in a market a substantial, month-long subsidy per kg sold. We then observe how
+much of this reduction in costs is passed through to the price offered to consumers. We find
+that traders pass through only 22% of this reduction in costs to customers.
+Nonetheless, the pass-through rate is insufficient to characterize imperfect competition
+
+2
+
+Page 3 of 90
+
+as the curvature of demand could produce lower pass-through rates, holding behavior of
+intermediaries constant. For example, the observed rate of pass-through could be consistent
+with a Cournot competitive market structure with highly concave demand or with a perfectly collusive market structure with moderately concave demand. In order to distinguish
+between the roles played by intermediary conduct and consumer demand curvature, we run
+a second experiment to estimate the curvature of demand. In this experiment, we offer consumers random reductions in price spanning a range of counterfactual pass-through rates
+and measure the resulting quantities purchased. This experimental variation in prices allows
+us to identify consumer demand without having to rely on strong identification assumptions.
+We specify and estimate a highly flexible demand function.
+To determine agricultural intermediaries’ form of competition, we start with a simple
+model of demand and supply that nests Cournot competition and joint profit maximization. This model transparently maps the experimentally estimated pass-through rate and
+demand curvature into inference about the form of competition. We find that traders are
+not competing – the estimated parameter governing how traders value other traders’ profits
+is statistically indistinguishable from that representing a perfectly collusive model in which
+traders form agreements (perhaps tacitly) about prices and act as a single profit-maximizing
+monopolist in the market. We can rule out Cournot competition with 95% confidence.
+We then relax key assumptions in the simple model and estimate a more general model
+that allows for within-market trader heterogeneity and non-constant marginal costs, as well
+as an extensive margin to demand. We rely on the same experimental variation to identify
+the more general model, and introduce additional instruments describing how a trader’s
+choices in one market depend on experimental variation in the other markets in which he
+sells. These multi-market traders, and their exposure to experimental variation across all of
+their markets, allow us to identify a non-constant marginal cost function. Our estimates from
+the more general model again imply conduct consistent with joint profit maximization; as
+with the simple model, we can reject Cournot competition. Traders capture high markups,
+with the median trader earning a 39% markup. We also offer non-nested tests of joint profit
+maximization and Cournot competition that again point toward joint profit maximization
+as describing traders’ conduct.
+Our third experiment generates exogenous entry by offering traders incentives to enter
+randomly selected markets for the first time. These results serve two purposes. First, we
+test whether policies that encourage market entry can decrease market power and promote
+competition. Second, traders’ willingness to accept the entry subsidies – the size of which is
+
+3
+
+Page 4 of 90
+
+randomized – reveals how they trade off fixed costs versus variable profits, which enables us
+to estimate total trader profits and conduct a complete welfare analysis. We find that the
+entry subsidies induce an additional 0.6 traders per market-day on average, a 16% increase
+over the mean market size (and 21% over the median). These additional traders have only
+small impacts on price. We find that competition in markets in which entrants have no prior
+connections increases to a level that is statistically indistinguishable from Cournot competition, but that markets in which entrants have prior connections continue to be collusive.
+Entrants with no prior connections, however, are less willing to take up the entry offer, indicating that the most likely compliers from a policy aimed at increasing entry may not be
+effective in increasing competition.
+We use this experimental variation to identify an entry model in which potential entrants
+decide to enter a market when their variable profits upon entry – which depend on marginal
+costs and the impact of entry on market competition – exceed their fixed costs, net of
+the experimental entry subsidy. Our estimates indicate that potential entrants have high
+fixed costs that are positively correlated with marginal costs. Extending the estimates to
+incumbent traders, we find that the median trader’s fixed costs constitute 71% of variable
+profits; the median (mean) trader keeps 12% (25%) of revenues as profit, but the largest
+traders earn the highest markups such that in the aggregate traders capture 82% of total
+surplus, while consumers capture just 18%.
+We use our estimated demand, quantity-setting, and entry models to solve for counterfactual equilibria were traders to engage in Cournot competition. We estimate that switching
+from joint profit maximization to Cournot competition would have large effects on surplus
+division, as consumer surplus would triple and deadweight loss would fall by a third.
+This paper is one of the first to experimentally test the competition model of rural
+agricultural markets directly. Previous attempts to measure competition or market efficiency
+have mainly relied on observational methods. Observational studies have typically found
+high rates of pass-through across major markets (Rashid and Minot, 2010), though these
+high transmission rates may not extend beyond major urban markets (Moser et al., 2009).
+Moreover, interpretation of this observational evidence is confounded by common shocks such
+as shared harvest times and reverse flows across seasons. One exception to this primarily
+observational literature is a recent paper by Casaburi and Reed (2016), which studies the
+effect of an experimental subsidy per unit purchased by cocoa traders in Sierra Leone. They
+find small pass-through in terms of price, but larger pass-through in credit, suggesting the
+importance of interlinked relationships in their context (a feature not relevant in the Kenyan
+
+4
+
+Page 5 of 90
+
+maize markets we study, in which over 95% of transactions are conducted in cash).1
+Another set of papers attempts to directly measure traders’ profits in order to draw
+inference about the size of rents and model of competition. These have generally found that
+average trader profits are moderately large, though subject to significant variability, leaving
+a question mark on whether these returns represent rents or risk premia (Dillon and Dambro,
+2016). Moreover, these direct measures are subject to potentially severe measurement error
+in the face of difficult-to-quantify search, own labor, and fixed costs, as well as a general
+lack of record keeping (Fafchamps et al., 2005).2 The sensitivity of directly asking about
+profits in an environment in which traders are often labeled as exploitative presents a further
+challenge.
+Finally, a set of papers has applied experimental methods to the somewhat related question of the impact of offering price information to farmers on their ability to extract better
+prices from traders. While most studies find null results (Fafchamps and Minten, 2012; Mitra
+et al., 2015),3 it is unclear if this suggests traders are already offering competitive prices given
+their costs or whether farmers are simply unable to use this information to improve their
+bargaining position. There is therefore a paucity of causal evidence on how traders compete
+(Dillon and Dambro, 2016) despite a growing interest in the role these intermediaries play in
+determining the allocation of gains from trade (Antras and Costinot, 2011; Bardhan et al.,
+2013).4
+More broadly, this paper follows a long literature on testing among different models of
+competition. We follow Nevo (2001) and Miller and Weinberg (2017), among many others,
+in testing among common models of competition nested in a single framework. We also
+implement non-nested tests of joint profit maximization and Cournot competition in the
+spirit of Berry and Haile (2014) and similar to Backus et al. (2019a), which avoids some
+of the issues with the nested approach. To identify the form of competition, we rely on an
+1
+Because their subsidy is offered only to a subset of traders in the market, Casaburi and Reed (2016)
+must ultimately rely on observational estimates of pass-through to measure the form of competition, as their
+experimental estimates appear to be affected by within-market spillovers. Further, in the absence of evidence
+on the shape of farmer supply, they are forced to make strong linearity assumptions. Because the curvature
+of the market facing traders (farmer supply in their case, consumer demand in ours) is crucial to interpreting
+the pass-through rate, we experimentally estimate this curvature.
+2
+Only 58% of traders in our sample keep any written records and, among this group, most records are
+fairly rudimentary.
+3
+The exception is Hildebrandt et al. (2015), which finds that farmers who receive price information earn
+5% higher prices for their yams, but this effect disappears by the second year of the study.
+4
+In a quasi-experimental variant of this literature, Casaburi et al. (2013) find that expansion of the road
+network in Sierra Leone led to price decreases that can be best explained under a search cost framework,
+and which are inconsistent with either Bertrand competition or Cournot oligopsony.
+
+5
+
+

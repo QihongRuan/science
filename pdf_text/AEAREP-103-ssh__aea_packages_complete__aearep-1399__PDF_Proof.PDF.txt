@@ -1,0 +1,136 @@
+Endogenous Education and Long-Run Factor Shares
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0350.R2
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+15-Sep-2020
+Author:
+Complete List of Authors: Grossman, Gene; Princeton University, Economics;
+Helpman, Elhanan; Harvard University, Department of Economics;
+Oberfield, Ezra; Princeton University, Department of Economics
+Sampson, Thomas; London School of Economics, Economics
+Keywords:
+
+E13, O14, neoclassical growth, balanced growth, human capital,
+education, capital-skill complementarity, labor share
+
+Page 1 of 29
+
+Disclosure Statement by Elhanan Helpman
+RE: Endogenous Education and Long-Run Factor Shares
+
+The author declares that he has no relevant or material financial interests that relate to the research
+described in this paper.
+
+September 12, 2020
+
+Page 2 of 29
+
+Disclosure Statement by Gene M. Grossman
+RE: Endogenous Education and Long-Run Factor Shares
+The author declares that he has no relevant or material financial interests that relate to the research
+described in this paper.
+
+Page 3 of 29
+
+Endogenous Education and Long-run Factor Shares
+Disclosure Statement by Thomas Sampson
+
+The author declares that he has no relevant or material financial interests that relate to the research
+described in this paper.
+
+14th September 2020
+
+Page 4 of 29
+
+Endogenous Education and Long-Run Factor Shares
+By Gene M. Grossman, Elhanan Helpman, Ezra Oberfield and Thomas Sampson∗
+We study the determinants of factor shares in a neoclassical environment with capital-skill complementarity and endogenous education. In this environment estimates of the elasticity of substitution between capital and labor that fail to account for human
+capital levels will be biased upwards. We develop a model with
+overlapping generations, technology-driven neoclassical growth and
+ongoing increases in educational attainment. For a class of production functions featuring capital-skill complementarity, a balanced
+growth path exists and is characterized by an inverse relationship
+between the rates of capital- and labor-augmenting technological
+progress and the capital share in national income.
+JEL: E25, J24, O41
+Keywords: Neoclassical growth, Balanced growth, Human capital,
+Education, Technological progress, Capital-skill complementarity,
+Labor share, Capital share
+Ever since John Maynard Keynes (1939, p.48) famously touted the stability of the capital and
+labor shares in national income as “one of the most surprising, yet best-established, facts in the
+whole range of economic statistics,” growth theorists have been fascinated by the determinants
+of long-run factor shares and the reasons for their stability. Kaldor (1961) made the constancy
+of factor shares first of his six ‘stylized’ facts of economic growth and many economists have
+observed the continued stability of these shares well beyond the time of his writing. But, in
+recent years, the labor share declined precipitously, as has been documented and discussed by
+Elsby et al. (2013), Karabarbounis and Neiman (2014), and many others. Now, the factor
+shares may well have stabilized again, with workers receiving a new and smaller slice of the
+economic pie.1 These events have revived interest among growth economists in the determinants
+of the functional distribution of income.
+If income shares are stable for long periods in the face of factor accumulation and (biased)
+technical progress, some equilibrating forces must be at work. A unitary aggregate elasticity
+of substitution between capital and labor could be one such force, because in a Cobb-Douglas
+world, any persistent divergence between the growth rates of the labor force and the capital
+stock would be offset by opposing trends in factor returns. But a large body of empirical research
+suggests that the elasticity of substitution is not equal to one.2 In Grossman et. al (2017a),
+∗ Grossman: Princeton University, Department of Economics, Princeton, NJ 08544 (e-mail: grossman@princeton.edu);
+Helpman: Harvard University and CIFAR, 1805 Cambridge Street, Cambridge, MA 02138 (e-mail: ehelpman@harvard.edu); Oberfield: Princeton University, Department of Economics, Princeton, NJ 08544 (e-mail:
+edo@princeton.edu); Sampson: London School of Economics, Centre for Economic Performance, Houghton Street, London,
+WC2A 2AE, United Kingdom (e-mail: t.a.sampson@lse.ac.uk). This paper evolved from our earlier working paper, “The
+Productivity Slowdown and the Declining Labor Share: A Neoclassical Exploration,” although the focus of the paper has
+changed substantially. We are grateful to Ben Bridgman, Andrew Glover, Chad Jones, Jacob Short, Gianluca Violante,
+and Ariel Weinberger for discussions and suggestions on the earlier paper.
+1 See, for example, U.S. Bureau of Labor Statistics, Nonfarm Business Sector: Labor Share [PRS85006173], retrieved
+from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/PRS85006173, March 8, 2020.
+2 See, for example, Chirinko (2008, p.671), who surveyed many studies that sought to measure this elasticity and
+concluded that ”the weight of the evidence usggests a value of [the elasticity of substitution] in the range of 0.4 to 0.6.” In
+research conducted after that survey was written, Karabarbounis and Neimann (2014) estimate an elasticity of substitution
+
+1
+
+Page 5 of 29
+
+we suggested another possible equilibrating force: the endogenous response of education to a
+rise in the return to schooling could stabilize factor shares in the face of ongoing declines in
+the prices of investment goods if the aggregate technology exhibits complementarity between
+capital and skills.3
+Our previous paper focused on the requirements for balanced growth. We explored a model
+with fleeting lifespans and derived necessary and sufficient conditions for constant steady-state
+factor shares in the presence of ongoing capital-augmenting technological progress and a nonunitary aggregate elasticity of substitution between capital and labor. In particular, we identified a class of aggregate production functions characterized by capital-skill complementarity
+that deliver balanced growth. However, our model could not speak to changes in the steadystate factor shares, because our convenient assumption of fleeting lives severed all links between
+these shares and parameters of the growth process.
+In this paper, we allow for longer lives, which renders investment in education a forwardlooking decision. In the body of our text, we focus on a model in which all individuals accumulate human capital by spending time in school. But our results are not limited to this model
+of educational attainment; in the appendix, we establish similar results in a model of discrete
+occupational choice with endogenous fractions of the population opting to become skilled.
+We begin in Section I by examining the link between equilibrium factor shares, levels of
+human capital, and the rental rate for capital in a competitive economy with an aggregate
+production function characterized by capital-skill complementarity. In such a setting, a greater
+level of human capital goes hand in hand with a greater capital share, whereas an inverse
+relationship exists between the rental rate and the capital share whenever the elasticity of
+substitution between capital and raw labor falls short of one. In Section II, we introduce
+schooling as an intertemporal choice for overlapping generations of the population. In our
+setting of “perpetual youth” with a constant hazard rate of death, it is optimal for members of
+each generation to attend school fully until they achieve a (time-varying) target level of human
+capital, whereupon they enter the work force but continue their education part-time to keep
+pace with the growing human-capital threshold. When capital and skills are complementary,
+there is an inverse equilibrium relationship between the education target and both the rental
+rate on capital and the difference between the interest rate and the growth rate of wages. Taken
+together, the results in Sections I and II imply that failing to control for variation in human
+capital will lead to upward bias in estimates of the elasticity of substitution between capital
+and labor in an economy with capital-skill complementarity.
+Finally, in Section III, we close the model and study neoclassical growth driven by exogenous
+technological progress. The dynamic equilibrium features ongoing accumulation of physical
+and human capital. We establish the existence of a unique balanced growth path when skills
+are complementary to capital and human capital enters the aggregate production function
+in a particular way. Along this path, the downward pressure on the capital share due to
+accumulation of better and cheaper machinery is offset by upward pressure from investments
+in skills that are complementary to those machines. In the long run, the human capital target
+substantially greater than one, while Herrendorff et. al (2015) find an elasticity of 0.84 and Oberfield and Raval (2020)
+estimate it between 0.5 and 0.7 for the U.S. manufacturing sector.
+3 Acemoglu (2003) proposes yet another equilibrating force: when firms choose between capital-augmenting and laboraugmenting technological improvements, they may tend toward only the latter in the long run. In his setting, factor shares
+evolve during a transition phase with capital-augmenting progress, but stabilize in the steady state due to the eventual
+dominance of technical change directed to labor. One difficulty with this story is that quality-adjusted prices of capital
+goods have declined signficantly over long periods, suggesting an ongoing process of investment-specific technological
+change.
+
+

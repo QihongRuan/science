@@ -1,0 +1,228 @@
+Going Negative at the Zero Lower Bound: The Effects of
+Negative Nominal Interest Rates
+Journal: American Economic Review
+Manuscript ID AER-2019-0848.R4
+Manuscript Type: For Administrative Use Only
+Keywords: E32, E52, E44
+
+Page 1 of 92
+
+Disclosure Statement for “Going Negative at the Zero Lower Bound: The Effects of Negative
+Nominal Interest Rates”
+I declare that I did not receive any financial support for this particular research project. I declare
+that I did not receive any support from any interested parties. I declare that I do not hold any paid
+or unpaid positions as officer, director, or board member of relevant non-profit organizations or
+profit-making entities. I declare that no other party had the right to review the paper prior to its
+circulation. Sincerely,
+Mauricio Ulate
+
+Page 2 of 92
+
+Going Negative at the Zero Lower Bound: The Effects of
+Negative Nominal Interest Rates
+By Mauricio Ulate∗
+After the Great Recession several central banks started setting
+negative nominal interest rates in an expansionary attempt, but
+the effectiveness of this measure remains unclear. Negative rates
+can stimulate the economy by lowering the rates that commercial
+banks charge on loans, but they can also erode bank profitability
+by squeezing deposit spreads. This paper studies the effects of negative rates in a new DSGE model where banks intermediate the
+transmission of monetary policy. I use bank-level data to calibrate
+the model and find that monetary policy in negative territory is
+between 60% and 90% as effective as in positive territory.
+JEL: E32, E44, E52, E58, G21
+Keywords: Negative Interest Rates, ZLB, Monetary Policy, Bank
+Profitability
+A long tradition in macroeconomics has proposed the existence of a Zero Lower
+Bound (ZLB) on nominal interest rates. Intuitively, as cash offers a nominal
+return of zero percent, agents should not be willing to pay others to keep their
+money. However, recent experience from the aftermath of the Great Recession has
+shown that negative nominal interest rates (NNIR) are possible: the central banks
+of several advanced economies have used them as a policy tool.1 The Euro Area,
+Switzerland, Sweden, Denmark, and Japan all utilized NNIR at some point between 2014 and 2020 (Figure 1). Even if one abstracts from the Great Recession,
+the global, secular decline in interest rates increases the likelihood of recessionary
+episodes where nominal rates hit zero, as evidenced by the 2020 recession induced
+by the Covid-19 pandemic. In this environment, understanding whether negative
+rates can stimulate the economy is of great importance to academics and policy
+makers.
+∗ Federal Reserve Bank of San Francisco (email: mauricio.ulate@sf.frb.org). The views in this paper
+do not necessarily reflect the views of the Federal Reserve Bank of San Francisco or the Federal Reserve System. I am grateful to Yuriy Gorodnichenko and to Andrés Rodrı́guez-Clare for their invaluable
+guidance with this project. For useful comments I thank the referees, Pierre-Olivier Gourinchas, John
+Williams, Emi Nakamura, Jon Steinsson, Benjamin Faber, David Sraer, Benjamin Schoefer, Amir Kermani, Ludwig Straub, Tomasso Porzio, Michael Weber, David Baqaee, Ashley Lannquist, Jane Ryngaert,
+Walker Ray, Rupal Kamdar, Lidia Smitkova, Byoungchan Lee, Hassan Afrouzi, Nick Sander, Alessandra
+Fenizia, and participants in various seminars and conferences. All errors are my own.
+1 Banks hold substantial reserves that would be costly to keep in cash, so they are willing to pay the
+central bank to store their money. However, there is a limit to how much they are willing to pay; this
+has been termed the physical lower bound (PLB; e.g. Cœuré 2016). This paper will not say much about
+the level of the PLB, and focuses instead on the effectiveness of setting rates below zero but above the
+PLB. While the experience of countries setting NNIR has expanded the traditional idea of monetary
+policy space, it is important to acknowledge that the PLB is still a serious limitation to deeply negative
+nominal interest rates.
+
+1
+
+Page 3 of 92
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+Two empirical regularities have been observed across countries setting NNIR:
+retail deposit rates have remained at zero (failing to follow the policy rate into
+negative territory), and lending rates have mostly declined. Given these facts,
+it appears that negative rates can partially stimulate the economy through the
+transmission mechanisms associated with the lending rate. However, commercial
+bank profitability could be eroded by a decline in the spread between lending
+and deposit rates. Bank profitability has therefore emerged as one of the most
+pressing concerns when adopting NNIR.2 For example, Benoit Cœuré, who serves
+on the Executive Board of the ECB, said in 2016: “A reduction in interest rates
+could harm interest margins, and this could be even more pronounced when rates
+enter negative territory, due to a potential Zero Lower Bound for retail deposit
+rates.” This concern has been echoed in the business press. The Economist wrote
+in 2016: “If interest rates go deeper into negative territory, profit margins will be
+squeezed harder. And if banks are not profitable, they are less able to add to the
+capital buffers that let them operate safely.”
+In this paper, I study the effects of NNIR on the economy through the lens
+of a new DSGE model with New Keynesian features where banks intermediate
+the transmission of monetary policy. In the model, when the central bank sets
+negative nominal policy rates, deposit rates remain at zero. The lending rate is
+then affected by two forces. On one hand, the policy rate decline exerts downward
+pressure on the loan rate. This is the bank lending channel of monetary policy,
+which tends to stimulate the economy. On the other hand, the erosion of bank
+profitability brought about by the decline in the deposit spread will, over time,
+be transmitted to a decline in bank equity. This leads to upward pressure on
+the lending rate. I will refer to this as the net-worth channel of monetary policy,
+which has a contractionary effect. The equilibrium behavior of the lending rate
+depends on the relative importance of the two channels.
+The model features three main frictions affecting the banking sector. First,
+banks have some monopoly power in lending and managing deposits. As a result,
+the deposit rate that financial intermediaries pay households is different from the
+policy rate that the central bank pays on reserves. The policy rate also differs
+from the rate that borrowers pay commercial banks for loans. This friction is
+essential for the bank lending channel, since banks are only able to lower their
+lending rate (despite the fact that their funding costs are constant, i.e., stuck
+at the ZLB) because of the existence of a profit margin. The second friction
+is that, after a shock, banks cannot immediately regain their optimal level of
+equity. Instead, they accumulate capital slowly, through retained earnings. The
+third friction is that bank equity matters for lending. In particular, banks care
+about their level of leverage, and they are reluctant to lend when this variable
+is too high. Frictions two and three lead to the existence of a relevant bank
+2 Both central banks that implemented negative rates and those that did not have cited bank profitability as a concern: Bank of Japan (2016), Danmarks Nationalbank (2015), Bean (2013), and Jackson
+(2015).
+
+Page 4 of 92
+
+GOING NEGATIVE AT THE ZERO LOWER BOUND
+
+200
+
+VOL. VOL NO. ISSUE
+
+3
+
+ECB: Deposit Facility Rate
+DN: Certificates of Deposit
+
+SR: Repo Rate
+
+0
+
+100
+
+BoJ: Policy Rate
+
+-100
+
+Interest Rates, in basis points
+
+SNB: Sight Deposits
+
+2010
+
+2012
+
+2014
+
+2016
+
+2018
+
+2020
+
+Date
+
+Figure 1. Negative rates experience
+Note: This figure shows the rates paid by the Central Bank of Denmark (DN), the European Central
+Bank (ECB), the Central Bank of Sweden (SR), the Swiss National Bank (SNB), and the Bank of Japan
+(BoJ), in basis points, between 2010 and 2020. The concept of interest rate used for each region is
+described in the legend. The data was gathered directly from each central bank.
+
+net-worth channel. The combination of the stimulative bank lending channel and
+the contractionary bank net-worth channel implies that setting NNIR has both
+beneficial and detrimental effects, the relative importance of which determines
+the overall usefulness of setting a negative policy rate.
+I start by developing a static model of the banking sector that contains only the
+first friction (bank monopolistic competition). In this model there is a continuum
+of commercial banks. Each individual bank receives an exogenous level of equity
+and obtains deposits from consumers. With the resources available after combining their equity and deposits, commercial banks can either provide loans to firms
+or keep reserves at the central bank. Banks face an upward-sloping deposit supply
+curve and a downward-sloping loan demand curve. Deposit supply and loan demand for each individual bank arise from the fact that depositors and borrowers
+have CES preferences across banks. The aggregate amounts of deposits supplied
+and loans demanded are taken as given for now, as this is a partial equilibrium
+exercise. Additionally, the model assumes that if a bank sets a negative deposit
+rate then it obtains no deposits, as consumers could simply save in cash.
+
+Page 5 of 92
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+In this context, there exists a positive, but small, threshold for the policy rate,
+denoted by ι̃, at which the behavior of banks changes. I will refer to the case
+where the policy rate is above ι̃ as “Regime 1.” In this regime, because of the
+monopolistic competition setup, each bank sets its loan rate as a mark-up on the
+policy rate and its deposit rate as a mark-down on it. Consequently, changes in
+the policy rate are fully passed through to the loan and deposit rates. It will be
+useful to define the loan spread as the difference between the loan and the policy
+rate, and the deposit spread as the difference between the policy and the deposit
+rate. Bank return on equity (ROE) can then be expressed as the sum of three
+terms: the policy rate, the loan spread times the loan-to-equity ratio, and the
+deposit spread times the deposit-to-equity ratio. In Regime 1 the spreads do not
+change with the policy rate, and so ROE moves one-for-one with the policy rate.
+When the policy rate is below ι̃, denoted “Regime 2,” banks would like to set
+a negative deposit rate to earn their usual deposit spread. However, if they do so
+they lose all deposits, and so they set a zero deposit rate instead.3 The loan rate
+is still set as a mark-up on the policy rate, since holding reserves is the marginal
+use of bank funds. Therefore, a decline in the policy rate is still fully transmitted
+into the lending rate, giving rise to the stimulative bank lending channel of NNIR
+mentioned above. In this regime, the loan spread remains constant, but the
+deposit spread falls with the policy rate. Consequently, ROE falls more than onefor-one with the policy rate. In this static model, the steep decline in ROE that
+occurs in Regime 2 after a cut in the policy rate has no perverse effects on the
+lending rate, due to the lack of dynamics and the absence of additional frictions;
+the contractionary bank net-worth channel is not operational yet.
+The static model has four testable predictions. First, in Regime 2 the deposit
+rate stops reacting to the policy rate. Second, the lending rate continues to fall
+with the policy rate even in Regime 2. Third, bank ROE is affected by a cut in
+the policy rate more in Regime 2 than in Regime 1. Fourth, the higher sensitivity
+of bank return on equity to the policy rate in Regime 2 is more pronounced for
+banks that rely heavily on retail deposits for funding. I use bank-level data from
+more than five thousand banks in 10 advanced regions (i.e., the five advanced
+regions that have set negative rates and five other comparable advanced regions,
+including the United States, that have set very low rates) to test these predictions.
+The first step is to estimate the threshold level ι̃. A variety of tests confirm the
+existence of a change in the slope of the response of both the deposit rate and ROE
+to the policy rate when the policy rate is around 50 basis points. Consequently,
+I set ι̃ = 0.5%. I then test the four predictions and find strong support for them
+in the data. The prediction that the loan rate continues to fall with the policy
+rate in Regime 2 is especially useful for differentiating between my model and
+alternative ones that propose that negative rates cannot be expansionary.
+3 There exists a second threshold i < 0 below which it becomes too costly for banks to accept deposits
+that earn a negative spread; in that region some banks stop receiving deposits. I postpone this discussion
+to Section I.
+
+

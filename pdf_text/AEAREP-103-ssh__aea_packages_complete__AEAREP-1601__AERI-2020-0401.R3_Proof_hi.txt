@@ -1,0 +1,278 @@
+Optimal Lockdown in a Commuting Network
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0401.R3
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+04-Feb-2021
+Author:
+Complete List of Authors: Fajgelbaum, Pablo; Princeton University, Economics
+Khandelwal, Amit; Columbia Business School, Finance and Economics
+Kim, Wookun; Southern Methodist University
+Mantovani, Cristiano; Universitat Pompeu Fabra
+Schaal, Edouard; Centre de Recerca en Economia Internacional,
+Keywords: Pandemics, Spatial Lockdown, Commuting Network
+
+Page 1 of 42
+
+Optimal Lockdown in a Commuting Network∗
+Pablo D. Fajgelbaum1 , Amit Khandelwal2 , Wookun Kim3 , Cristiano Mantovani4 , and
+Edouard Schaal5
+1
+
+Princeton and NBER
+Columbia GSB and NBER
+3
+Southern Methodist University
+4
+Universitat Pompeu Fabra
+5
+CREI, ICREA, UPF, BGSE and CEPR
+2
+
+November 13, 2020
+
+Abstract
+We study optimal dynamic lockdowns against Covid-19 within a commuting network. Our
+framework integrates canonical spatial epidemiology and trade models, and is applied to cities
+with varying initial viral spread: Seoul, Daegu and NYC-Metro. Spatial lockdowns achieve
+substantially smaller income losses than uniform lockdowns. In NYM and Daegu—with large
+initial shocks—the optimal lockdown restricts inflows to central districts before gradual relaxation, while in Seoul it imposes low temporal but large spatial variation. Actual commuting
+reductions were too weak in central locations in Daegu and NYM, and too strong across Seoul.
+JEL Classification: R38, R4, C6
+
+∗
+
+E-mail : pfajgelb@princeton.edu, ak2796@columbia.edu, wookunkim@smu.edu, cristiano.mantovani@upf.edu, eschaal@crei.cat. We thank Andy Atkeson for his comments, as well as the editor and two anonymous referees. Schaal
+acknowledges financial support from the European Research Council under the European Union’s Horizon 2020 research and innovation program (OPTNETSPACE - 804095), the Spanish Ministry of Economy and Competitiveness,
+through the Severo Ochoa Programme for Centres of Excellence in R&D (CEX2019-000915-S) and from the Government of Catalonia, through the SGR Programme (2017-SGR-1393) and CERCA Programme. We thank SafeGraph
+for making their data freely available. We thank Hyungmo Choi for providing excellent research assistance.
+
+Page 2 of 42
+
+1
+
+Introduction
+Commuting networks are the backbone of cities, allowing interactions that are vital for economic
+
+growth. On a typical day, Manhattan receives as many commuters as its residents–about 1.6 million
+people. Two months after the onset of Covid-19, NYC metro commute flows were 48% below prepandemic levels. Weighing the economic costs against the benefits of stopping Covid-19, was this
+reduction too large or not large enough? To fight a highly infectious disease without a vaccine,
+public authorities must decide if and how to curtail movements across locations connected via
+commuting and trade.1 How should lockdown policies be set across locations and time?
+In this paper we establish an efficient benchmark against which to measure the losses from
+uncoordinated or spatially uniform lockdown efforts. We study optimal dynamic lockdowns to fight
+pandemics in a commuting network using a framework that integrates standard spatial epidemiology
+and trade models.2 In the model, a disease spreads through interactions of commuters at the
+workplace. Lockdown policies directly reduce the real income of workers who stay at home and
+increase shopping costs, and indirectly impact other locations through shifts in expenditures.3
+In reality, policies that close specific businesses preclude commutes along particular routes. Our
+planning problem determines the fraction of each origin-destination commuting flow allowed to
+operate at each point in time to minimize the economic costs and the loss of lives. We also
+implement optimal lockdowns by origin or destination that resemble less flexible closures (e.g.,
+lockdowns by neighborhood).
+We apply the model using real-time commuting data across districts in two South Korean cities,
+Seoul and Daegu, and cellphone mobility data across counties in the NYC Metro area (NYM).
+We compare optimal pandemic-fighting strategies across intensities of the initial virus shock and
+contrast them with the observed commuting responses. We analyze Korean cities because Korea
+has tested for Covid-19 at greater intensities than most countries, making the timeline of their case
+data more reliable.4 Seoul is the largest city in Korea and experienced a relatively small caseload,
+while Daegu (Korea’s fourth-largest city) experienced the country’s largest shock. We study NYM
+because of its economic importance and rapid spread.
+We compute the optimal lockdown given the Covid-19 spread when lockdown policies were announced. The model matches pre-pandemic commuting flows and wages across locations (Korean
+districts and NYM counties). We estimate the transmission rate using data on the spatial distribu1
+
+Lockdowns were announced fairly uniformly across bordering U.S. states, with a mean difference of 4 days,
+although there has been variation in county-level policies. For example, New York, New Jersey, and Connecticut
+imposed almost simultaneous lockdown in March 2020, while Illinois did so more two weeks before Missouri (Raifman
+et al., 2020).
+2
+The spatial SIR model we formulate is closely related to the multi-city epidemic model in Arino and Van den
+Driessche (2003), in which the disease is transmitted from infected residents of location i to susceptible residents of
+location j when they meet in location k. The trade model follows Anderson and Van Wincoop (2003).
+3
+Caliendo et al. (2018) and Monte et al. (2018) study diffusion of local shocks across and within cities in related
+gravity models.
+4
+Korea had performed 0.878 tests per thousand people at the time of its 1000th patient compared to 0.086 in the
+U.S. Stock (2020), Manski and Molinari (2020), Korolev (2020), and Atkeson (2020a) discuss challenges arising from
+infrequent testing.
+
+1
+
+Page 3 of 42
+
+tion of new cases and commuting flows over time. We use geocoded credit card expenditure data
+from Seoul to estimate the impact of lockdown on the travel costs of shopping.
+Our first results show that in NYM and Daegu—where the virus initially spread very quickly—
+locations with high virus-diffusion potential are subject to a strict initial lockdown, eliminating up
+to 70% of pre-pandemic inflows, which is partially relaxed over 3 to 6 months. In NYM, many
+locations are locked down early, but only the top-3 central locations (Manhattan, Brooklyn, and
+Bronx) remain closed for a long time in expectation that a vaccine arrives. In contrast, in Seoul—
+where the initial spread of Covid-19 was much smaller—the planner initially locks down only a few
+locations of relatively high centrality. As the virus spreads, the lockdown intensifies and retains
+considerable spatial variation.
+Our main result reveals large benefits from spatial targeting. Specifically, we find substantially
+lower real-income losses from spatial targeting compared to an optimal but spatially uniform lockdown. Given the actual case count by April 30, spatial targeting would have led to 20%, 32%, and
+58% lower economic costs in Daegu, Seoul, and NYM, respectively, than the optimal uniform lockdown. We find that optimal lockdowns by destination of commuting flows are almost as efficient as
+the fully flexible benchmark, suggesting that spatially targeted business lockdowns may be enough
+to reap the benefits of spatial targeting.
+Finally, we compare the optimal benchmark with the observed commuting reductions resulting
+from government action and commuters’ precautionary behavior. On average across locations,
+commuting declines reached troughs of 79%, 36%, and 79% below pre-pandemic levels in Daegu,
+Seoul, and NYM before modestly reverting upward. In NYM and Daegu, these city-level declines
+are not far from the optimal benchmark. However, the most central (peripheral) locations exhibited
+a weaker (stronger) reduction in commuting than what would have been optimal. Across Seoul,
+the actual commuting reductions were too strong compared to the optimal. As a result, across all
+three cities, the real income losses could have been much smaller through optimal spatial targeting.
+Studies of optimal epidemic control in economic models include Goldman and Lightwood (2002)
+and Rowthorn and Toxvaerd (2012) and, in the context of Covid-19, Atkeson (2020b), Alvarez et al.
+(2020), Jones et al. (2020), Piguillem and Shi (2020), Rowthorn (2020), and Rowthorn and Toxvaerd
+(2020), among others. Acemoglu et al. (2020), Baqaee et al. (2020), and Glover et al. (2020) among
+others study lockdown with heterogeneous agents.
+Adda (2016) demonstrates that diseases spread through transportation networks exploiting
+variation from public-transport strikes in France, and Viboud et al. (2006) show that work-related
+flows correlate with influenza’s regional spread in the United States. For Covid-19, Tian et al.
+(2020) argue that the Wuhan lockdown and suspending public transport delayed the spread across
+China, Fang et al. (2020) show that the lockdown reduced infection rates using real-time movement
+data, Kissler et al. (2020) show that commuting correlates with cases within New York, and Hsiang
+et al. (2020) and Flaxman et al. (2020) show that interventions like lockdown reduced the spread.
+Spatial SIR models were first used to study influenza and measles (Rvachev and Longini Jr,
+1985; Bolker and Grenfell, 1995). Germann et al. (2006), Eubank et al. (2004) and Drakopolous
+
+2
+
+Page 4 of 42
+
+and Zheng (2017) study targeted policies in spatial or network models, and Rowthorn et al. (2009)
+analyze their theoretical properties. For Covid-19, Azzimonti et al. (2020), Birge et al. (2020),
+Chang et al. (2020), Chinazzi et al. (2020), and Giannone et al. (2020) simulate policies in spatial
+and network SIR models, Argente et al. (2020) consider case information disclosure, and Antràs
+et al. (2020) study pandemics in a trade model with human interactions.
+Our contribution is three-fold. First, we implement optimal lockdown over both time and space
+in a commuting network. Second, to evaluate the diffusion of economic costs through changes in
+spending we integrate a general-equilibrium trade framework. Third, we use real-time commuting
+and expenditure data to estimate and compare the actual commuting responses over space with
+optimal lockdowns.
+
+2
+
+Model
+We use a standard spatial epidemiology model similar to Arino and Van den Driessche (2003).
+
+The general equilibrium corresponds to a standard quantitative gravity trade model (e.g., Anderson
+and Van Wincoop 2003 and Eaton and Kortum 2002).
+
+2.1
+
+Spatial Diffusion
+
+The economy consists of J locations in continuous time. Before the pandemic, in each location
+i there are N0 (i) residents, of which a fraction λ (i, j) commutes to j. We let Λ be the matrix of
+bilateral commuting flows such that [Λ]ij = λ (i, j).5
+At each time t, the surviving residents of location i are either susceptible, exposed, infected, or
+recovered in quantities S (i, t), E (i, t), I (i, t), and R (i, t), respectively. Susceptible agents become
+exposed after interacting with infected agents; exposed agents are latent carriers who do not infect
+others and become infected at rate γI . Infected agents die at rate γD or recover (and become
+immune) at rate γR . The spatial distributions are collected in the (column) vectors S (t), E (t),
+I (t), and R (t).
+The government can control the fraction χ (i, j, t) of commuting flows from i to j by imposing
+lockdown measures, providing incentives, or broadcasting information.6 Every agent is subject to
+the policy regardless of infection status. Among those not infected and not physically commuting,
+a fraction δ telecommutes. Among the infected, only the asymptomatic fraction ζ works. The
+lockdown policies are collected in the J by J matrix χ (t).
+The geographic spread of the disease depends on how much infected and susceptible people
+interact in space. The infections could happen anywhere at commuting locations, such as in train
+
+5
+These initial distributions could be the equilibrium of a spatial model as in Redding and Rossi-Hansberg (2017).
+Given our timeframe we assume no job switches other than through lockdown.
+6
+An implicit assumption is that policymakers can randomly test to obtain location-specific distributions of each
+infection status, but cannot observe every individual’s status. Such random testing would also mitigate potential
+errors in testing (e.g., Manski and Molinari 2020).
+
+3
+
+Page 5 of 42
+
+stations, workplaces, or restaurants. In this benchmark the virus diffuses only through commuting.
+In alternative specifications we also allow the virus to spread through shopping.
+P
+Let S̃ (j, t) ≡ i0 χ (i0 , j, t) λ (i0 , j) S (i0 , t) be the number of susceptible agents (from any origin)
+P
+0
+0
+0
+exposed in j, and I˜ (j, t) ≡ ζ
+0 χ (i , j, t) λ (i , j) I (i , t) be the number of infected asymptomatic
+i
+
+agents (from any origin) spreading the disease in j. In matrix form, S̃ (t) ≡ HS (t) S (t) and
+Ĩ (t) ≡ HI (t) I (t), where HS (t) and HI (t) are spatial incidence matrices that depend on prepandemic commuting flows and current lockdown policies:
+Hu (χ (t)) = ζu (Λ · χ (t))0 ,
+
+(1)
+
+where ζI = ζ, ζS = 1, and · is the element-wise product. The (ji) element of HS (t) is the exposure
+of the S (i, t) susceptible residents of location j to the I˜ (j, t) infected commuters to j. Similarly,
+the (ji) element of HI (t) is the exposure of the I (i, t) infected residents of location j to the S̃ (j, t)
+susceptible commuters to j.
+The flow of new infections in j is
+
+
+Mj I˜ (j, t) , S̃ (j, t) ,
+
+(2)
+
+where Mj (·) represents the matching process between infected and susceptible individuals in j. The
+infections taking place in j are carried back by susceptible and infected agents to their residence.
+Of these infections, a fraction HS (j, i, t) S (i, t) /S̃ (j, t) corresponds to residents of i. Therefore,
+the flow of the new infections among location i’s residents is:
+Ṡ (i, t) = −
+
+X HS (j, i, t) S (i, t)
+j
+
+2.2
+
+S̃ (j, t)
+
+
+
+Mj I˜ (j, t) , S̃ (j, t) .
+
+(3)
+
+Real Income
+
+The economic costs of lockdown enter through the distribution of real income,
+U (i, t) =
+
+Y (i, t)
+,
+P (i, t)
+
+(4)
+
+where P (i, t) is the cost of living and Y (i, t) is the nominal income of location-i residents:
+Y (i, t) =
+
+X
+
+X
+
+Nu (i, j, t) w (j, t) ,
+
+(5)
+
+u=S,E,I,R j
+
+Here, w (j, t) is the wage per efficiency unit in j at time t and Nu (i, j, t) is the flow of efficiency
+units of type-u commuters from i to j:
+Nu (i, j, t) = ζu [χ (i, j, t) + (1 − χ (i, j, t)) δ] λ (i, j) u (i, t) ,
+
+4
+
+(6)
+
+

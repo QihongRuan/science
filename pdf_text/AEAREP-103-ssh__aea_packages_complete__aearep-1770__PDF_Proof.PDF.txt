@@ -1,0 +1,192 @@
+Can Network Theory-based Targeting Increase Technology
+Adoption?
+Journal: American Economic Review
+Manuscript ID AER-2020-0295.R2
+Manuscript Type: For Administrative Use Only
+Keywords: O16, O13
+
+Page 1 of 60
+
+Can Network Theory-based Targeting Increase Technology Adoption?
+
+By LORI BEAMAN, ARIEL BENYISHAY, JEREMY MAGRUDER AND AHMED MUSHFIQ
+MOBARAK*
+Can targeting information to network-central farmers induce more adoption of a
+new agricultural technology? By combining social network data and a field
+experiment in 200 villages in Malawi, we find that targeting central farmers is
+important to spur the diffusion process. We also provide evidence of one explanation
+for why centrality matters: a diffusion process governed by complex contagion. Our
+results are consistent with a model in which many farmers need to learn from
+multiple people before they adopt themselves. This means that without proper
+targeting of information, the diffusion process can stall and technology adoption
+remains perpetually low.
+
+* Beaman: Department of Economics and Institute for Policy Research, Northwestern University, Evanston IL (email: lbeaman@northwestern.edu); BenYishay: Department of Economics, College of William and Mary (email: abenyishay@wm.edu); Magruder,
+Agricultural and Resource Economics, University of California-Berkeley (email: jmagruder@berkeley.edu); and Mobarak: Yale University
+(ahmed.mobarak@yale.edu). We thank the CEGA/JPAL Agricultural Technology Adoption Initiative (ATAI) and 3ie for financial support.
+Beaman acknowledges support by the National Science Foundation under grant no. 1254380. We gratefully acknowledge the support and
+cooperation of Paul Fatch, Readwell Musopole and many other staff members of the Malawi Ministry of Agriculture. Thomas Coen, Niall
+Kelleher, Maria Jones, Ofer Cohen, Allen Baumgardner-Zuzik, and the IPA-Malawi country office provided invaluable support for data
+collection. Hossein Alidaee and provided excellent research assistance. We thank, without implicating, the editor and anonymous referees, Arun
+Chandrasekhar, Matt Jackson, Kaivan Munshi, Chris Udry and numerous seminar audiences for very helpful comments. The study is registered
+with the AEA registry under AEARCTR-0002017 (see Beaman et al. 2018). IRB approval was provided by Northwestern University
+(STU00030251) and MIT (COUHES 1005003884). The data repository is openicpsr-130605 (see Beaman et al. 2021). All errors our own.
+
+1
+
+Page 2 of 60
+
+1
+
+Introduction
+
+Technology diffusion is critical for growth and development (Alvarez et al. 2013, Perla and
+Tonetti 2014). Information frictions are potential constraints to technology adoption, and social
+relationships can serve as important vectors through which individuals learn about, and are then
+convinced to adopt, new technologies. 1 Adoption of apparently productive new technologies has
+often been frustratingly slow (Ryan and Gross 1943, Munshi 2007, Jack 2011, Qiao 2015). This
+generates a policy priority: how can policy-makers effectively use social relationships to promote
+technological diffusion? In this paper, we implement a field experiment in which we choose entry
+points of information (seeds) into a social network and introduce a productive new agricultural
+technology via those seeds across 200 villages in Malawi.
+A rich empirical literature has documented faster diffusion when technologies were seeded
+with people who are central in the network (Banerjee et al. 2013 in the context of microfinance in
+India; Banerjee et al. 2019 in the context of immunization in India; Kim et al. 2015 looking at
+health behaviors in Honduras). Targeting information to central agents in a network can even work
+better than broadcasting information widely (Banerjee et al. 2020).
+These empirical patterns that establish the importance of centrality may be surprising given
+recent theoretical discussion by Akbarpour, Malladi and Saberi (2020) (henceforth AMS) which
+shows that in many canonical diffusion models, adding a few additional seeds leads to more
+diffusion than targeting central people to serve as seeds. The class of models AMS consider require
+three conditions: first, agents must adopt a new behavior after a single exposure to someone else
+who has adopted in the network. This is called ‘simple contagion’ and is the base for workhorse
+models like the Susceptible-Infected-Recovered (SIR) model. Second, the time period for adoption
+is sufficiently long; and finally, social interaction within the network is frequent. The intuition for
+the AMS result is straightforward: whether central or not, people are connected to their local
+network, so given enough time and enough talk, messages will spread through their connections
+and quickly reach the well-connected people at the network’s center. Adding a few more seeds at
+random increases the probability that at least one of them will be close to the well-connected center
+to begin with, making targeting relatively unimportant. However, if any of the three criteria fail,
+
+1
+
+Large literatures in economics (Duﬂo and Saez 2003, Munshi 2008, Magruder 2010, Beaman 2012), finance (Bursztyn et al. 2013), sociology
+(Rogers 1962), and medicine and public health (Coleman et al. 1957, Flodgren et al. 2007, Oster and Thornton 2012) show that information and
+behaviors spread through inter-personal ties.
+
+2
+
+Page 3 of 60
+
+then targeting may be necessary to prevent information frictions from curbing widespread
+technological diffusion.
+Our paper helps bridge the gap between these theoretical and empirical results. We
+implemented a randomized controlled trial where we used different variants of the threshold model
+of diffusion (e.g. Granovetter 1978, Centola and Macy 2007, Acemoglu et al. 2011) to choose
+seeds. This creates a unifying framework which both generates variation in seed centrality across
+treatment arms and also helps us explore why targeting may matter for technology diffusion.
+Our experiment takes place in an important real-world context: agricultural extension
+services in developing countries. Agricultural productivity growth in Africa has stalled (World
+Bank 2008), in part because of a slow adoption rate of new technologies. Agricultural extension is
+the key policy tool governments use to promote technology adoption (Anderson and Feder 2007),
+and it often relies on social learning. 2 We partnered with the Ministry of Agriculture in Malawi to
+run an experiment that could enhance the effectiveness of its extension services by partnering with
+two “seed” farmers in each study village who could induce widespread social learning. The
+experiment was implemented in 200 villages, with 50 villages in each of the four treatment groups.
+The specific technology promoted, ‘pit planting’, has the potential to significantly improve maize
+yields in arid areas of rural Africa. 3 It is a practice that was largely unknown in Malawi, and
+learning is therefore crucial for the diffusion of this technology.
+In the Benchmark treatment, extension agents chose the seeds as they normally would
+(status quo or picking by experts). In the remaining treatment groups, we strategically chose the
+seeds using detailed social network data we collected in every village. We ensured that selected
+seeds in different treatments would inhabit different parts of the network by exploiting variations
+on the threshold model of diffusion to suggest pairings of seeds that may be more or less effective,
+given different underlying diffusion processes. In the second treatment group, we selected seeds
+who would (in theoretical simulations) optimize diffusion over a 4-year period, if the diffusion
+process is characterized by a complex contagion. Complex contagion is a diffusion process in
+2
+A large literature has established that social learning about agricultural practices influences the uptake of new technologies among farmers
+(Griliches 1957, Foster and Rosenzweig 1995, Munshi 2004, Bandiera and Rasul 2006, Conley and Udry 2010, Burlig and Stephens 2019, Islam
+et al. 2019).
+3
+It has been shown to increase productivity by 40-100% in tests conducted under controlled conditions (Haggblade and Tembo 2003); in largesample field tests conducted under realistic “as implemented by government” conditions (BenYishay and Mobarak 2019), and using experimental
+variation among villagers in the present study.
+
+3
+
+Page 4 of 60
+
+which technology only diffuses when individuals are connected to at least two knowledgeable
+farmers. The pair of seeds chosen by this complex contagion treatment are both central in the
+network. Seed selection in the third treatment is the result of simulations of the simple contagion
+variant of the threshold model, where farmers only need to know one knowledgeable farmer. In
+simple diffusion, a single central seed will diffuse to the dense part of the network so that a second
+seed is best used to diffuse to the more distant periphery. As a result, one of the seeds is networkcentral while the second person is typically more peripheral. This variant of the model is similar
+to those considered in the AMS framework. In the final treatment group, we used geography to
+proxy for social network data, to create a cheaper, “scalable” approach coupled with the complex
+contagion model. These seeds are typically low centrality, but are close to each other in the
+network.
+During the 3-year period of the experiment, pit planting adoption grew from 0% to about
+11% in the villages with two highly central seeds. This rate of increase in adoption is comparable
+to the spread of some very profitable new agricultural technologies (e.g. Munshi 2007). Ryan and
+Gross (1943) show that it took 10 years for hybrid seed corn to be adopted in Iowa in the 1930s.
+The adoption rate is 3 percentage points lower in Benchmark villages in years 2 and 3, though only
+the year 2 differences are statistically significant.
+We also test whether the initial advantage of central seeding will likely dissipate over time
+by examining another important metric: whether any farmers in the village other than the seeds
+adopt. If there is no diffusion within the first three years, it is unlikely that conversation and
+experience over longer time horizons will inspire broad technology adoption. We observe a critical
+failure of expert-based seeding. There is no diffusion of pit planting in 45% of the Benchmark
+villages after 3 years. In villages with two highly central seeds, there was a 56% greater likelihood
+(p<0.01) that at least one person other than the seeds adopts the technology in the village, relative
+to the Benchmark. The results clearly indicate that targeting central seeds was necessary to
+generate adoption of pit planting in Malawi.
+We then turn to understanding why central targeting was so important in this context. One
+potential explanation is that the variant of the threshold model that we used to select seeds captures
+the underlying diffusion process. AMS and Jackson and Storms (2018) demonstrate that targeting
+on the basis of centrality is more important when there is complex contagion. We show that
+different thresholds for technology adoption are naturally micro-founded through a naive Bayesian
+4
+
+Page 5 of 60
+
+learning model, as we discuss in section 5.1. We anticipate that learning about a new agricultural
+technology in a developing country is precisely a context in which agents may have a high
+threshold. This fact would have clear policy relevance: if farmers need to learn from more than
+one informed connection before they themselves adopt, this would generate a very slow and in
+many cases permanently stalled adoption pattern, just as we observe in Benchmark villages.
+Overcoming this problem would necessitate targeting central individuals, as in Banerjee et al
+(2019).
+The diffusion we observe demonstrates several empirical regularities consistent with
+complex contagion. Though, we note that it is difficult to differentiate complex contagion from
+other reasons that targeting multiple central farmers may improve technology adoption. We
+observe three patterns suggested by complex contagion. First, a key insight from the threshold
+model is that poor targeting could lead to a complete failure of adoption within the village, as we
+see in our data. Second, consistent with our theory, we show that treatment effects are largest (i)
+in villages where there is more to learn, because baseline knowledge was lowest, and (ii) among
+farmers whose land is most suited to pit planting. Third, we use our farmer-level data to provide
+direct evidence in support of complex contagion. We leverage the random treatment assignment
+to identify that farmers who are connected to two seeds are more likely to learn about and adopt
+pit planting than farmers connected to only one seed, holding network position constant.
+The targeting method used in this paper is a proof of concept, relying on an expensive
+method of collecting network data. As such, it is not intended to be practical or directly scalable.
+The next step is to use cheaper ways to identify highly central individuals. One could use gossips
+(Banerjee et al. 2019); cell phone data (Bjorkegren 2018, Blumenstock et al 2019) or other
+administrative data (Bennett and Bergman 2020); or aggregated relational data from a sample of
+individuals (Breza et al. 2020) to achieve this. 4
+The rest of the paper is organized as follows. We start with the experimental setting and
+design, along with details on the implementation of the intervention. Section 3 describes the data.
+Section 4 presents the average treatment effects on pit planting adoption. In section 5, we propose
+4
+
+In our paper we did one lower cost method, the geography-based targeting strategy. It generated some gains in adoption relative to the
+benchmark. However, physical proximity does not appear to be a good proxy for social connections in this context. A variety of other papers test
+the ability of local institutions, such as nominations or focus groups, to identify useful partners: Kremer et al. (2011) identify and recruit
+‘ambassadors’ to promote water chlorination in rural Kenya, Miller and Mobarak (2015) first market improved cookstoves to ‘opinion leaders’ in
+Bangladeshi villages before marketing to others, and BenYishay and Mobarak (2018) incentivize ‘lead farmers’ and ‘peer farmers’ to partner with
+agricultural extension officers in Malawi. We also develop an intuitive algorithm to identify central farmers that can be implemented with a small
+number of interviews, and simulations on our data show that this method would generate large gains in technology adoption.
+
+5
+
+

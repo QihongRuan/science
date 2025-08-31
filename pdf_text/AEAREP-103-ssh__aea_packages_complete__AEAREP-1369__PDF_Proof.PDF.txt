@@ -1,0 +1,158 @@
+Does Biology Drive Child Penalties? Evidence from Biological
+and Adoptive Families
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0260.R3
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+21-Oct-2020
+Author:
+Complete List of Authors: Kleven, Henrik; Princeton University, Economics
+landais, camille; London School of Economics, Economics
+Søgaard, Jakob; Kobenhavns Universitet, Economics
+Keywords: Child Penalty, Biology, Adoptees
+
+Page 1 of 27
+
+American Economic Journals Disclosure Statement
+
+Date: October 21, 2020
+Author Name: Camille Landais
+Manuscript Title: Does Biology Drive Child Penalties? Evidence from Biological and
+Adoptive Families
+
+Disclosure Statement:
+I have not received significant compensation in the past three years from any interested
+party.
+This study has received support from:
+ The Center for Economic Behavior and Inequality (CEBI) at the University of
+Copenhagen, financed by grant #DNRF134 from the Danish National Research
+Foundation.
+ The EU Marie Skłodowska-Curie Fellowship #841969.
+
+Page 2 of 27
+
+American Economic Journals Disclosure Statement
+
+Date: October 21, 2020
+Author Name: Henrik Kleven
+Manuscript Title: Does Biology Drive Child Penalties? Evidence from Biological and
+Adoptive Families
+
+Disclosure Statement:
+I have not received significant compensation in the past three years from any interested
+party.
+This study has received support from:
+ The Center for Economic Behavior and Inequality (CEBI) at the University of
+Copenhagen, financed by grant #DNRF134 from the Danish National Research
+Foundation.
+ The EU Marie Skłodowska-Curie Fellowship #841969.
+
+Page 3 of 27
+
+American Economic Journals Disclosure Statement
+
+Date: October 21, 2020
+Author Name: Jakob Egholt Søgaard
+Manuscript Title: Does Biology Drive Child Penalties? Evidence from Biological and
+Adoptive Families
+
+Disclosure Statement:
+I have not received significant compensation in the past three years from any interested
+party.
+This study has received support from:
+ The Center for Economic Behavior and Inequality (CEBI) at the University of
+Copenhagen, financed by grant #DNRF134 from the Danish National Research
+Foundation.
+ The EU Marie Skłodowska-Curie Fellowship #841969.
+
+Page 4 of 27
+
+Does Biology Drive Child Penalties? Evidence from Biological
+and Adoptive Families
+By Henrik Kleven, Camille Landais and Jakob Egholt Søgaard*
+This paper investigates if the impact of children on the labor market outcomes of women relative to men — child penalties — can
+be explained by the biological links between mother and child. We
+estimate child penalties in biological and adoptive families using
+event studies around the arrival of children and almost forty years
+of adoption data from Denmark. Short-run child penalties are
+slightly larger for biological mothers than for adoptive mothers,
+but their long-run child penalties are virtually identical and precisely estimated. This suggests that biology is not a key driver of
+child-related gender gaps.
+JEL: D13, J13, J16, J22.
+Parenthood has large and persistent effects on the labor market outcomes of women,
+but not men. This holds across different households, across different countries and over
+time, making it one of the most robust findings in labor economics. Estimates of long-run
+child penalties in female earnings range from 20-25% in Scandinavian countries to 30%
+in the United States and a staggering 60% in Germany (Kleven, Landais and Søgaard
+2019a; Kleven et al. 2019b). In fact, most of the remaining gender inequality in highincome countries can be attributed to the unequal impacts of children on men and women
+(Kleven, Landais and Søgaard 2019a; Kleven et al. 2020).
+Why are child penalties so large and persistent? While the evidence on reduced-form
+impacts is fairly conclusive, our understanding of the underlying mechanisms is much less
+developed. A traditional explanation focuses on the factor that make men and women
+obviously different: biology. Only women can bear and give birth to children, and only
+women have the option to breastfeed. One would certainly expect such factors to matter
+for the short-run impacts of children, say within a year or two of child birth, but they could
+also matter for the long-run impacts.
+Two sets of reasons point to the possibility of long-run impacts. First, the physiological
+implications of pregnancy, delivery and breastfeeding may extend beyond the short run.
+This could be due either to post-partum health complications or to changes in hormonal
+levels and brain structure around child birth. Indeed, a large literature in neurobiology
+argues that pregnancy and child birth create lasting changes in hormones and gray matter
+* Kleven: Princeton University, NBER, CEPR, and CEBI, address1, kleven@princeton.edu. Landais: London
+School of Economics and CEPR, address2, c.landais@lse.ac.uk. Søgaard: University of Copenhagen and CEBI, address2, jes@econ.ku.dk. We thank Amy Finkelstein, Rohini Pande, and three anonymous referees for comments.
+We gratefully acknowledge support from the Center for Economic Behavior and Inequality (CEBI) at the University of Copenhagen, financed by grant #DNRF134 from the Danish National Research Foundation. Søgaard also
+acknowledges support from the Marie Sklodowska-Curie Fellowship #841969.
+
+1
+
+Page 5 of 27
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+associated with maternal attachment (see e.g., Numan and Insel 2003; Feldman et al. 2007;
+Hoekzema et al. 2017). Second, biology may affect long-run labor market outcomes through
+the dynamic effects of work interruptions. Interrupting work around pregnancy and infant
+child care may affect future earnings capacity through experience effects (such as human
+capital accumulation or signaling), and it may change preferences over family vs career.
+Indeed, the push for earmarked paternity leave in several countries is predicated on the
+idea that such leave may strengthen the bond between father and child, with longer-run
+implications for the division of child care.
+Testing for the importance of biology requires separating the effects of having a child from
+the effects of giving birth to a child. A natural way of obtaining this separation is to compare
+child penalties in biological and adoptive families. However, any such investigation faces
+two challenges. The first challenge is statistical power: The best estimates of child penalties
+are based on event studies around the arrival of children, which require large panel data
+sets with information on labor market outcomes and children. This requirement is harder
+to satisfy for adopted children, because relatively few families adopt and data sources often
+do not record adoptions. We deal with this challenge by using Danish administrative data
+that contain exhaustive information on adoptions over almost forty years. The second
+challenge is identification: Adoptive families are a selected subsample of the population,
+implying that any differences in child penalties between biological and adoptive mothers
+may reflect selection rather than biology. We deal with this challenge by matching on a
+rich set of observables, showing that the matched samples display parallel pre-trends in the
+event studies.
+We find large and persistent effects of children on gender gaps in both biological and
+adoptive families. Women and men evolve in parallel until the arrival of their first child,
+whether by birth or by adoption, and then diverge sharply and persistently. The short-run
+impacts are slightly larger in biological families, but the long-run impacts are virtually
+identical. Ten years after birth, the child penalty in earnings is 17-18% in both biological
+and adoptive families.1 When investigating the underlying determinants of earnings —
+participation, hours worked, and wage rates — we find that biological and adoptive families
+are similarly impacted in those dimensions too. These findings provide evidence against
+the importance of the biological link between mother and child for explaining the gendered
+impacts of children.
+More broadly, our results have implications for understanding the impact of comparative
+advantage in child care on gender gaps. Pregnancy and breastfeeding are the most obvious
+sources of such comparative advantage, and if these factors have no impact on long-run
+child penalties, it is conceivable that other sources of comparative advantage have no impact
+on child penalties either.2 To further investigate the role of comparative advantage, we
+1 The long-run child penalties estimated here are slightly smaller than those estimated in Kleven, Landais and
+Søgaard (2019a) for the full population. This is because we are reweighting biological families to match the characteristics of adoptive families, where the latter tend to have fewer children overall and therefore smaller child
+penalties.
+2 Women may have other biological sources of comparative advantage in child care than pregnancy and breastfeeding. This includes the argument among some biologists and psychologists that the female brain is hard-wired
+
+

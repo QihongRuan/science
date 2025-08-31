@@ -1,0 +1,231 @@
+When Does Regulation Distort Costs? Lessons from Fuel
+Procurement in U.S. Electricity Generation: Reply
+Journal: American Economic Review
+Manuscript ID AER-2020-1872.R1
+Manuscript Type: For Administrative Use Only
+Keywords: L51,L71,, L94,Q35,Q41,Q48
+
+Page 1 of 11
+
+Disclosure Statement for Steve Cicala, “When Does Regulation Distort Costs? Lessons
+from Fuel Procurement in U.S. Electricity Generation: Reply”
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper. The data used in this paper were made available from the
+Energy Information Administration through a non-disclosure agreement. Results have
+been reviewed by EIA to ensure no business-confidential information is released.
+
+Page 2 of 11
+
+When Does Regulation Distort Costs? Lessons from Fuel
+Procurement in U.S. Electricity Generation: Reply
+By Steve Cicala∗
+The average effect of deregulatory policies on fuel prices at coalfired power plants is strongly influenced by plants that were initially paying the highest prices for fuel. Primary sources document that these plants were locked into long-term, high-cost fuel
+contracts, and only secured market rates post-deregulation. While
+these plants’ fuel costs were unusual, their response to deregulation
+was not: both coal- and gas-fired plants reduce fuel prices one-forone with the amount they were initially paying above their neighbors’ costs. Our understanding of deregulation is not improved by
+excluding those who stand to benefit most.
+
+Cicala (2015) asks the question, “When does regulation distort costs?” The
+main message of the paper is that the deregulation can be a powerful cost-reducing
+tool, but the opportunity to reduce costs has to exist in order for such reforms
+to have an impact. In their comment, Jin Soo Han, Jean-François Houde, Arthur
+van Benthem, and Jose Miguel Abito (henceforth HHvBA) question one of the
+results of Cicala (2015) based on the large cost reductions experienced by coalfired plants owned by Chicagoland’s Commonwealth Edison (henceforth ComEd).
+The first issue regards internal validity: HHvBA claim that a 1992 contract
+renegotiation is responsible for the price drops at ComEd plants, so the plants’
+inclusion biases the average treatment on the treated (ATT) estimate. I show that
+HHvBA’s narrative regarding the 1992 renegotiation is contradicted by primary
+source documents. Dropping ComEd plants is effectively removing the very sickest
+patients who experience the largest benefits from a treatment.
+The second issue concerns external validity: If half of the ATT for coal is driven
+by ComEd plants, a policymaker may anticipate smaller impacts from deregulation. I show that both coal- and gas-fired plants reduce their costs essentially
+one-for-one with the amount they were initially paying above their neighbors’ input prices. The difference in overall average effects for coal and gas reflects the fact
+that there was more fat to cut in coal costs, as described in Cicala (2015). While
+ComEd plants paid unusually high prices for coal before industry restructuring,
+their response to deregulation was not unusual.
+∗ Tufts University, Department of Economics. I am grateful to Fiona Burlig, Erin Mansur, Matthew
+Notowidigdo, and Jesse Shapiro for helpful comments and suggestions. This work has been reviewed by
+EIA to ensure that no confidential data are disclosed. All errors remain my own. The author declares
+that he has no relevant or material financial interests that relate to the research described in this paper.
+E-mail: scicala@gmail.com
+
+1
+
+Page 3 of 11
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+I.
+
+MONTH YEAR
+
+Internal Validity of Cicala (2015):
+
+Commonwealth Edison (ComEd) is a large utility with a long history of problematic operations that are closely tied to “Chicago-style politics.”1 This section
+reviews its troubled history of fuel procurement in the context of HHvBA’s claim
+that “In the absence of deregulation, the decreasing cost trend for ComEd plants
+would have likely continued as per the renegotiated contract terms in 1992.”
+A.
+
+Background
+
+In the mid-1970s, ComEd signed a series of long-term contracts with Peter
+Kiewit Sons’ Inc. and their partners for low-sulfur coal from the Decker and Black
+Butte mines in Montana and Wyoming. These are referred to collectively as the
+“Decker” contracts. ComEd was engaged in lawsuits with Decker throughout the
+1980s over attempts to reduce purchases of expensive coal. In a final decision
+in 1987 in U.S. district court, Decker was awarded everything they demanded,
+plus interest ((Commonwealth Edison Co. v. Decker Coal Co., 653 F. Supp. 841
+(N.D. Ill. 1987)).2 ComEd had no choice but to fulfill its obligations under its
+contracts, which entailed paying more than twice the market price for coal.
+To guide the discussion of ComEd’s coal purchases, Figure 1 plots the time
+series of residualized fuel prices (relative to neighbors, as in Cicala (2015)) for the
+plants that purchased Decker coal.3 The size of the dots reflect the volume of fuel
+delivered, and the colors break the history of purchases into four distinct periods.
+I discuss each period in turn.
+B.
+
+Pre-Renegotiation: 1990-1992
+
+Deliveries from 1990-1992 occurred under the original Decker contracts. These
+were extremely lucrative for Kiewit and their partners. As a 50% partner in
+both the Decker and Black Butte contracts, Kiewit reported $98M in earnings on
+$246M in mining revenue in 1992 (Kiewit Peter Sons Inc (1993)). In the Chicago
+Tribune, Maclean (1992) reports 43.4% gross margins back to at least 1990 as
+“far higher than the industry average.” This corresponds to a markup of 76.7%
+over Decker’s mining costs.4
+1 The state of Illinois and City of Chicago have a long history of demonstrably corrupt arrangements
+with ComEd. While the Chicago Tribune describes the situation in 1991 as “not as bad as it used to
+be” (Kass (1991)), they are currently embroiled in a scandal for hiring the relatives of politicians for ‘noshow’ jobs in exchange for favorable regulatory treatment. Four executives and consultants, including
+their CEO were indicted on federal bribery charges in November, 2020.
+2 HHvBA argue that ComEd’s accumulated purchase of reserve coal yet to be mined was a source of
+leverage in their subsequent negotiations. The ruling is clear that this was not the case: “In short, it
+[ComEd] obligated itself to pay for coal in the ground but not for its extraction; but if it did not choose to
+have the coal extracted, it would lose what it had obligated itself to pay for securing the coal interests.”
+3 Six of ComEd’s seven plants were part of the Decker contracts. The seventh was a mine-mouth plant
+that purchased from its local supplier and experienced more modest cost reductions following divestiture.
+4 Earnings margin over revenues averages to m = p−c , rearranging as a markup over costs is p−c =
+p
+c
+m
+m
+. When m = 0.434, 1−m
+= 0.767
+1−m
+
+Page 4 of 11
+
+VOL. VOLUME NO. ISSUE
+
+WHEN DOES REGULATION DISTORT COSTS? REPLY
+
+3
+
+-1
+
+-.5
+
+Residuals
+0
+
+.5
+
+1
+
+Figure 1. : Residualized Coal Prices at ComEd Plants: Four Separate Episodes
+
+1990m1
+
+1995m1
+
+2000m1
+Month of Sample
+
+Pre-Negotiation: 1990-1992
+Deregulated, Pre-Divestiture: 1997-1999
+
+2005m1
+
+2010m1
+
+Post-Negotiation: 1993-1996
+Post-Divestiture 2002-2009
+
+Note: Plant-month residuals from a match-weighted regression of log(price) on month and plant fixed
+effects is shown. Restricted-access post-divestiture data is suppressed, but the average outcome implied
+by coefficient changes in HHvBA is represented by the horizontal line. Variance around the mean
+reflects that of post-divestiture purchases. Marker sizes reflect quantities delivered.
+
+C.
+
+Post-Renegotiation: 1993-1996
+
+Between 1993 and 1996, deliveries were made under the terms of the renegotiated fuel contracts. Without knowing the terms of the renegotiation, HHvBA
+describe a hypothetical contract structure that would have caused persistently
+declining in fuel prices. HHvBA then include ComEd-specific time trends to account for a decreasing price path “as per the renegotiated contract terms in 1992”
+(HHvBA 3.2).
+SEC filings from ComEd’s suppliers make clear that the conjectured events
+that motivate HHvBA’s treatment of ComEd plants did not occur. Instead, the
+settlement locked in Kiewit’s existing margins for over 100 million tons of coal
+through 2015, while allowing the suppliers to sell ComEd coal from different
+mines.5 In their 1995 SEC 10-K filing, Kiewit reports:
+Since 1993, the amended contract between Commonwealth and
+Black Butte provides that Commonwealth’s delivery commitments will
+be satisfied, not with coal produced from the Black Butte mine, but
+with coal purchased from three unaffiliated mines in the Powder River
+Basin of Wyoming and Decker. The contract amendment allows Black
+Butte to purchase alternate source coal at a price below its production
+costs, and to pass the cost savings through to Commonwealth while
+5 Two of the three mines that would provide alternate source coal were owned by Union Pacific
+Resources Group, Kiewit’s partner in the Decker contracts (Union Pacific Resources Group (1997)).
+
+Page 5 of 11
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+maintaining the profit margins available under the original
+contract.
+Decker’s mining costs were relatively high, and the original contracts required
+delivery from the uneconomical mines they operated. The potential surplus to
+be divided between parties in the 1992 renegotiation was the difference between
+Decker’s costs and the costs of alternative suppliers, not the difference between the
+original contract price and the market price. Decker continued to earn upwards
+of 40% on its mining revenues through 1996, with an average price per ton of $24
+before delivery charges.6
+$24/ton is quite different from the $7/ton figure cited by HHvBA, referencing a Department of Interior decision regarding royalty payments (Decker Coal
+Company. 176 IBLA 277, 2009). What accounts for the difference? $7/ton is
+the figure ComEd and Decker reported to the federal government in an attempt
+to minimize their royalty payments, not the actual renegotiated price of coal as
+HHvBA represent. The decision HHvBA cite describes $7/ton as a “sham” (172
+IBLA 25). In the conclusion of the case, auditors from the Minerals Management
+Service (MMS) determined, “ComEd paid a price adjusted for rail transportation
+rates of between $31.19 and $36.75 per ton of coal during the period 1993-1999”
+(176 IBLA 281).7
+HHvBA quote from ComEd’s 1993 SEC 10-K filing, “the Company’s western
+coal contracts and its rail contracts for delivery of the western coal were renegotiated [...] to provide, among other things, for significant reductions in the
+delivered price of the coal over the duration of the contracts.” HHvBA do not include the next sentence in the filing, “However, the renegotiated contracts provide
+for the purchase of certain coal at prices substantially above currently prevailing
+market prices and the Company has significant purchase commitments under its
+contracts.”
+ComEd’s suppliers summarized the renegotiation in their 1993 SEC 10-K as
+follows: “The Company does not expect that the financial impact of the renegotiation will be material to its mining operations, cash flows, or financial position.”
+The second period of deliveries in Figure 1 indicate deliveries with a modestly
+lower mean price, but higher dispersion.8 Delivered prices did not gradually decrease over this period.
+6 From 1993-1996, Kiewit reports an average $94M in earnings on $226M in mining revenue and 9.5M
+tons per year, with ComEd and Detroit Edison accounting for 80% of mining business. (Kiewit SEC 10-K
+filings of respective years). ComEd paid higher prices than Detroit Edison, so these figures understate
+ComEd’s charges somewhat.
+7 The overall average revenue per ton ($24) Decker reports in their SEC 10-K includes deliveries to
+Detroit Edison, who paid less for their coal.
+8 Because one of the renegotiated terms was that ComEd would buy instead of rent the railcars that
+delivered coal, it is unclear how much of the apparent drop in delivered prices comes from ComEd bearing
+the capital costs of rail cars in lieu of payments to a third party that would otherwise show up as part
+of the delivered price of fuel.
+
+

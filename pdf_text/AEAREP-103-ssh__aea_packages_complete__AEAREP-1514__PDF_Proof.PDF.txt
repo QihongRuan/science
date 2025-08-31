@@ -1,0 +1,199 @@
+The Long-Run Effects of School Racial Diversity on Political
+Identity
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0336.R3
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+02-Dec-2020
+Author:
+Complete List of Authors: Billings, Stephen; University of Colorado Boulder, Finance
+Chyn, Eric; Dartmouth College, Economics
+Haggag, Kareem; Carnegie Mellon University, Social and Decision
+Sciences
+Keywords: D70, I20, J15
+
+Page 1 of 46
+
+The Long-Run Effects of School Racial Diversity on
+Political Identity∗
+Stephen B. Billings, Eric Chyn, and Kareem Haggag
+December 2, 2020
+
+Abstract
+How do early-life experiences shape political identity? We examine the end of racebased busing in Charlotte-Mecklenburg schools, an event that led to large changes in
+school racial composition. Using administrative data, we compare party affiliation in
+adulthood for students who had lived on opposite sides of newly-drawn school boundaries. Consistent with the contact hypothesis, we find that a 10-percentage point increase in the share of minorities in a white student’s assigned school decreased their
+likelihood of registering as a Republican by 2 percentage points (12 percent). Our results suggest that schools in childhood play an important role in shaping partisanship.
+
+∗
+
+Billings: Leeds School of Business, University of Colorado-Boulder, stephen.billings@colorado.edu. Koelbel 443, 995 Regent Drive, University of Colorado, Boulder, CO 80309. Chyn: Department of Economics,
+Dartmouth College, eric.t.chyn@dartmouth.edu. 6106 Rockefeller Center, Hanover, NH 03755, and the National Bureau of Economic Research. Haggag: Social and Decision Sciences, Carnegie Mellon University,
+kareem.haggag@cmu.edu. 208-H Porter Hall, Pittsburgh, PA 15213. We are grateful to Donald Green, Ethan
+Kaplan, Dean Karlan, Erzo Luttmer, Elizabeth Setren, Jorg Spenkuch, Cody Tuttle, and Ebonya Washington
+for helpful comments and suggestions. In addition, we thank the editor Rohini Pande and three anonymous
+referees for detailed comments and feedback. This project received IRB approval from the University of
+Colorado-Boulder (IRB Protocol Number: 16-0608).
+
+Page 2 of 46
+
+Political partisanship shapes the way individuals see and interact with the world. In the
+U.S., partisanship strongly predicts a range of political opinions and economic perceptions
+(Bartels, 2000; Gerber and Huber, 2010; Lenz, 2012; Achen and Bartels, 2016). Moreover,
+recent studies provide evidence that partisan identity has causal effects on both political
+behavior and attitudes (Gerber et al., 2010; McConnell et al., 2017; Barber and Pope, 2019).
+What are the origins of partisanship? Leading theories posit that childhood experiences
+play a key role in determining political identity and behavior (Campbell et al., 1960; Hess
+and Torney, 1967; Jennings and Niemi, 1968; Green et al., 2002; Jennings et al., 2009; Stoker
+and Bass, 2011). Yet, a lingering concern is that correlational evidence of a link between partisanship and childhood circumstances may largely reflect the influence of omitted variables.
+For example, exposure to minorities or peers from a different social class during one’s youth
+could reflect unmeasured attitudes that affect later-life political identity.
+This paper provides new evidence on the determinants of partisan identity by studying the causal effects of an important and sudden shock to the social lives of youth. In
+2002, the Charlotte-Mecklenburg school (CMS) district ended race-based busing and redrew
+school attendance boundaries. These reforms led to large changes in the racial composition
+of schools.
+We use this setting to examine the effects of changes in the share of minorities in a student’s assigned school on their political party registration measured in adulthood. Exposure
+to diversity within schools could impact partisanship by influencing preferences or beliefs
+on race and economic policies that sharply differ between the two major U.S. political parties. For example, prior research has shown that differences in racial attitudes have played a
+central role in determining partisan preferences in the South since the 1960s (Carmines and
+Stimson, 1989; Valentino and Sears, 2005; Kousser, 2010; Kuziemko and Washington, 2018).
+In contemporary surveys, the average registered Democrat and Republican substantially
+disagree on a number of race-related issues such as the prevalence of racism (see Appendix
+Figure A1).
+To identify causal impacts, we compare students who lived in the same neighborhoods
+and had pre-reform addresses that placed them on different sides of a newly-drawn school
+boundary. Our approach follows prior work studying schooling and arrest outcomes in this
+context (Billings et al., 2014) and estimates the effect of being assigned to a school with a
+higher share of minority peers after conditioning on fixed effects for small geographic areas
+(i.e., Census block groups). This approach reveals causal effects if children on either side of
+the new boundary are similar prior to the redrawing. Institutional features of our setting
+
+1
+
+Page 3 of 46
+
+support the plausibility of this assumption, and we provide statistical evidence showing no
+evidence of systematic sorting within neighborhoods based on the new school boundaries.
+Our analysis is based on student-level administrative records linked to voting records.
+The sample consists of elementary and middle school students who were enrolled in CMS
+prior to school reassignments. All voting records are current as of 2019, when the average
+student in our sample was 29 years old. Our main analysis presents estimates separately for
+white and racial minority students.
+We find that assignment to schools with higher shares of minorities significantly impacts
+the likelihood that white students register as Republicans in adulthood. A 10-percentage
+point increase in the share of minorities in a white student’s assigned school decreases their
+likelihood of being registered as a Republican by about 2 percentage points (a 12 percent
+decrease relative to the mean Republican registration rate).1 These effects are robust to
+conditioning on registration status (a post-treatment outcome). We find suggestive evidence
+that white students are more likely to be registered as Democrat or Unaffiliated voters. For
+minority students, we find a relatively precise null on Republican and Democrat registration
+and an increase in Unaffiliated registration. For both white and minority students, we see
+little evidence of changes in voter turnout.
+What mechanisms can explain our results? Intergroup contact is a key potential channel.
+Several theoretical frameworks provide predictions for how exposure to more minority peers
+may shape party affiliation. For white students, we focus on the “contact hypothesis,” which
+posits that meaningful contact with out-group members can reduce prejudice toward them
+(Allport, 1954). This theory suggests that exposure to minority peers should reduce the
+likelihood of registering as a Republican by weakening “racially conservative” attitudes that
+have been linked to support for the Republican Party.2 Our results are consistent with this
+prediction.3 For minority students, our analysis can be interpreted through theories that link
+intergroup contact and social norms. Recent work in political science argues that support
+1
+
+The omitted category in this specification is composed of students registered as Democrat, as Unaffiliated, as one of three other officially recognized parties, or those who remain unregistered.
+2
+Since minorities in our sample typically live in low-income households, it is possible that intergroup
+contact along the lines of economic class may decrease support for economic policies supported by the
+Republican Party, a point we return to in Section IV.
+3
+Notably, our results stand in contrast to “racial threat” theory (Key, 1949). This framework posits that
+Whites’ proximity to Black communities can trigger hostile racial attitudes, as Whites perceive their status
+as threatened. Several studies have found evidence consistent with this threat hypothesis, including Enos
+(2014), Enos et al. (2019), Condra and Linardi (2019), Hangartner et al. (2019). In a related vein, recent
+studies of the political economy of immigration have found that immigrant inflows tend to increase support
+for far-right political groups (Halla et al., 2017; Dustmann et al., 2019; Tabellini, 2020), though others have
+found more nuanced results (Mayda et al., 2018; Steinmayr, 2020).
+
+2
+
+Page 4 of 46
+
+for the Democratic Party is a well-understood norm for Black Americans, the predominant
+minority group in our setting (White and Laird, 2020).4 This theory predicts that Black
+children who are exposed to more Black peers in school should have a greater likelihood of
+adhering to this group norm, thereby increasing their likelihood of registering as Democrats.
+We only find weak and indirect evidence in line with this prediction.5
+While intergroup contact is a leading mechanism in our context, two additional potential
+mediators have been documented in this setting. Specifically, Billings et al. (2014) found that
+changes in school racial composition due to CMS re-zoning significantly impacted college
+attendance and arrests for white and minority students, respectively. To assess the relevance
+of education and crime effects as mediators for the results on political behavior, we examine
+heterogeneity in the effects of school diversity by student age at the time of the CMS reforms.
+To do this, we supplement our main analysis sample with high school students. For education
+and arrest outcomes, we find that the negative impacts of changes in school composition are
+specific to older children. In contrast, the effects on party affiliation are largest for the
+younger children. Overall, the pattern of results suggests that impacts of school diversity on
+education and crime do not mediate the changes in partisanship.
+Our analysis contributes to three main literatures. First, we contribute to understanding
+how early-life factors affect political behavior and party affiliation. The bulk of this literature
+provides descriptive analysis of social influences such as parents or institutional influences
+such as schools (e.g., Campbell et al. 1960). Recent work has innovated by placing greater
+emphasis on identification of causal impacts. For example, studies have found that changes
+in family income (Akee et al., 2018), education-related interventions (Sondheimer and Green,
+2010; Holbein, 2017), and neighborhood relocation (Chyn and Haggag, 2019) have important
+impacts on later-life voter participation. Fewer studies have produced credible estimates of
+causal impacts of early-life conditions on partisanship. One exception is Healy and Malhotra
+(2013). They use random variation in sibling gender to show that young men who have sisters
+(rather than brothers) are more likely to identify as Republicans. Our findings complement
+their analysis by demonstrating that partisanship can also be shaped by factors outside of
+the household.
+Second, we contribute to studies of exposure to diversity and social behavior. While a
+link between school segregation and intergroup attitudes has long been suggested (Schofield,
+1991), there is relatively little causal field evidence. Recently, Rao (2019) studied a natural
+4
+5
+
+In our sample, 84 percent of minorities are Black.
+Section III discusses the interpretation of our results in more detail.
+
+3
+
+Page 5 of 46
+
+experiment in Indian schools and found that increased contact across economic status generates short-run increases in tolerance and out-group friendship. In the U.S., Carrell et al.
+(2019) finds that white students who are randomly assigned a Black roommate in their freshmen year are more likely to choose a Black roommate in subsequent years. Mousa (2020)
+and Lowe (2019) also provide experimental evidence of positive impacts of religious-based
+and caste-based intergroup contact through sports. Our paper complements these findings
+by demonstrating that a large-scale school policy change that affected intergroup contact
+can generate long-lasting changes in partisanship.6
+Last, we contribute to an important literature studying the effects of segregation and
+school integration policies. Several prior studies have estimated effects on student-level outcomes (Guryan, 2004; Ashenfelter et al., 2006; Reber, 2010; Johnson, 2011; Lutz, 2011;
+Billings et al., 2014; Gordon and Reber, 2018; Shen, 2018; Tuttle, 2019; Bergman, 2020). To
+the best of our knowledge, we are the first to provide credible estimates of the impact of
+school segregation on political preferences.
+I.
+
+Background, Data, and Sample
+
+A. Charlotte-Mecklenburg Schools, New School Zones, and the End of Race-based Busing
+Since the Supreme Court’s 1971 Swann v. Charlotte-Mecklenburg Schools decision, CMS
+had operated under a racial desegregation order. Based on this Court order, CMS had drawn
+school zones to include non-contiguous areas with different racial compositions. School officials aimed to keep each school’s percent Black within 15 percentage points of the district
+average. Racial balance was preserved by using “satellite” zones that bused students from
+inner-city neighborhoods with high shares of minority students to suburban, highly white
+schools.
+In the summer of 2002, CMS drew new school boundaries and ended race-based busing.
+These changes stemmed from a series of court battles culminating in the dismissal of the
+desegregation plan (United States District Court, 1999). CMS drew new school boundaries
+for the 2002-2003 year as contiguous areas around schools, eliminating the satellite zones
+previously used to bus students from inner-city neighborhoods. CMS made decisions for the
+new boundaries based on enrollment projections and attempted to minimize the possibility of overcrowding. Attendance zones often had to deviate from using natural geographic
+features or standard U.S. Census geographies to avoid assignment based explicitly on race.
+6
+
+A few other studies examine long-run effects of intergroup contact through residential location (Bazzi
+et al., 2019; Brown et al., 2020; Goldman and Hopkins, 2020).
+
+4
+
+

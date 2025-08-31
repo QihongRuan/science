@@ -1,0 +1,89 @@
+Adverse and Advantageous Selection in the Laboratory
+Journal: American Economic Review
+Manuscript ID AER-2020-0304.R2
+Manuscript Type: For Administrative Use Only
+Keywords: C91, C92, D72
+
+Page 1 of 80
+
+Disclosure Statement for S. Nageeb Ali
+
+The author declares that he has no relevant or material financial interests that relate to the
+research described in the paper, “Adverse and Advantageous Selection in the Laboratory”.
+
+S. Nageeb Ali,
+Professor of Economics,
+Penn State University
+
+Page 2 of 80
+
+Disclosure Statement for Maximilian Mihm
+
+The author declares that he has no relevant or material financial interests that relate to the research
+described in the paper, “Adverse and Advantageous Selection in the Laboratory”.
+
+Maximilian Mihm,
+Associate Professor of Economics,
+New York University Abu Dhabi
+
+Page 3 of 80
+
+Disclosure Statement for Lucas Siga
+
+The author declares that he has no relevant or material financial interests that relate to the
+research described in the paper, “Adverse and Advantageous Selection in the Laboratory”.
+
+Lucas Siga,
+Assistant Professor of Economics,
+New York University Abu Dhabi
+
+Page 4 of 80
+
+Disclosure Statement for Chloe Tergiman
+
+The author declares that he has no relevant or material financial interests that relate to the research
+described in the paper, “Adverse and Advantageous Selection in the Laboratory”.
+
+Chloe Tergiman,
+Assistant Professor in the Smeal College of Business,
+Penn State University
+
+Page 5 of 80
+
+Adverse and Advantageous Selection in the Laboratory∗
+S. Nageeb Ali†
+
+Maximilian Mihm‡
+
+Lucas Siga§
+
+Chloe Tergiman¶
+
+January 26, 2021
+
+Abstract
+We study two-player games where one-sided asymmetric information can lead to
+either adverse or advantageous selection. We contrast behavior in these games with
+settings where both players are uninformed. We find stark differences, suggesting
+that subjects do account for endogenous selection effects. Removing strategic uncertainty increases the fraction of subjects who account for selection. Subjects respond
+more to adverse than advantageous selection. Using additional treatments where
+we vary payoff feedback, we connect this difference to learning. We also observe a
+significant fraction of subjects who appear to understand selection effects but do not
+apply that knowledge.
+JEL: C91, C92, D72, D81, D82.
+
+∗
+
+We thank the co-editor and three anonymous referees for their thoughtful and constructive feedback,
+and Colin Camerer, Juan Carrillo, Alex Imas, Ryan Oprea, Emanuel Vespa, and Sevgi Yuksel for useful
+comments and suggestions. Robizon Khubulashvili provided excellent research assistance and programming. We are grateful to REF grant #RE099 for funding this experiment.
+†
+Department of Economics, Penn State. Email: nageeb@psu.edu.
+‡
+Division of Social Science, NYU-Abu Dhabi. Email: max.mihm@nyu.edu.
+§
+Division of Social Science, NYU-Abu Dhabi. Email: lucas.siga@nyu.edu.
+¶
+Smeal College of Business, Penn State. Email: cjt16@psu.edu.
+
+

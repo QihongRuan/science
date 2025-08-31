@@ -1,0 +1,199 @@
+Different Strokes for Different Folks? Experimental Evidence
+on the Effectiveness of Input and Output Incentive
+Contracts for Health Care Providers with Varying Skills
+Journal: American Economic Journal: Applied Economics
+Manuscript ID AEJApp-2019-0220.R3
+Manuscript Type: For Administrative Use Only
+Keywords: D86, J41, O15
+
+Page 1 of 89
+
+DIFFERENT STROKES FOR DIFFERENT FOLKS? EXPERIMENTAL EVIDENCE ON
+THE EFFECTIVENESS OF INPUT AND OUTPUT INCENTIVE CONTRACTS FOR
+HEALTH CARE PROVIDERS WITH VARYING SKILLS*
+Manoj Mohanan, Katherine Donato, Grant Miller,
+Yulya Truskinovsky, Marcos Vera-Hernández†
+July 2020
+Abstract
+A central issue in designing incentive contracts is the decision to reward agents’ input use versus
+outputs. The trade-off between risk and return to innovation in production can also lead agents
+with varying skill levels to perform differentially under different contracts. We study this issue
+experimentally, observing and verifying inputs and outputs in Indian maternity care. We find that
+both contract types achieve comparable reductions in post-partum hemorrhage rates – but
+payments for outputs were four times that of inputs. Providers with varying qualifications
+performed equivalently under input incentives, while providers with advanced qualifications may
+have performed better under output contracts.
+JEL: D86, J41, O15
+Keywords: Contracts, Incentives, Performance, Health,
+
+* This research was made possible by funding and support from 3ie and DFID-India (OW2: 205 co-PIs: Mohanan
+
+and Miller), World Bank HRITF (TF099435: PI Mohanan) and Government of Karnataka. We are grateful, for
+comments and suggestions, to Alessandra Voena, Alessandro Tarozzi, Amar Hamoudi, Duncan Thomas, Erica
+Field, Jerry La Forgia, Jishnu Das, Imran Rasul, Meredith Rosenthal, Michael Callen, Nava Ashraf, Neale
+Mahoney, Neeraj Sood, Oriana Bandiera, Paul Gertler, Rohini Pande, Rob Garlick, Seema Jayachandran, Victoria
+Baranov, Xiao Yu Wang, and anonymous reviewers as well as to audiences at AEA/ASSA 2017, ASHEcon 2016,
+Barcelona GSE 2016, BREAD/CEPR 2016, Duke, Erasmus, FLAME, Harvard, iHEA Congress Milan, Tilburg, and
+U. of S. California. Manveen Kohli provided excellent project management. We are thankful to Kultar Singh,
+Swapnil Shekhar, and Anil Lobo from Sambodhi, as well as the field team for project implementation and data
+collection. We gratefully acknowledge the support we received from World Bank (Paolo Belli, Patrick Mullen,
+and Vikram Rajan) and the Government of Karnataka (Vandita Sharma, Selva Kumar, Suresh Mohammed,
+Raghavendra Jannu, Atul Tiwari, Dr. Nagaraj, Dr. Sridhar, Dr. Prakash Kumar, Dr. Amruteshwari, and several
+others). We are especially grateful to the many doctors and clinical experts who provided valuable guidance
+and feedback, including Matthews Mathai, Dinesh Agarwal, Ayaba Worjolah, Vinod Paul, Sharad Iyengar, Kirti
+Iyengar, Amarjit Singh, Suneeta Mittal, Lalit Baveja, and Sunesh Kumar. This study was approved by Duke
+University Office of Human Subjects Research (Pro00031046) and registered in the American Economic
+Association Registry for randomized control trials under trial number AEARCTR-0000179.
+
+† Mohanan: Sanford School of Public Policy, Duke University; Donato: Boston Consulting Group; Miller: Stanford
+
+University and NBER; Truskinovsky: Department of Economics, Wayne State University; Vera-Hernández:
+Department of Economics, University College London and IFS. Correspondence: manoj.mohanan@duke.edu.
+Mohanan is lead author. Donato, Miller, Truskinovsky, and Vera-Hernandez contributed equally to the
+manuscript.
+
+Page 2 of 89
+
+1. INTRODUCTION
+Performance incentives have long been used to correct a range of principal-agent problems
+(Jensen and Murphy 1990, Hall and Liebman 1998, Lazear 2000, Roland 2004, Rosenthal,
+Fernandopulle et al. 2004). A central issue in the design of performance incentives is whether to
+reward an agent’s use of inputs or instead to reward outputs directly (Khalil and Lawarree 1995,
+Prendergast 2002, Raith 2008, Prendergast 2011).1 A key underlying assumption in models of
+output incentive contracts is that workers know the production function, and if correctly
+incentivized, can find the optimal combination of inputs to produce a given level of output.
+However, if workers have low levels of human capital or skills, this assumption might be
+untenable, leading to suboptimal input choices. Alternatively, agents’ knowledge of the production
+function is less relevant for them to be rewarded according to input use (following explicit
+guidelines given by better-informed principals). But an important drawback of input incentive
+contracts is that highly skilled agents might be penalized if they take advantage of local contextual
+information that might be relevant when choosing optimal input combinations to achieve desired
+outputs.
+In this paper, we study input and output incentive contracts for maternal health care in India
+– and the ways in which health providers with varying levels of skill respond to them – through a
+field experiment. The production of maternal and neonatal health is complex, and in India, there
+is considerable scope for improvement in performance and substantial variation in health
+providers’ human capital. We randomly assign private maternal health care providers to two
+treatment arms and a control arm. Providers in treatment arms were given incentive contracts
+
+1
+
+The decision depends on a variety of considerations, including the costs of monitoring inputs relative to outputs; the
+degree of risk aversion of agents relative to principals; the riskiness of the output measure; the degree to which
+productivity is heterogeneous across agents; the extent of distortions due to multi-tasking; and the feasibility of
+principals dictating inputs to agents (Lazear 1986, Baker 2002, Prendergast 2002)
+
+Page 3 of 89
+
+rewarding performance either for input use (adherence to guidelines for best practices) or
+production of outputs (good maternal and neonatal health – low levels of post-partum hemorrhage,
+sepsis, pre-eclampsia, or neonatal death). We also study how responses to performance contracts
+vary by levels of skills by comparing performance of providers with advanced medical training to
+those with basic medical training. We focus on providers’ implementation of new strategies in the
+two contracts and how the effect of these innovations varies by providers’ skill level.
+We conducted the experiment in rural areas of Karnataka, an Indian state with poor levels
+of maternal and neonatal health in 2012 - 2014. Karnataka’s maternal mortality rate (MMR) was
+144 deaths per 100,000 live births, and its neonatal and infant mortality rates were 25 and 31 per
+1,000 live births, respectively (NHM 2013, Mony, Jayanna et al. 2015)2. The top three causes of
+maternal mortality are post-partum hemorrhage, pre-eclampsia, and sepsis, and the major risk
+factors for neonatal mortality are infections (sepsis and tetanus, for example), pre-term births, and
+birth asphyxia. Policy efforts to improve maternal and neonatal health outcomes have long focused
+on promoting childbirth in medical facilities (rather than in private homes), where many of these
+causes can – in principle – be prevented or managed. However, despite rapidly rising institutional
+delivery rates (reaching 94.3% in 2015-16) (Government of India 2016), poor maternal and
+neonatal health outcomes persist because of low quality maternal health care in medical facilities
+(NRHM 2015).
+The quality of health services (both public and private) in developing countries is generally
+low (Das, Holla et al. 2012, Das and Hammer 2014, Mohanan, Vera-Hernández et al. 2015, Das,
+Holla et al. 2016), and the use of performance incentives is increasingly widespread (see Finan,
+Olken, and Pande (2015) and Miller and Babiarz (2014) for reviews). Output incentives are more
+
+2 For comparison, India’s average MMR in 2013 was estimated to be 190, and the infant and neonatal
+
+mortality rates were estimated at 28 and 40 respectively (United Nations 2019)
+
+Page 4 of 89
+
+common in the education sector3 while incentives based on service delivery indicators4 such as
+institutional deliveries, delivery of prenatal care, vaccinations, and healthcare utilization are
+typically used in the health sector.5,6,7 The predominance of input incentive contracts in the health
+sector – an environment in which there is often considerable scope for innovation using
+local/contextual information 8 – underscores the importance of empirical research comparing
+contractual bases in health.
+On average, we find that providers in both the input and output contract arms achieved
+similar improvements in maternal health, reducing rates of post-partum hemorrhage (PPH – the
+leading cause of maternal mortality both in India and globally) by approximately 21 percent.
+Performance on other dimensions of maternal and neonatal care (pre-eclampsia, sepsis, and
+neonatal survival) did not change in either contract group relative to the control group. 9 In
+
+3
+
+Examples of empirical research on output incentives in education include Lavy (2002), Glewwe, Ilias et al. (2010),
+Fryer (2011), (Muralidharan and Sundararaman 2011), Behrman, Parker et al. (2015).
+4
+Examples of research on service delivery indicators in health include Basinga, Gertler et al. (2011), Soeters,
+Peerenboom et al. (2011), Miller, Luo et al. (2012), Gertler and Vermeersch (2013), Ashraf, Bandiera et al. (2014),
+Gertler, Giovagnoli et al. (2014), Miller and Babiarz (2014), Olken, Onishi et al. (2014), Celhay, Gertler et al.
+(2015), Dupas and Miguel (2016), Sherry, Bauhoff et al. (2017)
+5
+There have been few efforts to directly reward health outcomes in developing countries. Two recent exceptions in
+China and India study interventions outside the medical care system, focusing on childhood malnutrition. Primary
+school principals in China, who were offered performance incentives for reducing anemia, were able to reduce anemia
+prevalence by 25% by the end of the academic year (Miller, Luo et al. 2012, Luo, Miller et al. 2015). In India, Singh
+(2015) found that frontline workers in India’s Integrated Child Development Services (ICDS) program who were
+offered high levels of incentives were able to reduce severe malnutrition by 6.3 percentage points. The Plan Nacer
+program in Argentina introduced performance incentives based on 10 indicators, of which two were outcomes (birth
+weight and APGAR scores) and the remaining 8 were self reported / administrative service delivery indicators (Gertler,
+Giovagnoli et al. 2014).
+6
+Fritsche, Soeters, and Meessen (2014) report that the World Bank’s health results trust fund, which supports
+performance based financing programs in health, had over 60 projects at various stages of development. Other
+examples of performance incentives in developing countries include: (Basinga, Gertler et al. 2011, Peabody,
+Shimkhada et al. 2011, Soeters, Peerenboom et al. 2011, Van de Poel, Flores et al. 2016)
+7
+A recent high-profile health sector example is the Better Birth trial – a RCT promoting adherence to the “Safe
+Childbirth Checklist” in rural India, finding some improvement in provision of inputs on the checklist but no
+significant improvement in health outcomes (Semrau, Hirschhorn et al. 2017).
+8
+See http://www.innovationsinhealthcare.org/ for examples of efforts that adopt novel approaches to improving
+access to care and improving quality of health care.
+9
+Note that of the four outcomes, two (pre-eclampsia and neonatal mortality) were included primarily to address
+concerns about multi-tasking (i.e., to minimize reductions in effort focused on these conditions). However,
+providers can do relatively little to prevent pre-eclampsia, and there are relatively many non-medical factors that
+contribute to neonatal mortality.
+
+Page 5 of 89
+
+achieving PPH reductions, providers in both groups used similar strategies (and similar input
+combinations), focusing on stocking medicines that reduce bleeding after delivery, for example.
+We also find little evidence that output contract providers developed or implemented novel
+strategies on average to improve outcomes despite having the flexibility to do so. Moreover,
+despite equivalent PPH reductions in both contract groups, input contract payments were
+substantially smaller than output ones: average payments for input and output contracts were INR
+13,850 and 56,812 respectively (about US $252 and $1033 in 2010).10,11
+The response of providers with varying levels of skills to input- and output-incentive
+contracts differed in magnitude although this difference was estimated imprecisely. High skill
+providers with advanced medical training in obstetrics and gynecology in output contracts stated
+that they had implemented new health delivery strategies. They also produced better health
+outcomes, reducing PPH rates by 11 percentage points relative to lower skilled providers with
+basic medical training who reduced it by less than 1 percentage point; the difference, however,
+was just shy of statistical significance (p=0.057). There were no large observed differences in
+implementation of new strategies or health outcomes (PPH reduction of 5.6 percentage points, not
+statistically significant) between high and low skilled providers in the input contracts group.
+We also investigate two potential concerns with our study. First, because we reward
+providers according to contracted outcomes among their patients, providers could potentially
+manipulate the composition of their patients rather than improving their performance (selecting
+patients more likely to experience good health outcomes, for example). To address this concern,
+10
+
+Our incentive contracts were not specifically designed to achieve identical levels of outcomes, since the underlying
+production function was unknown. The identical levels of performance in the two treatment arms is only a convenient
+accident that now enables us to directly compare the cost to the principal of these two types of contracts. However,
+since we do not observe providers’ responses across a full range of rates for rewards, we are unable to draw inferences
+about efficiency of the two contract structures.
+11
+The contracts offered providers the potential to earn up to approximately INR 150,000 (about US $2,700 at the
+time of the contract – slightly more than 15 percent of a specialist doctor’s salary in Karnataka). Details in Section 3.
+
+

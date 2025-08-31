@@ -1,0 +1,174 @@
+The Tax Elasticity of Capital Gains and Revenue-Maximizing
+Rates
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0535.R2
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+23-Dec-2020
+Author:
+Complete List of Authors: Agersnap, Ole; Princeton University, Department of Economics
+Zidar, Owen; Princeton University Department of Economics, Economics
+Keywords: H71, H20, H21
+
+Page 1 of 50
+
+December 23, 2020
+
+To the Editor:
+I have no relevant or material financial interests that relate to the research presented in this paper.
+Respectfully,
+
+Ole Agersnap
+Princeton University
+
+Page 2 of 50
+
+December 23, 2020
+
+To the Editor:
+I have no relevant or material financial interests that relate to the research presented in this paper.
+Respectfully,
+
+Owen Zidar
+Princeton University
+
+Page 3 of 50
+
+The Tax Elasticity of Capital Gains
+and Revenue-Maximizing Rates
+By Ole Agersnap and Owen Zidar*
+This paper uses a direct-projections approach to estimate the effect
+of capital gains taxation on realizations at the state level, and then
+develops a framework for determining revenue-maximizing rates at
+the federal level. We find that the elasticity of revenues with respect
+to the tax rate over a ten-year period is -0.5 to -0.3, indicating
+that capital gains tax cuts do not pay for themselves, and that a
+5 percentage point rate increase would yield $18 to $30 billion in
+annual federal tax revenue. Our long-run estimates yield revenuemaximizing capital gains tax rates of 38 to 47 percent.
+The tax elasticity of capital gains realizations features centrally in U.S. fiscal policy
+debates. In the 1990s “capital gains tax wars,” U.S. Treasury and economic officials argued
+that the responsiveness of realizations to capital gains tax rates was large enough that
+capital gains tax cuts would pay for themselves (Auten and Cordes, 1991). Others (e.g.,
+Gravelle, 1991) asserted that the true responsiveness was much lower, so capital tax cuts
+would generate substantial fiscal cost. This issue has re-emerged in every presidential
+administration since 1990 and plays a key role in ongoing tax reform plans. For instance,
+this elasticity is the central parameter governing the revenue scores of Vice President
+Biden’s plan to increase capital gains rates as well as President Trump’s proposal reducing
+capital gains taxes.
+Informing these policy debates is difficult because a wide range of estimates exist. Feldstein, Slemrod and Yitzhaki (1980), for example, estimate an elasticity with respect to the
+capital gains tax rate of -3.8, whereas the estimate of Burman and Randolph (1994) is
+-0.22. Moreover, there is limited empirical evidence in recent decades when there has been
+lower inflation, more widespread use of diversified investment vehicles, and a bigger role
+of pass-through firms, which have accounted for nearly half of capital gains realizations in
+recent years (Smith, Yagan, Zidar and Zwick, 2019).
+This paper estimates the effect of capital gains taxes on tax revenues and quantifies
+the implications for revenue-maximizing tax rates in the United States. We use a directprojections approach and new state-level panel data on capital gains realizations and the
+* Agersnap: Princeton University (email: agersnap@princeton.edu); Zidar: Princeton University and NBER
+(email: ozidar@princeton.edu). We thank Coly Elhai and Stephanie Kestelman for providing excellent research assistance on this project. We also thank Alan Auerbach, Jerry Auten, Lily Batchelder, Tim Dowd, Patrick Driessen,
+Jane Gravelle, David Kamin, Paul Kindsgrab, Henrik Kleven, Ilyana Kuziemko, Robert McClelland, Jim Poterba,
+Natasha Sarin, Daniel Shaviro, Juan Carlos Suárez Serrato, Larry Summers, Danny Yagan, Eric Zwick, and anonymous referees as well as seminar and conference participants for helpful conversations and suggestions. This work is
+supported by National Science Foundation under Grant Number 1752431. We declare that we have no relevant or
+material financial interests that relate to the research described in this paper.
+
+1
+
+Page 4 of 50
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+migration of the wealthy to estimate the effects of state capital gains tax changes on
+realizations and location decisions. Our data, which range from 1980 to 2016, allow us
+to characterize responsiveness in a more recent period than most of the literature, and
+our direct-projections approach enables us to estimate effects over different time horizons
+and test for dynamic effects. We then build a simple framework to relate these statelevel effects to a policy-relevant elasticity at the national level, which is the state-level
+realization response after removing migration effects and accounting for average state taxes
+and a minor aggregation adjustment term. We find that this policy-relevant elasticity of
+realizations with respect to capital gains tax rates over a ten year period is approximately
+-0.3 to -0.5 depending on the specification, and that the estimates are larger in absolute
+value in the short and medium run than in the long run.
+We highlight three implications of these elasticity estimates. First, these estimates are
+well below an elasticity of one in absolute value, which indicates that capital gains tax
+cuts do not pay for themselves. We formally test and reject the null of an elasticity of
+-1.0. Second, these estimates suggest that raising capital gains tax rates by 5 percentage
+points (in the current regime with unlimited deferral and step-up-basis at death) would
+yield 18 to 30 billion in annual tax revenue, which is roughly twice the amount implied
+by the current approach of the Joint Committee on Taxation (JCT), which according to
+Gravelle (2020) currently uses an elasticity of -0.7 to score proposals.1 Third, our long-run
+elasticity estimates correspond to point estimates for the revenue-maximizing capital gains
+tax rates of 38 to 47 percent.
+Using state-level panel data provides more reforms and closer comparison groups than
+time-series analysis at the federal level. At the federal level, there are not only fewer reforms
+but also many confounding factors. Figure 1 plots realizations and the maximum long-run
+capital gains tax rate since 1980. It shows that some capital gains tax changes are associated
+with sizable movements in realizations, but the responses are quite unequal across reforms.
+It is also quite difficult to separate these movements from unrelated macroeconomic trends
+and asset price fluctuations. One approach is to difference out macroeconomic trends by
+comparing the realization series in one county with that of a similar country. In panels
+(b) and (c) of Figure 1, we implement this approach using the realization series of the
+U.K. around cuts to the U.S. capital gains tax rate in 1997 and 2003. These panels,
+however, show how precarious this approach is—it yields unstable elasticity estimates that
+exhibit large variance in non-tax-related country-year shocks and inherits the limitations
+of cross-country regressions.
+Our state-level approach complements prior work by Bogart and Gentry (1995), who use
+state panel data from 1979 to 1990 to estimate the effect of capital gains tax rates on on
+state-level realizations per tax return, and ongoing work by Bakija and Gentry (2014), who
+use a similar approach for a longer panel from 1950-2007. Relative to this valuable work,
+our paper uses a different empirical approach and new data to provide new policy-relevant
+1 Gravelle (2020) also notes that Treasury had used an estimate of -1.0 previously, but has since moved closer to
+the JCT’s estimate. In addition, Dowd, McClelland and Muthitacharoen (2015), whose paper first appeared as a
+technical working paper (JCX-56-12) of joint work of the staff of the JCT and CBO, estimate an elasticity of -0.72.
+
+Page 5 of 50
+
+VOL. VOL NO. ISSUE
+
+THE TAX ELASTICITY OF CAPITAL GAINS
+
+3
+
+elasticity estimates based on a more recent sample that is closer to current conditions in
+terms of inflation, pass-through prevalence, and tax code. By having a better measure of
+location decisions of the wealthy, our approach also provides a more accurate accounting for
+migration effects, and thus policy-relevant realization effects, which difference out migration
+responses. Moreover, we use a direct-projections approach that contributes new graphical
+evidence on the dynamics of realizations around tax changes. Scoring capital gains tax
+changes requires estimating how realizations evolve over a ten-year period around the tax
+change, which, to the best of our knowledge, has not been done in prior work.
+Much of the literature on capital gains in the 1990s and 2000s (e.g., Burman and Randolph, 1994; Auerbach and Siegel, 2000; Poterba, 2002; Auten and Joulfaian, 2004) has
+focused on the distinction between temporary and permanent effects, and used individuallevel data to estimate these effects. The interpretation of these individual-level results,
+however, is complicated by factors such as strategic loss-harvesting, observations with zero
+realizations, and movement in and out of top income brackets depending on the timing
+of big realizations. While standard approaches for addressing these concerns exist (e.g.,
+selection corrections (Heckman, 1979) to account for realization decisions and instruments
+for tax rates), aggregating within a state-year cell avoids these complexities and also provides a longer panel than many existing individual-level studies. In addition, mapping
+estimates of micro-level responses, which are often person-weighted rather than dollarweighted, into policy-relevant macro effects on tax revenues can be difficult.2 Indeed, Joint
+Committee on Taxation (1990) highlighted similar concerns when evaluating the available
+literature to score reforms during the capital tax wars. Some recent promising work using
+bunching approaches (e.g., Dowd and McClelland, 2019; Buhlmann, Doerrenberg, Loos and
+Voget, 2020) also faces the challenge of mapping bunching responses into policy-relevant
+elasticities. Our state-level approach has the benefit of estimating aggregate responses,
+while also providing considerable variation over a long panel.
+I.
+
+Data on Capital Gains Taxation and Realizations
+
+Our primary outcome variable is realized capital gains by state and year from Smith,
+Zidar and Zwick (2020), which is the sum of short-term and long-term net realizations and
+is available from 1980 to 2016.3 We inflate nominal data using CPI-U from the Bureau
+of Labor Statistics to measure realizations in 2018 USD. We also use data from 1980 to
+2016 on the number of wealthy individuals by state and year from Smith, Zidar and Zwick
+(2020). Specifically, we focus on the number of individuals in the top 10% and top 1% of
+the national wealth distribution. Finally, some specifications use population and output
+data from the US Census Bureau and the Bureau of Economic Analysis.
+We relate these state-level outcomes to the net-of-capital-gains-tax rate in state s in
+year t, which is (1 − τs,t ), where τs,t is the maximum marginal federal and state tax rate.
+This variable comes from NBER TAXSIM and measures the combined effect of federal
+2 For example, choosing the weights (especially for those with losses) and accounting for heterogeneous responses
+introduces difficulties when aggregating from micro to macro.
+3 The vast majority of realizations are long-term realizations (Appendix Figure A.3).
+
+

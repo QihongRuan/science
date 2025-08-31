@@ -1,0 +1,127 @@
+Waning Immunity and the Second Wave: Some Projections
+for SARS-CoV-2
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0343.R3
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+10-Nov-2020
+Author:
+Complete List of Authors: Giannitsarou, Chryssi; University of Cambridge, Faculty of Economics
+Kissler, Stephen; Harvard University T H Chan School of Public Health
+Toxvaerd, Flavio; University of Cambridge, Faculty of Economics
+Keywords: COVID-19, social distancing, waning immunity
+
+Page 1 of 40
+
+Disclosure Statement
+November 10, 2020
+Re. AERI-2020-0343.R2, titled ‘Waning Immunity and the Second Wave: Some
+Projections for SARS-CoV-2’
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper.
+
+Chryssi Giannitsarou
+Faculty of Economics, University of Cambridge
+
+Page 2 of 40
+
+Disclosure Statement
+November 10, 2020
+Re. AERI-2020-0343.R2, titled ‘Waning Immunity and the Second Wave: Some
+Projections for SARS-CoV-2’
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper.
+
+Stephen Kissler
+Harvard School of Public Health
+
+Page 3 of 40
+
+Disclosure Statement
+November 10, 2020
+Re. AERI-2020-0343.R2, titled ‘Waning Immunity and the Second Wave: Some
+Projections for SARS-CoV-2’
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper.
+
+Flavio Toxvaerd
+Faculty of Economics, University of Cambridge
+
+Page 4 of 40
+
+Waning Immunity and the Second Wave:
+Some Projections for SARS-CoV-2
+By C HRYSSI G IANNITSAROU , S TEPHEN K ISSLER AND F LAVIO T OXVAERD
+This paper offers projections of future transmission dynamics for SARSCoV-2 in an SEIRS model with demographics and waning immunity. In
+a stylized optimal control setting calibrated to the USA, we show that
+the disease is endemic in steady state and that its dynamics are characterized by damped oscillations. The magnitude of the oscillations depends on how fast immunity wanes. The optimal social distancing policy
+both curbs peak prevalence and postpones the infection waves relative
+to the uncontrolled dynamics. Last, we perform sensitivity analysis with
+respect to the duration of immunity, the infection fatality rate and the
+planning horizon.
+JEL: E61, I18.
+Keywords: COVID-19, economic epidemiology, social distancing, waning immunity, demographics, infection control, SEIRS.
+The 20th century witnessed a dramatic transition in the burden from infectious diseases. In the USA, the yearly mortality rate per 100,000 population fell from around
+800 in the early 1900s to about 50 by mid-century (Armstrong, Conn and Pinner, 1999,
+Hansen et al., 2016). These gains in public health were made possible by a series of significant innovations, not least by the development of treatments and vaccines. Since the
+1950s, these mortality rates have remained relatively stable, despite increases in deaths
+due to diseases such as HIV/AIDS in the 1980s. This relative stability of mortality
+numbers over the past decades may have lead to complacency, with many advanced
+economies still ill-equipped to contain large-scale epidemics. Yet as is now clear, societies must confront the difficult question of how to best organize themselves in a world
+where new infectious diseases keep appearing and may remain endemic. A case in
+point is COVID-19, which is causing devastating health and economic effects around
+the world.
+Much recent research on COVID-19 resorts to modelling the economic control of infection with variations of the classical SIR framework, in which recovery from the disease confers permanent immunity. Yet according to the WHO, “There is currently no
+evidence that people who have recovered from COVID-19 and have antibodies are protected from a second infection.” This is important, because much of current policy is
+Giannitsarou: Faculty of Economics, University of Cambridge and CEPR. Email: cg349@cam.ac.uk. Kissler:
+Harvard School of Public Health. Email: skissler@hsph.harvard.edu. Toxvaerd: Faculty of Economics, University of
+Cambridge. Email: fmot2@cam.ac.uk. We thank Andy Atkeson for constructive discussions, and our editor Pete Klenow
+and three anonymous referees for useful feedback and suggestions. We also benefited from conversations with Elisa
+Faraglia and Miltos Makris. The first draft of this paper was written during lockdown in April and May 2020. We thank
+our offspring Isabel and Nefeli for their patience and support during difficult times.
+1
+
+Page 5 of 40
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+based on the assumption that herd immunity will eventually set in. The focus on getting
+through the first wave of the epidemic potentially leaves us exposed and unprepared to
+what comes after, if immunity wanes over time. At the time of writing, we still lack a
+vaccine or treatments that clearly reduce mortality from SARS-CoV-2, although there
+is cautious optimism that some pharmaceutical innovations may be on the horizon. Regardless, imperfect vaccine efficacy and incomplete coverage may alter the dynamics of
+the disease without fully eradicating it. Thus we may have to rely on some combination
+of non-pharmaceutical interventions and innovate on how we structure work and social
+life for the foreseeable future.
+In this paper, we analyze optimal social distancing measures using a stylized yet flexible epidemic model with population turnover and waning immunity. We calibrate the
+model to the USA and perform comparative analysis with different assumptions about the
+waning period and disease-induced death rates. The calibrated epidemiological model
+has three important properties. First, with inflows to the population through births or
+migration, the disease becomes endemic. This means that if left uncontrolled, it will
+never be eradicated, in contrast to a closed population model in which recovery confers
+permanent immunity. Second, the path to the endemic steady state displays damped oscillations, which are intrinsic to the disease dynamics and unrelated to temporal forcing
+or time-varying behavior. Third, the periodicity of the oscillations and the speed of convergence to steady state depend on how fast immunity wanes. For this model, we find
+that it is optimal to have strict social distancing measures from the onset of the epidemic
+and which are continued for several months. These are then temporarily relaxed before
+being brought back at the start of the second wave, and subsequently maintained at a
+permanent moderate level. This policy achieves two goals: it suppresses and postpones
+the initial large infection wave, and delays all future waves as much as possible.
+The fundamental difference between the models with permanent and waning immunity is that in the latter, the build-up of susceptibles happens faster, thereby generating
+additional waves of infection and deaths in the short and medium run. Waning immunity
+is thus similar to increasing the mortality of the disease relative to the case of permanent
+immunity. Optimal policy is sensitive to this difference and therefore prescribes stricter
+social distancing measures under waning immunity.
+We also perform sensitivity analysis with respect to the speed at which immunity
+wanes and the infection fatality rate (IFR). For the calibrated benchmark and with immunity waning after one year, moderate changes in the two parameters change the policy
+in an intuitive manner; higher IFR and faster loss of immunity both increase the severity
+of the disease and prompt stricter measures to be imposed. But for very fast loss of immunity or high IFR, there is a qualitative shift and the optimal policy no longer leads to
+an endemic steady state. Instead, significant and permanent social distancing is imposed
+from the outset, resulting in asymptotic eradication of the disease.
+The recent literature on the economics of the COVID-19 epidemic is too vast to do justice in this space; for reference, we therefore mention just a few examples. Eichenbaum,
+Rebelo and Trabandt (2020), Alvarez, Argente and Lippi (2020), Kaplan, Moll and Violante (2020) and Krueger, Ulhig and Xie (2020) all consider macroeconomic models in
+
+

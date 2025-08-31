@@ -1,0 +1,304 @@
+News Uncertainty in Brexit UK
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0019.R2
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+01-Jun-2020
+Author:
+Complete List of Authors: Faccini, Renato; Danmarks Nationalbank, Research Department
+Palombo, Edoardo; Queen Mary University of London Faculty of
+Humanities and Social Sciences, School of Economics and Finance
+Keywords: E22, E32, E65
+
+Page 1 of 24
+
+Page 2 of 24
+
+Page 3 of 24
+
+News Uncertainty in Brexit U.K.
+By R ENATO FACCINI AND E DOARDO PALOMBO∗
+After the Brexit referendum the behavior of the U.K. economy defied
+widespread expectations, as it did not exhibit a V-shaped recession, but
+a slow decline in production. We show that this pattern of propagation
+arises when uncertainty is about future, rather than current fundamentals, and if the expected duration of uncertainty is sufficiently long. We
+reach this conclusion within the confines of a heterogeneous firms model
+featuring news uncertainty, instead of conventional uncertainty shocks.
+In the quantitative analysis, uncertainty is informed by firm-level probability distributions on the expected effect of Brexit on sales.
+JEL: E22, E32, E65
+Keywords: uncertainty, news shocks, heterogeneous firms, long-run
+productivity, survey data.
+Does uncertainty matter for the business cycle? After the vote to leave the
+E.U. in the Brexit referendum of June 2016, the behavior of the U.K. economy
+has instilled the doubt that maybe uncertainty is not as important as previously
+thought. Indeed, the academic literature has shown that uncertainty shocks
+propagate in a V-shaped fashion, inducing a sharp and short-lived contraction
+in aggregate production (Bloom 2009). Consistent with this view, prior to the
+referendum, a number of policy institutions predicted a sharp recession conditional on a victory of the leave campaign (HM Treasury 2016). But this contraction failed to materialize, leading to dramatic upward revisions in the shortterm forecast of economic activity. The Brexit referendum is an ideal case study
+to gauge the importance of uncertainty, for the sheer magnitude of uncertainty
+sparked, which involves not only the future legislation of trade agreements with
+the E.U. and the rest of the world, but also the future regulation of migration
+flows, domestic industrial policy, banking regulation, taxation policy etc.
+Figure 1 shows that soon after the Brexit referendum, the employment rate, as
+well as capital and output per capita slowly started to fall below trend growth.
+So the figure suggests that the Brexit referendum has likely produced a material
+∗ Faccini: Danmarks Nationalbank, Research Department, Havnegade 5, 1093 Copenhagen, Denmark,
+rmmf@nationalbank.dk. Palombo: Queen Mary University of London, School of Economics and Finance,
+Graduate Centre, Bancroft Road, London E1 4DQ, e.palombo@qmul.ac.uk. We thank the coeditor, Peter
+Klenow, and three anonimous referees for their valuable comments and suggestions. We are also grateful
+to Tatsuro Senga for his advice, and to Stefania Albanesi, Francisco Buera, Martin Eichenbaum, Federico
+Ravenna, Richard Rogerson, and seminar participants at Queen Mary University of London, the University
+College of London, the University of Copenhagen, the Bank of England, the workshop on ”the changing economy and the business cycle” at Oslo and the annual meetings of the European Economic Association and the
+Royal Economic Society for their comments. Renato Faccini is grateful to the Bank of England for the award
+of the George Fellowship and for discussions with members of the staff and the Monetary Policy Committee. However, the views expressed in this paper do not necessarily represent those of the Bank of England,
+Danmarks National Bank or the European System of Central Banks.
+
+1
+
+Page 4 of 24
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+Output
+
+9.20
+9.18
+
+Employment
+
+77
+
+EU Referendum
+
+MONTH YEAR
+
+76
+
+Capital
+
+0.72
+
+EU Referendum
+
+EU Referendum
+
+0.70
+
+75
+9.16
+
+0.68
+
+74
+
+9.14
+
+73
+
+0.66
+
+72
+
+9.12
+
+0.64
+
+71
+0.62
+
+70
+
+19
+
+18
+
+20
+
+17
+
+20
+
+16
+
+20
+
+15
+
+20
+
+14
+
+20
+
+13
+
+20
+
+12
+
+20
+
+11
+
+19
+
+18
+
+20
+
+17
+
+20
+
+16
+
+20
+
+15
+
+20
+
+14
+
+20
+
+13
+
+20
+
+12
+
+20
+
+11
+
+0.60
+
+20
+
+20
+
+19
+
+18
+
+20
+
+17
+
+20
+
+16
+
+20
+
+15
+
+20
+
+14
+
+20
+
+13
+
+20
+
+12
+
+20
+
+20
+
+20
+
+11
+
+69
+
+20
+
+9.08
+
+20
+
+9.10
+
+F IGURE 1. U.K. M ACROECONOMIC A GGREGATES AND T HEIR P RE -R EFERENDUM T REND
+Note: The Figure shows GDP per capita, the employment rate and capital per capita in deviations form their
+trend. Output and capital per capita are expressed in logs, the rate of employment is in level. Trend growth is
+linear for output and employment and quadratic for capital, and is calculated from 2011Q1 to 2016Q2.
+
+impact over the next three years. But if this is the case, these damaging effects did
+not come through a sudden contraction in economic activity, the manifestation
+of conventional uncertainty shocks, but via a gradual decline in output and in
+the factors of production.1
+The starting point of our analysis is the observation that Brexit uncertainty
+hardly fits the notion of a canonical uncertainty shock, and therefore it should
+not be expected to propagate accordingly. An uncertainty shock is defined as
+a second-moment shock to aggregate and idiosyncratic fundamentals over the
+short run. But in the case of Brexit, uncertainty is primarily about fundamentals
+in the long run. Moreover, Brexit will affect fundamentals directly only after it
+takes place; the outcome of the referendum instead does not affect fundamentals directly, but only indirectly, through expectations. We therefore model the
+referendum as a news shock, with the time horizon and the content of the news
+being uncertain. We make use of survey data on firm-level distributions of beliefs about both the expected Brexit date and expected impact of Brexit on sales,
+to inform uncertainty in the model. The aim of the analysis is twofold. First, we
+aim to understand the impact of the Brexit referendum on UK macroeconomic
+dynamics. Second, and more broadly, we take Brexit as a laboratory to learn
+about the role of uncertainty in news shocks, which we believe characterizes
+most episodes of economic policy uncertainty.
+We assume that the stationary equilibrium of a heterogeneous-firms economy
+à la Khan and Thomas (2008) is hit by the unexpected news that a package of
+policy reforms may be implemented in the future, with firms being uncertain
+1 Born et al. (2019) provide evidence for the gradual slowdown of GDP using a more sophisticated methodology to compute the trend.
+
+Page 5 of 24
+
+VOL. VOL NO. ISSUE
+
+NEWS UNCERTAINTY
+
+3
+
+about which policy will be implemented. A specific Brexit policy, say Hard or
+Soft Brexit, is defined as a combination of aggregate and firm-level TFP shocks
+that are permanent. Because the model is real, these shocks should not be interpreted literally as technology shocks, but more broadly as permanent sales
+shocks, or the outcome of idiosyncratic policy wedges in the spirit of Restuccia
+and Rogerson (2008) and Buera and Shin (2013, 2017).
+We show that the model can quantitatively account for the slowdown of the
+UK economy illustrated in Figure 1. The main lesson, beyond the specific case
+of Brexit, is that the effects of uncertainty depend a lot on whether uncertainty is
+associated with current or future fundamentals, and on its expected duration.
+I. Model
+
+We present a simple, discrete-time economy with a unit mass of heterogeneous
+firms facing non-convex costs of adjusting capital. We deliberately take a partial
+equilibrium approach and abstract from the explicit modeling of households.
+Indeed, we do not want to impose equality between domestic savings and investment for the U.K. economy.2
+E NVIRONMENT
+
+Each period, firms produce by renting labour at the wage rate w and using
+their capital, which evolves according to k0 = (1 − δ)k + i, where δ ∈ (0, 1) is
+a depreciation rate, i denotes investment and k ∈ R+ . Firms are characterised
+by four idiosyncratic state variables: idiosyncratic productivity, an idiosyncratic
+policy state, capital and a fixed cost associated with investment.
+The evolution of individual productivity, a ∈ A = { a1 , ..., a Na }, is governed
+by an exogenous stochastic AR(1) process: log( a0 ) = ψlog( a) + e, where e ∼
+N (0, σ) and ψ ∈ [0, 1). The idiosyncratic policy state z ∈ Z = {z+ , z− , z0 }
+captures whether the implementation of the Brexit policy contributes a positive, negative or neutral permanent component to firm-level productivity, respectively. This state becomes relevant only after the policy is implemented, at
+which time firms take an independent draw of z. Specifically, firms will draw
+z+ and z− with associated probability q+ and q− , respectively, and z0 with probability 1 − q+ − q− . These assumptions generate idiosyncratic uncertainty over
+the outcome of the policy. Finally, we assume that actively changing capital is
+subject to a fixed, stochastic cost of adjustment φ.3
+In addition to these idiosyncratic states, we introduce a fifth state variable,
+ζ ∈ {ζ P , ζ N , ζ S , ζ H }, which captures the aggregate state of Brexit. ζ P denotes
+2 Introducing a consumption and savings decision has implications for the transition, but not for the longrun effects of Brexit, which are pinned down by the survey data. This extension implies that the permanent
+income shock induced by the Brexit referendum generates a massive increase in precautionary savings. If
+savings equals investment, the news of the referendum induces an investment boom, which is at odds with
+the data.
+3 We assume that adjustment costs are stochastic for computational reasons. By making the policy function
+continuous, this assumption allows for better accuracy and faster execution without affecting the results.
+
+

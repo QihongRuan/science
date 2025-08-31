@@ -1,0 +1,116 @@
+Accelerator or Brake? Cash for
+Clunkers, Household Liquidity, and Aggregate Demand
+Journal: American Economic Journal: Economic Policy
+Manuscript ID AEJPol-2017-0122.R4
+Manuscript Type: Regular Submission - High Income Country - Member
+Keywords: D14, E62, H31
+
+Page 1 of 50
+
+DISCLOSURE STATEMENT
+for
+“Accelerator or Brake? Cash for Clunkers, Household Liquidity, and Aggregate
+Demand”
+
+I did not receive financial support for this research, and I have no financial interest in its
+outcomes. We did not obtain IRB approval for the project because we study existing household
+survey data that is either publicly available or recorded in a way that subjects cannot be identified.
+
+Daniel Green
+
+1
+
+Page 2 of 50
+
+DISCLOSURE STATEMENT
+for
+“Accelerator or Brake? Cash for Clunkers, Household Liquidity, and Aggregate
+Demand”
+
+I did not receive financial support for this research, and I have no financial interest in its
+outcomes. We did not obtain IRB approval for the project because we study existing household
+survey data that is either publicly available or recorded in a way that subjects cannot be identified.
+
+Brian T. Melzer
+
+2
+
+Page 3 of 50
+
+DISCLOSURE STATEMENT
+for
+“Accelerator or Brake? Cash for Clunkers, Household Liquidity, and Aggregate
+Demand”
+
+I have no relevant or material financial interests that relate to the research described in this
+paper. This paper has not be published in any form in a peer-reviewed journal and is not currently
+under review at any other journal. The paper is available as a working paper in several series. We
+did not obtain IRB approval for the project because we study existing household survey data that
+is either publicly available or recorded in a way that subjects cannot be identified.
+
+Jonathan A. Parker
+
+3
+
+Page 4 of 50
+
+DISCLOSURE STATEMENT
+for
+“Accelerator or Brake? Cash for Clunkers, Household Liquidity, and Aggregate
+Demand”
+
+I did not receive financial support for this research, and I have no financial interest in its
+outcomes. We did not obtain IRB approval for the project because we study existing household
+survey data that is either publicly available or recorded in a way that subjects cannot be identified.
+
+Arcenis Rojas
+
+4
+
+Page 5 of 50
+
+Accelerator or Brake? Cash for Clunkers, Household
+Liquidity, and Aggregate Demand
+By Daniel Green, Brian T. Melzer, Jonathan A. Parker and
+Arcenis Rojas∗
+This paper evaluates the Car Allowance Rebate System (CARS) by
+comparing the vehicle purchases and disposals of households with
+eligible “clunkers” to those of households with similar, but ineligible, vehicles. CARS caused roughly 500,000 purchases during the
+program period. The provision of liquidity, through a rebate usable
+as a down payment, was critical in generating this large response.
+Participation was rare among households that owned clunkers with
+outstanding loans, which required loan repayment. This decline in
+participation is attributed to households’ preference for lower down
+payments and distinguished from the effects of income, other indebtedness, and the program subsidy.
+JEL: G18(General Financial Markets; Government Policy
+and Regulation) D14(Household Saving; Personal Finance),
+E62(Fiscal Policy), H24(Personal Income and Other Nonbusiness
+Taxes and Subsidies), H31(Fiscal Policies and Behavior of Economic Agents, Household)
+Keywords: Fiscal stimulus, durable goods, consumption, household
+finance, liquidity constraints, debt capacity
+During the Great Recession, policymakers used a range of fiscal policies to
+stimulate consumer demand, including temporary tax credits and price subsidies
+on durable goods. Temporary incentives for the purchase of durable goods, like
+temporary subsidies for capital investment by businesses, can in theory have large
+effects by altering the timing of purchases. But the responses to such incentives
+are often found to be quite low.1 A possible explanation is that intertemporal
+∗ Green:
+Harvard Business School, Soldiers Field, Boston, MA 02163, dgreen@hbs.edu;
+Melzer: Tuck School of Business, Dartmouth College, 100 Tuck Hall, Hanover, NH 03755,
+Brian.T.Melzer@Tuck.Dartmouth.edu; Parker: Sloan School of Management, MIT, 100 Main Street,
+Cambridge, MA 02142-1347, JAParker@MIT.edu; Rojas: U.S. Bureau of Labor Statistics, Postal Square
+Building, 2 Massachusetts Avenue, N.E., Washington, DC 20212-0001; Rojas.Arcenis@BLS.gov. The
+content of this article does not reflect the views or policies of the U.S. Bureau of Labor Statistics. For
+helpful comments, we thank Meghan Busse, Gabriel Chodorow-Reich, Laura Erhard, seminar participants at the Federal Reserve Bank of Boston, UC Berkeley, Duke, MIT, Rochester, and UT Austin,
+the Reserve Bank of Australia Quantitative Macroeconomics Workshop, and participants at the 2015
+Annual Meetings of the American Economic Association, where this paper was originally presented under its original title: “Accelerator or Brake? Microeconomic estimates of the ’Cash for Clunkers’ and
+Aggregate Demand.” We thank Jonathan Cohen for research assistance and Ryan Pfirrmann-Powell for
+data work on this project from its inception in 2013 to its first draft in 2014.
+1 See, for example, Auerbach and Hassett (1992), Caballero, Engel and Haltiwanger (1997), Desai
+and Goolsbee (2004), House and Shapiro (2008), Edgerton (2010), Zwick and Mahon (2016). Caballero
+(1993), Bar-Ilan and Blinder (1992), and Berger and Vavra (2015) study automobile purchase dynamics
+and Adda and Cooper (2000) studies previous vehicle scrappage subsidies in France.
+
+1
+
+

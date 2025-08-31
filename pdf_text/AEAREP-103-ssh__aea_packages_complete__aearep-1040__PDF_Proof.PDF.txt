@@ -1,0 +1,234 @@
+Learning from unrealized versus realized prices
+Journal: American Economic Journal: Microeconomics
+Manuscript ID AEJMicro-2018-0268.R4
+Manuscript Type: Regular Submission - High Income Country - Member
+Keywords: D82, D81, C91
+
+Page 1 of 64
+
+Learning from unrealized versus realized prices†
+By M. Kathleen Ngangoué and Georg Weizsäcker∗
+Our experiments investigate the extent to which traders learn from
+the price, differentiating between situations where orders are submitted before versus after the price has realized. In simultaneous
+markets with bids that are conditional on the price, traders neglect
+the information conveyed by the hypothetical value of the price.
+In sequential markets where the price is known prior to the bid
+submission, traders react to price to an extent that is roughly consistent with the benchmark theory. The difference’s robustness to
+a number of variations provides insights about the drivers of this
+effect.
+JEL: D82, D81, C91
+Keywords: Naive expectations, rational expectations, belief updating, contingent reasoning, price efficiency
+Market prices reflect much information about fundamental values. The extent
+to which traders utilize this information has important welfare consequences but
+is difficult to measure as one often lacks control of the traders’ restrictions, beliefs
+and preferences. One possibility to detect a bias in price inference is to modify
+the informational environment in a way that is irrelevant for rational traders. If
+trading reacts to a framing variation that is uninformative under rational expectations, the latter assumption is questionable. We focus on an important dimension of variability between markets, the conditionality of price. In simultaneous
+markets, the price realization is unknown to the traders at the time when they
+make their decisions—examples are financial markets with limit orders or other
+supply/demand function regimes. Theoretically, traders would incorporate the
+information of each possible price into their bids, as in the Rational Expectations
+Equilibrium prediction by Grossman (1976), inter alia. But the price information
+is hypothetical and traders may find it hard to make the correct inference in hypothetical conditions. A host of evidence on the Winner’s Curse and other economic
+† Go to https://doi.org/10.3886/E119821V1 to visit the article page for additional materials.
+∗ Ngangoué: New York University, 19 West 4th Street 6th Floor, New York, NY 10012, kn44@nyu.edu.
+
+Weizsäcker: Humboldt-Universität zu Berlin, Spandauer Strasse 1, 10178 Berlin, weizsaecker@huberlin.de. We benefited from helpful discussions with Dan Benjamin, Erik Eyster, Steffen Huck, Ryan
+Oprea, Emanuel Vespa, Roberto Weber, as well as with five referees, the Co-Editor (John Asker) and
+the audiences at St Andrews, Berkeley, DIW Berlin, FU Berlin, MPI Bonn, Cologne, Columbia, CREST,
+Hamburg, UCL, Mannheim, NYU, Pittsburgh, PSE, UC San Diego, UC Santa Barbara, USC, the Berlin
+Behavioral Economics Workshops, and the conferences CED, EEA Meeting, ESWC, ICGT Stony Brook,
+SITE, TARK and THEEM. We also thank colleagues at Technical University Berlin and WZB for support
+in the conduct of the experiment. The authors declare that they have no relevant or material financial
+interests that relate to the research described in this paper. IRB approval for the data collection was
+not obtained because the institutions involved in the conduct of the study did not have IRBs. Financial
+support by the European Research Council (through Starting Grant 263412) and the German Science
+Foundation (through Collaborative Research Center TRR 190) is gratefully acknowledged.
+1
+
+Page 2 of 64
+
+2
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+decision biases is consistent with this conjecture, as is the psychological evidence
+on accessibility (Kahneman, 2003) and contingent thinking (Evans, 2007).1 Simultaneous asset markets with price-taking agents are a relevant case in point for
+such failures of contingent thinking; one that has not previously been researched,
+to our knowledge. In contrast, sequential markets—e.g. many quote-based markets and sequential auctions—have the traders know the price at which they can
+complete their trades. Here, it may still be nontrivial to learn from the price; but
+both the psychological research on contingent reasoning and the related economic
+experiments that include treatment variations where simultaneity is switched on
+and off (Carrillo and Palfrey 2011, Esponda and Vespa 2014; 2019 and Li 2017)
+suggest that the task is more accessible in a sequential trading mechanism than
+in a simultaneous one.
+Juxtaposing simultaneous and sequential mechanisms allows two insights. First,
+it provides a clean identification of naive decisions that are due to the necessity of
+forming price-contingent strategies. The failure of contingent reasoning is shown
+to be outcome relevant.2 Second, it helps assessing how retail investors in realworld markets react to the market structure. Retail investors are more likely
+to suffer from cognitive biases than institutional investors (see Skiba and Skiba,
+2017, for a review) and regulations of retail trading need to assess potential drivers
+of investors’ welfare, including behavioral biases.3 To the extent that behavior
+deviates from perfect rationality, a behavioral experiment can complement theoretical considerations in this regard. While a clear distinction between pure
+simultaneous and sequential markets does not exist in the real world, some market structures have clear features of sequentiality, and others of simultaneity. A
+prominent example of the latter are order-driven markets, especially those with
+call auctions, which require investors to supply liquidity without knowledge of liquidity demand (Malinova and Park, 2013; Comerton-Forde, Malinova and Park,
+2018). For instance, equity markets with low liquidity may be cleared throughout
+the day with periodically conducted call auctions; other markets open or close
+the day’s trading via call auctions. More generally, and even for continuously
+traded assets, the increasing market fragmentation and the increasing speed of
+trades force (slow) retail investors to post orders without precise knowledge of
+transaction prices, requiring contingent thinking.4
+1 Experiments analyzing the Winner’s Curse include, for example, M. H. Bazerman and W. F. Samuelson (1983); John H Kagel and Dan Levin (1986); John H Kagel, Dan Levin, Raymond C Battalio and
+Donald J Meyer (1989). For a thorough review on the Winner’s Curse literature see Kagel and Levin
+(2009).
+2 We differentiate between naiveté, which is defined in Section 3 as the confusion of conditional with
+unconditional expectations, and failure of contingent reasoning—a possible source of naiveté. Naiveté
+may more generally be present to some extent, but our treatment exposes the scope of suboptimal
+inferences caused by a failure of contingent reasoning.
+3 As we discuss below, such an assessment may differentiate between these biases’ effect on investors
+who suffer from the bias and the resulting mis-pricing effect on other investors.
+4 In line with the difficulty in using price-contingent strategies, Linnainmaa (2010) relates suboptimal
+trading patterns of retail investors, such as contrarian trades and the disposition effect, to the use of
+limit orders.
+
+Page 3 of 64
+
+VOL. VOL NO. ISSUE
+
+LEARNING FROM PRICES
+
+3
+
+The stylized dichotomy in trading mechanisms has led to an extensive discussion
+of the efficiency of simultaneous versus sequential mechanisms. The discussion’s
+emphasis lies, however, on information aggregation, i.e., the reflection of dispersed information in the price, rather than signal extraction, i.e., the inference
+by traders who observe the price.5 Importantly, incomplete signal extraction may
+also influence the speed of price discovery when new information flows into the
+market. The literature has noted that prices in real and experimental call markets adjust relatively slowly to incoming information (Amihud, Mendelson and
+Lauterbach, 1997; Theissen, 2000). As we explain below, our evidence identifies
+the failure of contingent reasoning as a possible explanation of this pattern.
+Our experimental participants trade a single, risky, common-value asset. To
+trade optimally, a participant considers two pieces of information: her private
+signal and the information conveyed by the asset price. The latter is informative
+because it is influenced by the trading activity of another market participant who
+has additional information about the asset value. To manipulate the accessibility of the price information, we perform the experiment in two main treatments,
+simultaneous (SIM) versus sequential (SEQ). In treatment SIM, participants receive a private signal and submit a limit order. If the market price realizes below
+the limit, the trader buys one unit of the asset, otherwise she sells one unit.6
+Despite the fact that the price has not yet realized, SIM traders would optimally
+infer the extent to which a high price indicates a high value and they would,
+thus, soften the demand’s downward reaction to a higher price, relative to the
+case that the price is uninformative. The possibility that traders may fail to
+learn from hypothetical prices is examined by comparing to the treatment with
+sequential markets, SEQ, where the price is known when traders choose to buy
+or sell. Contingent reasoning is not necessary here but treatments SIM and SEQ
+are nevertheless equivalent: they have isomorphic strategy sets and isomorphic
+mappings from strategies to payoffs.
+Section 2 presents the experimental design in detail and Section 3 discusses our
+behavioral hypotheses. We present three benchmark predictions for comparison
+with the data: first, full naiveté, where the trader learns nothing from the price;
+second, the Bayes-Nash prediction, where a trader assumes that previous trades
+are fully rational and accounts for it; and third, the empirical best response that
+takes into account the actual distribution of previous trades, which may deviate
+from optimality. We use the latter as our main benchmark for optimality as it
+5 Relevant theoretical and experimental studies include Kyle 1985; Madhavan 1992; Pagano and Roell
+1996; Copeland and Friedman 1991, 1992; Cason and Friedman 1997, 2008; Schnitzlein 1996; Theissen
+2000; Pouget 2007, inter alia. A consensus is that the consolidation of orders allows simultaneous markets
+like call auctions to aggregate information. Pouget (2007) points out that while experimental call markets
+can be informationally efficient—e.g. in a situation with many insiders—the liquidity provision in call
+markets can deviate widely from equilibrium predictions. This finding is consistent with ours, and
+Pouget, too, assigns the deviation from equilibrium strategies to bounded rationality and partly to
+strategic uncertainty.
+6 Traders also have the option to reverse their limit order, selling at low prices and buying at high
+prices. This ensures the equivalence between the treatments, see Section 2. In each treatment, we restrict
+the trades to a single unit of supply or demand per trader.
+
+Page 4 of 64
+
+4
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+maximizes the traders’ expected payments. That is, we measure the extent to
+which naiveté fits the data better than the empirical best response, separately by
+treatment.
+The data analysis of Section 4 shows that the participants’ inference of information from the price varies substantially between simultaneous versus sequential
+markets. In SIM, participants often follow the prediction of the naive model,
+thus showing ignorance of the information contained in the price. Price matters
+mainly in its direct influence on the utility from trade—a buyer pays the price,
+a seller receives it. In contrast, in SEQ, where transaction prices are known beforehand, asset demand uses the information contained in the price significantly
+more, yielding trades that are closer to the empirical best response. Averaging
+over all situations where the naive prediction differs from the empirically optimal
+trade, the frequency of naive trading is twice as high in SIM relative to SEQ, at
+37% versus 19%.
+Section 5 identifies various possible sources underlying the difficulty of hypothetical thinking in our markets. One possibility is that the participants feel
+rather well-informed by their own signals, relative to what they can learn from
+the price, and they may therefore neglect the price as an information source. We
+thus repeat the experiment with two treatments where early traders are much better informed than later traders, rendering learning from the price more important
+and more salient. We find that the replication only exacerbates the differences
+between simultaneous and sequential markets, both in terms of behavior and payoff consequences. This evidence makes it implausible that the bias is driven by
+negligence or the lack of salience of the price’s informativeness.
+A further hypothesis is that the effect arises due to the difficulty in correctly
+interpreting human choices. As in the literature examining inference in games versus in single-person tasks (Charness and Levin, 2009; Ivanov, Levin and Niederle,
+2010), we ask whether the bias also occurs if the price’s informativeness is generated by an automated mechanism. The corresponding treatment comparison
+replicates the main results. We can therefore rule out that the effect is driven by
+the necessity of responding to the behavior of others.
+Finally, we ask whether the difficulty in contingent reasoning lies in the cognitive load of required inference, or rather in the hypothetical nature of price. In a
+separate treatment we draw subjects’ attention to one contingency by presenting
+a single possible price that may realize. Participants submit their hypothetical
+buy/sell preference at this one possible, but not yet realized, price.7 The rate of
+optimal choices in this treatment lies mid-way between that of the two main treatments, illustrating that the difficulty of contingent thinking is fueled by both the
+amount and the hypothetical nature of possible prices in simultaneous markets.
+We then combine the different treatments into an aggregate estimation of information use (Subsection 5.4). The analysis of the combined simultaneous treat7 In the language of Esponda and Vespa (2019), this treatment singles out the contingent preference
+that may not necessarily coincide with the original preference.
+
+Page 5 of 64
+
+VOL. VOL NO. ISSUE
+
+LEARNING FROM PRICES
+
+5
+
+ments shows that relative to empirical best response, the participants underweight the information contained in the price to a degree that is statistically
+significant (at p = 0.09 in a one-sided test) and that they strongly over-weight
+their own signal’s importance. In the sequential treatments, they over-weight
+both price and their own signal. Overall, the estimates indicate that traders far
+under-weight the prior distribution of the asset’s value but that they nevertheless
+learn too little from the price in simultaneous markets.
+Taken together, the experiments provide evidence of an interaction between
+market microstructure and the efficiency of information usage. We find that the
+degree of naiveté is higher when the information contained in the price is less accessible: with price not yet realized, traders behave as if they tend to ignore the
+connection between other traders’ information and the price. Aggregate demand
+therefore decreases too fast with the price. The economic bearing of the effect
+is further discussed in Section 6. We examine the predictions of Hong and Stein
+(1999) and Eyster, Rabin and Vayanos (2019) that markets with naive traders,
+who cannot learn from the price, generate an inefficient and slow price discovery. Naive traders tend to speculate against the price, pushing it back towards
+its ex-ante expectation. Their erroneous speculation therefore reduces the extent
+to which the price reveals the underlying value. Confirming this prediction, we
+simulate a standard price setting rule with our data and find that price discovery
+is slower in simultaneous treatments than in sequential treatments. Any (hypothetical) subsequent trader therefore learns less from the price. But naiveté is
+detrimental not only to later players: also the observed payoffs of our market
+participants are lower in SIM than in SEQ, albeit not to a large extent.
+While we focus on markets, we again emphasize that our findings are also consistent with evidence in very different domains. The experimental literatures in
+economics and psychology provide several sets of related evidence that conditional
+inference is suboptimal. Psychologists have confirmed quite generally that decision processes depend on task complexity (Olshavsky, 1979) and that decision
+makers prefer decision processes with less cognitive strain. They focus on one
+model, one alternative or one relevant category when reflecting about possible
+outcomes and their consequences (Evans, 2007; Murphy and Ross, 1994; Ross
+and Murphy, 1996). They also process salient and concrete information more easily than abstract information (see e.g. Odean, 1998, and the literature discussed
+there).
+Several authors before us have pointed out that a possibility to reduce the
+complexity of learning is to proceed in a sequential mechanism.8 Our experiment
+suggests a specific manifestation of this effect, namely that drawing the attention to the realized price may enable a more rational interpretation of the price.
+In the related bilateral bargaining experiment by Carrillo and Palfrey (2011),
+8 Shafir and Tversky (1992) note that participants see their preferences more clearly if they focus on
+one specific outcome. As they observe, ”[t]he presence of uncertainty [...] makes it difficult to focus
+sharply on any single branch [of a decision tree]; broadening the focus of attention results in a loss of
+acuity” (p.457).
+
+

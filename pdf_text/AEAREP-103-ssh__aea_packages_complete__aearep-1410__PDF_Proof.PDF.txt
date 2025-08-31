@@ -1,0 +1,166 @@
+Myopia and Anchoring
+Journal: American Economic Review
+Manuscript ID AER-2019-1436.R3
+Manuscript Type: For Administrative Use Only
+Keywords: E31, E32, E52, E70, D80
+
+Page 1 of 88
+
+Disclosure Statement for “Myopia and Anchoring”
+The submitted paper is based in part upon work supported by the National Science Foundation under
+Grant Number SES-1757198. I declare that I have no other relevant financial or material interests that
+relate to the research described in the submitted paper, entitled “Myopia and Anchoring.”
+Sincerely,
+
+George-Marios Angeletos
+Professor of Economics, MIT
+
+Page 2 of 88
+
+Disclosure Statement for “Myopia and Anchoring”
+I declare that I have no relevant financial or material interests that relate to the research described in the
+submitted paper, entitled “Myopia and Anchoring.”
+Sincerely,
+
+Zhen Huo
+Zhen Huo
+Assistant Professor of Economics, Yale University
+
+Page 3 of 88
+
+Myopia and Anchoring
+By George-Marios Angeletos and Zhen Huo∗
+
+We develop an equivalence between the equilibrium effects of incomplete information and those of two behavioral distortions: myopia, or extra discounting of the future; and anchoring of current
+behavior to past behavior, as in models with habit persistence or adjustment costs. We show how these distortions depend on higherorder beliefs and GE mechanisms, and how they can be disciplined
+by evidence on expectations. We finally illustrate the use of our
+toolbox with a quantitative application in the context of inflation,
+a bridge to the HANK literature, and an extension to networks.
+JEL: C72, D80, E30, E7
+Keywords: Informational Frictions, Dynamic Beauty Contests,
+Micro to Macro, DSGE
+
+I.
+
+Introduction
+
+What are the macroeconomic effects of informational frictions? How do they
+depend on general equilibrium (GE) mechanisms, market structures, and agent
+heterogeneity? And how can they be quantified?
+We develop a toolbox for addressing such questions and illustrate its use. On
+the theoretical front, we offer an illuminating representation result and draw connections to the literatures on networks and HANK models. On the quantitative
+front, we show how to extract the informational friction from survey evidence on
+expectations and proceed to argue that it can rationalize sizable sluggishness in
+the response of inflation and aggregate spending to shocks.
+∗ Angeletos: Department of Economics, Massachusetts Institute of Technology, 77 Massachusetts Avenue, Cambridge, MA 02139 (email: angelet@mit.edu); Huo: Department of Economics, Yale University,
+28 Hillhouse Ave, New Haven, CT 06511 (email: zhen.huo@yale.edu). We are grateful to three anonymous referees and the editor, Mikhail Golosov, for extensive feedback, and to Chris Sims, Alexander
+Kohlhas, Luigi Iovino, and Alok Johri for discussing our paper in, respectively, the 2018 NBER Monetary Economics meeting, the 2018 Cambridge/INET conference, the 2018 Hydra workshop, and the
+2018 Canadian Macro Study Group. We also acknowledge useful comments from Jaroslav Borovicka,
+Simon Gilchrist, Jennifer La’O, John Leahy, Kristoffer Nimark, Stephen Morris, Mikkel Plagborg-Moller,
+Dmitriy Sergeyev, and seminar participants at the aforementioned conferences, BC, BU, Columbia, NYU,
+LSE, UCL, UBC, Chicago Fed, Minneapolis Fed, Stanford, Carleton, Edinburgh, CUHK, the 2018 Duke
+Macro Jamboree, the 2018 Barcelona GSE Summer Forum EGF Group, the 2018 SED Meeting, the
+2018 China International Conference in Economics, and the 2018 NBER Summer Institute. Angeletos
+acknowledges the support of the National Science Foundation under Grant Number SES-1757198.
+
+1
+
+Page 4 of 88
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+Framework
+
+Our starting point is a representative-agent model, in which an endogenous
+outcome of interest, denoted by at , obeys the following law of motion:
+(1)
+
+at = ϕξt + δEt [at+1 ] ,
+
+where ξt is the underlying stochastic impulse, or fundamental, ϕ > 0 and δ ∈ (0, 1]
+are fixed scalars, and Et [·] is the rational expectation of the representative agent.
+Condition (1) stylizes a variety of applications. In the textbook New Keynesian
+model, this condition could be either the New Keynesian Philips Curve (NKPC),
+with at standing for inflation and ξt for the real marginal cost, or the Euler
+condition of the representative consumer (a.k.a. the Dynamic IS curve), with at
+standing for aggregate spending and ξt for the real interest rate. Alternatively,
+this condition can be read as an asset-pricing equation, with ξt standing for the
+asset’s dividend and at for its price.
+We depart from these benchmarks by letting people have a noisy “understanding” of the economy, in the sense of incomplete information. The friction could be
+the product of either dispersed knowledge (Lucas, 1972) or rational inattention
+(Sims, 2003). And it is the source of both first- and higher-order uncertainty. Relative to the frictionless, full-information, rational-expectations benchmark, there
+is therefore not only gradual learning of the exogenous innovations, but also a
+friction in how people reason about others (Morris and Shin, 1998; Tirole, 2015)
+and thereby about GE effects (Angeletos and Lian, 2018).
+An Observational Equivalence
+
+Our main result is a representation of the equilibrium effects of the informational friction in terms of two behavioral distortions. Under appropriate assumptions, the equilibrium dynamics of the aggregate outcome at in the incompleteinformation economy are shown to coincide with that of a representative-agent
+economy in which condition (1) is modified as follows:
+(2)
+
+at = ϕξt + δωf Et [at+1 ] + ωb at−1 ,
+
+for some ωf < 1 and ωb > 0. The first distortion (ωf < 1) represents myopia towards the future, the second (ωb > 0) anchors current outcomes to past outcomes.
+One dulls the forward-looking behavior, the other adds a backward-looking element akin to habit or adjustment costs.
+Crucially, both distortions increase not only with the level of noise but also
+with parameters that regulate the strategic interaction, or the GE feedback in
+the economy. Economies in which the Keynesian cross is steeper, firms are more
+strategic, or input-output linkages are stronger behave as if they are populated
+by more impatient and more backward-looking agents.
+
+Page 5 of 88
+
+VOL. VOL NO. ISSUE
+
+MYOPIA AND ANCHORING
+
+3
+
+Underlying insights and marginal contribution
+
+The documented effects encapsulate the role of higher-order beliefs. To fix ideas,
+consider the response of aggregate demand (= at ) to a drop in the real interest
+rate (= ξt ). A consumer that becomes aware of this event now may nevertheless
+doubt that others will be aware of the same event in the near future and may
+therefore also doubt that aggregate spending will go up. As this logic applies for
+the average consumer, the economy as a whole systematically underestimates the
+future movements in aggregate income, and behaves like a representative agent
+that excessively discounts the future. And the larger the dependence of spending
+on income, or the steeper the Keynesian cross, the larger this discounting.
+This explains the documented myopia. The anchoring, on the other hand, has
+to do with learning. As more times passes since the occurrence of any given
+shock, consumers become progressively more aware of it. But higher-order beliefs
+adjust more sluggishly than first-order beliefs—equivalently, the expectations of
+income adjust more sluggishly than expectations of interest rates. This reduces
+the speed of adjustment in aggregate spending, or equivalently it increases the
+apparent dependence of current spending on past spending. And the steeper the
+Keynesian cross, the larger this effect, too.
+Versions of these insights have been documented in the literature before, albeit not in the sharp form offered here.1 Relative to the state of the art, our
+theoretical contribution contains: the bypassing of the curse of dimensionality
+in higher-order beliefs; the existence, uniqueness and analytical characterization
+of the equilibrium; the aforementioned observational-equivalence result; and an
+extension to a class of incomplete-information networks. This in turn paves the
+way to our applied contribution, which we detail below.
+DSGE, micro to macro, and bounded rationality
+
+Our observational equivalence offers the sharpest to-date illustration of how
+informational frictions may substitute for the ad hoc forms of sluggish adjustment
+employed in the DSGE literature: the backward-looking element in condition (2)
+is akin to that introduced by habit persistence in consumption, adjustment costs
+to investment, or indexation of prices to past inflation.
+Crucially, the documented distortions increase not only with the level of noise
+but also with parameters that regulate the strength of GE feedback loops and
+the associated importance of higher-order beliefs. In the context of the NKPC,
+examples of such parameters include the frequency of price adjustment, the degree
+of market concentration, and the input-output matrix; and in the context of the
+Dynamic IS curve, they include liquidity constraints and consumer heterogeneity.
+1 In particular, the role of learning as source of sluggish adjustment in behavior is the common theme
+of Sims (2003) and Mankiw and Reis (2002); the higher sluggishness of higher-order beliefs relative to
+first-order beliefs has been emphasized by Woodford (2003) and Morris and Shin (2006); and the role of
+higher-order beliefs as a source of as-if myopia has been highlighted by Angeletos and Lian (2018).
+
+

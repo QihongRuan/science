@@ -1,0 +1,224 @@
+The Effect of Charter Schools on School Segregation
+Journal: American Economic Journal: Economic Policy
+Manuscript ID AEJPol-2019-0682.R2
+Manuscript Type: For Administrative Use Only
+Keywords: I24, J15
+
+Page 1 of 63
+
+The Effect of Charter Schools on School Segregation
+Tomas Monarrez, Brian Kisida, and Matthew Chingos∗
+February, 2021
+
+Abstract
+We examine the impact of the expansion of charter schools on racial segregation in public schools, defined using multiple measures of racial sorting and isolation. Our research
+design utilizes between-grade differences in charter expansion within school systems, and
+an instrumental variables approach leveraging charter school openings. Charter schools
+modestly increase school segregation for Black, Hispanic, Asian, and White students. On
+average, charters have caused a 6% decrease in the relative likelihood of Black and Hispanic
+students being exposed to schoolmates of other racial or ethnic groups. For metropolitan
+areas, our analysis reveals countervailing forces, as charters reduce segregation between
+districts.
+
+∗
+Tomas Monarrez, Urban Institute, Washington DC, TMonarrez@urban.org. Brian Kisida, The University of Missouri
+Harry S Truman School of Public Affairs, Columbia, MO, briankisida@gmail.com. Matthew Chingos, Urban Institute,
+Washington DC, MChingos@urban.org. We are grateful to Martin West, David Card, Jesse Rothstein, Stephanie Cellini,
+and seminar and conference participants at the George Washington University Washington Area Labor Economics Symposium, the annual conference of the Association of Public Policy and Management, and the Urban Institute Brown Bag
+series for helpful discussions and comments. We thank the Walton Family Foundation for financial support.
+
+1
+
+Page 2 of 63
+
+1
+
+Introduction
+
+Charter schools have steadily expanded in the US over the last two decades. Proponents of
+the charter model argue that school choice generates education improvements via competitive
+pressure that rewards school effectiveness and improves matches between students and schools
+(Friedman 1962, Coons and Sugarman 1977, Chubb and Moe 1990, Hoxby 2003, Betts 2005).
+Indeed, multiple studies show that charter schools are effective at improving student test scores
+through both mechanisms (Dobbie and Fryer 2011, Angrist, Dynarski, Kane, Pathak and
+Walters 2012, Angrist, Cohodes, Dynarski, Pathak and Walters 2016, Cordes 2018). But there
+is also evidence that parents don’t necessarily select schools on the basis of effectiveness, dampening competitive incentives and potentially increasing disparities in public schooling through
+increased sorting on other dimensions (Rothstein 2006, Abdulkadiroğlu, Pathak, Schellenberg
+and Walters 2020, Walters 2018).1
+At the same time, one of the most pernicious and persistent issues in US education policy over
+the last century is racial segregation in public schools. More than sixty five years after the pivotal
+Brown v. Board of Education Supreme Court decision, segregation by race is still pervasive
+across public school districts in the US. The negative impact of racial segregation on students has
+been documented in a large literature spanning across the social sciences (Welch 1987, Guryan
+2004, Card and Rothstein 2007, Clotfelter 2011, Billings, Deming and Rockoff 2014, Reardon and
+Owens 2014, Johnson 2015). Given the fact that the charter school model necessarily entails
+active choices made by families, a key remaining question is the impact that charter school
+expansion has had on the racial stratification of public school systems.
+Because multiple potential mechanisms may drive a causal link between the growth of charter
+schools and segregation, theory is ambiguous on the net effect. On the one hand, choice entails
+decoupling school assignments from residential neighborhoods that tend to be segregated, which
+by itself may impact stratification. On the other, greater choice may lead to segregation if
+parents have strong peer preferences, lack equal access to resources, or if they confound school
+quality with school racial composition or other correlated observables (Abdulkadiroğlu et al.
+2020). An additional complication is that many charter schools in urban areas specifically recruit
+historically underserved students (Angrist, Pathak and Walters 2013). Estimating the causal
+effect of charter schools on school segregation is thus complicated by sorting dynamics that are
+endogenous to numerous underlying forces.
+A summary of the research on charter schools and segregation described it as “regrettably
+weak” and noted that little is known about how charter schools affect the distribution of students
+in school systems (Gill, Timpane, Ross, Brewer and Booker 2007). Descriptive studies have
+established that on average, minority students are more concentrated in the charter school
+sector than in traditional public schools (Frankenberg, Siegel-Hawley and Wang 2010). However,
+similar studies focusing on urban areas have found that racial isolation of students in charters
+1
+
+Studies examining the alignment of parental choices and school effectiveness typically rely on test score
+value-added measures. A growing literature demonstrates that parents also value other school characteristics,
+and such characteristics are also predictive of important later life outcomes. See, for example, Beuermann,
+Jackson, Navarro-Sola and Pardo (2018).
+
+2
+
+Page 3 of 63
+
+and district schools is similar (Ritter, Jensen, Kisida and McGee 2010). Other case studies
+tracking the effect of student transfers between district and charter schools find mixed evidence,
+suggesting both positive and negative effects on racial isolation that varies among different
+localities. (Bifulco, Ladd and Ross 2009, Bifulco and Ladd 2007, Garcia 2008, Ladd and Turaeva
+2020, Ritter, Jensen, Kisida and Bowen 2014, Zimmer, Gill, Booker, Lavertu, Sass and Witte
+2009).2
+We contribute to the literature by providing the first comprehensive evidence on the causal
+effect of charter schools on racial segregation, using 1998-2018 panel data on the demographic
+breakdown of almost every public school in the country.3 Our preferred measurement approach
+examines relative evenness in the distribution of different student groups across schools, but
+we also consider impacts using absolute measures of racial exposure and isolation. Intuitively,
+our preferred index measures the relative likelihood that a student has schoolmates from a
+different racial/ethnic group. We document impacts for the stratification of the four largest
+racial and ethnic groups, and study effects at varying levels of geography. Our identification
+strategy is based on a triple differences research design that leverages between-grade variation
+in the charter share of enrollment within a given school system and year. Our effect estimates
+are based on average differences in the dynamics of segregation between grade levels that have
+experienced differing intensity in charter growth. In addition, we exploit the arguably cleaner
+source of variation generated by charter school opening events in an instrumental variables (IV)
+framework, generating similar estimates to our baseline OLS models.
+The results show that the expansion of charter schools has led to increased levels of segregation for every major racial and ethnic group across school districts, cities, and counties,
+especially in urban school systems with large populations of Black and Hispanic students. For
+the largest geographies, metropolitan areas, we uncover countervailing forces - while charters
+worsen segregation between schools in a metropolitan area, they improve integration between
+school district jurisdictions, where much of the racial segregation exists. The increase in segregation caused by charters in the average district is modest, but larger for systems with large
+charter shares. Our estimates suggest that a one percentage point (p.p.) increase in the fraction of public school enrollment going to charter schools causes about a 0.10 p.p. increase in
+segregation for Black or Hispanic students, or about 1% of the standard deviation of the 2018
+segregation distribution. When looking at groups separately, segregation impacts are larger for
+Black and white students than for Hispanic or Asian students. We also document substantial
+effect heterogeneity across states, finding a potential mechanism related to state differences in
+charter schools’ relative presence in urban districts and their target student population.
+We demonstrate that the flexible controls in our models are effective at eliminating con2
+
+Studies from North Carolina found that white parents tended to make moves that exacerbate their own
+isolation, while Black parents made moves that increase their intergroup exposure. Zimmer et al. (2009) examined
+transfers to charters in 7 cities and states and concluded that, on average, student transfers between traditional
+public and charter schools were neutral, though there was considerable variation by region.
+3
+
+In the pre-Brown era, the term segregation reflected intentional legally coerced segregation, as opposed to
+the de facto segregation we examine. Though we use the term segregation throughout this paper, this caveat
+should be kept in mind. For an additional discussion regarding how to define segregation in this context, see
+Monarrez, Kisida, and Chingos (2019).
+
+3
+
+Page 4 of 63
+
+founding components of the correlation between charter school presence and racial stratification.
+Using a distributed lags model, we show that future charter growth is not predictive of current
+segregation levels, suggesting a lack of pre-existing trends in the outcomes of interest. Additionally, we establish that were charter school enrollment drawn randomly from the non-charter
+school population, charters would have a small integration effect on public schools, instead of
+the segregation effect identified in the data. Finally, we conduct a series of placebo tests asking
+whether changes in the charter share in one grade are spuriously linked to segregation in other
+grades, finding encouraging patterns. Altogether, the evidence indicates that our estimates
+constitute reliable average treatment effects.
+Our analysis provides compelling evidence that charter schools have lead to higher average
+racial and ethnic segregation in US public schools. However, a clear normative stance on the
+implications of these impacts is complicated by the voluntary nature of school choice. On
+the one hand, there is enormous evidence of the beneficial impacts of school integration on
+the educational and socioeconomic outcomes of racial and ethnic minorities.4 Through this
+lens, charters leading to heightened segregation is particularly worrisome. On the other hand,
+the stated mission of charter schools is often to serve students from underserved populations,
+and many have been shown to improve student outcomes.5 Because they serve homogeneous
+student bodies, specialized charter schools are likely to cause increased segregation within school
+systems. Segregation in the charter school sector is thus fundamentally different from the de jure
+segregation of the pre–Brown era, which explicitly provided fewer resources for the education of
+Black students (Card, Domnisoru and Taylor 2018). As such, we caution that school segregation
+caused by charter schools and segregation forced by government statute should not be interpreted
+with the same lens. More research is needed to understand whose choices drive charters’ effect
+on segregation, and the impact that choice-driven segregation has on educational outcomes.
+The rest of the paper proceeds as follows. Section 2 provides additional background on
+the history of school segregation and school choice, as well as the empirical and theoretical
+literature on the effects of segregation for student outcomes. Section 3 describes our data
+and estimation sample, and presents descriptive statistics. Section 4 develops our empirical
+framework to estimate the causal effect of charter schools on segregation. Section 5 presents
+the main results of the paper. Section 6 conducts a range of robustness checks and provides our
+analysis of the components of metropolitan area segregation. Section 7 concludes.
+4
+
+See, for example, Johnson (2019). Evidence on both the harm of segregation and the benefit of integration on
+a multiplicity of student outcomes has been documented in decades of research (Crain and Mahard 1978, Crain
+and Strauss 1985, Clotfelter 2011, Guryan 2004, Ashenfelter, Collins and Yoon 2006, Jackson 2009, Reber 2010,
+Reardon and Owens 2014, Billings et al. 2014, Hanushek, Kain and Rivkin 2009, Card and Rothstein 2007).
+5
+While evidence on the mean national impact of charter schools on student achievement is mixed, studies
+using school lotteries in urban settings find that charters are more effective than other public schools at raising
+student test scores (Gleason, Clark, Tuttle and Dwoyer 2015, Abdulkadiroglu, Angrist, Dynarski, Kane and
+Pathak 2011, Dobbie and Fryer 2011, Angrist et al. 2012, Angrist et al. 2016, Abdulkadiroğlu, Angrist, Narita
+and Pathak 2017, Walters 2018). See Epple, Romano, and Zimmer (2015) for a summary of the existing evidence
+on charter schools.
+
+4
+
+Page 5 of 63
+
+2
+
+Background
+
+The issue of segregation and school choice has particular significance in the United States, as
+historically it was used as a tool to maintain segregated schools in the south following the
+Supreme Court’s 1954 Brown v. Board of Education decision (Reardon and Owens 2014). In
+1968, fourteen years after Brown, U.S. public schools were still intensely segregated, with an
+average within-district variance ratio index of 0.63 in urban districts (Coleman et al. 1975).6 As
+a result of court-ordered desegregation plans in the mid-1970s, these rates fell substantially, with
+the largest declines in the south (Clotfelter 2011, Reber 2005). At the same time that withindistrict segregation was decreasing, however, between-district segregation increased, particularly
+in areas where school districts tended to be smaller and more numerous (Clotfelter 2011). This
+form of de facto segregation, facilitated through white flight and racist housing market practices,
+was more difficult to address after the Supreme Court’s 1974 Milliken v. Bradley decision ruled
+against court-ordered inter-district desegregation plans (Kruse 2013).
+There is a rich literature supporting the notion that the court-ordered desegregation plans of
+the 1970s-80s caused large reductions in racial disparities in socioeconomic outcomes. In terms of
+measurable educational outcomes, an expanding body of research has documented the benefits of
+school integration, yet the precise mechanisms are less clear (Reardon and Owens 2014). Analysis of the desegregation plans that followed the Brown ruling found reduced high school dropout
+rates for Black students (Guryan 2004, Reber 2010) as well as reductions in the probability
+of incarceration and increases in wages, employment, and health status (Johnson 2015). The
+eventual termination of desegregation orders subsequently led to short-term resegregation that
+resulted in higher dropout rates for Black and Hispanic students (Liebowitz 2017, Lutz 2011).
+Similarly, an examination of the impact of ending race-based bussing in Charlotte-Mecklenburg
+found that it increased racial inequality and led to negative effects on high school exams for
+white and minority students, lower graduation rates and college attendance for white students,
+and increases in crime for minority males (Billings et al. 2014, Vigdor 2011).
+Economists have raised two primary mechanisms by which school integration might reduce
+racial disparities in student outcomes: by ensuring educational resources are more equitably
+available to all students, and by reducing the direct negative impact of social isolation (Card
+and Rothstein 2007). Many recent empirical studies have raised the distribution of resources as
+a primary driver of the negative effect of segregation (Bergman 2018, Johnson 2015, Reardon
+and Kalogrides 2019, Reber 2010). Additionally, an emerging empirical literature suggests
+that intergroup exposure has direct benefits, ranging from reducing the stigma associated from
+segregated schools to cultivating political tolerance (Billings, Chyn and Haggag 2020). Indeed,
+the Brown decision rejected the notion that equalizing resources alone were the main impetus
+for integration when they rejected the "separate but equal" doctrine. For these reasons, we
+examine both relative and absolute measures of segregation in our empirical examination.
+6
+
+See section 3.2 for a detailed description of the variance ratio index of segregation.
+
+5
+
+

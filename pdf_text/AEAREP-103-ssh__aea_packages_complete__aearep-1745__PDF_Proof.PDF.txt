@@ -1,0 +1,204 @@
+Can Policy Change Culture? Government Pension Plans and
+Traditional Kinship Practices
+Journal: American Economic Review
+Manuscript ID AER-2019-0098.R3
+Manuscript Type: For Administrative Use Only
+Keywords: cultural transmission, cultural change, kinship traditions
+
+Page 1 of 81
+
+January 11, 2021
+The Editor
+American Economic Review
+Dear Editor:
+Subject: Disclosure Statement (Natalie Bau) for the submitted manuscript: “Can Policy
+Change Culture” at the AER
+This constitutes the Disclosure Statement by Natalie Bau for the paper, “Can Policy
+Change Culture? Government Pension Plans and Traditional Kinship Practices.”
+This project did not require IRB approval, as it uses public data sources.
+I received funding from the CIFAR Azrieli Global Scholarship while working on this
+paper.
+I can confirm that I have no financial or non-financial interests to disclose at this time.
+Sincerely,
+
+Natalie Bau
+UCLA
+
+Page 2 of 81
+
+Can Policy Change Culture? Government Pension Plans and
+Traditional Kinship Practices
+By NATALIE BAU*
+Policies may change the incentives that allow cultural practices to persist. To test this, I study matrilocality and patrilocality, kinship traditions that determine daughters’ and sons’ post-marriage residences and
+thus, which gender lives with and supports parents in their old age. Two
+separate policy experiments in Ghana and Indonesia show that pension
+policies reduce the practice of these traditions. I also show that these
+traditions incentivize parents to invest in the education of children who
+traditionally co-reside with them. Consequently, when pension plans
+change cultural practices, they also reduce educational investment. This
+finding further demonstrates that policy can change culture.
+Keywords: cultural transmission, cultural change, kinship traditions,
+intergenerational transfers.
+Cultural traditions evolve in response to the conditions in which humans live1 (Boyd and Richerson, 1988) and can facilitate better outcomes by alleviating market incompleteness and substituting for laws or policies (Greif, 1993). As modernizing countries adopt new policies, culture may
+change. This paper provides new evidence on whether policies lead to cultural change by studying
+traditional, ethnicity-level practices that determine whether daughters (matrilocal), sons (patrilocal), or neither gender (neolocal) live with their parents after marriage. In so doing, it also adds to
+a nascent literature in economics that builds on anthropologists’ recognition of the importance of
+kinship traditions for economic outcomes, particularly in low-income countries.
+I hypothesize that matrilocal and patrilocal practices have two important effects. First, they
+ensure old age support for parents in the absence of pension plans and savings mechanisms by
+designating which children will care for parents in their old age, providing a form of informal insurance.2 Second, they provide parents with an additional incentive to invest in the human capital
+of these children since they are more likely to share in the labor and marriage market returns of
+their human capital investments. This second effect is consistent with a growing literature that
+* UCLA, NBER, and CEPR, Bunche Hall, 315 Portola Plaza, Los Angeles, CA, nbau@ucla.edu. I acknowledge the support of the
+CIFAR Azrieli Global Scholars Program. Comments from the editor and two anonymous referees greatly improved the paper. I am
+grateful to Nava Ashraf, David Baqaee, Alberto Bisin, Tim Besley, Pamela Campa, Raquel Fernández, Paola Guiliano, Asim Khwaja,
+Eliana LaFerrara, Adriana Lleras-Muney, Nathan Nunn, Manisha Shah, Aloysius Siow, and Alessandra Voena, as well as seminar
+and conference participants at Harvard-MIT, Dartmouth, UCLA, CIFAR, NYU, LSE, UCL, Simon Fraser, PSE, Namur, H2D2, SIOE,
+the Galatina Meetings, and UToronto for their helpful comments. Matias Giaccobasso, Eva Ng, Palermo Penano, Maria Sauval, and
+William Stukas provided exceptional research assistance.
+1 As anthropologists Boyd and Richerson (1988) write, “humans adjust their [cultural] phenotypes in response to their environments
+through learning and rational calculation” (p. 9).
+2 Jayachandran (2015) reviews the literature on patrilocality and its link to old age support by sons, Banerjee et al. (2014) show that
+parents perceive children as an important source of old age support in China, and Jensen and Miller (2017) show that living together is
+important for children providing parents with old age support in India.
+
+1
+
+Page 3 of 81
+
+suggests that imperfectly altruistic parents may invest less than is optimal in their children since
+their children cannot credibly commit to repaying that investment in the future (Becker, Murphy
+and Spenkuch, 2016; Banerjee, 2004; Ashraf et al., 2020). Under this hypothesis, large-scale social programs like pension plans weaken the incentives to practice matrilocality and patrilocality,
+crowding out a form of informal insurance. This also undermines parents’ incentives to invest in
+the human capital of matrilocal (patrilocal) daughters (sons). Thus, observing changes in educational investment related to changes in the practices of matrilocality and patrilocality provides an
+additional measure of cultural change beyond directly observing changes in cultural practices.
+In an environment where parents strategically transmit cultural traditions or preferences to their
+children (as in Bisin and Verdier (2001) and Guttman (2001)), the above hypothesis generates
+several testable predictions. First, if matrilocality mitigates incomplete contracting problems in
+educational investment for daughters, education rates should be higher for daughters in traditionally matrilocal ethnic groups relative to sons as compared to other ethnic groups (and vice versa
+for traditionally patrilocal sons). Second, the introduction of a pension plan, which reduces the
+need for old age support, should reduce the transmission of matrilocal and patrilocal traditions to
+children, and therefore, the practices of matrilocality and patrilocality among children who were
+exposed to the pension plan. As this will exacerbate incomplete contracting problems, educational
+outcomes for daughters from traditionally matrilocal ethnic groups who were exposed as children
+should also differentially decline, as should the educational outcomes of traditionally patrilocal
+sons. Third, because social stigma and the cultural traits of an individual’s spouse both play a
+role in whether an individual practices a cultural tradition, the behavior of those who are directly
+affected by the pension plan may also affect the behavior of co-ethnics who do not themselves receive the plan. A cultural externality can therefore amplify the pension program’s effects and cause
+the effects of the share of the population exposed to the program on education and the practice of
+matrilocality/patrilocality to be non-linear.
+I test these predictions in Indonesia and Ghana.3 While the primary analyses are in Indonesia,
+where there is more detailed data on the rollout of the pension program, the analyses from Ghana
+provide evidence that these results are externally valid. As predicted, in Indonesia, females in
+traditionally matrilocal groups are more likely to be enrolled in school relative to their brothers
+when compared to females from non-matrilocal groups. In Ghana, the same is true for males from
+traditionally patrilocal ethnic groups.
+Turning to the Indonesian pension program, I provide – to my knowledge – the first estimates
+of the effects of the 1977 introduction of a pension system, Astek, on education and cultural
+practices.4 The primary triple-differences analyses exploit ethnicity-level variation in traditional
+customs, variation in pension plan exposure based on birth year, and geographic variation in the
+intensity of the rollout. They show that the pension program differentially reduced educational
+investments in females from traditionally matrilocal ethnic groups. These women were also less
+likely to practice matrilocality as adults. In contrast, the plan had no differential effects on traditionally matrilocal males’ education. In line with the existence of cultural externalities, the effects
+3 Unlike most potential settings, Indonesia and Ghana have within-country variation in matrilocality/patrilocality across ethnic
+groups. Both have also introduced pension plans in the recent past.
+4 Sudomo (1985), Muliati (2013), and Perusahan Umum Asuransi Sosial Tenaga Kerja (1985) discuss this policy in more detail.
+
+2
+
+Page 4 of 81
+
+of the intensity of the pension’s rollout on both the practice of matrilocality and education are
+non-linear, with discontinuously large effects in the top tercile of treated provinces.
+In Ghana, I exploit the timing of the introduction of a 1972 pension policy to provide estimates
+of this policy’s effect on education and cultural practices. Males from traditionally patrilocal ethnic
+groups who were exposed to the program for longer received less education than non-traditionally
+patrilocal males and were less likely to practice patrilocality as adults. Thus, the results from
+Indonesia replicate in a very different setting.
+Beyond examining whether policies can lead to cultural change, this paper provides evidence
+on the role of cultural traditions in the provision of old age support and how they interact with
+formal old age support policies. Declines in fertility and increases in longevity have led to rapidly
+aging populations throughout the world (Lee, Mason and Cotlear, 2010). In over half of the world’s
+countries, the increase in the population in the 60+ category dominates increases in younger groups,
+and by 2050, the percent of the population that is 65+ is expected to exceed 15 percent in 42
+countries with GDP per-capita below 10,000 USD in 2005 (Lee, Mason and Cotlear, 2010). The
+World Bank (2020) writes, “The most dramatic aging worldwide is projected to take place in low
+and middle-income countries.” To address this challenge, the World Bank has been involved in
+pension reforms in over 90 countries (World Bank, 2020). A better understanding of how old
+age support is informally provided and of the consequences of formal old age support policies is
+therefore crucial for the design of these policies throughout the world.
+This paper contributes to several literatures. It builds on the literature on the evolution of cultural
+practices and attitudes (Giuliano and Nunn, 2016; Lowes et al., 2017; Bidner and Francois, 2011;
+Anderson and Bidner, 2015). Most empirical papers in this literature study the effects of large
+shocks that likely affected culture along many dimensions. For example, Campa and Serafinelli
+(2019) and Alesina and Fuchs-Schündeln (2007) study the effects of state socialism on attitudes.
+Other papers study the effect of different historical empires (Peisakhin, 2010; Becker et al., 2015;
+Grosfeld and Zhuravskaya, 2015; Wysokinskya, 2015). In contrast, this paper studies relatively
+small policy changes5 that come with modernization and shows that these policies can lead to
+cultural change.
+Additionally, this paper contributes to a growing literature on the importance of family ties and
+kinship practices for economic outcomes (Alesina and Giuliano, 2013; Alesina et al., 2015; Alesina
+and Giuliano, 2011; Enke, 2019; La Ferrara, 2007; Lowes, 2016; Schulz, 2018; Akbari, BahramiRad and Kimbrough, 2018; Moscona, Nunn and Robinson, 2017). While anthropologists have long
+believed that these kinship traditions are an important driver of outcomes in low-income countries,
+this understanding is relatively new in economics. I contribute to this literature by showing how a
+specific set of kinship practices – matrilocality and patrilocality – affect human capital investment.6
+5 Several other papers document that policies can affect culture and/or attitudes. Gruber and Hungerman (2007) show that the New
+Deal’s “modernization” policies crowded out the informal social safety net of church-based charitable spending. Bastian (2020) shows
+that the introduction of the EITC contributed to a rise in working mothers in the United States, and Beaman et al. (2009) provide
+evidence that female leadership quotas change voter attitudes in India.
+6 Two related papers study the relationship between kinship traditions and human capital investment in Indonesia. Levine and
+Kavane (2003) use the Indonesia Family Life Survey data set to study the relationship between patrilocality (as determined by an
+expert respondent at the village-level) and gender biased investment in Indonesia and do not find a strong relationship. Rammohan and
+Robertson (2012) find a strong negative relationship between ex post migration and female education in the IFLS. The analysis on the
+link between kinship traditions and human capital in this paper differs from these papers both by using a different, larger data set and a
+
+3
+
+Page 5 of 81
+
+This paper also adds to an emerging literature on the importance of culture for determining the
+effects of different policies (Ashraf et al., 2020; World Bank, 2015; Ebenstein, 2014; La Ferrara
+and Milazzo, 2017, Schoellman and Tertilt, 2006; Tertilt, 2005), as well as the growing literature
+that examines the effects of gender-related cultural traditions (Fernández, 2007; Fernández, 2011;
+Fernández and Fogli, 2009; Tertilt, 2006; Alesina, Giuliano and Nunn, 2013; Giuliano, 2014;
+Alesina, Brioschi and La Ferrara, 2015; Corno, Hildebrandt and Voena, 2020; Corno and Voena,
+2015; Gneezy, Leonard and List, 2009; Becker, 2018; Jayachandran and Pande, 2017).
+Finally, this paper contributes to a large literature on informal insurance networks (examples
+include Munshi and Rosenzweig (2016) and Mazzocco and Saini (2012) on the role of caste networks, Caldwell, Reddy and Caldwell (1986) on the role of fertility, and Rosenzweig and Stark
+(1989) on exogamy) and how they interact with modernizing environments (e.g. Meghir et al.
+(2019) on the interaction between village risk-sharing and migration and Munshi and Rosenzweig
+(2006) on the interaction of caste networks with increasing returns to English language education).
+I contribute to this rich literature by providing evidence on how cultural traditions can play a role
+in facilitating transfers between children and parents and documenting how informal arrangements
+respond to the growth of formal social insurance.
+The paper is organized as follows. Section 2 provides an overview of patrilocal and matrilocal
+traditions. Section 3 outlines a brief conceptual framework to guide the empirical analysis. Section
+4 reports estimates of the effect of traditional matrilocality and patrilocality on the gender gap in
+education in Indonesia and Ghana. Section 5 turns to the primary analysis of the paper, testing
+whether the introduction of the pension plan differentially reduced female education and the transmission of matrilocality among traditionally matrilocal groups in Indonesia. Section 6 replicates
+the key findings for patrilocality in Ghana. Section 7 reports additional findings, and Section 8
+concludes.
+I. Patrilocal and Matrilocal Customs
+
+In this section, I first document how I classify ethnic groups as matrilocal and patrilocal and
+describe the variation in these measures. Then, to provide context for the analyses in this paper and
+identify potential sources of bias, I discuss theories on the origins of matrilocality and patrilocality
+from the anthropological literature. Finally, to validate the anthropological data, I show that, even in
+recent data sets, the assignment of these ethnicity-level traditions predicts matrilocal and patrilocal
+practices.
+A. Variation in Matrilocality and Patrilocality
+
+My analysis requires the measurement of the traditional post-marriage residency practices of
+different ethnic groups. To do so, I use data from the Ethnographic Atlas (Murdock, 1967), which
+codes ethnic groups’ traditional, pre-modernization cultural practices.7 To arrive at ethnicity-level
+measures of traditional matrilocality and patrilocality in the Indonesian and Ghanian censuses, I
+different definition of matrilocality drawn from the anthropological literature, and also by providing symmetric results on patrilocality
+in Ghana. By exploiting exogeneous variation from pension plan introductions to show that reducing the practice of matrilocality and
+patrilocality reduces the education of the targeted gender, this paper also provides more evidence that the link between these kinship
+traditions and education is causal.
+7 Of the 1,235 ethnic groups for whom data on ethnicity-level practices are available in the Ethnographic Atlas, 880 are traditionally
+patrilocal (71 percent), 155 are traditionally neolocal (13 percent), and 200 are traditionally matrilocal (16 percent).
+
+4
+
+

@@ -1,0 +1,80 @@
+Security Transitions
+Journal: American Economic Review
+Manuscript ID AER-2020-0412.R2
+Manuscript Type: For Administrative Use Only
+Keywords: D72, D74, L23
+
+Page 1 of 82
+
+Disclosure Statement
+I, Thiemo Fetzer, declare that I have no relevant or material financial interests that relate to the research
+described in the paper: Security Transitions.
+
+Thiemo Fetzer
+Date: 18 March, 2020
+
+Page 2 of 82
+
+Disclosure Statement
+I, Pedro CL Souza, declare that I have no relevant or material financial interests that relate
+to the research in the paper “Security Transitions”
+
+March 18th 2020
+
+Page 3 of 82
+
+Disclosure Statement
+I, Oliver Vanden Eynde, declare that I have no relevant or material financial interests
+that relate to the research described in the paper: Security Transitions.
+
+Date: 18 March, 2020
+
+Page 4 of 82
+
+Disclosure Statement
+I, Austin L. Wright, declare that I have no relevant or material financial interests that relate to the
+research described in the paper: Security Transitions.
+
+Austin L. Wright
+Date: March 18, 2020
+
+Page 5 of 82
+
+Security Transitions∗
+Thiemo Fetzer†
+
+Pedro CL Souza‡
+Oliver Vanden Eynde§
+Austin L. Wright¶
+January 17, 2021
+
+Abstract
+How do foreign powers disengage from a conflict? We study this issue by examining the recent, large-scale security transition from international troops to local
+forces in the ongoing civil conflict in Afghanistan. We construct a new dataset
+that combines information on this transition process with declassified conflict outcomes and previously unreleased quarterly survey data of residents’ perceptions
+of local security. Our empirical design leverages the staggered roll-out of the
+transition, and employs a novel instrumental variables approach to estimate the
+impact. We find a significant, sharp, and timely decline of insurgent violence in
+the initial phase – the security transfer to Afghan forces; we find that this is followed by a significant surge in violence in the second phase – the actual physical
+withdrawal of foreign troops. We argue that this pattern is consistent with a signaling model, in which the insurgents reduce violence strategically to facilitate the
+foreign military withdrawal to capitalize on the reduced foreign military presence
+afterwards. Our findings clarify the destabilizing consequences of withdrawal in
+one of the costliest conflicts in modern history, and yield potentially actionable
+insights for designing future security transitions.
+Keywords: Counterinsurgency, Civil Conflict, Public Goods Provision
+JEL Classification: D72, D74, L23
+∗ We thank Gani Aldashev, Leonardo Arriola, Eli Berman, Ethan Bueno de Mesquita, Nathan J. Canen, Wioletta Dziuda, James
+Fearon, Anthony Fowler, Massimo Morelli, Hannes Mueller, Gerard Padro, Christopher Price, Jacob Shapiro, Mathias Thoenig,
+Juan Vargas, Daniel Weggeland (SIGAR) and audiences at the Chicago Harris Political Economy, ESOC Annual Conference,
+University of Warwick, IAE Barcelona Workshop on Prediction for Prevention, HiCN conference, CREST Political Economy
+Workshop, Labex OSE Aussois Days, Durham University, University of Manchester, Toulouse School of Economics, UZH, APSA,
+and NBER. Manh Duc Nguyen provided excellent research assistance. Support from the Pearson Institute for the Study and
+Resolution of Conflicts, ANR grant COOPCONFLICT, and EUR grant ANR-17-EURE-0001 is gratefully acknowledged. We thank
+Phil Eles, ANQAR technical lead at NATO, for granting access to the platform and providing technical feedback. Any errors
+remain our own.
+† Department of Economics, University of Warwick. Email: t.fetzer@warwick.ac.uk.
+‡ Department of Economics, University of Warwick. Email: pedro.souza@warwick.ac.uk.
+§ Paris School of Economics and CNRS. Email: oliver.vanden.eynde@ens.fr.
+¶ Harris School of Public Policy, University of Chicago. Email: austinlw@uchicago.edu.
+
+

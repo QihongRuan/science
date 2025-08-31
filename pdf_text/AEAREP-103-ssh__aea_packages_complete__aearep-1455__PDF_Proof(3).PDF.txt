@@ -1,0 +1,112 @@
+The Abolition of Immigration Restrictions and the
+Performance of Firms and Workers: Evidence from
+Switzerland
+Journal: American Economic Review
+Manuscript ID AER-2018-1779.R3
+Manuscript Type: For Administrative Use Only
+Keywords: F22, J24, J61
+
+Page 1 of 95
+
+Manuscript: The Abolition of Immigration Restrictions and the Performance of Firms
+and Workers: Evidence from Switzerland
+Journal: American Economic Review
+Disclosure Statement for Andreas Beerli
+•
+
+•
+
+The research described in this paper received financial support from the following
+source:
+o Swiss National Fund (SNF), grant P1ZHP1_151659
+The author declares that he has no relevant or material financial interests that
+relate to the research described in this paper.
+
+Andreas Beerli
+
+Page 2 of 95
+
+Manuscript: The Abolition of Immigration Restrictions and the Performance of Firms
+and Workers: Evidence from Switzerland
+Journal: American Economic Review
+Disclosure Statement for Giovanni Peri
+•
+
+•
+
+The research described in this paper received financial support from the following
+source:
+o Swiss National Fund (SNF), grant P1ZHP1_151659
+The author declares that he has no relevant or material financial interests that
+relate to the research described in this paper.
+
+Giovanni Peri
+
+Page 3 of 95
+
+Manuscript: The Abolition of Immigration Restrictions and the Performance of Firms
+and Workers: Evidence from Switzerland
+Journal: American Economic Review
+Disclosure Statement for Jan Ruffner
+•
+
+•
+
+The research described in this paper received financial support from the following
+source:
+o Swiss National Fund (SNF), grant P1ZHP1_151659
+The author declares that he has no relevant or material financial interests that
+relate to the research described in this paper.
+
+Jan Ruffner
+
+Page 4 of 95
+
+Manuscript: The Abolition of Immigration Restrictions and the Performance of Firms
+and Workers: Evidence from Switzerland
+Journal: American Economic Review
+Disclosure Statement for Michael Siegenthaler
+•
+
+•
+
+The research described in this paper received financial support from the following
+source:
+o Swiss National Fund (SNF), grant 00011.130077 / 1.
+The author declares that he has no relevant or material financial interests that
+relate to the research described in this paper.
+
+Michael Siegenthaler
+
+Page 5 of 95
+
+The Abolition of Immigration Restrictions and the
+Performance of Firms and Workers: Evidence from
+Switzerland
+Andreas Beerli, Jan Ruffner, Michael Siegenthaler and Giovanni Peri ∗
+September 28, 2020
+
+Abstract
+We study a reform that granted European cross-border workers free access to the Swiss
+labor market and had a stronger effect on regions close to the border. The greater availability
+of cross-border workers increased foreign employment substantially. Although many crossborder workers were highly educated, wages of highly educated natives increased. The reason
+is a simultaneous increase in labor demand: the reform increased the size, productivity, and
+innovation performance of skill-intensive incumbent firms and attracted new firms, creating
+opportunities for natives to pursue managerial jobs. These effects are mainly driven by firms
+that reported skill shortages before the reform.
+
+∗
+Beerli, Ruffner and Siegenthaler: ETH Zurich, KOF Swiss Economic Institute, Leonhardstrasse 21, CH–8092 Zurich;
+beerli@kof.ethz.ch, ruffner@kof.ethz.ch and siegenthaler@kof.ethz.ch. Peri: Department of Economics, UC Davis, One Shields Avenue, Davis CA, 95616, USA, gperi@ucdavis.edu. The present study builds on the insights of two papers that were concurrently
+written: Beerli and Peri (2018) and Ruffner and Siegenthaler (2017). The first paper analyzed the employment, wage, mobility and
+occupational specialization effects of the labor market liberalization in Switzerland. The second studied the firm-level impact of the
+same reform, establishing its effects on the employment of foreigners within firms and on size, productivity, innovation, location and
+staffing decisions of firms. We are indebted to the editor and four referees for unusually helpful comments. We also thank the following
+for their many helpful suggestions on the prior versions of this paper: Andrea Ariu, Matthias Bannert, Christoph Basten, Richard
+Blundell, Marius Brülhart, David Card, Matz Dahlberg, Kathrin Degen, David Dorn, Christian Dustmann, Peter Egger, Sandro Favre,
+Ingrid Hägele, Dominik Hangartner, Fred Henneberger, Jennifer Hunt, Boris Kaiser, Daniel Kaufmann, Felix König, Johannes Kunz,
+Stephan Kyburz, Rafael Lalive, Andrea Lassmann, Guy Michaels, Tobias Müller, Dina Pomeranz, Adina Rom, Kjell Salvanes, Lukas
+Schmid, Daphné Skandalis, Andrin Spescha, Uta Schönberg, Andrin Spescha, Jan Stuhler, Jan-Egbert Sturm, Fabian Waldinger,
+Martin Wörter, Dean Yang, Josef Zweimüller, Alexandre Ziegler, and Fabrizio Zilibotti.
+
+

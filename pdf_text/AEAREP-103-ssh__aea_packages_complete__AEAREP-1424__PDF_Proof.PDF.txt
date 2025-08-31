@@ -1,0 +1,210 @@
+Persistent Political Engagement: Social Interactions and the
+Dynamics of Protest Movements
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0261.R3
+Manuscript Type: Regular Submission - High Income Country - Member
+Date Submitted by the
+23-Sep-2020
+Author:
+Complete List of Authors: Bursztyn, Leonardo; University of Chicago, Economics
+Cantoni, Davide; Ludwig-Maximilians-Universitat Munchen, Economics;
+Yang, David; Harvard University, Department of Economics
+Yuchtman, Noam; The London School of Economics and Political Science
+Department of Management
+Zhang, Y. Jane; University of New South Wales
+Keywords: D74, P00, Political movements, social interactions
+
+Page 1 of 105
+
+Persistent Political Engagement:
+Social Interactions and the Dynamics of Protest Movements
+Leonardo Bursztyn
+Davide Cantoni
+David Y. Yang
+Noam Yuchtman
+Y. Jane Zhang*
+September 2020
+
+Abstract
+We study the causes of sustained participation in political movements. To identify the persistent effect of protest participation, we randomly, indirectly incentivize Hong Kong university students into participation in an antiauthoritarian protest. To identify the role of social
+networks, we randomize this treatment’s intensity across major-cohort cells. We find that incentives to attend one protest within a political movement increase subsequent protest attendance, but only when a sufficient fraction of an individual’s social network is also incentivized
+to attend the initial protest. One-time mobilization shocks have dynamic consequences, with
+mobilization at the social network level important for sustained political engagement.
+Keywords: Political movements, social interactions
+JEL Classification: D74, P0
+
+* Bursztyn: University of Chicago and NBER. Email: bursztyn@uchicago.edu. Cantoni: Ludwig-MaximiliansUniversität Munich, CEPR, and CESifo. Email: cantoni@lmu.de. Yang: Harvard University and NBER. Email:
+davidyang@fas.harvard.edu. Yuchtman: LSE, NBER, CEPR, and CESifo. Email: n.yuchtman@lse.ac.uk. Zhang:
+University of New South Wales. Email: jane.zhang@unsw.edu.au. Helpful and much appreciated suggestions, critiques and encouragement were provided by Dan Berkowitz, Andrei Shleifer, seminar participants at Amsterdam,
+Cambridge, Columbia, Harvard, Heidelberg, IIES, Imperial, INSEAD, Mannheim, Northeastern, NUS, Oxford, Pompeu Fabra, Sussex, UC Berkeley, Yale, Zurich, and conference participants (ASSA, NBER SI, SITE, Bruneck, Munich).
+Raymond Han, Moritz Leitner, Jackson Li, Glen Ng, Aakaash Rao, Vanessa Sticher, and Meggy Wan provided excellent research assistance. Cantoni acknowledges financial support from the European Research Council (ERC) under
+the European Union’s Horizon 2020 research and innovation programme (grant agreement n. 716837). The research
+described in this article was approved by the University of Munich IRB, protocol 2017-04; by the Stanford University
+Institutional Review Board, Protocol 38481; and, by the University of California-Berkeley Committee for Protection of
+Human Subjects, Protocol ID 2015-05-7571. For further details on IRB approvals please refer to Online Appendix B. The
+experiment is registered on the AEA RCT registry with ID AEARCTR-0002301.
+
+1
+
+Page 2 of 105
+
+Protests demanding political rights have been a critical driver of economic, social, and political
+change for centuries (e.g., Acemoglu and Robinson, 2012, 2019; Aidt and Franck, 2015). While
+dramatic, one-shot events capture public attention (e.g., the Hungarian Revolution of 1956, or
+Tiananmen Square in 1989), political rights have historically often arisen from successful, longrunning movements: sequences of events in which sustained political engagement is important.
+Historically important instances include the women’s suffrage movements, the US Civil Rights
+movement, or the anti-Apartheid movement in South Africa.
+Political movements have received an enormous amount of attention from across the social
+sciences (e.g., Tilly, 1978; Skocpol, 1979; McAdam, 1982; Goldstone, 1991; Kuran, 1997). Existing work has argued for the importance of individuals’ sustained engagement, working through
+social structures (Hirschman, 1984; McAdam, 1986; Tarrow, 2005).1 Up to now, however, there
+does not exist well-identified, i.e., experimental or quasi-experimental, evidence on the causes of
+individuals’ sustained participation in political movements.
+Our paper provides the first such evidence. First, we identify the persistent effect of one’s own
+protest participation by randomly, indirectly incentivizing Hong Kong university students into
+participation in an antiauthoritarian protest. We do so by paying subjects for providing us with
+information about protest crowd size; we thus do not pay for protest turnout per se, but behavior
+conditional on turnout. This allows us to distinguish state dependence — the possibility that
+participation in one protest causally affects subsequent participation — from serial correlation in
+preferences.
+We next test whether participation by one’s social network plays a causal role in shaping one’s
+own persistent protest participation by randomizing the intensity of this treatment across majorcohort cells. Finally, we explore mechanisms through which changed social interactions may generate persistent participation. Given that protests are inherently group events (see, e.g., Passarelli
+and Tabellini, 2017), we consider changes in friendships, which among other things can affect the
+social utility arising from protest participation, or reduce coordination costs. We also examine
+changes in preferences and beliefs (beliefs about the world or beliefs about others), as these are
+central in many models of protest participation.2
+Our context is Hong Kong’s ongoing antiauthoritarian movement, demanding political rights
+from the Chinese Communist Party (CCP).3 We study participation in the July 1 marches, yearly
+protests that represent an important component of Hong Kong’s ongoing antiauthoritarian movement. We study the 2017 and 2018 marches: these were peaceful, modestly-sized protests of
+around 50,000 citizens, aiming both to achieve policy concessions and to signal the strength of
+1 Studying participants in the 1964 Mississippi Freedom Summer project, McAdam (1986, p. 88) writes that, “a prior
+
+history of activism and integration into supportive networks acts as the structural ‘pull’ that encourages the individual
+to make good on his strongly held beliefs.”
+2 E.g., Tullock (1971), Bueno de Mesquita (2010), Shadmehr and Bernhardt (2011), Edmond (2013), or Barberà and
+Jackson (2019).
+3 We thus contribute to a growing empirical literature on the political economy of popular dissent in the Greater
+China region: e.g., Lorentzen (2013), Qin et al. (2017), King et al. (2013), and Zhang (2016).
+
+1
+
+Page 3 of 105
+
+the movement.
+Our study faces a crucial identification challenge: we need to observe both exogenous protest
+participation at the individual level as well as independent exogenous variation in the protest
+participation of an individual’s social network. We design a field experiment to overcome this
+challenge, leveraging our online surveys with students at Hong Kong University of Science and
+Technology (HKUST; see Cantoni et al., 2016, 2019). The experiment involves two dimensions of
+randomization: first, at the individual level, we randomly assign subjects to a condition in which
+they are indirectly incentivized to attend the 2017 march. Second, to generate exogenous variation
+in protest participation at the social network level, our design also randomly varies the proportion of treated individuals across major⇥cohort cells at 0%, 1%, 50%, or 75% treated. Importantly,
+these are the only two dimensions of randomization implemented, and both are pre-registered.
+
+We find two main results. First, individual incentives lead to an immediate (2017) increase
+in protest turnout, and this effect does not vary with how many others in an individual’s social
+network receive incentives. Second, protest participation remains persistently (in 2018) higher,
+but only among treated individuals who are initially treated along with at least 50% of their
+major⇥cohort cell. Thus, sustained participation in a political movement is not a result of self-
+
+selection and serially correlated preferences alone, but is to some extent state-dependent. In addition, social networks play a crucial role in this state dependence. These results have important
+implications for the evolution of political movements: a one-time mobilization shock will have dynamic consequences, with mobilization of social networks playing an important role in producing
+sustained political engagement.
+We consider several mechanisms through which changed social interactions may produce the
+persistent protest participation we find among treated subjects in high treatment intensity cells.
+We begin by presenting evidence that treated subjects in high treatment intensity cells form significantly more new and stronger friendships with people who are politically active — this could
+directly increase the social utility from protest participation, and also increase turnout through
+other channels. Consistent with changed social interactions reducing coordination costs, we find
+that treated subjects in high treatment intensity cells are by a large margin the most likely to convert their protest plans into action. We next examine changes in individuals’ political preferences
+and beliefs; while noisy estimates mean we cannot rule out some role for these channels, we do not
+find compelling evidence that they drive the persistent protest participation we observe among
+treated subjects in high treatment intensity cells.
+Our results contribute to a growing empirical literature on the determinants of protest participation. Much of this work studies individuals’ participation in mass movements as a one-shot
+action, and thus cannot shed light on the causes of persistent political engagement by individuals (e.g., Enikolopov et al., 2019, Manacorda and Tesei, 2019, González, 2019, Cantoni et al., 2019,
+Hager et al., 2019b, and Hager et al., 2019a). Other work (in particular, Madestam et al., 2013, on
+the Tea Party protests) identifies the spatial persistence of protests, but cannot isolate individual2
+
+Page 4 of 105
+
+level persistent behavior or identify its causes. We are able to unpack persistence that has been
+observed in the aggregate, identifying individual-level persistent behavior that depends also on
+the behavior of others in one’s social network.4
+Our own previous work (Cantoni et al., 2019) finds that protest participation in the same Hong
+Kong setting (although a previous protest) is a game of strategic substitutes. This finding occurs
+within a single protest, when beliefs about the turnout of the broader HKUST student body and
+the entire Hong Kong population are updated. In contrast to that work, we now study the influence of peers with whom one has relatively strong ties, in a dynamic setting. Our work suggests
+that strong and weak ties may function differently (Granovetter, 1973): changes in the participation of the population at large will affect a subject’s beliefs about the likelihood a discrete public
+good is produced, or that government crackdown may occur, potentially generating strategic substitutability. In contrast, friends’ participation will have a large effect on the social utility derived
+from protest participation; on the coordination costs of attending; and on social image considerations, potentially generating strategic complementarity.
+
+I
+
+Experimental setting and design
+
+I.A
+
+Context: Hong Kong’s antiauthoritarian movement and the July 1 marches
+
+In the July 1, 1997, “handover”, Hong Kong was transferred from its status as a British colony,
+with limited democratic political rights but strong protections of civil liberties and respect for the
+rule of law, to being a Special Administrative Region within the People’s Republic of China.5 The
+political institutions of Hong Kong are defined by its quasi-constitution — the “Basic Law” — and
+follow a policy known as “one country, two systems.”
+The Basic Law left ambiguous several important dimensions that have been bargained over between the so-called “pan-democracy” and “pro-Beijing” camps since the handover. Every year, the
+confrontation between Hong Kong citizens and the Chinese government culminates in a protest
+march held on the anniversary of the “handover” on July 1. Those marches have achieved major
+policy changes; turnout has varied significantly across years, from less than 20,000 to over 500,000.
+The repeated nature of the July 1 marches — and their organizers’ interest in keeping up high rates
+of repeated participation — is a feature that the Hong Kong antiauthoritarian protests share with
+many other political movements.
+Our experiment is embedded in the July 1 marches of 2017 and 2018. In both years, protest
+4 Our work is conceptually related to studies of persistence and social influence in voting behavior (among others,
+Gerber et al., 2008, Fujiwara et al., 2016, and DellaVigna et al., 2016), though the dynamics of repeated protest participation may be very different from repeated voting, and the public and social nature of protests may make the role of
+social interactions distinct.
+5 In Appendix A, we provide a richer description of the political background at the time of our experiment. Note that
+the implementation on July 1, 2020, of a national security law passed in Beijing has the potential to alter Hong Kong’s
+political landscape, though (as of August 2020) it is still too early for us to know exactly how.
+
+3
+
+Page 5 of 105
+
+participation (around 50,000) was modest by historical standards.
+
+I.B
+
+Overview
+
+Our experimental sample is drawn from among the undergraduate student body at Hong Kong
+University of Science and Technology (HKUST). We recruit subjects through an email sent to the
+entire HKUST undergraduate student body to participate in a yearly survey on students’ preferences (see Cantoni et al., 2016, 2019 for more details); the response rates have ranged between 10%
+and 20%. The survey wave in June 2017 includes around 1,100 subjects. Follow-up emails were
+subsequently sent to experimental subjects between July 2017 and July 2018.
+A basic concern regarding self-reported political preferences and behavior is that subjects may
+not report their participation truthfully. We do not believe that self-censorship is likely in the
+context of our study. In prior research, we conducted list experiments (also known as the “item
+count technique”) suggesting that subjects respond honestly to direct questions about sensitive
+political topics (see Cantoni et al., 2019, for a discussion). More generally, we believe that subjects
+would have reported their protest participation honestly given the fully legal, peaceful nature of
+the 2017 and 2018 protests.
+It is important to discuss the ethical considerations in conducting our study.6 Our research
+design is based on a careful assessment of ethics. Here we briefly outline salient aspects: (i) IRB
+approval was received for the study; (ii) no minors are able to participate in the study; (iii) ex ante,
+we assessed a risk level that was minimal, i.e., not larger “than those ordinarily encountered in
+daily life of the general population”: participation in the July 1 marches is unambiguously legal
+and was peaceful in all years prior to the study; (iv) ex post, the assessed risk was minimal, as
+the marches we studied remained peaceful with zero protesters charged for any offenses across
+the two years studied; (v) our experiment is tiny relative to the size of the July 1 marches that we
+study, with treatment affecting total turnout by roughly 0.1%.
+The timeline of the experiment is as follows (see also Appendix Figure D.1):
+• June 2017: Baseline survey and assignment of treatment. We elicit subjects’ own political preferences and beliefs, and beliefs about the political preferences and beliefs of others;
+planned and past political behavior; and, we assign and implement the experimental treatment.
+• July 2017: Effect on protest participation and short-run impacts on beliefs and preferences. We elicit participation in the 2017 march, as well as political preferences and beliefs
+(short-run treatment effects). Measured beliefs and preferences capture potential mechanisms through which the individual-level or social network-level treatment can shape protest
+turnout in 2018.
+6 We provide a detailed discussion of ethics and our risk assessment in Appendix B. All experimental materials
+
+(recruitment email, treatment prompts, full survey questions) are provided in Appendix C)
+
+4
+
+

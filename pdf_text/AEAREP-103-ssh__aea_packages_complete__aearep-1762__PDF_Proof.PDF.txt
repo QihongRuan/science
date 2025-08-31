@@ -1,0 +1,98 @@
+Optimal Targeted Lockdowns in a Multi-Group SIR Model
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0590.R2
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+14-Jan-2021
+Author:
+Complete List of Authors: Acemoglu, Daron; Massachusetts Institute of Technology, Department of
+Economics;
+Chernozhukov, Victor; MIT, Economics
+Werning, Ivan; Massachusetts Institute of Technology, Economics;
+Whinston, Michael; Massachusetts Institute of Technology, Sloan School
+of Mngt; Massachusetts Institute of Technology, Economics
+Keywords: d58, I18, J17
+
+Page 1 of 33
+
+September 3, 2020
+Editors
+AER: Insights
+
+Dear editors,
+I declare that I have no relevant or material financial interests that relate to the paper “Optimal
+Targeted Lockdowns in a Multi-Group SIR Model”.
+Please not hesitate to contact me if you have any further questions.
+Best regards,
+
+Ivan Werning
+
+Page 2 of 33
+
+September 3, 2020
+Editors
+AER: Insights
+
+Dear editors,
+I would like to declare that I have no relevant or material financial interests that relate to the
+paper “Optimal Targeted Lockdowns in a Multi-Group SIR Model”.
+Please not hesitate to contact me if you have any further questions.
+Best regards,
+
+Michael Whinston
+
+Page 3 of 33
+
+September 3, 2020
+Editors
+AER: Insights
+
+Dear editors,
+I would like to declare that I have no relevant or material financial interests that relate to the
+paper “Optimal Targeted Lockdowns in a Multi-Group SIR Model”.
+Please not hesitate to contact me if you have any further questions.
+Best regards,
+
+Daron Acemoglu
+
+Page 4 of 33
+
+September 3, 2020
+Editors
+AER: Insights
+Dear editors,
+I would like to declare that I have no relevant or material financial interests that relate to
+the paper “Optimal Targeted Lockdowns in a Multi-Group SIR Model”.
+Please not hesitate to contact me if you have any further questions.
+Best regards,
+Victor Chernozhukov
+
+Page 5 of 33
+
+Optimal Targeted Lockdowns
+in a Multi-Group SIR Model*
+Daron Acemoglu†
+Victor Chernozhukov‡
+Iván Werning §
+Michael D. Whinston¶
+December 2020
+
+We study targeted lockdowns in a multi-group SIR model where infection, hospitalization and fatality rates vary between groups—in particular between the “young”,
+“the middle-aged” and the “old”. Our model enables a tractable quantitative analysis
+of optimal policy. For baseline parameter values for the COVID-19 pandemic applied
+to the US, we find that optimal policies differentially targeting risk/age groups significantly outperform optimal uniform policies and most of the gains can be realized
+by having stricter lockdown policies on the oldest group. Intuitively, a strict and long
+lockdown for the most vulnerable group both reduces infections and enables less strict
+lockdowns for the lower-risk groups.
+
+* Rebekah Anne Dix and Tishara Garg provided excellent research assistance. For useful conversations, comments and suggestions we thank Fernando Alvarez, Alyssa Bilinski, Samantha Burn, Arup
+Chakraborty, Joe Doyle, Glenn Ellison, Zeke Emanuel, Ruth Faden, Eli Fenichel, Michael Greenstone, Simon
+Johnson, Angela McLean, Jessica Metcalf, Simon Mongey, Robert Shimer, and Alex Wolitzky, and especially
+three anonymous referees and the co-editor, Pete Klenow. We also thank Sang Seung Yi for providing us
+with the Korean case and mortality data. All remaining errors are our own.
+† MIT Economics Department
+‡ MIT Economics Department
+§ MIT Economics Department
+¶ MIT Economics Department and Sloan School of Management
+
+

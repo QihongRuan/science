@@ -1,0 +1,162 @@
+Re-Examining the Contribution of Public Health Efforts to
+the Decline in Urban Mortality
+Journal: American Economic Journal: Applied Economics
+Manuscript ID AEJApp-2019-0711.R3
+Manuscript Type: For Administrative Use Only
+Keywords: Public Health, Mortality Decline, Sanitation
+
+Page 1 of 19
+
+Comment on “Re-Examining the Contribution of Public Health Efforts
+to the Decline in Urban Mortality”
+
+David M. Cutler, and Grant Miller*
+
+December 2020
+
+Abstract:
+We address points raised by Anderson et al. (2020), which commented on our prior
+work. After correcting unambiguous data mistakes, our revised estimates suggest
+that municipal water disinfection (filtration) explains 38% of the total mortality rate
+decline in our sample cities and years – a result not very different from our 43%
+original estimate. However, effects on infant mortality rates are smaller than in our
+original analysis. Much of the difference between ACR’s analyses and ours is due
+to the coding of partial intervention years and to differences in population
+denominators, for which ideal data are difficult to find.
+
+*Cutler: Department of Economics, Harvard University, 226 Littauer Center, 1805 Cambridge Street, Cambridge,
+MA 02138 (email: dcutler@harvard.edu); Miller: School of Medicine, Stanford University, 615 Crothers Way,
+Stanford, CA 94305 (email: ngmiller@stanford.edu). We thank Kim Singer Babiarz for assistance in preparing this
+comment as well as Mark Anderson, Kerwin Charles, and Daniel Rees along with Seema Jayachandran and
+anonymous referees for valuable comments and suggestions. A more detailed version of this comment is available
+at: https://ngmiller.people.stanford.edu/role-public-health-improvements-health-advances-20th-century-unitedstates.
+
+Page 2 of 19
+
+1. Introduction
+In this comment, we address points raised by Mark Anderson, Kerwin Charles, and
+Daniel Rees’s paper entitled “Re-Examining the Contribution of Public Health Efforts to the
+Decline in Urban Mortality” (“ACR”). ACR is, in part, an examination of our 2005
+Demography article entitled “The Role of Public Health Improvements in Health Advances: The
+20th Century United States” (“CM”) (Cutler and Miller, 2005a). During the summer of 2018, we
+shared data and code from CM with ACR. They replicated our original results. In conducting
+new analyses of both milk purification and water/sanitation technologies in American cities in
+the early 20th century, ACR also identified differences between our original analysis and their
+new analysis. ACR communicated with us about these issues in a helpful and collegial manner.
+We very much appreciate their constructive feedback. In light of their results, we have evaluated
+the issues further. We report our findings here.
+The issues raised by ACR generally fall into three categories: (1) transcription errors, (2)
+assignment of differing clean water intervention dates (including coding of partial intervention
+years), and (3) the population denominators used in constructing mortality rates. Several of the
+transcription errors identified in ACR are in fact mistakes in the original paper, which we are
+grateful to have these identified.1 Otherwise, a large share of the discrepancy in the estimates
+between CM and ACR is due to the coding of partial intervention years and to the construction
+of population denominators for mortality rates when such denominators are not known for
+certain. This comment focuses on the role of differing clean water intervention dates (using
+
+1
+
+The dataset is available online and includes updates to correct these errors (Cutler and Miller, 2005b). In this
+comment, we use the corrected CM total mortality rates and infant mortality rates estimates as the basis for
+comparison rather than those originally reported in CM (2005).
+
+1
+
+Page 3 of 19
+
+corrected CM total mortality and infant mortality rates), and a longer comment available on-line
+discusses all three issues in greater detail.
+
+2. Assignment of Clean Water Intervention Dates
+ACR identify a number of differences in clean water intervention dates between their
+analysis and those used by CM. Reviewing the data more closely, differences in dates generally
+appear to be the result of two factors: differences in dates reported in various historical sources
+and differences in coding when an intervention was introduced in a phased manner over multiple
+years. All told, out of 13 total cities, ACR use water filtration dates for 4 cities and water
+chlorination dates for 7 cities that are different than the CM dates.2
+On differences in intervention dates used by ACR and CM, different historical sources
+give different dates for clean water interventions. When writing the original CM paper, we
+addressed this inconsistency by making phone calls to individual waterworks to verify
+intervention dates through each waterworks’ own records. Reaching some confidence on
+intervention dates through discussions with waterworks employees, in part, ultimately motivated
+our choice of dates (and cities) to incorporate. ACR use historical articles providing intervention
+dates. Table 1, Columns 1 and 2 show the effect of using the alternative dates put forward by
+ACR on our results. The filtration coefficient falls from -0.13 (p-value = 0.027) in the CM
+analysis to -0.09 (p-value = 0.036) using ACR intervention dates.3
+
+2
+
+When allowing for fractional coding for years in which interventions were partially available, CM and ACR clean
+water technology variables differ in value for all 13 cities.
+3
+Results obtained using ACR intervention dates throughout this comment differ slightly from those reported in
+Tables 14 and 15 of an earlier working paper version (see ACR (2020)) because we recode lagged intervention
+variables to correspond to the ACR intervention dates.
+
+2
+
+Page 4 of 19
+
+Philadelphia provides an illustrative example of the differences due to coding.
+Philadelphia adopted filtration technology incrementally between 1902 and 1909: filtration
+systems were installed in Lower Roxborough in 1902, Kittanning in 1905, and Lancaster in
+1906. However, the largest facility, Torresdale, which provided the majority of Philadelphia’s
+drinking water (and was the largest facility in the world at the time), was not completed until
+1909. ACR use 1906 as the date of filtration, while CM use 1908. Upon reconsideration of
+Philadelphia’s history, we would actually be inclined to think that 1909 is the most appropriate
+date to use in this case. We do not see a case for 1906 being the best choice of year.4
+Finally, CM code water disinfection and sanitation interventions using indicator variables
+(taking a value of 1 if an intervention was active at any point during a given year), while ACR
+use in some instances a partial/fractional intervention coding for a subset of intervention years
+(in monthly increments, or twelfths).5 Though seemingly minor, this coding difference matters
+for the results. Table 1, Column 3 shows that simply recoding partial years of an intervention to
+full years (but otherwise using ACR dates) increases the ACR filtration estimate from -0.09 (pvalue = 0.036) to -0.15 (p-value = 0.010), a value greater in magnitude than our original
+estimate. In principle, the idea of using partial intervention year coding is a good one. However,
+the ideal coding should be based on the share of clean water provided to people weighted by how
+
+4
+
+When adjusting Philadelphia's water filtration date to 1909, point estimates for total mortality increase to -0.14 (pvalue = 0.027) using CM (2005) dates for all other cities, -0.11 (p-value = 0.032) using ACR (2020) dates for all
+other cities, and -0.16 (p-value = 0.006) when using ACR (2020) dates recoded as indicators. When adjusting
+Philadelphia's date to 1909, point estimates for infant mortality are to -0.13 (p-value = 0.05) using CM (2005) dates
+for all other cities, -0.05 (p-value = 0.475) using ACR (2020) dates for all other cities, and -0.14 (p-value = 0.012)
+when using ACR (2020) dates recoded as indicators.
+5
+The first year of water filtration interventions is coded as partial/fractional years for eight cities. The first year of
+water chlorination is coded as partial/fractional years for four cities. Finally, three cities have partial/fractional
+coding for more than one intervention year (two cities with two years each of fractional coding and one city with
+three years; in two cases, these values decrease over time before taking a value of 1).
+
+3
+
+Page 5 of 19
+
+likely they were to die or water-born disease. Without this information, we hesitate to use partial
+year data.
+Ultimately, because some degree of judgment is required, we take an empirical approach
+to assessing the sensitivity of the CM and ACR results to intervention dates. Specifically, we reestimate our original specification using all 8,192 possible combinations of CM and ACR
+intervention dates.6 We also repeat this exercise changing ACR’s coding of fractional
+intervention years to indicator variables for all cities. Focusing first on total mortality rates,
+Figure 1, Panel A shows that no combination of dates using either partial intervention year
+coding or exclusive indicator variable coding produces an estimate outside the confidence
+interval using our original dates.
+To further explore sensitivity, we also adopt a ‘leave-one-out’ strategy, starting with CM
+dates, ACR dates, and ACR dates recoded as indicators, and we omit one city at a time from the
+analysis. Figure 2, Panel A shows that the results are generally robust to excluding each city and
+that no estimates are outside of the confidence intervals of the original CM or ACR estimates
+(respectively).
+Unlike for total mortality rates, estimates for infant mortality rates appear more sensitive
+to the choice of dates, and in particular, sensitive to the coding of partial intervention years.
+Table 1, Columns 4-6 show this, using dates and coding choices from both CM and ACR,
+yielding -0.13 (p-value = 0.03) using CM dates, -0.05 (p-value = 0.45) using ACR dates, and 0.15 (p-value = 0.003) using ACR dates but with partial intervention years recoded as indicators.
+
+6
+
+When allowing for partial intervention years, CM and ACR intervention variables differ in at least some years for
+all 13 cities, implying a total of 213 = 8,192 possible unique combinations of city-level intervention variables. When
+recoding ACR dates to indictors (not allowing for partial years), intervention variables used CM and ACR differ for
+only 9 cities, leading to a total of 29 = 512 possible unique combinations of city-level dates.
+
+4
+
+

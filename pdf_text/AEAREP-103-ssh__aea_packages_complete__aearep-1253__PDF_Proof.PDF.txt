@@ -1,0 +1,461 @@
+Speculative Fever: Investor Contagion in the Housing
+Bubble
+Journal: American Economic Review
+Manuscript ID AER-2017-1611.R4
+Manuscript Type: For Administrative Use Only
+Keywords: D40, D84, R40
+
+Page 1 of 70
+
+Online Appendix
+Speculative Fever: Investor Contagion in the Housing
+Bubble
+Patrick Bayer
+
+A
+
+Kyle Mangum
+
+James W. Roberts
+
+Placebo Tests of Inner/Outer Research Design
+
+As a falsification test of our main results, we calculate a false exposure measure by randomly
+drawing an at-risk tenure’s inner ring (0.1 miles) exposure to both flips and investor neighbors
+conditional on their actual outer ring exposure. For example, if an at-risk tenure is exposed to
+3 flips within 0.5 miles, we randomly draw how many of these are within 0.1 miles according
+the actual distribution of inner/outer exposure in the data. We then estimate comparable
+hazard regressions using this false-exposure data set.
+In Figure A1, we report the distribution of the inner hazard effect from 100 draws of
+the false-exposure data set for each type of exposure. The placebo effect is centered tightly
+around zero. The results from actual data produces an estimate that is clearly to the right of
+the false exposure for both types of investing activity, indicating that homes actually exposed
+to very nearby investing activity are significantly more likely to become investors themselves.
+While this cannot identify the actual mechanisms at work–information sharing, word-ofmouth influence, etc.–the results of the placebo test are strong evidence of causal effects
+occurring within the narrow ring, city-block level of geography that induces homeowners to
+engage in investing activity.
+
+1
+
+Page 2 of 70
+
+Figure A1: Placebo Test of Contagion Mechanism: Full Data Sample with Placebo Exposure.
+
+NOTES: The figure displays the distribution of the hazard estimator for the false (placebo) exposure to investment activity.
+The distribution comes from 100 random draws of placebo inner ring (0.1 mi.) exposures over the full data set. The dashed
+vertical line is the estimate from the full data sample (Table ??).
+
+B
+
+Robustness of Main Results
+
+Table B1 illustrates the robustness of the results from the model of Table ?? to alternate
+clustering methods to account for spatial and temporal correlation in the model’s error structure.
+Table B2 illustrates that the baseline results in Table ?? with zip code-level fixed effects
+are robust to census tract-level fixed effects.
+Table B3 presents a number of additional robustness checks related to sample selection.
+(Column 0 gives the baseline results from Table ?? above.) Section ?? described how we
+inferred whether the purchaser of the home was at-risk (i.e. used the home as their primary
+residence)1 and whether an individual became an investor. We recognize the potential measurement error the inference on name matching entails, so we examine the sensitivity of the
+baseline results to our ability to identify at-risk tenures and flag investors in the data. Since
+this set of robustness checks changes the sample, we report the baseline hazard for the sample
+of at-risk individuals included in each alternative. All regressions use our research design,
+although for brevity we only report estimates of the innermost rings.
+The first two columns consider the name matching algorithm used to infer investors.
+Column 1 uses only detailed names, i.e. those with middle names/initials and/or spouses
+listed, since these are less likely to be duplicated. The effect size as measured by hazard ratio
+is slightly smaller for flips, but larger for investor neighbors. Column 2 drops any names that
+are combinations of common names, defined as both first and last being in the top 20 percent
+of names observed in the data. Recall that we have already excluded any name with more
+than 42 properties attached, which removed common names like John Smith and Jose Lopez.
+This is an additional flag for a name like Michael Thompson, where Michael and Thompson
+1
+
+Note that we also must observe the investor’s primary residence to include this investor in the spatial
+match of the investor neighbor righthand-side variable. These sample selection checks refer to inclusion of
+the at-risk tenures (lefthand-side variable).
+
+2
+
+3
+
+2,114,687
+
+No. clusters 1
+No. clusters 2
+
+323,930
+
+Single
+Blk. Grp. X YQ
+
+0.3769
+(0.0657)
+0.0590
+(0.0331)
+0.3159
+(0.0179)
+
+0.3228
+(0.0535)
+0.0495
+(0.0272)
+0.1685
+(0.0151)
+
+1
+
+107,038
+
+Single
+Tract X YQ
+
+0.3769
+(0.0671)
+0.0590
+(0.0333)
+0.3159
+(0.0183)
+
+0.3228
+(0.0535)
+0.0495
+(0.0274)
+0.1685
+(0.0154)
+
+2
+
+17,618
+
+Single
+ZIP X YQ
+
+0.3769
+(0.0676)
+0.0590
+(0.0328)
+0.3159
+(0.0189)
+
+0.3228
+(0.0540)
+0.0495
+(0.0275)
+0.1685
+(0.0162)
+
+3
+
+10,176
+
+Single
+Block Group
+
+0.3769
+(0.0707)
+0.0590
+(0.0353)
+0.3159
+(0.0197)
+
+0.3228
+(0.0565)
+0.0495
+(0.0304)
+0.1685
+(0.0174)
+
+4
+
+Double
+Indiv. Tenure
+Year-Mo.
+2,114,687
+96
+
+0.3769
+(0.0599)
+0.0590
+(0.0305)
+0.3159
+(0.0211)
+
+0.3228
+(0.0605)
+0.0495
+(0.0327)
+0.1685
+(0.0199)
+
+5
+
+Double
+Block Group
+Year-Qtr
+10,176
+32
+
+0.3769
+(0.0770)
+0.0590
+(0.0282)
+0.3159
+(0.0215)
+
+0.3228
+(0.0603)
+0.0495
+(0.0343)
+0.1685
+(0.0274)
+
+6
+
+7
+
+Double
+ZIP code
+Year-Qtr
+560
+32
+
+0.3769
+(0.0931)
+0.0590
+(0.0260)
+0.3159
+(0.0288)
+
+0.3228
+(0.0576)
+0.0495
+(0.0342)
+0.1685
+(0.0330)
+
+NOTES: The table displays regressions of Table ??, column 2 (repeated in this table’s column 1), with alternative clusterings of standard errors as noted.
+
+Single
+Indiv. Tenure
+
+0.3769
+(0.0652)
+0.0590
+(0.0330)
+0.3159
+(0.0178)
+
+0.3228
+(0.0524)
+0.0495
+(0.0268)
+0.1685
+(0.0148)
+
+Cluster level
+Cluster detail
+
+w/i. 0.5 mi
+
+w/i. 0.3 mi
+
+Flip
+w/i. 0.1 mi
+
+w/i. 0.5 mi
+
+w/i. 0.3 mi
+
+Investor Neighbor
+w/i. 0.1 mi
+
+0
+
+Table B1: Alternative Levels of Clustering Standard Errors.
+
+Double
+ZIP code
+Year
+560
+8
+
+0.3769
+(0.1219)
+0.0590
+(0.0241)
+0.3159
+(0.0316)
+
+0.3228
+(0.0278)
+0.0495
+(0.0227)
+0.1685
+(0.0469)
+
+8
+
+Page 3 of 70
+
+Page 4 of 70
+
+Table B2: Baseline Results with Census Block Fixed Effects.
+1: Table ??, Col 2
+
+Investor Neighbor
+w/i. 0.1 mi
+w/i. 0.3 mi
+w/i. 0.5 mi
+Flip
+w/i. 0.1 mi
+w/i. 0.3 mi
+w/i. 0.5 mi
+Constant
+
+Fixed Effects:
+Year
+Year-Qtr
+ZIP
+Tract
+
+2: Table ??, Col 5
+
+3
+
+4
+
+5
+
+0.3228
+(0.0524)
+0.0495
+(0.0268)
+0.1685
+(0.0148)
+
+0.3462
+(0.0526)
+0.0659
+(0.0269)
+0.1479
+(0.0154)
+
+0.3030
+(0.0525)
+0.0427
+(0.0271)
+0.1353
+(0.0158)
+
+0.3012
+(0.0525)
+0.0457
+(0.0271)
+0.0616
+(0.0159)
+
+0.3012
+(0.0525)
+0.0464
+(0.0271)
+0.0504
+(0.0159)
+
+0.3769
+(0.0652)
+0.0590
+(0.0330)
+0.3159
+(0.0178)
+4.0720
+(0.0389)
+
+0.4110
+(0.0655)
+0.0845
+(0.0332)
+0.2033
+(0.0188)
+4.3640
+(0.0461)
+
+0.4128
+(0.0661)
+0.0869
+(0.0334)
+0.2019
+(0.0191)
+4.4608
+(0.0494)
+
+0.4048
+(0.0661)
+0.0859
+(0.0334)
+0.1181
+(0.0193)
+4.1582
+(0.0768)
+
+0.4053
+(0.0661)
+0.0858
+(0.0334)
+0.1025
+(0.0194)
+5.0148
+(0.3331)
+
+yes
+yes
+yes
+
+yes
+yes
+
+yes
+
+yes
+
+NOTES: The first two columns of the table are the baseline results from Table 5. The table illustrates that the baseline results
+are robust to the inclusion of finer geographic fixed effects, namely at the census tract level (for census tracts with very few
+sales, representing less than 5% of overall transactions, we aggregate to the zip code level). Standard errors in parentheses are
+clustered at the property tenure level. Coefficients have been multiplied by 10,000 for readability.
+
+4
+
+Page 5 of 70
+
+are common, but Michael Thompson was not so common as to already be removed.2 This
+drops an additional 2 million monthly observations, with little effect on the results.
+Columns 3 and 4 consider the geographic proximity of the investors’ purchasing areas
+under the suspicion that a wide area may indicate two different individuals with the same
+(relatively uncommon) name. Column 3 drops any investor whose purchases are no closer
+than 50 miles, and column 4 drops anyone who purchases a property more than 50 miles from
+his/her other purchases. The loss of observations is small, indicating this is of low incidence,
+and the effect sizes are quite similar.
+Our research design revolves around the “primary residence,” which assumes the individual lives in the property we flag as such. The data contain two other sources of information
+(although also imperfect) on whether the property was actually owner-occupied. First, the
+HMDA data includes a flag for whether the loan application was for an owner-occupied
+home. Second, the assessor data match includes information on the owner’s home mailing
+address; matching this to the property address gives another indicator for whether the home
+is considered owner-occupied.3 Column 5 limits to individuals in properties flagged as owneroccupied. The results show that limiting our analysis to these tenures that meet these more
+stringent definition of an at-risk homeowner produces very similar results; to the extent we
+have misidentified primary residence, it does not appear to bias our results.
+Overall, while we readily acknowledge the possibility of measurement error in our designation of investors, there is no evidence that it is driving our results. It would take a
+remarkable pattern of micro-level sorting by name similarity to randomly generate the patterns we observe.
+
+2
+
+The commonality of first (and last) names was calculated ignoring the presence of middle names/initials
+or spouse names.
+3
+Note that because the assessor data is overwritten each year by Dataquick, it reflects information from
+2011. As a result, this measure or owner-occupancy can only be used for tenures that persist into the 2011
+assessment year, limiting the number of observations for which this flag is useful primarily to those late in
+the sample.
+
+5
+
+

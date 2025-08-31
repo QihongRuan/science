@@ -1,0 +1,139 @@
+The Long-Run Effects of Childhood Insurance Coverage:
+Medicaid Implementation, Adult Health, and Labor Market
+Outcomes
+Journal: American Economic Review
+Manuscript ID AER-2017-1671.R5
+Manuscript Type: For Administrative Use Only
+Keywords: I18, I13, H75
+
+Page 1 of 146
+
+Andrew Goodman-Bacon Disclosure Statement for “The Long-Run Effects of Childhood
+Insurance Coverage: Medicaid Implementation, Adult Health and Labor Market
+Outcomes”
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper.
+
+Page 2 of 146
+
+The Long-Run Effects of Childhood Insurance Coverage:
+Medicaid Implementation, Adult Health, and Labor Market
+Outcomes
+By ANDREW GOODMAN-BACON*
+This paper estimates the long-run effects of childhood Medicaid
+eligibility on adult health and economic outcomes using the
+program’s original introduction (1966-1970) and its mandated
+coverage of welfare recipients. The design compares cohorts born in
+different years relative to Medicaid implementation, in states with
+different pre-existing welfare-based eligibility. Early childhood
+Medicaid eligibility reduces mortality and disability, increases
+employment, and reduces receipt of disability transfer programs up
+to 50 years later. Medicaid has saved the government more than its
+original cost and saved more than 10 million quality adjusted lifeyears.
+
+*Goodman-Bacon: Opportunity and Inclusive Growth Institute, Federal Reserve Bank of Minneapolis, 90 Hennepin Ave,
+Minneapolis, MN 55401 (e-mail: andrew.goodmanbacon@mpls.frb.org). This project was generously supported by the
+Robert Wood Johnson Health Policy Scholars program and largely completed while I was an assistant professor at Vanderbilt
+University. The collection of data used in this study was partly supported by the National Institutes of Health under grant
+number R01 HD069609 and R01 AG040213, and the National Science Foundation under award numbers SES 1157698 and
+1623684. I am grateful for helpful comments from Martha Bailey, John Bound, Kitt Carpenter, Bill Collins, John DiNardo,
+Valentina Duque, Hilary Hoynes, Bob Kaestner, Brian Kovak, Amanda Kowalski, Bhashkar Mazumder, Sayeh Nikpay, Jesse
+Rothstein, Lucie Schmidt, Marianne Wanamaker, John Weymark, and Laura Wherry, and from seminar participants at the
+University of Arizona, UC Berkeley, University of Chicago CHAS, Cornell, Dartmouth, UC Davis, UCLA, Ohio State
+University, Princeton University, RAND, UT Knoxville, and Vanderbilt University, Wisconsin Institute for Research on
+Poverty, and NBER DAE and HE Summer Institutes. Excellent research assistance was provided by Sergio Barrera, Morgan
+Connolly, Jasmine Davidson, and Matt Pesner. All errors are my own.
+
+Page 3 of 146
+
+In 2015, the joint federal and state public health insurance programs, Medicaid
+and the Children’s Health Insurance Program, covered 40 percent of children at a
+cost of $90 billion. Costs have been central to recent arguments about the size of
+these program. Six states have recently considered opting out of Medicaid entirely
+(Adamy and King Jr. 2010), and some proposals would limit Medicaid’s federal
+financing and allow states to restrict eligibility and services in ways that have not
+been allowed since the 1950s (A.J. Goodman-Bacon and Nikpay 2017).
+Short-run empirical evaluations show that Medicaid improves health, but for
+some groups these effects may not justify the size of the program (Finkelstein,
+Hendren, and Luttmer 2019). For example, while Medicaid saves lives (Currie and
+Gruber 1996a, 1996b; A. Goodman-Bacon 2018c; Sommers, Baicker, and Epstein
+2012), the health effects are small for middle-income groups, and costs per life
+saved can be high. The Oregon Health Insurance Experiment shows improvements
+in self-reported health measures but not in clinical measures, providing support for
+both Medicaid’s advocates (Kishore 2014) and critics (Antos and Capretta 2014;
+Roy 2014).
+Accounting for Medicaid’s effects over the course of its recipients’ lives,
+however, may change this cost-benefit calculation. However, many Medicaid
+expansions have focused on children during critical periods, which could lead to
+large effects later in life (Cunha, Heckman, and Schennach 2010). Improvements
+in adult health and economic outcomes can also lower net public costs by reducing
+spending on programs linked to poor health, or by increasing tax revenue (Hendren
+and Sprung-Keyser 2020).
+New research revisits eligibility expansions from the 1980s and shows that
+Medicaid can have positive long-run effects on health, human capital, earnings, and
+tax payments (Brown, Kowalski, and Lurie 2014; Cohodes et al. 2014; Miller and
+Wherry forthcoming; Thompson 2017; Wherry and Meyer 2015; Wherry et al.
+2015). Yet these studies observe cohorts in their 20s, so longer-run effects,
+
+Page 4 of 146
+
+especially those tied to health conditions that emerge at older ages, may be
+significantly larger or smaller than existing estimates. The 1980s expansions also
+provided a combination of medical, food, and cash benefits, making it difficult to
+infer which aspect of the reforms generate reduced-form treatment effects. Finally,
+the sequential eligibility expansions preclude common tests of the validity of the
+research design such as pre-trend comparisons, so we have little direct evidence on
+this point.
+This paper builds on A. Goodman-Bacon (2018c) to provide new evidence on
+Medicaid’s longer-run effects on health and labor market outcomes. I exploit the
+program’s introduction between 1966 and 1970 and the federal mandate that
+Medicaid cover all cash welfare recipients (“categorical eligibility”). 1 These two
+program features led to a sudden increase in public insurance eligibility that was
+larger in areas with higher welfare participation. From a long-run perspective,
+cohorts born closer to Medicaid spent more years potentially eligible for it, and
+those from higher-welfare states accumulated more eligibility per year. Cumulative
+childhood Medicaid eligibility thus phased in gradually across cohorts but more
+quickly for those from higher-welfare states.
+This setting offers crucial advantages for understanding Medicaid’s longer-run
+effects. First, the cohorts of young children covered by Medicaid at its inception
+were born in the mid-1950s through mid-1970s, so they are up to 30 years older
+than the cohorts covered in the 1980s. Second, I provide a unified analysis of health
+and socioeconomic outcomes: cumulative mortality rates from 1980-2016 (using
+Vital Statistics data), self-reported disability, labor market status, transfer program
+participation, educational attainment, and the distribution of earnings and transfer
+income (from the 2000-2017 Census/American Community Survey). Third,
+Sohn (2017) and Boudreaux, Golberstein, and McAlpine (2016) also estimate longer-run effects
+of Medicaid’s introduction, but primarily rely on differences in when states implemented Medicaid.
+A. Goodman-Bacon (2018c) discusses the validity of this timing variation.
+1
+
+Page 5 of 146
+
+Medicaid’s introduction defines clear pre-treatment cohorts and facilitates direct
+tests of the research design not typically implemented in research on the sequential
+expansions of the 1980s and 1990s.
+I estimate reduced-form effects of childhood eligibility using a difference-indifferences design that compares cohorts born at different times relative to
+Medicaid implementation (first difference) in states with different categorical
+eligibility rates in the year of implementation (second difference). Variation in
+initial welfare rates came from long-standing institutional features of states, which
+matches direct evidence that they were uncorrelated with levels or trends in
+economic, demographic, health, and policy characteristics. Nevertheless, this
+variation strongly predicts contemporaneous Medicaid participation and
+cumulative Medicaid eligibility. Comparing adult outcomes across cohorts born in
+different years relative to Medicaid implementation and in states with different
+initial welfare rates is therefore unlikely to confound the program’s effects with
+other health, socioeconomic, or policy changes.
+Event-study specifications further support the validity of the design by showing
+that adult outcomes track patterns of eligibility closely. They are uncorrelated with
+initial Medicaid eligibility for respondents who are too old to have qualified as
+children; diverge gradually in higher- versus lower-eligibility states for cohorts
+with increasing exposure; and flatten out for post-Medicaid cohorts with the same
+predicted childhood eligibility. Cohorts with early-life Medicaid eligibility are
+healthier adults as measured by mortality and disability, and they work more and
+receive less in transfer income. New earnings largely offset lower transfers for
+white cohorts, leaving individual income unchanged. I find smaller reductions in
+transfer income, but similar increases in employment for nonwhite cohorts.
+Nonwhite high school graduation rates also increase, which leads to larger increases
+in earnings and total income and lower poverty rates.
+
+

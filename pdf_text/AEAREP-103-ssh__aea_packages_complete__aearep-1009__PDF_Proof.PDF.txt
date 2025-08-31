@@ -1,0 +1,136 @@
+Seasonal liquidity, rural labor markets and agricultural
+production
+Journal: American Economic Review
+Manuscript ID AER-2018-0607.R4
+Manuscript Type: Administrator
+Keywords: agriculture, consumption smoothing, labor markets
+
+Page 1 of 92
+
+Title: Seasonal liquidity, rural labor markets and agricultural production
+Author: Günther Fink
+The project received funding from the Growth and Labor Markets in Low Income
+Countries (GLM-LIC), the International Growth Centre, the Agricultural Technology
+Adoption Initiative (JPAL/CEGA) and an anonymous donor.
+IRB approval for the project was obtained from the University of Zambia and the
+Harvard School of Public Health.
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper.
+
+Page 2 of 92
+
+Title: Seasonal liquidity, rural labor markets and agricultural production
+Author: B. Kelsey Jack
+The project received funding from the Growth and Labor Markets in Low Income
+Countries (GLM-LIC), the International Growth Centre, the Agricultural Technology
+Adoption Initiative (JPAL/CEGA) and an anonymous donor.
+IRB approval for the project was obtained from the University of Zambia and the
+Harvard School of Public Health.
+The author declares that she has no relevant or material financial interests that relate to
+the research described in this paper.
+
+Page 3 of 92
+
+Title: Seasonal liquidity, rural labor markets and agricultural production
+Author: Felix Masiye
+The project received funding from the Growth and Labor Markets in Low Income
+Countries (GLM-LIC), the International Growth Centre, the Agricultural Technology
+Adoption Initiative (JPAL/CEGA) and an anonymous donor.
+IRB approval for the project was obtained from the University of Zambia and the
+Harvard School of Public Health.
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper.
+
+Page 4 of 92
+
+Seasonal liquidity, rural labor markets and agricultural
+production
+By Günther Fink, B. Kelsey Jack and Felix Masiye∗
+Rural economies in many developing countries are characterized
+by a lean season in the months preceding harvest, when farmers
+have depleted their cash and grain savings from the previous year.
+To identify the impacts of liquidity during the lean season, we offered subsidized loans in randomly selected villages in rural Zambia. 98 percent of households took up the loan. Loan eligibility led
+to increases in on-farm labor and agricultural output, driving up
+wages in local labor markets. Larger effects for poorer households
+suggest that liquidity constraints contribute to inequality in rural
+economies.
+In many agricultural settings, low returns to saving and high costs of borrowing
+raise the cost of smoothing consumption from one harvest to the next, resulting in
+a distinct “lean season” or “hungry season” in the months leading up to harvest.
+In this paper, we show that liquidity shortages during the hungry season affect not
+only consumption, but also local labor markets and agricultural production. In a
+two-year randomized controlled trial conducted with 3,139 small-scale farmers in
+175 villages in rural Zambia, we test the impacts of small loans designed to cover
+basic consumption needs during the hungry season. We find almost universal
+take up of the loans, high repayment rates, and positive impacts on agricultural
+production. Most of the increase in agricultural output comes from a reallocation
+of family labor from the market, where it provides an immediate source of wage
+income during the hungry season, to the family farm, where it leads to additional
+harvest income several months later.
+Our setting is representative of many parts of sub-Saharan Africa. Agriculture is rain-fed, resulting in a single harvest each year. Access to formal saving
+opportunities is limited, informal alternatives are low-return, and borrowing opportunities are accompanied by extremely high interest rates. As a result, food
+reserves and consumption are highly seasonal, peaking after harvest, and reaching
+∗ Fink:
+Swiss Tropical and Public Health Institute and University of Basel, email: guenther.fink@swisstph.ch. Jack: University of California, Santa Barbara and NBER, email: kelseyjack@ucsb.edu. Masiye: University of Zambia, email: fmasiye@yahoo.com. We thank the Editor, Esther
+Duflo, and two anonymous referees, along with audience members at numerous seminars and conferences
+for comments and suggestions. Financial support was provided by the Growth and Labor Markets in
+Low Income Countries (GLM-LIC), the International Growth Centre, the Agricultural Technology Adoption Initiative (JPAL/CEGA) and an anonymous donor. We thank Innovations for Poverty Action for
+logistical support, Rachel Levenson for careful oversight of the field work, Daniel Velez Lopez, Chantelle
+Boudreaux, Simon Jean and Carlos Riumallo Herl for research assistance, and Jack Cavanagh for data
+support. The project received IRB approval from the Harvard T. H Chan School of Public Health and
+the University of Zambia, and is registered on the AEA trial registry as AEARCTR-0000130.
+
+1
+
+Page 5 of 92
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+their nadir during the hungry season.1 When asked how they will cover shortterm needs (in addition to restricting consumption as the name “hungry season”
+suggests), a majority of households in our sample say they will sell family labor in local labor markets. These labor sales – locally referred to as ganyu –
+typically occur within a given village, with better-off farmers hiring labor from
+relatively poor farmers at an individually negotiated rate. In our setting, poorer
+households also report higher baseline interest rates on borrowing. This implies a
+higher marginal product of labor on poorer households’ farms during the hungry
+season, even if the discounted return to labor is equalized across farms.
+In the first year of the study, selected households in two-thirds of villages were
+eligible for cash or food loans, worth around USD 30, during the hungry season; in
+the second year, 50 percent of study villages received the program, with rotation
+of treatment status between years (i.e., some villages received two years of the
+program, some one year and some zero years). Our sample covers around half
+of the households in a village on average, both for data collection and treatment
+eligibility.2 Despite an implicit interest rate of 4.5 percent per month, more
+than 98 percent of eligible households took up the offer. These take up rates
+are considerably above what is typically reported in the microfinance literature,3
+highlighting the high demand for credit during the hungry season, as well as the
+high cost of alternative consumption-smoothing strategies, including ganyu labor
+sales. Nearly 95 percent repayment in the first year suggests that high take up
+was not driven by anticipated default.
+We find that the intervention led to adjustments in labor allocation, and increases in agricultural output. In year 1 of the program, the likelihood that a
+family sold any ganyu labor during the hungry season fell by 4.8 percentage points
+(14 percent) in response to treatment, with a 25 percent reduction in hours sold,
+on average. The likelihood of hiring ganyu labor increased by around 3.9 percentage points (43 percent). As a result, average village-level wages, which we
+measure as daily earnings, increased by about 2.5 Kwacha, or 17 percent relative
+to control villages.4 We also find increases in family labor supply: on average,
+treated households reported 4.9 additional hours of family labor per week on their
+own farms during the hungry season in year 1, an increase of 10.6 percent relative
+1 Other papers highlight the contribution of seasonal variation in grain prices to consumption seasonality (see, for example, Kaminski, Christiaensen and Gilbert (2014); Devereux, Sabates-Wheeler and
+Longhurst (2013)). In our setting, grain prices also peak during the hungry season but appear insufficient
+to fully explain consumption fluctuations.
+2 Treating only a subset of households in treatment villages results in a “partial treatment, general
+equilibrium” set-up, in which (unmeasured) labor supply responses by untreated households in treatment
+villages dampen wage effects. We discuss this feature of our design both in presenting our model and
+interpreting our results.
+3 The average take up rate across the six randomized evaluations of microfinance published in a special
+issue of the American Economic Journal: Applied Economics in 2015 was 39 percent (Banerjee, Karlan
+and Zinman 2015). The only RCT in this issue with a take up rate close to 98 percent had a default rate
+of 46 percent; we observe an average default rate of 11 percent.
+4 Some of the average wage effect may be driven by changes in the composition of who selects into
+the labor market rather than changes in equilibrium wages. We conduct a bounding exercise that shows
+wage increases even under conservative assumptions about worker selection.
+
+

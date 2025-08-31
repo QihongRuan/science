@@ -1,0 +1,211 @@
+Intergenerational Mobility of Immigrants in the US over
+Two Centuries
+Journal: American Economic Review
+Manuscript ID AER-2019-1586.R3
+Manuscript Type: Administrator
+Keywords: J61, N30, N00
+
+Page 1 of 54
+
+Intergenerational Mobility of Immigrants in
+the US over Two Centuries
+By RAN ABRAMITZKY, LEAH BOUSTAN, ELISA JÁCOME, AND SANTIAGO PÉREZ*
+
+Using millions of father-son pairs spanning more than 100 years of US history, we
+find that children of immigrants from nearly every sending country have higher rates
+of upward mobility than children of the US-born. Immigrants’ advantage is similar
+historically and today despite dramatic shifts in sending countries and US
+immigration policy. Immigrants achieve this advantage in part by choosing to settle
+in locations that offer better prospects for their children.
+
+Immigrants who move to the United States aspire to offer a better future for their children.
+Both today and in the past, many immigrants earn less than US-born workers upon first arrival and
+do not completely catch up within a single generation.1 However, a defining feature of the
+“American Dream” is the view that even immigrants who come to the United States with few
+resources and little skills have a real chance at improving their children’s prospects.
+This paper studies the intergenerational mobility of the children of immigrants (the “secondgeneration”). We ask whether the sons of immigrants achieve earnings parity with the sons of the
+US-born, and how their relative intergenerational mobility changed between the late 19th century
+and today.2 On the one hand, children of immigrants might be in a particularly good position to
+*
+
+Abramitzky: Department of Economics, Stanford University, 579 Serra Mall, Stanford, CA 94305, and NBER (e-mail: ranabr@stanford.edu);
+Boustan: Princeton University, Department of Economics, Princeton, NJ 08544 and NBER (email: lboustan@princeton.edu); Jácome: Princeton
+University, Department of Economics, Princeton, NJ 08544 (email: ejacome@princeton.edu); Pérez: Department of Economics, University of
+California, Davis, 1 Shields Ave, Davis, CA 95616, and NBER (e-mail: seperez@ucdavis.edu). We thank the editor, Esther Duflo, for her most
+valuable guidance, and three anonymous referees for their very useful feedback. We also thank the feedback of Chris Becker, Alvaro Calderón,
+Bruno Caprettini, Raj Chetty, Jennifer Hunt, Michele Rosenberg, Martin Saavedra, Kjell Salvanes, seminar participants at Copenhagen Business
+School, Copenhagen University, Munich, Princeton, Norwegian School of Economics in Bergen, Rotterdam, Stanford, Tilburg, and UC Davis, as
+well as conference participants at the 12th International conference on Migration and Development in Madrid, the “Intergenerational Mobility,
+Gender, and Family Formation in the Long Run” conference in Oslo, the Social Science History Association annual meeting, and SITE conference
+on immigration at Stanford. A longer version of the paper including additional results is available as NBER working paper #26408.
+1
+See Abramitzky, Boustan, and Eriksson (2014) on earnings convergence for immigrants in the past and Lubotsky (2007) for more recent
+immigrants.
+2
+In historical data, we are only able to link sons across Census waves, given that daughters often change their names at marriage. Thus, for
+consistency, we mostly focus on father-son pairs throughout our analysis.
+
+1
+
+Page 2 of 54
+
+move up the ladder, given that their parents may earn less than their true talent or ability would
+suggest (for example if they had little exposure to US education or faced discrimination in the
+labor market). Immigrant families who recently arrived in the US might also be more footloose,
+thus allowing them to settle in areas with better prospects for their children. On the other hand,
+children of immigrants might grow up in segregated neighborhoods, suffer from discrimination
+themselves, and otherwise enjoy more limited opportunities than the children of the US-born.
+We find that, both historically and today, children of immigrants at the bottom of the income
+distribution have higher rates of upward mobility than children of similarly ranked US-born
+fathers, and to a strikingly similar degree in each time period. Second-generation immigrants
+growing up at the 25th percentile of the income distribution end up 5–6 percentile rank points
+higher than the children of the US-born who were also raised at the same income rank. Secondgeneration immigrants today exhibit a similar degree of upward mobility, despite notable shifts in
+countries of origin away from Europe toward Latin America and Asia, as well as major changes
+in US immigration policy from a regime of nearly open borders (to European immigrants) to one
+of substantial restrictions.
+Our analysis spans 130 years of US history and focuses on three cohorts of immigrants who
+entered the US during the 19th or 20th centuries. The first two cohorts consist of four million firstgeneration immigrants observed with their children in the US in either the 1880 or 1910 Censuses.3
+The 1880 cohort contains mostly immigrants from Northern and Western Europe (e.g., Ireland,
+Germany, and the UK), whereas the 1910 cohort includes more immigrants from Southern and
+Eastern Europe thought to have faced greater initial disadvantages in the US labor market.4 We
+follow the children of these immigrants to the 1910 and 1940 Censuses, respectively—using
+information on their name, year of birth, and birthplace—and compare their adult outcomes to
+those of the children of US-born whites.5 Because the Censuses did not collect income data before
+1940, our analysis of these cohorts relies on computing a number of alternative proxies for
+individual-level income (“income scores”) based on a person’s detailed occupation, age, and state
+of residence.
+
+3
+
+Immigrants in these cohorts entered the US before the imposition of strict quotas based on country of origin imposed in 1921, which ended the
+era of nearly open borders for European migrants and dramatically reduced the inflow of immigrants from Eastern and Southern Europe.
+4
+For more background on immigration during the Age of Mass Migration, see Abramitzky and Boustan (2017).
+5
+More than 95 percent of immigrants in this period were white. Focusing on US-born whites as the comparison group ensures that the higher
+mobility of second-generation immigrants that we observe is not due to black-white differences in mobility. Collins and Wanamaker (2017) find
+that African Americans had much lower rates of upward mobility than whites historically. Thus, including African Americans in the sample would
+make immigrants’ mobility advantage appear even larger.
+
+2
+
+Page 3 of 54
+
+The third cohort includes children of immigrants born around 1980. Unlike the historical
+cohorts, immigrants in this modern cohort entered the US during an era of substantial immigration
+policy restrictions and came mainly from poorer and more ethnically diverse countries in Latin
+America and Asia. To study this cohort, we use aggregate administrative data made public by the
+Opportunity Insights project, which is based on links of parents and their nearly six million
+children (Chetty et al. 2018a, 2018b). In these data, we observe children’s outcomes in 2014–15
+and the outcomes of their parents in 1994–2000. In addition, we use data from the General Social
+Surveys (GSS), in which we observe the outcomes of children of immigrants and the US-born in
+2000–2018. The GSS have smaller sample sizes but include some children of undocumented
+immigrants as well as information on occupations to facilitate comparisons with the historical data.
+We start by documenting income score gaps between immigrants and US-born workers. In
+both the past and present, there is a wide variation in labor market outcomes among first-generation
+immigrants from different countries. Immigrants from countries like Finland and Norway in the
+past and Vietnam and the Dominican Republic today earn below the US-born on average, whereas
+immigrants from countries like England (historical) and India (today) out-earn their US-born
+counterparts. With a few exceptions, earnings differences for immigrant groups range between
++20 and -40 log points. However, for most sending countries in which first-generation immigrants
+earned less than the US-born, we find that second-generation immigrants catch up or even overtake
+the earnings of the children of the US-born.
+Our main analysis then uses father-son links to compare the average rank that children can
+expect to reach in the national income distribution, conditional on their parent’s income or incomescore rank and immigration status (a similar approach to Chetty et al. 2014 and Chetty et al. 2018a).
+In both the past and present, we find that the children of immigrants are more upwardly mobile
+than the children of the US-born: conditional on the rank of their parents, children of immigrants
+have a higher expected rank in adulthood. The higher level of upward mobility among children of
+immigrants is especially meaningful in relatively poor families: The estimated gaps imply that
+children of immigrants with parents in the 25th percentile have a similar expected rank as children
+of US-born individuals whose parents were ranked about 15–20 percentiles higher, which is about
+one half of the contemporaneous gap between blacks and whites in the US (Chetty et al. 2018a).
+We find a smaller mobility gap between children of immigrants and children of the US-born at the
+top of the income distribution.
+3
+
+Page 4 of 54
+
+Our data enable us to estimate rates of intergenerational mobility separately by an individual’s
+country of origin. When doing so, we find that, both in the past and today, immigrants at the bottom
+of the income distribution from nearly every sending country have higher rates of upward mobility
+than the children of the US-born. Moreover, despite all the changes that have occurred over the
+last century—more restricted borders, a shift to poorer sending countries relative to the US, the
+growing importance of services relative to manufacturing—children of immigrants today achieve
+strikingly similar rates of upward mobility to those of the past. For example, children of poor
+Mexican and Dominican immigrants today have a similar advantage relative to the children of the
+US-born as did the children of poor Danish or Swiss immigrants in 1910. This finding suggests
+that the descendants of immigrants of all backgrounds can eventually integrate into the US
+economy.
+In the last part of the paper, we explore the question of why children of immigrants are more
+upwardly mobile, focusing primarily on the historical data but comparing with the modern data
+whenever possible. First, geography matters. Both today and in the past, we find that immigrant
+parents were more likely than US-born parents to move to areas offering better prospects for their
+children. In the historical cohorts, the intergenerational gap between immigrants and the US-born
+is reduced by about 50 percent when comparing children growing up in the same US region
+(Census division) and disappears entirely when comparing children growing up in the same
+county. In the modern cohort, the immigrant mobility advantage is 25 percent smaller in the
+average county than at the national level. Finally, we discuss the role of immigrants’ self-selection,
+and provide suggestive evidence that immigrant fathers were “under-placed” in the income
+distribution (that is, their earnings did not fully reflect their abilities), thereby giving their children
+more room to improve.
+I.
+
+Literature
+
+Our paper contributes to the understanding of immigrant assimilation and intergenerational
+mobility in the US. Closest to our paper is Card, DiNardo, and Estes (2000), which uses crosssectional data to compare average outcomes by country of origin for first- and second-generation
+immigrants in the labor market from 1940 until the mid-1990s. Like this paper, we also find that
+the children of immigrants fare better on average than the children of the US-born conditional on
+the average outcomes of the first generation. Our paper broadens the analysis to study immigrants
+4
+
+Page 5 of 54
+
+and their children over more than a century (1880 to 2015). More importantly, our paper adds
+actual parent-child linkages, enabling us to assess the view that even poor immigrants can
+substantially improve their children’s prospects, as well as explore the channels through which
+immigrant families achieve their mobility advantage.
+Most existing work on economic outcomes during the Age of Mass Migration focuses on
+assimilation within a generation (see for instance, Ferrie 1997; Hatton 1997; Minns 2000; and
+Abramitzky, Boustan, and Eriksson 2014). One exception is Ward (2019), who documents
+persistent outcomes across generations by ancestry (national origin of grandfather) in the early 20th
+century. We go beyond Ward by contrasting mobility rates for the children of immigrants with
+those of the US-born, and by comparing mobility rates in both the past and present.6
+Finally, our paper adds to the broader literature on intergenerational mobility in the United
+States. A number of papers estimate contemporary levels of intergenerational mobility (e.g., Lee
+and Solon 2009; Chetty et al. 2014, 2017; Mazumder 2015; Hilger 2016; and Davis and Mazumder
+2019).7 A series of related studies document historical rates of intergenerational mobility, and
+compare these historical rates to present-day levels (e.g., Long and Ferrie 2013; Feigenbaum 2015,
+2018; Olivetti and Paserman 2015; Ferrie et al. 2016; Card, Domnisoru, and Taylor 2018; Olivetti,
+Paserman, and Salisbury 2018; Tan 2018; Derenoncourt 2019; and Pérez 2019). Borjas (1992)
+develops a theory of ethnic capital, which suggests that the social mobility process may differ
+between immigrants and the US-born.8
+II.
+
+Data
+
+A. Historical Datasets for Studying Economic Mobility
+We measure historical mobility rates using two new datasets of linked Census records. The
+first dataset links sons observed in the 1880 Census to the 1910 Census, and the second links sons
+observed in the 1910 Census to the 1940 Census.9 These data allow us to observe an individual’s
+6
+
+Borjas (1993) uses cohort-level data from the 1940 and 1970 Censuses to study the intergenerational mobility of immigrants in the US. Perlmann
+and Waldinger (1997) and Perlmann (2005) compare the outcomes of second-generation immigrants in the past and the present but do not have
+parent-child linkages. Our work also relates to studies that focus on the intergenerational progress of specific immigrant groups, including the Irish
+famine immigrants (Collins and Zimran 2019), and Mexican Americans (Duncan et al. 2017; Kosack and Ward 2018).
+7
+Bhattacharya and Mazumder (2011), Chetty et al. (2018a) and Collins and Wanamaker (2017) focus on black-white differences in mobility, and
+Hilger (2017) focuses on Asian Americans.
+8
+Outside of the US, Aydemir, Chen, and Corak (2009) focus on the intergenerational mobility of immigrants to Canada, Bolotnyy and Bratu (2018)
+on immigrants to Sweden, and Gielen and Webbink (2019) on the Netherlands.
+9
+The 1880 Census data are from Minnesota Population Center (2019). The 1910 and 1940 data are from Ruggles et al (2020). For reasons of both
+data availability and historical interest, our analysis does not include immigrants in the 1940–1970 cohorts. First, the 1940 Census is the last Census
+for which information on names is publicly available, allowing for backward but not forward links from 1940. Second, neither of the sources that
+we use for the modern period include immigrants in these cohorts: the GSS started collecting data in 1972 and the Opportunity Insights data covers
+
+5
+
+

@@ -1,0 +1,184 @@
+On Her Own Account: How Strengthening Women's
+Financial Control Impacts Labor Supply and Gender Norms
+Journal: American Economic Review
+Manuscript ID AER-2020-0705.R3
+Manuscript Type: For Administrative Use Only
+Keywords: female labor supply, financial inclusion, gender norms
+
+Page 1 of 127
+
+ERICA FIELD
+PROFESSOR OF ECONOMICS
+309 SOCIAL SCIENCES BLDG
+
+TELEPHONE 919-660-1857
+FACSIMILE 919-660-8570
+E-MAIL EMF23@DUKE.EDU
+
+R
+
+May 5, 2020
+Disclosure Statement for: “On Her Own Account: How Strengthening Women’s Financial Control
+Impacts Labor Supply and Gender Norms” by Erica Field, Rohini Pande, Natalia Rigol, Simone
+Schaner, and Charity Troyer Moore
+•
+
+•
+•
+•
+•
+
+•
+
+The study was funded by IZA's Growth and Labour Markets in Low Income Countries
+Programme, the Bill and Melinda Gates Foundation, DFID, Harvard's Center for
+Population and Development Studies, the JPAL Governance Initiative, and Innovations for
+Poverty Action's Financial Services for the Poor Initiative.
+I have not received financial support from any party with interests in this research.
+I have no paid or unpaid positions with any profit or non-profit organization with a stake in
+this research.
+I have no close relative or partner with conflicts of interest with respect to this research.
+The bank sharing administrative data with the research team had the opportunity to review
+results of the research prior to publication to ensure no confidential information was
+disclosed. Review rights are limited to information disclosure and do not extend to results or
+interpretation.
+The research protocol was approved by IRBs at Harvard University (Protocol IRB13-1934)
+and IFMR India.
+
+Erica Field
+Professor of Economics and Global Health
+Duke University
+
+Page 2 of 127
+
+Disclosure Statement for: “On Her Own Account: How Strengthening Women’s Financial Control
+Impacts Labor Supply and Gender Norms” by Erica Field, Rohini Pande, Natalia Rigol, Simone
+Schaner, and Charity Troyer Moore
+•
+
+•
+•
+•
+•
+
+•
+
+The study was funded by IZA's Growth and Labour Markets in Low Income Countries
+Programme, the Bill and Melinda Gates Foundation, DFID, Harvard's Center for
+Population and Development Studies, the JPAL Governance Initiative, and Innovations for
+Poverty Action's Financial Services for the Poor Initiative.
+I have not received financial support from any party with interests in this research.
+I have no paid or unpaid positions with any profit or non-profit organization with a stake in
+this research.
+I have no close relative or partner with conflicts of interest with respect to this research.
+The bank sharing administrative data with the research team had the opportunity to review
+results of the research prior to publication to ensure no confidential information was
+disclosed. Review rights are limited to information disclosure and do not extend to results or
+interpretation.
+The research protocol was approved by IRBs at Harvard University (Protocol IRB13-1934)
+and IFMR India.
+
+Rohini Pande
+Professor of Economics
+Yale University
+
+Page 3 of 127
+
+Disclosure Statement for: “On Her Own Account: How Strengthening Women’s Financial Control
+Impacts Labor Supply and Gender Norms” by Erica Field, Rohini Pande, Natalia Rigol, Simone
+Schaner, and Charity Troyer Moore
+•
+
+•
+•
+•
+•
+
+•
+
+The study was funded by IZA's Growth and Labour Markets in Low Income Countries
+Programme, the Bill and Melinda Gates Foundation, DFID, Harvard's Center for
+Population and Development Studies, the JPAL Governance Initiative, and Innovations for
+Poverty Action's Financial Services for the Poor Initiative.
+I have not received financial support from any party with interests in this research.
+I have no paid or unpaid positions with any profit or non-profit organization with a stake in
+this research.
+I have no close relative or partner with conflicts of interest with respect to this research.
+The bank sharing administrative data with the research team had the opportunity to review
+results of the research prior to publication to ensure no confidential information was
+disclosed. Review rights are limited to information disclosure and do not extend to results or
+interpretation.
+The research protocol was approved by IRBs at Harvard University (Protocol IRB13-1934)
+and IFMR India.
+
+Natalia Rigol
+Assistant Professor of Business Administration
+Harvard Business School
+
+Page 4 of 127
+
+Disclosure Statement for: “On Her Own Account: How Strengthening Women’s Financial Control
+Impacts Labor Supply and Gender Norms” by Erica Field, Rohini Pande, Natalia Rigol, Simone
+Schaner, and Charity Troyer Moore
+•
+
+•
+•
+•
+•
+
+•
+
+The study was funded by IZA's Growth and Labour Markets in Low Income Countries
+Programme, the Bill and Melinda Gates Foundation, DFID, Harvard's Center for
+Population and Development Studies, the JPAL Governance Initiative, and Innovations for
+Poverty Action's Financial Services for the Poor Initiative.
+I have not received financial support from any party with interests in this research.
+I have no paid or unpaid positions with any profit or non-profit organization with a stake in
+this research.
+I have no close relative or partner with conflicts of interest with respect to this research.
+The bank sharing administrative data with the research team had the opportunity to review
+results of the research prior to publication to ensure no confidential information was
+disclosed. Review rights are limited to information disclosure and do not extend to results or
+interpretation.
+The research protocol was approved by IRBs at Harvard University (Protocol IRB13-1934)
+and IFMR India.
+
+Simone Schaner
+Assistant Professor (Research) of Economics
+University of Southern California
+
+Page 5 of 127
+
+Disclosure Statement for: “On Her Own Account: How Strengthening Women’s Financial
+Control Impacts Labor Supply and Gender Norms” by Erica Field, Rohini Pande, Natalia Rigol,
+Simone Schaner, and Charity Troyer Moore
+•
+
+•
+•
+•
+•
+
+•
+
+The study was funded by IZA's Growth and Labour Markets in Low Income Countries
+Programme, the Bill and Melinda Gates Foundation, DFID, Harvard's Center for
+Population and Development Studies, the JPAL Governance Initiative, and Innovations
+for Poverty Action's Financial Services for the Poor Initiative.
+I have not received financial support from any party with interests in this research.
+I have no paid or unpaid positions with any profit or non-profit organization with a stake
+in this research.
+I have no close relative or partner with conflicts of interest with respect to this research.
+The bank sharing administrative data with the research team had the opportunity to
+review results of the research prior to publication to ensure no confidential information
+was disclosed. Review rights are limited to information disclosure and do not extend to
+results or interpretation.
+The research protocol was approved by IRBs at Harvard University (Protocol IRB131934) and IFMR India.
+
+Charity Troyer Moore
+Director for South Asia Economics Research
+MacMillan Center
+Yale University
+
+

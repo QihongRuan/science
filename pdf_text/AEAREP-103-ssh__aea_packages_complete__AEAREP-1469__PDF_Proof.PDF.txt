@@ -1,0 +1,129 @@
+Stock Market Wealth and the Real Economy: A Local Labor
+Market Approach
+Journal: American Economic Review
+Manuscript ID AER-2020-0208.R3
+Manuscript Type: For Administrative Use Only
+Keywords: E21, E32, E44
+
+Page 1 of 57
+
+The author declares that no relevant or material financial interests relate to the research described
+in “Stock Market Wealth and the Real Economy: A Local Labor Market Analysis.” No party had
+the right to review the paper prior to its circulation.
+
+Gabriel Chodorow-Reich
+11/23/2020
+
+Page 2 of 57
+
+The author declares that no relevant or material financial interests relate to the research described
+in “Stock Market Wealth and the Real Economy: A Local Labor Market Analysis.” No party had
+the right to review the paper prior to its circulation.
+
+Alp Simsek
+11/23/2020
+
+Page 3 of 57
+
+The author declares that no relevant or material financial interests relate to the research described
+in “Stock Market Wealth and the Real Economy: A Local Labor Market Analysis.” No party had
+the right to review the paper prior to its circulation.
+
+Plamen T. Nenov
+11/23/2020
+
+Page 4 of 57
+
+Stock Market Wealth and the Real Economy:
+A Local Labor Market Approach
+By Gabriel Chodorow-Reich, Plamen T. Nenov, and Alp Simsek*
+We provide evidence of the stock market consumption wealth effect
+by using a local labor market analysis. An increase in local stock
+wealth driven by aggregate stock prices increases local employment
+and payroll in nontradable industries and in total, with no effect
+on employment in tradable industries. In a model of geographic
+heterogeneity in stock wealth, these responses imply an MPC of
+3.2 cents per year and that a 20% increase in stock valuations,
+unless countered by monetary policy, increases the aggregate labor
+bill by at least 1.7% and aggregate hours by at least 0.7% two years
+after the shock.
+JEL: E44, E21, E32
+Keywords: stock prices, consumption wealth effect, marginal
+propensity to consume, employment, wages, regional heterogeneity,
+time-varying risk premium, nominal rigidities, monetary policy
+According to a recent textual analysis of FOMC transcripts by Cieslak and
+Vissing-Jorgensen (2017), many U.S. policymakers believe that stock market fluctuations affect the labor market through a consumption wealth effect. In this
+view, a decline in stock prices reduces the wealth of stock-owning households,
+causing a reduction in spending and hence in employment. While apparently
+an important driver of U.S. monetary policy, this channel has proved difficult to
+establish empirically. The main challenge arises because stock prices are forwardlooking. Therefore, an anticipated decline in future economic fundamentals could
+also lead to both a negative stock return and a subsequent decline in household
+spending and employment.
+We use a local labor market analysis to address this empirical challenge and
+provide quantitative evidence on the stock market consumption wealth effect.
+Our empirical strategy combines regional heterogeneity in stock market wealth
+with aggregate movements in stock prices. This regional approach identifies the
+causal effects under weaker assumptions than aggregate time-series analyses, while
+* Chodorow-Reich: Harvard University Department of Economics and NBER (email: chodorowreich@fas.harvard.edu). Nenov: Norwegian Business School (BI) (email: plamen.nenov@bi.no). Simsek:
+MIT Department of Economics, NBER, and CEPR (email: asimsek@mit.edu). We would like to thank
+George-Marios Angeletos, Ricardo Caballero, Anthony DeFusco (discussant), Paul Goldsmith-Pinkham,
+Fabian Greimel (discussant), Annette Vissing-Jorgensen, Kairong Xiao, numerous seminar participants,
+and especially the editor Emi Nakamura and four anonymous referees for many helpful comments. Joel
+Flynn and Katherine Silva provided excellent research assistance. Chodorow-Reich acknowledges support
+from the Molly and Dominic Ferrante Economics Research Fund. Nenov would like to thank Harvard University and the NBER for their hospitality during the initial stages of the project. Simsek acknowledges
+support from the National Science Foundation (NSF) under Grant Number SES-1455319.
+
+1
+
+Page 5 of 57
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+providing direct evidence that asset prices affect labor market outcomes, which
+is of central interest to policymakers. In addition, our approach appropriately
+accounts for heterogeneity in marginal propensities to consume (MPC) across
+households—a feature emphasized in the recent literature—because the regional
+labor market response already reflects the wealth-weighted average MPC across
+stockholders in the region. Finally, we develop a heterogeneous area two-agent
+New Keynesian model that relates the regional outcomes to the household-level
+MPC out of stock wealth as well as to the aggregate labor market effects of
+stock wealth changes. Interpreted through this model, our empirical estimates
+map into a household-level annual MPC of 3.2 cents per dollar of stock wealth
+and imply that annual aggregate payroll increases by 1.7% following a yearly
+standard deviation increase in the stock market, unless countered by monetary
+policy.
+It helps to begin by describing the consumption wealth effect in our model
+setting. The environment features a continuum of areas, a tradable good and a
+nontradable good, stockholders and hand-to-mouth workers, and two factors of
+production, capital and labor. The only heterogeneity across regions is in their
+ownership of capital, which also equates to stock wealth. The aggregate price of
+capital is endogenous and fluctuates due to changes in households’ beliefs about
+the expected future productivity of capital. An increase in stock wealth increases
+local spending on nontradable goods, and more so in areas with greater capital
+ownership. Higher spending drives up the labor bill and increases labor in the
+nontradable sector and in total. Local wages increase (weakly) more in high
+wealth areas, which induces a (weak) fall in tradable labor.
+In the data, we measure changes in county-level stock market wealth in three
+steps. In the first step, we capitalize dividend income reported on tax returns
+aggregated to the county level to arrive at a county-level measure of taxable stock
+wealth. Our capitalization method improves on existing work such as in Saez and
+Zucman (2016) by allowing for heterogeneity in dividend yields by wealth, which
+we obtain using a sample of account-level portfolio holdings from a large discount
+broker. In the second step, we adjust this measure of taxable stock wealth to
+account for non-taxable (e.g., retirement) stock wealth, using information on the
+relationship between taxable and total stock wealth and demographics in the
+Survey of Consumer Finances. In the final step, we multiply the total county
+stock wealth with the return on the market (CRSP value-weighted) portfolio and
+a county-specific portfolio beta constructed from county demographic information
+and variation in betas across the age distribution in the data from the discount
+broker. This provides a measure of the change in county stock wealth driven by
+the aggregate stock return. Motivated by our theoretical analysis, we then divide
+this change by the county labor bill to arrive at our main regressor.
+Our empirical specification identifies the effect of changes in stock wealth on
+local labor market outcomes by exploiting the substantial variation in the aggregate stock return that occurs independent of other macroeconomic variables. In
+
+

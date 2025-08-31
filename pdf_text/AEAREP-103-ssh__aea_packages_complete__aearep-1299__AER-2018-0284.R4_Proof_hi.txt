@@ -1,0 +1,143 @@
+The Legacy of Colonial Medicine in Central Africa
+Journal: American Economic Review
+Manuscript ID AER-2018-0284.R4
+Manuscript Type: For Administrative Use Only
+Keywords: N37, I15, trust, medicine, colonialism, health, culture
+
+Page 1 of 89
+
+August 10, 2020
+
+“The Legacy of Colonial Medicine in Central Africa”
+I have no relevant or material financial interests that relate to the research
+described in this paper.
+We received financial support for the project from the Lab for Economic
+Applications and Policy, the History Project, and the Institute for New Economic
+Thinking (INET).
+Best,
+
+Sara Lowes
+
+Page 2 of 89
+
+August 10, 2020
+
+“The Legacy of Colonial Medicine in Central Africa”
+I have no relevant or material financial interests that relate to the research
+described in this paper.
+We received financial support for the project from the Lab for Economic
+Applications and Policy, the History Project, and the Institute for New Economic
+Thinking (INET).
+Best,
+
+Eduardo Montero
+
+Page 3 of 89
+
+The Legacy of Colonial Medicine in Central Africa*
+Sara Lowes†
+
+Eduardo Montero‡
+
+UC San Diego and NBER
+
+University of Michigan
+
+11 December 2020
+
+Abstract: Between 1921 and 1956, French colonial governments
+organized medical campaigns to treat and prevent sleeping sickness.
+Villagers were forcibly examined and injected with medications with
+severe, sometimes fatal, side effects. We digitized thirty years of
+archival records to document the locations of campaign visits at a
+granular geographic level for five central African countries. We find
+that greater campaign exposure reduces vaccination rates and trust
+in medicine – as measured by willingness to consent to a blood test.
+We examine relevance for present day health initiatives; World Bank
+projects in the health sector are less successful in areas with greater
+exposure.
+Keywords: Trust, medicine, colonialism, health, vaccinations, culture.
+JEL Classification: N37, I15, I18, O55, Z1.
+
+* We thank Marcella Alsan, Julia Cagé, Arun Chandrasekhar, Melissa Dell, James Feigenbaum, Claudia Goldin,
+Casper Worm Hansen, Daniel Headrick, Richard Hornbeck, Guillaume Lachenal, Nathan Nunn, Nancy Qian, James
+A. Robinson, Raul Sanchez de la Sierra, Marlous van Waijenburg, and Marianne Wanamaker for excellent feedback.
+We are grateful for financial support from the Lab for Economic Applications and Policy, the History Project, and
+the Institute for New Economic Thinking (INET). We also thank Marcella Alsan and Marlous van Waijenburg for
+generously sharing data with us, Jacques Pépin and Guillaume Lachenal for kindly guiding us in our search for data,
+and Delphine Rouillard for her invaluable assistance at the archives. We thank the editor, Esther Duflo, and our
+referees for thoughtful comments and guidance.
+† UC San Diego, NBER, and CIFAR. Email: slowes@ucsd.edu. Website: www.saralowes.com.
+‡ University of Michigan. Email: emontero@umich.edu. Website: www.eduardo-montero.com.
+
+Page 4 of 89
+
+1. Introduction
+Between the 1920s and 1950s, French colonial governments undertook extensive medical campaigns in sub-Saharan Africa aimed at managing tropical diseases. In Cameroon and former
+French Equatorial Africa (present day Central African Republic, Chad, Republic of Congo, and
+Gabon, henceforth AEF; see Figure 1 for a map), the colonial governments organized campaigns
+against a variety of diseases, including sleeping sickness, leprosy, yaws, syphilis, and malaria.1
+The most extensive of these campaigns focused on sleeping sickness, a lethal disease spread by the
+tsetse fly. Over the course of several decades, millions of individuals were subjected to medical
+examinations and forced to receive injections of medications with dubious efficacy and with
+serious side effects, including blindness, gangrene, and death. The sleeping sickness campaigns
+constituted some of the largest colonial health investments, and for many, these campaigns were
+their first exposure to modern medicine (Headrick, 1994; Lachenal, 2014).
+There is a large body of anecdotal evidence from Africa of mistrust in medicine leading to
+under-utilization of health care.2 Relatedly, research in developing countries has highlighted that
+even when there is access to high-quality preventative and therapeutic tools, demand remains
+puzzling low (Dupas, 2011; Dupas and Miguel, 2017; Banerjee et al., 2010). Motivated by work
+from anthropology and history which links colonial medical campaigns against sleeping sickness
+and mistrust in medicine (Feldman-Savelsberg et al., 2000; Lachenal, 2014), we hypothesize that
+the colonial medical campaigns may have had a series of unintended effects on both beliefs about
+modern medicine and the success of modern health interventions. The campaigns may have
+affected use of medicine because villagers were forced to receive injections, many of the medications had serious negative side effects, and the medications were ineffective. Additionally, the
+campaigns may have caused the spread of contagious diseases because of the reuse of unsanitary
+needles during the campaigns (Pépin, 2011; Lachenal, 2014). Thus, we examine the effects of
+historical colonial medical campaigns on present day vaccination rates, trust in medicine, and the
+success of World Bank health projects.
+To measure exposure to colonial medical campaigns, we construct a novel data set from over
+1 Yaws is a skin infection caused by a sub-species of the bacterium that causes venereal syphilis.
+2 For example, during the 2019 Ebola outbreak in eastern Congo and the 2014 outbreak in West Africa, distrust
+of medical workers was cited as a barrier to effective containment (Vinck et al., 2019; Blair et al., forthcoming). In
+northern Nigeria, communities boycotted the polio vaccination leading to a large outbreak of a nearly eradicated
+disease (Jegede, 2007).
+
+1
+
+Page 5 of 89
+
+30 years of archival data from French military archives for five countries. We digitized hundreds
+of tables documenting the locations of sleeping sickness campaign visits at a granular geographic
+level – either the ethnicity-district or the sub-district level – between 1921 and 1956. Our measure
+of exposure to the medical campaigns is the share of years that a location is visited during the
+years of the campaigns.
+We focus on two key outcomes. First, we examine vaccination rates using data from the
+Demographic and Health Surveys (DHS) for our sample countries. Vaccinations are an important
+and effective tool for preventing many diseases. Despite this, an estimated 20 million children
+are at risk of vaccine-preventable diseases because they are not vaccinated (WHO, 2019). In our
+area of interest, vaccination rates are low, often below herd immunity rates. We construct a
+vaccination index, which is the share of completed vaccines of nine possible vaccines for children
+under five.3 We find that greater exposure to the campaigns is associated with lower vaccination
+rates for children. Being visited for 15 years, the average number of years an area is visited, is
+associated with a 5.8 percentage point decrease in the vaccination index relative to a mean of
+having completed about half of the nine vaccinations.
+We then examine a potential proxy for trust in medicine. We measure trust in medicine by
+whether an individual consents to a free and non-invasive blood test for either anemia or HIV in
+the DHS. We consider consent to the blood tests to be a revealed preference measure of trust.4
+We find that increased exposure to colonial medical campaigns is correlated with lower levels of
+trust in medicine today. Approximately 4.8% of the sample refuse the blood tests. Being visited
+by the colonial medical campaigns for 15 years increases refusals by 5.4 percentage points. The
+strong correlation remains when we examine anemia blood test refusals or HIV blood test refusals
+separately. We also discuss alternative interpretations of the blood test refusal measure.
+The results are robust to a variety of geographic, colonial, pre-colonial, and individual level
+controls. In our baseline set of covariates we include controls for geographic and historical characteristics, such as temperature, precipitation, land suitability, suitability for malaria, tsetse fly
+suitability, initial measures of sleeping sickness prevalence, exposure to the Atlantic slave trade,
+and exposure to missionaries. We also present results with contemporary controls, including
+educational attainment and wealth fixed effects.
+3 The vaccines that the DHS reports on are: polio 0, bcg, dpt 1, polio 1, dpt 2, polio 2, dpt 3, polio 3, and measles.
+4 The DHS does not collect any survey measures of trust in medicine.
+
+2
+
+

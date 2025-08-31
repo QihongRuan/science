@@ -1,0 +1,207 @@
+Disentangling Global Value Chains
+Journal: American Economic Journal: Macroeconomics
+Manuscript ID AEJMacro-2019-0437.R2
+Manuscript Type: Regular Submission - High Income Country - Member
+Keywords: F1, F6, C6
+
+Page 1 of 70
+
+Disclosure Statement for “Disentangling Global Value Chains”.
+Dear editorial board,
+I would like to declare that part of this paper relies on confidential customs microdata owned by
+the Mexican government that cannot be made public – but can be obtained upon request to the
+Mexican government. This data is used only in section 2.4 and in section 5. The rest of the paper
+relies on publicly available data.
+Please do not hesitate to contact me if there are any questions,
+Alonso de Gortari
+
+Page 2 of 70
+
+Disentangling Global Value Chains∗
+Alonso de Gortari
+
+September 2020
+
+Abstract
+The production patterns underlying the recent rise of global value chains (GVCs) have become increasingly complex. NAFTA supply chains, for example, are now deeply integrated: I use Mexican customs data to show that exports to the U.S. use a much higher share of American inputs than exports to
+other countries. However, the conventional GVC measurement framework ignores this heterogeneity
+by assuming that all output uses the same input mix. I develop a new framework that combines inputoutput data with additional supply chain information in order to construct GVCs reflecting the use of
+inputs observed in the latter. Improving measurement matters quantitatively since it affects both valueadded trade measures and counterfactual experiments: Incorporating Mexican customs data raises the
+estimated share of U.S. value in the U.S. imported Mexican manufactures from 18% to 30% and amplifies
+the welfare cost of a NAFTA trade war.
+JEL codes: F1, F6, C6.
+
+∗
+
+Contact me at alonso.degortari@gmail.com. This paper is based on my job market paper of the same title and the paper
+“Bounding the Gains from Trade.” I am extremely grateful to my advisors Pol Antràs, Elhanan Helpman, and Marc Melitz for
+their mentorship and guidance. I especially thank Kirill Borusyak, Sebastián Fanelli, Guillermo Noguera, Fernando Pérez Cervantes, Zhi Wang, Kei-Mu Yi, the editor and referees, seminar participants at Banco de México, Banca d’Italia, Brown, Columbia,
+CREI, Dartmouth, ECARES, Georgetown McDonough, MIT, Harvard, IIES, ITAM, Maryland, Michigan, Minnesota, Princeton,
+Rochester, UCSD, Yale, and conference participants at the ETSG (Warsaw), FREIT (Sapporo), GVC Conference (Nottingham),
+GVC Workshop (Beijing), NBER Economic Consequences of Trade, New Faces in Trade (Penn State), SAET (Faro), SED (Mexico
+City), SEM (Xiamen), WEAI (San Francisco) for very helpful comments. I gratefully acknowledge the hospitality of Banco de
+México, Harvard University, Princeton University, and Dartmouth College, where parts of this paper were written. Finally, I
+thank Gurobi and Odyssey for making this project possible. All errors are my own.
+
+Page 3 of 70
+
+1
+
+Introduction
+
+While writing this paper, the North American Free Trade Agreement (NAFTA) got renegotiated for the first
+time since its 1994 inception, the United Kingdom discussed its exit from the European Customs Union,
+and the United States and China sowed the seeds of a possible full-blown trade war. What are the potential
+consequences of these policy changes? How do their effects propagate across country borders?
+Quantifying the effects of economic shocks when production is highly fragmented requires a more
+accurate and systematic understanding of the global value chains (GVCs) underlying world trade than has
+so far been achieved. Take a NAFTA trade war in which the U.S. increases trade barriers on Mexican
+imports, for example.1 These shocks ripple through the value chain and sharply affect upstream U.S.based suppliers when Mexican-American trade is based heavily on goods crossing the border back-andforth. Conversely, little integration in Mexican-American supply chains implies these shocks are passed
+on to other countries. Understanding these effects thus hinges on adequately measuring the GVCs linking
+production across countries.
+GVCs are measured, in practice, using multi-country input-output data, and this requires taking a
+stand on how to trace value across production stages. Conventionally, value is traced by assuming that all
+output, within each country-industry, is built with the same input mix. This assumption is sharply at odds
+with the evidence on supply chain linkages based on richer micro-level datasets showing that, in reality,
+the use of inputs depends on the downstream use of output. For example, figure 1 uses Mexican customs
+microdata to show that the U.S. accounts for a colossal 74% of the foreign inputs embedded in Mexican
+vehicles sold to U.S. consumers but for only 18% of the inputs of those sold to German consumers. In
+contrast, the conventional approach assumes a common input mix in all Mexican vehicle production.
+Motivated by this empirical evidence, this paper makes three contributions to the toolkit of international trade economists. First, it generalizes Leontief’s input-output accounting framework to a world in
+which deep supply chain linkages amplify the transmission of economic shocks across countries. Second,
+the paper develops simple numerical optimization procedures for bounding the effects of potential mismeasurement in global supply chains on value-added trade estimates and counterfactual exercises. These
+tools are particularly relevant since most of the quantitative trade literature avoids using any supply chain
+information - which, at face value, implies this literature’s numerical results may dramatically change
+when incorporating the world’s deep supply chain linkages. Third, and finally, this paper develops an application of quadratic programming techniques that can readily be used to improve measurement despite
+the high-dimensional costs of working with flexible supply chain patterns.
+This paper provides a wake-up call to the international trade literature by illustrating the pitfalls of
+neglecting measurement in input-output datasets and improves measurement by exploiting other available
+information sources such as customs data. It proceeds in three main steps. The first part develops a GVC
+theory that tractably incorporates the heterogeneity in the use of inputs observed in figure 1. This theory
+provides a unifying framework for the literatures on GVC measurement, value-added trade, and quantitative trade models. Second, this theory is used to show that any input-output dataset is consistent with
+1
+
+Mexico became the U.S.’s main trading partner in 2019. This makes U.S.-Mexico trade the largest bilateral trade flow across
+any two countries of the world and totals over $600 billion annually.
+
+1
+
+Page 4 of 70
+
+Foreign Inputs in
+Exports to the U.S.
+JPN
+
+Foreign Inputs in
+Exports to Germany
+
+USA
+
+DEU
+CAN
+
+6% 4%
+
+3%
+
+13%
+
+JPN
+18%
+
+Other
+
+74%
+
+Other
+
+24%
+
+12%
+
+38%
+
+8%
+
+USA
+
+DEU
+
+POL
+
+Figure 1. Distribution of Foreign Inputs Used in Mexican Final Good Motor Vehicle Exports to
+the U.S. and Germany: The shares are constructed using Mexican customs shipment-level data for
+2014; details are discussed in section 2.4.1. In contrast to these charts, the conventional approach
+for measuring GVCs assumes common input distributions across destinations.
+
+many model parameterizations and acts as the foundation for developing numerical procedures constructing bounds on value-added trade estimates and welfare counterfactuals. Third, this theory is embedded in
+two new measurement procedures that leverage both
+input-output data and other sources of information
+1
+2
+to capture the supply chain linkages underlying world trade. The first procedure narrows the bounds on
+value-added trade measures and counterfactual experiments and the second constructs more precise point
+estimates than those based on the assumption that all output uses the same input mix.2
+The main empirical result is that measuring GVCs while incorporating Mexican customs data roughly
+doubles the share of U.S. value in U.S. imported Mexican manufactures and amplifies the U.S. welfare cost
+of a NAFTA trade war. These results are in line with Yi’s (2003) landmark study arguing that deep vertical
+specialization magnifies the effects of economic shocks and showcase how conventionally measured GVC
+flows miss crucial elements present in today’s highly fragmented supply chains. More generally, any
+question studied by the GVC literature can be revisited with these new measurement frameworks while
+incorporating whatever additional information is both relevant and available in each context.
+I kick off in section 2 by developing a general GVC theory that can accommodate, with further assumptions, how different classes of microfounded models behave in equilibrium and their implications on
+GVC measurement. This general theory is useful for two reasons. First, it formalizes the connection between the literature on value-added trade based on equilibrium theories of production and the literature on
+counterfactuals based on microfounded theories of production − two literatures evolved mostly indepen2
+Ultimately, the challenge surrounding GVC measurement is about aggregation and would (mostly) disappear in firm- or
+product-level input-output datasets. However, current datasets are so highly aggregated that this is a major issue for both academic and policy work. For example, the widely-used WIOD features only 19 manufacturing industries. To put this into perspective, this means that 6 trillion dollars of U.S. manufacturing output is divided into only 19 categories. This issue is unlikely to
+disappear anytime soon. First, most countries do not collect data on firm-to-firm trade. Second, building a multi-country firm-level
+input-output database requires merging firm-level data across countries and faces considerable political and legal roadblocks.
+
+2
+
+Page 5 of 70
+
+dently and in parallel. Second, it formalizes the key insight underlying this paper: That any input-output
+dataset is consistent with many different GVC networks. In particular, the general GVC theory is useful
+for comparing how different equilibrium theories of production construct GVCs from input-output data.
+For example, most trade models incorporate intermediate inputs by assuming that technology features
+roundabout production in which all of a country-industry’s output is produced with the same input mix.3
+While microfoundations differ substantially, all roundabout models imply that GVCs should be constructed
+recursively from input-output data using first-order Markov chains.
+I argue in favor of models featuring specialized inputs − models in which goods sold to different countries and industries use different input mixes. Specialized inputs models weaken the proportionality assumptions built into roundabout production models and instead imply that GVCs be constructed using
+higher-order Markov chains.4 While roundabout models construct a unique GVC network out of any
+given input-output dataset, specialized inputs models are consistent with many GVC networks. Crucially,
+specialized inputs can incorporate the heterogeneity in figure 1, while roundabout production cannot.
+The case for specialized inputs is supported by both the anecdotal and empirical evidence on modern
+supply chains in which input suppliers customize their goods to be compatible with specific downstream
+uses and in which firms make complex decisions when deciding where to locate each stage of their supply
+chain. For example, the lithium battery supplier in Apple’s famously long iPod supply chain manufactures it precisely to the size of the metal frame while the screen supplier ensures that the touch, color, and
+dimming capabilities are in line with Apple’s iOS software (Linden et al. 2011). Today, this form of input
+specialization is ubiquitous (Rauch 1999, Nunn 2007, Antràs and Staiger 2012, Antràs and Chor 2013) and
+implies that the use of inputs varies depending on the use of output since firms exporting to different countries and industries have different supply chains.5 As figure 1 illustrates, Mexican vehicle manufacturers
+exporting to the U.S. rely heavily on U.S. supply chains while those exporting to Germany do not.
+Section 3 shows that the distinction between roundabout production and specialized inputs matters
+because measures of globalization − measures quantifying the fragmentation of production such as valueadded trade (Hummels et al. 2001, Johnson and Noguera 2012, Koopman et al. 2014) or average downstreamness (Antràs et al. 2012) − vary depending on how GVC flows are constructed from input-output
+data. In particular, while the literature defines these measures directly with input-output analysis (Leontief
+1941), I define them broadly using the general GVC theory. This approach is useful because the former is
+3
+Roundabout models come in many varieties, some examples include Krugman and Venables (1995), Eaton and Kortum (2002),
+Balistreri et al. (2011), di Giovanni and Levchenko (2013), Bems (2014), Caliendo and Parro (2015), Ossa (2015), Allen et al. (2017).
+4
+In equilibrium, specialized inputs can be thought of as a generalization of input-output analysis in which the expenditure
+shares are conditional on both the purchasing country-industry and the subsequent supply chain through which inputs flow.
+5
+Various recent studies suggest that the use of inputs, within country-industries, depend on the downstream use of output.
+For example, within-industry exports vary across destinations due to quality (Bastos and Silva 2010), trade regime (Dean et al.
+2011), and credit constraints (Manova and Yu 2016). Likewise, the use of imports varies across firm size (Gopinath and Neiman
+2014, Blaum et al. 2017a, 2017b, Antràs et al. 2017), multinational activity (Hanson et al. 2005), firm capital intensity (Schott 2004),
+and the quality of output (Fieler et al. 2017). Further, recent research has made explicit connections between imports and exports
+through quality linkages (Bastos et al. 2018), trade participation (Manova and Zhang 2012), and rules-of-origin (Conconi et al.
+2018). Finally, production processes vary also in terms of the intensity of labor inputs. Processing trade firms export lower-cost
+labor assembly goods (Koopman et al. 2008, De La Cruz et al. 2011, Koopman et al. 2012, ) while firms exporting to richer countries
+hire higher-skilled workers (Brambilla et al. 2012, Brambilla and Porto 2016). Thus, value-added shares also differ depending on
+the use of output.
+
+3
+
+

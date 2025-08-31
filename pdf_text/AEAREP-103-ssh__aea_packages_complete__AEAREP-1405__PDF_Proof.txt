@@ -1,0 +1,225 @@
+Leaning against the wind and crisis risk
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0310.R2
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+17-Sep-2020
+Author:
+Complete List of Authors: Schularick, Moritz; University of Bonn, Economics; Federal Reserve Bank
+New York, Finance
+ter Steege, Lucas; University of Bonn, Economics
+Ward, Felix; Erasmus University Rotterdam, Erasmus School of
+Economics
+Keywords: E44, G15, N10
+
+Page 1 of 30
+
+Leaning against the wind and crisis risk ?
+Moritz Schularick †
+
+Lucas ter Steege ‡
+
+Felix Ward §
+
+September 14, 2020
+
+Abstract
+
+Can central banks defuse rising stability risks in financial booms by leaning against
+the wind with higher interest rates? This paper studies the state-dependent effects
+of monetary policy on financial crisis risk. Based on the near-universe of advanced
+economy financial cycles since the 19th century, we show that discretionary leaning
+against the wind policies during credit and asset price booms are more likely to
+trigger crises than prevent them.
+Keywords: financial stability, monetary policy, local projections.
+JEL Codes: E44, E50, G01, G15, N10
+
+?
+
+Schularick acknowledges support from the Deutsche Forschungsgemeinschaft (DFG) under Germany’s
+Excellence Strategy EXC 2126/1–39083886. Ter Steege gratefully acknowledges financial support by the
+DFG Research Training Group 2281, “The Macroeconomics of Inequality” and the ERC-CoG project
+Liquid-House-Cycle funded by the European Union’s Horizon 2020 Program under grant agreement No.
+724204. Schularick is supported by the European Research Council (ERC-2017-COG 772332). The views
+expressed herein are solely the responsibility of the authors and should not be interpreted as reflecting
+the views of the Federal Reserve Bank of New York or the Board of Governors of the Federal Reserve
+System.
+†
+Federal Reserve Bank of New York and Department of Economics, University of Bonn; and CEPR
+(schularick@uni-bonn.de).
+‡
+Department of Economics, University of Bonn; (s6luters@uni-bonn.de).
+§
+Erasmus School of Economics, Erasmus University Rotterdam; and Tinbergen Institute
+(ward@ese.eur.nl).
+
+Page 2 of 30
+
+How should a central bank react when it observes that a potentially dangerous credit
+and asset price boom is under way? Can policymakers defuse rising financial stability
+risks by leaning against the wind and increasing interest rates?
+Two prominent historical episodes delineate the issue that our paper speaks to. Consider the U.S. economy in 1928. Concerned about booming stock prices, a frenzy in
+commercial real estate markets, and substantial lending against both, the Federal Reserve increased policy rates from 3.5% to 6% between January 1928 and August 1929,
+surprising market participants. Most economic historians today think that these policy
+decisions, instead of bringing financial markets and credit growth back to more sustainable
+levels, played an important role in triggering the Great Depression (Eichengreen, 1992;
+Bernanke, 2002). Could the economy have avoided the financial crash had policy makers
+not raised interest rates to discourage what they perceived as rampant speculation in the
+stock market? Fast-forward 75 years. In the 2000s, U.S. policymakers decided to not lean
+against booming credit and housing markets. Instead, they stuck to a policy that was,
+by and large, consistent with flexible inflation targeting without taking financial stability
+considerations on board (Bernanke, 2010). Financial imbalances continued to grow and
+erupted in the 2008 global financial crisis. What would have happened had the Federal
+Reserve raised interest rates to lean against the credit boom? Could the crash and the
+Great Recession have been avoided?
+The two biggest financial crises in the past 100 years come with conflicting messages
+regarding the effectiveness of leaning against the wind (LAW) policies in safeguarding
+financial stability. Notwithstanding, current debates on the financial stability mandate
+of central banks often invoke one or the other episode to argue for or against leaning
+against the wind. Yet, which historical lesson is actually representative? The issue looms
+large for current thinking about monetary policy (Stein, 2013; Svensson, 2017; Adrian and
+Liang, 2018). It has become exceedingly clear how large the economic costs of financial
+crises are (Cerra and Saxena, 2008; Jordà, Schularick and Taylor, 2013). Moreover, recent
+research suggests that such financial boom states are detectable in real-time using quantity
+and price indicators (Richter, Schularick and Wachtel, forthcoming) so that policymakers
+have the chance to intervene. Yet, what do we know about the effects of monetary policy
+changes on financial stability during financial booms? The answer so far is not much,
+other than inconclusive anecdotal evidence.
+This paper aims to close this gap. We systematically study the available evidence
+for the state-dependent effects of monetary policy on financial stability. The state we
+condition on is a financial boom, defined as a large and sustained deviation of credit
+growth and real asset prices from trend. Conditional on being in such an (observable)
+boom state, we estimate how a monetary policy shock affects financial crisis probability
+and severity. We do so based on the near-universe of advanced economy financial cycles
+
+1
+
+Page 3 of 30
+
+and crises since the 19th century.
+Note that the question we are interested in is not how systematic LAW policy rules
+(S-LAW) affect financial stability and the macroeconomy. Our focus is squarely on discretionary LAW policy actions (D-LAW) that take place in a financial boom state, and
+our identification strategy speaks to those cases only. Our empirical analysis is based on
+a local projection instrumental variable (LP-IV) strategy that has recently been introduced by Jordà, Schularick and Taylor (2019). The IV exploits a type of monetary policy
+variation that is not itself influenced by local economic conditions, namely, policy rate
+changes in small open economies with fixed exchange rates that are induced by the base
+economy.
+For instance, in the early 1990s, Sweden witnessed a credit and house price boom.
+When the German Bundesbank surprised markets in December 1991 and raised its Lombard rate to 9.75% in response to inflationary pressures following German reunification,
+under the prevailing fixed exchange rate regime, it forced the hand of the Swedish central
+bank too. At the time, the New York Times (1991) quoted a market economist: “This
+is the Bundesbank’s way of showing they will use their power and independence without
+regard to the economic conditions in the rest of Europe.” The Riksbank had to defend
+the exchange rate of the Swedish Krona vis-à-vis the German Mark. Following the Bundesbank, the Riksbank also increased its policy rate at a time when credit and housing
+markets in Sweden were booming. This episode provides us with a quasi-experiment for
+an exogenous change in monetary conditions at a time when credit and housing markets
+in Sweden were in a financial boom.1
+We bring this identification strategy to bear on a long-run dataset that spans 150 years
+and covers most advanced economies, including dates of systemic financial crises. The
+dataset contains 1,525 country-year observations of countries whose currency is pegged to
+a base country’s currency. Among those, we observe more than 170 credit boom episodes,
+of which 98 coincide with exogenous increases in base country policy rates. This rich
+dataset and the IV identification strategy allow us, for the first time, to zoom in on the
+causal effects of D-LAW policy—increases in policy rates during booms in credit and asset
+prices.
+Our results are unambiguous in the sense that the estimates suggest that the effect of
+D-LAW policy on crisis risk has the opposite sign from what is often assumed. We show
+that a 1 percentage point (ppt) policy rate change during a financial boom increases the
+risk of a financial crisis by about 10 ppts over a one-year horizon. Crisis risk remains
+elevated for about two years after the monetary shock before subsiding to its long-run
+average level. However, at no point in the five years following the policy rate increase do
+1
+For this reason, the identification strategy does not speak directly to the two introductory examples
+of monetary policy (in-)action during financial booms in the U.S. The U.S. was a base country, not a
+pegged economy, in both instances.
+
+2
+
+Page 4 of 30
+
+we find evidence for a reduction in crisis risk. The empirical evidence thus lends support
+to some of the worst fears about D-LAW policy—that it is more likely to trigger crises
+than prevent them (Bernanke and Gertler, 2000; Bernanke, 2002).
+Although D-LAW heightens crisis risk in the near term, it could still be beneficial if
+it limits the economic costs of the crisis. We compare real GDP losses across financial
+crises that were preceded by different degrees of D-LAW prior to the start of the crisis,
+instrumenting the central bank’s pre-crisis monetary policy stance. Our findings suggest
+that D-LAW policy does not systematically reduce crisis severity. In the five years after a
+financial crisis, real GDP falls by around 8% below trend, regardless of whether pre-crisis
+monetary policy was taking a leaning stance.
+We corroborate these findings through a series of robustness checks. In particular,
+we examine alternative financial boom definitions, threats to the exclusion restriction,
+alternative financial crisis definitions, and differences between D-LAW interventions that
+take place early on versus late during financial booms. Throughout, the crisis trigger
+effect of D-LAW policy emerges as a robust feature of the data, whereas evidence for the
+crisis severity reduction effect remains elusive.
+The empirical evidence brought together in this paper substantiates concerns that have
+been voiced by the opponents of leaning policies (Bernanke and Gertler, 2001; Gilchrist
+and Leahy, 2002; Svensson, 2017): contractionary monetary policy at best appears ineffective at addressing financial instability risks and at worst appears outright harmful
+(Bernanke and Gertler, 2000; Bernanke, 2002). Most existing studies of D-LAW policy
+focus on how monetary policy affects financial crisis risk and severity through its effect on
+credit growth (Bauer and Granziera, 2017; Svensson, 2017). This “credit-only” approach
+suggests that D-LAW policy decreases crisis risk and ameliorates crisis severity to the
+extent that it reins in pre-crisis credit growth. However, it is plausible that monetary
+policy affects financial stability also through other channels, e.g., through its effect on
+debt servicing costs, asset prices, expectations, and incomes (Korinek and Simsek, 2016;
+Alpanda and Zubairy, 2017). Our paper provides a direct causal estimate of the effects of
+D-LAW on financial stability that is agnostic with respect to the channels at work. The
+findings we obtain on the basis of this approach contradict the notion that D-LAW can
+lower crisis risk, notwithstanding its effect on credit growth.2
+Our findings represent a stronger indictment of D-LAW policy than is implied by the
+canonical cost-benefit analysis of Svensson (2017). In Svensson’s work, the main cost
+of D-LAW comes from the adverse impact of a discretionary monetary tightening on
+unemployment, while its benefit comes from a lower crisis probability and a reduced crisis
+severity. By contrast, the results in our paper indicate that D-LAW policy neither lowers
+2
+Note that the “credit-only” approach has also found its way into analyses of S-LAW policy, through
+semi-structural models that make crisis probability a function of credit growth only (Gerdrup et al., 2017;
+Gourio, Kashyap and Sim, 2018; Ajello et al., 2019).
+
+3
+
+Page 5 of 30
+
+crisis probability, nor reduces crisis severity.
+Theoretical studies have focused on monetary policy rules that incorporate S-LAW
+elements (Woodford, 2012; Filardo and Rungcharoenkitkul, 2016; Gourio, Kashyap and
+Sim, 2018). Such rules require the central bank to react to financial booms in a rule-based
+way. Currently, most central banks do not follow an explicit S-LAW policy rule. Any
+policy change in that direction would thus initially resemble a discretionary policy change
+until the commitment to the new policy regime has been credibly established (Svensson,
+2016).3 So while our paper speaks to the effects of state-dependent discretionary changes
+in monetary policy and not to the effects of S-LAW, it can also inform the debates about
+the design and transition to S-LAW policies.
+The remainder of this paper is structured as follows. Section I introduces the data,
+and section II describes our empirical strategy. The results are presented in section III.
+Section IV concludes.
+
+I.
+
+Data
+
+Our main data source is the JST Macrohistory Database (Jordà, Schularick and Taylor, 2017, http://www.macrohistory.net/data/). It provides annual data on the real
+economy and the financial sector for 17 developed countries since 1870. The countries
+included in the sample are Australia, Belgium, Canada, Denmark, Finland, France, Germany, Italy, Japan, the Netherlands, Norway, Portugal, Spain, Sweden, Switzerland, the
+United Kingdom, and the United States.
+To analyze how monetary policy affects financial crisis risk, we use the systemic financial crisis dummy defined by Schularick and Taylor (2012). This binary indicator is
+a narrative crisis measure that takes the value 1 in years in which a country experienced
+bank runs, bank defaults, forced mergers, or major public interventions in the financial
+sector. As a robustness check, we also consider the banking crisis dummies defined by
+Reinhart and Rogoff (2011) and Baron, Verner and Xiong (2018) (see online Appendix
+B). Regardless of the crisis indicator chosen, we obtain very similar results.
+Our main explanatory variable of interest is the stance of monetary policy, which we
+measure as the change in nominal short-term interest rates. The short-term risk-free
+nominal rates most consistently available across our long-run sample are the yields on
+3-month government securities and money market interest rates. Other variables that
+enter our analysis also come from the JST Macrohistory Database.
+3
+
+The relative infrequency of financial booms raises further questions about the extent to which central
+banks are able to credibly commit to a S-LAW policy rule, as well as the private sector’s ability to
+systematically incorporate such a rule in its decision making.
+
+4
+
+

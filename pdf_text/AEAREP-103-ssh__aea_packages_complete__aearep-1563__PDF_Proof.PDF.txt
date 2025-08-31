@@ -1,0 +1,131 @@
+Behavioral Constraints on the Design of Subgame-Perfect
+Implementation Mechanisms
+Journal: American Economic Review
+Manuscript ID AER-2017-0297.R3
+Manuscript Type: For Administrative Use Only
+Keywords: Incomplete contracts, Hold-up Problem, Experiments, D23, C92, D71
+
+Page 1 of 90
+
+Disclosure Statement of Ernst Fehr
+
+This statement is in regards to the submitted manuscript, “Behavioral Constraints on the Design of
+Subgame-Perfect Implementation Mechanisms.” The author declares that he has no relevant or
+material financial interests that relate to the research described in this paper.
+
+Ernst Fehr
+
+Page 2 of 90
+
+Disclosure Statement
+
+This statement is in regards to the submitted manuscript, “Behavioral Constraints on the Design
+of Subgame-Perfect Implementation Mechanisms.” The author declares that he has no relevant
+or material financial interests that relate to the research described in this paper.
+
+Page 3 of 90
+
+Disclosure Statement of Tom Wilkening
+Co-author of “Behavioral Constraints on the Design of Subgame-Prefect Implementation Mechanisms”
+______________________________________________________________________________
+1. Wilkening received no financial support for the research other than an academic salary from the University of
+Melbourne that was associated with his position as an Associate Professor and salary support from the Australian
+Resource Council through ARC Discovery Early Career Research Award DE140101014.
+2. Wilkening has not received significant financial support, summing to at least $10,000 in the past three years, in the
+form of consultant fees, retainers, grants and the like, from any interested parties.
+3. Wilkening has no paid or unpaid positions as an officer, director, or board member of any relevant non-profit
+organization or profit-making entity.
+4. Wilkening has no disclosures for any close relative or partner related to the issues in 1-3 above.
+5. No other party had the right to review the paper prior to its circulation.
+6. The study had IRB approval from the University of Melbourne where all experiments were conducted. Early
+experiments were conducted under Ethics ID 0830228.1. Later experiments were conducted under Ethics ID number
+1750536.1.
+
+Page 4 of 90
+
+Behavioral Constraints on the Design of Subgame-Perfect
+Implementation Mechanisms
+By Ernst Fehr and Michael Powell and Tom Wilkening*
+We study subgame-perfect implementation (SPI) mechanisms that
+have been proposed as a solution to incomplete contracting problems. We show that these mechanisms — which are based on offequilibrium arbitration clauses that impose large fines for lying and
+the inappropriate use of arbitration — have severe behavioral constraints because the fines induce retaliation against legitimate uses
+of arbitration. Incorporating reciprocity preferences into the theory explains the observed behavioral patterns and helps us develop
+a new mechanism that is more robust and achieves high rates of
+truth-telling and efficiency. Our results highlight the importance of
+tailoring implementation mechanisms to the underlying behavioral
+environment.
+JEL: D23, D71, D86, C92
+Keywords: Implementation Theory, Incomplete Contracts, Experiments
+Incomplete contracts pervade economic and political life. Politicians in executive positions as well as bureaucrats in ministries and agencies act on the basis
+of loose objectives, and the obligations of employees and managers in private organizations are often described in vague terms. Economists have explored the
+implications of incomplete contracts by developing models that assume that key
+payoff-relevant information is observable but not verifiable by a third-party enforcer.1 Such observable but non-verifiable information implies that third-party
+enforcement of state-contingent contracts is infeasible and that formal contracting
+* Fehr: Department of Economics, Zurich University. Blümlisalpstrasse 10, 8006 Zurich, Switzerland. E-mail: ernst.fehr@econ.uzh.ch. Powell: Strategy Department, Kellogg School of Management, Northwestern University.
+2211 Campus Drive, Evanston, IL 60208.
+E-mail: mikepowell@kellogg.northwestern.edu. Wilkening: Department of Economics, The University of Melbourne.
+FBE Building, 111 Barry Street, Carlton VIC 3053, Australia. E-mail: Tom.Wilkening@unimelb.edu.au.
+We thank James Bland, Sanket Patil, and Hans Zhu for excellent research assistance. We also thank
+Mathias Dewatripont, Martin Dufwenberg, Greg Fischer, Robert Gibbons, Lorenz Goette, Oliver Hart,
+Eric Maskin, Jean Tirole, and Christian Zehnder for helpful comments. We gratefully acknowledge the
+financial support of the Australian Research Council through the Discovery Early Career Research Award
+DE140101014 as well as the Faculty of Business and Economics at the University of Melbourne. Ernst
+Fehr acknowledges support by the Swiss National Science Foundation (Project on “Distribution and
+Determinants of Social Preferences”; Project no. 100018 140734\1 and the European Research Council
+(Advanced Grant on “Foundations of Economic Preferences”)).
+1 The assumption has been used to understand property rights and firm boundaries (Grossman &
+Hart 1986; Hart & Moore 1990; Hart 1995), the optimal scope of governments (Hart, Shleifer, & Vishny
+1997; Besley & Ghatak 2001), problems of privatization (Schmidt 1996a, 1996b), the control of insiders
+by outsiders through voting rights (Grossman & Hart 1988; Gromb 1993) or financial contracts (Aghion
+& Bolton 1992; Dewatripont & Tirole 1994; Hart & Moore 1998), and patterns of international trade
+and technology adoption (Antras 2003; Nunn 2007; Acemoglu, Antras, & Helpman 2007).
+
+1
+
+Page 5 of 90
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+is ineffective.
+The tractable nature of models using the assumption of observable but nonverifiable information has made them an essential tool for evaluating trade-offs in
+institutional design. However, despite its widespread influence, the assumption
+that payoff-relevant information is observable but non-verifiable stands on controversial theoretical foundations. Building on work by Moore & Repullo (1988),
+Maskin & Tirole (1999) show that if parties commonly observe payoff-relevant information, there often exists an auxiliary extensive-form mechanism that induces
+truthful revelation of the relevant information in the unique subgame perfect
+equilibrium of the game generated by the mechanism.
+Maskin and Tirole’s critique of the microfoundations of incomplete contracting models that use the observable-but-non-verifiable information assumption is
+troubling because it implies that the payoffs that are attainable with verifiable
+variables are also attainable with variables that are only commonly observable.
+Comparing the effectiveness of second-best institutional arrangements under incomplete contracts is moot when a mechanism exists that is capable of achieving
+the same payoffs as the best contract with verifiable information. However, the
+very limited use of implementation mechanisms leads to the question of whether
+they can indeed costlessly reveal this information and overcome contracting problems via indirect verification.
+In this paper, we experimentally explore the performance and adoption of an
+SPI mechanism described in Maskin & Tirole (1999) that is designed to resolve
+the hold-up problem in bilateral exchange with observable but non-verifiable ex
+ante effort. In our experiment, a seller is selling a good to a buyer and may
+provide costly effort to increase the value of the good. Effort and the value of
+the good are commonly known to the trading parties, but they are not verifiable
+by a third-party court. This implies that the two parties cannot write a contract
+that conditions payments on effort or the value of the good and hence, any effort
+made by the seller is prone to hold up.
+While effort is not verifiable by a third-party court, public announcements can
+be recorded and used in legal proceedings. Thus, the two parties can in principle
+write a contract that specifies trade prices as an increasing function of the buyer’s
+announcement of the good’s value. If the buyer always announces the true value of
+the good, then his announcements can be used to set prices that promote efficient
+effort. One way of doing this is to implement an arbitration mechanism that allows
+announcements to be challenged by the seller and to punish the buyer any time
+he is challenged. If the seller challenges only when the buyer has underreported
+the good’s value, then the threat of punishment will ensure truth telling.
+The crux of the implementation problem is to give the seller the incentive to
+challenge only those buyer announcements that are below the value of the good. A
+key property of the SPI mechanism is that it provides incentives for selfish buyers
+to tell the truth and for selfish sellers to challenge only in the case that the buyer
+lied. This is achieved by combining the seller’s challenge with an immediate fine
+
+

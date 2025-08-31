@@ -1,0 +1,167 @@
+Knowledge Diffusion, Trade, and Innovation across
+Countries and Sectors
+Journal: American Economic Journal: Macroeconomics
+Manuscript ID AEJMacro-2020-0084.R2
+Manuscript Type: For Administrative Use Only
+Keywords:
+
+Knowledge spillovers; R&D; international trade; sectoral linkages, F12,
+O33, O41, O47
+
+Page 1 of 79
+
+Disclosure*Statement*
+*
+Dear%editor,%
+%
+
+Thank%you%for%considering%the%article%titled%“Knowledge%Diffusion,%Trade%and%Innovation%across%
+Countries%and%Sectors”%for%publication%at%the%American%Economic%Journal:%Macroeconomics.%I%state%
+what%follows:%
+%
+I%received%no%financial%support%to%work%on%this%project.%
+%
+I%hold%no%paid%or%unpaid%position%in%relevant%institutions.%
+%
+IRM%approval%was%not%obtained%for%the%project,%because%the%project%only%involves%the%analysis%of%publicly%
+available%data.%
+%
+Respectfully,%
+%
+%
+%
+Jie%Cai%
+%
+
+Page 2 of 79
+
+Disclosure Statement
+
+Dear editor,
+
+Thank you for considering the article titled “Knowledge Diffusion, Trade and Innovation across
+Countries and Sectors” for publication at the American Economic Journal: Macroeconomics. I state
+what follows:
+
+I received no financial support to work on this project.
+
+I hold no paid or unpaid position in relevant institutions.
+
+IRM approval was not obtained for the project, because the project only involves the analysis of publicly
+available data.
+
+Respectfully,
+
+Nan Li
+
+Page 3 of 79
+
+Disclosure Statement
+
+Dear editor,
+
+Thank you for considering the article titled “Knowledge Diffusion, Trade and Innovation across
+Countries and Sectors” for publication at the American Economic Journal: Macroeconomics. I state
+what follows:
+
+I received no financial support to work on this project.
+
+I hold no paid or unpaid position in relevant institutions.
+
+IRM approval was not obtained for the project, because the project only involves the analysis of publicly
+available data.
+
+Respectfully,
+
+Ana Maria Santacreu
+
+Page 4 of 79
+
+Knowledge Diffusion, Trade, and Innovation
+across Countries and Sectors
+By Jie Cai, Nan Li & Ana Maria Santacreu∗
+
+This paper provides a unified framework for quantifying crosscountry and cross-sector interactions among trade, innovation,
+and knowledge diffusion. This framework is used to study the effect of trade liberalization in an endogenous growth model with
+comparative advantage and the stock of knowledge determined by
+innovation and diffusion. The model is calibrated to match observed cross-country and cross-sector heterogeneity in production,
+innovation and knowledge spillovers. The counterfactual analysis shows that a reduction in trade costs induces a re-allocation
+of R&D and comparative advantage across sectors. Heterogeneous
+knowledge diffusion amplifies specialization effects of trade-induced
+R&D re-allocation, becoming an important source of welfare.
+JEL: F12, O33, O41, O47
+Keywords: Knowledge spillovers; R&D; international trade; sectoral linkages
+The world has increasingly become a highly interconnected network of countries
+and sectors that exchange not only goods and services but also ideas. Much
+is understood about how the benefits of trade may spread through production
+input–output linkages, thanks to the growing literature on sectoral linkages.1 At
+the same time, countries and sectors are linked in another way that has not
+been studied nearly as much—innovation and knowledge spillovers, and how they
+interact with trade to affect productivity and growth. Knowledge linkages across
+countries and sectors are far from uniform (Acemoglu, Akcigit and Kerr, 2016;
+Cai and Li, 2019). In a world with multiple sectors, trade affects the countries’
+knowledge stock and composition, hence productivity. Productivity differences
+∗ Cai,:Shanghai University of Finance and Economics, 318 Wuchuan Rd, Wujiaochang, Yangpu District, Shanghai, China, cai.jie@mail.shufe.edu.cn. Li, International Monetary Fund, 700 19th Street NW,
+Washington DC 20431, nanli1@gmail.com. Santacreu, Federal Reserve Bank of St. Louis, Broadway and
+Locust, 1 Federal Reserve Bank Plaza, St. Louis, MO 63102, am.santacreu@gmail.com. Acknowledgements: We thank Jonathan Eaton for many useful conversations. For useful comments we thank Lorenzo
+Caliendo, Sam Kortum, Andrei Levchenko, Dan Lu, Fernando Parro, Andres Rodriguez-Clare, Esteban
+Rossi-Hansberg, Alan Taylor, and Dan Trefler, as well as participants of the Federal Reserve Bank of
+Minneapolis, NBER Economic Growth Small Group meeting, 2019, University of Michigan, UC Davis,
+Yale University, 2017 and 2016 Society for Economic Dynamics, the 2017 Econometric Society Summer
+Meeting, IMF, Federal Reserve Bank of St. Louis, Penn State University, RIDGE, Fudan University,
+Peking University, and Tsinghua University. The views in this paper are those of the authors and do
+not necessarily reflect the views of the Federal Reserve Banks of St. Louis or the Federal Reserve System. The views expressed herein are those of the authors and should not be attributed to the IMF, its
+Executive Board, or its management.
+1 See, for example, Arkolakis, Costinot and Rodrı́guez-Clare (2012), Costinot, Donaldson and Komunjer (2012), Caliendo and Parro (2015), and Baqaee and Farhi (2019).
+
+1
+
+Page 5 of 79
+
+2
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+induced by innovation and knowledge spillovers in turn condition the patterns of
+trade and aggregate growth.2
+This paper provides a unified framework to quantify the three-way interactions
+among trade, innovation, and knowledge diffusion in a multi-sector environment
+in which country-sectors are interconnected in both the product and knowledge
+spaces. We build on existing models of trade with production linkages (e.g.,
+Costinot, Donaldson and Komunjer, 2012; Caliendo and Parro, 2015). Our main
+contribution is to add dynamics related to innovation and technology diffusion
+across countries and sectors, thereby providing an endogenous mechanism for
+cross-country-sector productivity differences.
+Recent papers in the literature have modeled productivity dynamics through innovation (Buera and Oberfield, 2019; Perla, Tonetti and Waugh, 2015) or through
+innovation and technology diffusion (Sampson, 2019). In contrast to these papers, we emphasize the role of heterogeneous intersectoral linkages which, as we
+show in the paper, have important effects on income and welfare. In particular,
+we find that heterogeneous knowledge spillovers, when interacting with crosscountry-sector differences in innovation efficiency, amplify significantly the gains
+from trade in a way that the previous literature has not captured. We provide
+empirical evidence for this heterogeneity and to study its role in determining innovation, production and trade patterns across countries and sectors in a unified
+framework.
+Our model consists of two “blocks”: A ‘trade block ’ that determines the static
+equilibrium, taking as given country-sector productivity; and a ‘ growth block’
+in which productivity evolves endogenously through innovation and knowledge
+diffusion. The trade block builds upon the Ricardian model of trade with Bertrand
+competition (Bernard et al., 2003). The growth block is modeled in the spirit of
+Eaton and Kortum (1996, 1999), which analyze an endogenous growth model but
+do not allow for trade or sectoral linkages.
+Firms choose their research effort to create new ideas, while building on the current stock of knowledge. Ideas diffuse across all sectors and countries, although
+the speed of diffusion is heterogeneous.3 In our model, knowledge diffusion increases the stock of knowledge in two ways. First, it increases the knowledge in
+the receiving country-sector. Second, that increase in turn enhances the innovation efficiency there, fostering creation of more new knowledge. All diffused
+ideas contribute to the stock of knowledge, but only the highest-quality ideas
+2 A vast empirical literature has documented the significant impact of trade on innovation (e.g.,
+Lileeva and Trefler, 2010; Bustos, 2011; Autor et al., 2016; Aghion et al., 2018). With regard to the reverse
+relationship, Cameron, Proudman and Redding (2000) and Santacreu and Zhu (2018) find that innovation
+and knowledge diffusion help determine trade patterns to the extent that they impact differences in
+productivity.
+3 In contrast with the literature on technology adoption, which assumes that only the best knowledge
+is adopted following diffusion from the economies on the technology frontier (Comin and Hobijn, 2010;
+Comin and Mestieri, 2018), our assumption is supported by observations that a nonnegligible number
+of novel inventions are initiated by economies outside the frontier. However, similar to this paper, the
+above studies also find that the rate at which technologies are diffused differs across countries and is
+higher in richer countries.
+
+

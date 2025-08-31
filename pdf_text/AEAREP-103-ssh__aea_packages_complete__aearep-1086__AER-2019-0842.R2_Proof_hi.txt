@@ -1,0 +1,165 @@
+Does Information Break the Political Resource Curse?
+Experimental Evidence from Mozambique
+Journal: American Economic Review
+Manuscript ID AER-2019-0842.R2
+Manuscript Type: Administrator
+Keywords: D72, O13, O55
+
+Page 1 of 157
+
+Alex Armand, PhD
+Assistant Professor, Nova School of Business and Economics
+Universidade Nova de Lisboa, Campus de Carcavelos
+Rua da Holanda, 1, 2775-405 Carcavelos, Portugal
+Tel: +351 910 578196 – Email: alex.armand@novasbe.pt
+Web: www.alexarmand.org
+
+Lisbon, June 10th 2020
+
+OBJECT: DISCLOSURE STATEMENT
+To Whom It May Concern:
+I declare that I have no relevant or material financial interests that relate to the
+research described in the paper “Does Information Break the Political Resource
+Curse? Experimental Evidence from Mozambique”.
+In relation to the aforementioned paper, I acknowledge financial support from 3ie
+International Initiative for Impact Evaluation (grant number TW8R2/1008) and the
+International Growth Centre (grant number 89330).
+The pre-analysis plan was registered on the American Economic Association RCT
+registry (AEARCTR-0002493). Ethics approval was secured from Universidade Nova
+de Lisboa.
+
+Kind regards,
+
+Alex Armand
+
+1
+
+Page 2 of 157
+
+June 16, 2020
+
+Disclosure Statement
+
+To Whom It May Concern:
+I declare that I have no relevant financial or material interests the relate to the research
+described in the paper “Does Information Break the Political Resource Curse? Experimental
+Evidence from Mozambique”.
+In relation to the aforementioned paper, I acknowledge financial support from 3ie International
+Initiative for Impact Evaluation (grant number TW8R2/1008) and the International Growth
+Centre (grant number 89330).
+The pre-analysis plan was registered on the American Economic Association RCT registry
+(AEARCTR-0002493). Ethics approval was secured from Universidade Nova de Lisboa.
+Sincerely,
+
+Alexander Coutts
+Assistant Professor of Economics
+Nova School of Business and Economics
+Rua da Holanda 1, 2775-405,
+Carcavelos Portugal
+
+Page 3 of 157
+
+Pedro C. Vicente
+Professor of Economics
+Nova School of Business and Economics
+Universidade Nova de Lisboa
+Campus de Carcavelos
+Rua da Holanda, 1
+2775-405 Carcavelos, Portugal
+Scientific Director
+NOVAFRICA
+Tel: +351 21 3821674
+Email: pedro.vicente@novasbe.pt
+Web: www.pedrovicente.org
+DISCLOSURE STATEMENT
+
+June 15, 2020
+
+To Whom It May Concern:
+
+I declare that I have no relevant or material financial interests that relate to the research
+described in the paper “Does Information Break the Political Resource Curse? Experimental
+Evidence from Mozambique”. In relation to the aforementioned paper, I acknowledge
+financial support from 3ie International Initiative for Impact Evaluation (grant number
+TW8R2/1008) and the International Growth Centre (grant number 89330). The preanalysis plan was registered on the American Economic Association RCT registry
+(AEARCTR-0002493). Ethics approval was secured from Universidade Nova de Lisboa.
+
+Thank you very much. Sincerely,
+
+Pedro C. Vicente
+
+Page 4 of 157
+
+Inês Vilela
+PhD Student
+Nova School of Business and Economics
+Universidade Nova de Lisboa
+Campus de Carcavelos
+Rua da Holanda, 1
+2775-405 Carcavelos, Portugal
+Email: ines.vilela.2013@novasbe.pt
+Web: sites.google.com/view/inesvilela
+
+DISCLOSURE STATEMENT
+
+June 16, 2020
+To Whom It May Concern:
+I declare that I have no relevant or material financial interests that relate to the research
+described in the paper “Does Information Break the Political Resource Curse? Experimental
+Evidence from Mozambique”.
+In relation to the aforementioned paper, I acknowledge financial support from 3ie International
+Initiative for Impact Evaluation (grant number TW8R2/1008) and the International Growth
+Centre (grant number 89330).
+The pre-analysis plan was registered on the American Economic Association RCT registry
+(AEARCTR-0002493). Ethics approval was secured from Universidade Nova de Lisboa.
+
+Kind regards,
+
+Inês Vilela
+
+Page 5 of 157
+
+Does Information Break the Political Resource Curse?
+Experimental Evidence from Mozambique
+Alex Armand
+
+Alexander Coutts
+
+Pedro C. Vicente
+
+Inês Vilela*
+
+June 2020
+
+Abstract
+Natural resources can have a negative impact on the economy through corruption and civil
+conflict. This paper tests whether information can counteract this political resource curse. We
+implement a large-scale field experiment following the dissemination of information about a
+substantial natural gas discovery in Mozambique. We measure outcomes related to the behavior of citizens and local leaders through georeferenced conflict data, behavioral activities,
+lab-in-the-field experiments, and surveys. We find that information targeting citizens and
+their involvement in public deliberations increases local mobilization and decreases violence.
+By contrast, when information reaches only local leaders, it increases elite capture and rentseeking. (JEL D72, O13, O55, P16)
+Keywords: Natural Resources, Curse, Natural Gas, Information, Deliberation, Rent-seeking,
+Mozambique.
+
+* Armand: Nova School of Business and Economics, Universidade Nova de Lisboa, and NOVAFRICA (e-mail:
+alex.armand@novasbe.pt); Coutts: Nova School of Business and Economics, Universidade Nova de Lisboa, and NOVAFRICA (e-mail: alexander.coutts@novasbe.pt); Vicente: Nova School of Business and Economics, Universidade
+Nova de Lisboa, BREAD, and NOVAFRICA (e-mail: pedro.vicente@novasbe.pt); Vilela: Nova School of Business and
+Economics, Universidade Nova de Lisboa, and NOVAFRICA (e-mail: ines.vilela.2013@novasbe.pt). We would like to
+thank the editor and two anonymous referees for careful reading, and constructive suggestions. In addition, we would
+like to thank Laura Abramovsky, Paul Atwell, Jaimie Bleck, Frederico Finan, Paul Friesen, Macartan Humphreys,
+Lakshmi Iyer, Patricia Justino, Edward Miguel, Danila Serra, Michele Valsecchi and seminar/conference participants
+at University of Bergen, CMI, EGAP, IDS-Sussex, IGC, Institute for Fiscal Studies, NEUDC-Cornell, Notre Dame,
+Nova-Lisbon, PacDev-USC, Portsmouth, RIDGE/LACEA, SEEDEC, Southern Methodist, UCBerkeley, UCLouvain,
+WZB-Berlin and 3ie/AfrEA for helpful comments. This project would not be possible without the generous and insightful help of Imamo Mussa. We also acknowledge fruitful collaborations with our institutional partners, which included
+the Provincial Government of Cabo Delgado. We are grateful to Henrique Barros, Benedita Carvalho, Ana Costa, João
+Dias, Lúcio Raúl, Matteo Ruzzante, Alexander Wisse, and a large team of enumerators, who were vital in the successful
+completion of this project in the field. Ethics approval was secured from Universidade Nova de Lisboa. We wish to
+acknowledge financial support from 3ie International Initiative for Impact Evaluation (grant n. TW8R2/1008), and the
+IGC (grant n. 89330). Vicente also acknowledges support by the Kellogg Institute at the University of Notre Dame, and
+Vilela by the Fundação para a Ciência e a Tecnologia. The pre-analysis plan was registered on the AEA RCT registry
+under the unique identifying number AEARCTR-0002493 (Armand et al., 2017).
+
+1
+
+

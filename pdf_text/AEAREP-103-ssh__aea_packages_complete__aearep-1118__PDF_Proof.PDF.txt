@@ -1,0 +1,144 @@
+Common Ownership in America: 1980--2017
+Journal: American Economic Journal: Microeconomics
+Manuscript ID AEJMicro-2019-0389.R3
+Manuscript Type: For Administrative Use Only
+Keywords: L0, L13, L21
+
+Page 1 of 56
+
+Disclosure Statement
+Manuscript: “Theory and Measurement of Common Ownership”
+Author Christopher Conlon
+We have not received any funding for this paper.
+We have received funding for a related project reviewing the literature around
+common ownership from the Brookings Institution.
+We also have an ongoing consulting relationship with the Federal Trade
+Commission with regards to issues surrounding common ownership.
+That relationship is primarily organized around two things: (a) we are providing
+ongoing access and occasional support to our (publicly available) cleaned database
+of 13f filings and (b) we have produced some additional tables and figures by
+request related to the submitted paper. The likely output is some contribution to
+policy whitepapers by the FTC and potential rulemaking down the road. We do not
+have any interest in any ongoing litigation around this issue.
+
+Page 2 of 56
+
+Disclosure Statement
+Manuscript: “Common Ownership in America: 1980-2017”
+Author Matt Backus
+We have received funding for a related project reviewing the literature around
+common ownership from the Brookings Institution. The remainder of my finding
+comes solely from my institution (Columbia).
+We also have an ongoing consulting relationship with the Federal Trade
+Commission with regards to issues surrounding common ownership.
+That relationship is primarily organized around two things: (a) we are providing
+ongoing access and occasional support to our (publicly available) cleaned database
+of 13f filings and (b) we have produced some additional tables and figures by
+request related to the submitted paper. The likely output is some contribution to
+policy whitepapers by the FTC and potential rulemaking down the road. We do not
+have any interest in any ongoing litigation around this issue.
+
+Page 3 of 56
+
+Disclosure Statement
+Manuscript: “Common Ownership in America: 1980-2017”
+Author Michael Sinkinson
+We have received funding for a related project reviewing the literature around
+common ownership from the Brookings Institution. The remainder of my finding
+comes solely from my institution (Yale).
+We also have an ongoing consulting relationship with the Federal Trade
+Commission with regards to issues surrounding common ownership.
+That relationship is primarily organized around two things: (a) we are providing
+ongoing access and occasional support to our (publicly available) cleaned database
+of 13f filings and (b) we have produced some additional tables and figures by
+request related to the submitted paper. The likely output is some contribution to
+policy whitepapers by the FTC and potential rulemaking down the road. We do not
+have any interest in any ongoing litigation around this issue.
+
+Page 4 of 56
+
+Common Ownership in America: 1980–2017
+By Matthew Backus, Christopher Conlon, and Michael Sinkinson∗
+We empirically assess the implications of the common ownership
+hypothesis from a historical perspective using the set of S&P 500
+firms from 1980–2017. We show that the dramatic rise in common ownership in the time series is driven primarily by the rise of
+indexing and diversification and, in the cross–section, by investor
+concentration, which the theory presumes to drive a wedge between
+cash flow rights and control. We also show that the theory predicts incentives for expropriation of undiversified shareholders via
+tunneling, even in the Berle and Means (1932) world of the widely
+held firm.
+JEL: L0, L21, L13, G34
+The near–universal assumption in economics is that firms take actions that maximize their own profits. Motivating the assumption, Friedman (1953) contends
+that investors will discipline firms that do not at least mimic profit–maximizing
+behavior. Investors’ interests, however, may be complicated by holdings in competing firms, which happens naturally when they seek the benefits of diversification. If firm decision–making is an expression of investor interests, and powerful
+investors have stakes in competing firms, then one might not expect the firm to
+maximize solely their own profits, yielding oligopoly outcomes, but instead to also
+value the profit of their competitors when making strategic decisions. The idea
+that large, diversified owners imply nonzero “profit weights” among ostensibly
+competing firms is known as the common ownership hypothesis.
+The theoretical framework of the common ownership hypothesis was first articulated in Rotemberg (1984), but it has recently become the subject of a lively
+public policy debate thanks to empirical work suggesting that the growth of large,
+diversified common owners may have caused prices to increase among banks and
+airlines (Azar, Raina and Schmalz, 2016; Azar, Schmalz and Tecu, 2018).1 Contemporaneously, De Loecker, Eeckhout and Unger (2020b) argue that markups,
+economy–wide, have sharply increased since 1980. Combining these lines of work
+(see Shambaugh et al. (2018)) could go so far as to implicate common ownership
+∗ Backus: Columbia University, NBER, and CEPR, matthew.backus@columbia.edu. Conlon: New
+York University, cconlon@stern.nyu.edu. Sinkinson: Yale SOM and NBER, michael.sinkinson@yale.edu.
+Thanks to seminar and conference participants at Bergen, Boston University, Brandeis University, CEPR
+IO, Cornell, Duke University, EARIE, Federal Trade Commission, Harvard–MIT, IIOC, MACCI - Mergers and Antitrust, Microsoft, NBER, Penn State, Purdue, Red Rock Finance Conference, Rice, Rochester,
+SITE, The London School of Economics, University of Chicago Booth, University of Pennsylvania, University of California at Santa Cruz, University of Texas at Austin, University of Georgia, University of
+Virginia, Utah WBEC, Wisconsin and Yale, and conversations with Steve Berry, Wouter Dessein, Wei
+Jiang, Charles Jones, Amit Khandelwal, Bruce Kogut, Nathan Miller, Fiona Scott Morton, Nancy Rose,
+Martin Schmalz, and Glen Weyl. All remaining errors are our own.
+1 The latter paper had over 325 citations as of the date of this draft according to Google Scholar.
+
+1
+
+Page 5 of 56
+
+2
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+in macro–level phenomena such as declining labor share and investment, the productivity slowdown, and diminished “dynamism” of the economy (Gutiérrez and
+Philippon, 2016).
+However appealing this line of thought might be on the theory alone, there are
+myriad empirical gaps in the argument left to fill. Efforts to test it have been
+narrowly focused on reduced–form correlations.2 There, the null hypothesis is
+zero effect of common holdings on some outcome of interest, and the alternative
+— presumed to be due to common ownership — is any effect. This paper builds
+on that effort by precisely laying out the empirical implications of the common
+ownership hypothesis, taking seriously its theoretical foundations rather than
+loading it into an “alternative,” nonzero effect of common holdings in a reduced–
+form specification.
+The payoff to this effort is threefold. First, it casts a light on the sources
+of variation in prior empirical exercises. Much of that work depends on aggregate measures of common ownership based on the so–called Modified Herfindahl–
+Hirschman Index, which is a function of the common ownership profit weights we
+study and market shares. We show that between a third and a half of the variation in the profit weight measure comes not from overlapping ownership as many
+researchers assume, but instead from relative investor concentration, which we
+make precise in what follows. The role of relative investor concentration depends
+on a model of corporate governance that defines the relationship between control
+rights and cash flow rights, which has been previously unacknowledged in the
+common ownership literature. Second, taking the theory of common ownership
+seriously allows us to develop new testable implications. For one, modeling profit
+weights highlights the asymmetries, both within markets and even within pairs of
+firms. Already building on this observation, Boller and Scott Morton (2019) show
+cumulative abnormal returns following the entry of a product–market competitor
+into the S&P 500 that are consistent with the asymmetric implications of the
+common ownership hypothesis. Among additional implications, the presence of
+privately held firms would imply greater competition, and seemingly–innocuous
+financial events such as being de–listed from a market index may have product
+market effects. Taking the theory to its logical conclusion, we show that it is
+possible for common ownership to create incentives for the “tunneling” of profits
+from one firm to another. This had been previously thought to be impossible in
+the Berle and Means (1932) world of the “widely–held firm” due to the absence of
+a controlling interest. Third, our empirical exercise offers some perspective on the
+plausibility of these implications. Taking the strict form of common ownership
+seriously, it could be used to micro–found a tremendous increase in markups between 1980 and 2017, and one might also conclude that over 10% of S&P 500 firms
+are engaging in tunneling behavior by 2017. We find these predictions to be unrealistically strong — rather, they suggest substantial gaps in our understanding of
+corporate governance and, in particular, the model of governance that underlies
+2 Exceptions include Kennedy et al. (2017) and Backus, Conlon and Sinkinson (2020a).
+
+

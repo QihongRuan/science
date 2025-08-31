@@ -1,0 +1,170 @@
+A Few Bad Apples? Racial Bias in Policing
+Journal: American Economic Review
+Manuscript ID AER-2018-1607.R4
+Manuscript Type: For Administrative Use Only
+Keywords: J15, K42
+
+Page 1 of 117
+
+Disclosure Statement
+I hereby declare that I have no relevant or material financial interests that relate to
+the research described in the paper “A Few Bad Apples? Racial Bias in Policing,” by
+Felipe Goncalves and Steven Mello.
+This study was submitted to the Princeton University IRB office for approval. We
+received a determination that the study is not human subjects research as defined
+by DHHS regulations. The study was later submitted to the UCLA IRB, which
+approved the study under expedited review. Both decisions are attached.
+Sincerely,
+
+Felipe Goncalves
+July 11, 2020
+
+IRB
+
+Page 2 of 117
+
+Princeton University
+Institutional Review Board For Human Subjects, Office of Research Integrity and Assurance
+
+NON-HUMAN SUBJECTS DETERMINATION
+To:
+
+Alexandre Mas
+Felipe Goncalves
+Steven Mello
+
+From:
+
+Institutional Review Board for Human Subjects
+
+IRB #:
+
+0000007721
+
+Protocol Title:
+
+Discrimination in Policing: Evidence from Speeding Tickets
+
+2QWKH,5%GHWHUPLQHGWKDWWKHSURSRVHGDFWLYLW\LVQRWKXPDQVXEMHFWVUHVHDUFKDVGHILQHGE\
+'++6UHJXODWLRQV&RQVHTXHQWO\3ULQFHWRQ,5%DSSURYDOLVQRWDSSOLFDEOHDQGWKHVWXG\ZDVJLYHQWKH
+VWDWXVRIFORVHGQHYHURSHQHG<RXDUHZHOFRPHWRSXUVXHWKHDFWLYLW\REWDLQLQJDQ\DSSOLFDEOH
+DGPLQLVWUDWLYHRUGHSDUWPHQWDO QRQ,5% DSSURYDOV
+
+Mailing Address: RIA | Princeton University | Princeton, NJ 08544
+Located at: 87 Prospect Ave. 3rd Floor | irb@princeton.edu
+
+Page 3 of 117
+
+7/11/20, 11:35 AM
+
+University of California Los Angeles
+10889 Wilshire Blvd, Suite 830
+Los Angeles, CA 90095-1406
+http://ora.research.ucla.edu/ohrpp
+General Campus IRB: (310) 825-7122
+Medical IRB: (310) 825-5344
+
+APPROVAL NOTICE
+
+Conducting Research During the COVID-19 Public Health Outbreak: Please review the information provided
+on the UCLA Research Ramp Up website to determine whether any current Policy may affect this IRB approved
+or exempt study. https://www3.research.ucla.edu/research-ramp-up Information includes (a) an overview of the
+ramp-up process, (b) health and safety guidelines, and (c) appendices describing requirements for different types
+of research.
+
+DATE:
+TO:
+FROM:
+RE:
+
+7/10/2020
+FELIPE GONCALVES, PhD
+ECONOMICS
+TODD FRANKE, PhD
+Chair, NGIRB
+IRB#19-001260-CR-00001
+2020 Review for IRB#19-001260
+Discrimination and Deterrence in Traffic Policing
+Version: 7/15/19
+
+The UCLA Institutional Review Board (UCLA IRB) has approved the submission listed below. UCLA's Federalwide
+Assurance (FWA) with Department of Health and Human Services is FWA00004642.
+Submission and Review Information
+Type of Submission
+Type of Review
+Approval Date for this
+Submission
+
+Continuing Review
+Expedited Review
+7/10/2020
+
+https://webirb.research.ucla.edu/WEBIRB/Doc/0/C0ET7R8HA0MKB0T6E5O9CEE690/fromString.html
+
+Page 1 of 3
+
+Page 4 of 117
+
+7/11/20, 11:35 AM
+
+Expiration Date of the Study 7/9/2021
+Specific Conditions for Approval
+
+-- Data Analysis Only - the remaining research activities are limited to data
+analysis.
+
+Regulatory Determinations
+
+-- Children as Subjects - The UCLA IRB determined that the research meets the
+requirements of 45 CFR 46.404 for research involving children as subjects.
+-- Expedited Review Category(ies) - The UCLA IRB determined that the research
+meets the requirements for expedited review per 45 CFR 46.110 category 5.
+-- Prisoners - The UCLA IRB determined that the research meets the requirements
+of 45 CFR 46.306 (a)(2)(i) for the inclusion of prisoners in research.
+-- Waiver of Informed Consent/Assent/Parental Permission - The UCLA IRB
+waived the requirement for informed consent under 45 CFR 46.116(d) for the
+research.
+-- Prisoners - The UCLA IRB determined that the research meets the requirements
+of 45 CFR 46.305(a)(1-7) for the inclusion of prisoners in research.
+
+Important Note: Approval by the Institutional Review Board does not, in and of itself, constitute approval for the
+implementation of this research. Other UCLA clearances and approvals or other external agency or collaborating
+institutional approvals may be required before study activities are initiated. Research undertaken in conjunction with
+outside entities, such as drug or device companies, are typically contractual in nature and require an agreement between
+the University and the entity.
+General Conditions of Approval
+As indicated in the PI Assurances as part of the IRB requirements for approval, the PI has ultimate responsibility for the
+conduct of the study, the ethical performance of the project, the protection of the rights and welfare of human subjects, and
+strict adherence to any stipulations imposed by the IRB.
+The PI and study team will comply with all UCLA policies and procedures, as well as with all applicable Federal, State, and
+local laws regarding the protection of human subjects in research, including, but not limited to, the following:
+Ensuring that the personnel performing the project are qualified, appropriately trained, and will adhere to the
+provisions of the approved protocol,
+Implementing no changes in the approved protocol or consent process or documents without prior IRB approval
+(except in an emergency, if necessary to safeguard the well-being of human subjects and then notifying the IRB as
+soon as possible afterwards),
+Obtaining the legally effective informed consent from human subjects of their legally responsible representative,
+and using only the currently approved consent process and stamped consent documents, as appropriate, with
+https://webirb.research.ucla.edu/WEBIRB/Doc/0/C0ET7R8HA0MKB0T6E5O9CEE690/fromString.html
+
+Page 2 of 3
+
+Page 5 of 117
+
+7/11/20, 11:35 AM
+
+human subjects,
+Reporting serious or unexpected adverse events as well as protocol violations or other incidents related to the
+protocol to the IRB according to the OHRPP reporting requirements.
+Assuring that adequate resources to protect research participants (i.e., personnel, funding, time, equipment and
+space) are in place before implementing the research project, and that the research will stop if adequate resources
+become unavailable.
+Arranging for a co-investigator to assume direct responsibility of the study if the PI will be unavailable to direct this
+research personally, for example, when on sabbatical leave or vacation or other absences. Either this person is
+named as co-investigator in this application, or advising IRB via webIRB in advance of such arrangements.
+
+https://webirb.research.ucla.edu/WEBIRB/Doc/0/C0ET7R8HA0MKB0T6E5O9CEE690/fromString.html
+
+Page 3 of 3
+
+

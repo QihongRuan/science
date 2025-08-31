@@ -1,0 +1,154 @@
+Job Seekers' Perceptions and Employment Prospects:
+Heterogeneity, Duration Dependence and Bias
+Journal: American Economic Review
+Manuscript ID AER-2019-0808.R3
+Manuscript Type: For Administrative Use Only
+Keywords: E24, J64, D84
+
+Page 1 of 160
+
+DEPARTMENT OF ECONOMICS
+
+THE UNIVERSITY OF TEXAS AT AUSTIN
+2225 Speedway Stop C3100 • Austin, Texas 78712-1690 • (512) 471-3510
+http://www.utexas.edu/cola/depts/economics
+
+July 27, 2020
+Disclosure Statement regarding paper “Job Seekers' Perceptions and Employment
+Prospects: Heterogeneity, Duration Dependence and Bias”
+To whom it may concern:
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper.
+Sincerely yours,
+
+Andreas I. Mueller
+Associate Professor
+The University of Texas at Austin
+andimueller@utexas.edu
+
+Page 2 of 160
+
+July 28, 2020
+
+Disclosure Statement regarding paper “Job Seekers' Perceptions and Employment Prospects:
+Heterogeneity, Duration Dependence and Bias”
+
+To whom it may concern:
+
+The author declares that he has no relevant or material financial interests that relate to the research
+described in this paper.
+
+Sincerely,
+
+Johannes Spinnewijn
+Associate Professor
+London School of Economics
+j.spinnewijn@lse.ac.uk
+
+Page 3 of 160
+
+FEDERAL RESERVE BANK OF NEW YORK
+33 LIBERTY STREET
+NEW YORK, N.Y. 10045-0001
+Telephone 212 720-5000
+
+July 27, 2020
+
+Disclosure Statement regarding paper “Job Seekers' Perceptions and Employment
+Prospects: Heterogeneity, Duration Dependence and Bias”
+To whom it may concern:
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper.
+Sincerely yours,
+
+Giorgio Topa
+Vice President
+Research and Statistics Group
+Federal Reserve Bank of New York
+
+Page 4 of 160
+
+Job Seekers’ Perceptions and Employment Prospects:
+Heterogeneity, Duration Dependence and Bias∗
+Andreas I. Mueller
+UT Austin, NBER,
+CEPR and IZA
+
+Johannes Spinnewijn
+LSE and CEPR
+
+Giorgio Topa
+FRBNY and IZA
+
+August 2, 2020
+
+Abstract
+This paper uses job seekers’ elicited beliefs about job finding to disentangle the sources of the decline
+in job-finding rates by duration of unemployment. We document that beliefs have strong predictive
+power for job finding, but are not revised downward when remaining unemployed and are subject to
+optimistic bias, especially for the long-term unemployed. Leveraging the predictive power of beliefs,
+we find substantial heterogeneity in job finding with the resulting dynamic selection explaining most
+of the observed negative duration dependence in job finding. Moreover, job seekers’ beliefs under-react
+to heterogeneity in job finding, distorting search behavior and increasing long-term unemployment.
+
+∗
+
+We thank Ned Augenblick, Raj Chetty, Stefano DellaVigna, Erik Eyster, Manolis Galenianos, Francois Gerard, Martin
+Hackman, Nathan Hendren, Greg Kaplan, Peter Kuhn, Atilla Lindner, Brendan Price, Matthew Rabin, Emmanuel Saez,
+Dan Silverman, Dmitry Taubinsky and Basit Zafar, and seminar participants at CalPoly, CEMFI, Harvard, LSE, NYFed,
+UC Berkeley, UC Davis, UCLA, UC Santa Barbara, UC San Diego, AEA Meetings San Diego, NBER Summer Institute, the
+T2M conference, TEC conference and EM3C conference for helpful comments and suggestions. We also thank Luis Armona,
+Jack Fisher, Nicole Gorton, Raymond Lim, Prakash Mishra, Anushka Mitra, Thomas Monk, Mathilde Muñoz, Will Parker,
+Ashesh Rambachan and Lauren Thomas for their excellent research assistance. Johannes Spinnewijn acknowledges financial
+support from ERC grant 716485. The views expressed here are our own and do not necessarily reflect those of the Federal
+Reserve Bank of New York or those of the Federal Reserve System.
+
+1
+
+Page 5 of 160
+
+1
+
+Introduction
+
+A critical challenge for unemployment policy is the high incidence of long-term unemployment. While
+long unemployment durations and a large share of long-term unemployed have been a common phenomenon in European countries (see Ljungqvist and Sargent [1998] and Machin and Manning [1999]),
+the Great Recession has imported this concern to the US as well (Kroft et al. [2016]) and it is likely to
+be reinforced given the sharp increase in unemployment following the COVID-19 pandemic. The consequences of job loss can be large, but especially so for people who get stuck in long spells of unemployment
+(e.g., Jacobson et al. [1993], Kolsrud et al. [2018]). Moreover, the high incidence of long-term unemployment seems indicative of substantial frictions in the search and matching process (e.g., Clark and
+Summers [1979]) and can contribute to the persistence of employment shocks (e.g., Pissarides [1992]).
+A ubiquitous empirical finding in the literature is the observed depreciation in job-finding rates by
+duration of unemployment. As it is crucial for formulating policy responses, understanding why employment prospects are worse for the long-term unemployed has been the topic of a long literature.1 In
+theory, long-term unemployment may reduce a worker’s chances to find a job (e.g., due to skill depreciation or duration-based employer screening), but less employable workers also select into long-term
+unemployment. Empirically, separating the role of duration-dependent forces from heterogeneity across
+job seekers has been a challenge until today. Since the seminal work by Lancaster [1979] and Heckman
+and Singer [1984] among others, several studies have tried to estimate or calibrate the contribution of
+different forces to the observed negative duration dependence in exit rates out of unemployment. Direct
+evidence on the potential role of heterogeneity has been particularly limited.2
+This paper takes a novel approach to address this question, using newly available data on unemployed job seekers’ perceptions about their employment prospects together with actual labor market
+transitions. We present a conceptual framework that takes advantage of our ability to jointly observe job
+seekers’ perceptions and actual job finding to identify heterogeneity in true job-finding rates and separate dynamic selection from true duration dependence in explaining the observed decline in job finding.
+The key idea underlying identification in this framework is that the covariance between perceptions and
+actual job finding helps uncovering the extent of ex-ante heterogeneity in true job-finding probabilities.
+The predictable variation in job finding provides a lower bound on the ex-ante heterogeneity in job
+finding. Beliefs can also be used in combination with a model that relates job seekers’ elicited beliefs
+to their job-finding probability to estimate the heterogeneity in the latter. This builds on recent work
+using risk elicitations to estimate heterogeneity in ex-ante risks in Hendren [2013, 2017].
+Our analysis goes further in two important dimensions. Both are key to uncover the heterogeneity
+in job finding that contributes to the observed duration dependence and are relevant by themselves.
+First, in addition to idiosyncratic error in the beliefs (Hendren [2013]), we allow job seekers’ beliefs to
+systematically over- or under-react to differences in job finding, either across job seekers or over the
+1
+
+See Shimer and Werning [2006], Pavoni [2009] and Kolsrud et al. [2018] for the consequences for the design of the
+unemployment benefit profile. See Pavoni and Violante [2007], Spinnewijn [2013] and Wunsch [2013] for the consequences
+on the design of workfare, job search assistance and training programs.
+2
+For a review of the relevant literature, see Machin and Manning [1999] who write: ‘To conclude, it does not really seem
+possible in practice to identify separately the effect of heterogeneity from that of [true] duration dependence without making
+some very strong assumptions about functional form which have no foundation in any economic theory.’ See Kroft et al.
+[2013], Alvarez et al. [2016], Jarosch and Pilossoph [2018] and Farber et al. [2018] for recent examples in this literature.
+
+2
+
+

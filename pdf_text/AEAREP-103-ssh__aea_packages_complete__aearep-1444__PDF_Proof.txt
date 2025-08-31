@@ -1,0 +1,206 @@
+The macroeconomic effects of oil supply news: Evidence
+from OPEC announcements
+Journal: American Economic Review
+Manuscript ID AER-2019-0964.R4
+Manuscript Type: For Administrative Use Only
+Keywords: C32, E32, Q43
+
+Page 1 of 92
+
+Disclosure Statement for “The macroeconomic effects of oil supply news:
+Evidence from OPEC announcements” by Diego R. Känzig
+September 12, 2020
+To whom it may concern,
+I hereby declare that I have no relevant or material financial interests that relate to the
+research described above.
+Yours faithfully,
+Diego Känzig
+
+1
+
+Page 2 of 92
+
+The macroeconomic effects of oil supply news: Evidence
+from OPEC announcements
+By Diego R. Känzig∗
+This paper studies how changes in oil supply expectations affect the
+oil price and the macroeconomy. Using a novel identification design, exploiting institutional features of OPEC and high-frequency
+data, I identify an oil supply news shock. These shocks have statistically and economically significant effects. Negative news leads
+to an immediate increase in oil prices, a gradual fall in oil production and an increase in inventories. This has consequences for
+the U.S. economy: activity falls, prices and inflation expectations
+rise, and the dollar depreciates—providing evidence for a strong
+channel operating through supply expectations.
+JEL: C32, E31, E32, Q43
+Recent turbulences in the oil market have sparked renewed interest in the longstanding question of how oil prices affect the macroeconomy. This question is
+challenging because oil prices are endogenous and respond to global economic developments. To provide an answer, one has to account for the underlying drivers
+of the oil price. From a policy perspective, oil supply shocks are of particular interest because of their stagflationary effects. However, as oil prices are inherently
+forward-looking, not only current supply matters but also expectations about the
+future.
+In this paper, I propose a novel approach to identify a shock to oil supply expectations, exploiting institutional features of the Organization of the Petroleum
+Exporting Countries (OPEC) and information contained in high-frequency data.
+The idea is to use variation in oil futures prices around OPEC production announcements. OPEC accounts for about 44 percent of world oil production and
+thus, its announcements can have a significant impact on oil prices (Lin and Tam∗ London Business School, Regent’s Park, London NW1 4SA, United Kingdom (email: dkaenzig@london.edu). I am indebted to Paolo Surico, Hélène Rey, and Lucrezia Reichlin for their invaluable
+guidance and support. For helpful comments and suggestions, I thank the coeditor, Emi Nakamura,
+three anonymous referees, the discussants, Thomas Drechsel and James Hamilton, Michele Andreolli,
+Juan Antolin-Diaz, Jonas Arias, Christiane Baumeister, Hilde Bjørnland, João Cocco, Luı́s Fonseca,
+Elena Gerko, Refet Gürkaynak, Christian Hepenstrick, Even Hvinden, Lutz Kilian, Kurt Lunsford, Bartosz Maćkowiak, Joseba Martinez, Tsvetelina Nenova, Elias Papaioannou, Anna Pavlova, Gert Peersman,
+Ivan Petrella, Michele Piffer, Mikkel Plagborg-Møller, Valerie Ramey, Giovanni Ricco, Kenneth Rogoff,
+Barbara Rossi, Vania Stavrakeva, Benjamin Wong, Kaspar Wüthrich and seminar participants at the
+ASSA Meetings in San Diego, the CFE Workshop in London, the EEA Conference in Manchester, the
+IAAE Conference in Cyprus, the Ghent Workshop on Empirical Macro, the QMUL Workshop in SVARs,
+the SNDE Conference in Dallas, the SEA Conference in Zürich, the Bank of England, the Swiss National
+Bank, Now-casting, LBS TADC, and LBS Economics. Data for the project were kindly provided by
+Andrea Bastianin, Christiane Baumeister and Lutz Kilian. Finally, I thank the SNDE for the Dwyer
+Ramsey Prize for the best paper presented by a graduate student at its 27th Symposium and the IAAE
+for the student travel grant.
+
+1
+
+Page 3 of 92
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+vakis, 2010; Loutia, Mellios and Andriosopoulos, 2016). While OPEC is known to
+be heavily driven by political considerations, its decisions are likely not exogenous
+but also depend on the state of the global economy (Barsky and Kilian, 2004).
+However, by measuring the changes in oil futures prices in a tight window around
+the announcements, we can isolate the impact of news about future oil supply.
+Reverse causality of the global economic outlook can be plausibly ruled out because it is already priced in at the time of the announcement and is unlikely to
+change within the tight window. Using the resulting series as an external instrument in an oil market VAR model, I am able to identify a structural oil supply
+news shock.
+Oil supply news shocks have statistically and economically significant effects.
+Negative news about future oil supply leads to a large, immediate increase in
+oil prices, a gradual but significant fall in world oil production and a significant
+increase in world oil inventories. Global economic activity does not change significantly on impact but then starts to fall persistently. This has consequences
+for the U.S. economy: industrial production falls and consumer prices rise significantly. This evidence supports the notion that changes in expectations about
+future supply can have powerful effects even if current oil production does not
+move.
+I also show that oil supply news contribute meaningfully to historical variations
+in the oil price. This finding illustrates that major episodes in oil markets, such
+as political events in the Middle East, impact the oil price not only through their
+effect on current supply but, crucially, also through changes in supply expectations.
+Studying various propagation channels of oil supply news, I find that oil price
+and inflation expectations rise significantly while uncertainty indicators are hardly
+affected—consistent with the interpretation of a news shock. Interestingly, the rise
+in inflation expectations is stronger for households, in line with recent evidence
+by Coibion and Gorodnichenko (2015). Oil supply news also lead to a significant
+increase in consumer prices even after excluding energy prices, a persistent fall
+in consumption and investment expenditures, rising unemployment, and falling
+stock market indices. The U.S. dollar depreciates significantly, especially against
+the currencies of net oil exporting countries. Consistent with the exchange rate
+response, the terms of trade deteriorates substantially and the trade balance falls
+into deficit. Oil supply news shocks also turn out to be an important driver of the
+economy as they explain a significant share of the variations in economic activity
+and prices.
+A comprehensive series of sensitivity checks indicate that the results are robust
+along a number of dimensions including the identification design, the estimation
+approach, as well as the model specification and sample period. In particular,
+the results are robust to accounting for background noise over the event window.
+An heteroskedasticity-based estimator produces consistent results, even though
+the responses are less precisely estimated. I also show that the results are ro-
+
+Page 4 of 92
+
+VOL. VOL NO. ISSUE
+
+OIL SUPPLY NEWS
+
+3
+
+bust to estimating the responses to the identified shock using local projections
+and controlling for OPEC’s global demand forecasts in the construction of the
+instrument.
+This paper is related to a long literature studying the macroeconomic effects
+of oil price shocks. A key insight in this literature is that oil price shocks do not
+occur ceteris paribus. Therefore, it is important to account for the fundamental
+drivers of oil price fluctuations (Kilian, 2009). These include oil supply, global
+demand and expectations about future oil market conditions. In the last years, the
+literature has made substantial progress in disentangling these drivers using SVAR
+models of the oil market, identified with the help of zero restrictions (Kilian, 2009),
+sign restrictions (Kilian and Murphy, 2012; Lippi and Nobili, 2012; Baumeister
+and Peersman, 2013; Baumeister and Hamilton, 2019), and narrative information
+(Antolı́n-Dı́az and Rubio-Ramı́rez, 2018; Caldara, Cavallo and Iacoviello, 2019;
+Zhou, 2020).
+A difficult problem in this context is the identification of the expectations-driven
+component. A number of studies have addressed this problem by augmenting the
+standard oil market model by global oil inventory data (Kilian and Murphy,
+2014; Juvenal and Petrella, 2015). The idea is that expectational shifts in the oil
+market should be reflected in the demand for oil inventories (see also Hamilton,
+2009; Alquist and Kilian, 2010). An important challenge is that these shifts in
+inventory demand capture many different things, including news about future
+demand and supply or higher uncertainty, that existing identification strategies
+cannot disentangle.
+This paper contributes to this literature by proposing a new source of information and a novel identification strategy that can shed light on the role of oil
+supply expectations. Using high-frequency variation in oil prices around OPEC
+announcements, I identify a news shock about future oil supply. While I do not
+model the oil futures market explicitly, I show that oil futures prices contain valuable information for identification. High-frequency oil supply surprises turn out
+to be strong instruments for the price of oil. This is relevant as other proxies for
+oil shocks, including Hamilton’s (2003) quantitative dummies or Kilian’s (2008)
+production shortfall series, have been found to be weak instruments (Stock and
+Watson, 2012).
+From a methodological viewpoint, my approach is closely related to the highfrequency identification of monetary policy shocks. In this literature, monetary policy surprises are identified using high-frequency asset price movements
+around monetary policy events, such as FOMC announcements (Kuttner, 2001;
+Gürkaynak, Sack and Swanson, 2005; Nakamura and Steinsson, 2018a, among
+others). The idea is to isolate the impact of monetary policy news by measuring
+the change in asset prices in a tight window around policy announcements. To
+account for confounding news over the event window, Rigobon and Sack (2004)
+propose to exploit the heteroskedasticity in the data. Gertler and Karadi (2015)
+use these high-frequency surprises as an external instrument in a monetary SVAR
+
+Page 5 of 92
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+to estimate the macroeconomic effects of monetary policy shocks. The key idea
+of this paper is to apply this approach to the oil market, exploiting institutional
+features of OPEC.
+This paper is not the first to look at OPEC announcements. In fact, there is a
+large literature analyzing the effects of OPEC announcements on oil prices using
+event study techniques (Draper, 1984; Loderer, 1985; Demirer and Kutan, 2010,
+among others). To the best of my knowledge, however, this paper is the first to
+look at the macroeconomic effects of these announcements—combining the event
+study literature on OPEC meetings with the traditional oil market VAR analysis.1
+My results indicate that news about future oil supply can have a meaningful
+impact on the oil price and macroeconomic aggregates even if current production
+does not move. In this sense, I also contribute to the literature on the role of news
+in the business cycle by providing evidence for a strong expectational channel in
+the oil market. Traditionally, this literature focuses on anticipated technology
+(Beaudry and Portier, 2006; Barsky and Sims, 2011) and fiscal shocks (Ramey,
+2011; Leeper, Walker and Yang, 2013). Only recently, there has been a growing
+interest in other kinds of news, such as news about future monetary policy or
+production possibilities (Nakamura and Steinsson, 2018a; Arezki, Ramey and
+Sheng, 2017). Gambetti and Moretti (2017) also identify a news shock in the oil
+market but focus on the role of news versus noise shocks.
+The paper proceeds as follows. In the next section, I discuss the identification
+design, providing background information on OPEC, details on the construction
+of the instrument and some diagnostic tests. In Section II, I cover the econometric
+approach. Section III presents the results. I start by analyzing the instrument
+strength before discussing the effects of oil supply news on the oil market and
+the macroeconomy, the contribution to historical episodes in the oil market, the
+wider effects and propagation channels as well as the quantitative importance. In
+Section IV, I perform a number of robustness checks. Section V concludes.
+I.
+
+Identification
+
+The identification strategy in this paper is motivated by the following observations. The oil market is dominated by a big player, OPEC, that makes regular
+announcements about its production plans. OPEC is closely watched by markets
+and its announcements can lead to significant market reactions. This motivates
+the use of high-frequency identification techniques. The idea is to construct a
+series of high-frequency surprises around OPEC announcements that can be used
+to identify a structural oil supply news shock. Before discussing the construction
+of the surprise series, I provide some background information on OPEC and the
+global oil and oil futures markets.
+1 There are a few papers that also exploited the financial market reaction to oil events for identification
+but in somewhat different contexts (Cavallo and Wu, 2012; Anzuini, Pagano and Pisani, 2015; Branger,
+Flacke and Gräber, 2020).
+
+

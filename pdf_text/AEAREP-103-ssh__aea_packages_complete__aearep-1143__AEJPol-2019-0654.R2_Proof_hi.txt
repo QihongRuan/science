@@ -1,0 +1,215 @@
+The effect of leaded gasoline on elderly mortality: Evidence
+from regulatory exemptions
+Journal: American Economic Journal: Economic Policy
+Manuscript ID AEJPol-2019-0654.R2
+Manuscript Type: For Administrative Use Only
+Keywords: I00, I18, Q53
+
+Page 1 of 95
+
+The effect of leaded gasoline on elderly mortality:
+Evidence from regulatory exemptions
+Alex Hollingsworth and Ivan Rudik∗
+July 3, 2020
+Abstract
+Leaded gasoline is still used globally for aviation and automotive racing. Exploiting
+regulatory exemptions and a novel quasi-experiment, we find that leaded gasoline use
+in racing increases ambient lead, elevated blood lead rates, and elderly mortality. The
+mortality estimates indicate that each gram of lead added to gasoline exceeds $1,100
+in damages. Our setting allows us to rule out potential confounders, such as correlated
+pollutants or socioeconomic status. We provide the first causal estimates linking adult
+mortality to leaded gasoline, highlight the value of banning on-road leaded gasoline,
+and present policy-relevant cost estimates at the lowest ambient levels to date.
+JEL: I00, I18, Q53
+Keywords: lead, air pollution, mortality, childhood health, gasoline
+
+Lead (Pb) is a toxic heavy metal associated with numerous adverse outcomes ranging
+from increased aggressive behavior to premature mortality. In response to mounting health
+concerns, countries around the world began taking action in the 1970s to reduce lead exposure. In 1975, Japan phased lead out of regular gasoline and the United States mandated
+all new model-year cars to have emission control devices that required unleaded instead of
+leaded gasoline (Newell and Rogers, 2003; Yoshinaga, 2012). Many European and Asian
+countries began lead phasedowns in the 1980s (Nriagu, 1990), while African and Middle
+Eastern countries generally began the process in the 1990s or 2000s (Thomas, 1995; Lovei,
+1998). As of 2020, leaded gasoline has been phased out of regular on-road use in all but one
+∗
+
+Hollingsworth: hollinal@indiana.edu. O’Neill School of Public and Environmental Affairs. Indiana
+University, 1315 E. Tenth Street, Bloomington, IN, 47405. Rudik: irudik@cornell.edu. Charles H. Dyson
+School of Applied Economics and Management. Cornell University, Warren Hall, Ithaca, NY, 14853. We
+thank Patrick Carlin, Livy Crim, Sam Kuster, and Shyam Raman for research assistance. We thank Lindsay
+Allen, Judd Boomhower, Karen Clay, Brian Dillon, Maoyong Fan, Teevrat Garg, Scott Grosse, Dave Keiser,
+Jonathan Ketcham, Cathy Kling, David Konisky, Gabe Lade, David Molitor, Julian Reif, Jessica Reyes,
+Nick Sanders, Edson Severnini, Kosali Simon, Gregory Steele, Coady Wing, Nikos Zirogiannis, Eric Zou,
+and seminar participants at the AERE Summer Conference, the Annual Health Economics Conference, the
+ASHEcon Annual Conference, Carnegie Mellon University, Cornell University, EPA NCEE, the Heartland
+Workshop, Indiana University, the Inter-American Development Bank, Miami University, the NBER EEE
+Spring Meetings, UC Davis, UC San Diego, the University of Connecticut, and the University of Louisville for
+valuable comments. A replication package for this project can be found at http://doi.org/10.3886/E120128V1
+(Hollingsworth and Rudik, 2020).
+
+Page 2 of 95
+
+country (UN Environment Programme, 2020). The reduction of lead in gasoline produced
+steep declines in ambient lead concentrations, representing one of the greatest public health
+achievements in recent history.1
+Despite these advances, the phaseout of lead from gasoline remains incomplete. While
+virtually every country has banned the sale of leaded gasoline for on-road use, it is still
+widely allowed for off-road uses such as aviation and automotive racing.2 The continued use
+of lead remains a major public health concern as thousands of communities still grapple with
+lead contamination from legacy sources (Pell and Schneyer, 2016), and research increasingly
+suggests there is no safe level of exposure (Centers for Disease Control and Prevention, 2012;
+Lanphear, 2017).
+In this paper we use the automotive racing exemption from the United States Clean
+Air Act to causally identify the external effects of leaded gasoline. We take advantage of a
+novel quasi-experiment where two major racing organizations, the National Association for
+Stock Car Auto Racing (NASCAR) and the Automobile Racing Club of America (ARCA),
+switched from leaded to unleaded gasoline in 2007.3 Using difference-in-differences and event
+study designs, we estimate the relationship between leaded gasoline use and each link in the
+causal chain from release of lead in the air, to accumulation of lead in blood, and finally to
+impacts on human mortality. We find that each leaded race significantly increases nearby
+ambient lead concentrations in the weeks following the race. We further find that leaded races
+increase the prevalence of elevated blood lead levels (EBLLs) in children and increase elderly
+mortality. This provides the first causal evidence that leaded gasoline exposure increases
+adult mortality.
+We estimate that the reduction in annual lead emissions from deleading NASCAR and
+ARCA races yielded social benefits of $1,800 per child in counties with racetracks, and $600
+per child in bordering counties through avoided IQ reductions. The benefits from avoided
+premature elderly mortality in racetrack and bordering counties are over $15 million per
+race, totaling $2.2 billion per year. These annual benefits are more than the estimated value
+1
+
+Lead was used in a variety of products because of its efficacy and versatility. It was added to gasoline
+for its lubrication properties and to boost octane, reducing the likelihood of pre-ignition; it was added to
+paint to increase moisture resistance, brightness, and durability, as well as to accelerate drying; and it has
+been used in pipes and pipe solder because of its malleability.
+2
+In the United States, federal regulations allow unleaded gasoline to contain up to 0.05 grams of lead per
+gallon. This is about 2% of the lead content added to gasoline in the 1970s. See 40 CFR § 80.140 and 40
+CFR § 80.173 (b).
+3
+The EPA had been concerned about racing lead emissions leading up to 2007. A 2006 report on lead
+writes, “As was the case with on-road emissions during the time of universal leaded gasoline use, the combustion of racing fuel likely elevates ambient Pb concentrations in the nearby area. This may pose some
+health risk for some subpopulations, such as residents living in the vicinity of racetracks, fuel attendants,
+racing crew and staff, and spectators.” (U.S. Environmental Protection Agency, 2006).
+
+2
+
+Page 3 of 95
+
+of all NASCAR teams combined (Forbes, 2020).
+The mortality effects alone put a lower bound on the social cost of a gram of lead in
+gasoline at $1,100. These magnitudes, while large, are consistent with prior observational
+findings on the relationship between adult mortality and lead exposure (Pirkle et al., 1985;
+Lustberg and Silbergeld, 2002; Menke et al., 2006; Lanphear et al., 2018). For comparison,
+the equivalent mortality reduction from deleading NASCAR and ARCA races could be generated by reducing PM2.5 concentrations in the areas surrounding racetracks by 11 µg/m3 ,
+90% of 2006 levels (Deryugina et al., 2019).
+The deleading of automotive races is an ideal setting to identify the effects of lead since
+it overcomes identification challenges such as residential sorting and correlated declines in
+emission of lead and other pollutants at the tailpipe. The switch to unleaded fuel was the
+only fuel-relevant change made by NASCAR or ARCA in 2007, and races continued in the
+same places and at roughly the same times of year. In our empirical approach, we compare
+changes in population outcomes, before and after deleading, between those who live near
+racetracks and those who live further away. This enables within-population comparisons
+that alleviate problems with persistent confounders such as socioeconomic status, the stock
+of soil lead, the presence of leaded household paint, and lead emissions from nearby municipal
+airports.
+Races emit large quantities of lead that significantly increase ambient concentrations,
+providing sufficient statistical power for our analysis. Figure 1 compares the magnitude
+of lead emissions from races to the distribution of annual airborne lead emissions at Toxic
+Release Inventory (TRI) facilities, and to annual lead emissions at airports. A single threehour race emits more lead than the annual total of 70% of all lead-emitting facilities in the
+TRI, and as much lead as the average airport in an entire year. If all races were aggregated
+into a single TRI entity they would emit an estimated 2 million grams of lead per year,
+collectively ranking as the 30th largest emitter out of over 5,000 facilities and accounting for
+roughly half a percent of all annual U.S. lead emissions.4,5
+This work makes several contributions to the literature. The main contribution is that we
+use a quasi-experiment to causally link three economically relevant outcomes to well-defined
+sources and quantities of leaded gasoline. In turn, we provide the first causal evidence of the
+effects of leaded gasoline exposure on adult mortality, and construct a credible lower bound on
+4
+
+This is 800 times the median annual TRI facility emissions and 25 times the average.
+Prior research has demonstrated that employees on race teams (e.g. pit crews, mechanics) had high
+blood lead levels prior to the 2007 deleading. Blood lead levels for employees on NASCAR race teams in
+1968 and 2006 were over 7 µg/dl higher than the population averages in those same years. Testing in 2006
+showed that 40% of NASCAR team members had blood lead levels above 10 µg/dl, the threshold at the
+time for elevated blood lead (Polacek and Collins, 1968; O’Neil et al., 2006).
+5
+
+3
+
+Page 4 of 95
+
+Figure 1: Automotive racing and aviation lead emissions compared to distribution of all
+lead-emitting facilities in the 2005 TRI.
+
+Note: Toxic Release Inventory (TRI) facility emissions are the sum of fugitive and stack emissions in 2005,
+the year prior to unleaded race tests. The distribution is similar for 2006. We only include TRI facilities with
+positive quantities of airborne lead emissions. TRI and airport emissions are annual totals while average race
+emissions are about a three hour total. Airborne lead emissions from both automotive races and aircraft are
+not reported in the TRI. We obtain the amount of lead emitted from NASCAR and ARCA races using an
+estimate of 3.2 race miles per gallon as the average fuel economy. The methodology behind the fuel economy
+estimate can be found in Section A.10, and total emissions are calculated in Section A.11.
+
+the social cost of lead in gasoline. Second, the deleading of racing fuel allows us to separately
+identify the effect of lead emissions from other correlated pollutants, socioeconomic factors,
+and legacy lead in the soil and on the road. This is a critical distinction between prior
+research designs and our approach. Third, we show that the effects of deleading are readily
+apparent in the raw data, and we use the same study design to estimate the effects on each
+link in the emission-outcome chain, assuring internal validity. Fourth, our work sheds light
+on the adverse effects of lead at some of the lowest levels of ambient lead exposure studied
+in the literature.6 This allows us to provide policy-relevant estimates that are pertinent to
+6
+
+One caveat to our findings is that the same quantity of emissions may differentially affect health if
+released over a longer time period. Short-lived, but high-rate exposure (e.g., an automotive race) may affect
+
+4
+
+Page 5 of 95
+
+modern exposure levels. A nascent literature, to which this paper contributes, increasingly
+demonstrates that there is no safe level of lead exposure (Aizer et al., 2018; Grönqvist et al.,
+2018; Lanphear et al., 2018).
+This paper also helps to quantify both the value of the global deleading of on-road gasoline
+and the large social costs of continued usage of leaded gasoline for racing and aviation. While
+NASCAR and ARCA now use unleaded fuel, leaded racing fuel can still be legally purchased
+at hundreds of locations across the U.S. and remains widely used in both professional and
+amateur races. Our mortality cost estimate indicates that the efficient price for leaded racing
+fuel is orders of magnitude higher than current prices, which range from $10-$20 per gallon.
+The continued use of leaded racing fuel puts participants, attendees, and those who live
+nearby at risk of bearing undue external costs. Although we do not directly study aviation
+gasoline, our results are suggestive that the use of leaded fuel by piston-engine aircraft
+remains a major threat to public health worldwide. Over a quarter of a million aircraft
+across the world still use leaded avgas (Federal Aviation Administration, 2020), and over
+500,000 gallons are used each day in the United States alone (Kessler, 2013).
+The paper proceeds as follows. Section I. describes the physiology of lead and relevant
+prior research. Section II. reports data sources. Section III. contains methods and results.
+Section IV. computes the value of external effects of leaded gasoline on blood lead levels, and
+premature mortality. Section V. concludes. The appendix contains the history of NASCAR
+and ARCA’s switch to unleaded fuel, information on the ambient lead sample, information on
+other events at tracks, an additional cross-sectional soil analysis, information on collinearity
+issues, summary statistics, robustness checks and an alternative split-sample instrumental
+variables approach, associations related to environmental justice, a balance table, results
+from a survey testing knowledge about NASCAR fuel use, an out-of-sample validation of
+our ambient air estimates, a counterfactual prediction of ambient lead levels if leaded gas
+was still used for on-road driving, and additional calculations used to put our effects into
+context.
+
+I.
+
+The Physiology of Lead and Prior Work
+
+Lead can enter the body through the skin, digestive tract, or by inhalation.7 Once in the
+blood stream, lead can be deposited in both soft (e.g., liver and brain) and hard (e.g. teeth
+and bone) tissues. Lead has a half life of approximately 30 days in the blood, up to a few
+health differently than constant but low-rate exposure (e.g. industrial facility).
+7
+See Papanikolaou et al. (2005), Garza et al. (2006), and U.S. Environmental Protection Agency (2006)
+for more details on how it enters and affects the body; Ranft et al. (2008) for a review of how ambient lead
+concentrations correlate more strongly with blood lead levels than soil lead concentrations; and He et al.
+(2009) and Oh et al. (2017) for more on how mean blood lead and ambient lead levels rapidly decreased
+following the enactment of leaded gasoline regulations in Korea and China.
+
+5
+
+

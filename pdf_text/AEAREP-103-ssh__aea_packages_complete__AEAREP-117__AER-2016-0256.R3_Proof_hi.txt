@@ -1,0 +1,233 @@
+The Effects of Income Transparency on Well-Being:
+Evidence from a Natural Experiment
+Journal: American Economic Review
+Manuscript ID AER-2016-0256.R3
+Manuscript Type: For Administrative Use Only
+Keywords: happiness, income comparisons, transparency
+
+Page 1 of 72
+
+The Effects of Income Transparency on Well-Being:
+Evidence from a Natural Experiment
+By Ricardo Perez-Truglia∗
+In 2001, Norwegian tax records became easily accessible online,
+allowing everyone in the country to observe the incomes of everyone else. According to the income comparisons model, this change
+in transparency can widen the gap in well-being between richer and
+poorer individuals. Using survey data from 1985–2013 and multiple identification strategies, we show that the higher transparency
+increased the gap in happiness between richer and poorer individuals by 29%, and it increased the life satisfaction gap by 21%. We
+provide back-of-the-envelope estimates of the importance of income
+comparisons, and discuss implications for the ongoing debate on
+transparency policies.
+The income comparisons model proposes that individual well-being largely
+depends on how that individual’s income compares to the incomes of others
+(Luttmer, 2005). This is a fundamental aspect of individual preferences, yet
+no consensus exists about the importance of income comparisons.1 In this study,
+we offer novel evidence based on a unique natural experiment: in 2001, Norwegian tax records became easily accessible online, allowing everyone in the country
+to observe the incomes of everyone else quickly and easily. We test the hypothesis that, consistent with the model of income comparisons, increased income
+transparency widens the gap in well-being between richer and poorer individuals.
+Tax records have been public in Norway since the nineteenth century, but they
+have not always been easily accessible. Before 2001, one had to make a formal
+request in person at the tax agency to see someone else’s income. In the fall
+of 2001, the Norwegian media digitized tax records and created websites that
+allowed any individual with Internet access to search anyone’s tax records. Every
+Norwegian was one click away from finding out the incomes of everyone else in
+the country.
+∗ University of California, Los Angeles, Anderson School of Management, Office C515, 110 Westwood
+Plaza, Los Angeles CA 90403, ricardo.truglia@anderson.ucla.edu. Thanks to Ipsos MMI for providing
+access to the survey data. Thanks to Ottar Hellevik for all his help with this study. Thanks to Erzo
+F.P. Luttmer, the Editor and reviewers for invaluable feedback. I also benefited from the feedback from
+several colleagues as well as seminar discussants at Harvard, Princeton, Yale, Universidad de San Andres,
+LMU Munich, ITAM, CIDE, Universidad Catolica de Chile, Universidad de la Republica, RAND, the
+BESH Research Symposium, the AEA Annual Meetings, the USC Happiness Conference and the NBER
+Summer Institute. Diego Marino Fages provided outstanding research assistance. The first draft of this
+paper circulated in August 2015 under the title “Measuring the Value of Self- and Social-Image.”
+1 This question is important to understand preferences more deeply, and also due to its implications
+for income taxation and other policies. For example, income comparisons can create positional externalities that reduce social welfare and could be corrected with taxes (e.g., Boskin and Sheshinski, 1978;
+Frank, 1985).
+
+1
+
+Page 2 of 72
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+We use various data sources to show the massive popularity of these online
+tax lists. During the busiest week of the year, these websites were more popular
+than YouTube. We also show that, rather than using the tax lists for legitimate
+goals (e.g., uncovering corruption or tax evasion), most used the websites to
+snoop on friends, relatives, and social contacts. For example, users could create
+leaderboards showing the highest and lowest earners among their Facebook friends
+or maps showing the incomes of everyone living around a specific location. This
+behavior became so pervasive that the Norwegian media dubbed it “tax porn.”
+Because income transparency facilitates income comparisons, it can widen the
+gap in well-being between richer and poorer individuals. Poorer individuals often
+lose this game of income comparisons. For example, if they learn that they are
+poorer than they thought (Cruces, Perez-Truglia, and Tetaz, 2013), it can lower
+their self-esteem. If their social contacts learn how poor they are, it can reduce
+their social-esteem. In contrast, richer individuals often benefit from this game.
+Learning that they are richer than they thought can boost their self-esteem. And
+being looked up by their social contacts can boost their social-esteem.2
+To test this hypothesis, we measure the effect of the increase in transparency
+on the gradient between subjective well-being and individual income rank (hereinafter referred to as the happiness-income gradient). We use survey data from
+Norway from 1985–2013 that includes the two most widely used measures of subjective well-being: happiness and life satisfaction. Despite some limitations of
+these subjective measures, evidence suggests that they contain useful information
+about well-being. For example, life satisfaction and happiness have been shown to
+be significantly correlated with objective measures of well-being and with decision
+utility (Di Tella, MacCulloch, and Oswald, 2003; Benjamin, Heffetz, Kimball, and
+Rees-Jones, 2012).
+Consistent with the hypothesis of income comparisons, we show that the 2001
+income transparency change led to a 29% increase in the happiness-income gradient (p-value=0.005) and a 21% increase in the life satisfaction-income gradient
+(p-value=0.026).
+We use multiple strategies to identify the causal effect of the transparency
+change of 2001. First, we conduct an event-study analysis and find that the
+happiness-income gradient stayed constant in the years before the change, increased in 2001, and persisted at the higher level during the subsequent twelve
+years of higher transparency.
+Second, we identify individuals who were most likely to be exposed to the
+effects of online tax lists, based on observable characteristics that predict Internet
+access. We show that, between 1985 and 2000, the happiness-income gradient
+remained stable for individuals with low and high Internet access. After 2001,
+the happiness-income gradient remained at the pre-2001 level for individuals with
+2 Different individuals may react differently to the increased transparency. For example, while some
+rich individuals may feel happy that their neighbors caught a glimpse of their income, others may feel
+uneasy about the same situation (e.g., if they do not feel deserving of their high income). In this study,
+we can only measure which of these different mechanisms dominates on average.
+
+Page 3 of 72
+
+VOL. VOL NO. ISSUE
+
+THE EFFECTS OF INCOME TRANSPARENCY ON WELL-BEING
+
+3
+
+lower Internet access but increased substantially and persisted at the higher level
+for individuals with higher Internet access.
+Our third identification strategy reproduces the analysis using similar survey
+data from Germany, a country that was not affected by the Norwegian change in
+income transparency. Similar results for Germany would indicate that another
+factor, such as the dot-com bubble, caused the change in the happiness-income
+gradient in Norway. In sharp contrast to the Norwegian findings, however, the life
+satisfaction-income gradient did not change around 2001 in Germany. The eventstudy analysis shows that this gradient remained stable in Germany from 1985 to
+2013, both in the population at large and in the sub-populations of individuals
+with higher and lower Internet access.
+Anecdotal evidence supports our finding that higher income transparency increased the well-being gap between richer and poorer households. For example,
+the media reported that the online tax lists led to bullying of kids from poorer
+households and that adults from poorer households felt that they disappointed
+themselves and others (Aftenposten, 2008; New York Times, 2009). Our findings also align with survey data indicating that, relative to richer households,
+poorer households were more likely to oppose the income transparency policy
+(Aftenposten, 2011).
+The effects of income transparency may operate through multiple mechanisms.
+We provide suggestive evidence for one specific mechanism: self-perceptions. According to this channel, richer individuals may be happier because they learn that
+they are richer than they thought, and poorer individuals may be unhappier because they learn that they are poorer than they thought. We show that, indeed,
+transparency increased the gradient between perceived income rank and actual
+income rank by 8.5% (p-value<0.001) and the gradient between the perceived adequacy of one’s income and income rank by 4.7% (p-value=0.083). This evidence
+cannot prove or rule out the self-perceptions channel, but it does serve as suggestive evidence. Moreover, the perceived rank and income adequacy gradients
+(8.5% and 4.7%) are smaller than the changes in the happiness and life satisfaction gradients (29% and 21%), which suggests the presence of other mediating
+factors besides self-perceptions.
+We use the estimated effects of transparency to quantify the importance of
+income comparisons. Our back-of-the-envelope calculations suggest that, as a
+conservative lower bound, income comparisons accounted for 22% of the happiness
+that individuals in Norway derived from their incomes during the period of higher
+transparency. Moreover, we show that this lower bound is consistent with the
+effect of relative income on happiness, as reported in related studies.
+Our evidence also relates to the ongoing debate on transparency. Technological advances have made it possible for everyone to know potentially everything
+about everyone else, sparking debates on whether the government should disclose
+its data, such as tax records. Some arguments that favor or oppose transparency
+
+Page 4 of 72
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+are rooted in philosophical grounds.3 However, most arguments seem to be based
+on the potential effects of transparency. In particular, detractors of income transparency argued that the tax lists were used in despicable ways to harm the wellbeing of poorer individuals.4 This argument, however, was based on qualitative
+and anecdotal evidence. This study provides the first quantitative evidence on
+this matter.
+Beyond the Norwegian experience, information disclosure may directly affect
+well-being in other contexts. In the 2000s, Sweden, Iceland, and Finland had
+to decide whether to make their tax records as easily accessible as in Norway.
+Outside of Scandinavia, governments disclose all sorts of sensitive information,
+such as the salaries of public employees (Card, Mas, Moretti, and Saez, 2012; Mas,
+2017), individual contributions to political campaigns (Perez-Truglia and Cruces,
+2018), and identities of criminals and tax delinquents (Linden and Rockoff, 2008;
+Perez-Truglia and Troiano, 2018). Our findings suggest that it is important to
+measure the well-being effects of disclosing sensitive data and to account for them
+in the cost-benefit analysis.
+This paper relates to various strands of literature. Most important, it relates to
+a literature on the effect of relative income on well-being. In a seminal contribution, Easterlin (1974) showed evidence that happiness and income are positively
+correlated across individuals within a country but that average happiness in a
+country does not seem to rise over time as average income rises. One standard
+explanation for the paradox is that happiness depends on relative income. Within
+a given country, richer individuals have higher relative income, so they are happier. However, as every individual in the country becomes richer, the average
+relative income stays constant, and thus average happiness also remains constant.
+Consistent with this interpretation, several studies have shown that, holding own
+income constant, subjective well-being decreases with the mean income of neighbors (Luttmer, 2004; Ferrer-i-Carbonell, 2005).5
+However, this evidence is subject to concerns about causal identification. For
+example, the Balassa–Samuelson model (Balassa, 1964; Samuelson, 1964) predicts that consumer prices should be higher in areas where nominal incomes are
+higher. Thus, even in the absence of income comparisons, happiness should be
+negatively correlated to the average income of neighbors, reflecting a higher cost
+of living. More generally, the average income in an area could be correlated with
+other unobservable attributes of the location that also affect well-being, thus
+3 For example, some of the supporters of income transparency in Norway see it as a fundamental
+principle of democracy, while some opponents see it as a violation of privacy rights.
+4 This was by no means the only negative consequence from income transparency that was debated.
+For example, some detractors of open disclosure argued that the tax records could be used by criminals
+to target rich individuals. However, in a letter to the Ministry of Justice, the Norwegian police noted
+that their investigations ruled this out as a significant source for concern (Dagens Næringsliv, 2010).
+5 There are some conflicting accounts about the evidence. See for instance Hagerty and Veenhoven
+(2003), Stevenson and Wolfers (2008), Easterlin et al. (2010) and Easterlin (2017) on the effect of income
+growth on happiness, and Senik (2004), Clark, Westergård-Nielsen and Kristensen (2009) and Deaton
+and Stone (2013) on the effect of relative income on happiness.
+
+Page 5 of 72
+
+VOL. VOL NO. ISSUE
+
+THE EFFECTS OF INCOME TRANSPARENCY ON WELL-BEING
+
+5
+
+generating omitted-variable biases. We contribute to this literature by presenting novel evidence on the effects of relative income on happiness that relies on
+a new identification approach, based on quasi-experimental variation in income
+transparency.
+This study also relates to Bø, Slemrod, and Thoresen (2015), who measured the
+effect of the Norwegian disclosure of tax records on tax evasion. Disclosing tax
+records may deter tax evasion by encouraging others with relevant information
+about true tax liability to come forward and by threatening evaders with social
+sanctions (see also Perez-Truglia and Troiano, 2018). Bø, Slemrod, and Thoresen
+(2015) found that the change in income disclosure increased reported income
+among business owners by 2.7%, resulting in a total gain of 0.2% in income
+tax revenues. This evidence confirms a benefit of disclosure, as alleged by its
+supporters. We present evidence on an unintended effect, income comparisons,
+as alleged by detractors of income transparency.
+This work also relates to the study by Card, Mas, Moretti, and Saez (2012) of
+the effects of income transparency on job satisfaction. The researchers sent emails
+to a random sample of university employees with information on how to access
+a website that listed the wages of all employees working in the same university.
+In a follow-up survey, they found that, for workers with below-median salaries
+within their unit and position, having access to the website decreased satisfaction
+with their wages and their jobs. Consistent with this finding, Rege and Solli
+(2015) show evidence that the disclosure of tax records in Norway increased the
+probability of quitting among workers with lower salaries. Their findings suggest
+that some poor individuals may benefit from income transparency, because they
+can find out if they are under-paid and look for a better job. On the contrary,
+our evidence suggests that income transparency increased the well-being of richer
+individuals at the expense of the well-being of poorer individuals.
+Last, this study relates to a literature documenting how individuals misperceive
+their positions in the income distribution and how providing objective information can correct these misperceptions (Cruces, Perez-Truglia, and Tetaz, 2013;
+Karadja, Mollerstrom, and Seim, 2017). These studies are based on artificial contexts in which researchers provide information through a survey. We contribute
+to this literature by exploiting the variation in information access in a natural,
+large-scale setting and by showing that correcting these misperceptions may affect
+well-being.
+The rest of the paper proceeds as follows. Section I describes relevant details
+about the disclosure policy. Section II presents the econometric specification and
+the survey data. Section III presents the results. The last section concludes.
+
+

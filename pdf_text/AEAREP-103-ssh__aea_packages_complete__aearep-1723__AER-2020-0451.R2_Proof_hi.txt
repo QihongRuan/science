@@ -1,0 +1,232 @@
+Closing the Gap: The Effect of Reducing Complexity and
+Uncertainty in College Pricing on the Choices of Low-Income
+Students
+Journal: American Economic Review
+Manuscript ID AER-2020-0451.R2
+Manuscript Type: For Administrative Use Only
+Keywords: I0, I23, I24
+
+Page 1 of 85
+
+C LOSING THE G AP :
+T HE E FFECT OF R EDUCING C OMPLEXITY AND
+U NCERTAINTY IN C OLLEGE P RICING ON THE C HOICES OF
+L OW-I NCOME S TUDENTS
+S USAN DYNARSKI
+University of Michigan and NBER
+C.J. L IBASSI
+College Board
+K ATHERINE M ICHELMORE
+Syracuse University
+S TEPHANIE OWEN*
+University of Michigan
+January 5, 2021
+Abstract
+High-achieving, low-income students attend selective colleges at far lower rates than upper-income
+students with similar achievement. Behavioral biases, intensified by complexity and uncertainty in the
+admissions and aid process, may explain this gap. In a large-scale experiment we test an early commitment
+of free tuition at a flagship university. The intervention did not increase aid: rather, students were guaranteed
+before application the same grant aid that they would qualify for in expectation if admitted. The offer
+substantially increased application (68 percent vs 26 percent) and enrollment rates (27 percent vs 12 percent).
+The results suggest that uncertainty, present bias, and loss aversion loom large in students’ college decisions.
+
+JEL codes: I0,I21,I22,I23,I24,I28
+
+* Corresponding author: dynarski@umich.edu.735 State St. #5132, Ann Arbor, MI 48109. Author contact: clibassi@collegeboard.org
+(Libassi); kmmichel@maxwell.syr.edu (Michelmore); srowen@umich.edu (Owen). This project would not have been possible without
+our collaborators at the University of Michigan, particularly Kedra Ishop, Steve Lonn, and Betsy Brown. We are grateful to the Michigan
+Department of Education (MDE) and Michigan’s Center for Educational Performance and Information (CEPI) for providing data.
+Seminar participants at Boston University, Clemson, Cornell, Harvard, Northwestern, University of Illinois, University of Virginia,
+Princeton, Chicago, Stanford, the National Bureau for Economic Research, and Syracuse provided helpful comments, while Michael
+Lovenheim and Sarah Turner generously read initial drafts. The Institute of Education Sciences of the U.S. Department of Education
+(through Grants R305E100008 and R305B110001), Arnold Ventures, the Smith Richardson Foundation, and the University of Michigan
+Provost’s Office funded this research. This study is registered at the randomized trial registry of the American Economics Association
+under RCT ID AEARCTR-0001831, with DOI 10.1257/rct.1831. A pre-analysis plan was filed in April 2017 (Dynarski et al., 2017).
+The code for replicability purposes has been deposited in the AEA Data and Code Repository, openicpsr-130286. This research was
+approved by the Institutional Review Board at the University of Michigan (ID: HUM00096289 ) and Syracuse University (ID: 16-264).
+Elizabeth Burland, Meghan Oster, and Shwetha Raghuraman provided outstanding research assistance. This research uses data structured
+and maintained by the Michigan Education Data Center (MEDC) (Michigan Department of Education 2020a; Michigan Department of
+Education 2020b). MEDC data is modified for analysis purposes using rules governed by MEDC and are not identical to those data
+collected and maintained by MDE and/or CEPI. Results, information and opinions solely represent the analysis, information and opinions
+of the author(s) and are not endorsed by, or reflect the views or positions of, grantors, MDE and CEPI or any employee thereof.
+
+Page 2 of 85
+
+Gaps in educational attainment between low- and high-income students are large and have grown in
+recent decades. Among children born in the 1980s, those from the bottom quartile of family incomes are
+50 percentage points less likely to attend college than those from the top quartile. And while 54 percent of
+children born into the top income quartile earn a bachelor’s degree, only nine percent of those in the lowest
+quartile do so (Bailey and Dynarski, 2011).
+These differences stem in part from disparities in academic preparation. But even among well-prepared
+students, there are substantial gaps in college enrollment and the quality of college attended (Hoxby and
+Avery, 2012). The under-representation of low-income students at selective colleges likely exacerbates both
+educational and income inequality.1 While there is no experimental evidence on the effect of college quality,
+several studies suggest that attending a college of higher quality (e.g., a flagship instead of a less-selective
+four-year school or a community college) increases both educational attainment and earnings (Hoekstra 2009;
+Zimmerman 2014; Dillon and Smith 2018).
+Among high-achieving students, it is application behavior that drives income differences in college
+quality. Hoxby and Avery (2012) find that the majority of low-income, high-achieving students apply to
+zero selective schools, even though doing so would likely lower their costs (Cohodes and Goodman, 2014),
+increase their chances of completing a college degree, and increase their future wages (Hoekstra 2009,
+Zimmerman 2014; Andrews, Imberman and Lovenheim 2016).
+Standard models of human capital investment fall short in explaining these behaviors. Though a
+lack of information about the (net) cost of college or suitability for an elite school could in theory lead
+low-income students to underinvest in education, previous interventions targeting these information frictions
+have shown only modest success (Bettinger et al. 2012; Hoxby and Turner 2013; Bergman, Denning and
+Manoli 2019; Gurantz et al. 2019; Hyman 2020, although see Jensen (2010) for an exception). Insights
+from behavioral economics suggest that students’ choices deviate from the classical model in predictable
+ways. Many observed behavioral patterns, such as present bias, overreliance on routine or defaults, and
+debt aversion, are particularly pronounced for those facing economic scarcity (as are low-income students)
+and complex decisions (as presented by the higher education and financial aid systems) (Mullainathan and
+Shafir, 2013). Within such an environment, small changes in choice architecture can lead to large changes in
+behavior.
+We use a randomized, controlled trial to test whether targeted, personalized communications, which
+reframe but do not increase financial aid, can alter the college decisions of low-income students. The
+intervention, the “HAIL (High Achieving Involved Leader) Scholarship,”2 was designed in the spirit of
+previous interventions that make small changes to the framework of decision-making.
+We collaborated with the University of Michigan in Ann Arbor, the state’s most selective college,
+
+1 We interchangeably use the terms “high quality”, “selective”, and “elite" throughout to refer to selective institutions. Such schools
+tend to spend more per student, as well as enroll high-achieving students who are inputs into the education production function (Black
+and Smith 2006).
+2 The acronym “HAIL” is a reference to the University of Michigan’s fight song. “HAIL Michigan” is plastered on t-shirts, bumper
+stickers, water bottles, tube tops, underwear, beer coolers, dog coats, and billboards across the state and beyond. Go Blue!
+
+1
+
+Page 3 of 85
+
+in this study.3 In the Fall of 2015 and 2016, we sent personalized mailings to high-achieving, low-income
+seniors in Michigan’s public high schools. The mailings encouraged students to apply to the university and
+pledged four years of free tuition and fees to those admitted.4 Parents of these students also were mailed a
+letter about this offer, and their school principals were notified by email.
+In each of two cohorts of rising seniors, we identified roughly 2,000 high-achieving, low-income
+students at the state’s public schools. These students attended 500 different high schools. We randomized
+treatment at the school level, since we expected there would be spillovers that would have biased a within-school
+design. Half of the 500 schools were assigned to treatment and half to control.
+We identified students for the intervention using administrative data from the Michigan Department of
+Education (MDE) (Michigan Department of Education 2020a; Michigan Department of Education 2020b).
+We targeted those who qualified for subsidized school meals, the only proxy for income available in these
+data. All students in Michigan’s public high schools are required to take the SAT (until 2016, the ACT),
+which is used by the state to satisfy federal testing requirements. The SAT is administered for free, during
+the school day, at students’ own schools. We focused on students whose scores and grades (contained in the
+state data) made them reasonable targets for recruitment according to our research partners in the University
+of Michigan admissions office (the criteria are detailed in Section II).
+We find very large effects of the intervention offer on application and enrollment rates at the University
+of Michigan and, more generally, on college choice. The likelihood of applying to the University of Michigan
+more than doubled, from 26 percent among controls to 68 percent among students offered treatment. The
+share enrolling at a highly selective college also more than doubled, from 13 percent to 28 percent, with this
+effect operating completely through enrollment at the University of Michigan.
+We find that one-quarter of the enrollment effect (four percentage points) is driven by students who
+would not have attended any college in the absence of the treatment. The balance would have attended a
+community college or a less selective four-year college. The offer of the scholarship diverted no students
+from colleges as or more selective than the University of Michigan—that is, there was no “poaching” from
+other selective schools. Nor did the offer increase attendance at other selective schools, a plausible effect of
+mailings that told students that they were strong candidates for admission to the University of Michigan.
+The magnitudes of these effects are much larger than those in previous interventions with similar
+goals (Bettinger et al. 2012; Hoxby and Turner 2013; Goldrick-Rab et al. 2016; Bergman, Denning and
+Manoli 2017; Gurantz et al. 2019; Oreopoulos and Ford 2019; Hyman 2020). Several dimensions of the
+HAIL intervention set it apart, and plausibly explain the size of its effect.
+The HAIL Scholarship provides an early, unconditional guarantee of free tuition. The early nature of
+the offer locks in a price guarantee at the time of the application decision. The four-year guarantee reduces the
+uncertainty of future college costs, by converting the likely prospect of aid into a guarantee. Previous research
+3 Barron’s ranks schools from “least competitive” to “most competitive” based on a combination of average GPA, SAT scores, and
+acceptance rates. The University of Michigan is in the “highly competitive” or second highest category.
+4 The HAIL scholarship offer was not a guarantee of admission to the University of Michigan and admissions officers were not
+informed about which students received the HAIL scholarship offer. HAIL students who applied to the University of Michigan went
+through the standard admissions process.
+
+2
+
+Page 4 of 85
+
+suggests that information is most effective when delivered at the time of decision making (Fernandes, Lynch Jr
+and Netemeyer 2014; Fischer and Wagner 2018; Patterson, Pope and Feudo 2019).
+The offer is unconditional: while students must still apply and be admitted, they do not have to fill out
+any paperwork or go through any verification to qualify for the scholarship.5 Although the costs of learning
+about and applying for financial aid are small compared to its value (and the benefits of college), previous
+research suggests that even minor and short-term costs can have an outsize influence on the decisions of
+myopic students (Hoxby and Turner 2013; Bulman 2015; Pallais 2015; Goodman 2016; Oreopoulos and Ford
+2019).
+The HAIL offer effectively changes the default option for students, in that no action is required to
+accept it. Previous research indicates that people use shortcuts in complex decision environments, and that
+changing defaults can therefore dramatically influence behavior ( Johnson and Goldstein 2009; Beshears et al.
+2013; Pallais 2015; Marx and Turner 2019).
+The intervention, in the end, did not substantively alter the cost of attending the University of Michigan.
+Students in the treatment and control groups who enrolled at the university wound up with virtually identical
+aid packages.6 The University of Michigan meets the financial need (as defined by national aid formulas)
+of all of its students. Those with incomes as low as those in our sample almost invariably qualify for free
+tuition and fees, as well as for living expenses. Because of these pre-existing policies, the HAIL guarantee
+was rarely binding on the University. The behavioral changes induced by the guarantee indicate that certainty,
+while virtually costless to the school, was extremely valuable to potential students.
+Our results show that a low-cost intervention that removes behavioral and administrative obstacles
+can profoundly alter student choices. We add to a growing body of research that shows that seemingly minor
+differences in policy design can have profound effects on real economic outcomes. In ongoing work, we
+track the effects of the intervention on college major, persistence, and graduation. In the long term, we will
+examine the effect of the induced changes in educational attainment on earnings and other measures of adult
+well-being.
+
+I
+
+BACKGROUND
+
+A Income Gaps in College Quality and Why They Matter
+A long literature informs the design of the HAIL scholarship and our understanding of income-based
+gaps in college going.
+Just 12 percent of college students come from the bottom fifth of the family-income distribution, while
+28 percent are from the top fifth. This imbalance is even larger at the most selective colleges (Chetty et al.
+2017)7 , which have more students from the top one percent of the income distribution than from the entire
+5 While submitting aid forms was not required to receive the HAIL Scholarship, applicants were encouraged to do so. University of
+Michigan staff prodded students to complete forms, and 99 percent of HAIL Scholars who enrolled at the University of Michigan did so,
+which substantially increased their aid.
+6 Note that this comparison, while informative, does not have a causal interpretation, since the treatment increased the likelihood of
+attending the university.
+7 The authors refer to these institutions as the “Ivy Plus” and include the eight Ivy League schools plus MIT, Stanford, Duke, and the
+
+3
+
+Page 5 of 85
+
+bottom half.
+Undermatching accounts for some of this gap in college selectivity. Students are said to undermatch
+when they are much more academically qualified than typical peers at their chosen school. Only 38 percent
+of Chicago Public Schools students who qualify for very selective colleges attend one (Roderick, Coca and
+Nagaoka, 2011). Similarly, Bowen, Chingos and McPherson (2009) found that, among students in North
+Carolina in 1999, 40 percent did not attend the highest-tier institution for which they were likely eligible
+given their academic performance. This concurs with a study of two nationally-representative cohorts of high
+school graduates from 1992 and 2004 (Smith, Pender and Howell, 2013).
+Hoxby and Avery (2012) and Dillon and Smith (2017) find that the main driver of mismatch is student
+application choices rather than schools’ admissions decisions. That is, low-income students wind up at
+schools of lower selectivity not because they were rejected by the better schools but because they never
+applied to them. Dillon and Smith (2017) find that, among the students who undermatch, 72 percent applied
+to no closely matched college; just six percent applied to such colleges but were rejected. Hoxby and Avery
+(2012) show that many qualified students apply to no selective colleges at all.
+In Michigan, as in the rest of the country, there are large differences in college choices between
+low- and higher-income students. Among students whose high academic achievement makes them plausible
+candidates for a selective school, low-income students (defined as those eligible for federally-subsidized
+school meals) are four percentage points less likely to attend any college than their higher-income peers (see
+Figure 1). Gaps in college selectivity are even wider than gaps in college attendance: low-income students
+are eight percentage points less likely than more advantaged peers to attend a highly selective school.
+More selective schools typically offer more aid to low-income students, making them cheaper than
+less selective schools (see Table 1). The net cost of attendance at the University of Michigan for in-state
+students with family income below $30,000 is $3,249.8 This makes the University of Michigan the cheapest
+four-year option for low-income students in the state; their net cost of attendance is $7,058 at Michigan State
+University, and $12,316 at Eastern Michigan University. For students with slightly higher family income
+(between $30,000 and $48,000), the net cost of attendance at the University of Michigan is $5,575.9 For these
+students, only a community college is a cheaper option than the University of Michigan (nearby Washetenaw
+Community college costs $4,455).10
+Higher college quality is associated with higher graduation rates and salaries. Research indicates that
+at least part of this relationship is causal (Hoekstra 2009; Zimmerman 2014; Dillon and Smith 2018). The
+University of Michigan has a 91 percent graduation rate (within six years) and an average alumni salary of over
+$63,000 (within ten years of attendance). The comparable statistics at nearby Eastern Michigan University
+are 41 percent and $39,300. Shifting low-income students to the University of Michigan is therefore likely to
+University of Chicago.
+8 From College Scorecard data.
+9 This is roughly 130-185 percent of the federal poverty threshold for a family of four, and corresponds to the upper income thresholds
+for free or subsidized meals in school.
+10 Table 1 includes four illustrative schools, but the point holds more broadly. For students in the two lowest income categories, the
+University of Michigan in Ann Arbor is the most affordable bachelor’s-degree-granting school in the state.
+
+4
+
+

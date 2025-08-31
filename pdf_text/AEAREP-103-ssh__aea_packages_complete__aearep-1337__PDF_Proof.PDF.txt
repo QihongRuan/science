@@ -1,0 +1,178 @@
+A Simple Planning Problem for COVID-19 Lockdown, Testing
+and Tracing
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0201.R4
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+23-Nov-2020
+Author:
+Complete List of Authors: Alvarez, Fernando; University of Chicago, Economics
+Argente, David; The Pennsylvania State University College of the Liberal
+Arts, Economics
+Lippi, Francesco; Einaudi Institute for Economics and Finance, Economics
+Keywords: E60, Optimal Policy, COVID-19
+
+Page 1 of 25
+
+THE AUTHOR, FERNANDO ALVAREZ, DECLARES THAT HE HAS NO RELEVANT OR
+MATERIAL FINANCIAL INTERESTS THAT RELATE TO THE RESEARCH DESCRIBED IN THE
+PAPER “A SIMPLE PLANNING PROBLEM FOR COVID-19 LOCKDOWN, TESTING, AND
+TRACING.”
+FERNANDO ALVAREZ, CHICAGO 21 November 2020
+
+THE AUTHOR, DAVID ARGENTE, DECLARES THAT HE HAS NO RELEVANT OR MATERIAL
+FINANCIAL INTERESTS THAT RELATE TO THE RESEARCH DESCRIBED IN THE PAPER “A
+SIMPLE PLANNING PROBLEM FOR COVID-19 LOCKDOWN, TESTING, AND TRACING.”.
+DAVID ARGENTE, MEXICO, 21 November 2020
+
+THE AUTHOR, FRANCESCO LIPPI, DECLARES THAT HE HAS NO RELEVANT OR
+MATERIAL FINANCIAL INTERESTS THAT RELATE TO THE RESEARCH DESCRIBED IN THE
+PAPER “A SIMPLE PLANNING PROBLEM FOR COVID-19 LOCKDOWN, TESTING, AND
+TRACING.”
+FRANCESCO LIPPI, ROME, 21 November 2020
+
+Page 2 of 25
+
+A Simple Planning Problem for
+COVID-19 Lockdown, Testing and
+Tracing*
+Fernando Alvarez
+
+David Argente
+
+University of Chicago and NBER
+
+Pennsylvania State University
+
+Francesco Lippi§
+LUISS University and EIEF
+
+November 20, 2020
+
+Abstract
+We study the optimal lockdown for a planner who controls the fatalities of COVID19 while minimizing the output costs of the lockdown. The policy prescribes a severe
+lockdown beginning few weeks after the outbreak, covering almost 50% of the population
+after a month, with a total duration shy of four months. The intensity of the optimal
+lockdown depends on the gradient of the fatality rate with respect to the infected, and
+the availability of antibody testing, which yields a welfare gain of 2% of GDP. We also
+study test-tracing-quarantine, which we show to be complementary to lockdown.
+
+* First draft, March 23, 2020. We benefited from the comments of Andrew Atkeson, Gadi Barlevy, Carlo
+
+Favero, Mike Golosov, Fausto Gozzi, Francois Gourio, Lars Hansen, Kiminori Matsuyama, Magne Mogstad,
+Steve Mohr, Casey Mulligan, Tom Phelan, Filip Rozsypal, Fabiano Schivardi, Rob Shimer, Daniele Terlizzese,
+Fabrice Tourre, Marcelo Veracierto, Ivan Werning, and panelists and participants on the HELP! (Health and
+Pandemics Economics Group) seminar, the World Bank’s Development Policy and Covid-19 e-seminar, the
+Federal Reserve Bank of Chicago Virtual Macro Seminar, University of Chicago Economics Virtual Seminar,
+OVPR’s COVID-19 Forum - Social Sciences Focus, the Riksbank, the Banque de France Virtual Seminar,
+the Pennsylvania State University Virtual Seminar, and the Bank of Mexico Virtual Seminar. Olivia BordeuGazmuri provided excellent research assistance. We are grateful to Andy Atkeson for suggesting us to work
+on the tracing-testing-quarantine extension of our simple planning problem. The authors declare to have no
+conflict of interest to disclose regarding the research on this paper.
+ Email: f-alvarez1@uchicago.edu. Address: 1126 E. 59th St., Chicago, IL 60637
+Email: dargente@psu.edu. Address: 403 Kern Building, University Park, PA 16801.
+§ Email: francescolippi@gmail.com. Address: Via Sallustiana, 62, 00187 Rome, Italy.
+
+1
+
+Page 3 of 25
+
+We adopt a variation of the SIR epidemiology model of Kermack and McKendrick (1927)
+to characterize the optimal policy response to the COVID19 outbreak under several scenarios.
+The typical approach in the epidemiology literature is to study the dynamics of the pandemic,
+for infected, deaths, and recovered, as functions of some exogenously chosen diffusion parameters,
+which are in turn related to various policies, such as the partial lockdown of schools, businesses,
+and other measures of diffusion mitigation, where the diffusion parameters are stratified by
+individual covariates, see e.g. Ferguson et al. (2020). We use a simple version of these models
+to analyze how to optimally balance the fatalities induced by the epidemic with the output
+costs of the lockdown policy. Our model thus features a key tradeoff between lives saved
+vs. forgone production. The novel aspect of our analysis is to explicitly formulate and solve
+a control problem, where the diffusion parameter is affected by the lockdown, chosen to
+maximize a social objective while taking into account the dynamics of the system.1 A reason
+to write a planning problem directly is that, with social interactions there is an externality
+to be corrected. As understood and analyzed in Eichenbaum, Rebelo and Trabandt (2020);
+Farboodi, Jarosch and Shimer (2020) and Toxvaerd (2020), the voluntary social distance in
+the absence of a government-imposed lockdown would not be socially optimal. We use global
+methods because in our setup the interaction of the law of motion of the SIR model and the
+lockdown policy makes the problem non-convex.2
+By computing the optimal policy and the associated trajectories, we aim to gauge the
+key elements that determine the intensity and duration of the lockdown. We solve the
+problem under different scenarios, that include congestion effects in the health care system,
+the effectiveness of the lockdown in reducing the diffusion of the virus, the possibility of
+testing for antibodies, and the possibility to trace and quarantine infected agents.
+We parametrize the model using a range of estimates about the COVID19 epidemic.
+1
+
+An optimal control problem based on a very similar epidemiological model can be found in Hansen and
+Troy (2011), but the objective function and the feasible policies are different.
+2
+Using first order conditions to solve for the path of states, controls, and co-states, as well as transversality,
+provides a necessary but not sufficient condition. That is why we use a discrete-time discrete-state finite
+difference approach.
+
+2
+
+Page 4 of 25
+
+Since we recognize that several parameters are highly uncertain, we explore a range of values
+concerning the severity of the congestion effects on the fatality rate, a range of valuations for
+the cost of lost lives, and the possibility of testing and releasing the recovered agents from
+lockdown.
+In our baseline parameterization, conditional on a 1% fraction of infected agents at the
+outbreak and no cure for the disease, the optimal policy prescribes a lockdown starting four
+weeks after the outbreak, and covering 45% of the population after 8 weeks. The lockdown is
+kept tight for about a full month, and is gradually withdrawn, covering 30% of the population
+3 months after the initial outbreak. The output cost of the lockdown is high, equivalent to
+losing 6% of one year’s GDP (or, equivalently, a permanent reduction of 0.3% of output).
+The total welfare costs is more than four times bigger due to the cost of deaths (see Panel A
+in Figure 1 and Table 1).
+The intensity of the optimal lockdown depends critically on the gradient of the fatality
+rate as a function of the infected. If we consider a constant fatality rate the intensity and
+duration of the lockdown are significantly reduced and, in some cases, completely eliminated,
+even though the welfare cost of the pandemic remains high. On the other hand, the value
+of the statistical life we use in our benchmark case (40 times annual GDP per capita) is on
+the low range of the estimates in the literature. Following Hall, Jones and Klenow (2020),
+our benchmark value takes into account that the majority of the victims of the virus have a
+below average life expectancy. A higher value of statistical life makes the abandonment of
+the lockdown more gradual.
+Our benchmark scenario assumes, as seems realistic following the outbreak, that there
+is no antibody test that allows those that recover to be issued an immunity card and go
+back to work. We also analyze the problem in a scenario with such a test, in which case the
+optimal lockdown is longer, but overall it involves similar total number of lost working hours
+(forgone GDP, see Figure 1 and Table 1). The most salient feature of the case where a test
+is not available is that the lockdown ends up sooner and more abruptly. The dynamics of
+
+3
+
+Page 5 of 25
+
+the epidemiological model explain why this is optimal: as time goes by, the fraction of those
+recovered increases, and thus the lockdown becomes less efficient to stop the transmission of
+the virus by locking down a progressively larger fraction of those that do not transmit it. The
+availability of an antibody test yields a large welfare gain, in the order of 2% of one year’s
+GDP. A byproduct of the calculations is the benefit of the lockdown policy, measured as a
+percentage permanent GDP flow of following the optimal policy vs the case of no lockdown
+(see Table 1). Under our preferred values, the total welfare cost of the virus is equivalent to
+a loss of 28% to 32% of one year’s GDP. From this loss, the part due to the forgone GDP is
+between 6% and 8% of one year’s GDP.
+We conclude with two extensions that are relevant for applications to an actual economy.
+The first considers a setting where the planner’s controls include a trace-test-quarantine
+(TTQ) instrument. The goal is to understand whether TTQ is a complement or a substitute
+of the lockdown policy. Our findings show that there is a large overlap between the region
+of the state space where the lockdown is used and the one where the TTQ is used. The
+second extension takes a step towards realism by considering that one consequence of the
+lockdown is to “buy time” and allow for better treatment technologies to be available. Such
+technologies include, among others, antibody tests, more ICU capacity, test-tracing apps, and
+eventually a vaccine. The expectation of improved instruments to deal with the epidemic
+creates a dynamic complementarity: the incentives for lockdown are strengthened because,
+by delaying the diffusion, the planner will face the problem with better instruments and thus
+incur smaller losses. Such complementarities can be powerful: the prospect of a smart-tracing
+technology may lead to an immediate lockdown in an economy where, absent such prospect,
+there would be no lockdown at all.
+Our simple analysis has limitations: the underlying model has no heterogeneity in fatality
+rates nor in diffusion rates, the lockdown policy cannot be differentiated across agent’s type,
+see Favero, Ichino and Rustichini (2020) for a seminal exploration of the idea of an age- and
+industry- specific lockdown and Acemoglu et al. (2020) for an extension of our framework
+
+4
+
+

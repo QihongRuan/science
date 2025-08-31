@@ -1,0 +1,267 @@
+Enforcing Wealth Taxes in the Developing World: QuasiExperimental Evidence from Colombia
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0319.R4
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+26-Sep-2020
+Author:
+Complete List of Authors: Londono-Velez, Juliana; NBER,
+Avila-Mahecha, Javier; Direccion de Impuestos y Aduanas Nacionales
+Keywords: D31, H26, O23
+
+Page 1 of 46
+
+Enforcing Wealth Taxes in the Developing World:
+Quasi-Experimental Evidence from Colombia
+By Juliana Londoño-Vélez and Javier Ávila-Mahecha∗
+This paper investigates the feasibility of wealth taxation in
+developing countries. It uses rich administrative data from
+Colombia and leverages a government-designed program for
+voluntary disclosures of hidden wealth, as well as the threat
+of detection triggered by the Panama Papers leak. There are
+two key findings. First, there is substantial (primarily offshore)
+evasion: two-fifths of the wealthiest 0.01% evade taxes, with these
+evaders concealing one-third of their wealth offshore. Second,
+strengthening enforcement can have a significant impact on wealth
+tax compliance, tax revenue, and progressivity. These results
+highlight both challenges and opportunities for wealth taxation in
+the developing world.
+JEL: D31, H26, O2
+Concerns about rising wealth inequality have spurred a renewed interest in
+progressive wealth taxation. While experts have debated the extent to which
+wealth taxes could be enforced in rich countries like the United States (Saez and
+Zucman, 2019a,b), the discussion regarding developing countries has been muted.
+On the one hand, developing countries are often afflicted by acute income and
+wealth inequality (Alvaredo et al., eds, 2018), and could thus benefit from levying
+more progressive taxes. On the other hand, the weak tax enforcement capacity
+that characterizes these settings (Pomeranz, 2015; Slemrod, 2019)—compounded
+by a particular vulnerability towards tax havens (Alstadsater et al., 2018b)—could
+lead some to conclude that taxing wealth is simply not feasible in the developing
+world.
+This paper aims to fill this gap by providing quasi-experimental evidence from
+∗ Juliana Londoño-Vélez, UCLA, Department of Economics, Bunche Hall 8283, 315 Portola
+Plaza, Los Angeles, CA 90095, j.londonovelez@econ.ucla.edu. Javier Ávila-Mahecha: Dirección de
+Impuestos y Aduanas Nacionales (DIAN), Carrera 8 # 6C-38, Edificio San Agustı́n, Bogotá, Colombia,
+javilam@dian.gov.co. We thank Amy Finkelstein, Rohini Pande, and the anonymous referees for valuable
+guidance. We are grateful to Emmanuel Saez, Edward A. Miguel, and Gabriel Zucman for their support
+and encouragement. We have benefited from comments and suggestions from Alan Auerbach, Anne
+Brockmeyer, Youssef Benzarti, Raj Chetty, Alessandra Fenizia, Leopoldo Fergusson, Daniel Haanwinckel,
+Nathaniel Hendren, Hilary Hoynes, Lawrence Katz, Henrik Kleven, Patrick Kline, Evan P. Kresch,
+Nicholas Y. Li, Giulia Mascagni, Juan Ricardo Ortega, Ricardo Pérez-Truglia, Jim Poterba, Evan K.
+Rose, Kurt Schmidheiny, David Seim, Yotam Shem-Tov, Stefanie Stantcheva, Juan Carlos Suárez-Serrato,
+Darı́o Tortarolo, Christopher Walters, Danny Yagan, Owen Zidar, and numerous seminar participants.
+We are grateful to Santiago Rojas for his support throughout this project. We thank Carlos Chaparro
+for his help in understanding the Colombian tax code. Juliana gratefully acknowledges financial support
+from the Washington Center for Equitable Growth, the Burch Center for Tax Policy, and the Center for
+Equitable Growth at UC Berkeley. The findings, interpretations, and conclusions expressed in this paper
+do not necessarily reflect the views of DIAN.
+
+1
+
+Page 2 of 46
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+Colombia. We use administrative tax microdata on income and wealth merged
+with the leaked “Panama Papers,” which shed light on offshoring to Colombia’s
+most relevant tax havens. The paper makes two main contributions. First,
+we quantify and characterize wealth tax evasion and show how it varies across
+the wealth distribution, leveraging a government-designed program for voluntary
+disclosures of hidden wealth that took place between 2015 and 2017. Second,
+we explore how wealth tax evasion responds to policies aiming to strengthen
+enforcement. The canonical Allingham and Sandmo (1972) framework for tax
+evasion models the decision of whether and how much to evade as a function of
+(i) the tax incentives, (ii) the perceived threat of detection, and (iii) the penalty
+for misreporting. Guided by this framework, we exploit a series of exogenouslytimed events to isolate effects along each of these components on tax compliance.
+In the first part of the paper, we estimate the prevalence, distribution, and
+nature of wealth tax evasion. Colombia’s disclosure program revealed hidden
+wealth worth 1.73% of GDP, which is an order of magnitude larger than what
+a similar U.S. scheme recovered (Johannesen et al., 2020). There is substantial
+evasion: two-fifths of the wealthiest 0.01% of Colombians admit to hiding wealth—
+threefold the equivalent share of Scandinavians acknowledging noncompliance in
+Alstadsater et al. (2019). Wealth tax evasion is remarkably skewed: the wealthiest
+0.01% of the distribution is 55 times more likely to evade than the top 5% as a
+whole. This result is not driven by self-selection into disclosing; reassuringly, the
+wealth gradient of acknowledging noncompliance parallels that of the (exogenous)
+likelihood of being caught offshoring using random leak data. Offshore tax evasion
+accounts for over four-fifths of exposed wealth tax evasion, with a third of the
+wealthiest evaders’ fortune being concealed offshore.
+In the second part of the paper, we examine how tax evasion responds to
+sequential changes in the enforcement environment; namely, in the tax incentives,
+the perceived detection probability, and the sanctions for misreporting. First,
+we estimate the effects of generous tax breaks for disclosing hidden wealth on
+both wealth and income tax compliance over time. We use a difference-indifferences approach that compares wealthy individuals—i.e., wealth tax filers—
+who disclosed versus never disclosed under the scheme. We find that tax compliance
+is persistent: three years after their revelation, disclosers report 49.2% more
+wealth and, by virtue of disclosing the return of those assets, also pay 39% more
+income taxes—a magnitude similar to what Alstadsater et al. (2018a) find in
+Norway. Given that exposed wealth tax evasion is highly concentrated at the
+top, the policy raised revenue collected from the wealthiest 1%, raising effective
+progressivity.
+Second, we find that evasion responds to the credible threat of detection.
+Halfway through the disclosure scheme, the Panama Papers news story broke,
+exposing tax evaders named in the leak to government scrutiny. Exploiting the
+exogenous timing of this leak, we compare wealth tax filers who appear named
+(treated) or not (control) in the leak before and after it occurred. The difference-
+
+Page 3 of 46
+
+VOL.
+
+NO.
+
+ENFORCING WEALTH TAXES IN COLOMBIA
+
+3
+
+in-differences estimator shows that the threat of detection caused by the leak
+induced a 27 percentage point increase in the likelihood of disclosing, i.e., a
+sixfold increase relative to the pre-leak treated mean. Consistent with a drop
+in offshore tax evasion, disclosures of foreign assets increased by 29.6 percentage
+points. Consequently, taxes paid by those named in the leak more than doubled.
+However, since the overwhelming majority of disclosers were not named in the
+leak, the Panama Papers account for only a small fraction of all disclosures made
+by delinquent taxpayers under Colombia’s scheme.
+Lastly, we present suggestive evidence that evasion responds to tougher sanctions.
+We observe a large spike in disclosures made six months after Colombia criminalized
+tax evasion for the first time in its history, just before the disclosure window
+expired. Unfortunately, however, we cannot attribute this willingness to come
+forward solely to tougher sanctions, as other factors (like procrastination) might
+have played a role as well.
+Our empirical findings help reconcile the views of the wealth tax skeptics
+(Summers and Sarin, 2019a,b) and enthusiasts (Saez and Zucman, 2019a) regarding
+the feasibility of taxing wealth in a globalized world. On the one hand, we
+show that offshore evasion is an important threat to progressive wealth taxation,
+especially when the enforcement environment—as in most of the developing world—
+is weak. On the other hand, strengthening the enforcement regime has significant
+impacts on wealth tax compliance and raises revenue collected from the wealthiest
+individuals. Improving enforcement may, therefore, safeguard the feasibility of
+progressive wealth taxation, even in settings characterized by high levels of inequality
+and low baseline tax compliance.
+We contribute to three strands of literature. First, we complement the growing
+literature on tax evasion and enforcement in the developing world (e.g., Bachas
+and Soto, 2018; Carrillo et al., 2017; Naritomi, 2019; Pomeranz, 2015) by focusing
+on high net worth individuals. Second, we complement empirical studies on wealth
+taxation in Europe (Brulhart et al., 2019; Durán-Cabé et al., 2019; Jakobsen et
+al., 2020; Ring, 2019; Seim, 2017), which do not take into account the threat of
+offshore evasion, partly due to measurement barriers. Lastly, we contribute to the
+literature evaluating the effectiveness of the recent global wave of crackdowns on
+tax havens, including enhanced cross-border tax information exchange agreements
+(TIEAs) and voluntary disclosure schemes (Alstadsater et al., 2018a; Bayer et al.,
+2015; Johannesen and Zucman, 2014; Johannesen et al., 2020; Langenmayr, 2017).
+In particular, we extend Alstadsater et al. (2019) by showing how compliance
+responds to the detection threat triggered by whistleblowing on offshoring to the
+most relevant tax havens. In addition, we shed light on the distributional impact
+of enforcement in a developing country, where tax evasion by the elite can have
+devastating effects on vital public goods provision and inhibit development.
+
+Page 4 of 46
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+I.
+
+Context
+
+Colombia has a wealth tax. As a result, the country maintains administrative
+data on wealth, enabling us to study evasion at the top of the distribution. To
+crack down on wealth tax evasion, Colombia undertook a series of enforcement
+initiatives between 2015 and 2017 that shifted taxpayers’ incentives to become
+tax compliant. First, it required individuals to report foreign assets in a separate
+information return. Second, Colombia implemented a voluntary disclosure program
+that, like at least 47 other countries (OECD, 2015), awarded tax breaks for
+delinquent taxpayers choosing to come forward. Third, the government contacted
+taxpayers identified in the Panama Papers leak to request documentation of their
+offshore activities and signed a TIEA with Panama. Lastly, wealth tax evasion
+was criminalized so that, if convicted, evaders faced up to nine years in prison.
+In what follows we briefly describe the Colombian wealth tax and these changes
+in enforcement.
+Colombia taxes capital income, realized capital gains, and wealth transfers
+(e.g., inter-vivos gifts, inheritances). It also levies a personal wealth tax on
+worldwide wealth. Eligibility for the wealth tax is determined by the end-of-year
+wealth (total assets minus liabilities) that taxpayers report in their income tax
+statements. For instance, taxpayers who reported to own 1 billion pesos or more in
+2014 (PPP USD 838,419 or the top 0.2% of adults) paid the wealth tax between
+2015 and 2018, with annual tax rates ranging from 0.125% to 1.5%. To avoid
+the wealth tax, Colombian taxpayers can, inter alia, underreport less verifiable
+assets, artificially inflate debts, and hide wealth in tax havens. Compounding
+Colombians’ incentives to conceal fortunes abroad are the violence and insecurity
+of the 1980s to early 2000s, which prompted elites to offshore to avert targeting
+and expropriation by illegal armed groups.
+In December 2014, Colombia established a series of wealth tax enforcement
+measures (Law 1739/2014). As depicted in Figure A.1, these new measures were
+introduced at a time when significant advances were being made in terms of crossborder TIEAs (OECD, 2015). First, all individuals who own any foreign asset by
+January 1 were required to annually report the value of the foreign assets, and
+their location, in a separate information return. Those who own foreign assets
+worth more than 2015 101 million pesos (PPP USD 84,000) report disaggregated
+information for each foreign asset.
+Second, Colombia implemented a voluntary wealth disclosure program, the
+country’s first comprehensive effort to encourage evaders to regularize their tax
+affairs by disclosing hidden wealth.1 Delinquent taxpayers could voluntarily
+1 In 2003, taxpayers voluntarily disclosing hidden assets and/or fake debt were subject to harsher
+tax treatment (Article 6, Law 863/2003, ruled constitutional by Sentencia C-910/04 ). Subsequent
+attempts to encourage such disclosures in 2012 and 2013 (e.g., Article 163, Law 1607/2012) were ruled
+unconstitutional on the grounds that evaders would receive overly generous tax benefits (Sentencia C833/13 ). Instead, the penalty charged by the 2015–17 disclosure program (Article 35, Law 1739/2014)
+was considered sufficiently sizable; the program was ruled constitutional on August 26, 2015 (Sentencia
+C-551/15 ).
+
+Page 5 of 46
+
+VOL.
+
+NO.
+
+ENFORCING WEALTH TAXES IN COLOMBIA
+
+5
+
+disclose an unreported (or underreported) asset or an inexistent debt in separate
+boxes in the wealth tax return, filed in May 2015, May 2016, and May 2017. A
+key feature of Colombia’s program was that, in exchange for paying a penalty
+of 10% of the value of the disclosed wealth, disclosers waived all evaded income
+and wealth taxes from past years. To encourage early participation, the penalty
+was set to increase from 10% to 11.5% and 13% for disclosures made in 2016 and
+2017, respectively. Disclosers also paid wealth taxes upon disclosure and could
+face higher income taxes in the following years. If caught misreporting after the
+disclosure window expired, evaders would face higher sanctions (initially 200% of
+owed taxes, but later also prison sanctions, as we detail below).
+On April 3, 2016—one month before the second wealth tax filing season—the
+Panama Papers news story broke and the names of Mossack Fonseca’s clients were
+thrust into the public spotlight. The leak drew media coverage and public interest
+in the matter, as the leak featured prominent politicians, members of congress,
+businessmen, lawyers, and journalists.2 Critically, Panama had historically been
+Colombia’s most relevant tax haven. Its geographic proximity, the convenience of
+Spanish as the official language, and its political stability made Panama Colombians’
+most preferred destination to park wealth offshore after the U.S.
+Even before the leak, Colombians were more than ten times as likely to own
+assets in Panama than in other havens like the Virgin Islands or Switzerland.
+The Panama Papers, therefore, capture a highly relevant part of offshoring by
+Colombians.
+The Colombian tax authority reacted to the Panama Papers leak by scrutinizing
+Mossack Fonseca and its clients, contacting taxpayers named in the leak, and
+requesting documentation of their offshore activities and transactions. Taxpayers
+identified in the leak were allowed to participate in the disclosure program.3 Three
+weeks after the leak, the governments of Colombia and Panama announced a
+TIEA between the two countries, a move the tax haven had resisted for years.
+The TIEA involved on-demand and automatic exchanges of information starting
+in June 2017 and 2018, respectively.
+In December 2016—six months before the final deadline to disclose under the
+scheme—Colombia criminalized tax evasion for the first time. Evaders caught
+hiding wealth would not only have to pay 20% of the value of the misreported
+asset(s) or debt in fines but, if found underreporting assets and/or overreporting
+liabilities worth over 5.66 billion pesos (2017 PPP USD 4.36 million), could also
+face between 48 and 108 months in prison (Law 1819/2016).
+II.
+
+Data
+
+We use microdata from the following four main sources:
+2 As an illustration, Figure A.3 plots Colombia’s Google searches for the term “Panama Papers.”
+3 The first charges related to the Panama Papers were filed on October 4, 2017. Later that month,
+some individuals were placed under house arrest.
+
+

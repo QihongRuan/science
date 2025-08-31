@@ -1,0 +1,68 @@
+Feedbacks: Financial Markets and Economic Activity
+Journal: American Economic Review
+Manuscript ID AER-2018-0733.R4
+Manuscript Type: For Administrative Use Only
+Keywords: macro-prudential policy, monetary policy, SVAR
+
+Page 1 of 78
+
+AER DISCLOSURE STATEMENT
+CHRISTOPHER A. SIMS
+
+I have had a paid temporary research appointment for two weeks at the Bank for
+International Settlements in Basel a little over a year ago. The BIS is involved in
+policy discussions related to the topic of this paper. I also have had recurring brief,
+paid or unpaid visits over a few days to several US Federal Reserve banks. The
+Federal Reserve system has policy interests in this paper’s area of research.
+
+Christopher A. Sims, May 13, 2018
+D EPARTMENT OF E CONOMICS , P RINCETON U NIVERSITY
+E-mail address: sims@princeton.edu
+
+Date: May 13, 2018.
+1
+
+Page 2 of 78
+
+Author’s Disclosure Statement
+Karthik Sastry
+77 Massachusetts Avenue
+02139 Cambridge, MA
+ksastry@mit.edu
+April 11, 2018
+To whom it may concern,
+I have no relevant or financial interests that relate to research of this paper.
+Sincerely,
+Karthik Sastry
+
+Page 3 of 78
+
+Disclosure Statement for Darius Palia
+
+The author, Darius Palia, declares that he has no relevant or material fnancial
+interests that relate to the research described in this paper.
+
+Page 4 of 78
+
+Author’s Disclosure Statement
+Markus Brunnermeier
+24 Maclean Circle
+Princeton, NJ 08540
+markus@princeton.edu
+April 11, 2018
+To whom it may concern,
+I have no relevant or financial interests that relate to research of this paper.
+Further disclosure can be found on https://scholar.princeton.edu/markus/pages/disclosures.
+
+Sincerely,
+
+Markus K. Brunnermeier
+
+Page 5 of 78
+
+Appendix for
+F EEDBACKS : F INANCIAL M ARKETS AND E CONOMIC A CTIVITY
+For Online Publication
+Markus K. Brunnermeier, Darius Palia, Karthik A. Sastry, and Christopher A. Sims
+
+

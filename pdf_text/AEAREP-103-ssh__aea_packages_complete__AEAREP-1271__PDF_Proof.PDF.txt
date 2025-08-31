@@ -1,0 +1,128 @@
+Changing Business Dynamism and Productivity: Shocks vs.
+Responsiveness
+Journal: American Economic Review
+Manuscript ID AER-2019-0680.R2
+Manuscript Type: For Administrative Use Only
+Keywords: Business Dynamism; Productivity
+
+Page 1 of 77
+
+Changing Business Dynamism and Productivity: Shocks vs. Responsiveness
+Disclosure Statement
+Ryan A. Decker
+Mailstop 82
+th
+20 Street and C Street NW
+Washington, DC 20551
+(202) 452-2478
+ryan.a.decker@frb.gov
+The author declares that he has no relevant or material financial interests that relate to the research
+described in the paper.
+
+Page 2 of 77
+
+John Haltiwanger:
+In compliance with the requirement of the Journal’s disclosure policy, I provide the following
+information. I have received financial support for my research in the form of grants from the
+following organizations over the last three years: Kauffman Foundation, Russell Sage
+Foundation, Sloan Foundation and the National Science Foundation. The support from the
+Kauffman Foundation is directly related to this research as they have supported the development
+of the data infrastructure used in this paper as well as research analysis related to the topics in
+this paper. The other grant support is not directly related to the research reported here.
+
+Page 3 of 77
+
+UNITED STATES DEPARTMENT OF COMMERCE
+
+Economics and Statistics Administration
+
+U.S. Census Bureau
+
+Washington, DC 20233-0001
+OFFICE OF THE DIRECTOR
+
+August 1, 2020
+
+MEMORANDUM FOR:
+
+AEA Journals
+
+FROM:
+
+Ron S. Jarmin
+
+SUBJECT:
+
+Disclosure State:!
+
+17.A /
+
+I have no relevant or material financial interests relating to the research described "Changing Business
+Dynamism and Productivity: Shocks vs. Responsiveness". I'm a named Co-Pl in grants from the
+Kauffman Foundation that support Aspects of this work. I receive no financial support from those
+grants.
+
+USCENSUSBUREAU
+Helping You Make Informed Decisions
+
+www.census.gov
+
+Page 4 of 77
+
+American Economic Review
+AEA Publications
+2403 Sidney Street, Suite 260
+Pittsburgh, PA 15203
+Dear Editors:
+In compliance with the requirement of the Journal’s disclosure policy, I would like to state that I, Javier
+Miranda, am an employee of the U.S. Census Bureau. I have received no direct financial support from
+any organization but I am one of the Principal Investigators on the grant from the Kauffman Foundation
+that we note in the acknowledgements section. The support from the Kauffman Foundation is directly
+related to this research as they have supported the development of the data infrastructure used in this
+paper as well as research analysis related to the topics in this paper. We are also using proprietary data
+in this paper housed at the U.S. Bureau of the Census. As we note in the acknowledgements section
+“All results have been reviewed to ensure that no confidential information is disclosed.”
+Sincerely,
+
+Javier Miranda
+Principal Economist
+Center for Economic Studies
+US Census Bureau
+
+Page 5 of 77
+
+Changing Business Dynamism and Productivity:
+Shocks vs. Responsiveness
+By RYAN A. DECKER, JOHN HALTIWANGER, RON S. JARMIN, AND JAVIER
+MIRANDA*
+The pace of job reallocation has declined in the U.S. in recent
+decades.
+
+We draw insight from canonical models of business
+
+dynamics in which reallocation can decline due to (a) lower
+dispersion of idiosyncratic shocks faced by businesses, or (b) weaker
+marginal responsiveness of businesses to shocks. We show that shock
+dispersion has actually risen, while the responsiveness of businesslevel employment to productivity has weakened. Moreover, declining
+responsiveness can account for a significant fraction of the decline in
+the pace of job reallocation, and we find suggestive evidence this has
+been a drag on aggregate productivity.
+
+* Federal Reserve Board, University of Maryland and NBER, U.S. Census Bureau, and U.S. Census Bureau, respectively.
+John Haltiwanger is also a Schedule A part-time employee of the U.S. Census Bureau at the time of the writing of this
+paper. We gratefully acknowledge financial support from the Kauffman Foundation. Cody Tuttle provided excellent
+research assistance. We thank John Abowd, Rudi Bachmann, Martin Baily, Jonathan Baker, Dave Byrne, Chris Foote,
+Lucia Foster, Clément Gorin, Bronwyn Hall, Matthias Kehrig, Pete Klenow, Kristin McCue, three anonymous referees, the
+journal editor, and conference or seminar participants at the 2015 Atlanta Fed Conference on Secular Changes in Labor
+Markets, the ASSA 2016 meetings, the 2016 Brookings “productivity puzzle” conference, the 3rd International ZEW
+conference, the 2016 ICC conference, BYU, University of Chicago, Drexel University, the Federal Reserve Board, the
+Richmond Fed, the spring 2017 Midwest Macro meetings, the 2017 UNC IDEA conference, and the 2017 NBER Summer
+Institute meetings for helpful comments. We are grateful for the use of the manufacturing productivity database developed
+in Foster, Grim, and Haltiwanger (2016) as well as the revenue productivity database developed in Haltiwanger et al.
+(2017). Any opinions and conclusions expressed herein are those of the authors and do not necessarily represent the views
+of the U.S. Census Bureau or of the Board of Governors or its staff. The statistics reported in this paper have been
+reviewed and approved by the Disclosure Review Board of the Bureau of the Census (DRB-B0029-CED-20190314, DRBB0056-CED-20190529, CBDRB-FY20-138).
+
+1
+
+

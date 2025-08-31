@@ -1,0 +1,213 @@
+Social Media, News Consumption, and Polarization:
+Evidence from a Field Experiment
+Journal: American Economic Review
+Manuscript ID AER-2019-1777.R3
+Manuscript Type: For Administrative Use Only
+Keywords: D72, L82, L86
+
+Page 1 of 116
+
+Disclosure Statement – Ro’ee Levy
+September 2020
+This research project, “Social Media, News Consumption, and Polarization: Evidence from a Field
+Experiment”, is supported by the ISPS Field Experiment's Initiative, the Tobin Center for
+Economic Policy, the Yale Department of Economics, the Yale Program in Applied Economics
+and Policy, the Yale School of Management, and Professor David Rand.
+The experimental study was reviewed by the Yale University Institutional Review Board and
+determined to be exempt.
+I declare that I have no relevant or material financial interests that relate to the research described
+in this paper.
+Ro’ee Levy
+MIT
+
+Page 2 of 116
+
+Social Media, News Consumption, and Polarization:
+Evidence from a Field Experiment
+Ro’ee Levy∗
+September 18, 2020
+
+Abstract
+Does the consumption of ideologically congruent news on social media exacerbate polarization? I estimate the effects of social media news exposure by conducting a large field experiment randomly offering
+participants subscriptions to conservative or liberal news outlets on Facebook. I collect data on the causal
+chain of media effects: subscriptions to outlets, exposure to news on Facebook, visits to online news sites,
+and sharing of posts, as well as changes in political opinions and attitudes. Four main findings emerge.
+First, random variation in exposure to news on social media substantially affects the slant of news sites
+individuals visit. Second, exposure to counter-attitudinal news decreases negative attitudes toward the
+opposing political party. Third, in contrast to the effect on attitudes, I find no evidence that the political
+leanings of news outlets affect political opinions. Fourth, Facebook’s algorithm is less likely to supply
+individuals with posts from counter-attitudinal outlets, conditional on individuals subscribing to them.
+Together, the results suggest that social media algorithms may limit exposure to counter-attitudinal news
+and thus increase polarization.
+
+JEL Codes: D72, L82, L86, O33
+
+∗ Massachusetts Institute of Technology, roeelevy@mit.edu. I am deeply grateful to Ebonya Washington, Joseph Shapiro, and Dean
+
+Karlan for their guidance and support throughout this project. I thank the editor and three anonymous referees for their insightful
+comments. I also thank Hunt Allcot, Eran Amsalem, Ian Ball, Dirk Bergemann, Leonardo Bursztyn, Alex Coppock, Oren Danieli,
+Eduardo Fraga, Matthew Gentzkow, Matthew Graham, Alexey Makarin, Martin Mattsson, Brendan J. Nyhan, Rohini Pande, David
+Rand, Oren Sarig, David Schönholzer, Katherine Wagner, Jaya Y. Wen, and Mor Zoran, along with seminar participants at Bar Ilan,
+Berkeley, Booth, Cornell, IDC, Haifa, Hebrew University, Microsoft Research, NBER Digitization, Northwestern, NYU, Tel Aviv, UCLA
+Anderson, Yale, and the ZEW conference on the economics of IT, for their valuable comments. Financial support from the ISPS
+Field Experiment’s Initiative, the Tobin Center for Economic Policy, the Yale Department of Economics, the Yale Program in Applied
+Economics and Policy, the Yale School of Management, and David Rand is greatly appreciated. All errors are my own. The experiment
+is registered at the AEA RCT registry (ID 0002713).
+
+Page 3 of 116
+
+In 2019, more than 70% of American adults consumed news on social media, compared to fewer than one
+in eight Americans in 2008.1 Based on Pew surveys, Facebook is the dominant social media platform for
+news consumption, and “among millennials, Facebook is far and away the most common source for news
+about government and politics” (PEW, 2015, p. 8). As social media becomes a major news source, there
+are growing concerns that individuals are exposed to more pro-attitudinal news, defined as news matching
+their ideology, and as a result, polarization increases (Sunstein, 2017).
+In this paper, I test whether these concerns are warranted. I analyze the effects of exposure to pro- and
+counter-attitudinal news outlets by conducting a large online field experiment randomizing exposure to
+news on Facebook, and by collecting survey, browsing, and social media data.
+To motivate the experiment, I first provide descriptive statistics on online news consumption. I show that
+news sites visited through social media, and specifically Facebook, are associated with more segregated,
+pro-attitudinal, and extreme news, compared to other news sites visited.
+I recruited American Facebook users to the experiment using Facebook ads. After completing a baseline
+survey, participants were randomly assigned to a liberal treatment, a conservative treatment, or a control
+group. Participants in the liberal and conservative treatments were asked to subscribe to up to four liberal or
+conservative outlets on Facebook, respectively (e.g., MSNBC or Fox News), by clicking a “Like Page” button
+embedded at the end of the survey.2 Remarkably, in each treatment, approximately half the participants
+complied by subscribing to at least one outlet. When individuals subscribe to an outlet on Facebook, posts
+shared by the outlet may subsequently appear in their Facebook feed. A post usually contains the story’s
+headline and often includes a link to the full news story on the outlet’s website.
+I designed the experiment to have high external validity. A nudge offering subscriptions to outlets is very
+common on social media and participants could have subscribed to any of these outlets, at no cost, without
+the intervention. Besides the offer, the experiment did not directly intervene in any behavior. The news
+supplied to participants was the actual news provided by leading media outlets during the study period.
+Facebook’s algorithm determined which of the posts shared by the outlets appeared in the participants’
+Facebook feeds. Finally, participants decided whether to skip, read, click, or share posts. As a result, the
+effect of the intervention is almost identical to the experience of millions of Americans who subscribe to
+popular news outlets on Facebook.
+I estimate the effect of the intervention on exposure to news in the Facebook feed, news sites visited, news
+shared, political opinions, and affective polarization, defined as negative attitudes toward the opposing
+political party. Affective polarization is a primary outcome of interest since this measure of polarization has
+been increasing (Iyengar and Krupenkin, 2018), and there are concerns over its implications for governance,
+accountability of elected officials, and even labor markets (Iyengar et al., 2019).
+To measure subscriptions to outlets on Facebook and posts shared, I asked participants to log in to the
+survey using their Facebook account. To measure exposure to news in the Facebook feed and visits to news
+sites, I developed a Google Chrome extension and asked a subset of participants who took the survey on a
+computer using Chrome to install it. To estimate the effect on opinions and attitudes, I invited participants
+to an endline survey approximately two months after the intervention. My sample is composed of 37,494
+participants who completed the baseline survey. 34,592 of those participants provided access to the posts
+they shared for at least two weeks, 1,835 installed the extension for at least two weeks, and 17,635 took the
+endline survey.
+This paper has four main findings. First, exposure to news on social media substantially affects online
+news consumption. Following increased exposure to posts from the randomly offered outlets, participants
+visited the websites of the outlets, even when the outlets did not match their ideology. Visiting the websites
+had a substantial effect on the mean slant of participants’ overall online news consumption. The difference
+between the intention-to-treat (ITT) effects of the liberal and conservative treatments on the slant of news
+1 2008 figure is based on the Pew Research Center 2008 Biennial Media Consumption Survey. The 2019 figure is based on the Pew
+Research Center American Trends Panel Wave 51, July 2019.
+2 To simplify terminology, throughout the paper I will describe the action of “liking” a page of a news organization as subscribing
+to an outlet on Facebook.
+
+1
+
+Page 4 of 116
+
+sites visited in the two weeks following the intervention is 14% of the difference in the slant of sites visited
+by liberals and conservatives in the control group.
+Various economic theories explain why individuals optimally prefer news that matches their ideology
+(Gentzkow, Shapiro and Stone, 2015). However, I find that news consumption strongly responds to an
+exogenous shock to the feed, meaning that individuals often consume news incidentally, and do not fully
+re-optimize their browsing behavior to keep the slant of the news sites they visit constant. The results imply
+that social media algorithms can substantially alter news consumption habits and that while social media is
+associated with pro-attitudinal news, individuals are willing to engage with counter-attitudinal news when
+it is made more accessible on social media.
+My second finding is that exposure to counter-attitudinal news decreases affective polarization, compared to
+pro-attitudinal news. I construct an affective polarization index measuring attitudes toward political parties. The index includes questions such as how participants feel toward their own party and the opposing
+party, i.e., a “feeling thermometer”. When estimating the effects on polarization, I redefine the treatments
+as pro- and counter-attitudinal. For example, a counter-attitudinal treatment is a liberal treatment assigned
+to a conservative participant or a conservative treatment assigned to a liberal participant. The ITT and
+treatment-on-treated (TOT) effects of the counter-attitudinal treatment on the affective polarization index,
+compared to the pro-attitudinal treatment, are -0.03 and -0.06 standard deviations, respectively. The TOT
+effect should be interpreted as the effect on individuals who subscribe to new outlets when nudged to subscribe. Comparing each treatment to the control group suggests that the effect on polarization is driven by
+the counter-attitudinal treatment but this result should be interpreted cautiously since participants in the
+control group were more likely to complete the endline survey (there is no differential attrition between the
+two treatment arms).
+I compare the results to existing benchmarks by focusing on the feeling thermometer questions. The experiment’s ITT and TOT effects decreased the difference between participants’ feelings toward their own party
+and the opposing party by 0.58 and 0.96 degrees on a 0-100 scale over two months, respectively. For comparison, based on the American National Election Survey (ANES), this measure of affective polarization
+increased by 3.83-10.52 degrees between 1996 and 2016.3
+Third, in contrast to the effect on attitudes, I do not find evidence that the slant of news outlets affects political opinions. The effect of the liberal and conservative treatments on a political opinions index focusing
+on issues and political figures covered during the study period is small in magnitude, precisely estimated,
+and not statistically significant.
+The paper’s fourth finding is that Facebook’s algorithm may limit exposure to counter-attitudinal news. I
+show that participants in the counter-attitudinal treatment were exposed to substantially fewer posts from
+the outlets they subscribed to in the intervention, compared to participants in the pro-attitudinal treatment.
+Combined, the results paint a complicated picture. On the one hand, Facebook’s algorithm seems to filter
+counter-attitudinal news, probably since it attempts to personalize news based on the user’s behavior and
+perceived interests. While it is not possible to estimate the effect of specific posts filtered by the algorithm,
+I show that exposure to counter-attitudinal news decreases affective polarization. This suggests that social
+media algorithms may be increasing polarization. On the other hand, this paper also shows that individuals are willing to engage with counter-attitudinal news, and social media platforms provide a setting
+where a subtle nudge can substantially diversify news consumption and consequently decrease affective
+polarization.
+This paper contributes to the literature on social media and news consumption. In his seminal book “The
+Filter Bubble,” Eli Pariser warned that the “era of personalization is here” (Pariser, 2011, p. 19). However,
+recent reviews concluded that “we lack convincing evidence of algorithmic filter bubbles in politics” (Guess
+et al., 2018, p. 12). Papers in this literature typically estimate segregation in online news based on crosssectional analysis of browsing behavior (Gentzkow and Shapiro, 2011; Flaxman, Sharad and Rao, 2016;
+3 The increase in polarization depends on the weights and the respondents included in the sample. When using the ANES faceto-face sample for consistency (Boxell, Gentzkow and Shapiro, 2018), the increase is 3.83. When including also the 2016 web sample
+(Iyengar et al., 2019), the increase is 10.52. The ANES top-codes the thermometer at 97 degrees. The results are almost exactly the same
+when I top-code the results.
+
+2
+
+Page 5 of 116
+
+Peterson, Shared and Iyengar, 2019; Guess, 2020). Since they lack social media data, these papers cannot
+measure segregation within one’s social media feed. One exception is a paper analyzing Facebook data,
+arguing that exposure to counter-attitudinal news shared by friends is mostly limited by individual choices
+and not by algorithmic ranking (Bakshy, Messing and Adamic, 2015). The paper analyzes large data but
+does not exploit exogenous variation. I advance the literature by generating experimental variation in
+subscriptions to outlets and collecting data on exposure to posts from those outlets. This allows me to
+decompose the mechanisms limiting exposure to counter-attitudinal news and demonstrate the existence
+of a filter bubble, i.e., that Facebook’s algorithm is more likely to expose individuals to news matching their
+ideology, conditional on subscription.
+My findings contribute to the literature on social media and polarization by generating variation in the
+main mechanism through which social media is suspected to increase polarization: the distance between
+individuals’ ideology and the slant of their news consumption. Related papers show that the Internet
+and Facebook may increase polarization (Lelkes, Sood and Iyengar, 2015; Allcott et al., 2020), but based
+on demographics, they may not be the primary driver in the rise of polarization (Boxell, Gentzkow and
+Shapiro, 2018).4 These papers focus on the reduced-form effect of social media and do not identify the
+causal effect of pro- or counter-attitudinal news. Indeed, a recent review argues that “it is far from clear
+... that partisan news actually causes affective polarization” (Iyengar et al., 2019, p. 135). To the best of
+my knowledge, this paper provides the first experimental evidence that counter-attitudinal news decreases
+affective polarization and thus demonstrates that nudges diversifying social media news exposure can be
+effective.
+This study also contributes to a well-established literature on media persuasion by randomly assigning
+subscriptions to news outlets. Survey experiments (e.g., Coppock, Ekins and Kirby 2018) and papers with
+quasi-experimental designs (e.g., DellaVigna and Kaplan 2007) find that individuals are persuaded by the
+news they consume.5 While in many contexts field experiments are considered the gold standard for estimating causal effects, field experiments estimating media effects are not common. One notable exception
+is a study randomizing subscriptions to the Washington Post and Washington Times, which does not find
+an effect on opinions but is limited by a relatively small sample size (Gerber, Karlan and Bergan, 2009).
+This paper studies a different setting, social media, and shows how the unique features of this setting affect
+news exposure. Focusing on social media also allows me to analyze engagement with news and quantify
+the effect of news exposure.
+Methodologically, this paper contributes to a growing literature conducting online media-related experiments (Bail et al., 2018; Jo, 2018; Chen and Yang, 2019; Mosquera, Odunowo and Mcnamara, 2019; Allcott
+et al., 2020) by demonstrating how an experiment can exploit social media’s existing infrastructure to gradually distribute news to participants in a natural setting. In contrast to most online experiments, participants were not asked to consume any content or continue complying with the treatment over time, not
+did they receive frequent reminders of the experiment. The natural, unobtrusive intervention means that
+it is unlikely that experimenter effects drive the study’s result. To precisely detect the small effects that are
+expected as a result of a subtle intervention, I collect a sample size that is an order of magnitude larger than
+most other related experiments.
+
+I
+
+Background: Facebook
+
+This study focuses on Facebook since it is the dominant social media platform, used by seven out of ten
+American adults. Most of these users visit Facebook several times a day,6 and the platform accounts for
+45% of all time spent on social media (Williamson, 2018). Despite its prominence, Facebook has been understudied, especially compared to Twitter (Guess et al., 2018).
+4 Other studies estimating the effect of social media on political behavior include Bursztyn et al. (2019), Müller and Schwarz (2019),
+and Enikolopov, Makarin and Petrova (2020). See Zhuravskaya, Petrova and Enikolopov (2020) for a recent review.
+5 Other studies estimating media effects on political outcomes include Chiang and Knight (2011), Gentzkow, Shapiro and Sinkinson
+(2011), Durante, Pinotti and Tesei (2019), and Okuyama (2019). See Strömberg (2015) for a review.
+6 Facebook usage is based on the Pew Research Center January 2019 Core Trends Survey.
+
+3
+
+

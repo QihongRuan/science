@@ -1,0 +1,139 @@
+The impact of the Affordable Care Act: Evidence from
+California's hospital sector
+Journal: American Economic Journal: Economic Policy
+Manuscript ID AEJPol-2019-0279.R3
+Manuscript Type: For Administrative Use Only
+Keywords: I10, I38, H00
+
+Page 1 of 102
+
+Disclosure Statement
+1. I obtained the confidential hospital and Emergency room discharge data under a Data Use
+Agreement with California’s Office of Statewide Health, Planning, and Development
+(OSHPD).
+2. No federal or state agency – including OSHPD – has reviewed the manuscript prior to
+circulation.
+3. I have not received financial support from any interested party in the last three years
+4. I have no paid or unpaid position on any relevant non-profit or for-profit entity, other than
+at the University of Pennsylvania
+5. We received approval from Stanford IRB for this project.
+
+Sincerely
+Atul Gupta
+Assistant Professor
+The Wharton School
+University of Pennsylvania
+
+Page 2 of 102
+
+Disclosure Statement for Mark Duggan
+“The Impact of the Affordable Care Act:
+Evidence from California’s Hospital Sector”
+In reference to the instructions at the following AEA website with disclosure policy:
+https://www.aeaweb.org/journals/policies/disclosure-policy
+1. I did not receive any financial support for my work on the paper referenced above.
+2. I have not received any financial support in the past three years from a party that would
+have a financial, ideological, or political stake in the paper referenced above. I have worked
+as an “Expert” with Cornerstone Research and in one instance with Analysis Group, two
+economic consulting firms. In this capacity, I have advised private sector firms in the health
+care industry including mainly pharmaceutical manufacturers. None of these firms have
+any interest in the results of the research summarized in this paper.
+3. I am the Director of the Stanford Institute for Economic Policy Research and serve on the
+Board of Directors of PAWS (Pets Are Worth Saving) Chicago. I previously served on the
+advisory board of Nuna, Inc., which is a health care analytics startup. This advisory role
+had no impact on the contents of this article, I have not received any financial support from
+this company (though I do have a small equity stake), and this company has no interest in
+the results of the research in this paper.
+4. None of my close relatives have received any financial support for my work on the paper
+referenced above. None of my close relatives have received any financial support in the
+past three years from a party that would have a financial, ideological, or political stake in
+the paper referenced above. None of my close relatives are an officer, director, or board
+member in a profit or non-profit organization that has a relevant relationship to the contents
+of the article referenced above.
+5. No party had the right to review the paper prior to its submission.
+We obtained the confidential hospital and emergency room discharge data under a Data Use
+Agreement (DUA) with California’s Office of Statewide Health, Planning, and Development
+(OSHPD). We have received approval from the IRB at Stanford University for this project.
+
+Page 3 of 102
+
+Disclosure Statement
+1. I obtained the confidential hospital and Emergency room discharge data under a Data Use
+Agreement with California’s Office of Statewide Health, Planning, and Development
+(OSHPD).
+2. No federal or state agency – including OSHPD – has reviewed the manuscript prior to
+circulation.
+3. I have not received financial support from any interested party in the last three years.
+4. I have no paid or unpaid position on any relevant non-profit or for-profit entity.
+5. We received approval from Stanford IRB for this project.
+
+Sincerely
+Emilie Jackson
+Stanford University
+
+Page 4 of 102
+
+The Impact of the Affordable Care Act:
+Evidence from California’s Hospital Sector
+By MARK DUGGAN, ATUL GUPTA, AND EMILIE JACKSON *
+We exploit changes in the discontinuity in health insurance coverage
+at age 65 induced by the implementation of the Affordable Care Act
+to examine effects on coverage, hospital use, and patient health. We
+then link these changes to effects on hospital finances. We show that
+a substantial share of the federally-funded Medicaid expansion
+substituted for existing locally-funded safety net programs. Despite
+this offset, the expansion produced a substantial increase in hospital
+revenue, reflected in an equivalent increase in operating surplus. We
+do not detect improvements in patient mortality, although the
+expansion led to substantially greater hospital and emergency room
+use.
+
+* Duggan: Stanford University, 579 Serra Mall, Stanford, CA 94305 (mgduggan@stanford.edu). Gupta: The Wharton
+School, University of Pennsylvania, 3641 Locust Walk, 306 Colonial Penn Center, Philadelphia 19104
+(atulgup@wharton.upenn.edu). Jackson: NBER, 1050 Massachusetts Ave, Cambridge, MA 02138 (jacksone@nber.org).
+We would like to thank Abby Alpert, Marion Aouad, Bob Kaestner, Matthew Notowidigdo, Mark Shepard, Jacob Wallace,
+Laura Wherry, four anonymous referees, and seminar participants at Arizona, Columbia, Johns Hopkins, Stanford, UCBerkeley, USC, and Wharton along with numerous participants at the AEA, the Annual Health Economics Conference
+(USC), NBER Public Economics, Midwest Health Economics Conference (OSU), Western Economics Association, and
+ASHEcon (DC) for helpful comments. We are also grateful to Betty Henderson-Sparks, Aaron Maggetti, Amy Peterson,
+and Jon Teague of the California Office of Statewide Planning & Health Development for their assistance in providing the
+Hospital/ER discharge data and to Jack Coolbaugh and Catherine Ishitani for excellent research assistance. All remaining
+errors are our own.
+
+The 2010 Patient Protection and Affordable Care Act (ACA) led to the largest
+expansion of publicly funded health insurance coverage since the introduction of
+
+Page 5 of 102
+
+Medicare and Medicaid more than fifty years ago. The main provisions of this
+legislation took effect in January 2014. In states that elected to expand their
+Medicaid programs as allowed for by the ACA, individuals with family incomes at
+or below 138 percent of the federal poverty level (FPL) and without another source
+of coverage could enroll in the means-tested Medicaid program. Those with
+incomes above this threshold, but below 400 percent of the FPL and without
+another source of coverage, could sign up for subsidized private health insurance
+coverage in ACA mandated exchanges. From 2010 to 2017, the number of
+Medicaid recipients nationally rose by 18 million while the number with coverage
+through the ACA exchanges reached 12 million (CMS, 2018).
+This intervention offers a unique opportunity to examine the effects of a
+large expansion of public health insurance in a modern setting. We focus on the
+state of California, which elected to expand Medicaid in January 2014. 1 From 2011
+to 2016, Medicaid enrollment in the state increased from approximately 8 million
+to more than 13 million (thus accounting for about one-third of the national increase
+reported above), and Medicaid spending more than doubled from about $40 billion
+to $90 billion (Taylor, 2017). Additionally, nearly 1.4 million Californians obtained
+their health insurance through the state’s ACA health insurance exchange in 2016,
+the final year of our study period. We use data on the universe of hospital stays and
+emergency room (ER) visits in California combined with detailed data on hospital
+finances from 2008 through 2016. Deploying two complementary research designs,
+we quantify the effects of the ACA expansions for three key stakeholders—
+providers, patients, and taxpayers—interpreted through hospital data.
+We use a novel empirical approach that exploits the pre-existing
+discontinuity in health insurance coverage at age 65 due to the discrete onset of
+
+1
+
+Twenty-four states and Washington, D.C., expanded their Medicaid programs in January 2014. In the six years since
+January 2014, an additional 12 states have expanded or are in the process of expanding Medicaid as called for in the ACA.
+Many of the remaining 14 states are actively considering expansion.
+
+

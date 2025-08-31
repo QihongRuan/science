@@ -1,0 +1,213 @@
+Inducing Cooperation through Weighted Voting and Veto
+Power
+Journal: American Economic Journal: Microeconomics
+Manuscript ID AEJMicro-2018-0309.R4
+Manuscript Type: For Administrative Use Only
+Keywords: F53, D02, D71
+
+Page 1 of 48
+
+Disclosure Statement
+I hereby, Antonin Macé, declare that I have no relevant or material financial interests that
+relate to the research described in this paper
+
+Page 2 of 48
+
+Disclosure Statement
+I hereby, Rafael Treibich, declare that I have no relevant or material financial interests that
+relate to the research described in this paper
+
+Page 3 of 48
+
+Inducing Cooperation through Weighted Voting and Veto
+Power
+By Antonin Macé and Rafael Treibich∗
+We study the design of voting rules for committees representing heterogeneous groups (countries, states, districts) when cooperation among groups is voluntary. While efficiency recommends
+weighting groups proportionally to their stakes, we show that accounting for participation constraints entails overweighting some
+groups, those for which the incentive to cooperate is the lowest.
+When collective decisions are not enforceable, cooperation induces
+more stringent constraints that may require granting veto power
+to certain groups. In the benchmark case where groups differ
+only in their population size (i.e, the apportionment problem), the
+model provides a rationale for setting a minimum representation
+for smaller groups.
+In 1787, when the founding fathers met in Philadelphia to discuss the creation
+of a new constitution, the most contentious issue revolved around the composition of the future legislature. Larger states, led by Virginia, argued in favor of
+a bicameral legislature, under which states would receive a number of seats proportional to their population in both houses. Smaller states rejected the Virginia
+Plan, proposing instead the creation of a single house, under which states would
+receive an equal number of seats, independently of their population. The conflict
+was so serious that smaller states threatened to leave the union if larger states
+insisted on the idea of a purely proportional representation:
+“The small ones would find some foreign ally of more honor and good faith,
+who will take them by the hand and do them justice.”
+Gunning Bedford Jr., representative for Delaware, 1787.
+The issue was resolved by the so-called Connecticut Compromise, and the creation of a bicameral legislature, under which states received a weight proportional
+to their population in the lower house (House of Representatives), but an equal
+∗ Macé: Paris School of Economics, CNRS and ENS, antonin.mace@gmail.com. Treibich: University
+of Southern Denmark, rtr@sam.sdu.dk. This paper was previously circulated under the title “On the
+Weights of Sovereign Nations”. We would like to thank the associate editor and three anonymous
+referees for very valuable advice. We would also like to thank Alessandra Casella, Ernesto Dal Bó,
+Andreas Kleiner, Jean-François Laslier, Michel Lebreton, Aniol Llorente-Saguer, Sharun Mukand and
+Stefan Napel for useful comments, as well as audiences from Barcelona, Berkeley, Copenhagen, Glasgow,
+Hanover, Louvain-la-Neuve, Odense, Paris, Saint-Étienne, and Toulouse. Financial support from the
+ANR-17-CE26-0003 (CHOp) project and the ANR-17-EURE-001 (a French government subsidy managed
+by the Agence Nationale de la Recherche under the framework of the Investissements davenir programme)
+is gratefully acknowledged.
+
+1
+
+Page 4 of 48
+
+2
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+weight in the upper house (Senate). The resulting distribution of seats in the
+Electoral College1 appears as a compromise between the principle of “one man,
+one vote”, leading to efficient and democratic decision-making, and the principle
+of “one state, one vote”, ensuring the voluntary participation of all states. As
+illustrated in Figure 1, this distribution is such that the number of electors per
+capita in each state decreases with the state’s population.
+5
+●
+
+●
+●
+●
+
+Electors / million citizens
+
+4
+
+●
+●
+●
+●
+●
+●●
+●
+
+3
+
+●
+●
+●
+●
+●
+●
+●●
+
+2
+
+●
+● ● ● ●●
+●● ●
+● ● ●●●●
+●●
+
+●
+●
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+●
+
+1
+
+0
+0
+
+10
+
+20
+
+30
+
+40
+
+State population (millions)
+
+Figure 1. Electors per million citizens in the U.S. Electoral College, by state population
+(2017).
+
+The tension between the efficiency of a multi-party institution and its acceptability by all parties is not limited to the episode of the Constitutional Convention.
+In fact, such a tension is also inherently present for many international organizations and confederations, when a set of sovereign states voluntarily commits to
+collectively decide on one or several policy areas. One prominent example is the
+UN Security Council, in which the five permanent members can veto any resolution, thus benefiting from a disproportionate power. The veto power has often
+been criticized for severely reducing the efficiency of the UN and taking away
+much of its relevance on the international scene. However, when the Charter of
+the UN was ratified in San Francisco in 1945, “the issue was made crystal clear by
+the leaders of the Big Five: it was either the Charter with the veto or no Charter
+at all” (Wilcox, 1945). In the UN, as in many international organizations, the
+need to accommodate countries’ voluntary participation is further aggravated by
+1 The Electoral College is a representative committee designed to elect the U.S. president. The number
+of electors obtained by each state corresponds to the sum of its number of senators (2) and of its number
+of representatives in the House. In most states, electors are appointed through a winner-takes-all system.
+The numbers presented in the graph are valid for the elections of 2012, 2016 and 2020 (US Census
+Bureau, 2010).
+
+Page 5 of 48
+
+VOL. VOL NO. ISSUE
+
+3
+
+the lack of external enforcement, since sovereign countries cannot be forced to
+respect the collective decision ex-post.
+The importance of both ex-ante and ex-post participation constraints may vary
+with the nature of collective decisions, sometimes leading to different voting rules
+within the same organization. This is the case for example at the Council of the
+European Union, one of the EU’s main decision-making bodies, where the most
+sensitive decisions are taken at the unanimity, while other type of reforms are
+taken at a double qualified majority.2 At the UN, the General Assembly - who
+has a softer, more deliberative role than the Security Council - gives an equal
+representation to all countries and makes decisions at a two third majority rule.
+As these examples show, participation constraints play a critical role in shaping
+collective decision rules. Although the agreed rules vary significantly across institutions, they all appear to depart from efficiency so as to ensure the voluntary
+participation of all parties. In this article, we propose to study the design of
+voting rules for committees representing heterogeneous groups (countries, states,
+districts) when cooperation among groups is voluntary, and the enforceability of
+collective decisions may not be guaranteed. When should the voting rule depart
+from the efficient benchmark, and if so, which group should be overweighted?
+When should some groups benefit from veto power? To address these questions,
+we take a second-best approach to institutional design by looking for the most
+efficient rules among those that are politically feasible.3
+Our model features a fixed set of countries choosing whether to delegate some of
+their competences to a supranational entity.4 The choice to transfer a competence
+is made unanimously ex ante, before countries learn about their preferences over
+future decisions.5 If cooperation is agreed upon, decisions are made collectively
+according to a predetermined voting rule. If cooperation is rejected, countries
+remain sovereign and make their own decisions.
+Our core assumption is that the choice to delegate reflects a trade-off between
+the efficiency gains from cooperation and a reduced control over decisions. Making collective decisions is profitable for many reasons: it generates coordination
+2 Decisions regarding common foreign and security policy, citizenship (the granting of new rights to
+EU citizens), EU membership, harmonisation of national legislation on indirect taxation, EU finances
+(own resources, the multiannual financial framework), certain provisions in the field of justice and home
+affairs (the European prosecutor, family law, operational police cooperation, etc.), the harmonization of
+national legislation in the field of social security and social protection are taken at the unanimity. Other
+(less sensitive) decisions are taken according to the following rule: a reform is adopted if approved by
+55% of the Member States, representing at least 65% of the EU population. Additionally, a proposal
+cannot be blocked by less than four Member States.
+3 An alternative approach would be to explore which decision rules are likely to arise from a bargaining
+phase among countries in the presence of such constraints. We provide a discussion of this perspective
+in the Conclusion and in Appendix A.9.
+4 For instance, the European Union has exclusive competence over customs unions, competition policy,
+monetary policy (for countries in the Eurozone), common fisheries policy, and common commercial policy.
+The EU also holds shared competence (Member States cannot exercise competence in areas where the EU
+has done so) over various other domains, such as the internal market, agricultural policy, environmental
+policy, and consumer protection. See Treaty of Lisbon (2007b).
+5 The fact that all EU competences must be voluntarily transferred by its Member States is known
+as the principle of conferral (Treaty of Lisbon, 2007a).
+
+

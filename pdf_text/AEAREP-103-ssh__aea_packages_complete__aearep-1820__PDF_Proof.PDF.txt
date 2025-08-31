@@ -1,0 +1,200 @@
+How to Avoid Black Markets for Appointments With Online
+Booking Systems
+Journal: American Economic Review
+Manuscript ID AER-2019-1204.R3
+Manuscript Type: For Administrative Use Only
+Keywords: C92, D47
+
+Page 1 of 58
+
+How to Avoid Black Markets for Appointments With
+Online Booking Systems∗
+Rustamdjan Hakimov†
+
+C.-Philipp Heller‡
+
+Dorothea Kübler§
+
+Morimitsu Kurino¶
+
+January 31, 2021
+
+Abstract
+Allocating appointment slots is presented as a new application for market design. Online
+booking systems are commonly used by public authorities to allocate appointments for visa
+interviews, driver’s licenses, passport renewals, etc. We document that black markets for
+appointments have developed in many parts of the world. Scalpers book the appointments
+that are offered for free and sell the slots to appointment seekers. We model the existing
+first-come-first-served booking system and propose an alternative batch system. The batch
+system collects applications for slots over a certain time period and then randomly allocates
+slots to applicants. The theory predicts and lab experiments confirm that scalpers profitably
+book and sell slots under the current system with sufficiently high demand, but that they are
+∗
+
+We would like to thank the editor and three anonymous referees for their insightful and constructive comments
+and clear guidance. Our special thanks go to Renke Fahl-Spiewack at the German Foreign Office who inspired us to
+work on this problem. We are grateful to Nina Bonge who helped us with conducting the experiments as well as Jennifer Rontganger and Christopher Eyer for copyediting. We thank Georgy Artemov, Péter Biró, Julien Combe, Bob
+Hammond, Akshay Arun Moorthy, Alex Nichifor, Siqi Pan, Antonio Romero-Medina, Yasunari Tamada, Masatoshi
+Tsumagari, Martin Van der Linden, Suvi Vasama, Tom Wilkening, Zhibo Xu, and participants of the Berlin Behavioral Economics Workshop, the European Behavioral Economics Meeting (EBEM) at the University of Bonn, the
+Conference of Behavioral Economics and the Economics of Inequality at the University of Edinburgh, and seminar
+participants at Keio University, Hitotsubashi University, UTS Sydney, University of Melbourne, University of St.
+Andrews, ECONtribute Bonn/Cologne, HSE St. Petersburg, DICE at Düsseldorf University, and FAIR at the University of Bergen for their valuable comments. Dorothea Kübler gratefully acknowledges financial support from the
+Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) through CRC TRR 190 “Rationality and
+Competition” and the Cluster of Excellence “Contestations of the Liberal Script” (EXC 2055) as well as the Leibniz
+SAW project MADEP. Rustamdjan Hakimov acknowledges financial support from the Swiss National Science Foundation project #100018_189152. Morimitsu Kurino acknowledges financial support from from JSPS KAKENHI
+(Grant from Japan Society for the Promotion of Science) and from F-MIRAI at the University of Tsukuba.
+†
+University of Lausanne & WZB Berlin Social Science Center, Internef 536, Quartier de Chamberonne, CH-1015,
+Lausanne, Switzerland; email: rustamdjan.hakimov@unil.ch
+‡
+NERA Economic Consulting, Unter den Linden 14, 10117 Berlin, Germany; email: philipp.heller@nera.com
+§
+WZB Berlin Social Science Center & Technical University Berlin, Reichpietschufer 50, 10785 Berlin, Germany;
+email: dorothea.kuebler@wzb.eu
+¶
+Keio University, Faculty of Economics, 2-15-45 Mita, Minato-ku, Tokyo 108-8345, Japan; email:
+kurino@econ.keio.ac.jp
+
+1
+
+Page 2 of 58
+
+not active in the proposed batch system. We discuss practical issues for the implementation
+of the batch system and its applicability to other markets with scalping.
+
+Keywords: Market design, online booking system, first-come-first-served, scalping, experiments
+JEL classification: C92, D47
+
+2
+
+Page 3 of 58
+
+1
+
+Introduction
+
+Allocation problems where money is not used to coordinate supply and demand have gained the
+attention of economists in recent decades. Well-known examples include the assignment of seats
+at schools and universities. A related problem involves scheduling appointments at public offices.
+Such appointments are provided for free and are necessary to access many essential public services,
+such as obtaining a visa or a driver’s license, or renewing a passport. Lately, many authorities
+have introduced online booking systems that allow appointment seekers to book in advance and
+to avoid queues. Typically, these online booking systems are based on first-come-first-served rules:
+an authority offers time slots on a website, and appointment seekers visiting the website can pick
+any available (not previously booked) slot.
+Such online systems based on first-come-first-served rules are vulnerable to scalping. Scalpers
+are firms that book slots and sell them to appointment seekers. Typically, scalpers use software,
+or bots, to track the system and book slots immediately after they appear. Thus, the firms have
+a technological advantage when it comes to booking speed compared to appointment seekers. A
+black market for appointment slots implies that the political objective of providing equal access to
+the public service, independent of income, may be violated. Moreover, it can be argued that firms
+acting as intermediaries profit undeservedly from public services.1
+The vulnerability of the booking system originates from the fact that once slots become available, they can be booked on a first-come-first-served basis. Scalpers book any open slots with
+fake names or the names of their customers and sell them. For appointments booked under fake
+names, scalpers first cancel and then immediately book the slots under the names of their customers. This re-booking of canceled slots bypasses the barrier imposed by the ID verification of
+the booking system. Thus, while it might seem that ID verification would prevent scalping, the
+scalper’s advantage of speed in the first-come-first-serve system effectively circumvents it.
+A number of prominent cases have surfaced recently where appointment slots at public offices
+were sold on the market. The introduction of an online booking system for appointments with
+the Irish Naturalisation and Immigration Service Center in Dublin led to scalping and a collapse
+of the system (Pollak, 2018). Bots have also been used by scalpers to book all the slots at the
+Préfectures in France where foreigners need to obtain their residence permit. Thus, appointment
+seekers cannot obtain slots directly but instead must buy them from the scalpers (Pascual and
+Corentin, 2019). Fees of up to $500 USD were paid to scalpers to get an appointment for a visa
+interview at the German consulates in Beirut, Tehran, and Shanghai.2
+1
+
+One feature of scalping is that it can help to serve the buyers with the highest valuations. However, we are not
+looking for a solution that maximizes the sum of the valuations of appointment seekers who are served. Instead, we
+propose a system that guarantees equal access, is ex-ante fair by relying on randomization, and is efficient in the
+sense that no slots are wasted.
+2
+See Maxwill (2015). After the events received press coverage, we were contacted by the German Foreign Office
+to consider the problem. This was the starting point of our work. An increase in the demand for appointments
+played a crucial role in 2014 in Beirut where many Syrian refugees tried to get a visa. The German consulates
+
+3
+
+Page 4 of 58
+
+Similar problems have been documented for appointments to obtain a driver’s license at the
+Department of Motor Vehicles in some states in the US (Cabanatuan, 2018). In Berlin, appointment slots at public offices were offered for money on a private website (Beitzer, 2015). In both
+instances, policymakers have tried to take legal action, but without success.
+Appointments at public hospitals in China can be booked online, and the cost of service has
+to be paid at the moment of booking. Scalpers sell these appointments at prestigious hospitals for
+up to 50 times their face value (Wong, 2016; Wanli, 2016). Thus, scalping can also be profitable
+when people pay for appointments if the price is not determined by supply and demand.
+The allocation of appointment slots shares some similarities with – but also differs from –
+ticket markets for sporting events and concerts as well as air travel tickets. The organizers of
+sporting events and concerts often set prices below the market-clearing price out of fairness or
+image concerns, and thus face the challenge of resale markets and scalping. In contrast to these
+markets, the appointment slots have IDs attached to them, and scalping occurs despite this feature.
+We will show how our proposed booking system for appointments that are free of charge relates
+to but differs from solutions proposed for event ticketing (Bhave and Budish, 2017; Leslie and
+Sorensen, 2014; Courty, 2019). Airline tickets for which scalping is not observed have IDs attached
+to them and are allocated through a first-come-first-served system. However, speed does not
+matter, since tickets are made available before the full demand is realized, and airlines do not
+make canceled tickets available for new customers at the old price.
+We first study a typical online system for scheduling appointments. We present a model of the
+first-come-first-served (“immediate”) system where slots can be booked instantaneously, and solve
+for an equilibrium in this system. We demonstrate that in equilibrium scalpers can profitably
+book and sell slots to appointment seekers under reasonable parameters of the first-come-firstserved system.
+We propose an alternative system that collects applications in real time, and randomly allocates
+the slots among applicants (“batch” system). The system works as follows: A set of slots (batch)
+is offered, and applications are collected over a certain time period, e.g., for one day. At the end
+of the day, all slots in the batch are allocated to the appointment seekers. Thus, the allocation is
+in batches, not immediate as in the first-come-first-served system. In the case of excess demand,
+a lottery decides who gets a slot. If a slot is canceled, this slot is added to the batch in the next
+allocation period, e.g., the following day. Thus, the scalper cannot transfer the slot from the fake
+name to the customer by way of cancellations and re-bookings.
+We show that under reasonable parameter restrictions, the scalper not entering the market is
+the unique equilibrium outcome of the batch system. The intuition for this result is that, keeping
+observed that open slots were almost immediately taken and that there was a high proportion of no-shows for
+the booked appointments. The German Foreign Office implemented a number of changes, such as delaying the
+re-opening of slots after their cancellation, increasing the number of slots, outsourcing the services to private firms,
+and allocating some slots via email. However, scalpers are still active. See also “Privatsache Visavergabe” in: Die
+tageszeitung (taz), October 18, 2017.
+
+4
+
+Page 5 of 58
+
+the booking behavior of the scalper fixed, a seeker has the same probability of getting a slot when
+buying from the scalper as when applying directly. Flooding the market with fake applications
+increases the probability that the scalper will receive many slots, but he cannot make sure that he
+gets slots for his clients, and he cannot transfer slots to the names of the clients. Thus, given the
+booking choice of the scalper, the seekers will always prefer to apply directly if the price for the
+scalper’s service is positive.
+The batch system has two important features relative to the immediate system: first, it eliminates the importance of speed, and second, it prevents the possibility of transferring the identity
+of the slots booked under fake names to the names of the clients through cancellations and rebookings. Both features are necessary to avoid scalping. To see this, consider two alternative
+systems where only one of the two features holds, respectively. First, if the scalper is faster than
+the seekers but cannot transfer the identity of slots, he can still profitably operate in the market if
+seekers ask the scalper to book slots on their behalf (as in our experiment and in the case of train
+tickets in India discussed in section 4.3.3). Second, in a batch system where speed does not matter
+but bookings do not require identification, the scalper can flood the market with fake applications,
+is virtually guaranteed to receive all slots under fake names, and can sell the slots to seekers in a
+secondary market. This holds true for some ticket markets for sporting events and concerts (as
+discussed in section 4.3.1).
+The first feature of the batch system, namely eliminating the relevance of speed, parallels the
+proposal by Budish et al. (2015) to replace continuous-time trading at financial exchanges with
+frequent batch auctions. Similar to Budish et al. (2015), we show that an allocation system where
+speed determines the priorities creates an advantage for the scalper. In our setup, however, there is
+an additional drawback to speed: it makes ID verifications irrelevant, which is novel. While batch
+auctions transform competition on speed into competition on price, the batch booking system
+transforms competition on speed into equal access via lotteries. For equal access via lotteries to be
+effective, ID checks are needed–these checks are not necessary when an auction is used to eliminate
+scalping.
+Based on a parameterized version of the model, we conducted a set of lab experiments. We find
+that the scalpers’ choices in the experiment are in line with the theoretical predictions: scalpers
+only persistently and profitably enter the market in the immediate system when demand is high,
+i.e., when there are enough appointment seekers to cover the scalper’s costs. Furthermore, in line
+with the theory, the experiments show that the proposed batch system does not allow the scalpers
+to make a profit, and that market entry is rare. Finally, the batch system leads to higher average
+welfare for the seekers than the immediate system, as predicted.
+For the actual implementation of the proposed batch system, certain features of the design are
+crucial. We discuss these practicalities such as the length of the time interval in which applications
+for a batch of slots are possible in section 4. We also discuss possible alternative measures to fight
+scalping and show that they do not preclude scalping under the first-come-first-served system or
+5
+
+

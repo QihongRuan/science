@@ -1,0 +1,97 @@
+Table D1 Manuscript vs descriptive_statistics.tex
+Table D1 Manuscript
+
+Table D1 descriptive_statistics.tex
+\begin{table}[!htbp]\centering
+\scriptsize
+\begin{threeparttable}
+\caption{Descriptive Statistics}
+\label{T:descripive}
+\begin{tabular}{lllll}
+\hline\hline
+&\textbf{Variable}&\textbf{Mean}&\textbf{Std. Dev.}&\textbf{1st $\%$}\\
+\hline
+\textbf{Age}&53.9&15.6&25.4&84.1\\
+\textbf{Female}&0.4&NaN&NaN&NaN\\
+\textbf{Single}&0.22&NaN&NaN&NaN\\
+\textbf{Married}&0.55&NaN&NaN&NaN\\
+\textbf{Second Driver}&0.43&NaN&NaN&NaN\\
+\textbf{Insurance Score}&767&112&532&985\\
+\hline\end{tabular}
+\caption*{Note: $^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}
+\end{threeparttable}
+\end{table}
+
+Table D2 Manuscript vs deductible_choices.tex
+Table D2 Manuscript
+
+Table D2 deductible_choices.tex
+\begin{table}[!htbp]\centering
+\scriptsize
+\begin{threeparttable}
+\caption{Frequency of Deductible Choices Across Contexts}
+\label{T:deductible}
+\begin{tabular}{lllllll}
+\hline\hline
+&\textbf{Deductible}&\textbf{1000}&\textbf{500}&\textbf{250}&\textbf{200}&\textbf{100}\\
+\hline
+\textbf{Collision}&0.063&0.676&0.122&0.129&0.009&NaN\\
+\textbf{Comprehensive}&0.037&0.43&0.121&0.329&0.039&0.044\\
+\textbf{Home}&0.176&0.559&0.262&NaN&0.002&NaN\\
+\hline\end{tabular}
+\caption*{Note: $^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}
+\end{threeparttable}
+\end{table}
+
+Table D4 Manuscript vs premiums.tex
+Table D4 Manuscript
+
+Table D4 premiums.tex
+\begin{table}[!htbp]\centering
+\scriptsize
+\begin{threeparttable}
+\caption{ Average Premiums Across Coverages}
+\label{T:premium}
+\begin{tabular}{lllllll}
+\hline\hline
+&\textbf{Deductible}&\textbf{1000}&\textbf{500}&\textbf{250}&\textbf{200}&\textbf{100}\\
+\hline
+\textbf{Collision}&145&187&243&285&327&NaN\\
+\textbf{Comprehensive}&94&117&147&155&178&224\\
+\textbf{Home}&594&666&720&NaN&885&NaN\\
+\hline\end{tabular}
+\caption*{Note: $^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01}
+\end{threeparttable}
+\end{table}
+
+Table E6 Manuscript vs ARC_broadwelfareloss.tex
+Table E6 Manuscript
+
+Table E6 ARC_broadwelfareloss.tex
+
+\begin{table}[!htbp]\centering
+\normalsize
+\begin{threeparttable}
+\caption{Expected Welfare Loss by Group}
+\label{T:ARCwelfare}
+\begin{tabular}{lll}
+\hline\hline
+&\multicolumn{2}{c}{\textbf{Expected Monetary Loss}}\\
+\hline\\[-1.5ex]
+\textbf{All}&$-50.2$&[-52.4, -47.3]\\\\[-1.5ex]
+\textbf{Female Driver}&$-54.3$&[-56.8, -51.0]\\\\[-1.5ex]
+\textbf{Single Driver}&$-45.1$&[-47.1, -42.3]\\\\[-1.5ex]
+\textbf{Young}&$-45.5$&[-47.2, -43.2]\\\\[-1.5ex]
+\textbf{Old}&$-65.4$&[-69.3, -59.4]\\\\[-1.5ex]
+\textbf{Low Credit Driver}&$-47.6$&[-49.3, -44.9]\\\\[-1.5ex]
+\textbf{High Credit Driver}&$-54.3$&[-57.3, -50.3]\\\\[-1.5ex]
+\hline\end{tabular}
+\end{threeparttable}
+\end{table}
+
+Figure E6 - Manuscript vs ARC_broad_MonetaryLoss_X.pdf
+Figure E6 - Manuscript
+
+Figure E6 ARC_broad_MonetaryLoss_X.pdf
+
+

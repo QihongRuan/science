@@ -1,0 +1,159 @@
+Teenage Driving, Mortality, and Risky Behaviors
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0653.R3
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+28-Feb-2021
+Author:
+Complete List of Authors: Huh, Jason; Rensselaer Polytechnic Institute, Economics
+Reif, Julian; University of Illinois, Finance
+Keywords: I10, H75, R40
+
+Page 1 of 57
+
+Dear Editorial Board,
+I am writing to submit a Disclosure Statement for my co-authored manuscript, “Teenage Driving,
+Mortality, and Risky Behaviors,” for consideration at AER: Insights. I declare that I have no relevant or
+material financial interests that relate to the research described in this paper.
+We did not seek IRB approval for this project as it is based on previously collected data and thus falls outside
+of the scope of what constitutes human subjects research.
+
+Sincerely,
+Julian Reif
+
+Page 2 of 57
+
+Dear Editorial Board,
+I am writing to submit a Disclosure Statement for my co-authored manuscript, “Teenage Driving,
+Mortality, and Risky Behaviors,” for consideration at AER: Insights. I declare that I have no relevant or
+material financial interests that relate to the research described in this paper.
+We did not seek IRB approval for this project as it is based on previously collected data and thus falls outside
+of the scope of what constitutes human subjects research.
+
+Sincerely,
+Jason Huh
+
+Page 3 of 57
+
+Teenage Driving, Mortality, and Risky Behaviors∗
+Jason Huh
+
+Julian Reif
+
+Rensselaer Polytechnic Institute
+
+University of Illinois
+and NBER
+
+February 2021
+
+Abstract
+We investigate the effect of teenage driving on mortality and risky behaviors in the
+United States using a regression discontinuity design. We estimate that total mortality
+rises by 5.84 deaths per 100,000 (15%) at the minimum legal driving age cutoff, driven
+by an increase in motor vehicle fatalities of 4.92 deaths per 100,000 (44%). We also
+find that poisoning deaths, which are caused primarily by drug overdoses, rise by 0.31
+deaths per 100,000 (29%) at the cutoff and that this effect is concentrated among
+females. Our findings show that teenage driving contributes to sex differences in risky
+drug use behaviors.
+JEL Codes: I1, H75, R4
+Keywords: teenage driving, risky behaviors, drug overdoses, poisonings
+
+∗
+
+We are thankful for comments from Kitt Carpenter, Tatyana Deryugina, Carlos Dobkin, Yingying Dong,
+Michael Frakes, Don Fullerton, Jonathan Hall, Ellen Meara, Nolan Miller, Nicolas Ziebarth, and participants
+at the Chicago Booth Junior Health Economics Summit and the UIUC Applied Economics Workshop.
+
+1
+
+Page 4 of 57
+
+1
+
+Introduction
+
+Suicides and motor vehicle accidents are the two leading causes of death for teenagers in
+the United States. Both often involve substance abuse, which itself is also a leading cause
+of teenage death. Over 25% of all teenage hospitalizations are related to mental health
+or substance abuse disorders (Heslin and Elixhauser, 2016). Yet, the determinants of risky
+behaviors among youth remain poorly understood, and what little we know about the drivers
+of risky behaviors among adults may not apply to teenagers. For example, drug overdose
+deaths among teenagers declined between 2007 and 2014, in stark contrast to the significant
+nationwide increase in adult “deaths of despair” that has received much attention from
+researchers (Case and Deaton, 2015, 2017).
+We investigate the effects of teenage driving on mortality and risky behaviors. While
+driving undoubtedly increases motor vehicle mortality risk, the magnitude of this risk is
+hard to quantify. Moreover, driving enables teenagers to participate in unsupervised risky
+behaviors away from home, which may in turn lead to changes in mental health or drug use
+that have additional effects on mortality risk. Investigating these links can shed light on the
+determinants of risky behaviors among youth. However, identifying the effects of driving on
+teenage outcomes is challenging. Individual-level data on driving behaviors are scarce, and
+comparing the behaviors of drivers to non-drivers is unlikely to yield causal estimates because
+the decision to obtain a license is voluntary. In addition, detecting changes in important but
+rare outcomes such as drug-related mortality requires large sample sizes.
+We overcome these challenges by using a regression discontinuity (RD) approach to identify the causal effect of teenage driving on a number of outcomes.1 Our research design
+exploits variation in driving eligibility caused by the minimum legal driving age (henceforth
+“minimum driving age” or “MDA”), which creates large differences in the teenage driver
+population on either side of the MDA cutoff. We employ a confidential dataset that includes information about month and year of birth for over 500,000 teenage deaths during
+1983–2014, which enables us to compare mortality rates for teenagers just above the MDA
+to mortality rates for teenagers just below the MDA. We estimate that driving eligibility
+increases teenage mortality by 5.84 deaths per 100,000 (15%) at the MDA cutoff. This effect
+is driven primarily by an increase in motor vehicle fatalities of 4.92 per 100,000 (44%).
+We also estimate that teenage poisoning deaths rise by 0.314 deaths per 100,000 (29%)
+at the cutoff. This poisoning effect is driven by a stark rise in female drug overdose deaths of
+0.646 per 100,000 (78%) and an accompanying rise in female gas poisoning deaths of 0.127
+1
+
+Our analysis controls for the family-wise error rate in order to address the multiple inference concern
+that arises when testing many hypotheses. See Section 4 for details.
+
+2
+
+Page 5 of 57
+
+per 100,000 (82%).2 These deaths reflect changes in both suicides and accidental deaths,
+although our analysis suggests that the increase in poisoning suicides reflects substitution
+away from other methods of suicide. By contrast, we find no effect on male poisoning
+deaths. This null effect is meaningfully precise: the 95% confidence interval rules out the
+corresponding female estimate.
+The most common MDA during our sample period is 16, which raises the concern that
+our results might be driven by a “birthday effect” or some other regulation that takes effect
+at age 16, such as the federal minimum legal working age or a state’s minimum school leaving
+age. However, the discontinuities that we observe are long-lasting, which is inconsistent with
+a temporary birthday effect, and we do not detect changes in the probability of working or
+leaving school at the MDA cutoff. Furthermore, our main results are similar when we limit
+our analysis to the subsample of states with MDAs other than 16. We therefore conclude
+that the MDA is the causal mechanism underlying our results.
+Youth risky behaviors differ significantly by sex. During our sample period, 29% of young
+female deaths from suicides and accidents were caused by poisonings, compared to just 15%
+for young males. Prior studies have also noted that poisonings make up a significantly larger
+share of young female suicides than young male suicides (Ruch et al., 2019). Our results
+reveal that teenage driving contributes to these behavioral differences among male and female
+youth.
+Much of the research on the causal determinants of drug abuse comes from studies of
+adults. For example, several studies find that drug overdose deaths increase after the first
+of the month and following the receipt of money, suggesting a causal relationship between a
+“full wallet” and substance abuse (Phillips, Christenfeld and Ryan, 1999; Riddell and Riddell,
+2006; Dobkin and Puller, 2007; Evans and Moore, 2012). Less is known about the causal
+determinants of drug abuse among adolescents.3 Indeed, Gruber (2001) calls for economists
+to pay more attention to the risk-taking behavior of youth, noting that while economic
+incentives appear to matter, most of the variation remains unexplained. Anderson (2010),
+who finds no effect of a Montana anti-drug advertising campaign on methamphetamine use
+among highschoolers, emphasizes the need for further research on the determinants of illegal
+2
+
+During our sample period, about 80% of teenage poisoning deaths are caused by drug overdoses and
+about 20% are caused by gas poisonings. Most gas poisoning deaths are caused by carbon monoxide.
+3
+Most of the prior literature on youth drug use focuses on tobacco, alcohol, and marijuana (e.g., Glied,
+2002; Cawley, Markowitz and Tauras, 2004; Carpenter et al., 2019). Drug overdose deaths among teenagers,
+however, are mostly caused by opioids (both illegal and prescription) and sedatives. The teenage driving
+literature has investigated the effects of Graduated Driver Licensing laws on motor vehicle fatalities (Dee,
+Grabowski and Morrisey, 2005; Morrisey et al., 2006; Karaca-Mandic and Ridgeway, 2010; Gilpin, 2019) and
+on crime (Deza and Litwok, 2016), and has investigated the effects of the MDA on crash risk (Foss et al.,
+2011; Chapman, Masten and Browning, 2014; Curry et al., 2015).
+
+3
+
+

@@ -1,0 +1,157 @@
+Digitization and Pre-Purchase Information: The Causal and
+Welfare Impacts of Reviews and Crowd Ratings
+Journal: American Economic Review
+Manuscript ID AER-2020-0153.R3
+Manuscript Type: For Administrative Use Only
+Keywords: L15, L81
+
+Page 1 of 43
+
+Page 2 of 43
+
+Disclosure Statement - Joel Waldfogel
+No external financial support was obtained for this research. The authors have no relevant or
+material financial interests that relate to the research described in this paper.
+
+Page 3 of 43
+
+Digitization and Pre-Purchase Information: The Causal
+and Welfare Impacts of Reviews and Crowd Ratings
+By Imke Reimers and Joel Waldfogel*
+Digitization has led to many new creative products, straining the
+capacity of professional critics and consumers. Yet, the digitization of retailing has also delivered new crowd-based sources of
+pre-purchase information. We compare the relative impacts of
+professional critics and crowd-based Amazon star ratings on consumer welfare in book publishing. Using various fixed effects and
+discontinuity-based empirical strategies, we estimate their causal
+impacts on sales. We use these causal estimates to calibrate a
+structural demand model. The aggregate effect of star ratings on
+consumer surplus is, in our baseline estimates, more than ten
+times the effect of traditional review outlets.
+JEL: L15, L81
+When choosing among experience goods, consumers benefit from guidance prior
+to purchase. Traditionally, professional critics – such as product reviewers in
+prominent media outlets – played important roles in providing this guidance.1
+One of digitization’s many impacts has been a sharp increase in the number of
+new creative products. While the number of new products has always exceeded
+the capacity of professionals to review them, this gap has only grown with digitization.2 Crowd-based ratings – such as Amazon stars – on the other hand, are
+available for essentially all products, raising the possibility that another facet of
+digitization, ubiquitous crowd ratings, can provide information that allows the
+realization of welfare gains from new products.
+These considerations raise the question of how the new crowd-based pre-purchase
+information made available by digitization affects purchase behavior and, by extension, welfare. To address this, we ask the following specific questions. First,
+do professional reviews and crowd ratings have causal impacts on demand; and if
+so, how large are these impacts? Second, how do the two pre-purchase information institutions – professional reviews and crowd ratings – affect the welfare of
+* Reimers: Department of Economics, Northeastern University (email: i.reimers@northeastern.edu).
+Waldfogel: Carlson School of Management and Department of Economics, University of Minnesota,
+NBER, and ZEW (email: jwaldfog@umn.edu). We are grateful to seminar and conference participants
+at Chapman University, Cornell University, the University of Georgia, the University of Gießen, the
+University of Luxembourg, the University of Minnesota, the NBER Summer Institute, the National
+Taiwan University, Northeastern University, the Pennsylvania State University, Queens University, Tel
+Aviv University, Toulouse School of Economics, ZEW, and the University of Zurich. We thank Judith
+Chevalier, Christian Helmers and Maria Ana Vitorino, as well as the referees and editor, for comments.
+1 See Deutschman (2004), Pompeo (2017), or Martin (2011) for descriptions of various professional
+critics and their influence on product markets.
+2 See Waldfogel (2017) for evidence on the growth in new products. In 2014 New York Times film
+critic Manohla Dargis implored the film industry to make fewer movies. See Dargis (2014).
+
+1
+
+Page 4 of 43
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+consumers? Finally, has the growth of crowd-based rating systems reduced the
+influence of professional reviews?
+We address these questions in the book market, which provides an auspicious
+study context for a few reasons. First, books are experience goods, so that prepurchase information is especially useful. Second, the number of professional
+reviews, and particularly the number appearing in highly visible outlets, is relatively small and therefore feasible to observe and quantify. Third, and perhaps
+most important, we have high-frequency data on book demand at Amazon –
+which accounts for about 45 percent of the US physical book market – that helps
+identify causal relationships.3 We have daily measures of Amazon sales ranks
+and their crowd-based star ratings, for 21,546 editions (from 10,641 titles) selling
+during 2018, for three English-language Amazon sales domains (the US, Canada,
+and the UK).
+Reviews and star ratings are inherently endogenous, as raters and reviewers
+decide whether and when to give feedback, in addition to what they write. More
+appealing books sell more and receive more positive feedback. Our high-frequency
+data from multiple platforms allow us to deal with this endogeneity using two
+strategies, one for professional reviews and one for star ratings. We treat the appearance of a professional review as a discontinuous jump in attention delivered
+to the title, and we look for a corresponding jump in our daily sales measure.
+We measure the impacts of star ratings with an approach in the spirit of Chevalier and Mayzlin (2006), employing both book fixed effects and cross-platform
+intertemporal comparisons.
+Our descriptive analysis gives us causal evidence on the links between prepurchase information – reviews and ratings – and sales ranks. Quantification of
+the importance of these two mechanisms requires a framework for welfare analysis.
+Our measured welfare effects of ratings and reviews allow the consumers’ ex ante
+choice utilities – when consumers have limited pre-purchase information – to differ
+from their ex post consumption utilities. Calculating welfare effects requires two
+translational steps beyond the causal evidence. First, we transform effects of prepurchase information on sales ranks into effects on quantities. This allows the
+calculation of the elasticities of quantity sold with respect to the Amazon price
+and the star rating, as well as the percentage impacts of professional reviews on
+sales. Second, we use our estimated elasticities to calibrate nested logit (and
+Marshallian) models of demand that facilitate welfare analysis. We also support
+our interpretation of pre-purchase information with evidence, from individuals’
+Amazon book ratings, that consumers who buy professionally reviewed titles enjoy
+them.
+We have four broad findings. First, professional review outlets, notably the
+New York Times, have clear impacts on sales. In the five days following a New
+York Times review, a book’s estimated sales improve by 55 percent. Sales for
+3 See
+https://www.publishersweekly.com/pw/by-topic/industry-news/financial-reporting/
+article/78929-print-unit-sales-increased-1-3-in-2018.html.
+
+Page 5 of 43
+
+VOL. VOL NO. ISSUE
+
+WELFARE EFFECTS OF PRE-PURCHASE INFORMATION
+
+3
+
+this time interval improve by roughly 80 percent if the book is not only reviewed
+but also “recommended” by the New York Times. Over the entire year, a New
+York Times review raises sales by 2.8 percent. Second, the crowd also has clear
+effects on sales: The elasticity of sales with respect to Amazon stars averages
+0.63, and it is larger when the stars are based on more underlying ratings. Third,
+per title, the effects of professional reviews are about twice as large as the effects
+of star ratings; but in the aggregate, professional reviews raise consumer surplus
+by $3.18 million while the aggregate effect of Amazon star ratings ($35.83 million
+using our baseline approach) is over ten times larger. Despite operating only on
+the Amazon platform, which is just under half of the book market, effects of the
+crowd dwarf professional review effects because star ratings are ubiquitous while
+only a small share – a few percent of the thousands of books published per year
+– have prominently visible professional reviews. While improved pre-purchase
+information can affect welfare either by inducing substitution among products
+or by expanding the market, the welfare gains we calculate arise almost entirely
+from consumer substitution of better for worse books. Finally, we do not find
+evidence of substitution between reviews and star ratings: The effect of a New
+York Times review, in a supplementary analysis covering weekly sales from 2004
+to 2018, has not waned with the growth of digitization.
+We conclude that digitization has delivered not only a proliferation of new
+products but also new information mechanisms that add substantially to the
+value of the pre-purchase information available to consumers from traditional
+review sources. These crowd-based reviews provide pre-purchase information on
+essentially all products, including those in categories neglected by professional
+critics, and they do so without undermining the effects of professional critics on
+the books and genres professionals do cover.
+The paper proceeds in eight sections. Section I provides background on the
+book market, the evolution of the information environment with digitization, and
+a discussion of the existing literature. Section II presents a simple theory of choice
+with and without pre-purchase product information, which organizes our descriptive and welfare analyses. Section III describes our main data on Amazon sales
+ranks, star ratings, and prices, as well as reviews in major newspapers. Section
+IV presents our empirical strategies for measuring causal impacts of professional
+reviews and star ratings on sales, as well as empirical estimates and translations
+of these into effects on quantities sold. Section IV also provides evidence, from
+a supplementary dataset on individual user star ratings (Ni, Li and McAuley,
+2019), that consumers who buy professionally reviewed titles enjoy them. Section
+V then turns to welfare analysis. Using structural demand models calibrated to
+our causal quantity estimates, we measure the respective welfare gains arising
+from Amazon star ratings and professional reviews. Section VI demonstrates the
+robustness of our welfare results to an alternative, descriptive model of consumer
+surplus as well as an alternative model of the pre-purchase information consumers
+would have in the absence of digitization. Section VII examines the complemen-
+
+

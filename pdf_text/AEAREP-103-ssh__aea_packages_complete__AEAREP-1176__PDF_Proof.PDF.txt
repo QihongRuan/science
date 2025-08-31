@@ -1,0 +1,145 @@
+Methods Matter: P-Hacking and Publication Bias in Causal
+Analysis in Economics
+Journal: American Economic Review
+Manuscript ID AER-2019-0687.R3
+Manuscript Type: Regular Submission - High Income Country - Member
+Keywords: A11, B41, C13
+
+Page 1 of 102
+
+Abel Brodeur
+University of Ottawa
+120 University, Social Sciences Building
+ON, Canada K1N 6N5
+abrodeur@uottawa.ca
+
+th 2020
+
+Ottawa, July 12
+
+Disclosure statement
+
+To whom it may concern,
+I declare that I have no nancial or business interests that relate to the research submitted
+Methods Matter: P-Hacking and Publication Bias in Causal Analysis in Economics.
+
+I also
+
+declare that no other party had the right to review the paper prior to its circulation.
+
+Abel Brodeur
+
+Page 2 of 102
+
+Nikolai Cook
+University of Ottawa
+120 University, Social Sciences Building
+Ontario, Canada
+K1N 6N5
+nikolaimcook@gmail.com
+July 8, 2020
+Disclosure Statement for
+“Methods Matter: P-Hacking and Publication Bias in Causal
+Analysis in Economics”
+I declare I have no financial or business interests that relate to the research
+submitted.
+I declare I have not received financial support from any interested parties.
+I declare that no other party had the right to review the paper prior to its
+circulation.
+Nikolai Cook
+
+Page 3 of 102
+
+“Methods Matter: P-Hacking and Publication Bias in Causal Analysis in
+Economics” (by Brodeur, Cook and Heyes)
+
+Disclosure statement for author ANTHONY HEYES
+
+The author declares that he has no relevant or material financial interests that
+relate to the research described in this paper.
+
+Page 4 of 102
+
+Methods Matter: P-Hacking and Publication Bias in
+Causal Analysis in Economics
+By Abel Brodeur, Nikolai Cook, and Anthony Heyes∗
+The credibility revolution in economics has promoted causal identification using randomized control trials (RCT), difference-indifferences (DID), instrumental variables (IV) and regression discontinuity design (RDD). Applying multiple approaches to over
+21,000 hypothesis tests published in 25 leading economics journals
+we find that the extent of p-hacking and publication bias varies
+greatly by method. IV (and to a lesser extent DID) are particularly problematic. We find no evidence that: (1) Papers published
+in the ‘Top 5’ journals are different to others; (2) The journal ‘revise and resubmit’ process mitigates the problem; (3) Things are
+improving through time.
+JEL: A11, B41, C13, C40, I23
+Keywords: P-hacking - publication bias - research methods - causal
+inference - p-curves
+The credibility revolution in empirical economics has been marked by a shift
+towards using methods explicitly focused on causal inference (Angrist and Pischke, 2010). Experimental and quasi-experimental methods, namely randomized
+control trials (RCT), difference-in-differences (DID), instrumental variables (IV)
+and regression discontinuity design (RDD), have become the norm in applied
+microeconomics (Biddle and Hamermesh (2017); Panhans and Singleton (2017)).
+In this paper we explore the relationship between inference method and statistical significance. Evidence of selective publication and specification searching in
+economics and other disciplines is by now voluminous (Ashenfelter et al. (1999);
+Bruns et al. (2019); Casey et al. (2012); De Long and Lang (1992); Havránek
+(2015); Henry (2009); Ioannidis (2005); Ioannidis et al. (2017); Leamer (1983);
+Leamer and Leonard (1983); Lenz and Sahn (forthcoming); McCloskey (1985);
+Simmons et al. (2011); Stanley (2008)). Publication bias, whereby the statistical significance of a result determines the probability of publication, is likely
+∗ Brodeur: Department of Economics, University of Ottawa, 120 University, Social Sciences Building,
+Ottawa, Ontario K1N 6N5, Canada. E-mail: abrodeur@uottawa.ca. Cook: Department of Economics,
+University of Ottawa, 120 University, Social Sciences Building, Ottawa, Ontario K1N 6N5, Canada. Email: ncook@uottawa.ca Heyes: Department of Economics, University of Ottawa, 120 University Private,
+Ottawa, Ontario, Canada, K1N 6N5 and University of Exeter Business School, Rennes Drive, Exeter,
+United Kingdom EX4 4ST. E-mail: anthony.heyes@uottawa.ca. We are grateful to Stefano DellaVigna,
+Thomas Lemieux and four anonymous referees for suggestions and comments. We also thank Andrew
+Foster, Jason Garred, Dan Hamermesh, Fernando Hoces de la Guardia, Pierre Mouganie, Jon de Quidt,
+Matt Webb and seminar participants at the 4th IZA Junior/Senior Symposium, ASSA annual meeting,
+BITSS annual meeting, Carleton University, MAER-Net Colloquium and the University of Ottawa for
+useful remarks and encouragement. We thank Mohammad Al-Azzam, Lauren Gallant, Joanne Haddad,
+Jessica Krueger and Taylor Wright for research assistance. Errors are ours.
+
+1
+
+Page 5 of 102
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+a reflection of the peer review process. The term p-hacking refers to a variety of practices that a researcher might (consciously or unconsciously) use to
+generate ‘better’ p-values, perhaps (but not necessarily) in response to the difficulty of publishing statistically insignificant results (Abadie (2020); Blanco-Perez
+and Brodeur (forthcoming); Doucouliagos and Stanley (2013); Furukawa (2019);
+Havránek et al. (2018); Stanley (2005)).1 The link between method and statistical significance could be of interest to policymakers or others who use empirical
+evidence to inform decisions and policies, as publication bias and p-hacking will
+create literatures with an artificially high percentage of false positives.
+The central questions in this paper are: (1) What is the extent of p-hacking
+and publication bias in leading economics journals? (2) Does it depend upon the
+method of inference used, or other author and article characteristics? (3) Does the
+review process exacerbate or attenuate the problem? (4) Is there improvement
+over time?
+To answer these and a number of secondary questions we harvest the universe of
+hypothesis tests reported in papers using these four methods in 25 top economics
+journals for the years 2015 and 2018.
+Taken as a whole, the distribution of published test statistics exhibits a twohumped or camel shape, with ‘missing’ tests just before conventional significance
+thresholds, i.e., z = 1.65, and a ‘surplus’ just after (Brodeur et al., 2016). The
+pattern is similar across Top 5 and non-Top 5 journals, and there is no discernible
+change in pattern over time. We also find much less p-hacking in our sample
+of tests from economic journals than has been found in other disciplines such
+as political science and sociology (Gerber and Malhotra (2008a); Gerber and
+Malhotra (2008b)).
+We use three approaches to document the differences in p-hacking, all of which
+compare the quasi-experimental methods against the benchmark of RCTs. Ravallion et al. (2018) observes how the RCT, randomization by the researcher, has
+come to be widely regarded as the gold standard against which to compare observational results. Imbens (2010) asserts that “(R)andomized experiments occupy
+a special place in the hierarchy of evidence, namely at the very top.”2
+First, we test for discontinuities in the probability of a test statistic appearing just above or below a conventional statistical threshold. If the underlying
+distribution of test statistics (for any method) is continuous and infinitely differentiable, any surplus of outcomes just above a threshold is taken as evidence of
+publication bias or p-hacking. We find that IV and DID test statistics are not
+distributed equally around the one- and two-star significance thresholds. Within
+10% of the threshold (1.76 < z < 2.16), there are 18% more significant than
+1 Such practices might include continuing to collect data, strategically selecting covariates, or imposing
+sample restrictions until a significance threshold is met.
+2 It is worth noting that there have been thoughtful critiques of RCT as gold standard, see for
+example Deaton and Cartwright (2018). As far as the propensity for the published literature using a
+particular method to exhibit p-hacking and publication bias, our results indicate RCT outperforms the
+other methods.
+
+

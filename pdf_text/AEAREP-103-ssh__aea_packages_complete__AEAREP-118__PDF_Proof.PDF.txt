@@ -1,0 +1,149 @@
+Non-dogmatic Social Discounting
+Journal: American Economic Review
+Manuscript ID AER-2016-1007.R4
+Manuscript Type: For Administrative Use Only
+Keywords:
+
+H43, Social discount rate, normative uncertainty, interdependence, costbenefit analysis, D61
+
+Page 1 of 60
+
+Disclosure Statement: American Economic Review, “Non-dogmatic social discounting”
+I acknowledge financial support from the ESRC Centre for Climate Change Economics and
+Policy, and the Grantham Foundation for the Protection of the Environment, during the
+preparation of this manuscript.
+Antony Millner
+2nd September 2019
+
+Page 2 of 60
+
+Non-dogmatic social discounting
+By Antony Millner∗
+The long-run social discount rate has an enormous effect on
+the value of climate mitigation, infrastructure projects, and
+other long-term public policies. Its value is however highly
+contested, in part because of normative disagreements about
+social time preferences. I develop a theory of ‘non-dogmatic’
+social planners, who are insecure in their current normative judgments and entertain the possibility that they may
+change. Although each non-dogmatic planner advocates an
+idiosyncratic theory of intertemporal social welfare, all such
+planners agree on the long-run social discount rate. Nondogmatism thus goes some way towards resolving normative
+disagreements, especially for long-term public projects.
+JEL: H43,D61,D90
+Keywords: Social discount rate, normative uncertainty, interdependence, cost-benefit analysis.
+‘I take the problem of discounting for projects with payoffs in the far future...to be largely ethical.’ – Kenneth Arrow (1999)
+∗
+
+Department of Economics, University of California, Santa Barbara, CA 93106, USA,
+millner@ucsb.edu. I am grateful to Geir Asheim, Partha Dasgupta, Marc Fleurbaey,
+Simone Galperti, Ben Groom, Geoff Heal, Derek Lemoine, Lucija Muehlenbachs, Frikk
+Nesje, Bruno Strulovici, the audiences of numerous seminars and conferences, four anonymous referees, and the editor, for helpful comments and discussions. This work was carried out at the Grantham Research Institute, London School of Economics and Political
+Science. I gratefully acknowledge financial support from the ESRC Centre for Climate
+Change Economics and Policy and the Grantham Foundation for the Protection of the
+Environment during my time at LSE.
+1
+
+Page 3 of 60
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+‘[T]he list of axioms we use as a basis for our ethical theory can never be
+more than a tentative list, one always open to possible revision.’
+– John Harsanyi (1977)
+
+The social discount rate (SDR) converts the future consequences of public
+projects into present values, and is thus a critical input to public costbenefit analysis. Small changes in the SDR can have an enormous effect on
+the estimated value of public projects with long-run consequences such as
+infrastructure investments, climate change mitigation measures, and nuclear
+waste management (Arrow et al., 2013). Yet despite almost a century of
+economic research on intertemporal public decision-making, opinion is still
+divided on how costs and benefits that occur more than a few decades in
+the future should be discounted.
+SDRs are related to intertemporal marginal rates of substitution, which
+quantify the social value of consumption changes in the future. Much of
+the disagreement about SDRs stems from normative disagreements about
+the social time preferences that determine these marginal rates of substitution (Drupp et al., 2018; Dasgupta, 2008). That such disagreements occur
+should not be surprising – specifying social time preferences requires difficult normative judgments about, for example, the appropriate degree of
+social impatience and aversion to intertemporal consumption inequalities,
+and there is no silver bullet specification that is immune to criticism (see
+Greaves (2017) for a discussion of the arguments). Conversely, as MacAskill
+(2016) observes, ‘for almost any ethical view, there seems to be something
+
+Page 4 of 60
+
+VOL.
+
+NO.
+
+NON-DOGMATIC SOCIAL DISCOUNTING
+
+3
+
+to be said in its favour.’1
+This paper develops a theory of ‘non-dogmatic’ social planners’ time preferences, starting from the premise that no single normative theory of intertemporal social welfare is unassailable, and devotees of all theories should
+thus exhibit a degree of insecurity in their normative judgments.2 Although
+non-dogmatic planners favour a particular theory of intertemporal social
+welfare, they admit the possibility that they may be persuaded of the virtues
+of an alternative theory in the future. Non-dogmatic planners anticipate
+these possible changes, and internalize the preferences of their future selves.
+The non-dogmatism of such planners thus manifests both through their willingness to entertain the possibility of a change in their views, and through
+their unwillingness to act as pure dictators with respect to their future
+selves.3 Since non-dogmatic planners are always insecure, their normative
+preferences at any future time τ reflect uncertainty about future preferences
+at times greater than τ . Persistent normative insecurity coupled with internalization of future preferences thus results in a recursively defined sequence
+of time preferences, in which current planners’ preferences depend on their
+1
+
+An alternative tradition in the literature, often termed the ‘positive approach’, identifies SDRs with observed market interest rates, and thus does not directly engage with
+normative reasoning. Arrow, Dasgupta and Mäler (2003) however remind us that ‘using market observables to infer social welfare can be misleading in imperfect economies.
+That we may have to be explicit about welfare parameters...in order to estimate marginal
+rates of substitution in imperfect economies is not an argument for pretending that the
+economies in question are not imperfect after all.’ Market imperfections are particularly
+salient for long-run SDRs. Gollier and Hammitt (2014), for example, explain that ‘the
+positive approach cannot be applied for time horizons exceeding 20 or 30 years, because
+there are no safe assets traded on markets with such large maturities.’
+2
+Throughout the paper I use ‘planner’ and ‘theory’ roughly interchangeably. A planner’s time preferences are equivalent to a normative theory of intertemporal social welfare.
+They are thus distinct from consumer preferences that are inferred by revealed preference,
+but are an intertemporal analogue of the social welfare functions used in, for example,
+optimal tax theory.
+3
+Non-dogmatic planners still rank consumption streams using their current preferences, but current preferences depend in part on future preferences.
+
+Page 5 of 60
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+possible future preferences, each of which is in turn recursively defined.
+Crucially, non-dogmatic planners still make idiosyncratic judgments about
+all the contested normative aspects of intertemporal welfare functions (IWFs),4
+including utility functions and pure time discount factors. Nevertheless, I
+show that all non-dogmatic IWFs yield the same value of the long-run SDR.
+Thus, adopting a model of intertemporal evaluation in which planners exhibit some insecurity in their normative judgments ends up resolving disagreements about the evaluation of long-run public projects. The intuition
+for this finding is developed in an example below. It is a consequence of the
+fact that each non-dogmatic IWF depends in part on other non-dogmatic
+IWFs in future periods. Disagreements about long-run SDRs wash out when
+this nested sequence of interdependent valuations is unravelled backwards
+to the present, since IWFs mix repeatedly over time.
+Formally, the model extends and reinterprets existing models of ‘purely
+altruistic’ intergenerational time preferences (Ray, 1987; Bergstrom, 1999;
+Saez-Marti and Weibull, 2005; Galperti and Strulovici, 2017). In these models a single representative agent in the current generation internalizes the
+preferences of future generations, assuming that each future generation does
+the same, and that preferences are time invariant. Leading philosophers have
+long drawn an analogy between present generations’ concerns for future
+generations, and present selves’ concerns for future selves.5 Parfit (1984,
+p. 319), for example, argues that ‘Like future generations, future selves
+have no vote, so their interests need to be specially protected.’ The present
+4
+
+IWFs are functions that represent planners’ normative preferences over consumption
+streams.
+5
+Analogies between intergenerational and intrapersonal choice have also proved fruitful in economics (Phelps and Pollak, 1968; Laibson, 1997). See Ray, Vellodi and Wang
+(2018) for a behavioural model in which agents exhibit concern for future selves.
+
+

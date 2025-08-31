@@ -1,0 +1,83 @@
+Immigration and Entrepreneurship in the United States
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0588.R2
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+12-Mar-2021
+Author:
+Complete List of Authors: Azoulay, Pierre; MIT, Sloan School of Management
+Jones, Benjamin; Northwestern University, Kellogg School of
+Management;
+Kim, J. Daniel; MIT, Sloan School of Management
+Miranda, Javier; U.S. Census Bureau, Center for Economic Studies
+Keywords: J15, L26, O3
+
+Page 1 of 47
+
+Disclosures for Benjamin F. Jones, “Immigration and Entrepreneurship in the United States”
+The author has received two research grants in the last three years. The sponsoring entities are:
+1) Alfred P. Sloan Foundation. Grant award G-2015-14014.
+2) U.S. Department of Defense. AFOSR Minerva award FA9550-19-1-0354.
+
+The author performed a consulting project on R&D effectiveness for ExxonMobil in 2018.
+In the last three years, the author has received compensation for research papers and an academic
+book from the National Bureau of Economic Research, and the author has received honoraria for
+research-related advice and speaking from the Brookings Institution, Stanford University, and
+the China Center for Human Capital and Labor Market Research.
+The author serves as a trustee of the United World College of the USA.
+
+Page 2 of 47
+
+The author declares that he has no relevant or material financial interests that relate to the research
+described in the paper "Immigration and Entrepreneurship in the U.S."
+
+
+Pierre Azoulay
+Massachusetts Institute of Technology
+3‐1‐2021
+
+Page 3 of 47
+
+The author declares that he has no relevant or material financial interests that relate to the
+research described in the paper "Immigration and Entrepreneurship in the U.S."
+March 4, 2021
+J. Daniel Kim
+The Wharton School
+University of Pennsylvania
+
+Page 4 of 47
+
+The author declares that he has no relevant or material financial interests that relate to the
+research described in the paper "Immigration and Entrepreneurship in the U.S."
+
+Javier Miranda
+IWH and Friedrich-Schiller University
+
+Page 5 of 47
+
+Immigration and Entrepreneurship in the United States
+
+Pierre Azoulay, MIT and NBER
+Benjamin F. Jones, Northwestern University and NBER
+J. Daniel Kim, University of Pennsylvania
+Javier Miranda, U.S. Census Bureau∗
+
+March 12, 2021
+
+Abstract
+Immigrants can expand labor supply and compete for jobs with native-born workers. But immigrants may also start new firms, expanding labor demand. This paper uses U.S. administrative
+data and other data sources to study the role of immigrants in entrepreneurship. We ask how
+often immigrants start companies, how many jobs these firms create, and how firms founded
+by native-born individuals compare. A simple model provides a measurement framework for
+addressing the dual roles of immigrants as founders and workers. The findings suggest that
+immigrants act more as “job creators” than “job takers” and play outsized roles in U.S. highgrowth entrepreneurship.
+
+∗
+We thank Bill Kerr, David Robinson, Jonathan Vogel, Peter Klenow and four anonymous referees for helpful
+comments. Any opinions and conclusions expressed herein are those of the author(s) and do not necessarily represent
+the views of the U.S. Census Bureau or its staff. The Census Bureau has reviewed this data product for unauthorized
+disclosure of confidential information and has approved the disclosure avoidance applied. Approval Numbers:
+CBDRB-FY20-CED006-0004, CBDRB-FY20-CED006-0023, CBDRB-FY20-329, CBDRB-FY20-391, CBDRB-FY21ESMD006-006, CBDRB-FY21-ESMD006-008, CBDRB-FY21-CED006-0009, CBDRB-FY21-CED006-0011. Contact:
+pazoulay@mit.edu; bjones@kellogg.northwestern.edu; jdkim@wharton.upenn.edu; javier.miranda@census.gov.
+
+

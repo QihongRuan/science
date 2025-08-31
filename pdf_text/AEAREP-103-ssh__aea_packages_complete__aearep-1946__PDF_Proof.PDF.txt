@@ -1,0 +1,177 @@
+The Effects of Parental and Sibling Incarceration: Evidence
+from Ohio
+Journal: American Economic Review
+Manuscript ID AER-2019-0415.R3
+Manuscript Type: For Administrative Use Only
+Keywords: K14, K42, J13
+
+Page 1 of 123
+
+March 11, 2019
+To Whom it May Concern:
+This statement affirms that I have no financial interests that may be potentially impacted by the
+findings in this paper.
+Funding for this project was provided by the National Institute of Justice through the Graduate
+Research Fellowship Program in the Social and Behavioral Sciences (2016-R2-CX-0022) and
+the National Science Foundation through the Law & Social Sciences Fellowship (1628126). I
+began this project while a graduate student, and received funding from National Science
+Foundation’s Graduate Research Fellowship. None of these sources had any influence on the
+paper’s content. Aside from these sources, I have not received any significant financial support
+from interested parties who may have a financial, ideological, or political stake related to the
+article.
+I maintain no positions in any organization whose policy positions, goals, or financial interests
+relate to the article.
+IRB approval was obtained for this project from Northwestern University (IRB #
+STU00202214). An IAA agreement between USC and Northwestern University extended this
+approval to USC.
+Sincerely,
+
+Jeffrey Weaver
+Assistant Professor of Economics
+University of Southern California
+jbweaver@usc.edu
+
+Page 2 of 123
+
+March 11, 2019
+To Whom it May Concern:
+This statement affirms that I have no financial interests that may be potentially impacted by the
+findings in this paper.
+Funding for this project was provided by the National Institute of Justice through the Graduate
+Research Fellowship Program in the Social and Behavioral Sciences (2016-R2-CX-0022) and
+the National Science Foundation through the Law & Social Sciences Fellowship (1628126). I
+began this project while a graduate student, and received funding from Social Sciences and
+Humanities Research Council of Canada through its Doctoral Fellowship Awards. None of these
+sources had any influence on the paper’s content. Aside from these sources, I have not received
+any significant financial support from interested parties who may have a financial, ideological, or
+political stake related to the article.
+I maintain no positions in any organization whose policy positions, goals, or financial interests
+relate to the article.
+IRB approval was obtained for this project from Northwestern University (IRB #
+STU00202214). Two IAA agreements with both UCB and USC extended the approval from
+Northwestern University.
+Sincerely,
+
+Samuel Norris
+Assistant Professor of Economics
+University of Chicago, Harris School of Public Policy
+
+Page 3 of 123
+
+March 11, 2019
+To Whom it May Concern:
+This statement affirms that I have no financial interests that may be potentially impacted by the findings
+in this paper.
+Funding for this project was provided by the National Institute of Justice through the Graduate Research
+Fellowship Program in the Social and Behavioral Sciences (2016-R2-CX-0022) and the National Science
+Foundation through the Law & Social Sciences Fellowship (1628126). Neither source had any influence
+on the paper’s content. Aside from these sources, I have not received any significant financial support
+from interested parties who may have a financial, ideological, or political stake related to the article.
+I maintain no positions in any organization whose policy positions, goals, or financial interests relate to
+the article.
+IRB approval was obtained for this project from Northwestern University (IRB # STU00202214). Two
+IAA agreements with both UCB and USC extended the approval from Northwestern University.
+Sincerely,
+
+Matthew Pecenco
+Graduate Student
+University of California, Berkeley
+pecenco@berkeley.edu
+
+Page 4 of 123
+
+The Eects of Parental and Sibling
+Incarceration: Evidence from Ohio
+Samuel Norris, Matthew Pecenco & Jerey Weaver∗
+March 9, 2021
+
+Abstract
+Every year, millions of Americans experience the incarceration of a family member. Using 30 years of administrative data from Ohio and exploiting diering
+incarceration propensities of randomly assigned judges, this paper provides the
+rst quasi-experimental estimates of the eects of parental and sibling incarceration in the US. Parental incarceration has benecial eects on some important
+outcomes for children, reducing their likelihood of incarceration by 4.9 percentage points and improving their adult neighborhood quality. While estimates
+on academic performance and teen parenthood are imprecise, we reject large
+positive or negative eects. Sibling incarceration leads to similar reductions in
+criminal activity.
+
+Norris: Harris School of Public Policy, University of Chicago. samnorris@uchicago.edu; Pecenco: Department of Economics, Brown University. matthew_pecenco@brown.edu; Weaver: Department of Economics, University of Southern California. jbweaver@usc.edu. We thank Joe Altonji, Carolina Arteaga, Kerwin Charles, Jennifer Doleac, Je Grogger, Jonathan Guryan, Seema
+Jayachandran, Patrick Kline, Jens Ludwig, Aprajit Mahajan, Magne Mogstad, Emily Nix, Matthew
+Notowidigdo, Guillaume Pouliot, Elisabeth Sadoulet, Megan Stevenson, Reed Walker, and Ebonya
+Washington, as well as seminar participants at ACLEC, ASSA, NBER Summer Institute (Children), Northwestern, Ohio State, SEA, TX Crime conference, UC Berkeley, UC Riverside, UC San
+Diego, UEA, and USC Gould for helpful comments and suggestions. This project would not have
+been possible without the incredible assistance of David Bowling, Linda Brooks, Ed Ferenc, Mary
+Ann Koster, Lisa Locklin, Kathy Lamb, Matt Linick, John Paulson, Brandi Seskes, and Lori Tyack,
+who took the time to help us access the data and understand the institutional context. We thank
+the Eviction Lab, and in particular Matt Desmond, James Hendrickson and Ashley Gromis, for
+providing us with the evictions outcomes. Cheenar Gupte, Peijie Li, Daniela Santos-Cardenas and
+Ruediger Schmidt provided excellent research assistance. Funding for this project was provided
+by the National Institute of Justice through the Graduate Research Fellowship Program in the
+Social and Behavioral Sciences (2016-R2-CX-0022) and the National Science Foundation through
+the Law & Social Sciences Fellowship (1628126). Norris acknowledges generous nancial support
+from the Social Sciences and Humanities Research Council of Canada through its Doctoral Fellowship Awards, and Weaver from the National Science Foundation Graduate Research Fellowship.
+This study includes data provided by Cleveland Metropolitan School District, but should not be
+considered an endorsement of this study. All views expressed are those of the authors and do not
+necessarily reect the opinions of any of the funding organizations. Ohio Department of Health data
+used in this study were obtained from Vital Records, Ohio Department of Health (ODH). Use of
+these data does not imply ODH agrees or disagrees with any presentations, analyses, interpretations
+or conclusions.
+∗
+
+Page 5 of 123
+
+The United States has the highest rate of incarceration in the developed world, directly affecting millions of prisoners annually. Beyond prisoners, an even larger number of family and
+community members are indirectly aected by incarceration. Advocates and academics have
+primarily argued that the incarceration of a parent or sibling will have negative eects on
+children as a result of the removal of social and economic support (Annie E Casey Foundation, 2016; Donohue, 2009). Due to the larger pool of people aected, these spillover eects of
+incarceration could be even more important than the direct eects on the incarcerated.
+On the other hand, there are several reasons why incarceration might have benecial
+family spillovers.
+
+Some children may be moved to more stable home environments when
+
+a parent is incarcerated, especially if the parent is incarcerated for crimes that adversely
+aect their children such as abuse.
+
+Witnessing incarceration rst-hand could also increase
+
+the salience of punishment and thus deter a child from future criminal activity. In the case
+of siblings, incarceration may remove a criminogenic peer inuence.
+
+The eect of familial
+
+incarceration will vary from case to case: for some individuals, the negative mechanisms will
+dominate, while the positive mechanisms will dominate for others. As a result, the net spillover
+eect of incarceration is theoretically ambiguous, depending on the proportion of individuals
+experiencing either positive or negative consequences.
+Empirical evidence on the long-term spillover eects of incarceration in the United States
+has been largely correlational, such as comparisons between children with and without incarcerated parents. Most of these studies nd negative eects of parental incarceration on outcomes
+such as antisocial behavior, drug use, academic achievement, and criminality (e.g.
+
+Murray,
+
+Farrington and Sekol (2012), Roettger et al. (2011), Hagan and Foster (2012)).
+
+However,
+
+if children with incarcerated parents come from relatively disadvantaged households, these
+estimates do not have causal interpretations and will be biased towards nding a negative
+impact.
+
+1
+
+This lack of causal evidence is largely due to stringent data requirements. Causal estimates
+require exogenous variation in incarceration, the ability to link family members to defendants,
+and outcome data for the family members.
+
+For long-term outcomes, the data must span
+
+enough time to observe adult outcomes for those aected by family incarceration. To overcome
+
+Other studies use panel data to estimate the eect of parental incarceration on short-run academic outcomes
+around the time of parental incarceration. These papers nd minimal (Cho, 2009b) or even benecial eects
+(Cho, 2009a; Billings, 2017) of parental incarceration.
+1
+
+1
+
+

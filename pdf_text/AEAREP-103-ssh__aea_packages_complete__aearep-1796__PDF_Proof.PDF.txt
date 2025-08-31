@@ -1,0 +1,190 @@
+From Weber to Kafka: Political Instability and the
+Overproduction of Laws
+Journal: American Economic Review
+Manuscript ID AER-2019-0672.R4
+Manuscript Type: For Administrative Use Only
+Keywords: D72, D73
+
+Page 1 of 94
+
+From Weber to Kafka: Political Instability and
+the Overproduction of Laws
+Gabriele Gratton,
+Claudio Michelacci
+
+and
+
+Luigi Guiso,
+Massimo Morelli∗
+
+March 26, 2021
+
+Abstract
+With inefficient bureaucratic institutions, the effects of laws are hard to assess and
+incompetent politicians may pass laws to build a reputation as skillful reformers.
+Since too many laws curtail bureaucratic efficiency, this mechanism can generate a
+steady state with Kafkaesque bureaucracy. Temporary surges in political instability
+heighten the incentives to overproduce laws and can shift the economy towards the
+Kafkaesque state. Consistent with the theory, after a surge in political instability in
+the early 1990s, Italy experienced a significant increase in the amount of poor-quality
+legislation and a decrease in bureaucratic efficiency.
+
+JEL Classification Numbers: D72, D73.
+∗ Gratton:
+
+UNSW Business School, UNSW Sydney, email: g.gratton@unsw.edu.au. Guiso: EIEF and
+CEPR, email: luigi.guiso@eief.it. Michelacci: EIEF and CEPR, email: c.michelacci1968@gmail.com. Morelli:
+Bocconi University, IGIER and CEPR, email: massimo.morelli@unibocconi.it. We would like to thank
+for useful comments Stéphane Bonhomme, Massimo Bordignon, Francesco De Carolis, Ernesto Dal Bó,
+Dana Foarta, Sean Gailmard, Paola Giuliano, Niko Jaakkola, Raquel Fernandez, Elena Manresa, Moritz
+Osnabruegge, Bruno Pellegrino, Carlos Pimienta, Chris Pissarides, Robert Powell, Jesse Shapiro, David
+Schmeidler, Giancarlo Spagnolo, Richard van Weelden, as well as seminar participants at the Australian
+National University, Berkeley, Chicago Harris School, Harvard, London Business School, Stanford GSB, Tel
+Aviv University, UCLA Anderson, UC Irvine, Università di Bergamo, Università di Tor Vergata, University of Melbourne, University of Michigan, University of Pittsburgh, University of Oregon, University of
+Sydney, University of Zurich, University of Queensland, the 2019 ASSA Meetings, NBER Political Economy
+Meeting, Glasgow Political Economy Workshop, Alghero Political Economy Workshop, Cyprus Conference
+on Employment in Europe, and the Econometric Society North-American Summer Meetings. Research assistance by Tommaso Giommoni, Claudia Marangon, Santiago Perez Vincent, and Mohamed Badaoui is
+gratefully acknowledged. Gabriele Gratton acknowledges financial support from the Australian Research
+Council (ARC Discovery Project DP140102426); Claudio Michelacci from the European Research Council
+(ERC Advanced Grant 293692); Massimo Morelli from the European Research Council (ERC Advanced
+Grant 694583), IGIER and Dondena research center. The usual disclaimer applies.
+
+Page 2 of 94
+
+1 Introduction
+Modern market economies rely upon the state bureaucracy to provide essential services
+and to implement public policies. In practice, according to the World Bank Doing Business Dataset, there is substantial variation in how well bureaucracies perform across
+countries. Some resemble the Weberian ideal of order and efficiency; others are known
+for their Kafkaesque disorganization.1 The nature of a bureaucracy may also change over
+time. In the 19th century, the Habsburg Monarchy was a model of Weberian efficiency
+(Becker, Boeckh, Hainz and Woessmann, 2016). But by the beginning of the 20th century
+the Habsburg bureaucracy had collapsed to a Kafkaesque state: payment of a single tax
+in Vienna required the involvement of 27 public officials; the cost of collecting taxes in
+Dalmatia exceeded the tax revenue (MacMillan, 2013).
+In this paper we argue that permanent transitions from a Weberian to a Kafkaesque
+bureaucracy may be rooted in the overproduction of low-quality legislation brought about
+by (possibly brief) periods of political instability. The premise of our theory is that politics
+and bureaucracy are complements in the supply of public policies: politicians pass laws
+that determine what and how should be reformed; bureaucrats implement the laws. In
+this context, bureaucratic efficiency is hindered when politicians pass too many and too
+frequent laws, overloading the bureaucracy with too many acts to implement.
+When a politician chooses whether to pass a new reform, she has a limited political
+horizon—e.g., the next election or the expected time until the next significant change in
+government coalition—and would like voters to believe that she is a competent, skillful
+reformer. But the speed at which voters learn about the quality of a politician’s reform depends on the country’s bureaucratic efficiency. When the bureaucracy is efficient, reforms
+are implemented swiftly and their effects are monitored transparently, so voters learn the
+quality of each reform fast and accurately. In contrast, when the bureaucracy is inefficient, reforms are implemented slowly, if at all, and the effects of multiple reforms are
+more likely to overlap, making it difficult to infer their individual quality. The political
+horizon and bureaucratic efficiency jointly determine a politician’s incentive to propose
+low-quality reforms. When the political horizon is shorter or bureaucracy is more inefficient, less competent politicians have greater incentives to pass their low-quality reforms.
+In fact, passing reforms may signal competence with little risk that the voters will learn
+1 Max Weber (1922) argued that a well-functioning bureaucracy guarantees order and maximizes effi-
+
+ciency. Franz Kafka’s infamous description of the Habsburg administration at the beginning of the 20th
+century, characterized by a disorienting complexity, is contained in Kafka’s unfinished novels Der Process
+(The Trial), published in 1925 and Das Schloss (The Castle), published in 1926, as well as in other short
+works published posthumously.
+
+1
+
+Page 3 of 94
+
+that the reform is of low quality within the political horizon. Thus, a more stable political
+environment and a more efficient bureaucracy reduce the production of low-quality laws,
+while periods of political instability may lead to overproduction of laws.
+To formalize this idea and to capture its dynamic implications, we study a dynamic
+model of legislative production. We assume that, in each legislative term, the politicians
+in office can pass reforms, but only competent politicians design reforms that are useful.
+A politician’s competence is her private information, but it is publicly revealed if the bureaucracy implements the reform she passed. Bureaucracy is characterized by decreasing
+returns: the larger the stock of past reforms that have yet to be implemented, the harder it
+is for the bureaucracy to carry out and implement the reforms. Politicians maximize their
+reputation for being competent at the end of the legislative term. Thus, in our model
+the political horizon is captured by the length of the legislative term and bureaucratic
+efficiency is determined by the inherited stock of outstanding reforms. In equilibrium, incompetent politicians face a trade-off: passing a useless reform that remains outstanding
+by the end of the term signals competence, but if the reform is implemented within the
+term, it reveals the incompetence of its proponent.
+We set out the conditions for the existence of a Weberian steady state—with efficient
+bureaucracy and few useless reforms—and a Kafkaesque steady state—with inefficient
+bureaucracy and many useless reforms. We identify three channels through which political instability can cause a transition from a Weberian to a Kafkaesque state. A shock to
+political instability may (i) directly shorten the political horizon (in the model, shorten the
+legislative term), (ii) increase the pressure for reforms, and (iii) sometime cause the formation of short-lived technocratic governments. In our model, each of these three symptoms of political instability (either in isolation or in combination) can drive the economy
+from a Weberian to a Kafkaesque steady state. In all three cases, the number of reforms
+that the bureaucracy is called to handle suddenly increases. This dynamically reduces
+bureaucratic efficiency, so that future incompetent politicians pass even more reforms,
+further engulfing the bureaucracy and eventually pushing the economy towards a new,
+Kafkaesque steady state.
+We use our theory to study the sudden surge in political instability during the passage between the so-called First and Second Italian republics. During the First Republic
+(1948-1992), the Italian political system was characterized by a stable balance of power
+and policy agenda: the large Christian Democratic Party led every government coalition,
+while the second largest party, the Italian Communist Party, was unable to compete or
+enter coalitions simply because communist parties could not govern in a Western-bloc
+country (a feature of the system known as the “K-factor”). The end of the Cold War rep2
+
+Page 4 of 94
+
+resents an exogenous shock to this equilibrium, starting a period—dubbed the Second
+Republic—initially marked by frequent changes in governing coalitions, the appearance
+and disappearance of new political parties, technocratic governments, and more frequent
+elections, which have contributed to shortening the political horizon of Italian members
+of parliament (MPs)—roughly by 50 percent according to some of our estimates.
+Anecdotal evidence indicates that the history of the Second Republic is characterized
+by frequent changes of the policy agenda and multiple broad-brush reforms of the welfare system, the public administration, and the territorial organization of the state. Using
+text analysis we study all laws issued by the Italian parliament over the period 1948-2016
+(more than 75,000 laws containing around 100 million words), taken from Normattiva
+(2016). Upon the increase in political instability resulting from the end of the Cold War,
+we find a sharp discontinuity in the production of legislation: the number of words of
+law per quarter increases by a factor of two, while the average quality of legislation deteriorates according to several indicators of style based on law drafting manuals (Cassese,
+1993; Butt and Castle, 2006), such as the length and phrasing of sentences and the intensity
+of references to other laws. We also uncover indications that the efficiency of the Italian
+bureaucracy has deteriorated over time, gradually becoming an increasingly salient issue in the Italian public debate—the number of times the word bureaucracy is mentioned
+in the Italian press has increased by a factor of three. Both the structural break in legislative production and the trend in salience of bureaucracy are specific to Italy and not
+observed in Germany. Therefore, they are unlikely to have been the direct effect of either
+the Maastricht Treaty or the end of the Cold War. Using a structural VAR model, we also
+find suggestive evidence that shocks to the amount of legislation cause a reduction in its
+quality and make the bureaucratic problem more salient.
+We also provide evidence that Italian politicians react to the type of incentives we describe in our model. In particular, we use micro data for Italian MPs during the Second
+Republic. We first use an event study methodology to show that the visibility of a politician in the press increases when their bills are discussed in parliament, supporting the
+claim that legislative activism has signaling value for politicians. We then directly test
+the prediction that a shortening of the political horizon affects individual MPs’ legislative
+incentives. In particular, we exploit variation in MPs’ competence and in one observable measure of the political horizon of individual MPs: the initial expected duration of
+the legislative term. The expected duration of a legislative term depends on the size of
+the parliamentary majority supporting the government, which has a random component
+realized at the time of the election. As a result, some legislatures are more stable than others: of the seven legislatures covered by our sample, three ended within two years, while
+3
+
+Page 5 of 94
+
+four reached the natural term of five years.2 Following Besley, Folke, Persson and Rickne
+(2017) and Dal Bó, Finan, Folke, Persson and Rickne (2017), we measure MPs’ competence by their labor market earnings, which over the sample period is information not
+easily available to the public. To efficiently identify MPs’ types and deal with a possible
+classification bias, we also rely on the Grouped Fixed-effects estimator by Bonhomme and
+Manresa (2015). In accordance with our theory, less competent politicians introduce bills
+and pass laws that are more poorly drafted. We then perform a Difference-in-Differences
+analysis and compare the relative performance in terms of both legislative activity and reelection outcomes of less and more competent politicians, in completed and uncompleted
+legislatures. In our model, a shorter political horizon increases the relative incentives
+of less competent politicians to pass useless laws and increases their relative reputation
+among voters. In line with these predictions, we find that in shorter legislatures less competent politicians introduce 18% more bills per capita, pass 30% more laws, and have a
+re-election probability 8 to 9 percentage points higher than average.
+The premise of our theory is that politics and bureaucracy are complements in providing public capital, in contrast with the implicit substitutes view in Maskin and Tirole
+(2004) and Alesina and Tabellini (2007, 2008), who study the trade-off between delegating choices to bureaucrats or elected politicians. There is a large literature studying the
+internal functioning of the bureaucracy (e.g., Prendergast 2007, Gailmard and Patty, 2012,
+Bertrand, Kramatz, Schoar and Thesmar, 2015, Nath, 2015); our focus instead is on legislative incentives as external determinants of bureaucratic performance. For the related
+literature on the distortions caused by politicians’ career concerns see, e.g., Diermeier,
+Keane and Merlo (2005), Mattozzi and Merlo (2008), Persson and Tabellini (2000), Rogoff
+and Siebert (1988), Ash, Morelli and van Weelden (2017); for long term consequences see,
+e.g., Bonfiglioli and Gancia (2013) and Bonfiglioli, Crinò, and Gancia (2020).
+Starting with Romer and Rosenthal’s (1978) seminal work, a large literature has highlighted how institutional systems and political incentives can cause the overproduction of
+public goods. In our model this is due to the combination of the politicians’ reputational
+concerns and the delayed (and noisy) public learning about the quality of their actions.
+Using the terminology in Prat (2005), voters have the “wrong kind” of information, which
+induces politicians to take a “conformist” action—in this case, passing reforms.
+Finally our paper is related to Aghion, Algan, Cahuc and Shleifer (2010) who show
+how the lack of civicness and trust in institutions causes more legislation, which in turn
+discourages the investment in civicness. This mechanism cam also generate a steady
+2 In practice, because MPs’ pension entitlements only mature if the legislature lasts for at least two years,
+
+all uncompleted legislatures end, unsurprisingly, after exactly two years.
+
+4
+
+

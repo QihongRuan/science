@@ -1,0 +1,256 @@
+What Makes a Rule Complex?
+Journal: American Economic Review
+Manuscript ID AER-2019-1717.R3
+Manuscript Type: Administrator
+Keywords: C91, D91, G0
+
+Page 1 of 63
+
+What Makes a Rule Complex?
+By Ryan Oprea∗
+We study the complexity of rules by paying experimental subjects to implement a series of algorithms and then eliciting their
+willingness-to-pay to avoid implementing them again in the future. The design allows us to examine hypotheses from the theoretical “automata” literature about the characteristics of rules that
+generate complexity costs. We find substantial aversion to complexity and a number of regularities in the characteristics of rules
+that make them complex and costly for subjects. Experience with
+a rule, the way a rule is represented, and the context in which
+a rule is implemented (mentally versus physically) also influence
+complexity.
+When people fail to behave as economists expect them to, they tend to err on
+the side of simplicity.1 A long tradition in economics (e.g. Simon, 1955) argues
+that this is, in part, driven by the fact that people dislike (or are incapable of)
+implementing complex rules and procedures. In this paper we propose new experimental methods to identify what makes a rule complex to implement, and to
+measure the costs of this “procedural complexity.” Doing this may allow us to
+better understand why people don’t always choose to use optimal procedures (e.g.
+strategies, dynamic optimization policies, state-contingent agreements, belief updating rules, choice procedures) or perfectly comply with rules handed down by
+governments and organizations (e.g. regulations, laws, bureaucratic rules).
+Our investigation is built around the idea that rules are in fact algorithms,
+∗ Economics Department, University of California, Santa Barbara, Santa Barbara CA, 93106-9210,
+Email: roprea@gmail.com. I thank Youssef Benzharti, Peter Boessaerts, Andy Brownback, Mark Dean,
+Akshay Dixit, Guillaume Frechette, David Freeman, Tamsin German, Daniel Lokshtanov, Kirby Nielsen,
+John Rehbeck, Collin Raymond, Julian Romero, Yaroslav Rosokha, Hamid Sabourian, Adam Sanjurjo,
+Charles Sprenger, Emanuel Vespa and Sevgi Yuksel for their detailed comments and discussions. I also
+thank Lucas Coffman, Ben Enke, Yoram Halevy, PJ Healy, Daniel Martin and Dale Stahl for valuable
+conversations about this research. I am grateful to seminar audiences at the University of Arkansas,
+the University of California, Davis, the University of Melbourne, Purdue University, the University of
+California, Santa Barbara, the University of Texas, Austin, the University of California, Berkeley, the
+University of California, San Diego and audiences at the Stanford Institute for Theoretical Economics,
+the 2019 Society for the Advancement of Economic Theory meetings in Ischia, the AFTS Workshop
+at University of Adelaide and the 2019 Economic Science Association North American Meetings in Los
+Angeles for their comments. Finally, I thank the co-editor, Stefano DellaVigna, and four referees for
+their constructive comments and guidance. This research was approved by UC Santa Barbara IRB and
+was supported by the National Science Foundation under Grant SES-1949366.
+1 For instance, many key tendencies from behavioral economics seem to involve simplification: satisficing simplifies rational choice by radically reducing the number of rank comparisons made; myopia
+simplifies dynamic optimization by ignoring the impact of current acts on future outcomes; representativeness simplifies Bayes’ rule by ignoring the influence of base rates on posteriors; narrow bracketing
+simplifies joint optimization by ignoring the relationships between choices; adaptive learning simplifies
+rational expectations by ignoring counterfactuals; the winner’s curse and related errors simplify Bayesian
+Nash Equilibrium by ignoring contingencies or information in others’ choices etc.
+
+1
+
+Page 2 of 63
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+C
+
+C
+
+D
+
+C,D
+
+C
+
+D
+
+C
+
+MONTH YEAR
+
+C
+D
+
+C
+
+C
+D
+
+C
+
+D
+D
+
+D
+
+C
+(a) Grim (2S-1T )
+
+(b) Tit-for-3-Tat (countable)
+
+Figure 1. : Automata representations of two rules (strategies in the repeated
+prisoner’s dilemma).
+Note: In parentheses are names for the equivalent automata used in the experimental design.
+
+implemented not by computers but by human actors and thinkers. The “automata literature ” (surveyed in Kalai (1990); Chatterjee and Sabourian (2009))
+formalizes this idea by mathematically describing rules as “automata,” formal
+descriptions of algorithms from computer science. This literature advances several hypotheses (reviewed in Section I) about what structural characteristics of
+automata make the rules they describe complex, operationalizing “complexity” as
+the cost of implementing a rule. We use these hypotheses – and the literature’s
+operationalization of complexity as cost – to organize our investigation.
+Figure 1 shows examples of automata from the repeated games literature, the
+first place this idea was applied in economics. Panel (a) shows the automaton
+description of a rule called Grim (the “grim trigger strategy”), a strategy for
+playing the repeated prisoner’s dilemma. The automaton consists of two states
+(shown as circles) and a set of transitions (shown as arcs). Letters inside the
+circles tell the player what to do in each state (e.g. C for “choose to cooperate”,
+D for “choose to defect”) and letters next to each arc tell the player when to follow
+the corresponding transition (e.g. when your counterpart chooses C, D). The rule
+instructs the player to begin by choosing C (cooperate), but then to transition
+to the second state and choose D (defect) as soon as the other player chooses D.
+The right state is absorbing, meaning no transitions lead away from it, so once
+here the player chooses D forever. Panel (b) of Figure 1 shows the automaton
+description of another strategy discussed in the literature called “Tit-for-3-tat,”
+(Tf3T), a lenient version of the famous tit-for-tat strategy. This rule instructs
+the player to cooperate until her counterpart has defected 3 times and then to
+switch to defect, forgiving her afterwards by starting the rule over (shown as an
+arc transitioning back to the first state) if she cooperates.2
+2 For expositional ease, these automata include only transitions that depend on other players’ actions
+– to completely describe a strategy, transitions must also depend on the player’s own actions (see Kalai
+and Stanford, 1988). Likewise, normally Tf3T requires the player to wait for three contiguous rounds
+of defection before defecting; for simplicity we show a cumulative version that doesn’t require the three
+rounds of defections to be contiguous.
+
+Page 3 of 63
+
+VOL. VOL NO. ISSUE
+
+WHAT MAKES A RULE COMPLEX?
+
+3
+
+Intuitively Tf3T seems more complex to implement than Grim, but in what
+sense is this true? What is it about a rule like Tf3T that makes it “more complex” than a rule like Grim, and how is this complexity formally reflected in its
+algorithmic structure?
+To answer questions like this, we conduct an experiment (described in Section II) in which we assign subjects a sequence of abstract rules of the form e.g.
+“Choose x until you see a, after which switch to y” and show them a sequence of
+randomly generated events (letters in the alphabet). The subject’s task is simply
+to correctly implement the rule in response to the random events by typing a
+sequence of letters on her keyboard. After subjects have implemented a number
+of different rules, we elicit their willingness to pay to avoid having to implement
+each rule again in the future, allowing us to measure the subjective cost of implementing each rule. By varying characteristics of the automata describing these
+rules, we can measure what algorithmic characteristics cause a rule to be complex
+and costly.
+For instance, one popular theory from the automata literature is state complexity (or s-complexity), the hypothesis that states generate complexity costs.
+States describe the degree to which a rule-follower must condition her behavior
+on the past and they also summarize the distinct ways a rule requires a decision
+maker to process and respond to information. In our example, Tf3T contains
+two more states than Grim and by comparing how much subjects are willing to
+pay to avoid Tf3T versus Grim we can measure the subjective cost of adding two
+states to a rule, allowing us to evaluate s-complexity. In the experiment we find
+that subjects are willing to pay twice as much to avoid Tf3T as Grim, providing
+some evidence that states produce complexity costs. (Other natural complexity
+measures like implementation time are also generated by our data and we can
+perform the same exercise on them – for instance it takes subjects three times as
+long to implement Tf3T as Grim.)
+Of course many algorithmic characteristics (not only states) differ between Tf3T
+and Grim and so the experiment is designed around a set of carefully chosen rules
+that independently vary automata characteristics to study their effects. For instance, Tf3T also contains many more transitions than Grim, and transition complexity (t-complexity, e.g. Banks and Sundaram (1990)) is the theory that this
+generates complexity in a rule. Transitions summarize the intensity with which a
+rule requires a decision maker to monitor and respond to the environment, summarizing a different aspect of a rule than states. Independently varying states
+and transitions and comparing behavior across our rules, we find that adding a
+transition indeed adds complexity costs, but that the effect is half as large as
+that of adding a state. Grim also has a simpler architecture than Tf3T because it
+contains an absorbing state and thus never requires the rule-follower to return to
+previously visited states. We find evidence that the architecture of rules shapes
+complexity too: ceteris paribus, rules with absorbing states are considerably less
+complex. Overall, our cost estimates suggest that rules like Tf3T are more com-
+
+Page 4 of 63
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+plex (costly) than rules like Grim and we therefore might expect them to be used
+less frequently. As we discuss in Section IV, this is in fact true in experimental
+repeated prisoner’s dilemmas.
+Our experiment also allows us to study how people represent rules to themselves and how this influences complexity. For instance, the literature generally
+assumes efficient representation: people don’t over-complicate plans of action by
+representing them as rules containing unnecessary states. We test this by giving
+subjects similar rules that do and do not contain redundant states and we find
+strong evidence against efficient representation: subjects do not treat rules that
+contain redundant states as any less complex. A related but more fundamental
+assumption is that people only represent behavior using rules describable by finite
+state machines (FSMs), the basic class of algorithms studied by the automata literature. Tf3T, for example, cannot be represented as an FSM with fewer than
+four states, but if represented as a slightly richer type of algorithm (a “pushdown
+automata”) that can simply count the number of ‘D’ events (by holding and manipulating a simple object in working memory), it can be represented with only
+two states and thus be dramatically simplified. When we compare responses to
+rules like Tf3T to rules that cannot be represented as counting rules, we find that
+indeed Tf3T is far less complex (less costly, faster to implement), suggesting that
+subjects are not constrained to represent behavioral patterns as FSM-like rules.
+Our results thus suggest that richer descriptions of algorithms than are typically
+studied in the automata literature are likely important for fully understanding
+and characterizing procedural complexity.
+Finally, our experimental task is abstract but we take some first steps towards
+understanding how context influences the complexity of rules. For instance, we
+show that familiarity with a rule has a powerful alleviative effect on complexity:
+subjects given repeated exposure to a rule learn to implement it much faster and
+grow less willing to pay to avoid the rule. Likewise, a treatment variation in
+our design reveals that it is significantly more complex (from both a time and
+cost perspective) for subjects to enact rules mentally (e.g. to think through a
+counterfactual or forecast another’s behavior) than it is to implement a procedure
+via a sequence of acts (e.g. to enact a strategy in a repeated game).
+The purpose of our experiment is not to “test automata models” or even to
+propose automata as models of human cognition. Rather, automata are formal
+ways of describing and taxonomizing rules, and the purpose of our experiment is
+to study what (if any) components of these formal descriptions (e.g. states, transitions) systematically translate into complexity costs for decision makers, given
+the rules they describe. To the degree algorithmic characteristics predict complexity costs, we may be able to use automaton descriptions of rules, procedures,
+strategies etc. (combined with estimates using methods like ours) to model, predict and explain behavior in applications (e.g. to understand what sorts of rules
+people are unlikely to use or follow).
+Overall, our findings (described in detail in Section III) can be summarized as
+
+Page 5 of 63
+
+VOL. VOL NO. ISSUE
+
+WHAT MAKES A RULE COMPLEX?
+
+5
+
+follows:
+1) Most subjects find implementing complex rules costly, but these costs are
+highly heterogeneous across subjects and linked to independent measures of
+cognitive ability.
+2) Algorithmic characteristics of rules significantly influence their complexity.
+Rules that require more states are significantly more complex (more costly,
+take longer to implement). Adding a transition is also costly, but adds half
+as much cost.
+3) “Architectural” characteristics of algorithms other than simple state and
+transition counts influence complexity too: rules that eventually terminate
+in absorbing states (rather than endlessly doubling back to previously
+visited states) are signficantly less complex (equivalent to removing a state
+from the rule).
+4) Subjects have difficulty efficiently representing rules to themselves by discarding redundant states. However, subjects are able to represent some
+rules to themselves in efficient ways not achievable using the simplest types
+of algorithms usually studied in the literature. For instance, subjects seem
+able to conserve complexity by tracking simple sequences in working
+memory, allowing them to remove costly states from rules.
+5) Complexity costs fall significantly as subjects become experienced at (familiar with) a rule, but this “procedural learning” is fragile and not easily
+transferred to even superficial perturbations of the learned rule.
+6) The context in which a rule is implemented can matter a great deal for
+complexity. Employing a rule mentally (e.g. to make inferences) is significantly more costly than employing a rule physically (e.g. to implement a
+strategy).
+7) The features of rules that generate cost are closely related to the features
+that generate implementation time, another important complexity metric.
+By contrast, there is only a very weak relationship between the drivers of
+costs and of implementation mistakes.
+Although our motivating examples are strategies, we emphasize that any decision procedure or rule has algorithmic structure and so the methods and measurements we study here have potential applications across economics. Perhaps
+most intriguingly, aversion to procedural complexity has been used to explain
+(via automata models) important findings in behavioral economics including satisficing, primacy and recency effects, choice overload and status quo bias (Salant,
+2011), stochastic choice (Kalai and Solan, 2003), non-Bayesian inference (Chauvin, 2020), biases in information processing (Wilson, 2014), and failures of back-
+
+

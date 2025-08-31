@@ -1,0 +1,354 @@
+Asymmetric Consumption Smoothing
+Journal: American Economic Review
+Manuscript ID AER-2018-1735.R3
+Manuscript Type: For Administrative Use Only
+Keywords: G4, D12, E21
+
+Page 1 of 61
+
+Asymmetric Consumption Smoothing
+By Brian Baugh, Itzhak Ben-David,
+Hoonsuk Park, Jonathan A. Parker∗
+Analyzing account-level data from an account aggregator, we find
+that households increase consumption when they receive (expected)
+tax refunds, as if they face liquidity constraints. However, these
+same households smooth consumption when making payments in
+other years, primarily by transferring funds among liquid accounts.
+Even households carrying credit card debt smooth consumption
+when making payments, and even highly-liquid households spend
+out of refunds. This behavior is inconsistent with pure liquidity
+constraints or hand-to-mouth behavior and most consistent with a
+mental accounting life-cycle model.
+JEL: G4, D12, E21, H31
+Keywords: Consumption, household finance, liquidity constraints,
+hand-to-mouth, mental accounting, tax refunds
+A central feature of consumer behavior is that many consumers delay spending
+out of expected income until it arrives. The leading theoretical explanation—
+exemplified by the buffer stock model—is that some people are financially constrained and so delay consumption until income arrives. Another leading model
+assumes that some households are hand-to-mouth consumers, spending income
+as it arrives. These theories of the consumer are central components of modern
+New Keynesian macroeconomics.
+Our study presents a novel and robust consumption pattern that fits neither
+prototype models. We use high-frequency account-level data to document that
+when faced with anticipated income, households—across the liquidity spectrum—
+increase consumption on the date of cash flow arrival. In contrast, when faced with
+anticipated payments, the same households keep their consumption level intact
+and use liquid reserves or credit to fund payments. Among the models that we
+∗ Baugh: College of Business, the University of Nebraska-Lincoln, address1, bbaugh2@unl.edu. BenDavid: Fisher College of Business, The Ohio State University, and the National Bureau of Economic
+Research (NBER), address2, ben-david.1@osu.edu. Park: Faculty of Business and Economics, the University of Melbourne, address2, hoonsuk.park@unimelb.edu.au. Parker: Sloan School of Management,
+the Massachusetts Institute of Technology, and NBER, address2, JAParker@mit.edu. Early versions of
+this paper were titled “A Test of Consumption Smoothing and Liquidity Constraints: Spending Responses to Paying Taxes and Receiving Refunds.” We thank the online account aggregator for providing
+the data set. For helpful comments, we thank Manuel Adelino, Sumit Agarwal, Michael Boutros, Andrew
+Chen, Peter Ganong, Uri Gneezy, Damon Jones, Olivia Kim, Emi Nakamura, Scott Nelson, Pascal Noel,
+Michaela Pagel, Michael Palumbo, Joel Slemrod, René Stulz, and particularly our discussant, Annette
+Vissing Jorgensen, as well as participants in seminars at the Federal Reserve Bank of Cleveland, The
+Ohio State University, and the Philadelphia Federal Reserve Bank Payments Conference, the Annual
+Conference of the Western Finance Association 2018, and the JPMorgan Chase Institute 2018 Academic
+Conference. We are grateful for support from a NBER Household Finance Grant, the Ohio Supercomputer Center, and the Dice Center at the Fisher College of Business.
+
+1
+
+Page 2 of 61
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+review, this asymmetric consumption pattern is best explained by a model of
+mental accounting that would lead to different economic dynamics and policy
+prescriptions from leading macroeconomic models.
+Specifically, we study the consumption responses of households as they file
+their U.S. federal income tax returns, receive refunds, and make payments in
+different years.1 Households in our select sample—and so to some extent in the
+population—exhibit an asymmetry in consumption behavior in response to to
+negative and positive cash flows. When faced with a tax payment, households do
+not cut consumption but instead make account transfers in advance of payments.
+Even low-liquidity households in our sample maintain stable consumption. Yet,
+these same households, in other years, increase consumption in response to the
+arrival of expected tax refunds. Even the most liquid household-years do so,
+albeit at lower rates. The latter observation has been interpreted as evidence of
+liquidity constraints.2 Thus, households in our sample shield consumption from
+decreases in income when making transitory payments but at the same time follow
+a heuristic to consume out of transitory increases in income.
+Our sample and data come from a large administrative account-level dataset
+from an account aggregator that contains every transaction into or out of linked
+checking, savings, and credit card accounts at a daily frequency from 2011 through
+2015.3 For a subset of more than 300, 000 household-years, we can observe a
+reasonably complete financial picture of the households and can identify the date
+of tax filing and the date and amount of tax refund or payment in the current and
+previous year. We focus on a subsample of households that receive tax refunds in
+some years and make payments in other years so that our results are not driven
+by differences in the types of households that receive refunds or make payments.
+While our administrative data have many advantages, they come with two
+caveats. First, administrative data track transactions, not consumption. Consequently, we measure only a subset of consumption spending that we can clearly
+identify as spending on consumer goods and services (retail, restaurants, etc.).
+The second caveat is that our sample is not a random sample of the U.S. population, both because households have to select into the account aggregation service
+and because they have to file taxes in a way that creates an observable transaction
+in the data. In particular, our sample omits households that postpone payment
+by filing an extension and those that take up refund anticipation loans instead of
+receiving refunds (issues we discuss in detail in Sections I and VI). Thus, our sample is likely to be more liquid than the typical American household, and indeed
+our measures of liquidity confirm this conjecture. Further, our select sample may
+1 In using variation in tax refunds, we follow Souleles (1999), who studies the consumption response
+to the arrival of tax refunds, as well as the contemporaneous work of Farrell, Greig and Hamoudi (2019).
+2 See, e.g., Bodkin (1959), Zeldes (1989), Parker (1999), Hsieh (2003), Johnson, Parker and Souleles (2006), and the survey articles by Hassan and Fuchs-Schundeln (2016) and Gomes, Haliassos and
+Ramadorai (2020).
+3 We build on research on consumption using high-frequency data (e.g., Stephens, 2003, 2006; Broda
+and Parker, 2014) and account-level data (e.g., Agarwal and Qian, 2014; Gelman et al., 2014; Baker,
+2018; Olafsson and Pagel, 2018; Aydin, 2019; Olafsson and Pagel, 2019).
+
+Page 3 of 61
+
+VOL. VOL NO. ISSUE
+
+ASYMMETRIC CONSUMPTION SMOOTHING
+
+3
+
+also be more financially sophisticated. However, this sample has some advantages
+for our analysis. From an a priori standpoint, our finding of excess sensitivity of
+consumption to predictable refunds is less likely to be due to liquidity constraints
+than it would be in the population.
+We measure the consumption response to expected income changes by regressing consumption spending on distributed leads and lags of refunds and tax payments, and distributed leads and lags of an indicator of tax filing interacted with
+news about tax status learned during return preparation. The leads and lags of
+filing and news serve two purposes. First, and particularly important for payments because they sometimes occur contemporaneously with filing, they control
+for the impact of information arrival so that we can cleanly measure the effect
+of an anticipated tax payment or refund arrival. Second, they measure the convolution of the impulse response of spending to information about taxes and the
+average pattern of its arrival relative to the date of filing.
+Our main findings are conveyed by Figure 1, which plots average consumption
+spending and fund transfers after de-meaning by both household-year and calendar day for different payment and refund amounts and in the month before and
+in the month after the refund or payment date.
+First, we observe a striking asymmetry between the consumption response to
+refunds and the response to payments (Figure 1, panel B). Consistent with a large
+literature, households spend a significant part of their tax refund on consumption
+(including on nondurable consumption, such as restaurants) in the month following receiving the refund. In contrast, in years when they make tax payments,
+these same households do not reduce consumption spending following making
+the payment. This result is novel, in part because few papers have studied the
+consumption response to decreases in income.4
+According to our regression estimates, people spend over 7% of their refunds
+on consumption during the month following refund receipt, an amount that increases slowly to 15% over several months. These responses underestimate the
+true increase in consumption (by roughly a factor of 2) because we cannot definitively classify some account transactions. This spending increase starts the day
+of refund arrival, and there is no increase in spending related to the timing of the
+refund arrival prior to the day of arrival. In contrast, the consumption response
+to payments is economically and statistically insignificant, and unrelated to the
+precise day of payment.
+4 Notably, Gelman et al. (2020) studies transitory unexpected declines in income and conclude that
+“even workers with surprisingly low liquid assets can smooth consumption using low-cost methods to
+shift the timing of payments for committed forms of expenditure.” In contrast, both Christelis et al.
+(2019) and Fuster, Kaplan and Zafar (2018) find that people respond in surveys that they would cut
+consumption more in response to transitory negative than positive income shocks. The few other studies of consumption responses to decreases in income have almost exclusively focused on permanent or
+highly persistent decreases. Shea (1995b), Stephens (2001), Ganong and Noel (2019), and Jorring (2018)
+find substantial declines in spending in the event of wage cuts in union contracts, permanent worker
+displacement, when unemployment benefits expire, and when mortgage payments rise respectively. Conversely, Souleles (2000) and Aguiar and Hurst (2005) find that consumption is well smoothed when college
+expenses start and when people retire.
+
+Page 4 of 61
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+Figure 1. Consumption and Fund Transfers Around Tax Payment or Refund
+Panel A shows the abnormal consumption in the month prior to the tax refund or payment dates. Panel B
+shows the abnormal consumption in the month of the tax refund or payment dates. Panel C shows the
+abnormal fund transfers into the observed accounts in the month prior to the tax refund or payment
+date. Panel D shows the abnormal transfers out in the month following the tax refund or payment date.
+The markers show averages at every 5% of the data for those who received refunds and at every 10%
+of the data for those who made payments. The shaded region represents two standard errors confidence
+intervals.
+
+Dollars
+
+A. Consumption: month before payment/refund
+
+B. Consumption: month of payment/refund
+
+600
+
+600
+
+500
+
+500
+
+400
+
+400
+
+300
+
+300
+
+200
+
+200
+
+100
+
+100
+
+0
+
+0
+
+−100
+
+−100
+
+−200
+−8,000 −6,000 −4,000 −2,000
+
+0
+
+2,000
+
+4,000
+
+6,000
+
+8,000
+
+−200
+−8,000 −6,000 −4,000 −2,000
+
+Dollars
+
+C. Funds transfer: month before payment/refund
+3,000
+
+2,500
+
+2,500
+
+2,000
+
+2,000
+
+1,500
+
+1,500
+
+1,000
+
+1,000
+
+500
+
+500
+
+0
+
+0
+
+−500
+
+−500
+
+0
+
+2,000
+
+4,000
+
+Payment/refund amount ($)
+
+6,000
+
+8,000
+
+2,000
+
+4,000
+
+6,000
+
+8,000
+
+D. Funds transfer: month of payment/refund
+
+3,000
+
+−1,000
+−8,000 −6,000 −4,000 −2,000
+
+0
+
+−1,000
+−8,000 −6,000 −4,000 −2,000
+
+0
+
+2,000
+
+4,000
+
+6,000
+
+8,000
+
+Payment/refund amount ($)
+
+Second, panel A of Figure 1 shows that households do not adjust consumption
+down in the month prior to making a payment or up in the month before getting a
+refund. We also find no response in our regression analysis as well as no change in
+consumption in response to the information about future cash flows that arrives
+as tax returns are prepared and filed.
+Third, households actively manage liquidity to smooth consumption ahead of
+payments but not refunds (Figure 1, panels C and D). In years when households
+receive refunds, they make transfers only after receipt. In contrast, households
+smooth consumption through tax payments by increasing transfers among accounts in the month before making the payment by about a third of their anticipated payment. These transfers are mostly among observed checking and savings
+accounts rather than from outside (likely nontransaction) accounts. We also find
+
+Page 5 of 61
+
+VOL. VOL NO. ISSUE
+
+ASYMMETRIC CONSUMPTION SMOOTHING
+
+5
+
+that households increase transfers in response to the news learned about upcoming payments or refunds prior to and at filing. Finally, households in our sample
+have substantial liquidity on average and they manage liquidity over longer horizons: In years when they make payments, households have accumulated somewhat
+higher balances in their core accounts.
+We provide evidence that these findings are not driven by either the endogeneity
+of the timing of the filing of tax returns (results hold separately for households
+filing in each month) or heterogeneity across households. While payment and
+refund status are also endogenous, determined in part by past income not subject
+to withholding, Gelman et al. (2019) provides evidence that this endogeneity does
+not cause consumption asymmetry: the paper finds no sharp difference between
+the propensity to spend in response to refunds versus payments in a quantitative
+life-cycle model, as we discuss in Sections IV and VI.
+We show that this consumption asymmetry occurs throughout the distribution
+of liquidity, which is further evidence that spending response to refunds for these
+households is an unconstrained choice. Households in the bottom tercile of the exante distribution of liquidity have large propensities to consume out of refunds.5
+But in this same sample of households with low liquidity, households do not
+cut consumption prior to or when making payments, inconsistent with financial
+constraints driving the response to refunds.
+We also find that for household-years in the top tercile of the distribution
+of liquidity, households do not cut consumption when making payments. But
+they still increase spending when refunds arrive, albeit at a lower rate than lowliquidity households. This spending behavior among liquid household-years is
+consistent with a growing body of evidence that even highly liquid households
+have substantial spending responses to predictable increases in liquidity (Parker,
+1999; Kueng, 2018; McDowall, 2019).6 These findings imply that a propensity
+to consume out of predictable increases in income that decreases with liquidity
+is not necessarily indicative of liquidity constraints. For many households in the
+population, liquidity constraints very likely determine behavior. However, in our
+nonrepresentative sample, households can smooth consumption but choose not
+to. Hence, the well-documented excess sensitivity of consumption to increases in
+expected income in the population is not purely driven by constraints.
+We discuss these findings in light of the theories that are commonly used to
+explain household behavior. Among the theories, the models most consistent
+with our results are those of mental accounting (Thaler, 1999). Our empirical
+evidence matches the predictions of the behavioral life-cycle model of Shefrin
+and Thaler (1988), in which households maintain three mental accounts: current
+5 This finding is consistent with the literature comparing consumption responses of households with
+different levels of liquidity starting with Zeldes (1989), and followed by a large literature including
+Jappelli, Pischke and Souleles (1998), Agarwal, Liu and Souleles (2007), Aaronson, Agarwal and French
+(2012), and Kaplan, Violante and Weidner (2014).
+6 And with papers that find that the propensity to consume is persistent rather than purely driven
+by liquidity (See Parker, 2017; Aguiar, Bils and Boar, 2020).
+
+

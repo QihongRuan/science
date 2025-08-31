@@ -1,0 +1,206 @@
+Targeting In-Kind Transfers through Market Design: A
+Revealed Preference Analysis of Public Housing Allocation
+Journal: American Economic Review
+Manuscript ID AER-2019-0516.R3
+Manuscript Type: For Administrative Use Only
+Keywords: D47, D42, H40
+
+Page 1 of 79
+
+American Economic Review
+2403 Sidney Street, Suite 260
+Pittsburg, PA 15203
+Disclosure Statement for “Targeting In-Kind Transfers Through Market Design: A
+Revealed Preference Analysis of Public Housing Allocation”
+
+I declare that I have no relevant or material financial interests related to the research
+described in this paper. Research support from the National Science Foundation Graduate
+Research Fellowship Program is gratefully acknowledged. I also thank the Cambridge
+Housing Authority for providing the applicant and tenant data used in this research.
+I obtained IRB approval for this research project from the Massachusetts Institute of
+Technology and New York University.
+Sincerely,
+
+Daniel Waldinger
+Assistant Professor
+Department of Economics, New York University
+New York, NY 10012
+Email: danielwaldinger@nyu.edu
+
+Page 2 of 79
+
+Targeting In-Kind Transfers Through Market Design: A
+Revealed Preference Analysis of Public Housing Allocation
+By Daniel Waldinger∗
+Public housing benefits are rationed through waitlists. Theoretical
+work on public housing allocation has debated how much choice
+applicants should have over units, identifying a possible trade-off
+between efficiency and redistribution. This paper empirically establishes the existence and economic importance of this trade-off
+using waitlist data from Cambridge, MA. I estimate a model of
+public housing preferences in a setting where heterogeneous apartments are rationed through waiting time. Eliminating choice would
+improve targeting but reduce tenant welfare by more than 30 percent. Such a change is only justified on targeting grounds by a
+strong social preference for redistribution.
+JEL: D42, D47, H40
+Keywords: Dynamic Matching, Preference Estimation, Discrete
+Choice Models, In-Kind Transfers
+In the United States, more than one million low-income households live in public
+housing. Beneficiaries receive a permanent, place-based entitlement to a rent
+subsidy that often exceeds $10,000 per year. However, due to limited funding,
+assistance is rationed – in 2012, 1.6 million U.S. households were on a public
+housing waitlist (Collinson, Ellen and Ludwig, 2016). Given this scarcity, public
+housing authorities (PHAs) in each city use a wide variety of rules to allocate
+available apartments. Theoretical work on public housing allocation has debated
+how much choice applicants should have over their assigned units, identifying a
+possible trade-off between efficiency – maximizing the welfare gains for tenants
+– and redistribution – targeting the most economically disadvantaged applicants
+(Arnosti and Shi, 2020; Leshno, 2019). Yet, there has been little empirical work
+quantifying how public housing waitlist policies affect who receives benefits or
+how much beneficiaries value their assistance.
+This paper empirically quantifies the trade-off between efficiency and redistri∗ Department of Economics, New York University, 19 West 4th St., New York, NY 10012 (email:
+danielwaldinger@nyu.edu). I am grateful to Nikhil Agarwal, Parag Pathak, Michael Whinston, and Amy
+Finkelstein for invaluable guidance and support. I also thank Nick Arnosti, Glenn Ellison, Ingrid GouldEllen, Tatiana Homonoff, John Lazarev, Jacob Leshno, Peng Shi, Paulo Somaini, Neil Thakral, and
+Heidi Williams; seminar participants at the MIT Industrial Organization and Public Finance workshops,
+and at several other universities; and my colleagues at NYU. Suggestions from the editor and four
+anonymous referees greatly improved the paper. The Cambridge Housing Authority generously provided
+the applicant and tenant data used in this paper, with special thanks to Tara Aubuchon, Tito Evora,
+Michael Johnston, Jay Leslie, Hannah Lodi, and John Ziniewicz. All analysis and views expressed in this
+paper are my own and do not represent the views of the Cambridge Housing Authority. I acknowledge
+support from a National Science Foundation Graduate Research Fellowship. All mistakes are my own.
+
+1
+
+Page 3 of 79
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+bution in public housing allocation. I use waitlist data from Cambridge, MA to
+estimate the distribution of preferences for public housing developments based on
+applicants’ decisions while on the waitlist. A central idea is that waiting time acts
+as a price; some applicants face a trade-off between waiting for less time and being
+assigned to their preferred housing development. In counterfactual simulations,
+the trade-off between efficiency and redistribution exists and is quantitatively
+significant. Eliminating choice would allocate housing to applicants with significantly worse outside options. However, the efficiency loss due to lower match
+quality is only justified on targeting grounds by a strong preference for income
+redistribution.
+To gain intuition for how waitlist design might affect efficiency and redistribution, imagine applying for public housing in New York City and Miami. In New
+York City, you are asked to choose your preferred housing development and wait
+until an appropriate apartment becomes available. In Miami, you are offered the
+first available apartment from any development when you reach the top of the
+waitlist, and removed from the list if you decline. Theoretical work has argued
+that not allowing choice, as in Miami, leads to lower match quality because applicants must accept mismatched offers in order to be housed (Thakral, 2016;
+Leshno, 2019). However, not allowing choice has a potential benefit; it may improve targeting if applicants with unobservably better outside options are more
+likely to reject, self-selecting out of the application process and making room for
+more disadvantaged applicants (Arnosti and Shi, 2020). The existence and magnitude of this trade-off depend on applicant preferences: how much applicants
+differ in where they want to live, how much they value assistance compared to
+their outside options, and sensitivity of their development choices to waiting time.
+The first part of this paper develops a method to estimate applicant preferences
+using waitlist data. The data, provided by the Cambridge Housing Authority
+(CHA), record which households applied for public housing in Cambridge, MA
+over a 5-year period and contain rich development choice information. This provides a direct measure of which households expressed demand for assistance and
+their willingness to wait for specific developments.
+To recover the distribution of preferences from applicant decisions, I build a
+structural model of application and development choice based on the structure of
+the CHA’s allocation mechanism, henceforth the Cambridge Mechanism. Since
+applicants choose their preferred housing development in two stages and receive
+new information about waiting time in the second stage, they face a portfolio
+choice problem (Chade and Smith, 2006). Second-stage choices are responsive
+to new information, motivating a development choice model in which applicants
+know their preferences over housing developments but face waiting time uncertainty. They choose their preferred distributions of assignments and waiting times
+at each stage of the application process, given their current information.
+Estimation proceeds in three steps. First, because applicants may be a selected
+sample of eligible households, I estimate the distribution of households eligible
+
+Page 4 of 79
+
+VOL. VOLUME NO. ISSUETARGETING IN-KIND TRANSFERS THROUGH MARKET DESIGN3
+
+for CHA public housing using American Community Survey data. Second, I
+construct applicants’ beliefs about the distributions of assignments and waiting
+times. I assume that beliefs match the long-run stationary distribution of the
+Cambridge Mechanism generated by the empirical distribution of applicants and
+their decisions. This assumption allows me to construct beliefs from the output
+of a detailed simulation of the Cambridge Mechanism, using the data to estimate
+a lower-dimensional set of inputs. Finally, I estimate preference parameters by
+matching predicted choice patterns to those in the data using the method of
+simulated moments (McFadden, 1989; Pakes and Pollard, 1989).
+I parameterize preferences in a way that captures the potential trade-off between
+efficiency and redistribution. Eligible households have a common discount factor,
+but heterogeneous preferences both for specific developments (match values) and
+for the aspects of public housing that are common across developments (values of
+assistance). The value of assistance is interpreted relative to a household’s outside
+option. To motivate this decomposition and facilitate welfare analysis, I assume
+a utility model in which households have heterogeneous tastes for specific public
+housing developments and different levels of income outside of public housing.
+Importantly, part of the value of the household’s outside option is not observed
+but affects their marginal utility of income. With restrictions on the functional
+form of utility, indirect utilities can be converted to equivalent variation.
+The application data and structure of the Cambridge Mechanism provide crucial
+information about both dimensions of preference heterogeneity. Application rates
+by income and demographic groups are informative about differences in values of
+assistance. Because CHA applicants choose up to three developments in the
+first stage, initial choices reveal heterogeneity in tastes for specific development
+characteristics, including waiting time, as well as idiosyncratic tastes. Sensitivity
+of second-stage development choices to waiting time information allows me to
+estimate the discount factor in addition to the parameters governing flow payoffs.
+The moments used in estimation capture these features of application decisions
+and development choices.
+Estimates show that applicants are patient and exhibit substantial heterogeneity in values of assistance and match values. While observed characteristics
+strongly predict the value of assistance, particularly income and race, the standard deviation of the unobservable among applicants is equivalent to more than
+$9,000 of annual income. Applicants also have strong preferences for specific
+developments, and as a result, some applicants are quite selective. One in six
+applicants would only be willing to live in three or fewer developments, while one
+in four prefers any development to their outside option. Applicants in the latter
+group have much lower observed incomes and unobservably worse outside options.
+In contrast, because applicants are patient, development choices provide little information about need. It may therefore be possible to increase redistribution by
+inducing rejections.
+Using the estimated model, I predict equilibrium allocations in CHA public
+
+Page 5 of 79
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+housing under two development choice systems: asking applicants to choose their
+preferred development when they first apply (“Choose One”), and fully eliminating choice (“No Choice”). These two choice systems are common in practice
+and respectively maximize match quality and targeting under certain conditions
+(Arnosti and Shi, 2020). Under each policy, I solve for a fixed point between
+applicants’ optimal decisions and their endogenously generated waiting time distributions, holding the public housing stock and other market primitives fixed.
+Choice restrictions involve a dramatic trade-off between efficiency and redistribution. Under the current CHA priority system, moving from Choose One
+to No Choice targets assistance to applicants with 19 percent worse outside options. Meanwhile, the fraction of tenants living in their first-choice development
+falls from 58 to 9 percent, and equivalent variation per assigned unit falls by 35
+percent. This trade-off persists if observed income is used to prioritize lowerincome or higher-income applicants, as is done in several cities. However, choice
+restrictions are only justified on targeting grounds by a very strong preference
+for redistribution. I use a “constant relative inequality aversion” class of social
+welfare functions (Atkinson, 1970) to compare allocation mechanisms across a
+range of values of redistribution. Under their current priority system, to justify
+eliminating choice the CHA would need to be willing to take $8 from one household to transfer just $1 to a household with half as much income. The CHA
+could achieve a similar increase in redistribution without lowering tenant values
+by prioritizing lower-income applicants while still allowing choice. Unless there is
+a large behavioral response to income-based priorities,1 these results suggest that
+PHAs wishing to increase redistribution should first exploit observed characteristics through the priority system, and only remove choice as a last resort.
+This paper contributes to the literatures on centralized matching markets,
+means-tested housing assistance, and in-kind transfers. The growing literature
+on revealed preference analysis of centralized matching markets has largely focused on static problems (Agarwal, 2015; Abdulkadiroğlu, Agarwal and Pathak,
+2017; He, 2017; Agarwal and Somaini, 2018; Fack, Grenet and He, 2019), with two
+notable exceptions: Agarwal et al. (2021) study the allocation of deceased donor
+kidneys, and Reeling and Verdier (2020) study the allocation of hunting licenses
+in Michigan. Both papers use dynamic discrete choice estimation techniques,
+whereas I study a portfolio choice problem.
+This paper also contributes to the literature on means-tested housing assistance
+by using individual-level waitlist data to estimate demand for public housing.
+Previous work has used data on assignments for this purpose (Geyer and Sieg,
+2013; Van Ommeren and Van der Vlist, 2016; Sieg and Yoon, 2020). Other
+empirical work has argued that there is substantial misallocation in the public
+and rent-controlled housing sectors (Glaeser and Luttmer, 2003; Thakral, 2016).
+A complementary literature evaluates the causal effects of housing assistance on
+1 To my knowledge, there is no evidence on behavioral responses to changes in a priority system in a
+dynamic matching mechanism, and the data and setting here were not suitable to provide evidence.
+
+

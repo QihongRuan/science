@@ -1,0 +1,227 @@
+Internal Deadlines, Drug Approvals, and Safety Problems
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0086.R3
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+14-Aug-2020
+Author:
+Complete List of Authors: Cohen, Lauren; Harvard Business School, Finance and Entrepreneurship
+Gurun, Umit; University of Texas at Dallas, School of Management
+Li, Danielle; Massachusetts Institute of Technology Sloan School of
+Management,
+Keywords: FDA, Drug Approvals, Desk Clearing, Adverse Effects, I18, M48
+
+Page 1 of 46
+
+Internal Deadlines, Drug Approvals,
+and Safety Problems
+
+Lauren Cohen
+
+Umit G. Gurun
+
+Danielle Li *
+
+Harvard & NBER
+
+University of Texas at Dallas
+
+MIT & NBER
+
+August 14, 2020
+
+Abstract
+
+Absent explicit quotas, incentives, reporting, or fiscal year-end motives, drug
+approvals around the world surge in December, at month-ends, and before respective
+major national holidays.
+Drugs approved before these informal deadlines are
+associated with significantly more adverse effects, including more hospitalizations,
+life-threatening incidents, and deaths – particularly, drugs most rushed through the
+approval process. These patterns are consistent with a model in which regulators
+rush to meet internal production benchmarks associated with salient calendar
+periods: this “desk-clearing” behavior results in more lax review, leading both to
+increased
+output
+and
+increased
+safety
+issues
+at
+particular—and
+predictable—periodicities over the year.
+
+* Contact information: Lauren Cohen, Harvard Business School, Telephone: (617) 495-3888. E-mail:
+lcohen@hbs.edu; Umit G. Gurun, University of Texas at Dallas, Telephone: (972) 883-5917. E-mail:
+umit.gurun@utdallas.edu; Danielle Li, MIT, Telephone: (617) 253-6618. E-mail: d li@mit.edu. We would
+like thank Daniel Carpenter, Sabrina Howell, Aaron Kesselheim, Christopher Malloy, and seminar
+participants at Harvard University and the 2020 American Economic Association meetings for helpful
+comments and suggestions.
+
+Page 2 of 46
+
+In this paper we document a global surge in drug approvals preceding informal
+deadlines. These include spikes in the month of December, at the end of each calendar
+month, and just before important national holidays in respective countries. The magnitude
+of these effects is striking: for instance, across a dataset spanning drug approvals in the
+United States, European Union, Japan, China, and South Korea, 18.64% of all approved
+drugs are approved in the month of December—more than double the average in any other
+month. Moreover, we examine the safety ramifications of these approval surges. Holding
+constant disease type, year, and various other controls, drugs approved just before informal
+deadlines are associated with significantly more adverse effects, including more
+hospitalizations, life-threatening incidents, and deaths.1
+The approval patterns we observe exist at periodicities consistent with regulators rushing
+to meet internally imposed benchmarks associated with calendar events such as year-ends,
+month-ends, and holidays. In particular, while Carpenter, Zucker and Avorn (2008) have
+shown that drug regulators rush to meet formal deadlines in the United States, we identify
+a distinct behavioral phenomenon that persists across different formal regulatory regimes in
+many countries. For example, drug regulators are not formally evaluated on their year-end
+output in any country that we are aware of; rather, they are typically given target times for
+processing applicants, and evaluated in part based on the percentage of applications that
+receive a timely review. These specific targets differ across regulators in different countries
+(within 300 days in the US versus 210 days in the EU, for instance). Rushing to comply with
+these formal policies would not generate the pattern of year-end, month-end, and holiday
+surges that we document.
+We argue, instead, that these patterns are more consistent with an interpretation in
+which regulators use salient calendar-time periods to clear their workloads so that they can
+start with a “clean” desk in the next period. Consistent with this interpretation, we show
+that regulators approve an especially large number of drugs in December in years when they
+have approved relatively few drugs in the first part of the year. Moreover, December drugs
+approved during these especially busy months are associated with even more adverse effects.
+This suggests either that regulators engage in hastier desk-clearing when their workload
+is high (e.g., when there are more drug candidates left to be decided upon in December)
+1
+We observe adverse effects data for the US and the EU; disaggregated data on serious adverse effects
+are available from the US sample only.
+
+1
+
+Page 3 of 46
+
+or when they feel greater informal pressure to increase output (e.g., when their approval
+numbers look low leading into December).2
+We provide evidence that our findings are not driven by a number of alternative
+explanations. First, it is possible that regulatory bodies may evaluate different types of
+drugs in December or at the end of each month. Regulators may, for instance, collect their
+most complex cases throughout the year or month to be considered at the end of that
+period. In this case, the higher adverse effects that we see for drugs approved during these
+periods would reflect the nature of the drugs themselves rather than the quality of the
+decision-making process that led to their approval. To explore this possibility, we examine
+whether there are ex ante differences among drugs approved during output surges that may
+explain their ex post differences in adverse effects. We show that controlling for a battery
+of drug characteristics—the disease meant to be treated, market size, and the drug’s
+priority review status—does not alter our findings, suggesting that our results are not
+driven by differences on these dimensions. We further show that drugs approved in
+December do not appear to be more complicated or difficult to review, as explicitly
+measured by their chemical or functional novelty.
+It is also possible that firms time application submissions in the hopes of receiving a
+lax December review. Using information on application dates available for a subset of US
+drugs, we find no evidence that the December effect is generated by strategic timing, which
+would generate a surge of applications in February (for regular review) or a surge in June
+(for priority review).
+If regulators make rushed decisions to meet internal deadlines, a natural question is why
+they seem to err on the side of approval rather than rejection. We believe this may be
+the result of informal performance benchmarks that focus on the quantity of drugs that are
+approved rather than the quality of those decisions. The number of drugs that are approved
+is immediately visible and is likely to be much more salient than an approved drug’s adverse
+effects, which may may take years to be realized. Indeed, in the public discourse, drug
+regulators across the world are evaluated and compared on the basis of their drug output.
+This, combined with the fact that industry and patient groups typically advocate for the
+approval rather than rejection of new drugs, may bias regulators toward approval.
+Finally we consider the policy implications of our findings. First, we note that the
+the welfare implications of our findings are unclear. One possibility, of course, is that a
+2
+Distinguishing between these possibilities requires knowing the date on which rejected drug candidates
+are rejected. Unfortunately this is unobserved.
+
+2
+
+Page 4 of 46
+
+rushed review process decreases public welfare by increasing the likelihood that dangerous
+drugs enter the market. However, if regulators were generally too conservative in new drug
+approvals, then rushed review may actually be welfare-improving—even given an increase in
+adverse effects—because it moves the review standard closer to first best. Because we cannot
+observe the benefits that accrue to patients administered these drugs, our analysis cannot
+distinguish between these two possibilities. That said, we do perform a back-of-the-envelope
+estimation to get a sense of the magnitude at least of the costs associated with this pattern
+of rushed review. Our calculation suggests that between 1,400 and 9,000 lives are lost per
+year to rushed review; given a low-end estimate of the value of a statistical life ($885K per
+life), this works out to roughly $1.2 to $8 billion implied loss per year over our sample period.
+That said, even if a drug approval agency were broadly too conservative in its approval
+decisions across all drugs, an optimal policy response would not be to apply more lax
+screening only to those drugs nearing approval at the end of the year or month.3 We
+outline two potential policy responses, one based on a mandated smoothing of approvals
+over time, and another based on using a “holding-tank” mechanism in which some drugs
+approved during high-volume periods are slated for re-review prior to receiving a final
+go-ahead.
+Situating our work in the literature, production targets—both formal and informal—are
+ubiquitous across the economy, and similar spikes in output have been documented in settings
+ranging from sales (Larkin (2014), Oyer (1998)) to patent office approvals (Blatt and Huang
+(2018)) to judicial decisions (Gelbach and Marcus (2017)), to spending at federal agencies
+(Liebman and Mahoney (2017)).
+Moreover, trading off costs and benefits in intertemporal choice, and models surrounding
+seeming behavioral irregularities in this decision-making, go back to Strotz (1955) and Phelps
+and Pollak (1968); continuing through the hyperbolic discounting models of Laibson (1997),
+O’Donoghue and Rabin (1999a), and O’Donoghue and Rabin (1999b). The experimental and
+empirical literature has further established a strong behavioral tendency of procrastination;
+to which ”deadlines” have been proposed as solutions. More specifically, O’Donoghue and
+Rabin (1999b) show how incentive schemes with “deadlines” may be a useful screening device
+to distinguish efficient delay from inefficient procrastination.
+Our work is most closely related to Carpenter, Zucker and Avorn (2008) and Carpenter
+et al. (2012), both of which study the impact of formal deadlines imposed by the U.S.
+3
+
+As we see no spikes in “days under consideration” for drugs in December, it is not that agencies are
+saving their most difficult cases for year- or month-end (or before holidays). Nor do we see any strategic
+timing in terms of submissions on the side of drug-makers in terms of their submission timing of drugs.
+
+3
+
+Page 5 of 46
+
+Prescription Drug User Fee Act of 1992 on drug approvals; they find that more drugs are
+approved prior to their review deadlines, and that drugs approved during these periods
+are more likely to face post-marketing safety problems.4 In addition, Carpenter (2010)
+documents an elevated share of drug approvals occurring in December, but does not explore
+the causes or safety consequences of this.
+Our work makes three key contributions relative to this body of existing literature. First,
+we show that regulators across the globe appear to strongly respond to common informal
+deadlines based on psychological benchmarks that are independent of externally imposed
+administrative deadlines. Second, we find that drugs approved during these output surges
+have substantially more adverse health effects relative to drugs approved at other times.
+These results provide evidence that informal deadlines can distort drug approvals just as
+much as formal deadlines.5
+Finally, we show that—precisely because they are not generated by any specific
+administrative policy—these behavioral responses to informal deadlines are a robust
+world-wide phenomenon. Such patterns highlight the importance of developing policy
+responses to address non-policy-induced inefficiencies in behavior.
+
+1
+
+Background on Drug Approvals
+
+Drugs cannot be widely marketed without regulatory approval from country- or
+region-level agencies. The decisions of these agencies determine what treatments are
+available to patients and who profits as a result.
+Seeking agency approval is the final step in a drug development process that is lengthy,
+expensive, and uncertain. Firms typically test thousands of compounds to find one with
+enough therapeutic potential to be tested in humans. Human clinical trials, further, involve
+thousands of patients and typically last for five to ten years. On average, 90% of drug
+4
+
+See also Nardinelli, Lanthier and Temple (2008) and Schick et al. (2017), however, for evidence that
+challenges the robustness of these original findings. More generally, also see Darrow, Avorn and Kesselheim
+(2017) for a review of the interplay between incentives, user fees, and the timeliness and safety of FDA
+approvals, and Darrow and Kesselheim (2014) for a list of important legislative and regulatory events related
+to the FDA’s new drug approval process, along with Kesselheim and Darrow (2015) for recent trends in
+expedited approval program use.
+5
+See Carpenter and Grimmer (2009) and Balasubramanian, Lee and Sivadasan (2017) for theories of
+how formal deadlines and deadline-related time pressures can impact work quality. Also see Brunnermeier,
+Papakonstantinou and Parker (2008) and Buehler, Griffin and Ross (1994) for theory and evidence on the
+planning fallacy and the imposition of self-imposed deadlines.
+
+4
+
+

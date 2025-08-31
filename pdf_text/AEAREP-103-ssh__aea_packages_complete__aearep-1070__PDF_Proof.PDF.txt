@@ -1,0 +1,157 @@
+Small and Large Firms Over the Business Cycle
+Journal: American Economic Review
+Manuscript ID AER-2018-1499.R3
+Manuscript Type: Administrator
+Keywords: Firm size, business cycles, financial accelerator.
+
+Page 1 of 254
+
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper.
+Nicolas Crouzet, September 25th, 2018
+
+Page 2 of 254
+
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper.
+Neil Mehrotra, September 25th, 2018
+
+Page 3 of 254
+
+Small and Large Firms Over the Business Cycle∗
+Nicolas Crouzet†
+This version:
+
+Neil R. Mehrotra‡
+June 15, 2020
+
+Abstract
+This paper uses new confidential Census data to revisit the relationship between firm size,
+cyclicality, and financial frictions. First, we find that large firms (the top 1% by size) are less
+cyclically sensitive than the rest. Second, high and rising concentration implies that the higher
+cyclicality of the bottom 99% of firms only has a modest impact on aggregate fluctuations.
+Third, differences in cyclicality are not simply explained by financing, and in fact appear largely
+unrelated to proxies for financial strength. We instead provide evidence for an alternative
+mechanism based on the industry scope of the very largest firms.
+
+Keywords: Firm size, business cycles, financial accelerator.
+
+∗
+
+The views expressed in this paper are those of the authors and do not necessarily represent the view of the
+US Census Bureau, the Federal Reserve Bank of New York or the Federal Reserve System. All findings have been
+reviewed to ensure that no confidential information is disclosed. We thank the editor, Gita Gopinath, and three
+anonymous referees and seminar and conference participants at Barcelona GSE Summer Forum, Boston College,
+Boston University, Brown University, Chicago Booth, Colby College, Duke Finance, the Federal Reserve Board,
+Imperial College, the Inter-American Development Bank, the Minneapolis Fed, Notre Dame, Northwestern Kellogg,
+Society for Economic Dynamics, NBER Monetary Economics, NBER SI Capital Markets, NBER SI EFCE, Minnesota
+Macro, the Philadelphia Fed, Pittsburgh/Carnegie Mellon, the University of North Carolina, UCLA, and Wharton for
+useful comments. We thank our formal discussants: Paco Buera, Simon Gilchrist, John Haltiwanger, Isabelle Méjean,
+Morten Ravn and Vincenzo Quadrini. We also thank Andy Atkeson, Manuel Amador, Cristina Arellano, Scott Baker,
+Effi Benmelech, V.V. Chari, Larry Christiano, Anna Cieslak, Janice Eberly, Mark Gertler, Kyle Herkenhoff, Ben
+Iverson, Patrick Kehoe, Ellen McGrattan, Fabrizio Perri, Mitchell Petersen, Ben Pugsley, Adriano Rampini, Ricardo
+Reis, Jón Steinsson, Julia Thomas, Johannes Wieland, and Thomas Winberry for helpful discussions and useful
+suggestions. We thank Apoorv Gupta, Alice Jun, and Adriana Troiano for excellent research assistance.
+†
+Kellogg School of Management, Northwestern University, 2211 N Campus Drive, Evanston, IL, 60208; e-mail:
+n-crouzet@kellogg.northwestern.edu.
+‡
+33 Liberty Street, Federal Reserve Bank of New York, New York, NY, 10045; e-mail: neil.mehrotra@ny.frb.org.
+
+Page 4 of 254
+
+An important line of research in macroeconomics and corporate finance documents crosssectional differences in the response of firms to aggregate shocks. Following the work of Gertler and
+Gilchrist (1994), this literature has paid close attention to firm size. This focus was motivated by
+the idea that, since size may proxy for financial constraints, a greater sensitivity of small firms to
+the cycle would provide evidence in favor of the “financial accelerator” — the view that financial
+frictions can amplify the response of the economy to aggregate shocks.1 However, largely because
+of data limitations, vigorous debate remains as to both the basic facts and their financial interpretation. More generally, relatively little is known about systematic differences in sensitivity of firms
+to the business cycle.
+In this paper, we bring new evidence to bear on these issues. We address three questions. First,
+are small firms more cyclically sensitive than large firms and if so, to what extent? Second, what
+would happen to aggregate fluctuations if the sensitivity of small firms matched that of large firms?
+Third, is this greater sensitivity a manifestation of differences in access to financing?
+Our new evidence comes from the confidential microdata underlying the US Census Bureau’s
+Quarterly Financial Report (QFR), a survey that collects income statements and balance sheets
+of manufacturing, retail and wholesale trade firms. The QFR uniquely provides balance-sheet
+and income-statement data for smaller, private firms over a long period; a priori, this is a set of
+firms that one expects to be most financially constrained. We use QFR micro records to assemble
+a representative, quarterly panel of US manufacturing firms from 1977 to 2014. The resulting
+dataset is made up of approximately 1.1 million observations on 90000 different firms. We use this
+dataset to quantify the greater sensitivity of firms at the bottom of the size distribution, relate it to
+the behavior of aggregate quantities, and assess whether it is evidence of a financial amplification
+mechanism.
+To our knowledge, this paper is the first to use this firm-level data in its panel format. In contrast
+to the public releases of the QFR, the microdata allows us to accurately measure the magnitude
+of differences in cyclicality by firms size and to introduce firm level controls to determine the
+financial or non-financial factors that drive the size effect. As we detail in the paper, the existing
+literature that relies on the public releases has disagreed on the former and cannot address the
+latter.2 Finally, the firm level data allows us to determine whether any average differences across
+firm size are statistically significant.
+Using the QFR microdata, we find evidence of greater cyclical sensitivity among small firms.
+On average over the sample, the difference between sales growth of the bottom 99% of firms and
+the top 1% of firms (by book assets) exhibits a strong contemporaneous correlation with GDP. Our
+baseline estimate is that a 1% drop in GDP is associated with a 2.5% drop in sales at the top 1%
+1
+
+The view that financial frictions may be responsible for the greater sensitivity of small firms to recessions is
+buttressed by an extensive corporate finance literature in which private and bank-dependent firms are often treated
+as being more financially constrained, and which we discuss in Section 1.
+2
+Estimates of the higher cyclicality of small firms range from small firms being approximately twice as responsive
+to monetary shocks than large firms (Gertler and Gilchrist, 1994), to being equally responsive to recessions (Chari,
+Christiano and Kehoe, 2013; Kudlyak and Sanchez, 2017), to being significantly less responsive (Moscarini and
+Postel-Vinay, 2012).
+
+1
+
+Page 5 of 254
+
+of firms and a 3.1% drop in sales in the bottom 99%. The size asymmetry also appears in firm level
+regressions that control for industry and disaggregate firms into finer-size quantiles. We adopt this
+stark notion of small and large in large measure because of the absence of measurable differences
+within the bottom 99%.
+The size effect is concentrated at the very top of the distribution — the top 0.5% of firms;
+variation in elasticity of sales to GDP outside of the top 0.5% is small and statistically insignificant.
+In and of itself, the wide range of firm size with no measurable size differences in cyclicality suggests
+that financial factors may not account for the size effect. Firm size in our data ranges from less
+than $200K in assets for the smallest firms to $750 million (real 2009 dollars) in assets for firms in
+the 99th percentile; it is not obvious that financial frictions should be similarly severe over such a
+wide range of firm size.
+The greater sensitivity we uncover for sales growth at small firms also holds for inventory growth
+and investment rates. As with sales growth, this differential is concentrated at the top 0.5% of the
+asset distribution. Additionally, we show that these results survive a large battery of robustness
+tests and that they also hold in the retail and wholesale trade portions of the QFR sample. Finally,
+we compare our results to prior work on difference in cyclicality across size groups, in particular,
+we show how growth rates derived from the microdata deliver consistent and stable estimates of
+the size effect, improving on the previous literature.
+We find that the greater sensitivity of the bottom 99% of firms, although statistically significant,
+is too small in magnitude to have an effect on the cyclical behavior of aggregates. Our data allows
+us to construct counterfactual paths for aggregate sales growth, inventory growth, and investment
+under the alternative assumption that cyclical sensitivities are the same in the cross-section and
+plot these counterfactuals against realized aggregate sales growth. The difference (seen in Figure
+3) is negligible. This finding is due to combination of extreme skewness of the distribution of sales
+and investment in the cross-section and absence of sizable differences in cyclicality. For instance,
+the top 1% of firms accounts for approximately 75% of total sales and 85% of total investment in
+the latter parts of the sample. Moreover, this concentration has been rising over the last 30 years.3
+Our findings verifying the greater cyclicality of small firms beg the question of whether these
+differences in cyclicality are driven by a financial accelerator mechanism. Gertler and Gilchrist
+(1994) argued that size serves as a proxy for the degree of financial constraints given that small
+firms exhibit greater bank dependence, cannot issue debt publicly, and face greater idiosyncratic
+risk. We verify that it is indeed the case that small firms differ from large firms along these
+dimensions.4 However, we provide three findings that cast doubt on whether the size effect is
+evidence of a financial accelerator mechanism.
+First, we introduce direct controls for balance sheet ratios emphasized in the financial frictions
+3
+
+This rise in concentration mirrors the findings of Autor et al. (2017), though we find that rising sales concentration
+in manufacturing comes in two waves (the early 1980s and late 1990s). Our findings with respect to skewness also
+echo Gabaix (2011), but we nevertheless find that cyclical fluctuations at the “median” firm (which is too small to
+affect aggregates) correlates strongly with aggregate fluctuations.
+4
+However, importantly, these average differences in capital structure across size groups is dwarfed by heterogeneity
+in capital structure within each size group.
+
+2
+
+

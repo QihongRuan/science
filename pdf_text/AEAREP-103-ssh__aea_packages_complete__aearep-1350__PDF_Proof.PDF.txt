@@ -1,0 +1,125 @@
+Aggregate Nominal Wage Adjustments: New Evidence from
+Administrative Payroll Data
+Journal: American Economic Review
+Manuscript ID AER-2019-0318.R4
+Manuscript Type: For Administrative Use Only
+Keywords: E24, J31, Wage Stickiness
+
+Page 1 of 75
+
+Disclosure Statement:
+I am writing the paper “Aggregate Nominal Wage Adjustments: New Evidence from Administrative
+Payroll Data” in an academic capacity. However, I am also Co-Head of ADP Research Institute and
+Vice President of ADP’s Corporate Strategy. The paper uses ADP data to explore nominal wage
+adjustments. ADP approved the paper topic ex-ante. Additionally, ADP reviewed the paper prior to
+distribution with the sole focus of making sure that the paper did not release information that would
+compromise the privacy of their clients or would reveal proprietary information about the ADP
+business model.
+I have no other relevant or material financial interest that relate to the research described in this paper.
+Sincerely
+Ahu Yildirmaz
+
+Page 2 of 75
+
+Disclosure Statement:
+The data for the paper “Aggregate Nominal Wage Adjustments: New Evidence from Administrative
+Payroll Data” was provided by ADP, LLP. The data is proprietary and was provided to us at no cost
+for research purposes. Per our use agreement, ADP approved the paper topic ex-ante. Additionally,
+ADP reviewed the paper prior to distribution with the sole focus of making sure that the paper did not
+release information that would compromise the privacy of their clients or would reveal proprietary
+information about the ADP business model. We have noted this directly in the acknowledgements of
+the paper. Finally, one of our co-authors is the Co-Head of ADP Research Institute and was
+responsible for making the data available to researchers. ADP has shared the same data with other
+researchers at Chicago, Princeton, MIT, the Federal Reserve Board of Governors, and Cornell.
+I have no other relevant or material financial interest that relate to the research described in this paper.
+Sincerely
+Erik Hurst
+
+Page 3 of 75
+
+Page 4 of 75
+
+Aggregate Nominal Wage Adjustments:
+New Evidence from Administrative Payroll Data*
+John Grigsby
+
+Erik Hurst
+
+Ahu Yildirmaz
+
+September 29, 2020
+
+Abstract
+Using administrative payroll data from the largest U.S. payroll processing company,
+we measure the extent of nominal wage rigidity in the United States. The data allow
+us to define a worker’s per-period base contract wage separately from other forms
+of compensation such as overtime premiums and bonuses. We provide evidence that
+firms use base wages to cyclically adjust the marginal cost of their workers. Nominal
+base wage declines are much rarer than previously thought with only 2% of job-stayers
+receiving a nominal base wage cut during a given year. Approximately 35% of workers
+receive no base wage change year over year. We document strong evidence of both
+time and state dependence in nominal base wage adjustments. In addition, we provide
+evidence that the flexibility of new hire base wages is similar to that of existing workers.
+Collectively, our results can be used to discipline models of nominal wage rigidity.
+
+* Grigsby:
+
+Department of Economics, Northwestern University, 2211 Campus Dr, Evanston, IL 60208
+(email: john.grigsby@northwestern.edu); Hurst: University of Chicago Booth School of Business, 5807 S
+Woodlawn Ave, Chicago, IL 60637 (email: erik.hurst@chicagobooth.edu); Yildirmaz: ADP, LLC, One ADP
+Boulevard Roseland, NJ 07068 (email: Ahu.Yildirmaz@ADP.com). We thank Mark Aguiar, Susanto Basu,
+Steve Davis, Fatih Guvenen, John Haltiwanger, Jonathon Hazell, Pete Klenow, Alan Krueger, Marianna
+Kudlyak, Andre Kurmann, Alex Mas, Ben Schoefer, John Shea, Rob Shimer, Gary Solon, Joe Vavra, Emi
+Nakamura and three anonymous referees for helpful comments. Per our use agreement, ADP approved the
+paper topic ex-ante. Additionally, ADP reviewed the paper prior to distribution with the sole focus of
+making sure that the paper did not release information that would compromise the privacy of their clients
+or would reveal proprietary information about the ADP business model.
+
+Page 5 of 75
+
+1
+
+Introduction
+
+It is well-known that aggregate wages exhibit muted cyclicality (Abraham and Haltiwanger,
+1995) None of the last six American recessions were accompanied by declines in nominal
+average hourly earnings, while even real wages did not fall during the recessions of 2001
+and 2009 (Grigsby, 2019). The potential sluggish response of firms’ marginal cost of labor
+has important allocative effects in many models. To capture the stickiness observed in
+aggregate wages, many macroeconomic models rely on exogenously specified nominal wage
+rigidity.1 However, the literature using micro data to document nominal wage adjustment is
+somewhat underdeveloped. This stands in stark contrast to the large literature using micro
+data to establish key moments of output price adjustment, which have guided theories of
+nominal price rigidities.2 As a result, the nature of nominal wage stickiness remains a central
+question within the literature. For example, at the 2014 Jackson Hole Symposium, Janet
+Yellen speculated that downward nominal wage rigidity was an important reason why wages
+neither fell during the Great Recession nor increased faster during the subsequent recovery.
+The goal of this paper is to measure the extent of nominal wage rigidity using micro
+data from the United States. Doing so is challenging given the complex nature of worker
+compensation which includes guaranteed contract earnings as well as commissions, tips,
+bonuses, performance pay, and overtime premiums. The purpose of incorporating wage
+rigidity into macroeconomic theories is to generate muted cyclicality of firms’ marginal cost
+of labor. If different compensation components differ in their cyclical responsiveness, then
+so too will their impact on the cyclical response of firms’ marginal costs. Similarly, if new
+hire wages are more easily adjusted than those of incumbent workers, then examining the
+wage adjustments of job-stayers only will yield an incomplete representation of the degree
+of wage flexibility in the economy. Furthermore, in many theories of employment dynamics,
+the present value of worker earnings determine labor market fluctuations. Therefore, it is
+important to measure the cyclicality and persistence of each component of compensation
+separately. The most persistent and cyclical components of compensation will better match
+the allocative notion of a wage in models with wage rigidity.
+The empirical demands for a complete study of wage rigidity are therefore great, which
+is a major reason why the literature measuring nominal wage adjustment in micro data
+has remained underdeveloped. Few datasets separately identify the various components
+1
+
+See Christiano et al. (2005) and Smets and Wouters (2007) for classic references incorporating nominal
+wage rigidities into dynamic stochastic general equilibrium models of the aggregate economy. More recently,
+see Beraja et al. (2019).
+2
+See, for example, Bils and Klenow (2004), Klenow and Kryvtsov (2008), and Nakamura and Steinsson
+(2008) for important contributions.
+
+1
+
+

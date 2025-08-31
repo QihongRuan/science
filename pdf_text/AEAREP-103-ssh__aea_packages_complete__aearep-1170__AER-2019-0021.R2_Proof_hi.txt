@@ -1,0 +1,122 @@
+Politically feasible reforms of non-linear tax systems
+Journal: American Economic Review
+Manuscript ID AER-2019-0021.R2
+Manuscript Type: Regular Submission - High Income Country - Member
+Keywords: Non-linear income taxation, Tax reforms, Political economy
+
+Page 1 of 122
+
+Disclosure statement
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper
+Königswinter, April 14, 2020
+
+Felix Bierbrauer
+
+Page 2 of 122
+
+Disclosure statement
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper “Politically feasible reforms of non-linear tax systems”
+Paris, July 8, 2020
+Pierre Boyer
+
+Page 3 of 122
+
+Disclosure statement
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper
+Munich, April 14, 2020
+
+Andreas Peichl
+
+Page 4 of 122
+
+American Economic Association
+Data and Code Archive Agreement
+Author Name (printed):
+Manuscript Title:
+
+Felix Bierbrauer
+
+Politically Feasible Reforms of Non-Linear Tax Systems
+
+WHEREAS, the above-named Author has submitted the above-referenced manuscript (“Manuscript”) to the
+American Economic Association (“Association”) for consideration for publication; and
+WHEREAS, in order to consider the Manuscript for publication, Association requires Author to deliver ­certain data,
+software, and any related software documentation that accompany the Manuscript (“Archive”) to a t­hird-party
+repository (“Repository”) in accordance with Association’s Data and Code Availability Policy and to make the
+Archive available to Association for review and replication of Author’s findings;
+NOW THEREFORE, in consideration of the opportunity for publication of the Manuscript with Association,
+­Author and Association agree as follows:
+	1. Author hereby grants to Association a non-exclusive, perpetual, irrevocable, and royalty-free license to
+reproduce and use the software that is part of the Archive (the “Software”) in order to ­replicate ­Author’s
+findings and otherwise in order to exercise Association’s rights under this Agreement and any agreement
+­between the parties to publish the Manuscript (a “Publication Agreement”). Author r­epresents and warrants
+that Author has the right to grant this license and that Author has obtained any necessary licenses which
+include the right of sublicense from any third parties who own any part of the Software in order to grant this
+license. Author further represents and warrants that Author has complied and will comply with all relevant laws
+and regulations (“Laws”) with respect to the Archive, including but not ­limited to any Laws relating to the use
+and disclosure of personal, sensitive, or proprietary data (collectively, “Data”). Author represents and warrants
+that Author has obtained all necessary consents and licenses from any third parties to include the Data in the
+Archive and to make such Data accessible through the Repository as set forth herein.
+	2. Author shall reimburse Association for any damages, losses, fines, or other costs incurred, including
+­attorney’s fees, as a result of a claim by a third party arising from or relating to a breach by Author of any of
+the representations or warranties provided herein (“Claim”) that results in any judgment against Association.
+Association shall notify Author of any such Claim and shall provide Author with the opportunity to participate
+in the defense of such Claim, at Author’s expense.
+	3. Author agrees to allow the Archive to be shared from the Repository with Association within a r­ easonable
+time after delivery to the Repository. Association has no obligation to publish the M
+­ anuscript, but in any case
+­ elivered
+will not publish the Manuscript until it has had the opportunity to review and test the ­Archive as d
+to the Repository. If the Data is subject to any access restriction that prevents ­Author from d
+­ epositing the
+­ nder what conditions an
+files in a Repository, Author shall provide detailed information on how, where, and u
+­independent researcher can access the Data. All Software shall still be ­provided. Association shall provide
+notice to Author or Author’s designee when the Archive has been approved, or not been approved. If the
+­Archive has not been approved, Association will provide information as to the reasons for the non-approval
+and provide Author with a reasonable opportunity to make corrections.
+
+1 of 2
+
+Page 5 of 122
+
+American Economic Association
+Data and Code Archive Agreement
+	4. If Association chooses to publish the Manuscript, then upon publication of the Manuscript, Author shall
+ensure that the Archive shall be made available and will continue to be made available to users in the ­public
+(“Users”) via an open license or licenses (“Open License”) sufficient to allow the User to ­replicate the ­research
+findings, and that Author shall not attempt to terminate the Open License as to any User w
+­ ithout ­express
+­permission from Association. Association prefers the latest version of the Creative Commons ­Attribution
+­CC-BY for the licensing of Data, and in any case an Open License that does not impose restrictions other
+than ­attribution. Association prefers the Modified BSD license for the licensing of Software.
+	5. Governing Law. This Agreement is governed by the laws of the State of Tennessee, and by any ­federal
+laws which may apply, including but not limited to copyright law. Any dispute between the parties which
+­cannot be resolved by informal means shall be subject to the exclusive jurisdiction of the state and federal
+courts located in Nashville, Tennessee, USA.
+	6. Entire Agreement. This Agreement supersedes all other prior discussions and agreements between the
+parties, written and oral, and constitutes a complete and exclusive statement of the terms of the ­agreement
+between the parties and no changes, amendments, or revisions to these terms shall be ­binding unless
+­expressly confirmed in writing by an authorized representative of each party.
+
+Assignor
+Author Signature: Felix Bierbrauer
+Date:
+
+Digital unterschrieben von Felix Bierbrauer
+Datum: 2020.07.13 13:13:26 +02'00'
+
+July 13, 2020
+
+Association
+Signature:
+Name (printed):
+Title:
+Date:
+
+2 of 2
+
+

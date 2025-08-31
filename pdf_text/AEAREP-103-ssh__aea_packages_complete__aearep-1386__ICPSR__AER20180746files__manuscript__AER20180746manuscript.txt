@@ -1,0 +1,247 @@
+Intertemporal Labor Supply Substitution?
+Evidence from the Swiss Income Tax Holidays
+Isabel Z. Martı́nez
+
+Emmanuel Saez
+
+Michael Siegenthaler∗
+
+August 26, 2020
+Abstract
+This paper estimates intertemporal labor supply responses to two-year long income tax holidays
+staggered across Swiss cantons. Cantons shifted from an income tax system based on the
+previous two years’ income to a standard annual pay as you earn system, leaving two years of
+income untaxed. We find significant but quantitatively very small responses of wage earnings
+with an inter-temporal elasticity of .025 overall. High wage income earners and especially the
+self-employed display larger responses with elasticities around .1 and .25 respectively, most likely
+driven by tax avoidance. We find no effects along the extensive margin at all. (JEL E65, H24,
+H26, J22)
+
+∗
+
+Martı́nez: ETH Zurich, KOF Swiss Economic Institute, Leonhardstrasse 21, CH–8092 Zurich,
+Switzerland (e-mail: martinez@kof.ethz.ch); Saez: University of California, Department of Economics,
+530 Evans Hall, Berkeley, CA 94720 (e-mail: saez@econ.berkeley.edu); Siegenthaler: ETH Zurich,
+KOF Swiss Economic Institute, Leonhardstrasse 21, CH–8092 Zurich, Switzerland (e-mail: siegenthaler@kof.ethz.ch). We thank Marius Brülhart, David Card, Raj Chetty, Reto Föllmi, Daniel Hamermesh, Boris Kaiser, Daniel Kaufmann, Henrik Kleven, Daniel Kopp, Camille Landais, Stefan Legge,
+Thomas Lemieux, Emi Nakamura, Tobias Renkin, Samad Sarferaz, Benjamin Schoefer, Josef Sigurdsson, Daphné Skandalis, Michael Smart, Ivan Werning, Josef Zweimüller, three anonymous referees, and
+numerous conference and seminar participants for helpful discussions and comments. We acknowledge
+financial support from the Center for Equitable Growth at UC Berkeley and NSF grant SES-1559014.
+We thank Claudia Berlin and the Swiss Federal Statistical Office for providing census data and for the
+support which made the Swiss National Cohort and this study possible. The record linkage was supported by the Swiss National Science Foundation. The members of the Swiss National Cohort Study
+Group are Matthias Egger, Adrian Spoerri and Marcel Zwahlen, Milo Puhan, Matthias Bopp, Martin
+Röösli, Murielle Bochud and Michel Oris.
+
+The intertemporal labor supply elasticity of substitution—traditionally called the
+Frisch elasticity—measures how much more people are willing to work when their wage
+increases temporarily. This elasticity plays a key role in amplifying the effects of technological shocks on labor supply and economic activity in calibrated macro real business
+cycle models. The intuition is the following. Suppose there is a temporary negative
+technological shock which reduces productivity (relative to trend). This shock reduces
+wages temporarily. If the Frisch elasticity is large, relatively modest technological shocks
+can translate into large labor supply responses and hence explain why downturns are
+accompanied by large falls in employment. Indeed, most calibrated macro real business
+cycle models require a very large Frisch elasticity in excess of one to generate realistic
+quantitative predictions (see e.g., King and Rebelo, 1999).
+However, identifying the Frisch elasticity is empirically challenging as it requires exogenous time variation in net wage rates unrelated to labor supply or human capital
+accumulation decisions. As a result, recent studies have often used specific occupations—
+such as taxi drivers—where exogenous variation in wages is more plausible (see Reichling
+and Whalen, 2012; Chetty et al., 2013, for surveys and discussions). Using tax variation has long been a traditional source of exogenous variation to estimate static labor
+supply elasticities (see e.g., Keane, 2011, for a survey). However, tax variation typically
+does not provide temporary variation needed to estimate the Frisch elasticity.1 In this
+paper, we break new ground on this important issue by exploiting an unusual tax policy
+reform in Switzerland that generated large, salient, and well-advertised one- or two-year
+long income tax holidays staggered across the 26 Swiss cantons, which are the member
+states of the Swiss Confederation. The tax holiday, which exempts earnings from income
+taxation temporarily for everybody in the local economy (the cantonal level), is close to
+being the ideal experiment to estimate the Frisch elasticity. This has three additional
+advantages relative to previous work. First, our estimates are representative of the total
+population and do not focus on very specific—and potentially more elastic—occupations
+(such as taxi drivers). Second, we can identify the Frisch on an annual frequency, which
+is the relevant time frame for business cycle analyses (occupation-specific studies use
+much higher—often daily—frequencies). Third, while various frictions, such as jobs with
+fixed hours or high fixed costs of starting to work, may dampen the response relative to
+the standard frictionless model of labor supply, such frictions are also present when the
+economy responds to a temporary technology shock. Therefore, the “frictional Frisch”
+elasticity we estimate is also the relevant reduced form parameter to evaluate the role of
+1
+
+Important exceptions are Bianchi et al. (2001); Sigurdsson (2018); Stefansson (2019) who use a one
+year income tax holiday in Iceland. We discuss the link between these studies and ours in detail below.
+
+1
+
+intertemporal labor supply in macro business cycle modeling.2
+In the late 1990s and early 2000s, Switzerland switched from an income tax system
+where current taxes were based on the previous two years’ income to a standard annual
+pay as you earn system. For example, in the old system, income taxes due in years 1997
+and 1998 were both based on the average income over the two preceding years 1995 and
+1996. This system of owing taxes based on prior year incomes was common in income tax
+systems before pay as you earn tax systems were put in place.3 In the new system, taxes
+on income earned in year t are collected during year t with a tax return filed in year t + 1
+and an adjustment made through a tax refund or an extra tax payment if taxes already
+collected are not exactly equal to taxes owed.4 This is the system used in all advanced
+economies today.
+Swiss cantons transitioned in three waves in 1999, 2001, and 2003. Two cantons transitioned early in 1999, most cantons transitioned in 2001, and three cantons transitioned
+late in 2003. The transition happened for federal, cantonal, and municipal income taxes
+simultaneously in each canton. To illustrate the mechanism, take the example of the
+canton of Thurgau as depicted on Figure 1.A, which transitioned in 1999. In 1997 and
+1998, income taxes (at the federal, cantonal, and municipal levels) were paid based on the
+average of 1995 and 1996 incomes. In 1999, income taxes (at the federal, cantonal, and
+municipal levels) were based solely on 1999 incomes. In 2000, income taxes were based
+solely on 2000 incomes, etc. To avoid double payment of taxes in 1999 and 2000, no tax
+was ever assessed on 1997 and 1998 incomes (which would have been paid in 1999 and
+2000 under the old system). Therefore, this transition created a two-year long income
+tax holiday for incomes earned in years 1997 and 1998. Hence, cantons transitioning
+in 1999 had a tax holiday for years 1997–1998; cantons transitioning in 2001 had a tax
+holiday for years 1999–2000; and cantons transitioning in 2003 had a tax holiday for years
+2001-2002. An extra source of variation comes from the fact that some cantons used an
+annual system of assessment (instead of biennial) for the cantonal and municipal taxes.
+For these cantons, the transition generates only a one-year long tax holiday for local
+taxes.5
+2
+
+Naturally, estimating separately the pure frictionless Frisch elasticity from the dampening effects of
+frictions could also be useful for other applications (see e.g., Chetty et al., 2013).
+3
+The US transitioned in 1943, the UK transitioned in 1944. France, the last holdout, just transitioned
+in 2019. The Swiss system was further particular in that it used an average of two years to compute
+base income (instead of using a standard annual income base).
+4
+In both the old and the new system, Switzerland does not use withholding at source and individuals
+are typically required to pay estimated taxes in quarterly installments (as is done in the US for income
+not subject to tax withholding such as self-employment income).
+5
+Take the example of Zurich which transitioned in 1999. In 1998, local taxes were based on 1997
+incomes. In 1999, local taxes were based on 1999 incomes, so that the tax holiday for local taxes was just
+for 1998. Local income taxes (defined as cantonal plus municipal) make up over 80 percent of income
+
+2
+
+The tax holiday increased the net of tax rate (defined as one minus the marginal tax
+rate) by about 25–30 percent on average. Hence for example, with a Frisch elasticity
+of one, which is toward the low end of estimates used in macro-calibrations, we should
+expect a 25–30 percent increase in earnings. The tax holiday timing was discussed at
+length in the press well before the transition took place, making it salient to the public,
+particularly for the last 2 waves of transitioning cantons. Various press articles discussed
+how working and earning more during the tax holiday (relative to later years) was fiscally
+advantageous.
+To carry out our study, we use population-wide social security longitudinal earnings
+records from 1990 to 2010 matched to decennial Census data. These data allow us to
+obtain precise estimates exploiting fine geographical variation. Our strategy relies on a
+simple difference-in-differences method where we compare earnings outcomes over time
+and across localities that transitioned at different times. Because we have large data,
+we obtain smooth and precise time series for a number of earnings outcomes even when
+restricting the data to specific earnings or demographic groups. We find that series for
+different cantons move in a very similar way over time pre- and post-reform giving us
+confidence that the parallel trend identification assumption holds. The graphical time
+series evidence shows clearly that bumps in earnings arise during the tax holidays for
+some sub-groups, and can then be confidently interpreted as the causal effect of the tax
+holiday. We supplement the time series analysis by a longitudinal regression based microlevel approach to tease out tax holiday effects on earnings systematically. Our analysis is
+limited to labor income because we do not have data on capital income (as the cantonal
+tax administrations did not systematically collect data on incomes earned during the tax
+holidays). Our main analysis focuses on prime age individuals aged 20 to 60.6
+We obtain five main results. First, we do not find any evidence of a response along
+the employment margin (extensive margin). This implies that the Frisch elasticity is
+very small along the extensive margin. Second, there is a small aggregate response of
+wage earnings with an implied Frisch elasticity of .025 for aggregate wage earnings. The
+responses are larger higher up in the wage earnings distribution, with Frisch elasticities
+of .1 for the highest-earners. We do not find responses along the hours of work margin.
+Third, there is a larger response of self-employment earnings that is present at different
+earnings levels (and not just the top). Overall, the Frisch elasticity for self-employment
+earnings is around .2. Fourth, effects are actually larger for men than for women, in
+contrast to the standard findings in the labor supply literature. The exception is married
+taxes in Switzerland in aggregate.
+6
+For the elderly, tax incentives interact with retirement decisions and the incentives created by the
+retirement system.
+
+3
+
+couples with children, where the elasticities are similar. Fifth, most of these responses are
+concentrated in the last wave of transitioning cantons with tax holidays in 2001–2002.
+Responses for earlier transitions such as 1997–1998 or 1999–2000 appear to be more
+muted. This latter effect might be due to learning as it might take time for the public
+to understand tax holidays and how to respond to them. Overall, our evidence suggests
+that responses are driven primarily by tax avoidance rather than real labor supply. As a
+result, our paper shows that the Frisch real labor supply channel due to labor market-wide
+temporary changes in net-wage-rates is quantitatively very modest and particularly so
+along the extensive employment margin. This casts doubt on quantitative calibrations of
+macro models that use very large Frisch elasticities to account for the large employment
+fluctuations over the business cycle.
+Closest to our study, Bianchi et al. (2001), Sigurdsson (2018), and Stefansson (2019)
+exploit the one-year tax holiday in Iceland produced by a transition from an income tax
+based on prior year income to a pay as you earn income tax in 1987. Using a small
+survey dataset, Bianchi et al. (2001) report large effects with an implied Frisch elasticity
+of .42 along the extensive margin. But it is difficult to disentangle the tax effects from
+the business cycle effect in this study as the tax holiday corresponded to the peak year
+of the business cycle in Iceland (see their Figures 1 and 2, p. 1565). Sigurdsson (2018)
+builds a population wide earnings dataset to study the same reform. Using labor supply
+participation patterns by age, he finds a much smaller extensive-margin Frisch elasticity
+.1. Exploiting variation in tax rates across income groups, he finds an intensive marginal
+Frisch elasticity of .4. Stefansson (2019) using a similar identification strategy, finds a
+smaller Frisch intensive elasticity of .07 and discusses the sensitivity of estimates with
+respect to the exact empirical specification. The key advantage of our analysis is that
+tax holidays in Switzerland happen at different times in different cantons.
+This paper is organized as follows. Section I describes the reform and the variation we
+exploit. Section II describes the data we use. Section III describes our empirical results.
+Section IV concludes. The appendix includes more details on the data we use as well as
+a number of robustness checks that we only mention briefly in the main text.
+
+I
+I.A
+
+The Tax Holiday Reform
+The Swiss Income Tax System
+
+Individual income taxes in Switzerland are quantitatively large and represent about 1/3
+of total tax revenue or about 9 percent of the Swiss GDP. Income taxes in Switzerland are
+residence-based and levied at the federal, cantonal, and municipality level. The federal
+4
+
+income tax is set by federal law, is uniform across cantons, and represents about 1/6 of
+total income tax revenue. Local taxes which include cantonal and municipal taxes are
+very large and represent about 5/6 of income tax revenue.7 Cantonal taxes are set by
+cantonal law and municipalities simply apply a multiplier to the cantonal tax to determine
+municipal taxes. The cantons set their income tax schedule freely and municipalities
+choose their multiplier freely.8 The federal tax is more progressive with very low tax
+rates on low and middle-income taxpayers while local taxes often impose significant tax
+burdens through most of the income distribution. The top marginal tax rate combining
+all income taxes is typically in the 30-40 percent range (although it can go as low as the
+low 20s and go as high as the mid-40s in some municipalities).9
+Married couples file together and are taxed based on total family income so that
+secondary earners face significant tax burdens, particularly if the income of the primary
+earner is high. The income tax base includes both labor and capital income although this
+study will solely focus on labor income (including wage earnings and self-employment
+earnings) due to data availability constraints (incomes made in tax holiday years did not
+have to be reported to the tax administration). The cantonal tax administrations are
+responsible for the collection of the taxes at all three levels and taxpayers only file one
+tax return for all three taxes.
+Old tax system. Prior to the tax reform we are exploiting in this paper, Switzerland
+applied a biennial retrospective income tax system. For example, taxes paid in years 1997
+and 1998 were based on average income in 1995 and 1996. In 1997, a tax return would
+be filed reporting incomes in 1995 and 1996. From this tax return, tax liability would
+be determined for both year 1997 and year 1998 (and was identical in 1997 and 1998)
+so that taxpayers only had to file a tax return every second year. Tax payments were
+typically made in quarterly installments each year. The drawback of this system is that if
+the economic situation of the taxpayer changes (due to marriage, divorce, job loss, etc.),
+7
+
+These statistics are taken from OECD (2016) and refer to year 1996 which is the year just before
+the reforms we study take place. Because the federal tax is more progressive, the relative share of federal
+income tax in total income taxes grows with income and can be as high as 50 percent for high income
+earners.
+8
+The Swiss federation comes perhaps closest to the ideal Tiebout model of local public finance with
+many studies analyzing tax competition and tax induced mobility across municipalities and cantons.
+Liebig et al. (2007); Schmidheiny (2006); Brülhart et al. (2016); Martinez (2016) study mobility across
+Swiss Cantons in response to local income or wealth taxes. Kirchgassner and Pommerehne (1996);
+Eugster and Parchet (2019); Parchet (2018); Brülhart and Parchet (2014) study tax competition in the
+setting of tax rates by municipalities and cantons.
+9
+Appendix Figure A1 depicts the average income tax rate (summing across federal and local income
+taxes) by municipality for a single taxpayer with an annual income of 100,000 Swiss Francs (CHF). This
+is about the 90th percentile of the labor earnings distribution among workers as of 1999. 1 CHF is
+approximately equal to one US dollar.
+
+5
+
+

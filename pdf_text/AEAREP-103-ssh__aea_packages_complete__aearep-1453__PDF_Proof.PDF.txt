@@ -1,0 +1,137 @@
+Lapse-Based Insurance
+Journal: American Economic Review
+Manuscript ID AER-2016-0868.R3
+Manuscript Type: For Administrative Use Only
+Keywords: D03, G22, G02
+
+Page 1 of 103
+
+Disclosure Statement – Daniel Gottlieb
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper.
+
+Page 2 of 103
+
+Disclosure Statement – Kent Smetters
+The author declares that he receives a retainer from a national life insurance mutual company to
+help them create a platform to deliver objective financial advice to middle-class households and
+the Millennial generation. The financial advice division, however, does not sell life insurance.
+Moreover, the firm did not provide us with the survey data used in the paper.
+
+Page 3 of 103
+
+Lapse-Based Insurance
+Daniel Gottlieb and Kent Smetters*
+February 25, 2021
+
+Abstract
+Most individual life insurance policies lapse, with lapsers cross-subsidizing non-lapsers. We show
+that policies and lapse patterns predicted by standard rational expectations models are the opposite
+of those observed empirically. We propose two behavioral models consistent with the evidence: (i)
+consumers who forget to pay premiums and (ii) consumers who understate future liquidity needs. We
+conduct two surveys with a large insurer. New buyers believe that their own lapse probabilities are
+small compared to the insurer’s actual experience. For recent lapsers, forgetfulness accounts for 37.8
+percent of lapses while unexpected liquidity accounts for 15.4 percent.
+
+JEL No. D03, G22, G02
+
+* London School of Economics and Wharton School, University of Pennsylvania. Daniel Gottlieb: D.Gottlieb@lse.ac.uk.
+Kent Smetters: smetters@wharton.upenn.edu. This paper was previously titled “Narrow Framing and Life Insurance.” We
+thank four anonymous referees, Nicholas Barberis, Daniel Bauer, Roland Bénabou, Pedro Bordalo, Sylvain Chassang, Keith
+Crocker, Kfir Eliaz, Erik Eyster, Hanming Fang, Xavier Gabaix, Nicola Gennaioli, Quentin Graham, Michael Grubb, Paul
+Heidhues, Botond Kőszegi, Lee Lockwood, Ted O’Donoghue, Pietro Ortoleva, Matthew Rabin, David Richardson, Andrei
+Shleifer, Paul Siegert, Justin Sydnor, Jeremy Tobacman, Jean Tirole, Daniel Sacks, Georg Weizsäcker, Richard Zechauser,
+and seminar participants at the Central European University, Cornell, EGRIE, ESMT, the European Behavioral Economics
+Meeting, Federal Reserve Board/George Washington University, Harvard University, the London School of Economics, NBER
+Insurance, NBER Household Finance, Penn State, Princeton, Rice, the Risk Theory Society, UC Santa Barbara, University of
+Southern California, University of Utah, University of Pennsylvania, University of Pittsburgh, Washington University in St.
+Louis, and the University of Wisconsin-Madison for comments. James Finucane provided outstanding research assistance.
+
+i
+
+Page 4 of 103
+
+1 Introduction
+Life insurance is the most valuable method for individuals to financially protect their loved ones upon
+death. It is also an enormous industry. Over 70 percent of U.S. families own life insurance (LIMRA
+2016), and annual premiums exceed $110 billion (IIC 2018). Between 1990 and 2017, $42.3 trillion
+in coverage was issued in the individual life insurance market.1 The average face value of policy sold
+in 2017 was $165,460 (ACLI 2018, Table 7.2), double the median household net worth including home
+equity and retirement accounts (Eggleston and Munk, 2018).
+However, most individual policies are terminated by the policyholder—known as “lapsing”—before
+the policies expire or pay a death benefit. Specifically, most term policies, which offer coverage for a
+fixed number of years, lapse before death or the end of the term. Term policies generally lapse after
+the policyholder stops making scheduled premium payments. At that point, the policyholder pays no
+future premiums and no death benefit or related value is paid back to the policyholder. Similarly, most
+permanent policies are terminated before death or their expiration at age 100 or older. Permanent policies
+generally lapse after the policyholder stops making scheduled premium payments or by explicitly electing
+to lapse. At that point, the policyholder pays no future premiums and no death benefit is paid back to
+the policyholder but a “cash value” might be paid.2 For permanent policies with cash value, lapsing
+is called “surrendering.” For both types of policies, because initial premiums exceed actuarially-fair
+prices early into the policy term and are surpassed by actuarially-fair prices later on, lapsing is costly to
+policyholders.3 About $24 trillion of in-force coverage was dropped in the U.S. between 1990 and 2010,
+equal to almost 78 percent of all coverage issued during that period.4
+Starting as far back as Linton (1932), a vast empirical literature has documented the relationship
+between policy terminations and other variables. But three puzzles remain (Section 2). First, the conventional view is that insurers should use front loads to reduce lapses (Hendel and Lizzeri, 2003). Without
+income shocks, the optimal load will be large enough to prevent any lapses, thereby enforcing continued
+1 Life insurance is also provided as an employer-based voluntary group benefit. Group policies are generally not portable
+
+across employers and, therefore, are priced differently. This paper focuses on individual (non-group) policies. 44 percent of
+American households have individual life policies and 49 percent have group policies. Individual policies are over twice in
+size than group policies, which have an average face value of $74,935 for policies sold in 2017.
+2 With many permanent policies, premiums are often collected only for part of a person’s life. As a result, for the same death
+benefit, permanent policies are more expensive than term policies. This premium difference adds savings to a policyholder’s
+“cash value,” after front loads are deducted. The cash value typically increases for a while and eventually declines as the
+payment of the death benefit approaches. Upon lapsing or “surrendering,” the cash value is returned, but because of the front
+load, the cash value is smaller than the premiums paid in excess of mortality risk. If the permanent policy is not surrendered,
+the death benefit is paid upon death or when the policyholder reaches age 100, 105, 110, 120, or 121.
+3 Front loads take on many forms, including level premiums, single premiums, limited-pay whole life, and decreasing term
+insurance policies. We could not find any insurer that offers back-loaded policies, and no major trade organization tracks sales
+information regarding back-loaded policies.
+4 Drops include coverage issued before 1990. In some cases, policies were dropped based on factors other than failure to
+pay (lapses)—for example, if the insurer believes that the policy terms were not satisfied.
+
+1
+
+Page 5 of 103
+
+participation in the insurance pool as policyholders learn more about their mortality over time (“risk reclassification”).5 With income shocks, lapses may occur in equilibrium after large shocks. Quantitatively,
+Hambel et al. (2017) simulate life insurance demand in a calibrated rational-expectations lifecycle model
+with idiosyncratic income shocks, health shocks, liquidity constraints, reclassification risk, and industryaverage markups. They find that little to no lapses across a wide wealth and income distribution. Lapsing
+forfeits the front load, so many rational households would buy little insurance, or lapses require large
+swings in income.6 This finding is also consistent with the results in Krebs, Kuhn, and Wright (2015),
+who model endogenously binding borrowing constraints in the context of life insurance purchases and
+macroeconomic shocks. Second, a related puzzle is the identity of the lapsers themselves: they are not
+more likely to lapse after a positive health shock, as predicted by reclassification risk. Third, it is common for policyholders to take loans against permanent policies, which, despite being fully collateralized
+by the life insurance policy itself, are typically more expensive than equivalent forms of secured credit.
+Outstanding loans totaled $135 billion in 2016.
+As we show, life insurance companies make positive earnings on clients who lapse and negative
+earnings on those who keep their policies. However, insurers do not seem to make extraordinary profits.
+Rather, policyholders who lapse cross-subsidize those who do not. Making a profit from policies that
+lapse is a taboo topic in the life insurance industry. As one of their main trade groups recently put it,
+“[t]he life insurance business vigorously seeks to minimize the lapsing of policies” (ACLI 2017: 64).
+Still, as we show herein, insurers seem to compete on this margin. This result is the opposite of the
+conventional (“rational”) view that insurers use front loads to reduce lapses.
+We propose two behavioral mechanisms that can account for both the structure of life insurance
+policies and the pattern of lapses. First, many policyholders forget to pay their premiums.7 Presumably,
+as a way to mitigate the effect of forgetfulness, most U.S. states impose a grace period of 30 or 31
+days during which a life insurance policy does not lapse even though the payment is past due. However,
+despite mandating a grace period, most states do not require companies to notify customers who miss their
+payments. We show that, when faced with consumers who may forget to pay their premiums, equilibrium
+policies endogenously lapse after a policyholder misses a payment, and lapsers cross-subsidize nonlapsers.
+In the second mechanism, individuals do not fully account for future liquidity needs when purchas5 More precisely, with health shocks only, front loads will be large enough to prevent any lapses if the initial wealth is large
+
+enough. If the initial wealth is not large enough, individuals will only purchase annual policies at actuarially-fair prices in
+each period.
+6 In particular, younger households will often not purchase life insurance unless they have enough income. Middle-aged
+households will never lapse unless their income swings to very low or high amounts. Since the authors focus on individual
+insurance demand, they do not calculate a measure of households at different income and wealth combinations to aggregate
+their results. But their income and wealth bands are wide, and they conclude: “Our results show that in a neoclassical model,
+households have a low surrender rate since they rationally anticipate their future liquidity demands.” (P. 1173)
+7 Previous work has documented the prevalence of forgetfulness in other settings, including consumption and saving decisions (Ericson, 2011; Sussman and Alter, 2012; Karlan, McConnell, Mullainathan, and Zinman, 2016). More generally,
+there is an emerging literature that studies individuals with imperfect memory (c.f., Bénabou and Tirole, 2016 and references
+therein).
+
+2
+
+

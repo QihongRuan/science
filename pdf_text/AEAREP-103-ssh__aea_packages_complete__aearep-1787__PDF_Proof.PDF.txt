@@ -1,0 +1,188 @@
+Highway to Hitler
+Journal: American Economic Journal: Applied Economics
+Manuscript ID AEJApp-2018-0816.R1
+Manuscript Type: For Administrative Use Only
+Keywords: H54, P16, N44
+
+Page 1 of 73
+
+Authors must acknowledge our Data Availability Policy and state whether or
+not they can make their data available to the public if the paper is accepted for
+publication. Please consult with your coauthors before answering.
+Misrepresentation of the availability of your data may result in reversal of an
+acceptance decision.
+If my paper is accepted, I will provide all the data and programs used in my
+research, allowing them to be posted on the journal's website.
+
+Page 2 of 73
+
+HIGHWAY TO HITLER *
+Nico Voigtländer
+
+Hans-Joachim Voth
+
+UCLA, NBER and CEPR
+
+University of Zurich and CEPR
+
+This draft: December 2020
+
+Abstract: Can autocracies win electoral support by showcasing economic competence? We
+analyze a famous case – the building of the Autobahn network in Nazi Germany. Using newly
+collected data, we show that highway construction was effective in boosting popular support,
+helping to entrench the Nazi dictatorship. Direct economic benefits such as declining
+unemployment near construction sites are unlikely to explain the increase in pro-Nazi votes.
+In addition, Nazi propaganda used the Autobahn as a powerful symbol of successful economic
+policy, putting an effective end to austerity – so that many Germans credited the Nazi regime
+for the economic recovery. In line with this interpretation, we show that support for the Nazis
+increased even more where highway construction coincided with greater radio availability –
+a major source of propaganda. The effect of highways was also significantly stronger in
+politically unstable states of the Weimar Republic. Our results suggest that infrastructure
+spending can raise support for autocracy when voters are led to associate it with visible
+economic progress and an end to political instability.
+
+Keywords: political economy, entrenchment of dictatorships, infrastructure spending
+JEL Classification: H54, P16, N44, N94
+
+*
+
+For helpful comments, we thank Sascha Becker, Eli Berman, Tim Besley, Leonardo Bursztyn, Davide Cantoni,
+Bruno Caprettini, Ernesto Dal Bo, Melissa Dell, Rick Hornbeck, Torsten Persson, James Robinson, Andrei
+Shleifer, Jim Snyder, and Noam Yuchtman. Seminar audiences at Basel University, Bonn, CREI, Dartmouth,
+Haas-Berkeley, King’s College London, the Juan March Institute, LSE, UC-Berkeley, UC San Diego, Warwick,
+Yale, Zurich, and at the Barcelona Summer Forum offered useful suggestions. We are grateful to Hans-Christian
+Boy, Vicky Fouka, Cathrin Mohr, Casey Petroff, Colin Spear and Inken Töwe for outstanding research
+assistance. Maja Adena, Ruben Enikolopov, and Maria Petrova kindly shared data on radio signal strength in
+Nazi Germany.
+
+Page 3 of 73
+
+1
+
+“…while a decade of Weimar parliaments had produced
+only talk and sketches, a mere three years of National
+Socialism had built a thousand kilometres of traversable
+superhighways… Their very existence seemed to verify
+the Nazi thesis that the state must be given a free hand,
+if it were to restore Germany to her former glory.”
+(Shand 1984, p.194).
+
+1
+
+Introduction
+
+In the last 200 years, democracy has spread around the globe. In 1816, less than 1% of world
+population lived in democracies. In 2015, the figure stood at 58%. However, progress has not
+been a one-way street: Between 1920 and 1938, the number of democratic states in the world
+fell from 20 to 13, and the share of the population living in democracies declined from 20.5%
+to 14.8%. 1 Nor is democratic fragility necessarily an issue of the past: Ever fewer young
+Europeans and U.S. citizens consider it essential to live in a democracy. In the U.S., their
+share declined from more than 70% among the 1930s birth cohort to about 30% for the 1980s
+cohort. 2
+For democracy to fail, autocracy has to triumph. Authoritarian leaders rarely rule by force
+alone, and many rely on popular support (Egorov and Sonin 2014). How do authoritarian
+rulers convince voters to discard and disregard their democratic rights? The decline of
+democracy is often associated with (perceived) social disorder. In these circumstances,
+dictatorships may look appealing to the masses because of their capacity to restore order
+(Finer 2002; Djankov et al. 2003). As Easterly and Pennings (2016) noted, the view that
+economic growth is easier to engineer under strong autocratic regimes has recently gained in
+prominence, with China and Singapore often cited as leading examples. 3 Similarly, thirty
+percent of US respondents in the 2010 World Value Survey thought that it would be “good or
+very good to have a strong leader” that does not have to “bother with parliaments and elections”
+(Foa and Mounk 2016). But do shows of efficacy, indeed, buy support for budding dictators?
+
+1 Boix et al. (2012), Vanhanen (2010). Along the same lines, Birdsall and Fukuyama (2011) observe that
+
+“political leaders in the developing world now associate efficiency and capability with autocratic political
+systems.”
+2 Foa and Mounk (2016). The question asked is whether respondents feel “it is essential to live in a country that
+is governed democratically,” where “feeling strongly” corresponds to a rating of 10 on a 10-point scale.
+3 See also Friedman (2009). Jones and Olken (2005) show that turnover in the leadership of autocracies leads to
+sharp changes in economic performance; Besley and Kudamatsu (2008) model the institutional features of
+autocracies that can increase their chances of success.
+
+Page 4 of 73
+
+2
+
+It may instead be true that entrenched dictators are more effective, rather than effective
+dictators becoming entrenched.
+In this paper, we aim to identify the causal effect of effective policy implementation on
+autocratic consolidation. We study a concerted effort showcasing an authoritarian state’s
+ability to accomplish ambitious goals: the construction of the Autobahn in Nazi Germany, the
+world’s first high-speed road network. Initially, the Nazi grip on power was far from absolute.
+In an election that was neither free nor fair in November 1933, many voters opposed the Nazi
+regime – in several major cities, more than a quarter of votes were cast against the Nazi Party. 4
+By mid-1934, the regime’s popularity was waning amongst the middle class; conservative
+elites were dismayed by Nazi lawlessness, and President von Hindenburg threatened military
+rule. 5 And yet, by the late 1930s, the Nazi regime had become one of the most popular in
+German history – a “consensual dictatorship.” 6 As late as 1955, almost half of all Germans
+opined that Hitler would have been “one of the greatest German statesmen had it not been for
+the war” (Möbius 2013: 257). 7
+A key turning point in the regime’s fortunes came in August 1934, after President von
+Hindenburg’s death. Hitler became both chancellor and president, concentrating singular
+authority in the hands of the Führer. 8 This increase in power was overwhelmingly endorsed
+in a popular referendum. We argue that Autobahn construction contributed markedly to the
+regime’s popularity, as reflected in major support for the referendum. 9 Since the last election,
+held just 10 months before, road construction had begun in earnest. Opposition against the
+regime declined significantly where the new roads were being built. Figure 1 illustrates our
+4 Voting results from the Nazi period cannot be taken at face value. Intimidation was massive, and there is some
+
+(limited) evidence of fraud. Nonetheless, we argue that information about popular support can be extracted from
+vote shares. Yes votes did not necessarily reflect genuine support – but no-votes were a clear sign of opposition.
+No-votes varied importantly over time and space. Even large cities recorded substantial differences: In Aachen
+in 1934, for example, 24% voted “no”; in Nuremberg, on the other hand, only 4.6% voted against Hitler
+becoming both chancellor and president
+5 Time Magazine in July 1934 quoted Adolf Hitler as saying: “Don't forget how people laughed at me 15 years
+ago when I declared that one day I would govern Germany. They laugh now, just as foolishly, when I declare
+that I shall remain in power!”
+6 Aly (2005) and Bajohr (2005).
+7 In another survey, some 10% opined that even with the war, Hitler was the greatest German statesman of all
+time, whose eminence would only be accepted in the future (Noelle and Neumann 1956: 135).
+8 In addition to the referendum, the wholesale murder of the SA-leadership and other prominent anti-Nazis in
+the Night of the Long Knives allowed Hitler to consolidate his powers.
+9 Saiz (2006) notes a close association between dictatorships and highways, but argues that this is explained by
+their use as instruments of repression.
+
+Page 5 of 73
+
+3
+
+main finding. It shows the change in support for the Nazi regime by distance to Autobahn
+construction. 10 The Nazis gained more support the closer locations were to highway
+construction. Our results suggest persuasion rates of 8-17% due to the Autobahn – a high
+value compared with other studies (Della Vigna and Gentzkow 2010). 11
+Motorway planning may have followed a political lead after 1933. To deal with potential
+endogeneity, we construct least-cost paths between terminal cities connected by highways.
+Building costs reflect geological characteristics such as the steepness of the terrain, the
+number of rivers to be traversed, etc. We use these least-cost paths as an instrument for actual
+construction, excluding the terminal cities themselves from the analysis. Our IV results
+confirm the OLS estimates both in terms of magnitude and statistical significance.
+What accounts for the Autobahn’s success in winning electoral support for Hitler’s regime?
+We argue that highway construction worked because it convinced voters of the Nazi regime’s
+“competence,” mainly by seeming to solve Germany’s key economic problem:
+unemployment. Between 1933 and 1934, nationwide unemployment fell by half (Humann
+2011). However, the roads’ contribution to this success was limited; their construction
+employed relatively few workers, and a cyclical upswing had already begun to reduce
+unemployment before road-building commenced (Ritschl 1998). Correspondingly, we find
+that unemployment fell at a similar rate in cities near highway construction and those further
+away. Nevertheless, Goebbels’ propaganda effectively sold the notion that Nazi roadbuilding
+was reviving the German economy. 12 Thus, news that the highway was coming was enough
+to sway voters: We find that approved highway segments (where people knew construction
+would start shortly, but work had not begun) had similar effects on Nazi support as highway
+segments already under construction.
+We provide further support that propaganda and highway construction complemented each
+other – where radio signal strength was high and the new roads were under construction, pro-
+
+10 Since the election in 11/1933 and the referendum in 8/1934 are not directly comparable, we use the difference
+
+in standardized vote shares with mean zero and standard deviation one.
+11 Our results reflect local differences in voting; for the country as a whole, effects may well have been larger
+
+because people did not only react to changes at the local level – but also because they saw progress in the country
+as a whole.
+12 In other words, the Nazi propaganda successfully attributed economic performance to its economic policies –
+a process that is generally challenging because of economic volatility (Buera, Monge-Naranjo, and Primiceri
+2011).
+
+

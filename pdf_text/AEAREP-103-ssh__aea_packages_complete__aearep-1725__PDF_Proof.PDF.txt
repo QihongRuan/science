@@ -1,0 +1,125 @@
+Political Turnover, Bureaucratic Turnover, and the Quality of
+Public Services
+Journal: American Economic Review
+Manuscript ID AER-2017-1867.R3
+Manuscript Type: For Administrative Use Only
+Keywords: H41, H83, J45
+
+Page 1 of 144
+
+November 26, 2017
+Disclosure Statement for Mitra Akhtari
+The author declares that she has no relevant or material financial interests that relate to the
+research described in this paper.
+All the data used in this paper is publicly available and, therefore, there was no need of IRB
+approval. The author is aware of AER Data Availability Policy and commits to share all the data
+and do-files if the paper is accepted for publication.
+
+Page 2 of 144
+
+November 26, 2017
+Disclosure Statement for Diana Moreira
+The author declares that she has no relevant or material financial interests that relate to the
+research described in this paper.
+All the data used in this paper is publicly available and, therefore, there was no need of IRB
+approval. The author is aware of AER Data Availability Policy and commits to share all the data
+and do-files if the paper is accepted for publication.
+
+Page 3 of 144
+
+November 26, 2017
+Disclosure Statement for Laura Trucco
+The author declares that she has no relevant or material financial interests that relate to the
+research described in this paper.
+All the data used in this paper is publicly available and, therefore, there was no need of IRB
+approval. The author is aware of AER Data Availability Policy and commits to share all the data
+and do-files if the paper is accepted for publication.
+
+Page 4 of 144
+
+Political Turnover, Bureaucratic Turnover and the Quality
+of Public Services
+By Mitra Akhtari, Diana Moreira & Laura Trucco*
+We study how political turnover in mayoral elections in Brazil
+affects public service provision by local governments. Exploiting a
+regression discontinuity design for close elections, we find that municipalities with a new party in office experience upheavals in the
+municipal bureaucracy: new personnel are appointed across multiple service sectors, and at both managerial and non-managerial
+levels. In education, the increase in the replacement rate of personnel in schools controlled by the municipal government is accompanied by test scores that are .05-.08 standard deviations lower. In
+contrast, turnover of the mayor’s party does not impact local (nonmunicipal) schools. These findings suggest that political turnover
+can adversely affect the quality of public services when the bureaucracy is not shielded from the political process.
+Countries differ in the extent to which politicians control the appointment and
+turnover of public employees within the bureaucracy. One of the first crosscountry datasets on bureaucratic structure (Rauch and Evans, 2000) documents
+that in many East Asian countries, as well as in India and Argentina, only the
+top chiefs and vice-chiefs in the core administrative agencies of the country are
+appointed by the president (or its equivalent). On the other end of the spectrum,
+in Israel, Haiti, Nigeria, and Brazil, almost all of the top 500 positions in the
+core government agencies are politically appointed by the president. A potential
+consequence of having civil service positions at the discretion of politicians is
+that bureaucratic turnover and political turnover become linked, leading to the
+politically motivated replacement of bureaucrats. In this paper, we investigate the
+scope and consequences of politically motivated replacement in local governments.
+Accounts of such replacements in newly formed administrations are ubiquitous. In the U.S., senior staff turnover during President Trump’s first year was
+* Akhtari:
+Airbnb Data Science, 888 Brannan St, San Francisco, CA 94103, mitra.akhtari@airbnb.com. Moreira: University of California, Davis, Department of Economics, dsmoreira@ucdavis.edu https://dianamoreira.com/. Trucco: Amazon, 535 Terry Avenue N, Seattle, WA
+98109, trucco@post.harvard.edu. Note that the work was done prior to joining Amazon. We would
+like to thank Alberto Alesina, Alberto Abadie, Marianne Bitler, Julia Cagé, Nicolas Caramp, Michael
+Carter, Raj Chetty, Claudia Costin, Ernesto Dal Bo, William Easterly, Raissa Fabregas, Claudio Ferraz,
+Frederico Finan, Roland Fryer, Alejandro Ganimian, Peter Ganong, Edward Glaeser, Siddarth George,
+Rema Hanna, Nathan Hendren, Lakshmi Iyer, Simon Jäger, Lawrence Katz, Asim Khwaja, Michael
+Kremer, Horacio Larreguy, Sendhil Mullainathan, Nathan Nunn, Rohini Pande, Gautam Rao, Natalia
+Rigol, Alexandra Roulet, Heather Sarsons, Andrei Shleifer, Monica Singhal, Jann Spiess, Edoardo Teso,
+Crystal Yang for numerous helpful comments. Luiza Aires, Felipe Lima and Fernando Secco provided
+excellent research assistance.
+
+1
+
+Page 5 of 144
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+a record-high 34%.1 Political discretion over personnel appointments can also
+extend beyond the highest positions in the administration. In some Latin American countries, up to 26% of all government personnel worked under the threat
+of removal by the sitting president, who often exercises the discretionary power
+to remove personnel (Grindle, 2012). In the early 2000s in the national governments of Mexico and the Dominican Republic, 30,000 and 3,000 positions
+changed hands, respectively, when new administrations were elected.2 High levels of bureaucratic replacement often lead to a public outcry over the adverse
+consequences it may have for government services.3 For example, these replacements may render services unstable, as policies are discontinued (Bostashvili and
+Ujhelyi, 2019). They may also lead to losses in personnel with position-specific
+knowledge (Wilson, 1989). However, an overhaul of the bureaucracy may ensure
+that the bureaucracy is serving the people rather than serving the interests of a
+few powerful groups, such as themselves and other organized groups (Olson, 1982;
+Grindle, 2004). In fact, Latin America’s ability to pursue many policy reforms
+has been attributed to the widespread influence of politicians over bureaucratic
+appointments.4
+Given that politically motivated replacements frequently occur when a new
+government comes to power, we ask: how does political turnover affect the bureaucracy and its performance? In Brazil, we find that political party turnover
+at the mayoral position level widely reshapes the local government’s bureaucracy.
+Political turnover and the associated disruption in the bureaucracy harm the quality of public education, one of the primary responsibilities of local government in
+this context.
+We focus on this particular context for several reasons. First, local politicians
+control, directly and indirectly, the appointment of personnel to the municipal
+bureaucracy. In particular, in Brazil, as in many Latin American countries, local
+politicians have considerable discretion over the public education system and the
+appointment of public school personnel, such as headmasters and teachers (Ferraz, Finan and Moreira (2012); Miranda and Pazello (2015); Munõz and Prem
+1 President Trump’s first-year staff turnover was more than triple the turnover during the Obama
+administration and higher than that of the five most recent U.S. presidents. See Brookings’ report: Why
+is Trump’s staff turnover higher than the five most recent presidents accessed May 18, 2020.
+2 These are raw counts of replacements that happened in the event of a political turnover (Iacoviello,
+2006). These replacements could have happened in the absence of any political turnover. In contrast,
+our paper estimates personnel replacement that can be solely attributed to a change in the ruling party.
+3 According to The New York Times article: ”Trump appears to be launching the biggest assault
+on the nation’s civil service system since the 1883 Pendleton Act”:(”Trump’s effort to remove the disloyal heightens unease across his administration”, The New York Times accessed May 22, 2020); The
+Economist describes personnel reassignments during Trump’s administration that led to a complete
+mismatch between an individual’s skills and responsibilities. It argues that such practices have raised
+concerns among Republicans and Democrats about whether the federal government can perform vital
+tasks . (”Bureaucratic Blight” The Economist accessed May 18, 2020)
+4 According to Grindle (2012), in the early 2000s in Colombia and Panama, 38% of career personnel
+and 26% of all government workers, respectively, worked under provisional appointments that could be
+terminated at the discretion of the sitting president. The author argues that political appointees played
+a role in the liberal reforms of the 1980s and 1990s and in the innovative cash transfer programs that
+were rapidly put in place in the 1990s and 2000s in Latin America.
+
+

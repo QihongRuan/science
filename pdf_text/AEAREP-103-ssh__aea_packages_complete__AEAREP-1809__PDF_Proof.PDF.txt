@@ -1,0 +1,205 @@
+Long-term Effects of the Targeting the Ultra Poor Program
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0667.R2
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+24-Jan-2021
+Author:
+Complete List of Authors: Banerjee, Abhijit; Massachusetts Institute of Technology, Economics;
+Duflo, Esther; Massachusetts Institute of Technology, Department of
+Economics;
+Sharma, Garima; Massachusetts Institute of Technology, Economics;
+Keywords: Ultra-Poor Programs; Long-run follow up, O15, poverty traps
+
+Page 1 of 35
+
+Long-term Effects of the Targeting the Ultra Poor Program
+CGAP and the Ford Foundation provided funding for the study. No interested party
+provided funding. No one had review rights prior to publication. Abhijit Banerjee serves
+as the director of JPAL, which has been involved in providing technical and monitoring
+assistance to scale up the TUP program. The research team obtained appropriate
+university IRB certificates for all fieldwork.
+
+Page 2 of 35
+
+Long-term Effects of the Targeting the Ultra Poor
+Program
+By Abhijit Banerjee, Esther Duflo & Garima Sharma∗
+This paper studies the long-run effects of a “big-push” program
+providing a large asset transfer to the poorest Indian households.
+In a randomized controlled trial that follows these households over
+10 years, we find positive effects on consumption (0.6 SD), food
+security (0.1 SD), income (0.3 SD), and health (0.2 SD). These
+effects grow for the first seven years following the transfer and persist until year 10. One main channel for persistence is that treated
+households take better advantage of opportunities to diversify into
+more lucrative wage employment, especially through migration.
+Development economics has long posited that the poor may be poor for no good
+reason other than the fact that they started poor (for some early work see, Leibenstein (1958), Dasgupta and Ray (1986), Banerjee and Newman (1993), Galor and
+Zeira (1993)). This is the idea of a poverty trap which has the implication that
+a one-time capital grant that makes very poor households significantly less poor
+(“big push”) might set off a virtuous cycle that takes them out of poverty. Forty
+three countries now embrace some version of this idea and make large transfers
+to over 3.1 million of their poorest households1 . In particular, the “Targeting the
+Ultra Poor” (TUP) intervention, pioneered by BRAC in Bangladesh, employs a
+multi-faceted approach, offering poor households an asset transfer, consumption
+support, savings, and training in the hopes of unlocking a poverty trap.
+Short and medium-run evaluations across a number of contexts find large and
+positive treatment effects of the TUP program on poor households’ economic
+wellbeing, including on measures of net worth, income, consumption, and health
+(Banerjee et al. (2015), Bandiera et al. (2017), Bedoya et al. (2019)). The policy push for these programs was in large part based on these evaluations, which
+showed that if the results were persistent over time, in the long run, the program benefits would be larger than the (considerable) initial costs. Balboni et al.
+∗ Banerjee: Massachusetts Institute of Technology, JPAL, and NBER (email: banerjee@mit.edu);
+Duflo: Massachusetts Institute of Technology, JPAL, and NBER (email: eduflo@mit.edu); Sharma:
+Massachusetts Institute of Technology (email: gsharma@mit.edu). The authors thank Bandhan, in
+particular Mr. Chandrashekhar Ghosh and Ramaprasad Mohanto, for their tireless support and collaboration, CGAP and the Ford Foundation for funding, Biotech International for donating bednets
+and, especially, Annie Duflo, Lakshmi Krishnan, Justin Oliver and the Center for Microfinance for their
+outstanding support of this project. Abhay Agarwal, Arkadeep Bandopadhyay, Prasid Chakraborty,
+Gabriella Fleischman, Clemence Idoux, Sudha Kant, Jyoti Prasad Mukhopadhyay provided valuable research assistance. Field work approved by MIT Institutional Review Board under protocol #701002099
+and #1408006525. The analysis was pre-registered in the AEA RCT Registry, with unique identification
+number: AEARCTR-0000382.
+1 Partnership for Economic Inclusion “State of the Sector” report, 2018.
+
+1
+
+Page 3 of 35
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+(2020) provides evidence that the pattern of short and medium run impacts in
+Bangladesh is indeed consistent with the presence of a poverty trap: if the program pushes household wealth above some threshold, they escape poverty, but if
+they were too poor to start with, they slide back into poverty.
+However, evidence of long-term impacts of such programs remains scarce. This
+paper fills this gap by tracking the 4, 7 and 10 year impacts of a TUP program
+in West Bengal, India. Observing both treatment and control households over
+time is key to establishing the existence (or the lack thereof) of a poverty trap,
+because it tells us whether households would have escaped poverty on their own
+over many years absent any intervention through their own efforts, potentially
+aided by larger, macroeconomic, tides that “raise all boats”.
+The results show large improvements in household wellbeing even for those who
+were not assigned to the program. Average household per capita consumption
+was $1.35 (2018 PPP) at baseline in the control group, and $2.9 by year 10. Nevertheless, measures of economic wellbeing (consumption, wealth, health, income)
+improve significantly and substantially faster among treated households until year
+7 from the asset transfer, and the resulting treatment control gap persists between
+year 7 and 10. Their per capita consumption is $0.6 per day (0.6 standard deviations) higher than the control group at both year 7 & 10, and income is 0.3
+standard deviations higher. This temporal pattern of growing effects followed
+by persistence is consistent with the alleviation of a poverty trap, what BRAC
+describes as the graduation of treated households. However, it is also consistent
+with there being persistent effects without actually getting out of a trap: the
+control households do become less poor over time, and the treatment households
+are still not very rich by the time the treatment effect stabilizes (although their
+average consumption is above the World Bank threshold for “moderate poverty”).
+It would take an even longer follow up to conclude that the treatment households
+have reached a permanently higher steady state.
+What are the actual channels through which the effect of a one-time shock
+persists? This is the subject of much theoretical work (see for example, Dasgupta
+and Ray (1986), Banerjee and Newman (1993), Galor and Zeira (1993), Banerjee
+(2000) among others). These papers emphasize the idea that poor households
+are unable to reach the threshold level of investment at which productivity rises
+steeply, either because they cannot raise or save enough capital or because they
+are unwilling to absorb the accompanying increase in risk. The capital grant
+pushes them over that threshold, and as a result their income goes up sharply
+allowing them to sustain the new higher level of investment. A more recent
+literature emphasizes psychological factors; becoming wealthier makes households
+more optimistic about the future and therefore more willing to save and/or put
+in effort (Banerjee and Mullainathan (2010), Genicot and Ray (2017)) or more
+able to focus and take good decisions (Mullainathan and Shafir (2013)).
+These models conceptualize the effect of the “big push” as a one-time shift to
+a different mode of production. Our data, on the other hand, suggests a more
+
+Page 4 of 35
+
+VOL. VOL NO. ISSUELONG-TERM EFFECTS OF THE TARGETING THE ULTRA POOR PROGRAM3
+
+complex dynamic response: initially (i.e at 18 months) these TUP beneficiaries are
+mainly richer because they have the asset that was transferred (mainly livestock).
+At 3 years they have diversified into new businesses in addition to the livestock
+and have significantly more earnings from non-farm micro-enterprises than the
+control group. This divergence gets even more amplified by year 7, when the
+non-farm micro-enterprise earnings in treatment is nearly twice that in control.
+However we also see the emergence of a third major source of divergence: wage
+income. There is no treatment effect on wage earnings at 18 months or 3 years, but
+by year 7 the gap between treatment and control is the same order of magnitude
+as the effect on non-farm micro-enterprises and twice the impact on livestock
+earnings. This seems to be almost entirely driven by a difference in the earnings
+of migrants from the family between treatment and control households.
+By year ten, we see another shift. The treatment effect on non-farm microenterprises attenuates relative to year 7 (though it is still higher than in year 3),
+but the effect on remittances more than doubles. In other words, the household
+is increasingly specialized in labor earnings, coming mainly from migrants.
+These multiple shifts are not per se inconsistent with the theory since the idea of
+the production technology in these models is sufficiently abstract to accomodate
+doing different things at different points of time. However it does provide a quite
+different perspective on what is going on. The first transition, from livestock to
+non-farm micro-enterprises may not be particularly surprising, since the households were not given much choice on what assets they can get from the program
+and they can use the earnings from the livestock to fund a move towards what
+they see as a better opportunity. The shift towards more labor earnings demands
+more of an explanation since in many models (e.g. Banerjee and Newman (1993))
+the labor market is seen as the alternative that can be accessed even by those who
+have no capital. However migration often requires an upfront investment (Bryan,
+Chowdhury and Mobarak (2014)) and it is possible that treated households are
+better placed to pay for that.
+This last observation has another important implication: while it is of course
+true that a macro shock that creates new opportunities for everyone can eliminate
+a poverty trap and therefore make a TUP-like intervention unecessary, it is also
+possible that the intervention made it easier to take advantage of new opportunities. This kind of macro shift seems to have transpired in our setting; in the
+control group wage earnings go up by a factor of 3 between the first endline (at 18
+months) and the last (at 10 years), probably because of a combination of growth
+in India and a demographic shift, coming from the fact that the children of the
+women who were selected for the study are now old enough to enter the labor
+market. However the treatment group is better able to take advantage of these
+new opportunities–for one, compared to the control group, members of treated
+families are less likely to migrate to the nearest big city, Kolkata, as against to urban centers further away2 , and they migrate for longer. By year 7, wage earnings
+2 Delhi is the most common urban destination for out-of-state migrants from Bengal ( (2018)).
+
+Page 5 of 35
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+are almost 30% larger in the treatment group.
+This could be because they have more access to capital and migrating (especially migrating far) is expensive. Or it could be that they are better informed
+or more confident as a result of the headstart they receive (Banerjee et al. (2020)
+makes the case that the TUP intervention in Ghana raises labor supply through
+such psychological mechanisms). Whatever the explanation, the important insight is that an intervention like TUP might empower beneficiaries to take better
+advantage of whatever new opportunities arise over time and for that reason,
+positive macroeconomic shifts may be complementary to a big push intervention
+rather than a substitute.
+This paper is most closely related to a small number of recent papers studying
+whether a one-time positive shock has long term impact on the lives of the poor.
+The closest two are perhaps Blattman, Fiala and Martinez (2020) who find that a
+big push intervention in Uganda has a large impact 4 years after the intervention,
+which disappears by year 9 as the control group catches up with the treated
+group due to opportunities for wage employment, and Bandiera et al. (2017)
+which studies TUP in Bangladesh and finds a positive impact 7 years after the
+intervention, using a combination of experimental and non-experimental methods
+to deal with the fact that the control group was treated in year 4.
+I.
+
+Experimental Design and Data
+
+The NGO Bandhan ran the TUP program in West Bengal starting in 2007.
+The poorest households were identified in two steps. First, residents across 120
+village hamlets ranked households into five wealth quintiles. Among households
+ranked in the bottom quintile Bandhan then verified eligibility per seven criteria:
+(i) presence of an able-bodied female member (to manage the asset), (ii) no credit
+access, (iii) landholding below 0.2 acres, (iv) no ownership of productive assets,
+(v) no able-bodied male member, (vi) presence of school-aged children who are
+working instead of attending school, and (vii) primary source of income being
+informal labor or begging. Households had to meet the first two and at least
+three of the remaining five criteria in order to be eligible for the TUP intervention. In total, nine hundred seventy eight (978) households were deemed eligible.
+Roughly half of these (514) were randomly assigned to receive the intervention,
+with stratification at the hamlet level. Of these, only 266 accepted treatment.
+All reported estimates are intent-to-treat (ITT) estimates.
+Households in the treatment group who chose to participate chose a productive
+asset from a menu of options (2 cows, 4 goats, 1 cow and 2 goats, nonfarm microenterprise inventory, etc). About 82% chose livestock. In addition to the asset
+they received weekly consumption support for 30-40 weeks3 , access to savings,
+and weekly visits from Bandhan staff over a span of 18 months. These visits
+3 The exact duration was 30 weeks for households receiving goats and 40 weeks for households receiving cows. The allowance of Rs.90/week ($7.6 in 2007 USD PPP) was meant to aid subsistence.
+
+

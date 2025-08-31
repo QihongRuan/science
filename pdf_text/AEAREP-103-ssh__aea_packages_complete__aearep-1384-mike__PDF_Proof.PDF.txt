@@ -1,0 +1,126 @@
+Is the Supply of Charitable Donations Fixed? Evidence from
+Deadly Tornadoes
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0230.R2
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+07-Sep-2020
+Author:
+Complete List of Authors: Deryugina, Tatyana; University of Illinois at Urbana-Champaign, Finance
+Marx, Benjamin; University of Illinois at Urbana-Champaign, Economics
+Keywords: D64, Q54, L31
+
+Page 1 of 41
+
+Disclosure Statement
+Tatyana Deryugina
+The author declares that she has no relevant or material financial interests that relate to the
+research described in this paper. The research was supported by a $40,000 grant from the Indiana
+University School of Philanthropy.
+The authors did not seek IRB approval for the project because the project does not constitute
+human subjects research.
+The author holds no paid or unpaid positions with any relevant organizations. No other party had
+the right to review the paper prior to its circulation.
+
+Page 2 of 41
+
+Disclosure Statement
+Benjamin M. Marx
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper. The research was supported by a $40,000 grant from the Indiana
+University School of Philanthropy.
+The authors did not seek IRB approval for the project. This project uses publicly available
+datasets in which the units of observation are ZIP Codes or charitable organizations.
+The author holds no paid or unpaid positions with any relevant organizations. No other party had
+the right to review the paper prior to its circulation.
+
+Page 3 of 41
+
+Is the Supply of Charitable Donations Fixed?
+Evidence from Deadly Tornadoes∗
+Tatyana Deryugina† and Benjamin M. Marx‡
+August 2020
+
+Abstract
+Do natural disasters increase charitable giving or simply reallocate a fixed supply of
+donations? We study this question using IRS data in the context of deadly tornadoes.
+We find that, among ZIP Codes located in the same state but more than 20 miles
+away from a tornado’s path, donations by households increase by about $2 million
+per tornado fatality. We find no negative effects of tornado fatalities on donations to
+charities located in these ZIP Codes. The results imply that giving in response to new
+needs need not come at the expense of other causes.
+JEL codes: D64, Q54, L31
+
+∗ We thank the Lilly Family School of Philanthropy for financial support. We thank Yuci Chen, Arash
+
+Farahani, Chitra Jogani, and Dana Shaat for excellent research assistance. We thank Maja Adena, Wojciech
+Kopczuk, Rob McClelland, David Molitor, Una Osili, Mark Ottoni-Wilhelm, Michael Price, Sarah Smith;
+seminar participants at Drexel University and the University of Illinois; and participants at the 2016 ASSA
+meetings, the 2016 ARNOVA Conference, the 2018 Science of Philanthropy Initiative Conference, the 2018
+National Tax Association Annual Conference, and the 2020 Mid-Midwest Applied Microeconomics Workshop for their helpful comments.
+† Geis College of Business, University of Illinois, IZA, and NBER. Address: 4050 BIF, 515 E. Gregory Dr.,
+Champaign, IL, 61820. Email: deryugin@illinois.edu.
+‡ Department of Economics, University of Illinois, 214 David Kinley Hall, 1407 W. Gregory Dr., Urbana,
+Illinois 61801, MC-707. Email: benmarx@illinois.edu.
+
+1
+
+Page 4 of 41
+
+1 Introduction
+Charitable donations are an important source of funding for public goods and redistribution. Overall, U.S. charitable giving makes up about 2 percent of GDP (List, 2011). But
+it is not well-understood whether an exogenous shock to human need, such as a natural disaster, increases total giving or simply displaces donations that would have gone to
+other causes. Many laboratory experiments find that incentives or opportunities to donate to one charity reduces giving to the others.1 However, the laboratory setting may
+not be reflective of typical giving. Outside of the laboratory, credible causal estimates of
+displacement effects between causes are rare and generally encompass a small share of
+charities or of total donations.
+We estimate whether deadly tornadoes increase the total amount of charitable giving.
+We measure charitable giving using an annual panel of ZIP-Code-level individual income
+tax data from the Internal Revenue Service (IRS), which report all income tax deductions
+claimed for donations to any registered charity in 2002–2017. Only about 30 percent of
+households itemize deductions, and itemized donations are disproportionately concentrated among high-income households (Internal Revenue Service, 2020). However, about
+84 percent of donations by individuals are itemized, and giving by individuals comprised
+about 70 percent of all giving in 2017 (Giving USA Foundation, 2018).
+We combine the IRS data with geospatial information on the incidence of tornadoes.
+We focus our attention on lethal tornadoes, which allows us to identify events that affected populated areas and caused tens of millions of dollars’ worth of damage, on average. Tornadoes offer a useful natural experiment because they vary over both space and
+time but are generally limited in their geographic scope. Because tornadoes are shortlived and unpredictable, scientists have not been able to capture most tornadoes’ physical
+properties, such as wind speed. Instead, the National Oceanic and Atmospheric Admin1 See, for example, Reinstein (2012); Cairns and Slonim (2011); Reinstein (2011); Corazzini, Cotton and
+
+Valbonesi (2015); Ek (2017); Filiz-Ozbay and Uler (2017); Deck and Murphy (2019); Harwell, Zindler and
+Eckel. (2020); Schmitz (2019).
+
+2
+
+Page 5 of 41
+
+istration (NOAA) maintains a database capturing tornado-related fatalities, injuries, and
+property damage—which are functions of both the tornado’s physical properties and the
+characteristics of the area in which it touches down—of each reported tornado since 1950.
+Our identifying assumption is that, conditional on a host of fixed effects and controls,
+tornado fatalities are unrelated to any unobservable determinants of charitable giving.
+We find that lethal tornadoes significantly increase total charitable donations by individuals living nearby but outside of the directly affected area. Specifically, a tornado
+fatality increases total donations by individuals living at least 20 miles away from a tornado’s path but in the same state by about $2 million. Because total giving increases, we
+can rule out perfect substitution between charitable causes and conclude that the supply
+of donations is not fixed.
+We then estimate fatal tornadoes’ effects on the receipts of charities using data from
+information returns that charities file annually with the IRS. The charitable response to a
+severe tornado typically involves providing victims with basic necessities such as food,
+clothing, and shelter; tools for clean-up, such as gloves and shovels; and health services,
+including for mental health.2 This work is done both by large organizations like the American Red Cross and by local organizations. We show that contributions received by charities within 20 miles of a tornado’s path increase by more than $1 million per fatality. We
+also test whether there is a negative displacement effect on charities in locations more
+than 20 miles away but in the same state—locations from which total giving increased.
+Our estimate of the effect on donations to charities in these locations is positive and not
+statistically significant, suggesting that donations to these charities do not decrease because of increased giving in response to fatal tornadoes.
+Charitable giving for natural disasters is common, with a nationally representative
+survey indicating that about 30 percent of U.S. households made such donations in each
+of 2017 and 2018 (Bergdoll et al., 2019). Motivations for disaster giving vary, as demon2 See,
+
+for
+example,
+tornado-relief.html.
+
+https://www.redcross.org/about-us/our-work/disaster-relief/
+
+3
+
+

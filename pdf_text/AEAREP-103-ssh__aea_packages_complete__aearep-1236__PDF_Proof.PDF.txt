@@ -1,0 +1,175 @@
+Leadership and Social Movements: The Forty-Eighters in the
+Civil War
+Journal: American Economic Review
+Manuscript ID AER-2019-1137.R3
+Manuscript Type: For Administrative Use Only
+Keywords: N41, J61, D72
+
+Page 1 of 93
+
+DISCLOSURE STATEMENT
+As per the principles laid out in the AER’s disclosure policy
+at https://www.aeaweb.org/journals/policies/disclosure-policy
+
+Manuscript: AER-XXXX- “Leadership and Social Movements: The Forty-Eighters in the Civil War”
+
+Author: Christian Dippel
+
+I have not received any grant money or other money from any institution that could be classified as
+‘interested’ in relation to this manuscript.
+I hold no positions at any ‘relevant’ organization.
+
+SIGNED:
+
+DATE: July 20th 2020
+
+Page 2 of 93
+
+DISCLOSURE STATEMENT
+As per the principles laid out in the AER’s disclosure policy
+at https://www.aeaweb.org/journals/policies/disclosure-policy
+
+Manuscript: AER-XXXX- “Leadership and Social Movements: The Forty-Eighters in the Civil War”
+
+Author: Stephan Heblich
+
+I have not received any grant money or other money from any institution that could be classified as
+‘interested’ in relation to this manuscript.
+I hold no positions at any ‘relevant’ organization.
+
+SIGNED:
+
+DATE: July 20th 2020
+
+Page 3 of 93
+
+Leadership in Social Movements:
+Evidence from the Forty-Eighters in the Civil War
+By
+
+Christian Dippel and Stephan Heblich*
+
+This paper studies the role of leaders in the social movement
+against slavery that culminated in the U.S. Civil War. Our analysis is organized around a natural experiment: leaders of the failed
+German revolution of 1848–49 were expelled to the U.S. and became anti-slavery campaigners who helped mobilize Union Army
+volunteers. Towns where Forty-Eighters settled show two-thirds
+higher Union Army enlistments. Their influence worked through
+local newspapers and social clubs. Going beyond enlistment decisions, Forty-Eighters reduced their companies’ desertion rate during the war. In the long run, Forty-Eighter towns were more likely
+to form a local chapter of the NAACP.
+JEL: N41, J15, J61, D72
+Keywords: Civil War, Abolition, Leadership, Social Movements,
+Immigration, Forty-Eighters
+
+* Dippel: University of California, Los Angeles, Anderson School of Management, CCPR,
+and NBER, 110 Westwood Plaza, Entrepreneurs Hall C5.12, Los Angeles, CA 90095, christian.dippel@anderson.ucla.edu. Heblich: University of Toronto, Munk School of Global Affairs & Public
+Policy and Department of Economics, CEP, CESifo, ifw Kiel, IZA, 1 Devonshire Place, Toronto, ON,
+M5S 3K7, Canada, stephan.heblich@utoronto.ca. We would like to thank the editor, two referees, Daron
+Acemoglu, Toman Barsbai, Sascha Becker, Jean-Paul Carvalho, Dora Costa, James Feigenbaum, Raquel
+Fernandez, Paola Giuliano, Walter Kamphoefner, Michael Haines, Saumitra Jha, Matthew Kahn, Naomi
+Lamoreaux, Gary Libecap, Zach Sauers, Jakob Schneebacher, Elisabeth Perlman, Nico Voigtländer, John
+Wallis, Romain Wacziarg, Nikolaus Wolf, Gavin Wright, Guo Xu, Yanos Zylberberg and conference and
+seminar participants at UCLA, U Calgary, Bristol, HU Berlin the NBER DAE and POL meetings, the
+EHA meetings, and the UCI IMBS for helpful comments. We thank David Cruse, Andrew Dale, Karene
+Daniel, Andrea di Miceli, Jake Kantor, Zach Lewis, Josh Mimura, Rose Niermeijer, Sebastian Ottinger,
+Anton Sobolev, Gwyneth Teo, and Alper Yesek for excellent research assistance. We would like to thank
+Michael Haines for sharing data. We would thank Yannick Dupraz and Andreas Ferrara for data-sharing
+and joint efforts in collecting the Civil War soldier and regiments data. We would thank John Wallis
+and Jeremy Darrington for helpful advice in locating sub-county voting data for the period (although
+it ultimately did not lead anywhere). Dippel acknowledges financial support for this project from the
+UCLA Center of Global Management, the UCLA Price Center and the UCLA Burkle Center.
+
+1
+
+Page 4 of 93
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+Between 1861 and 1865, the United States’ North and South fought each other
+over the issue of slavery in the American Civil War. One in five adult men—2.2
+million in the North alone—took up arms to fight in the Union Army. Fighting
+was costly on both sides: In total, 620,000 men lost their lives, as many as in all
+other American wars combined (Hacker, 2011; Costa and Kahn, 2003). At the
+same time, the financial incentives to fight in the war were low. Union Army
+privates earned about $13 per month—less than a farmhand (Edmunds, 1866,
+512)—and payment was irregular. In the South, there were stronger economic
+motives at least for some, since the war was about the survival of Southern institutions and property (Hall, Huff and Kuriwaki, 2019). Yet, almost 95 percent of
+Northern soldiers were volunteers. What, then, drove men to risk their lives in
+the fight against slavery and Southern secession, despite high personal costs and
+low economic compensation?
+In this paper, we study the role that individual leaders played in determining
+local enlistment decisions at this critical juncture. We focus on the Forty-Eighters,
+leaders in the German revolutions of 1848–49 who were subsequently expelled to
+America for their activities. By historical serendipity, the egalitarian and prorepublican convictions that got the Forty-Eighters expelled from Europe in 1849
+mapped closely into the political struggles that would come to a head in the U.S. a
+decade later.1 During the first few years after their arrival in the U.S., the FortyEighters’ political convictions lay dormant as their lives were dominated by the
+practical necessities of earning a livelihood in their new home. This changed when
+the Kansas-Nebraska Act of 1854 blew the lid off the sectional political conflict
+around slavery (Foner, 1970).2 This lead the Forty-Eighters to “revive the spirit
+of the failed struggle for liberty in the fight against slavery” (Baron, 2012, 3). By
+the time this conflict culminated in the Civil War, the Forty-Eighters had become
+influential campaigners against slavery, and mobilizers of Union Army volunteers
+(Zucker 1950, Wittke 1973, Levine 1980, 256, Kamphoefner and Helbich 2006,
+38, Goodheart 2011, 257).
+To quantify the Forty-Eighters’ mobilization effect and shed light on underlying mechanisms that helped them spread the ‘liberal contagion’, we combine
+several newly created datasets at the town-level. First, we compile a list of almost 500 Forty-Eighters from historical sources and complete their U.S. biographies through individual searches in genealogical online sources. This tells us
+the towns where the Forty-Eighters settled and spread their liberal ideas. Secondly, we geo-located the town-level extracts from the 1850 and 1860 censuses
+and merged them with our Forty-Eighters database to create a dataset of U.S
+1 In the words of their foremost historian, “three aspects dominated the scene from which [the FortyEighters] fled into the freedom of the United States: liberty, democracy, and national unity” (Zucker,
+1950, p.9).
+2 This act ended the second American party system in which the Democratic and the Whig Party
+were the main opponents. By the 1856 presidential election, the Whigs had disappeared and the election
+was decided between the Democrats and two parties that had not yet existed in 1852, one of them the
+anti-slavery Republican Party.
+
+Page 5 of 93
+
+VOL. VOL NO. ISSUE
+
+LEADERSHIP IN SOCIAL MOVEMENTS
+
+3
+
+towns in 1860. Thirdly, we use the full universe of over 2 million men in the
+Union Army rosters to construct a town-level database of local enlistment.
+The main empirical concern in estimating the Forty-Eighters’ effect on individual enlistment decisions is spatial sorting. If the Forty-Eighters had settled in
+areas where anti-slavery and pro-republican convictions were independently becoming stronger, we would overestimate their effect. We address this concern in
+two ways. First, we select from the large number of untreated towns a matched
+sample of control towns that are closest to being ‘statistical twins’ of the treated
+towns. This reduces selection effects; and the more balanced covariate distribution reduces noise and renders the outcome less sensitive to small changes in the
+model specification (Imbens and Rubin, 2015). Our matching is informed by a
+variable selection model that reveals factors that influenced the Forty-Eighters’
+choice of where to settle, i.e. they were more likely to co-locate with other recent
+German immigrants in the Mid-West and choose less rural locations. Once we
+condition on these location factors, we end up with a well-balanced sample of
+treatment and control locations.3
+While matching aids identification, it alone does not establish causality. To
+overcome remaining concerns about unobserved drivers of the Forty-Eighters’ location choice, we suggest an instrumental variable (IV) strategy based on random
+social ties that the Forty-Eighters formed on their ten-week transatlantic voyage
+to America. Idiosyncratic connections made on the voyage were particularly influential for the Forty-Eighters because of the haphazard nature of their departure
+from Europe: they mostly traveled alone (as we observe in ship-list data), they
+had little time to plan ahead, and they lacked family ties in the United States,
+meaning they usually embarked on their voyage with no planned destination in
+America.4 Using the universe of German immigrant ship-lists from the ’Germans
+to America’ collection, we link 152 Forty-Eighters to 136 ships, and instrument
+the Forty-Eighters location choice with the distribution of their co-passengers’ intended destinations in the U.S., which were recorded at the immigration lines in
+the port of entry.5 We condition our IV estimates on the distribution of reported
+destinations of passengers on more than 1,700 other German immigrant ships
+that arrived in the same 1848–1852 time-window. In this way, we disentangle the
+idiosyncratic component of what the Forty-Eighters’ co-passengers knew about
+U.S. destinations.
+Ordinary least squares (OLS) estimates on the matched sample suggest that
+having one or more Forty-Eighter in a town raised Union Army enlistments by
+two thirds, or eight extra enlistees per 100 adult men. By contrast, the estimated
+3 This approach omits all larger treated towns, e.g. Philadelphia or Cincinnati, because they have
+no statistical twin in the same state, generating a matched sample of 55 treated towns and around 200
+control towns.
+4 Battiston (2018) shows that even on the much briefer two-week steam-ship transatlantic crossings
+in the 20th century, social ties formed with co-passengers had a significant impact on immigrants’ future
+path in the U.S.
+5 Very few Forty-Eighter reported a planned destination themselves and we omit these cases.
+
+

@@ -1,0 +1,133 @@
+Risk Exposure and Acquisition of Macroeconomic
+Information
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0662.R2
+Manuscript Type: Regular Submission - High Income Country - Member
+Date Submitted by the
+22-Feb-2021
+Author:
+Complete List of Authors: Roth, Christopher; Institute on Behavior and Inequality,
+Settele, Sonja; University of Copenhagen, Department of Economics and
+CEBI
+Wohlfart, Johannes; University of Copenhagen, Economics
+Keywords: D12, D14, E32
+
+Page 1 of 58
+
+Disclosure Statement for American Economic Review: Insights
+Title: “Risk Exposure and Acquisition
+of Macroeconomic Information”
+Author: Christopher Roth
+I declare that I have no relevant or material financial interests that relate to the research
+described in the paper. Funding for the experiments was obtained from the Fritz-Thyssen
+Foundation. Ethics approval was obtained from the University of Frankfurt and the
+University of Warwick.
+
+Christopher Roth
+February 22, 2021
+
+Page 2 of 58
+
+Disclosure Statement for American Economic Review: Insights
+Title: “Risk Exposure and Acquisition
+of Macroeconomic Information”
+Author: Johannes Wohlfart
+I declare that I have no relevant or material financial interests that relate to the research
+described in the paper. Funding for the experiments was obtained from the Fritz-Thyssen
+Foundation. Ethics approval was obtained from the University of Frankfurt and the
+University of Warwick.
+
+Johannes Wohlfart
+February 22, 2021
+
+Page 3 of 58
+
+Disclosure Statement for American Economic Review: Insights
+Title: “Risk Exposure and Acquisition
+of Macroeconomic Information”
+Author: Sonja Settele
+I declare that I have no relevant or material financial interests that relate to the research
+described in the paper. Funding for the experiments was obtained from the Fritz-Thyssen
+Foundation. Ethics approval was obtained from the University of Frankfurt and the
+University of Warwick.
+
+Sonja Settele
+February 22, 2021
+
+Page 4 of 58
+
+Risk Exposure and Acquisition of Macroeconomic
+Information
+By C HRISTOPHER R OTH AND S ONJA S ETTELE AND J OHANNES W OHLFART∗
+We conduct an experiment with a representative sample from the US
+to study households’ demand for macroeconomic information. Respondents who learn of a higher personal exposure to unemployment risk
+during recessions increase their demand for an expert forecast about the
+likelihood of a recession. This finding is consistent with macroeconomic
+models of endogenous information acquisition, according to which the
+demand for information depends on its expected benefits. Moreover, respondents’ updating about their personal unemployment risk suggests
+that households are imperfectly informed about their exposure to aggregate fluctuations, which may distort their beliefs about the benefits of
+acquiring macroeconomic information.
+JEL: D12, D14, D83, D84, E32, G11
+Keywords: Risk Exposure, Macroeconomic Conditions, Information Acquisition, Experiment.
+Information frictions feature a central role in many theories of expectation formation. In some models, these frictions are assumed to be exogenous (Carroll,
+2003; Klenow and Willis, 2007; Mankiw and Reis, 2002; Mankiw et al., 2003;
+Wiederholt, 2015; Woodford, 2003). By contrast, in models of endogenous information acquisition, economic agents with a limited capacity to acquire or
+process information choose how much information to acquire depending on its
+expected benefits. For instance, this prediction is at the core of theories of rational inattention (Maćkowiak and Wiederholt, 2009; Maćkowiak et al., 2018; Sims,
+2003), sparsity (Gabaix, 2019) or sticky information with endogenous updating
+frequency (Reis, 2006).
+In this paper, we test this prediction in the context of exposure to unemployment risk during recessions, and how it affects individuals’ demand for a forecast about the likelihood of a recession. Perceived unemployment risk plays an
+important role in models of spending and saving decisions, investment choices
+∗ Roth:
+University of Warwick, Social Sciences Building, Coventry CV4 7AL, UK, Christopher.Roth@warwick.ac.uk. Settele: Department of Economics and CEBI, University of Copenhagen, Øster
+Farimagsgade 5, Building 35 1353 Copenhagen K, sonja.settele@econ.ku.dk. Wohlfart: Department of Economics and CEBI, University of Copenhagen, Øster Farimagsgade 5, Building 35 1353 Copenhagen K, johannes.wohlfart@econ.ku.dk. We thank the editor, Pete Klenow, and three anonymous referees for thoughtful
+comments that improved the paper considerably. We are grateful to Ingar Haaland, Lukas Hensel, Johannes
+Stroebel, Michael Weber, Mirko Wiederholt, and seminar and conference participants at Copenhagen, Frankfurt, Bergen and the ifo Conference on Macroeconomics and Survey Data (Munich) for useful comments.
+Timo Haller and Hrishikesh Iyengar provided excellent research assistance. We received ethics approval from
+Goethe University Frankfurt and the University of Warwick. We are grateful for funding from the FritzThyssen Foundation. The activities of CEBI are financed by the Danish National Research Foundation, Grant
+DNRF134. Our study is registered on the AEA RCT registry (6580) (Roth et al., n.d.).
+
+1
+
+Page 5 of 58
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+and labor market behavior. Higher exposure to unemployment risk during recessions should increase the expected benefits of acquiring information about
+the likelihood of a recession, as – depending on individuals’ exposure – such information should allow them to predict their personal unemployment risk more
+accurately and make better economic decisions.
+Testing how information acquisition depends on exposure to macroeconomic
+risk is challenging with observational data. Offering pieces of information to
+more and less exposed individuals and comparing their demand for this information is problematic as those who are more exposed to macroeconomic risk
+should already be better informed about pieces of news that are relevant for
+their macroeconomic outlook to begin with, which may crowd out their demand
+for additional information. Moreover, more exposed individuals differ from less
+exposed individuals in many unobservables, such as the cost of acquiring and
+processing information. To circumvent these identification challenges, we propose an experiment that exogenously varies people’s beliefs about their own
+exposure to macroeconomic risk. This allows us to compare otherwise similar
+individuals who hold differential beliefs about the relevance of a piece of information to themselves.
+We conduct our experiment with an online sample representative of the US
+population in full-time employment in terms of age, income, region, education
+and gender. The experiment proceeds as follows: First, we measure respondents’
+beliefs about the effect of the Great Recession in 2008-9 on the unemployment
+rate among people with similar characteristics as themselves. We then generate
+exogenous variation in perceptions of exposure to macroeconomic risk by providing the respondents with data on actual changes in the unemployment rate
+among people similar to them over the Great Recession. Respondents are randomly assigned to receive information based on data from either the American
+Community Survey (ACS) or the Current Population Survey (CPS). We exploit
+differences across the two Census surveys due to sampling variation and procedural differences as a source of exogenous variation in the provided information.
+Thereafter, we elicit the respondents’ perceptions of how exposed they personally are to unemployment risk during recessions. Finally, respondents have to
+choose between receiving an expert forecast about the likelihood of a recession,
+a forecast about inflation, a forecast about the return on government bonds, a
+forecast about government spending, or no forecast.
+The main findings of our paper can be summarized as follows: First, information about changes of the unemployment rate among similar individuals during the last recession strongly affects respondents’ perceived risk of becoming
+personally unemployed during the next recession, indicating that individuals
+are imperfectly informed about their own risk exposure. Consistent with this,
+a substantial fraction of respondents report that they are uncertain about their
+group’s exposure to macroeconomic risk. This suggests that there exist frictions
+in households’ knowledge of how relevant macroeconomic information is for
+
+

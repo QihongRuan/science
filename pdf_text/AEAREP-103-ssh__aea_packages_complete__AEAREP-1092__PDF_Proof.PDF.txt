@@ -1,0 +1,369 @@
+When Losses Turn Into Loans: The Cost of Weak Banks
+Journal: American Economic Review
+Manuscript ID AER-2019-0149.R4
+Manuscript Type: Administrator
+Keywords: G21, G28, E44
+
+Page 1 of 63
+
+Laura Blattner
+Palo Alto, California
+lblattner@stanford.edu
+May 1 2020
+The Editor
+American Economic Review
+To Whom It May Concern:
+
+Financial support for this research was provided by the Becker Friedman Institute
+(Macro-Financial Modeling Fellowship), the ECB’s Lamfalussy Fellowship, and Harvard University travel grants. The Bank of Portugal provided resources for data access.
+I have no relevant material or financial interests that relate to the research described in
+the paper. No IRB approval was required for this research.
+Sincerely,
+Laura Blattner
+
+Page 2 of 63
+
+BOSTON COLLEGE
+FINANCE DEPARTMENT
+CARROLL SCHOOL OF MANAGEMENT
+
+To whom it may concern:
+My name is Francisca Rebelo. I am currently affiliated with the Finance Department at the Carroll School
+of Management at Boston College. I hereby declare that I have no relevant or material financial interests
+that relate to the research described in this paper.
+June 22, 2020
+
+FULTON HALL 330, 140 COMMONWEALTH AVENUE, CHESTNUT HILL, MA 02467
+TEL: 617-552-3985 FAX: 617-552-0431 WEB: www.bc.edu/finance
+
+Page 3 of 63
+
+Page 4 of 63
+
+When Losses Turn Into Loans:
+The Cost of Weak Banks
+ONLINE APPENDIX
+Laura Blattner, Luisa Farinha, and Francisca Rebelo
+
+Table A1: Additional Descriptive Statistics
+Firm finance loans
+
+Undereported firms
+
+Average
+Loan amount
+Fraction overdue
+Fraction
+collateralized
+Fraction w/
+guarantee
+Fraction w/ real
+collateral
+Maturity < 1yr
+Resid maturity < 1yr
+
+N
+
+269,729
+(2x106 )
+0.50
+(0.42)
+0.73
+(0.44)
+0.79
+(0.41)
+0.32
+(0.47)
+0.23
+(0.42)
+0.48
+(0.50)
+
+Average
+
+Difference
+
+Assets (m)
+
+2.01
+
+Employees
+
+11.14
+
+Total credit (m)
+
+0.71
+
+Share NPLs
+
+0.34
+
+Return on assets
+
+0.04
+
+Sales growth
+
+0.00
+
+Leverage
+
+0.39
+
+Current ratio
+
+1.78
+
+Cash/assets
+
+0.10
+
+Fixed assets/assets
+
+0.44
+
+0.52
+[0.05]
+-2.07
+[0.97]
+0.13
+[0.05]
+0.11
+[0.00]
+-0.01
+[0.00]
+-0.10
+[0.01]
+0.05
+[0.01]
+-0.07
+[0.04]
+-0.01
+[0.00]
+-0.03
+[0.00]
+
+1,332,435
+
+35,982
+
+Notes. The left panel shows descriptive statistics at the loan-level for firm finance loans that have an
+overdue loan balance at some point over their lifetime. This is the sample of loans on which we run
+the algorithm to detect the underreporting of loan losses. The first column of the right panel shows
+descriptive statistics for firms that are subject to loss underreporting in a given year. The second
+column of the right panel shows differences in means relative to firms that have overdue loans but are
+not underreported.
+
+1
+
+2
+
+(2)
+
+(3)
+
+Total credit
+-0.011
+-0.010
+[0.008]
+[0.010]
+-0.003
+-0.005
+[0.010]
+[0.010]
+-0.020
+-0.022
+[0.010]
+[0.013]
+-0.006
+-0.008
+[0.006]
+[0.008]
+0.008
+0.006
+[0.008]
+[0.012]
+0.008
+0.001
+0.018
+[0.013]
+[0.013]
+[0.012]
+0.008
+0.006
+0.021
+[0.023]
+[0.023]
+[0.025]
+0.041
+0.044
+0.050
+[0.013]
+[0.012]
+[0.019]
+0.019
+0.027
+0.027
+[0.019]
+[0.016]
+[0.020]
+0.005
+0.016
+0.023
+[0.014]
+[0.011]
+[0.013]
+Y
+N
+N
+Y
+Y
+N
+N
+N
+Y
+1,981,219 1,981,219 1,981,219
+0.381
+0.379
+0.057
+45
+45
+45
+
+(1)
+Performing
+-0.011
+[0.008]
+-0.003
+[0.010]
+-0.022
+[0.009]
+-0.004
+[0.007]
+0.009
+[0.009]
+0.007
+[0.013]
+0.010
+[0.020]
+0.038
+[0.015]
+0.035
+[0.015]
+0.022
+[0.014]
+N
+Y
+N
+1,981,219
+0.383
+45
+
+(4)
+Non-perf
+-0.000
+[0.002]
+-0.000
+[0.002]
+0.001
+[0.002]
+-0.002
+[0.003]
+-0.002
+[0.002]
+-0.006
+[0.007]
+-0.004
+[0.007]
+0.005
+[0.009]
+-0.008
+[0.011]
+-0.007
+[0.010]
+N
+Y
+N
+1,981,219
+0.405
+45
+
+(5)
+New loan
+-0.012
+[0.005]
+-0.002
+[0.007]
+-0.021
+[0.009]
+-0.015
+[0.009]
+-0.001
+[0.003]
+0.021
+[0.012]
+0.007
+[0.008]
+0.023
+[0.009]
+0.019
+[0.010]
+0.008
+[0.011]
+N
+Y
+N
+1,981,219
+0.380
+45
+
+(6)
+
+Notes. The table shows credit regressions results at the firm-bank level. The dependent variable is the quarterly growth rate in total credit for a given firm-bank
+pair in columns (1)-(5). Columns (4) and (5) decompose total credit growth into performing and non-performing credit. These growth rates are defined as the
+all
+quarterly changes scaled by lagged total credit. For example, the growth rate in performing credit is defined as ∆cperf
+ibt /cib,t−1 . Column 6 presents results from a
+linear probability model where the dependent variable is a dummy that is 1 if the number of loans in a firm-bank pair increases (conditional on an increase in
+loan volume). The explanatory variable exposed is a dummy that is 1 for banks exposed to the EBA shock. The sample period is 2009q1-2014q4. Pre 1 and 2,
+EBA, bailout and post-bailout are dummies that identify the following time periods: the EBA intervention (2011q4-2012q2), the bailout period (2012q-2012q4),
+two pre-periods and one post-bailout period all of equal length. Underreported is a firm-bank dummy that identifies relationships subject to loss underreporting
+in the four quarters prior to the EBA shock. All regressions include bank fixed effects and firm-bank controls (see text for details). Standard errors in parentheses
+and are two-way clustered by bank and firm. Additional interaction effects are omitted. See equations in section 3 for details on full set of interaction effects
+included. Significance stars are not shown.
+
+Bank×quarter FE
+Firm×quarter FE
+Firm, quarter FE
+N
+R2
+Banks
+
+Post bailoutt ×exposedb ×underreportedib
+
+Bailoutt ×exposedb ×underreportedib
+
+EBAt ×exposedb ×underreportedib
+
+Pre2t ×exposedb ×underreportedib
+
+Pre1t ×exposedb ×underreportedib
+
+Post bailoutt ×exposedb
+
+Bailoutt ×exposedb
+
+EBAt ×exposedb
+
+Pre2t ×exposedb
+
+Pre1t ×exposedb
+
+Growth rate of credit
+
+Table A2: Regression Results Firm-Bank Level: Intensive Margin
+
+Page 5 of 63
+
+

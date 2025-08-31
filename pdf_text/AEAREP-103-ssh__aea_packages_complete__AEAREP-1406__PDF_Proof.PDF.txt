@@ -1,0 +1,163 @@
+Antitrust Policies and Profitability in Non-Tradable Sectors
+Journal: American Economic Review: Insights
+Manuscript ID AERI-2020-0316.R3
+Manuscript Type: For Administrative Use Only
+Date Submitted by the
+25-Oct-2020
+Author:
+Complete List of Authors: Besley, Timothy; London School of Economics and Political Science,
+Department of Economics
+Limodio, Nicola; Universita Bocconi Dipartimento di Finanza,
+Fontana , Nicola; London School of Economics and Political Science,
+Economics
+Keywords: L40, D40, antitrust
+
+Page 1 of 49
+
+August 31st 2020
+Disclosure State for Tim Besley for
+“Anti-Trust Policies and Firm Profitability in Non-Traded Sectors”
+In addition to my position at LSE I have a part-time appointment as a Commissioner on the UK National
+Infrastructure Commission. I serve on the Executive Committee of the International Economic
+Association and the Royal Economic Society.
+I have recent consulting assignments and speaking engagements with
+-
+
+IMF
+Boston Consulting
+World Bank
+HSBC
+
+I have received grants from:
+-
+
+Spinoza Foundation
+ESRC
+Mastercard foundation (provision of credit card data)
+
+Yours faithfully,
+
+Tim Besley
+
+Page 2 of 49
+
+August 31st 2020
+Disclosure State for Nicola Fontana for
+“Anti-Trust Policies and Firm Profitability in Non-Traded Sectors”
+I have received grants from:
+•
+•
+
+ESRC Doctoral Training Centre Studentship
+Research Training Support Grant (LSE)
+
+Yours faithfully,
+
+Nicola Fontana
+
+Page 3 of 49
+
+August 31st 2020
+Disclosure State for Nicola Limodio for
+“Anti-Trust Policies and Firm Profitability in Non-Traded Sectors”
+I have received grants from:
+-
+
+The International Growth Center at the LSE
+The Private Enterprise Development in Low Income Countries (PEDL) is a joint research initiative
+of the Centre for Economic Policy Research (CEPR)
+The World Bank Research Budget
+
+Yours faithfully,
+
+Nicola Limodio
+
+Page 4 of 49
+
+Antitrust Policies and Profitability in Non-Tradable
+Sectors *
+By T IMOTHY B ESLEY†
+
+N ICOLA F ONTANA‡
+
+N ICOLA L IMODIO§
+
+Firms in tradable sectors are more likely to be subject to external competition to limit market power while non-tradable firms are more dependent on domestic policies and institutions. This paper combines an
+antitrust index available for multiple countries with firm-level data from
+Orbis covering more than 10 million firms from 90 countries, covering
+20 sectors over 10 years and finds that profit margins of firms operating
+in non-tradable sectors are significantly lower in countries with stronger
+antitrust policies compared to firms operating in tradable sectors. The
+results are robust to a wide variety of empirical specifications.
+JEL: D22, E02, L44
+Keywords: Competition, Antitrust, Institutions
+This paper examines how institutions designed for enforcing competition in markets
+affect economic performance. A central role of the state in building a market economy is
+to guarantee that there are benefits of competition to ensure static and dynamic efficiency.
+But the way that this is done varies across sectors of the economy. Those sectors that
+are subject to international competition have natural exposure to competition if trade
+is liberalized, while those that are not are more dependent on domestic policies that
+encourage entry and limit the abuse of market power.
+The core empirical implication that we explore here, is that the institutions that affect competition policy should have a heterogenous effect on tradable and non-tradable
+sectors. To investigate this, we require firm-level data. Hence, we have assembled a
+dataset of 10 million firms covering 20 sectors across 90 countries over a period of 10
+years (2006-2015) based on Orbis (2016). To measure antitrust policy, we exploit the
+Total Scope Index Score constructed by Hylton and Deng (2007) which is based on assessments of competition law made by legal experts and practitioners. This is available
+for a wide variety of countries/economies.
+Our core findings exploit variation in antitrust both across and within different sectors
+and countries. Using the Orbis profitability measure, we show that profitability is related
+to an index of antitrust policy but more strongly in non-tradable sectors. The results that
+* We are grateful to the editor and referees for helpful comments. We also thank John Van Reenen and seminar
+participants at LSE for their useful suggestions and Azhar Hussain and Federico Lenzi for research assistance. Paul
+Horsler gave use valuable assistance with the Orbis data. We are responsible for all errors.
+† Corresponding Author, Department of Economics and STICERD, London School of Economics and Political Science, Houghton Street, WC2A 2AE London, UK. t.besley@lse.ac.uk
+‡ Department of Economics and Center for Economic Performance, London School of Economics and Political Science, Houghton Street, WC2A 2AE London, UK. n.fontana@lse.ac.uk
+§ Department of Finance, BAFFI CAREFIN and IGIER, Bocconi University, Via Sarfatti 25, 20136, Milan, Italy,
+nicola.limodio@unibocconi.it
+
+1
+
+Page 5 of 49
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+we present are robust to a variety of alternative specifications.
+Our baseline results are based on a cross-country and cross-sector analysis where we
+show evidence of systematic heterogeneity in the relationship between antitrust policies
+and firm outcomes. We show that, in countries with stronger antitrust policies, the profit
+margins of firms operating in non-tradable sectors are significantly lower than those operating in tradable sectors. The results are economically meaningful suggesting, for example, that if China adopted France’s antitrust index, we would expect a 19% fall in the
+average profit margin. We also find that concentration is lower in non-tradable sectors
+when antitrust policy is strong. In contrast, changes in antitrust are associated with negligible effects on tradable sectors, in line with the hypothesis that international markets
+serve to discipline firms in such sectors.
+These findings underline the limits of trade liberalization as a means of promoting
+competition since, in our sample, about 82% of firms operate in non-tradable sectors.
+So, without rigorous competition policy, there may be limited scope to introduce more
+competition into important sectors such as wholesale, retail, transportation, construction,
+and real estate.
+Our results are consistent with the idea that institutions matter, in the form of competition law and enforcement, for sectors of the economy where international competition is
+weak. Moreover, the finding in our paper is specific to the antitrust measures; other measures of “good institutions” do not appear correlated with profitability in the non-tradable
+sectors of the economy. It therefore adds a new dimension to debates about how a strong
+institutional environment can be conducive to growth and development beyond the previous focus on such things as lowering the threat of expropriation (La Porta et al., 1998),
+minimizing rent extraction (Acemoglu, Johnson and Robinson, 2001) or securing legal
+protection and infrastructure (Besley and Persson, 2011).
+The remainder of the paper is organized as follows. The next section discusses related
+literature. In section II, we present the conceptual framework that motivates the test that
+we use. Section III presents the data and section IV presents the core empirical results.
+In section V, we discuss a key concern about interpreting the results along with some
+robustness checks. Section VI contains some concluding remarks.
+I. Related Literature
+
+The paper is related to an emerging body of literature on antitrust policy and its consequences. Our findings complement recent work studying the role of antitrust and firm
+margins in the United States (Gutiérrez and Philippon, 2017, De Loecker, Eeckhout and
+Unger, 2020), that we extend to additional countries and across sectors with different
+degrees of tradability. Debates about the role of antitrust and its ability to affect firm
+behavior are long-standing. Block, Nold and Sidak (1981) show that antitrust efforts and
+penalties generate a deterrent effect on cartels, that lead firms to set a price between the
+competitive the oligopolistic price. Gutiérrez and Philippon (2017) find that the profitability and concentration of US industries increased in the past two decades due to decreasing domestic competition, in line with Grullon, Larkin and Michaely (2019). These
+results are consistent with our antitrust measure showing a decline in the stringency of
+
+

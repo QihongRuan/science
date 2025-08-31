@@ -1,0 +1,155 @@
+The Financial Transmission of Housing Booms: Evidence
+from Spain
+Journal: American Economic Review
+Manuscript ID AER-2019-1410.R4
+Manuscript Type: For Administrative Use Only
+Keywords: Housing Boom, Credit, Financial Transmission
+
+Page 1 of 74
+
+Disclosure statement for “The Financial Transmission of Housing Booms: Evidence from Spain”,
+Alberto Martín
+
+Senior Adviser, European Central Bank
+Senior Researcher, CREI
+Adjunct Professor, Pompeu Fabra University
+
+European Central Bank
+Sonnemannstrasse, 20
+60314 Frankfurt, Germany
+
+September 24, 2020
+
+Disclosure of financial interest
+During the period of research for this paper, I acknowledge financial support from the following
+entities:
+•
+•
+•
+•
+•
+
+The ERC (Consolidator Grant FP7-615651-MacroColl)
+The Spanish Ministry of Economy, Industry and Competitiveness (grant ECO2016-79823-P).
+The Spanish Ministry of Economy and Competitiveness, through the Severo Ochoa
+Programme for Centres of Excellence in R&D (SEV-2015-0563).
+The CERCA Programme/Generalitat de Catalunya, from the Generalitat de Catalunya (grant
+2014SGR-830 AGAUR)
+The Barcelona GSE Research Network.
+
+I have no additional financial interests to declare.
+Alberto Martín
+
+Page 2 of 74
+
+Disclosure statement for “The Financial Transmission of Housing Booms: Evidence from Spain”,
+Enrique Moral-Benito
+
+Division Head, Bank of Spain
+Calle de Alcalá 48
+28014 Madrid, Spain
+
+September 24, 2020
+
+Disclosure of financial interest
+
+I declare that I have no relevant or material financial interests that relate to the research described
+in this paper.
+
+Enrique Moral-Benito
+
+Page 3 of 74
+
+Disclosure statement for “The Financial Transmission of Housing Booms: Evidence from Spain”,
+Tom Schmitz
+
+Assistant Professor of Economics
+Bocconi University
+Via Roentgen 1
+20136 Milano, Italy
+
+September 24, 2020
+
+Disclosure of financial interest
+
+I declare that I have no relevant or material financial interests that relate to the research described
+in this paper.
+
+Tom Schmitz
+
+Page 4 of 74
+
+The Financial Transmission of Housing Booms:
+Evidence from Spain
+Alberto Martín, Enrique Moral-Benito, and Tom Schmitz∗
+November 1, 2020
+
+Abstract
+How does a housing boom affect credit to non-housing firms? Using bank, firm and loan-level microdata, we show that the Spanish housing boom reduced non-housing credit growth during its first years, but
+stimulated it later on. These patterns can be rationalized by financial constraints for banks. Constrained
+banks initially accommodated higher housing credit demand by reducing non-housing credit. Eventually,
+however, the housing boom increased bank net worth and expanded credit supply. A quantitative model,
+disciplined by our cross-sectional estimates, indicates that the crowding-out effect was substantial but
+temporary, and had been fully absorbed by the end of the boom. JEL: E32, E44, G21.
+
+During the last two decades, many countries (including the United States, China, the United Kingdom, Spain
+and Ireland) experienced large run-ups in house prices. These housing booms are widely believed to have had
+important spillovers on the non-housing sector, and understanding their transmission channels has become a
+key concern for economists and policymakers (see Zhu, 2014 and Jordà et al., 2015).
+∗ Martín: European Central Bank, Centre de Recerca en Economia Internacional, and Barcelona GSE, Ramon Trias Fargas
+25-27, 08005 Barcelona, Spain. Email: amartin@crei.cat. Moral-Benito: Bank of Spain, Calle de Alcalá 48, 28014 Madrid,
+Spain. Email: enrique.moral@gmail.com. Schmitz: Bocconi University and IGIER, Via Roentgen 1, 20136 Milan, Italy. Email:
+tom.schmitz@unibocconi.it. We thank Sandra Daudignon, Wolfram Horn, Ilja Kantorovitch and Jörn Onken for excellent
+research assistance. We also thank Manuel Adelino, Vasco Carvalho, Filippo De Marco, Manuel García-Santana, Nicola Gennaioli, Thomas Le Barbanchon, Tim Lee, Jorge Martinez-Pages, Ander Perez-Orive, Alexander Popov, Nicolas Serrano-Velarde,
+Tomás Williams, and seminar participants at Bocconi, Bank of Spain, Stanford, University of Washington, University of British
+Columbia, the “XXI Workshop in International Economics and Finance” at Banco de Mexico, the “Housing, Urban Development,
+and the Macroeconomy” conference at USC Dornsife INET, the 4th Mannheim Workshop in Quantitative Macroeconomics, the
+2018 North American Summer Meeting of the Econometric Society, the 2018 Annual Meeting of the SED, the 2018 Wharton
+Liquidity and Financial Fragility Conference, the 2019 T2M Conference and the 2019 AREUEA International Conference for
+helpful comments. A previous version of this paper was titled “The Financial Transmission of Housing Bubbles: Evidence from
+Spain”. The views expressed are those of the authors and do not necessarily reflect the views of the Bank of Spain or the
+European Central Bank. Martín acknowledges support from the ERC (Consolidator Grant FP7-615651-MacroColl), from the
+Spanish Ministry of Economy, Industry and Competitiveness (grant ECO2016-79823-P) from the Spanish Ministry of Economy
+and Competitiveness, through the Severo Ochoa Programme for Centres of Excellence in R&D (SEV-2015-0563), from the
+CERCA Programme/Generalitat de Catalunya, from the Generalitat de Catalunya (grant 2017SGR-1393 AGAUR), and from
+the Barcelona GSE Research Network.
+
+1
+
+Page 5 of 74
+
+In this paper, we analyze the role of banks for the transmission of housing booms. Despite its economic
+importance, the role of the banking system as a transmission channel is a priori unclear. On the one
+hand, some studies argue that housing booms crowd out credit to firms in the non-housing sector, as banks
+reallocate credit to mortgages, real estate and construction firms (e.g., Chakraborty et al., 2018; Hau and
+Ouyang, 2018). On the other hand, there is also evidence that housing booms stimulate credit growth for all
+sectors of the economy (e.g., Chaney et al., 2012; Jiménez et al., 2019).
+Using bank, firm and loan-level microdata, we show that both effects operated during the Spanish housing
+boom of the early 2000s. Crucially, however, their strength varied over time. In its first years, the housing
+boom reduced credit growth for firms in the non-housing sector, but this eventually reverted and the boom
+ended up increasing credit growth for firms in the non-housing sector. We argue that financial constraints for
+banks can rationalize both the initial crowding-out effect and its later reversal, and provide empirical support
+for this hypothesis. Finally, we use a calibrated model, partly disciplined by our cross-sectional empirical
+estimates, to quantify the aggregate importance of financial transmission. We find that the Spanish housing
+boom had a substantial crowding-out effect, but that this effect was short-lived and had been fully absorbed
+by the end of the boom.
+Spain’s housing boom was massive. Between 2000 and 2008, nominal house prices increased by 135%.
+Real housing credit increased by 232% between 2000 and 2007, and the share of housing in overall credit
+increased from 46.6% to 61.9% in the same time period.1 This makes Spain an ideal case study for the effects
+of a housing boom on credit to firms in the non-housing sector.
+For our analysis, we combine the Spanish Credit Registry (which contains virtually all bank loans to
+firms) and the Commercial Registry (which contains balance sheet information on virtually all firms). Our
+empirical strategy exploits bank and firm-level heterogeneity in exposure to the housing boom. We measure
+a bank’s exposure by its share of credit allocated to housing in 2000. This reflects the idea that banks with
+housing-centered business models or pre-existing ties to housing were more affected by the boom. We restrict
+our firm sample to non-housing firms (firms that operate neither in the construction nor in the real estate
+sector), and measure firm exposure as a weighted average of the exposure of the banks a firm borrows from.
+Using this dataset, we first regress loan-level credit growth (i.e., credit growth for any bank-firm pair) on
+bank exposure to the housing boom. Following Khwaja and Mian (2008), we use firm fixed effects to control
+for firm-level credit demand shocks. Thus, coefficients are identified by differences in the credit growth of the
+same non-housing firm at banks with different levels of exposure to the boom. We find that for the average
+1 Section 1.1 lists the sources for these figures and provides further background information on the Spanish housing boom.
+
+2
+
+

@@ -1,0 +1,261 @@
+The Long-Run Impacts of Special Education
+Journal: American Economic Journal: Economic Policy
+Manuscript ID AEJPol-2019-0603.R3
+Manuscript Type: For Administrative Use Only
+Keywords: I21, J24, I26
+
+Page 1 of 76
+
+The Long-Run Impacts of Special Education
+By Briana Ballis and Katelyn Heath∗
+Over 13 percent of US students participate in Special Education
+(SE) programs annually, at a cost of $40 billion. However, due to
+selection issues the effect of SE placements remains unclear. This
+paper uses administrative data from Texas to examine the long-run
+effect of reducing SE access. Our research design exploits variation in SE placement driven by a unique state policy that required
+school districts to reduce SE caseloads to 8.5 percent. This policy
+led to sharp reductions in SE enrollment. These reductions generated significant reductions in educational attainment, suggesting
+that marginal participants experience long-run benefits from SE
+services.
+In this paper, we provide evidence on the long-run causal effects of Special
+Education (SE) by exploiting a unique policy change that introduced exogenous
+variation in SE participation. In 2005, the Texas Department of Education implemented a district-level SE enrollment target of 8.5 percent. Over the next
+ten years, statewide SE enrollment declined by 4.5 percentage points, from 13
+percent to 8.5 percent. By 2018, roughly 225,000 fewer students were enrolled
+in SE programs annually across the state.1 To our knowledge, this is the first
+∗ Ballis: Department of Economics, University of California, Merced, 5200 N. Lake Rd., Merced, CA
+95343, bballis@ucmerced.edu. Health: Texas Policy Lab, Rice University, 5620 Greenbriar Dr. Houston,
+TX 77005, kmh8@rice.edu. We thank Scott Carrell, Paco Martorell, Marianne Page, Marianne Bitler,
+Maria Fitzpatrick, Michael Lovenheim, Douglas Miller, Jordan Matsudaira, Michal Kurlaender, and
+Jacob Hibel for useful discussions and suggestions. We would like to thank participants at the UC Davis
+Applied Microeconomics Brown Bag, the Association for Education Finance and Policy 43rd Annual
+Conference, the UC Davis Alumni conference, the Western Economic Association International 93rd
+Annual Conference, the 40th annual Association for Public Policy Analysis and Management Conference,
+and Claremont McKenna - Southern California Conference in Applied Microeconomics (SoCCAM) for
+valuable comments. We also thank everyone at the UT Dallas Research Center who have helped us get
+acquainted with the administrative data. The conclusions of this research do not necessarily reflect the
+opinions or official position of the Texas Education Agency, the Texas Higher Education Coordinating
+Board, the Texas Workforce Commission, or the state of Texas. This material is based upon work
+supported by the National Science Foundation under Grant Number (#1824547) and a grant from the
+American Educational Research Association which receives funds for its ”AERA Grants Program” from
+the National Science Foundation under NSF award NSF-DRL (#1749275). Any opinions, findings,
+and conclusions or recommendations expressed in this material are those of the author(s) and do not
+necessarily reflect the views of the National Science Foundation or AERA. This project received support
+from the Social Security Administration (SSA) funded as part of the Disability Research Consortium.
+The opinions and conclusions expressed are solely those of the authors and do not represent the opinions
+or policy of SSA or any agency of the Federal Government. Briana Ballis acknowledges financial support
+from the Disability Research Consortium Fellowship from SSA via Mathematica Policy, the National
+Science Foundation, and the UC Davis Economics department. Katelyn Heath acknowledges financial
+support from the National Academy of Education and the National Academy of Education/Spencer
+Dissertation Fellowship Program, the Bronfenbrenner Center for Translational Research, Christopher
+Wildeman, Cornell University Graduate School, Cornell Policy Analysis and Management Department,
+and the Cornell Economics department Labor Grant.
+1 This is computed by multiplying total enrollment in Texas public schools in 2018 (roughly 5 million)
+
+1
+
+Page 2 of 76
+
+2
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+major policy change that caused such a large and sudden change in SE participation for a large representative sample of students. In 2016, more than 10 years
+after the policy was implemented, an investigative Houston Chronicle article was
+published that alerted the greater public, for the first time, to the existence of
+this policy, sparking significant public outcry and debate (Rosenthal 2016). Subsequently, the federal government conducted their own investigation and in 2018
+determined that the 8.5 percent district SE target was illegal and in violation of
+federal disability law (U.S. Department of Education 2018). The fact that this
+policy was illegal highlights why policies such as this one are so rare. We use this
+policy change in combination with administrative data from Texas that follows
+the universe of public school students into adulthood, to provide the first long-run
+causal estimates of losing access to SE programs.
+In the United States, SE program participation grew by over 40 percent between
+1975 and 2018. Currently, over 13 percent of public school students participate
+in SE programs annually, at a cost of $40 billion (National Center for Education
+Statistics 2015, Elder et al. forthcoming). A-priori the net-benefits of SE participation are ambiguous. Students are likely to benefit from the individualized
+educational support (such as one-on-one tutoring, a classroom aide, therapy, or
+standardized testing modifications) that SE offers. However, for students with
+less severe conditions there are several reasons why SE participation could be
+harmful: being placed in segregated learning environments or held to relatively
+lower expectations regarding achievement may inhibit long-run success. While
+the purpose of SE is to ameliorate the challenges students with disabilities may
+face throughout schooling and later in life, considerable uncertainty surrounds
+the effectiveness of SE spending.
+Despite significant increases in SE participation, there is little causal evidence
+on how SE placement (or lack thereof) affects long-run trajectories of marginal
+participants. The main difficulty in evaluating the effectiveness of SE programs
+is identifying a plausible counterfactual. Students are selected into SE because
+they are at risk of low achievement or poor behavioral outcomes. In addition, SE
+inclusion criteria are neither straightforward nor standardized for students with
+less severe conditions. Thus, it is not possible to exploit discontinuities in SE
+diagnostic criteria to identify the causal impacts of SE participation.2 Instead,
+exogenous changes in SE participation are required for causal identification. However, SE eligibility rules were determined federally in 1975 (with minor changes
+since), making it difficult to identify variation in SE placement across locations
+or over time that is plausibly exogenous.
+Our research design exploits pre-policy variation in SE rates across districts
+in Texas, which led to significant differences in policy pressure to reduce SE
+by the 4.5 percentage point reduction in total SE enrollment that occurred post-policy.
+2 For the vast majority of SE students with learning or behavioral impairments, the most common
+symptoms are poor academic performance or classroom behaviors. Since many students exhibit these
+symptoms occasionally, there are inconsistencies in SE placement based on how teachers, parents, or
+diagnosticians perceive these symptoms.
+
+Page 3 of 76
+
+VOL. VOL NO. ISSUE
+
+THE LONG-RUN IMPACTS OF SPECIAL EDUCATION
+
+3
+
+enrollment. To identify the direct impacts of SE programs for students with
+disabilities, we focus on students who were already enrolled in SE prior to the
+policy change and estimate the long-run effect of a reduction in SE access using
+two different identification strategies.3 First, we use a difference-in-differences
+(DiD) strategy that compares changes in SE removal and educational attainment
+in districts with lower versus higher pre-policy SE rates, across cohorts who had
+varying levels of time exposed to the policy. This strategy produces estimates of
+the average effect of reducing overall access to SE for students with disabilities.
+Second, we use exposure to the policy as an instrument for SE removal in an
+instrumental variables (IV) framework. This second strategy allows us to identify
+the long-run impacts of SE removal for students on the margin of SE placement
+decisions, precisely the group for whom the net benefits of SE are most unclear.
+Our results suggest that SE students who lose access to SE services experience
+significant declines in educational attainment. Our DiD estimates imply that SE
+students enrolled in the average district experienced a 3.7 percentage points (or
+13 percent) increase in the likelihood of SE removal, a 2.0 percentage points (or
+2.7 percent) decrease in the likelihood of high school completion, and a 1.2 percentage points (or 3.6 percent) decrease in the likelihood of college enrollment
+after the policy’s introduction.4 We show that these declines in SE participation and educational attainment are mostly driven by SE students who already
+spent the majority of their day in general education (GE) classrooms and who
+had relatively mild disability types.5 For students on the margin of SE placement decisions, our IV estimates imply that SE removal decreased high school
+completion by 51.9 percentage points and college enrollment by 37.9 percentage
+points. These large reductions in high school completion and college enrollment
+are suggestive that later life labor market outcomes may also be likely to decline.6
+Lower-income and minority students experience larger increases in SE removal,
+and the negative impact of SE removal on educational attainment is concentrated
+among these students.
+Why do marginal SE students (i.e. those with relatively mild conditions) experience such large reductions in educational attainment after SE removal? There
+are at least two possible explanations. First, SE students may have the option
+to satisfy modified high school graduation requirements, which may make educa3 The policy pressure to reduce SE enrollment significantly changed the incentives to classify marginal
+students, which in turn changed the underlying conditions of SE students in the post-policy period. This
+sample restriction ensures that our results will not be negatively biased as a result of the underlying
+changes in the ability of students in SE after the policy change. As we will justify in Section II.B, we
+focus on 5th grade SE cohorts, but demonstrate that our results are not sensitive to this grade cohort
+restriction.
+4 These effect sizes are computed for SE students fully exposed to the policy after 5th grade and
+enrolled in the average school district that served 13 percent of their students in SE at baseline.
+5 Therefore, throughout this paper when considering students who are removed from SE, we view this
+as a removal of services within the GE classroom, rather than a compositional shift of students from SE
+classrooms to GE classrooms, for the majority of SE students.
+6 However, we leave these results for future work, given that the limited number of post-policy years
+has not yet allowed these outcomes to fully realize.
+
+Page 4 of 76
+
+4
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+tional attainment easier. That is, students enrolled in SE may be able to graduate
+from high school without passing an exit exam, which is a graduation requirement
+for all GE students. Thus, students may mechanically be less likely to graduate
+from high school if they no longer have the option of being exempt from the exit
+exam. Second, SE students likely benefit from the additional resources and more
+focused attention they receive. Therefore, when SE services are removed, students may experience a reduction in learning, which makes it more difficult for
+them to complete high school and attain post-secondary schooling.
+We find that students who lose access to SE are significantly more likely to
+take the high school exit exam, suggesting that this mechanical effect could have
+played a role. However, we show that it is unlikely that changes in high school
+graduation requirements alone are driving our results. The largest declines in
+high school completion are driven by students who would have been very likely to
+take the exit exam regardless of the policy, likely ruling out a purely mechanical
+effect.7 Moreover, the long-run negative impacts of SE removal are larger for
+students in lower-resourced districts. This highlights the potential importance
+of additional SE resources, especially in districts with fewer available resources
+to prepare students with special needs for adulthood. Finally, it is important to
+highlight that we are estimating SE program effects based on SE removal. Longrun responses for students who never participate in SE, but would have in the
+absence of the policy, may not mirror the impacts of SE removal. For instance,
+those never enrolled in SE do not incur any potential stigma associated with
+a disability label and do not become accustomed to additional supports during
+school. However, we are not able to identify students in the post-policy period
+who would have been in SE in the absence of the policy, but are now not.
+Even though the policy was targeted towards SE students, limiting access to SE
+programs could have affected all students in Texas public schools. For instance,
+GE students could have experienced spillover effects resulting from their SE peers
+losing access to services. Additionally, GE students could have been directly
+impacted by the policy as a result of being less likely to gain access to SE in
+later grades themselves. Therefore, we also estimate the effects of this policy
+on a sample of GE students using a similar DiD model.8 We find smaller and
+less precise declines in educational attainment among GE students due to the
+policy pressure to reduce SE enrollment. Our DiD estimates imply that GE
+students enrolled in the average district experienced a 1 percentage point (or 1.6
+percent) decline in the likelihood of enrolling in college. We do not find that
+policy exposure led to significant declines in high school completion among GE
+7 We do not find changes in the likelihood of taking or passing the exit exam for students predicted to
+be very likely to take the exit exam regardless of the policy. Although we caveat that SE students who
+took and failed the exit exam in the absence of the policy still could have been eligible to graduate. We
+expand in Section V.A however, that this caveat is likely not large enough to fully account for declines
+in high school completion as a result of the policy.
+8 We compare changes in educational attainment for GE students in districts with lower versus higher
+pre-policy SE rates across cohorts, who had varying levels of time exposed to the policy. Here, the sample
+is students who are in GE as of 5th grade prior to policy implementation.
+
+Page 5 of 76
+
+VOL. VOL NO. ISSUE
+
+THE LONG-RUN IMPACTS OF SPECIAL EDUCATION
+
+5
+
+students, although the point estimate is negative. We do not expect these effects
+on GE students are a result of increases in classroom size, since SE removal was
+driven by those who were already educated in GE classrooms for the majority
+of the school day. Instead, we interpret these results as suggestive evidence that
+the additional resources SE programs bring to GE classrooms may have positive
+spillover effects on GE students.9 In addition, greater access to SE programs is
+likely to directly benefit all students by ensuring that SE services are appropriately
+allocated throughout schooling.
+Credibly estimating the long-run impacts of SE programs is difficult due to
+data limitations and the empirical challenges previously noted. The few studies
+that have examined SE placement have largely focused on short-run outcomes
+and mostly find positive effects. Various identification strategies have been used
+in an attempt to account for the endogenous placement of students into SE.
+For example, using within student changes, Hanushek, Kain and Rivkin (2002)
+find that SE participation improves math performance for students with mild
+learning and behavioral conditions. Using strategic placement in SE due to an
+accountability policy that placed pressure on schools to improve overall student
+performance, Cohen (2007) finds that SE participation reduces absenteeism for
+marginal low-achieving students.10 Only one paper, Prenovitz (2017), finds that
+SE participation harms student achievement. However, this deviation from prior
+studies is likely driven by the context that she focuses on, which resulted in strategic SE placements for students most unlikely to benefit from SE.11 An important
+caveat for these studies is that estimating the effects of SE participation on standardized exam performance could produce mechanically negative results, since SE
+students often take modified or accommodated versions of the exams. Moreover,
+these previous studies offer little insight into the role of SE participation on adult
+outcomes. To date, the only evidence on the long-run impacts of SE has been
+descriptive and focused on small samples (Newman et al. 2011).
+We contribute to the literature in several important ways. First, we utilize
+linked administrative data to offer, to our knowledge, the first long-run causal
+impacts of SE participation for marginal students. Second, our focus on a unique
+policy change that led to the largest exogenous reduction in SE participation
+to-date allows us to isolate changes in SE access without having to make strong
+identification assumptions. Third, since we use population data from Texas, a
+large and diverse state, we are able to estimate differential responses to SE access
+9 SE resources could directly or indirectly benefit GE students. It is likely that additional resources
+in the GE classroom, such as teacher’s aides, small group work, and extra time on tests improves SE
+students’ focus and attention, thereby reducing behavioral challenges that could have negative spillover
+effects on GE students. However, these resources may also directly benefit GE students if for example,
+teacher’s aides are are able to help both GE and SE students in the classroom.
+10 Cohen (2007) also finds suggestive evidence that SE placement reduces the probability of dropping
+out and improves GPA, but these results are not significant at conventional levels.
+11 Specifically, Prenovitz (2017) infers SE program effects based on the introduction of No Child Left
+Behind (NCLB), which held schools accountable for SE subgroup performance. In this setting, schools
+faced incentives to assign SE to higher-achieving students and remove SE services for lower-achieving
+students.
+
+

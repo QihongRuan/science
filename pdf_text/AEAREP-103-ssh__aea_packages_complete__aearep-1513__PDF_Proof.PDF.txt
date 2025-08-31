@@ -1,0 +1,205 @@
+Adviser compensation, endogenous entry and the advice
+gap
+Journal: American Economic Journal: Microeconomics
+Manuscript ID AEJMicro-2020-0074.R3
+Manuscript Type: For Administrative Use Only
+Keywords: L11, L15, L51
+
+Page 1 of 60
+Title: Disclosure statement
+Author: Jurre Thiel
+Date: 19 October 2020
+
+Version: 1
+
+Page 1 af 1
+
+Disclosure statement
+Paper title: Adviser compensation, endogenous entry and the advice gap
+Author: Jurre H. Thiel
+The author declares that he has no relevant or material financial interests that relate to the
+research described in this paper
+
+Page 2 of 60
+
+Adviser compensation, endogenous entry and the advice
+gap
+By Jurre H. Thiel∗
+To prevent biased advice, regulators increasingly ban commission
+payments to financial advisers. Such bans are associated with “advice gaps”, meaning that advice becomes less accessible. To understand the trade-off between the quality and accessibility of advice,
+this paper develops a model of price competition in advice markets
+with endogenous entry of advisers. While commission bans increase consumer surplus in the short run, they hurt the profitability
+of advisers. In the long run, advisers exit the market, advice becomes inaccessible and consumer surplus decreases. These results
+imply that accounting for the endogeneity of market structure is
+important when regulating advice.
+JEL: L11, L15, L51, M52
+Keywords: Advice, market structure, compensation
+It is common for consumers to consult advisers before purchasing financial products. For example, in 2013, 37.5% of consumers in the United States reported
+using the services of a financial planner or broker.1 Historically, financial advisers
+are remunerated through commissions or kickbacks. In the wake of the financial crisis, regulators around the world became concerned that commissions could
+cause advisers to give biased advice. Advice is biased when advisers recommend
+a product with high kickbacks rather than the best product for the consumer.
+Because of this concern, regulation of adviser remuneration has become increasingly common. For example, the requirement that commission payments have to
+be disclosed is now almost universal.2
+In recent years, some countries, most prominently the United Kingdom, Australia and The Netherlands, have banned commission payments to financial advisers altogether. When commissions are banned, advisers charge consumers a
+fixed fee for advice. The first experience with commission bans suggests that
+∗ Thiel:
+Copenhagen Business School, Porcelænshaven 16A, 2000 Frederiksberg, Denmark,
+juth.eco@cbs.dk. This paper replaces “The Remuneration of advisors in Markets for Complex Products”, which contained many similar insights. I thank Alexei Alexandrov, Björn Brügemann, Pieter
+Gautier, Bruno Jullien, Karl Schlag, Randolph Sloof, Erik Verhoef, Julian Wright, Yaron Yehezkel and
+especially my adviser José-Luis Moraga-González for their useful comments and suggestions. This paper has also benefited from presentations at the 2016 Search and Matching Conference in Amsterdam,
+EARIE 2016 in Lisbon, IIOC 2017 in Boston, the 2017 CEPR-JIE School on Applied IO in Jerusalem,
+the 2017 Consumer Search and Switching Workshop in Vienna and the 2019 TI Jamboree in Amsterdam.
+1 Survey of Consumer Finances, 2013. Accessed from https://www.federalreserve.gov/econresdata/scf/scfindex.htm
+on December 5, 2016.
+2 For example, EU guideline 2014/65/EU requires disclosure of kickbacks in the context of investment
+products and sets a framework for further regulation by member states. EU guideline 2016/97 regulates
+kickbacks for insurance advisors. (EUR-Lex, http://eur-lex.europa.eu/)
+
+1
+
+Page 3 of 60
+
+2
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+they are associated with so-called “advice gaps”. An advice gap occurs when
+some consumers do not have access to financial advice. For example, the Financial Conduct Authority in the UK states that while “the move to fee-based advice
+on retail investment products has improved transparency and ended conflicts of
+interest caused by a mainly commission-driven model”, “advice is expensive and
+is not always cost-effective for consumers” (Financial Conduct Authority, 2016,
+p. 5). Indeed, many consumers report finding fee-based advice too costly.3 Thus,
+there is a trade-off between the quality and the accessibility of advice.
+At the same time, advisers claim that fee-based advice puts significant pressure
+on their margins and harms the sustainability of their business. Taking again
+the example of the UK, the number of advisers decreased by approximately 25%
+around the ban on commissions (Financial Conduct Authority, 2016, p. 18). Such
+a decline may directly contribute to the advice gap. In other markets, advisers
+also report fierce competition after a shift to a fee-based model.4 Therefore, a
+shift to fee-based advice causes a tension between consumers, who think advice
+fees are too high, and advisers, who report downward pressure on fees and exit
+the market.
+This paper develops a theoretical framework to explain these developments
+and study the trade-off between the quality and accessibility of advice. I study a
+game in the vein of Inderst and Ottaviani (2012a), in which advisers recommend
+one of two horizontally differentiated products. Advisers are remunerated either
+through kickbacks or directly by consumers. I extend this model in two ways.
+First, advisers are capacity constrained: because it takes a fixed amount of time
+to give a consumer a recommendation, every adviser is limited in the number of
+consumers it can serve. Second, to explain the observed exit of advisers after
+commission bans, entry and exit of advisers are endogenous. These assumptions
+mirror the statement by the Financial Conduct Authority that there not being
+“enough advisers to go around” is a reason for the advice gap in the UK (Financial
+Conduct Authority, 2016, p. 34).
+My main results are as follows. For a fixed number of advisers (sufficiently large
+to serve all consumers), remuneration through kickbacks is typically more efficient
+than direct remuneration. The reason, as in Inderst and Ottaviani (2012a), is that
+kickbacks steer consumers towards the more efficient firm. However, consumer
+surplus is higher under direct remuneration than under kickbacks. This is because
+under direct remuneration, advisers always recommend the product giving con3 For example, 51% percent of UK households who did not use financial advice but are identified by
+the FCA as possibly having a need for it, report being unwilling to “pay for regulated financial advice at
+any price.”. A further 20% of this group is unwilling to pay more than 100 pounds (Financial Conduct
+Authority, 2017).
+4 Another empirical example of fierce price competition after the shift to a fee-based instead of a
+commission-based revenue model is the US asset management industry. As noted in a Fidelity Investment report, this shift “[increased] the level of competition in the independent adviser market
+segment.” The report notes that fees have already decreased following a shift to fee-based management and expects further decreases in the future. From the 2016 Fidelity RIA Benchmarking Study.
+https://clearingcustody.fidelity.com/app/proxy/content?literatureURL=/9879252.PDF. Accessed
+October 7, 2018.
+
+Page 4 of 60
+
+VOL. VOL NO. ISSUE
+
+ADVISER COMPENSATION AND ENDOGENOUS ENTRY
+
+3
+
+sumers the highest utility. This finding can explain why regulators, who arguably
+care more about consumer surplus than efficiency, have banned kickbacks.
+When accounting for entry and exit of advisers, this short-run result reverses.
+Because advice is a homogeneous good, advisers compete their fee towards zero as
+long as some advisers have spare capacity. On the other hand, when the market is
+not covered, capacity constraints relax price competition between advisers. When
+advisers are remunerated through kickbacks, advice is free for consumers. There
+is therefore no price competition between advisers and capacity constraints play
+a more limited role. Hence, adviser profits, as a function of the number of firms,
+rotate when banning kickbacks: they are higher under direct remuneration than
+under kickbacks if and only if the market is not covered. I show that, as a result,
+the market is never covered under fee-based advice, while it is always covered
+under commission-based advice. Since capacity constraints allow advisers to set
+fees that extract almost all consumer surplus, consumer surplus is higher under
+kickbacks than under direct remuneration in the free entry equilibrium.
+These findings can generate the empirical observations that consumers find
+fee-based advice costly but that at the same time advisers report significant competitive pressure and exit the market. When switching from commission-based to
+fee-based advice, the existing capacity is unsustainable. Fees are driven towards
+zero and advisers exit the market. In the long run, however, sufficiently many advisers exit the market that the remaining advisers regain significant market power
+and advice becomes inaccessible. Therefore, while banning kickbacks benefits consumers in the short run, it harms them in the long run. While I derive this result
+under an assumption of capacity constraints, I argue that other assumptions can
+lead to similar rotations of adviser profits and hence give similar results. In the
+extensions, I show that these results are also robust to making advisers’ capacity constraint endogenous, as well as to giving consumers an exogenous outside
+option.
+Related literature. — This paper contributes to the theoretical literature on
+
+advice. My main contribution is to build a model of adviser pricing when kickbacks are banned, taking as endogenous the entry decisions of advisers. The
+previous literature has taken the availability of advice as given. The first experiences with commission bans, as discussed above, however suggest that the
+endogenous entry and exit of advisers is of first-order importance to understand
+the effect of commission bans. This paper aims to fill this gap in the literature.
+I build on arguably the most important contribution of this literature, Inderst
+and Ottaviani (2012a). In their model, there is only a single adviser that is always accessible. Therefore, their model cannot capture the observed exit patterns
+around the move from commission-based to fee-based revenue models. I embed
+their model into a model of adviser entry and pricing to study this important policy issue. Another difference is that Inderst and Ottaviani (2012a) do not consider
+the effects of moving to a fee-based remuneration model, even for a fixed number
+
+Page 5 of 60
+
+4
+
+AMERICAN ECONOMIC JOURNAL
+
+MONTH YEAR
+
+of advisers. Armstrong and Zhou (2011), Stoughton, Wu and Zechner (2011) and
+Inderst and Ottaviani (2012b) also provide various models of interaction between
+advisers, consumers and upstream firms. They all similarly take the number of
+advisers as fixed.
+One paper that studies the effect of regulations on the market for financial advice, taking into account possible endogenous exit of advisers, is Bhattacharya,
+Illanes and Padi (2020). However, they do not study a ban on commissions but
+the effect of introducing a fiduciary duty. They find empirically that while the
+introduction of a fiduciary duty causes the exit of advisers, it increases investor
+welfare. They also provide a theoretical model to explain this result. The main
+difference with this paper is conceptual: the introduction of a fiduciary duty
+increases the costs of giving unsuitable advice, but otherwise leaves price formation (a commission-based model in their case) intact. The main message of this
+paper on the other hand is that under fee-based remuneration price formation
+is fundamentally different than under commission-based remuneration, and that
+the increased competitive pressure faced by advisers is what paradoxically makes
+consumers worse off. Indeed, it is not difficult to obtain results similar to Bhattacharya, Illanes and Padi (2020) by increasing the cost of giving bad advice in
+my model. While both papers thus point to the importance of considering the
+endogeneity of market structure when regulating advice, the differences in results
+that we obtain also imply that different regulations may have very different effects
+on consumer welfare.
+There is also some recent empirical work on biased advice. Egan (Forthcoming)
+studies the impact of commissions on brokers’ recommendations in the market for
+convertible bonds. He empirically confirms the assumption made in theoretical
+models of advice—including mine—that commissions lead to biased advice. To
+better understand the role brokers play, he moreover calculates a counterfactual
+in which brokers are forced to recommend consumers their best option. He finds
+that consumer surplus increases. My results imply that such a counterfactual
+does not automatically imply that banning commissions is also a good policy:
+one has to take into account the entry and exit of advisers if advice is regulated
+to get a realistic understanding of the regulation’s effect. Robles-Garcia (2020)
+and Myśliwski and Rostom (2020) also find that commissions bias advice, in this
+case in the context of the UK mortgage market, but similarly take the presence
+of advice as given. Another empirical study on advice is Guiso et al. (2020), who
+study banks’ steering in the Italian mortgage market. Their setting is however
+somewhat different than the one I consider: in their market, banks recommend
+one of their own products, while I consider independent advisers who recommend
+a product produced by upstream firms.
+Other recent papers on advice relate to other aspects of the market. Bardey
+et al. (Forthcoming) study the incentives advisers have to collect information,
+while De Cornière and Taylor (2019) consider the incentives of upstream firms
+to invest in quality in the presence of an intermediary. Shen and Wright (Forth-
+
+

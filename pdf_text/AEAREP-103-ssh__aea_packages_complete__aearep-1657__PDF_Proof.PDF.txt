@@ -1,0 +1,90 @@
+Five Facts About Beliefs and Portfolios
+Journal: American Economic Review
+Manuscript ID AER-2020-0243.R2
+Manuscript Type: For Administrative Use Only
+Keywords:
+
+Page 1 of 79
+
+December 8th 2020
+I hereby declare that I have no conflicts of interest, financial or otherwise, to disclose in connection with
+the publication of manuscript “Five Facts About Beliefs and Portfolios” in the American Economic Review.
+Vanguard provided anonymized portfolio and survey data as well as survey research services for this
+project. For the purpose of this project, I am an unpaid consultant at Vanguard in order to access the
+anonymized data.
+Best Regards,
+
+Matteo Maggiori
+Associate Professor of Finance
+Stanford University
+
+Page 2 of 79
+
+December 8th, 2020
+I hereby declare that I have no conflicts of interest, financial or otherwise, to disclose in connection with the publication
+of manuscript “Five Facts About Beliefs and Portfolios” to the American Economic Review. Vanguard provided anonymized
+portfolio and survey data as well as survey research services for this project. For the purpose of this project, I am an unpaid
+consultant at Vanguard in order to access the anonymized data.
+Best Regards,
+Stefano Giglio
+Professor of Finance
+Yale University
+
+Page 3 of 79
+
+Page 4 of 79
+
+December 9th 2020
+I hereby declare that I have no conflicts of interest, financial or otherwise, to disclose in connection with the of manuscript
+“Five Facts About Beliefs and Portfolios” at the American Economic Review. Vanguard provided anonymized portfolio and
+survey data as well as survey research services for this project. I am employed by Vanguard in a research capacity.
+
+Best Regards,
+Stephen Utkus
+Principal
+Vanguard Center for Investor Research
+
+Page 5 of 79
+
+F IVE FACTS A BOUT B ELIEFS AND P ORTFOLIOS
+Stefano Giglio*
+
+Matteo Maggiori†
+
+Johannes Stroebel‡
+
+Stephen Utkus§
+
+September 2020
+
+Abstract
+We study a newly-designed survey administered to a large panel of wealthy retail investors.
+The survey elicits beliefs that are important for macroeconomics and finance, and matches
+respondents with administrative data on their portfolio composition, their trading activity, and
+their log-in behavior. We establish five facts in this data: (1) Beliefs are reflected in portfolio
+allocations. The sensitivity of portfolios to beliefs is small on average, but varies significantly
+with investor wealth, attention, trading frequency, and confidence. (2) Belief changes do not
+predict when investors trade, but conditional on trading, they affect both the direction and the
+magnitude of trades. (3) Beliefs are mostly characterized by large and persistent individual
+heterogeneity. Demographic characteristics explain only a small part of why some individuals
+are optimistic and some are pessimistic. (4) Expected cash flow growth and expected returns
+are positively related, both within and across investors. (5) Expected returns and the subjective
+probability of rare disasters are negatively related, both within and across investors. These five
+facts provide useful guidance for the design of macro-finance models.
+
+JEL Codes: G11, G12, R30.
+Keywords: Surveys, Expectations, Sentiment, Behavioral Finance, Discount Rates, Rare Disasters.
+* Yale School of Management, NBER, CEPR: stefano.giglio@yale.edu.
+† Graduate School of Business, Stanford University, NBER, CEPR: maggiori@stanford.edu.
+‡ Stern School of Business, New York University, NBER, CEPR: johannes.stroebel@stern.nyu.edu.
+§ Vanguard: steve_utkus@vanguard.com.
+
+Stephen Utkus is employed at Vanguard in a research capacity. Giglio, Maggiori, and Stroebel are unpaid consultants
+at Vanguard in order to access the anonymized data. Vanguard provided anonymized portfolio and survey data as
+well as survey research services for this project. We thank Klaus Adam, Isaiah Andrews, Nick Barberis, John Campbell,
+Darrell Duffie, Ben Enke, John Geanakoplos, Nicola Gennaioli, Gary Gorton, Camelia Kuhnen, Arvind Krishnamurthy,
+Hanno Lustig, Yueran Ma, Emi Nakamura, Stefan Nagel, Frank Schilbach, Alexi Savov, Amit Seru, and Andrei Shleifer,
+as well as numerous seminar and conference participants. The authors would also like to thank Catherine Clinton,
+Sophia Bunyaraksh, and Jean Young at Vanguard for their help with the project.
+
+

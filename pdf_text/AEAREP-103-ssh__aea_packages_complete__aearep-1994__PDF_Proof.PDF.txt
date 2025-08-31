@@ -1,0 +1,131 @@
+The Causal Interpretation of Two-Stage Least Squares with
+Multiple Instrumental Variables
+Journal: American Economic Review
+Manuscript ID AER-2019-0221.R4
+Manuscript Type: For Administrative Use Only
+Keywords: C10
+
+Page 1 of 56
+
+Disclosure Statement for “The Causal Interpretation of Two-Stage Least Squares
+with Multiple Instrumental Variables”
+•
+•
+
+I declare that I have no relevant or material financial interests related to the research
+described in this paper.
+This project was approved by the UC Berkeley Committee for Protection of Human
+Subjects.
+
+Alexander Torgovitsky
+3/24/2021
+
+Page 2 of 56
+
+Disclosure Statement for “The Causal Interpretation of Two-Stage Least Squares
+with Multiple Instrumental Variables”
+•
+•
+
+I declare that I have no relevant or material financial interests related to the research
+described in this paper.
+This project was approved by the UC Berkeley Committee for Protection of Human
+Subjects.
+
+Magne Mogstad
+3/24/2021
+
+Page 3 of 56
+
+Disclosure Statement for “The Causal Interpretation of Two-Stage Least Squares
+with Multiple Instrumental Variables”
+•
+•
+
+I declare that I have no relevant or material financial interests related to the research
+described in this paper.
+This project was approved by the UC Berkeley Committee for Protection of Human
+Subjects.
+
+Christopher Walters
+3/24/2021
+
+Page 4 of 56
+
+The Causal Interpretation of Two-Stage Least Squares with
+Multiple Instrumental Variables
+Magne Mogstad
+
+Alexander Torgovitsky
+
+Christopher R. Walters∗
+
+This draft: May 24, 2021
+First draft: February 11, 2019
+
+Abstract
+Empirical researchers often combine multiple instrumental variables (IVs) for a single
+treatment using two-stage least squares (2SLS). When treatment effects are heterogeneous, a common justification for including multiple IVs is that the 2SLS estimand
+can be given a causal interpretation as a positively-weighted average of local average
+treatment effects (LATEs). This justification requires the well-known monotonicity
+condition. However, we show that with more than one instrument, this condition can
+only be satisfied if choice behavior is effectively homogenous. Based on this finding,
+we consider the use of multiple IVs under a weaker, partial monotonicity condition.
+We characterize empirically verifiable sufficient and necessary conditions for the 2SLS
+estimand to be a positively-weighted average of LATEs under partial monotonicity. We
+apply these results to an empirical analysis of the returns to college with multiple instruments. We show that the standard monotonicity condition is at odds with the data.
+Nevertheless, our empirical checks reveal that the 2SLS estimate retains a causal interpretation as a positively-weighted average of the effects of college attendance among
+complier groups.
+
+∗
+
+Mogstad: University of Chicago, Statistics Norway, and NBER (email: magne.mogstad@gmail.com).
+Torgovitsky: University of Chicago (email: atorgovitsky@gmail.com). Walters: University of California,
+Berkeley, and NBER (email: crwalters@econ.berkeley.edu). We thank three anonymous referees, the editor
+(Thomas Lemieux), Stéphane Bonhomme, Vishal Kamat, Azeem Shaikh, and Ed Vytlacil for helpful comments, and Christine Blandhol, John Bonney, and Conroy Lau for outstanding research assistance. This
+research was supported in part by National Science Foundation grant SES-1530538.
+
+Page 5 of 56
+
+1
+
+Introduction
+
+Instrumental variables (IVs) are widely used to estimate causal relationships. In practice, researchers often combine multiple IVs using two-stage least squares (2SLS). In
+Section 2, we report a survey of empirical papers using IV that were published in leading
+journals since 2000. More than half of these papers report results from a specification
+with multiple IVs for a single treatment, typically combined using 2SLS.
+The textbook motivation for combining multiple IVs is statistical efficiency. However, this requires an assumption of constant treatment effects. In contrast, allowing
+for heterogeneous treatment effects is a key motivation in the modern program evaluation literature, and one which is supported by a large body of empirical work.1 In an
+influential paper, Imbens and Angrist (1994, “IA” hereafter) provided an alternative
+justification for using 2SLS with multiple IVs, one which allows for heterogeneous treatment effects. They showed that the 2SLS estimand can be interpreted as a positivelyweighted average of local average treatment effects (LATEs) for subpopulations whose
+treatment status is affected by the instruments. This result holds for any number of
+instruments, as long as IA’s “monotonicity” condition is satisfied.2
+The fact that widespread empirical practice rests on the monotonicity condition
+raises a number of questions. What requirements does this condition place on choice
+behavior when there are multiple IVs? Can we expect these requirements to be satisfied? If not, is it still possible to retain a causal interpretation of the 2SLS estimand
+while allowing for unobserved heterogeneity in both treatment effects and choice behavior? The contribution of our paper is to answer these questions and, by doing so,
+offer theoretical and empirical guidance for researchers who wish to use 2SLS with
+multiple IVs.
+In Section 3, we begin our theoretical analysis by showing that the monotonicity
+condition cannot be satisfied with more than one instrument without restricting choice
+behavior to be effectively homogenous.3 For example, if the treatment is college at1
+
+Heckman (2001) compiled a list of empirical evidence on heterogeneous treatment effects prior to
+2001. More recent papers that find evidence of unobserved heterogeneity in treatment effects include Bitler,
+Gelbach, and Hoynes (2006), Doyle Jr. (2007), Moffitt (2008), Carneiro and Lee (2009), Firpo, Fortin,
+and Lemieux (2009), Carneiro, Heckman, and Vytlacil (2011), Maestas, Mullen, and Strand (2013), Bitler,
+Hoynes, and Domina (2014), Walters (2018), Felfe and Lalive (2018), French and Song (2014), Havnes and
+Mogstad (2015), Kirkeboen, Leuven, and Mogstad (2016), Kline and Walters (2016), Carneiro, Lokshin, and
+Umapathi (2016), Cornelissen, Dustmann, Raute, and Schönberg (forthcoming), Nybom (2017), and Brinch,
+Mogstad, and Wiswall (2017).
+2
+In discussing the use of multiple IVs instead of a single binary instrument, Angrist and Pischke (2009, p.
+173) write that “The econometric tool remains 2SLS and the interpretation remains fundamentally similar
+to the basic LATE result, with a few bells and whistles.”
+3
+Our analysis here builds upon points made by Heckman and Vytlacil (2005, Section 6) and Heckman,
+
+1
+
+

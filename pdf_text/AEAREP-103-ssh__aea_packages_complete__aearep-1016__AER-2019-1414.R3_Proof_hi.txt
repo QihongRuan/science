@@ -1,0 +1,241 @@
+Arrival of Young Talent: The Send-down Movement and
+Rural Education in China
+Journal: American Economic Review
+Manuscript ID AER-2019-1414.R3
+Manuscript Type: Administrator
+Keywords: I25, J24, N35
+
+Page 1 of 71
+
+Arrival of Young Talent: The Send-down Movement and
+Rural Education in China
+By YI CHEN, ZIYING FAN, XIAOMIN GU, AND LI-AN ZHOU*
+This paper estimates the effects of the send-down movement during the Cultural Revolution—when about 16 million urban youth
+were mandated to resettle in the countryside—on rural education.
+Using a county-level dataset compiled from local gazetteers and
+population censuses, we show that greater exposure to the sentdown youths significantly increased rural children’s educational
+achievement. This positive effect diminished after the urban youth
+left the countryside in the late 1970s but never disappeared. Rural
+children who interacted with the sent-down youths were also more
+likely to pursue more-skilled occupations, marry later, and have
+smaller families than those who did not.
+JEL: I25, J24, N35, O15, R23
+Keywords: Send-down Movement, Cultural Revolution, Rural Education, Persistent Effect
+In 1968, two years after the start of the Cultural Revolution, China’s central
+government launched the “send-down movement,” which mandated about 16 million urban youth to temporarily resettle in rural areas. This massive campaign
+lasted until the late 1970s. The villages receiving the “sent-down youths” (SDYs),
+typically junior and senior high school graduates,1 were generally located in poor
+areas where few people received more than a primary school education.2 Al* Chen: Institute for Economic and Social Research, Jinan University; School of Entrepreneurship and Management, ShanghaiTech University (email: chenyi1@shanghaitech.edu.cn). Fan: School
+of Public Economics and Administration, Shanghai University of Finance and Economics (email:
+fan.ziying@mail.shufe.edu.cn). Gu: International Business School, Shanghai University of International
+Business and Economics (email: guxiaomin517@suibe.edu.cn). Zhou: Guanghua School of Management,
+Peking University (email: zhoula@gsm.pku.edu.cn). We thank the editor Esther Duflo and two anonymous reviewers for their valuable comments and suggestions. We are also grateful for comments from
+Jie Bai, Steven N. Durlauf, Hanming Fang, Richard B. Freeman, James J. Heckman, Shi Li, Yi Lu,
+Xin Meng, Zheng (Michael) Song, Shang-Jin Wei, and Yifan Zhang. We thank participants at the 2018
+CCER Summer Institute, 2018 Chicago–Jinan Joint Initiative Workshop, 2018 Chinese Economy Summer Institute, 2019 China Meeting of the Econometric Society, the 4th Biennial Conference of China
+Development Studies, 2019 Singapore Economic Review Conference, and numerous seminars for their
+feedback. Chen acknowledges financial support from the 111 Project of China (B18026) and from the
+National Science Foundation of China (71903066). Fan acknowledges financial support from the National
+Science Foundation of China (71573165, 71973088). Zhou acknowledges financial support from the Research Center for Comparative Economic History at Peking University. Finally, we thank Shuxian Chi,
+Weidong Chi, Jing Li, and Yao Xie for their excellent RA work. All remaining errors are our own.
+1 Based on our calculations from the 2010 wave of the China Family Panel Studies (CFPS), 73.3% of
+the SDYs had completed junior high education, and 28.3% had completed senior high education by the
+time they were sent to the countryside.
+2 According to China’s 1990 Population Census, 38.4% of rural people born between 1946 and 1955
+(the control group in our later analysis) either received no schooling or failed to complete primary school;
+
+1
+
+Page 2 of 71
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+though the SDYs were expected to farm in the countryside, many of them were
+assigned to teach rural kids because of their education advantages. In this paper,
+we explore the movement’s unintended effect on rural education—i.e., how the
+large-scale arrival of the SDYs benefited the approximately 245 million school-age
+children in rural China at the time.3
+The send-down movement provides a unique opportunity to study how this
+unprecedented large-scale resettlement of talents contributed to the educational
+attainment of millions of rural children. It has three unique features that facilitate our empirical analysis. First, the resettlement was mobilized in a top-down
+and mandatory manner.4 Most urban youth could not choose whether (or where)
+to go. Those who refused to take part in the program could be accused of opposing the great strategy of Chairman Mao, which would have resulted in severe
+consequences (Pan, 2002). Second, migration was highly restricted in China at
+that time because of the household registration (hukou) system. The 1958 codification of the household registration system decreed that all internal migration
+was subject to approval by the local government. Finally, SDYs’ resettlement was
+temporary. By the time rural children grew up, the vast majority of the SDYs
+had left the countryside, excluding possible mechanical effects that the better
+educated SDYs (and their offsprings) were counted as rural residents.5
+We hand collected a county-level dataset on the number of SDYs each county
+received from over 3,000 book-length local gazetteers. We combined this dataset
+with individual-level population censuses to estimate how rural children’s exposure to those better-educated SDYs affected their educational attainment. Using
+a cohort difference-in-difference (DID) strategy developed in Duflo (2001), we find
+that the arrival of the SDYs significantly increased local rural children’s years of
+schooling. We estimate that the effect of the SDYs resulted in an increase of 17.6
+million person-years of schooling in rural areas. Our main results are robust to a
+wide range of alternative specifications and robustness checks. The effect of the
+SDYs is greater among less-educated groups and regions (girls and less-developed
+counties), suggesting that the SDYs not only raised the overall level of rural education but also reduced socioeconomic inequality. As the movement came to an
+end and the SDYs gradually left the countryside, their effect declined but never
+vanished. We also find that the rural children who were exposed to SDYs were
+more likely to attain education beyond junior high level, pursued higher-skilled
+occupations including teachers, held more positive attitudes towards education,
+married later, and had smaller families. Taken together, these results imply that
+41.1% were primary school graduates; and only 4% attained education beyond junior high school.
+3 This number is based on the number of rural children born between 1956 and 1969 (the treatment
+group in our later analysis), according to our calculation from the 1982 China Population Census.
+4 The mandatory nature of the movement does not necessarily imply that the flows of the SDYs were
+exogenous. Nor does the top-down arrangement rule out the possibility that the upper-level government
+assigned the SDYs based on strategic considerations. Nonetheless, our identification strategy is not based
+on the random assignment of the SDYs. More details are provided below.
+5 It is true that a small proportion (5%) of SDYs remained in the countryside after the movement.
+We explain in Section IV.F why this small proportion cannot drive our main results.
+
+Page 3 of 71
+
+VOL. VOL NO. ISSUE
+
+CHEN ET AL.: ARRIVAL OF YOUNG TALENT
+
+3
+
+the SDYs contributed to both the “quantity” and “quality” of rural education.
+Our identification strategy does not require the number of SDYs received in
+each county to be exogenous. The central requirement for identification in our
+cohort DID strategy is the parallel-trend assumption: in the absence of the movement, the cohort trends in education should not be related to the intensity of
+the treatment (here, the local density of SDYs). Our evidence supports this assumption. First, we use the 1982, 1990, and 2000 population censuses to show
+that there were no heterogeneous pre-existing cohort trends with respect to the
+density of SDYs after controlling for a set of regional and cohort characteristics.
+Second, we examine the possible influences of certain local characteristics, such
+as the grain production level and local government efforts to improve education,
+and from other contemporaneous historical events, such as rural education expansion, the Cultural Revolution, and the Great Famine of 1959–1961. China’s
+rural education (especially at the secondary level) rapidly expanded since the late
+1960s—a period that largely overlapped with the send-down movement. To control for this confounding factor, we collected county-by-year information on the
+number of local primary and secondary schools during the study period from local
+gazetteers. We show that although the educational expansion did improve rural
+children’s education, the estimated coefficients on the SDYs remain almost the
+same. We also controlled for the local intensity of the Cultural Revolution (measured as the number of victims, which comes from Walder (2017)) and the Great
+Famine (calculated as one minus the ratio of the cohort size of the famine cohort
+over that of the non-famine cohort, following Meng, Qian and Yared (2015)).
+Our study reveals the important consequences of a historical event on rural education and sheds new light on the contribution of human capital accumulation in
+rural areas to China’s subsequent economic growth. Heckman and Yi (2014) and
+Heckman and Feng (2018) found that a large stock of medium-skilled labor (with
+primary or secondary education) acquired before China’s market-oriented reforms
+has fueled its rapid economic growth in recent decades. Most of the affected rural
+children in our analysis were in their twenties or thirties in the mid-1990s, when
+the country’s economic reforms allowed them to migrate to cities to become manufacturing workers or to work in the vibrant Township and Village Enterprises in
+rural areas. Combined with these observations, our empirical findings suggest a
+potential link between the increase in rural human capital stock due to the arrival
+of the SDYs and China’s rapid economic growth in the reform era.
+Our study contributes to three strands of literature. The first examines the
+channels of supplying human capital and their consequences in developing countries. Economists have uncovered a number of important supply-side factors,
+such as school infrastructure (Duflo, 2001, Indonesia), conditional transfers such
+as PROGRESA (Schultz, 2004, Mexico), child health (Miguel and Kremer, 2004,
+Kenyan), and the availability of qualified teachers (Banerjee et al., 2007, India).
+Our study is most related to Andrabi, Das and Khwaja (2013), who find that
+girls’ secondary schools increase the local supply of low-cost teachers in Pakistan,
+
+Page 4 of 71
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+which leads to more private schools. Our results also demonstrate that increasing the local supply of teachers is an important channel through which SDYs
+improved local children’s education. Unlike Andrabi, Das and Khwaja (2013),
+our paper examines the individual-level outcomes and investigates the persistent
+effects on the affected children after the SDYs left the countryside, such as the
+likelihood of going to senior high school, attitudes towards education, marriage
+age, and occupational choices. In addition, our empirical results show that the
+formation of human capital during this period might have laid down an important
+foundation for China’s economic growth in the reform era.
+The second literature investigates the social and economic consequences of
+China’s send-down movement on the SDYs. The consequences include almost
+every aspect of one’s life course (Zhou and Hou, 1999), such as marriage (Song
+and Zheng, 2016), education and income (Xie, Jiang and Greenman, 2008), inter
+vivos transfer (Li, Rosenzweig and Zhang, 2010), subjective wellbeing (Wang and
+Zhou, 2017), political attitudes (Harmel and Yeh, 2016), beliefs and values (Gong,
+Lu and Xie, 2015), and financial behavior (Fan, 2020). However, the program’s
+impact on the rural areas that accommodated the SDYs remains understudied.
+Kinnan, Wang and Wang (2018) and Xing and Zhou (2018) were among the first
+to explore the program’s effects on destination provinces. They studied how the
+lasting inter-provincial links created by SDYs’ temporary resettlement affected
+current migration (Kinnan, Wang and Wang, 2018) and bilateral trade (Xing
+and Zhou, 2018) decades after the program ended. Our study contributes to
+the scholarship of the send-down program in two ways. First and foremost, we
+uncover the effects of the SDYs on rural human capital accumulation and their
+persistence. Second, our data go further down to the county level and include the
+intra-province flow of SDYs, which accounted for 92.1% of total SDYs (Table 1).
+In a study developed independently from ours,6 You (2018) examined a sample
+of 61 counties in one province (Heilongjiang) and estimated how the densities of
+SDYs during the movement affected local people’s education, employment, and
+social values. We analyze a sample of nearly 2,000 counties (which include the
+majority of counties affected by the movement) to provide a nationally representative estimate and a more thorough discussion of robustness, mechanisms, and
+potentially confounding factors of the effects of the SDYs.
+Third, our paper adds to the literature on the persistence of human capital
+spillovers (Waldinger, 2010, 2012; Borjas and Doran, 2012; Moser, Voena and
+Waldinger, 2014). Wantchekon, Klašnja and Novta (2014) examined human capital externalities within a village by exploiting the establishment of colonial schools
+in Benin. Rocha, Ferraz and Soares (2017) studied human capital persistence by
+exploiting a state-sponsored settlement policy in Brazil that attracted educated
+immigrants. The resettlement program we investigate differs from those assessed
+in previous studies of human capital spillovers in at least three ways. First, as
+previously discussed, the resettlement was temporary and mandatory, and there
+6 The working paper versions of both papers were available online in early 2018.
+
+Page 5 of 71
+
+VOL. VOL NO. ISSUE
+
+CHEN ET AL.: ARRIVAL OF YOUNG TALENT
+
+5
+
+were few opportunities for internal migration for local people at that time. Second, the large scale of the resettlement and the number of local residents affected
+were unprecedented. Third, the main motivation for the send-down movement
+was not to improve rural education but to address severe urban unemployment.
+Therefore, the improvement in rural education brought about by the SDYs was
+an unintended consequence of the movement.
+The remainder of this paper is organized as follows. Section I briefly reviews
+the relevant institutional background. In Section II, we introduce our dataset and
+discuss the econometric set-ups. Section III reports the main results about how
+exposure to SDYs affected the educational attainment of rural residents. Section
+IV discusses alternative interpretations that may confound our main results. Section V presents the lasting impact of the SDYs after they left the countryside.
+Section VI concludes.
+I.
+A.
+
+Institutional Background
+
+The Send-Down Movement: A Brief History
+
+The origins of the send-down movement can be traced back to the 1950s. Chairman Mao Zedong declared in December 1955 that “[a]ll those intellectuals who
+can go to the countryside should go there happily. The countryside is a vast
+universe where there is plenty to be done.” In 1962, when the country struggled to overcome the Great Famine, the central government encouraged urban
+youth to relocate to rural areas to alleviate food shortages in the cities. Before
+the Cultural Revolution, the program operated on a relatively small scale, and
+participation was largely voluntary. A large proportion of the SDYs at the time
+went to either state farms or collective farms. Between 1962 and 1966, the rustication program sent about 1.29 million urban youths to the countryside (Bernstein,
+1977)—accounting for 7.3% of the total 17.7 million SDYs during 1962–1979.
+After the outbreak of the Cultural Revolution, the send-down movement made
+a decisive turnaround and mandated about 16 million urban youths to go to
+the countryside. Three motivations drove this extension of the program. First,
+high school students could not continue their education due to severe disruptions
+in the early years of the Cultural Revolution. In addition, the college entrance
+exams were abolished in 1966, and high school graduates had no regular chance
+of pursuing higher education. Second, urban unemployment soared in the chaos
+created by the Cultural Revolution. Industrial output fell by 13.8% in 1967 and
+4.2% in 1968. Thus high school graduates found it almost impossible to find jobs
+in urban areas, which were previously assigned by the government. In other words,
+urban students who graduated between 1966 and 1968 could not find jobs or
+continue their education. The third motivation was to discharge the Red Guards
+to end the chaos in urban areas. Mao mobilized the Red Guards, mostly junior or
+senior high school students, during the first few years of the Cultural Revolution
+as a political weapon to fight against the party establishment. However, the
+
+

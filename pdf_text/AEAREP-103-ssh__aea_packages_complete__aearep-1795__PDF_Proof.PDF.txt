@@ -1,0 +1,241 @@
+Discrete Choice under Risk with Limited Consideration
+Journal: American Economic Review
+Manuscript ID AER-2019-0253.R3
+Manuscript Type: For Administrative Use Only
+Keywords: discrete choice, limited consideration, semi-nonparametric identification
+
+Page 1 of 77
+
+Discrete Choice under Risk with Limited Consideration
+By Levon Barseghyan, Francesca Molinari, and Matthew
+Thirkettle*
+This paper is concerned with learning decision makers’ preferences
+using data on observed choices from a finite set of risky alternatives. We propose a discrete choice model with unobserved heterogeneity in consideration sets and in standard risk aversion. We obtain sufficient conditions for the model’s semi-nonparametric point
+identification, including in cases where consideration depends on
+preferences and on some of the exogenous variables. Our method
+yields an estimator that is easy to compute and is applicable in
+markets with large choice sets. We illustrate its properties using a
+dataset on property insurance purchases.
+
+This paper is concerned with learning decision makers’ (DMs) preferences using data on observed choices from a finite set of risky alternatives with monetary
+outcomes. The prevailing empirical approach to study this problem merges expected utility theory (EUT) models with econometric methods for discrete choice
+analysis. Standard EUT assumes that the DM evaluates all available alternatives
+and chooses the one yielding the highest expected utility. The DM’s risk aversion
+is determined by the concavity of her Bernoulli utility function. The set of all
+alternatives – the choice set – is assumed to be observable by the researcher.
+We depart from this standard approach by proposing a discrete choice model
+with unobserved heterogeneity in preferences and unobserved heterogeneity in
+consideration sets. Specifically, preferences satisfy the classic Single Crossing
+Property (SCP) of Mirrlees (1971) and Spence (1974), central to important studies of decision making under risk.1 That is, the preference order of any two
+* Barseghyan: Department of Economics, Cornell University, 456 Uris Hall, 109 Tower Rd, Ithaca, NY
+14853, lb247@cornell.edu. Molinari: Department of Economics, Cornell University, 458 Uris Hall, 109
+Tower Rd, Ithaca, NY 14853, fm72@cornell.edu. Thirkettle: Department of Economics, Rice University,
+430 Kraft Hall, 6100 Main St, Houston, TX 77005, mt77@rice.edu. We are grateful to Liran Einav, three
+anonymous referees, Abi Adams, Jose Apesteguia, Miguel Ballester, Arthur Lewbel, Chuck Manski, and
+Jack Porter for useful comments and constructive criticism. For comments and suggestions we thank
+the participants to the 2017 Barcelona GSE Summer Forum on Stochastic Choice, the 2018 Cornell
+Conference “Identification and Inference in Limited Attention Models”, the 2018 Penn State-Cornell
+Conference on Econometrics and IO, the 2018 GNYMA Conference, the 2019 ASSA meetings, the IFS
+2019 “Consumer Behaviour: New Models, New Methods” Conference, and to seminars at Stanford,
+Berkeley, UCL, Wisconsin, Bocconi, and Duke. Part of this research was carried out while Barseghyan and
+Molinari were on sabbatical leave at the Department of Economics at Duke University, whose hospitality
+is gratefully acknowledged. We gratefully acknowledge support from National Science Foundation grant
+SES-1824448 and from the Institute for Social Sciences at Cornell University.
+1 E.g., Apesteguia, Ballester and Lu (2017); Chiappori et al. (2019). While our focus is on decision
+making under risk, the SCP property is satisfied in many contexts, ranging from single agent models
+with goods that can be unambiguously ordered based on quality, to multiple agents models (e.g., Athey
+(2001)).
+
+1
+
+Page 2 of 77
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+alternatives switches only at one value of the preference parameter.2 Given her
+unobserved preference parameter, each DM evaluates only the alternatives in her
+unobserved consideration set, which is a subset of the choice set.
+Our first contribution is to provide a general framework for point identification
+of these models. Our analysis relies on two types of observed data variation. In the
+first case, we assume that the data include a single (common) excluded regressor
+affecting the utility of each alternative. In the second case, we assume that each
+alternative has its own excluded regressor. In both cases, the excluded regressor(s) is independent of unobserved preference heterogeneity. When the excluded
+regressor(s) also has large support it becomes a “special regressor” (Lewbel, 2000,
+2014). For reasons we explain, the case of the single common excluded regressor is
+the most demanding from an identification standpoint. Nonetheless, under classic conditions for identification of full-consideration discrete choice models (see,
+e.g., Lewbel, 2000; Matzkin, 2007) and the SCP, we obtain semi-nonparametric
+identification of the preference distribution given basically any consideration set
+formation mechanism (henceforth, consideration mechanism).3 We also prove
+identification of the consideration mechanism for the widely used Alternativespecific Random Consideration (ARC) model of Manski (1977) and Manzini and
+Mariotti (2014). The identification argument is constructive and applicable beyond the ARC model. We establish identification results for preferences that do
+not require large support of the excluded regressor(s). We also show that identification of both preferences and the consideration mechanism is attainable when
+consideration depends on preferences. In particular, we introduce (i) binary consideration types, and (ii) proportionally shifting consideration, both of which can
+capture the notion that the DM’s attention probabilistically shifts from riskier
+to safer alternatives as her risk aversion increases. In these cases, identification
+requires that the distribution of the preference parameter admits a continuous
+density function.
+We can significantly expand our results with alternative-specific excluded regressors. First, we can allow for essentially unrestricted dependence of consideration on preferences without assuming that the excluded regressors have large
+support. Second, we show that consideration can depend both on preferences
+and on some excluded regressors. We show this for two cases. In the first case,
+there is one alternative (the default) that is always considered. The probability of
+considering other alternatives can depend on the default-specific excluded regressor. This is a generalization of the models in Heiss et al. (2016); Ho, Hogan and
+Scott Morton (2017); Abaluck and Adams (2020), where the consideration mechanism only allows for the possibility that either the default or the entire choice set
+2 The EUT framework satisfies the SCP, which requires that if a DM with a certain degree of risk
+aversion prefers a safer lottery to a riskier one, then all DMs with higher risk aversion also prefer the
+safer lottery.
+3 The identification results are semi-nonparametric because we specify the utility function up to a
+DM-specific preference parameter. We establish nonparametric identification of the distribution of the
+latter.
+
+Page 3 of 77
+
+VOL. VOL NO. ISSUE
+
+DISCRETE CHOICE UNDER LIMITED CONSIDERATION
+
+3
+
+is considered. We, however, allow for each subset of the choice set containing the
+default to have its own probability of being drawn and this probability can vary
+with the DM’s preferences. In the second case, we allow the consideration of each
+alternative to depend on its own excluded regressor, but not on the regressors of
+other alternatives (Goeree, 2008; Abaluck and Adams, 2020; Kawaguchi, Uetake
+and Watanabe, 2020). In addition, consideration may depend on preferences – a
+feature unique to our paper.
+Our second contribution is to provide a simple method to compute our likelihoodbased estimator. Its computational complexity grows polynomially in the number
+of parameters governing the consideration mechanism. Because the SCP generates a natural ordering of alternatives akin to vertical product differentiation, our
+method does not require enumerating all possible subsets of the choice set. If
+it did, the computational complexity would grow exponentially with the size of
+the choice set. Moreover, we compute the utility of each alternative only once
+for a given value of the preference parameter, gaining enormous computational
+advantage similar to that of importance-sampling methods.
+Our third contribution is to elucidate the applicability and the advantages of
+our framework over the standard application of full consideration random utility
+models (RUMs) with additively separable unobserved heterogeneity (e.g., Mixed
+Logit). First, our model can generate zero shares for non-dominated alternatives.
+Second, the model has no difficulty explaining relatively large shares of dominated
+alternatives. Third, in markets with many choice domains, our model can match
+not only the marginal but also the joint distribution of choices across domains.
+Forth, our framework is immune to an important criticism by Apesteguia and
+Ballester (2018) against using standard RUMs to study decision making under
+risk. As these authors note, combining standard EUT with additive noise results in non-monotonicity of choice probabilities in the risk preferences, a clearly
+undesirable feature.
+Random preference models like the ones we consider are random utility models
+as envisioned by McFadden (1974) (for a textbook treatment see Manski, 2009).
+We show that our random preference models can be written as RUMs with unobserved heterogeneity in risk aversion and with an additive error that has a discrete
+distribution with support {−∞, 0}. Then, it is natural to draw parallels with the
+Mixed (random coefficient) Logit model (e.g., McFadden and Train, 2000). In
+our setting, the Mixed Logit boils down to assuming that, given the DM’s risk
+aversion, her evaluation of an alternative equals its expected utility summed with
+an unobserved heterogeneity term capturing the DM’s idiosyncratic taste for unobserved characteristics of that alternative. However, in some markets it is hard
+to envision such characteristics.4 We show that limited consideration models and
+4 Many insurance contracts are identical in all aspects except for the coverage level and price, e.g.,
+employer provided health insurance, auto, or home insurance offered by a single company. In other
+contexts, unobservable characteristics may affect choice mostly via consideration – as we model – rather
+than via “additive noise”. E.g., a DM may only consider those supplemental prescription drug plans that
+cover specific medications.
+
+Page 4 of 77
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+the Mixed Logit generate several contrasting implications. First, the Mixed Logit
+generally implies that each alternative has a positive probability of being chosen, while a limited consideration model can generate zero shares by setting the
+consideration probability of a given alternative to zero. Second, the Mixed Logit
+satisfies a Generalized Dominance Property that we derive: if for any degree of
+risk aversion alternative j has lower expected utility than either alternative k
+or l, then the probability of choosing j must be no larger than the probability
+of choosing k or l. Limited consideration models do not necessarily abide Generalized Dominance. Third, in limited consideration models choice probabilities
+depend on the ordinal expected utility rankings of the alternatives, while in the
+Mixed Logit it depends on the cardinal ranking. This difference implies that
+choice probabilities may be monotone in risk preferences in the limited consideration models we propose, while in the Mixed Logit they are not (Apesteguia and
+Ballester, 2018).
+We illustrate our method in a study of households’ deductible choices across
+three lines of insurance: auto collision, auto comprehensive, and home (all perils).
+We aim to estimate the distribution of risk preferences and the consideration
+parameters and to assess the resulting fit of the models. We find that the ARC
+model does a remarkable job at matching the distribution of observed choices, and
+because of its aforementioned properties, outperforms the Mixed Logit. Under the
+ARC model, we find that although households are on average strongly risk averse,
+they consider lower coverages more often than higher coverages. We also find
+support for proportionally shifting consideration. In particular, risk-neutral DMs
+consider each of the safer alternatives 15% (11%) less often than do extremely
+risk averse DMs (DMs with median risk aversion).
+The rest of the paper is organized as follows. We describe the model of DMs’
+preferences in Section I, and study identification in Section II. In Section III we
+describe the computational advantages of our approach. Section IV compares
+our model to the Mixed Logit. Section V presents our empirical application.
+Section VI contextualizes our contribution relative to the extant literature and
+offers concluding remarks.
+I.
+A.
+
+Preferences
+
+Decision Making under Risk in a Market Setting: An Example
+
+Consider as an example the following insurance market, which mimics the setting of our empirical application. There is an underlying risk of a loss that occurs
+with probability µ that may vary across DMs. A finite number of alternatives
+are available to insure against this loss. Conditional on risk type, i.e., given µ,
+each alternative j ∈ D ≡ {1, . . . , D} is fully characterized by the pair (dj , pj ).
+The first element is the insurance deductible, which is the DM’s out of pocket
+expense in the case a loss occurs. Deductibles are decreasing with index j, and all
+deductibles are less than the lowest realization of the loss. The second element is
+
+Page 5 of 77
+
+VOL. VOL NO. ISSUE
+
+DISCRETE CHOICE UNDER LIMITED CONSIDERATION
+
+5
+
+the price (insurance premium), which also varies across DMs. For each DM there
+is a baseline price p̄ that determines prices for all alternatives faced by the DM
+according to the multiplication rule pj = gj · p̄+δ. Lower deductibles provide more
+coverage and cost more, so gj is increasing with j. Both gj and δ are invariant
+across DMs. The lotteries that DMs face are Lj (x) ≡ (−pj , 1 − µ; −pj − dj , µ),
+where x ≡ p̄. DMs are expected utility maximizers. Given initial wealth w, the
+expected utility of deductible lottery Lj (x) is
+Uν (Lj (x)) = (1 − µ) uν (w − pj ) + µuν (w − pj − dj ) ,
+where uν (·) is a Bernoulli utility function defined over final wealth states. We
+assume that uν (·) belongs to a family of utility functions that are fully characterized by a scalar ν (e.g. Constant Absolute Risk Aversion (CARA), Constant
+Relative Risk Aversion (CRRA), or Negligible Third Derivative (NTD)), which
+varies across DMs.5
+Given the risk type, the relationship between risk aversion and prices is standard. At sufficiently high p̄, less coverage is always preferred to more coverage for all ν on the support: Uν (L1 (x)) > Uν (L2 (x)) > · · · > Uν (LD (x)).
+At sufficiently low p̄, we have the opposite ordering for all ν on the support:
+Uν (LD (x)) > Uν (LD−1 (x)) > · · · > Uν (L1 (x)). At moderate prices, for each
+pair of deductible lotteries j < k there is a cutoff value cj,k (x) in the interior of
+ν’s support, found by solving Uν (Lj (x)) = Uν (Lk (x)) for ν. On the left of this
+cutoff the higher deductible is preferred and on the right the lower deductible is
+preferred. In other words, cj,k (x) is the unique coefficient of risk aversion that
+makes the DM indifferent between Lj (x) and Lk (x), known to the researcher
+at any given x. Those with lower ν choose the riskier alternative Lj (x), while
+those with higher ν choose the safer alternative Lk (x). Provided Uν (·) is smooth
+in ν, cj,k (x) is smooth in x. In fact, under CARA, CRRA, or NTD, cj,k (x) is
+a continuously differentiable monotone function. The prices are such that, under CARA, CRRA, or NTD, whenever Uν (L1 (x)) > Uν (Lj (x)) it is also the
+case that Uν (L1 (x)) > Uν (Lj+1 (x)).6 As we show below, this can be stated as
+c1,j (x) < c1,j+1 (x). That is, if the DM’s risk aversion is so low that she prefers
+the riskiest lottery to a safer one, then she also prefers it to an even safer one. Finally, there are no three-way ties. That is, for a given x there are no alternatives
+{j, k, l} such that Uν (Lj (x)) = Uν (Lk (x)) = Uν (Ll (x)).7
+B.
+
+Preferences with Single Crossing Property
+
+There is a continuum of DMs. Each of them faces a choice among a finite
+number of alternatives, i.e., a choice set, which is denoted D = {1, . . . , D}. The
+5 Under CRRA, it is implied that DMs’ initial wealth is known to the researcher. NTD utility is
+defined in Cohen and Einav (2007) and in Barseghyan et al. (2013).
+6 We analytically verify this claim for our application in Online Appendix B, but it can also be checked
+numerically for any given dataset.
+7 It is straightforward to very this condition, and we do so in our application.
+
+

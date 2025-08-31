@@ -1,0 +1,242 @@
+Recruitment, effort, and retention effects of performance
+contracts for civil servants: Experimental evidence from
+Rwandan primary schools
+Journal: American Economic Review
+Manuscript ID AER-2019-1972.R3
+Manuscript Type: For Administrative Use Only
+Keywords: C39, M52, O15
+
+Page 1 of 78
+
+Recruitment, effort, and retention effects of performance
+contracts for civil servants: Experimental evidence from
+Rwandan primary schools
+By Clare Leaver, Owen Ozier, Pieter Serneels, and Andrew Zeitlin*
+This paper reports on a two-tiered experiment designed to
+separately identify the selection and effort margins of pay-forperformance (P4P). At the recruitment stage, teacher labor markets were randomly assigned to a ‘pay-for-percentile’ or fixed-wage
+contract. Once recruits were placed, an unexpected, incentivecompatible, school-level re-randomization was performed, so that
+some teachers who applied for a fixed-wage contract ended up being paid by P4P, and vice versa. By the second year of the study,
+the within-year effort effect of P4P was 0.16 standard deviations
+of pupil learning, with the total effect rising to 0.20 standard deviations after allowing for selection.
+JEL: C93, I21, J45, M52, O15.
+Keywords: pay-for-performance, selection, incentives, teachers,
+field experiment.
+The ability to recruit, elicit effort from, and retain civil servants is a central issue
+for any government. This is particularly true in a sector such as education where
+people—that is, human rather than physical resources—play a key role. Effective
+teachers generate private returns for students through learning gains, educational
+attainment, and higher earnings (Chetty, Friedman and Rockoff, 2014a,b), as well
+* Leaver:
+Blavatnik School of Government, University of Oxford and CEPR (email:
+clare.leaver@bsg.ox.ac.uk). Ozier: Department of Economics, Williams College, World Bank Development Research Group, BREAD, and IZA (email: owen.ozier@williams.edu). Serneels: School of International Development, University of East Anglia, EGAP, and IZA (email: p.serneels@uea.ac.uk).
+Zeitlin:
+McCourt School of Public Policy, Georgetown University, and CGD (email:
+andrew.zeitlin@georgetown.edu). We thank counterparts at REB and MINEDUC for advice and collaboration, and David Johnson for help with the design of student and teacher assessments. We are grateful
+to the three anonymous referees, Katherine Casey, Jasper Cooper, Ernesto Dal Bó, Erika Deserranno,
+David Evans, Dean Eckles, Frederico Finan, James Habyarimana, Caroline Hoxby, Macartan Humphreys,
+Pamela Jakiela, Julien Labonne, David McKenzie, Ben Olken, Berk Özler, Cyrus Samii, Kunal Sen, Martin Williams, and audiences at BREAD, DfID, EDI, NBER, SIOE, and SREE for helpful comments. IPA
+staff members Kris Cox, Stephanie De Mel, Olive Karekezi Kemirembe, Doug Kirke-Smith, Emmanuel
+Musafiri, and Phillip Okull, and research assistants Claire Cullen, Robbie Dean, Ali Hamza, Gerald
+Ipapa, and Saahil Karpe all provided excellent support. Financial support was provided by the U.K. Department for International Development (DfID) via the International Growth Centre and the Economic
+Development and Institutions Programme, by Oxford University’s John Fell Fund, and by the World
+Bank’s SIEF and REACH trust funds. Leaver is grateful for the hospitality of the Toulouse School of
+Economics, 2018–2019. Research was conducted under Rwanda Ministry of Education permit number
+MINEDUC/S&T/308/2015 and received IRB approval from the Rwanda National Ethics Committee
+(protocol 00001497) and from Innovations for Poverty Action (protocol 1502). This study is registered
+as AEA RCT Registry ID AEARCTR-0002565 (Leaver et al., 2018). The findings in this paper are the
+opinions of the authors, and do not represent the opinions of the World Bank, its Executive Directors,
+or the governments they represent. All errors and omissions are our own.
+
+1
+
+Page 2 of 78
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+as social returns through improved labor-market skills that drive economic growth
+(Hanushek and Woessmann, 2012). And yet in varying contexts around the world,
+governments struggle to maintain a skilled and motivated teacher workforce (Bold
+et al., 2017).
+One policy option in this context is pay-for-performance. These compensation
+schemes typically reward teacher inputs such as presence and conduct in the
+classroom, teacher value added based on student learning, or both (see, e.g.,
+Muralidharan and Sundararaman, 2011b). In principle, they can address the
+difficulty of screening for teacher quality ex ante (Staiger and Rockoff, 2010), as
+well as the limited oversight of teachers on the job (Chaudhury et al., 2006).
+Yet pay-for-performance divides opinion. Critics, drawing upon public administration, social psychology, and behavioral economics, argue that pay-forperformance could dampen the effort of workers (Bénabou and Tirole, 2003; Deci
+and Ryan, 1985; Krepps, 1997). Concerns are that such schemes may: recruit the
+wrong types, individuals who are “in it for the money”; lower effort by eroding
+intrinsic motivation; and fail to retain the right types because good teachers become de-motivated and quit. By contrast, proponents point to classic contract
+theory (Lazear, 2003; Rothstein, 2015) and evidence from private-sector jobs with
+readily measurable output (Lazear, 2000) to argue that pay-for-performance will
+have positive effects on both compositional and effort margins. Under this view,
+such schemes: recruit the right types, individuals who anticipate performing well
+in the classroom; raise effort by strengthening extrinsic motivation; and retain
+the right types because good teachers feel rewarded and stay put.
+This paper conducts the first prospective, randomized controlled trial designed
+to identify both the compositional and effort margins of pay-for-performance. A
+novel, two-tiered experiment separately identifies these effects. This is combined
+with detailed data on applicants to jobs, the skills and motivations of actual
+hires, and their performance over two years on the job, to evaluate the effects
+of pay-for-performance on the recruitment, effort, and retention of civil servant
+teachers.
+At the center of this study is a pay-for-performance (hereafter P4P) contract,
+designed jointly with the Rwanda Education Board and Ministry of Education.
+Building on extensive consultations and a pilot year, this P4P contract rewards
+the top 20 percent of teachers with extra pay using a metric that equally weights
+learning outcomes in teachers’ classrooms alongside three measures of teachers’
+inputs into the classroom (presence, lesson planning, and observed pedagogy).
+The measure of learning used was based on a pay-for-percentile scheme that makes
+student performance at all levels relevant to teacher rewards (Barlevy and Neal,
+2012). The tournament nature of this contract allows us to compare it to a
+fixed-wage (hereafter FW) contract that is equal in expected payout.
+Our two-tiered experiment first randomly assigns labor markets to either P4P
+or FW advertisements, and then uses a surprise re-randomization of experienced
+contracts at the school level to enable estimation of pure compositional effects
+
+Page 3 of 78
+
+VOL. VOL NO. ISSUE
+
+RECRUITMENT, EFFORT, AND RETENTION
+
+3
+
+within each realized contract type. The first stage was undertaken during recruitment for teacher placements for the 2016 school year. Teacher labor markets
+are defined at the district by subject-family level. We conducted the experiment
+in six districts (18 labor markets) which, together, cover more than half the upperprimary teacher hiring lines for the 2016 school year. We recruited into the study
+all primary schools that received such a teacher to fill an upper-primary teaching
+post (a total of 164 schools). The second stage was undertaken once 2016 teacher
+placements had been finalized. Here, we randomly re-assigned each of these 164
+study schools in their entirety to either P4P or FW contracts; all teachers who
+taught core-curricular classes to upper-primary students, including both newly
+placed recruits and incumbents, were eligible for the relevant contracts. We offered a signing bonus to ensure that no recruit, regardless of her belief about the
+probability of winning, could be made worse off by the re-randomization and,
+consistent with this, no one turned down their (re-)randomized contract. As advertised at the time of recruitment, incentives were in place for two years, enabling
+us to study retention as well as to estimate higher-powered tests of effects using
+outcomes from both years.
+Our three main findings are as follows. First, on recruitment, advertised P4P
+contracts did not change the distribution of measured teacher skill either among
+applicants in general or among new hires in particular. This is estimated sufficiently precisely to rule out even small negative effects of P4P on measured skills.
+Advertised P4P contracts did, however, select teachers who contributed less in
+a framed Dictator Game played at baseline to measure intrinsic motivation. In
+spite of this, teachers recruited under P4P were at least as effective in promoting learning as were those recruited under FW (holding experienced contracts
+constant).
+Second, in terms of incentivizing effort, placed teachers working under P4P
+contracts elicited better performance from their students than teachers working
+under FW contracts (holding advertised contracts constant). Averaging over the
+two years of the study, the within-year effort effect of P4P was 0.11 standard
+deviations of pupil learning and for the second year alone, the within-year effort
+effect of P4P was 0.16 standard deviations. There is no evidence of a differential
+impact of experienced contracts by type of advertisement.
+In addition to teacher characteristics and student outcomes, we observe a range
+of teacher behaviors. These behaviors corroborate our first finding: P4P recruits
+performed no worse than the FW recruits in terms of their presence, preparation,
+and observed pedagogy. They also indicate that the learning gains brought about
+by those experiencing P4P contracts may have been driven, at least in part, by improved teacher presence and pedagogy. Teacher presence was 8 percentage points
+higher among recruits who experienced the P4P contract compared to recruits
+who experienced the FW contract. This is a sizeable impact given that baseline
+teacher presence was close to 90 percent. And teachers who experienced P4P
+were more effective in their classroom practices than teachers who experienced
+
+Page 4 of 78
+
+4
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+FW by 0.10 points, as measured on a 4-point scale.
+Third, on retention, teachers working under P4P contracts were no more likely
+to quit during the two years of the study than teachers working under FW contracts. There was also no evidence of differential selection-out on baseline teacher
+characteristics by experienced contract, either in terms of skills or measured motivation. On the retention margin, we therefore find little evidence to support
+claims made by either proponents or opponents of pay-for-performance.
+To sum up, by the second year of the study, we estimate the within-year effort
+effect of P4P to be 0.16 standard deviations of pupil learning, with the total effect
+rising to 0.20 standard deviations after allowing for selection. Despite evidence of
+lower intrinsic motivation among those recruited under P4P, these teachers were
+at least as effective in promoting learning as were those recruited under FW. These
+results support the view that pay-for-performance can improve effort while also
+allaying fears of harmful effects on selection. Of course, we have studied a twoyear intervention—impacts of a long-term policy might be different, particularly
+if P4P influences individuals’ early-career decisions to train as a teacher.
+Our findings bring new experimental results on pay-for-performance to the literature on the recruitment of civil servants in low- and middle-income countries.
+Existing papers have examined the impact of advertising higher unconditional
+salaries and career-track motivations, with mixed results. In Mexico, Dal Bó,
+Finan and Rossi (2013) find that higher base salaries attracted both skilled and
+motivated applicants for civil service jobs. In Uganda, Deserranno (2019) finds
+that the expectation of higher earnings discouraged pro-social applicants for village promoter roles, resulting in lower effort and retention. And in Zambia, Ashraf
+et al. (forthcoming) find that emphasis on career-track motivations for community
+health work, while attracting some applicants who were less pro-social, resulted in
+hires of equal pro-sociality and greater talent overall, leading to improvements in
+a range of health outcomes. By studying pay-for-performance and by separately
+manipulating advertised and experienced contracts, we add evidence on the compositional and effort margins of a different, and widely debated, compensation
+policy for civil servants.
+How the teaching workforce changes in response to pay-for-performance is of
+interest in high-income contexts as well. In the United States, there is a large
+(but chiefly observational) literature on the impact of compensation on who enters
+and leaves the teaching workforce. Well-known studies have simulated the consequences of dismissal policies (Chetty, Friedman and Rockoff, 2014b; Neal, 2011;
+Rothstein, 2015) or examined the role of teachers’ outside options in labor supply
+(Chingos and West, 2012). Recent work has examined the District of Columbia’s
+teacher evaluation system, where financial incentives are linked to measures of
+teacher performance (including student test scores): Dee and Wyckoff (2015) use
+a regression discontinuity design to show that low-performing teachers were more
+likely to quit voluntarily, while Adnot et al. (2017) confirm that these ‘quitters’
+were replaced by higher-performers. In Wisconsin, a reform permitted approx-
+
+Page 5 of 78
+
+VOL. VOL NO. ISSUE
+
+RECRUITMENT, EFFORT, AND RETENTION
+
+5
+
+imately half of the state’s school districts to introduce flexible salary schemes
+that allow pay to vary with performance. In that setting, Biasi (2019) finds
+that high-value-added teachers were more likely to move to districts with flexible
+pay, and were less likely to quit, than their low-value-added counterparts. Our
+prospective, experimental study of pay-for-performance contributes to this literature methodologically but also substantively since the Rwandan labor market
+shares important features with high-income contexts.1
+While our paper is not the first on the broader topic of incentive-based contracts
+for teachers,2 we go to some length to address two challenges thought to be
+important for policy implementation at scale. One is that the structure of the
+incentive should not unfairly disadvantage any particular group (Barlevy and
+Neal, 2012); the other is that the incentive should not be inappropriately narrow
+(Stecher et al., 2018). We address the first issue by using a measure of learning
+based on a pay-for-percentile scheme that makes student performance at all levels
+relevant to teacher rewards, and the second by combining this with measures of
+teachers’ inputs into the classroom to create a broad, composite metric. There is
+a small but growing literature studying pay-for-percentile schemes in education:
+Loyalka et al. (2019) in China, Gilligan et al. (forthcoming) in Uganda, and Mbiti,
+Romero and Schipper (2018) in Tanzania. Our contribution is to compare the
+effectiveness of contracts, P4P versus FW, that are based on a composite metric
+and are budget neutral in salary.
+A final, methodological contribution of the paper, in addition to the experimental design, is the way in which we develop a pre-analysis plan. In our registered
+plan (Leaver et al., 2018), we pose three questions. What outcomes to study?
+What hypotheses to test for each outcome? And how to test each hypothesis?
+We answered the ‘what’ questions on the basis of theory, policy relevance, and
+available data. With these questions settled, we then answered the ‘how’ question using blinded data. Specifically, we used a blinded dataset that allowed us to
+learn about a subset of the statistical properties of our data without deriving hypotheses from realized treatment responses, as advocated by, e.g., Olken (2015).3
+This approach achieves power gains by choosing from among specifications and
+test statistics on the basis of simulated power, while protecting against the risk of
+false positives that could arise if specifications were chosen on the basis of their
+realized statistical significance. The spirit of this approach is similar to recent
+work by Anderson and Magruder (2017) and Fafchamps and Labonne (2017).4
+1 Notably, there is no public sector pay premium in Rwanda, which is unusual for a low-income country
+and more typical of high-income countries (Finan, Olken and Pande, 2017). The 2017 Rwanda Labour
+Force Survey includes a small sample of recent Teacher Training College graduates (aged below age 30).
+Of these, 37 percent were in teaching jobs earning an average monthly salary of 43,431 RWF, while 15
+percent were in non-teaching jobs earning a higher average monthly salary of 56,347 RWF—a private
+sector premium of close to 30 percent (National Institute of Statistics of Rwanda, 2017).
+2 See, e.g., Imberman (2015) and Jackson, Rockoff and Staiger (2014) who provide a review.
+3 We have not found prior examples of such blinding in economics. Humphreys, Sanchez de la Sierra
+and van der Windt (2013) argue for, and undertake, a related approach with partial endline data in a
+political science application.
+4 In contrast to those two papers, we forsake the opportunity to undertake exploratory analysis because
+
+

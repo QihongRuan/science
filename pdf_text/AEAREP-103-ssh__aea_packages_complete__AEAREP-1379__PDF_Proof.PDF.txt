@@ -1,0 +1,168 @@
+The Nature of Firm Growth
+Journal: American Economic Review
+Manuscript ID AER-2019-0748.R3
+Manuscript Type: For Administrative Use Only
+Keywords: E24, E23, D22
+
+Page 1 of 107
+
+August 1, 2020
+To whom it may concern:
+For the research that resulted in “The Nature of Firm Growth,” I attest to the following:
+1. Financial support for my research came from the University of Notre Dame and the
+Kauffman Foundation.
+2. I have not received any financial or in-kind support for this research from anyone other
+than the entities listed above.
+3. I have no paid or unpaid positions as officer, director, or board member of any relevant
+non-profit organizations or profit-making entities.
+4. I have no close relative or partners who received financial support from or work in any
+position at any relevant entity.
+5. Some of the results presented in the appendix use data from the Longitudinal Business
+Database at the U.S. Census Bureau that are not publicly available. These results have been
+reviewed by the Census to ensure that no confidential information is disclosed.
+Sincerely,
+Benjamin W. Pugsley
+Assistant Professor of Economics
+University of Notre Dame
+3029 Jenkins Nanovic Hall
+Notre Dame, IN 46656
+benjamin.pugsley@nd.edu
+
+Page 2 of 107
+
+August 7, 2020
+To whom it may concern:
+
+For the research that resulted in “The Nature of Firm Growth,” I attest to the following:
+1. Financial support for my research came from the University of Oxford and the European
+Research Council.
+2. I have not received any financial or in-kind support for this research from anyone other
+than the entities listed above.
+3. I have no paid or unpaid positions as officer, director, or board member of any relevant
+non-profit organizations or profit-making entities.
+4. I have no close relative or partners who received financial support from or work in any
+position at any relevant entity.
+5. Some of the results presented in the appendix use data from the Longitudinal Business
+Database at the U.S. Census Bureau that are not publicly available. These results have been
+reviewed by the Census to ensure that no confidential information is disclosed.
+
+Sincerely,
+
+Petr Sedláček
+Professor of Economics
+University of Oxford
+Manor Road
+Oxford, OX1 3UQ
+petr.sedlacek@economics.ox.ac.uk
+
+Page 3 of 107
+
+August 7, 2020
+To whom it may concern:
+For the research that resulted in “The Nature of Firm Growth,” I attest to the following:
+1. Financial support for my research came from the Economic and Social Research Council.
+2. I have not received any financial or in-kind support for this research from anyone other
+than the entities listed above.
+3. I have no paid or unpaid positions as officer, director, or board member of any relevant
+non-profit organizations or profit-making entities.
+4. I have no close relative or partners who received financial support from or work in any
+position at any relevant entity.
+5. Some of the results presented in the appendix use data from the Longitudinal Business
+Database at the U.S. Census Bureau that are not publicly available. These results have been
+reviewed by the Census to ensure that no confidential information is disclosed.
+Sincerely,
+Vincent Sterk
+Associate Professor of Economics
+Department of Economics
+University College London
+v.sterk@ucl.ac.uk
+
+Page 4 of 107
+
+The Nature of Firm Growth
+By Vincent Sterk r Petr Sedláček r Benjamin Pugsley∗
+About half of all startups fail within five years, and those that
+survive grow at vastly different speeds. Using Census microdata,
+we estimate that most of these differences are determined by exante heterogeneity rather than persistent ex-post shocks. Embedding such heterogeneity in a firm dynamics model shows that the
+presence of ex-ante heterogeneity (i) is a key determinant of the
+firm size distribution and firm dynamics, (ii) can strongly affect
+the macroeconomic effects of firm-level frictions, and (iii) helps
+understand the recently documented decline in business dynamism
+by showing a disappearance of high-growth startups (“gazelles”)
+since the mid-1980s.
+JEL: D22, E23, E24
+Keywords: Firm Dynamics, Startups, Macroeconomics, Administrative Data
+There are enormous differences across firms. On the one hand, many startups
+fail within the first year and most of those that survive do not grow. On the
+other hand, a small fraction of high-growth startups, so called “gazelles”, makes
+lasting contributions to aggregate job creation and productivity growth (see e.g.
+John Haltiwanger, Ron Jarmin, Robert Kulick and Javier Miranda, 2016). While
+firm dynamics have long been recognized as a key determinant of macroeconomic
+outcomes, little is known about why firm performance is so different or how the
+nature of firm growth affects macroeconomic outcomes.
+One view in the literature is that, following entry, firms are hit by ex-post shocks
+to productivity or demand: some startups are lucky and grow into large firms.
+An alternative view is that there are ex-ante differences across firms: some types
+of startups are poised for growth, for example due to a highly scalable technology
+or business idea.1
+∗ Sterk: University College London and CEPR, v.sterk@ucl.ac.uk. Sedláček: University of Oxford
+and CEPR, petr.sedlacek@economics.ox.ac.uk. Pugsley: University of Notre Dame, bpugsley@nd.edu.
+First version December 2017. We thank Costas Arkolakis, Eric Bartelsman, Christian Bayer, Mark Bils,
+Richard Blundell, Vasco Carvalho, Steven Davis, Pablo D’Erasmo, Chris Edmond, Doireann Fitzgerald,
+Xavier Gabaix, Urban Jermann, Greg Kaplan, Pawel Krowlikowski, Erzo Luttmer, Ezra Oberfield, Vasia
+Panousi, Fabien Postel-Vinay, Michael Siemer, Kjetil Storesletten, Emily and Robert Swift as well as
+the editor, three anonymous referees, and participants of numerous seminar and conference presentations
+for their helpful comments. We also are grateful for expert research assistance by Harry Wheeler and
+Lan Dinh. Pugsley gratefully acknowledges financial support from the Ewing Marion Kauffman Foundation. Sedláček gratefully acknowledges financial support from the European Commission: this project
+has received funding from the European Research Council [grant number 802145]. Any opinions and
+conclusions expressed herein are solely those of the authors and do not necessarily represent the views
+of the U.S. Census Bureau. All results have been reviewed to ensure that no confidential information is
+disclosed.
+1 Another important dimension of heterogeneity, on which we do not focus in this paper, relates to
+the role of supply versus demand factors. For evidence on this, see e.g. Colin Hottman, Stephen Redding
+
+1
+
+Page 5 of 107
+
+2
+
+THE AMERICAN ECONOMIC REVIEW
+
+MONTH YEAR
+
+In this paper, we provide empirical evidence on the relative importance of exante and ex-post heterogeneity in shaping firms’ growth paths. We then bring
+this evidence to a structural firm dynamics model and show that the precise
+nature of firm growth has strong implications for the macroeconomy and the
+way in which it is affected by firm-level frictions. Since Hugo Hopenhayn and
+Richard Rogerson (1993), a growing literature uses quantitative heterogeneousfirms models to evaluate the micro- and macro-economic effects of policies and/or
+frictions. Our results demonstrate the importance of accounting carefully not only
+for the amount of heterogeneity across firms, but also for its transience and for
+the moment of its inception, i.e. before or after startup.
+To establish these results, we make use of the Longitudinal Business Database
+(LBD), an administrative panel covering nearly all private employers in the United
+States from 1976 to 2012. Our central piece of empirical evidence is the crosssectional autocovariance function of business-level employment by age. We thereby
+take inspiration from the earnings dynamics literature, which has long recognized
+that autocovariances help to distinguish shocks from deterministic profiles (see
+e.g. Thomas MaCurdy, 1982; John Abowd and David Card, 1989; Fatih Guvenen, 2009; Fatih Guvenen and Anthony Smith, 2014). To the best of our knowledge, even the basic autocovariance structure of employment by age has not been
+systematically documented in the firm dynamics literature which, instead, has
+focused on the age profiles of average size and exit.2
+We begin the analysis using a reduced-form statistical model of firm-level employment, which allows for the possibility that differences across businesses are a
+result of both ex-ante heterogeneous growth profiles and ex-post shocks. A major benefit of the statistical model is its simplicity, yielding analytical formulas
+which help to understand the identification of the key parameters. In particular,
+it makes clear that crucial information about the extent of ex-ante heterogeneity
+across firms is contained in the long-horizon autocovariances of firm-level employment.
+Estimation of the statistical model on the autocovariance matrix reveals a key
+finding of our study: ex-ante heterogeneity accounts for a large share of the
+cross-sectional dispersion in employment. In the first year after entry, ex-ante
+heterogeneity accounts for more than ninety percent of the cross-sectional dispersion in employment. More importantly, even after twenty years, ex-ante factors
+still explain about forty percent of the cohort’s employment dispersion. This finding is consistent with empirical evidence that certain observable characteristics at
+the time of startup can partly predict firm growth, see Jorge Guzman and Scott
+Stern (2015), Sharon Belenzon, Aaron Chatterji and Brendan Daley (2017), Jorge
+Guzman and Scott Stern (2019), and Jorge Guzman and Scott Stern (forthcoming). Beyond its value summarizing the importance of ex-ante heterogeneity for
+and David Weinstein (2016) and Lucia Foster, John Haltiwanger and Chad Syverson (2016).
+2 See e.g. John Haltiwanger, Ron Jarmin and Javier Miranda (2013), Chiang-Tai Hsieh and Peter J.
+Klenow (2014) and Ufuk Akcigit, Harun Alp and Michael Peters (2017). Luı́s Cabral and José Mata
+(2003) also document the evolution of the skewness of the size distribution with age.
+
+

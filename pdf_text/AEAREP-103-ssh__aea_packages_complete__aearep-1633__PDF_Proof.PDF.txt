@@ -1,0 +1,93 @@
+Parental Resources and College Attendance: Evidence from
+Lottery Wins
+Journal: American Economic Review
+Manuscript ID AER-2017-1272.R2
+Manuscript Type: For Administrative Use Only
+Keywords: I22, I23, I24
+
+Page 1 of 141
+
+Disclosure Statement
+George Bulman
+The author declares that he has no relevant or material financial interests that relate to the research
+described in this paper. The author was previously a contractor at the Internal Revenue Service.
+The author otherwise has not received financial or in-kind support from any interested party.
+This project uses restricted-use data provided by the U.S. Department of the Treasury and the
+Federal Reserve Board and thus requires a review of the findings prior to release only to ensure
+that confidential information is not disclosed.
+
+Page 2 of 141
+
+Disclosure Statement
+Robert Fairlie
+The author declares that he has no relevant or material financial interests that relate to the research
+described in this paper. The author has not received financial or in-kind support from any interested
+party.
+This project uses restricted-use data provided by the U.S. Department of the Treasury and the
+Federal Reserve Board and thus requires a review of the findings prior to release only to ensure
+that confidential information is not disclosed.
+
+Page 3 of 141
+
+Disclosure Statement
+Sarena Goodman
+The author declares that she has no relevant or material financial interests that relate to the research
+described in this paper. The author, however, is an employee of the Federal Reserve Board working
+in the Microeconomic Surveys section that administers the Survey of Consumer Finances (SCF)
+and, as such, has access to the restricted-use SCF data used in the paper’s analysis. The author was
+previously a contractor at the U.S. Department of the Treasury. The author otherwise has not
+received financial or in-kind support from any interested party.
+This project uses restricted-use data provided by the U.S. Department of the Treasury and the
+Federal Reserve Board and thus requires a review of the findings prior to release only to ensure
+that confidential information is not disclosed.
+
+Page 4 of 141
+
+Disclosure Statement
+Adam Isen
+The author declares that he has no relevant or material financial interests that relate to the research
+described in this paper. The author, however, is an employee of the U.S. Department of the
+Treasury working in the Office of Tax Analysis. The author otherwise has not received financial
+or in-kind support from any interested party.
+This project uses restricted-use data provided by the U.S. Department of the Treasury and the
+Federal Reserve Board and thus requires a review of the findings prior to release only to ensure
+that confidential information is not disclosed.
+
+Page 5 of 141
+
+Parental Resources and College Attendance: Evidence from Lottery Wins*1
+
+George Bulman
+University of California at Santa Cruz
+Robert Fairlie
+University of California at Santa Cruz, NBER
+Sarena Goodman
+Federal Reserve Board of Governors
+Adam Isen
+Office of Tax Analysis, U.S. Department of the Treasury
+November 2020
+
+Abstract
+
+We examine U.S. children whose parents won the lottery to trace out the effect of financial
+resources on college attendance. The analysis leverages federal tax and financial aid records and
+substantial variation in win size and timing. While per-dollar effects are modest, the relationship
+is weakly concave, with a high upper bound for amounts greatly exceeding college costs. Effects
+are smaller among low-SES households, not sensitive to how early in adolescence the shock
+occurs, and not moderated by financial aid crowd-out. The results imply that households derive
+consumption value from college and household financial constraints alone do not inhibit
+attendance.
+
+*
+
+Email: gbulman@ucsc.edu, rfairlie@ucsc.edu, sarena.f.goodman@frb.gov, and adam.isen@treasury.gov. We thank
+Scott Carrell, Oded Gurantz, Brad Hershbein, Nate Hilger, Lance Lochner, Paco Martorell, Benjamin Marx,
+Constantine Yannelis, Sarah Pack Reber, and seminar participants at the 2016 NBER Summer Institute Education
+Meeting, 2016 All California Labor Economics Conference, 2016 Annual Conference on Taxation, 2017 NBER Labor
+Studies Program Meeting, American University, Census Bureau, George Mason University, Stanford University,
+Urban Institute, University of Bonn, University of California at Santa Cruz, University of Illinois, and the University
+of Nevada at Reno for helpful comments and suggestions. Steve Ramos provided excellent research assistance. The
+views expressed herein are those of the authors and do not necessarily reflect the views of the Federal Reserve Board
+of Governors, National Bureau of Economic Research, or U.S. Department of the Treasury. All errors are our own.
+
+
