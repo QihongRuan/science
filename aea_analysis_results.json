@@ -1,43 +1,39 @@
 {
-  "total_repos": 158,
+  "total_repos": 60,
   "structure_patterns": {
-    "custom_structure": 135,
-    "minimal_structure": 22,
+    "custom_structure": 48,
+    "minimal_structure": 11,
     "replication_focused": 1
   },
   "documentation": {
-    "average_readme_score": 1.1455696202531647,
-    "high_quality_repos": 4,
-    "poor_documentation": 119,
+    "average_readme_score": 1.1166666666666667,
+    "high_quality_repos": 2,
+    "poor_documentation": 47,
     "has_data_statements": 1,
-    "has_dependencies": 8
+    "has_dependencies": 9
   },
   "programming_languages": {
     "distribution": {
-      "Stata": 4028,
-      "R": 477,
-      "MATLAB": 2261,
-      "Python": 685,
-      "Julia": 22,
-      "Fortran": 18,
-      "SAS": 174
+      "Stata": 932,
+      "Python": 81,
+      "R": 229,
+      "MATLAB": 564,
+      "Fortran": 18
     },
     "percentages": {
-      "Stata": 52.550554468362684,
-      "R": 6.223091976516634,
-      "MATLAB": 29.497716894977167,
-      "Python": 8.936725375081538,
-      "Julia": 0.2870189171559035,
-      "Fortran": 0.23483365949119372,
-      "SAS": 2.2700587084148727
+      "Stata": 51.09649122807017,
+      "Python": 4.440789473684211,
+      "R": 12.554824561403507,
+      "MATLAB": 30.92105263157895,
+      "Fortran": 0.9868421052631579
     },
     "dominant": "Stata"
   },
   "best_practices": {
     "top_repositories": [
       [
-        "aearep-129",
-        4
+        "AEAREP-3557",
+        5
       ],
       [
         "aearep-0304",
@@ -48,60 +44,26 @@
         4
       ],
       [
-        "aearep-1700",
-        3
-      ],
-      [
-        "aearep-1274",
-        3
-      ],
-      [
-        "aearep-1819",
-        3
-      ],
-      [
         "aearep-1085",
         3
       ],
       [
-        "AEAREP-103",
+        "aearep-3654",
         2
       ],
       [
-        "AEAREP-1379",
+        "AEAREP-3655",
         2
-      ],
-      [
-        "AEAREP-1809",
-        2
-      ],
-      [
-        "AEAREP-1434",
-        2
-      ],
-      [
-        "AEAREP-1092",
-        2
-      ],
-      [
-        "aearep-1787",
-        2
-      ],
-      [
-        "aearep-123",
-        2
-      ],
-      [
-        "aearep-1331",
-        0
       ]
     ],
-    "common_features": []
+    "common_features": [
+      "Maintains logs"
+    ]
   },
   "common_issues": {},
   "statistical_methods": {},
   "reproducibility_features": {
-    "master_scripts": 4,
-    "percentage_with_master": 2.5316455696202533
+    "master_scripts": 2,
+    "percentage_with_master": 3.3333333333333335
   }
 }

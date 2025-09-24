@@ -1,3 +1,4 @@
+
 # Prompt for Setting Up Claude Code with API Key via Codex CLI
 
 ## Copy and paste this entire prompt to Codex:

@@ -3,66 +3,64 @@ ECONOMETRIC METHODS ANALYSIS REPORT
 ================================================================================
 
 ### STATA ECONOMETRIC METHODS ###
-Time Series: 2814 repositories
-DID: 1002 repositories
-OLS: 944 repositories
-Clustering: 713 repositories
-Fixed Effects: 537 repositories
-Bootstrap: 296 repositories
-Panel: 198 repositories
-IV/2SLS: 113 repositories
-Quantile: 107 repositories
-Probit/Logit: 104 repositories
-Machine Learning: 61 repositories
-Structural: 50 repositories
-Random Effects: 43 repositories
-Synthetic Control: 21 repositories
-RDD: 12 repositories
-Survival: 11 repositories
-GMM: 10 repositories
-Tobit: 7 repositories
-Matching: 7 repositories
+Time Series: 700 repositories
+DID: 316 repositories
+OLS: 194 repositories
+Clustering: 186 repositories
+Fixed Effects: 183 repositories
+Bootstrap: 104 repositories
+Panel: 45 repositories
+Probit/Logit: 33 repositories
+IV/2SLS: 25 repositories
+Structural: 22 repositories
+Quantile: 17 repositories
+Random Effects: 9 repositories
+RDD: 8 repositories
+Synthetic Control: 8 repositories
+Machine Learning: 7 repositories
+GMM: 7 repositories
+Survival: 3 repositories
+Matching: 1 repositories
 
 ### R STATISTICAL METHODS ###
-Bayesian: 125 repositories
-OLS: 58 repositories
-Time Series: 50 repositories
-Causal: 15 repositories
-ML: 6 repositories
-Panel: 5 repositories
-IV: 1 repositories
+Bayesian: 48 repositories
+OLS: 20 repositories
+Panel: 14 repositories
+Causal: 7 repositories
+ML: 2 repositories
+Time Series: 1 repositories
 
 ### PYTHON/ML METHODS ###
-ML: 3 repositories
+ML: 8 repositories
 
 ### ROBUSTNESS CHECKS ###
-alternative_specifications: 756 repositories
-bootstrap: 337 repositories
-winsorize: 293 repositories
-heterogeneity: 213 repositories
-placebo_tests: 109 repositories
-cross_validation: 79 repositories
-sensitivity_analysis: 22 repositories
-jackknife: 5 repositories
+alternative_specifications: 208 repositories
+bootstrap: 107 repositories
+winsorize: 68 repositories
+heterogeneity: 48 repositories
+placebo_tests: 23 repositories
+cross_validation: 23 repositories
+jackknife: 8 repositories
+sensitivity_analysis: 6 repositories
 
 ### DATA CLEANING PRACTICES ###
-recoding: 3771 repositories
-missing_values: 2781 repositories
-merging: 2415 repositories
-reshaping: 1019 repositories
-duplicates: 841 repositories
-outliers: 391 repositories
+recoding: 886 repositories
+missing_values: 638 repositories
+merging: 540 repositories
+reshaping: 292 repositories
+duplicates: 234 repositories
+outliers: 102 repositories
 
 ### ADVANCED TECHNIQUES ###
-machine_learning: 60 repositories
-  Examples: aearep-1331, aearep-1593, aearep-1556
-causal_inference: 106 repositories
-  Examples: aearep-1593, AEAREP-1900, AEAREP-1797
-structural_models: 20 repositories
-  Examples: aearep-1908, AEAREP-103, aearep-1819
-bayesian: 130 repositories
-  Examples: aearep-1331, aearep-1593, AEAREP-1900
+machine_learning: 18 repositories
+  Examples: aearep-1158, aearep-3577, aearep-1070
+causal_inference: 42 repositories
+  Examples: aearep-3654, aearep-1159, AEAREP-362
+structural_models: 7 repositories
+  Examples: aearep-1102, AEAREP-120, aearep-3635
+bayesian: 45 repositories
+  Examples: aearep-3654, aearep-1159, AEAREP-362
 text_analysis: 1 repositories
-  Examples: aearep-1796
-network_analysis: 133 repositories
-  Examples: aearep-1331, aearep-1593, AEAREP-1900
+  Examples: aearep-3549-take2
+network_analysis: 52 repositories
+  Examples: aearep-3654, aearep-1159, AEAREP-362

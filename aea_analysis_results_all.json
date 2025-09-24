@@ -1,0 +1,202 @@
+{
+  "total_repos": 402,
+  "structure_patterns": {
+    "custom_structure": 340,
+    "minimal_structure": 46
+  },
+  "documentation": {
+    "average_readme_score": 0.805699481865285,
+    "high_quality_repos": 4,
+    "poor_documentation": 316,
+    "has_data_statements": 2,
+    "has_dependencies": 44
+  },
+  "programming_languages": {
+    "distribution": {
+      "Stata": 15576,
+      "Python": 2006,
+      "MATLAB": 11070,
+      "R": 1928,
+      "Julia": 101,
+      "SAS": 1174,
+      "Fortran": 139,
+      "C++": 5
+    },
+    "percentages": {
+      "Stata": 48.67652114128567,
+      "Python": 6.268945904559517,
+      "MATLAB": 34.594831088471516,
+      "R": 6.025188287133973,
+      "Julia": 0.31563486358948717,
+      "SAS": 3.668864652020375,
+      "Fortran": 0.43438857464295755,
+      "C++": 0.015625488296509265
+    },
+    "dominant": "Stata"
+  },
+  "best_practices": {
+    "top_repositories": [
+      [
+        "aearep-228",
+        5
+      ],
+      [
+        "aearep-129",
+        4
+      ],
+      [
+        "aearep-1700",
+        3
+      ],
+      [
+        "aearep-1274",
+        3
+      ],
+      [
+        "aearep-1819",
+        3
+      ],
+      [
+        "aearep-3495",
+        2
+      ],
+      [
+        "aearep-3696",
+        2
+      ],
+      [
+        "aearep-2549",
+        2
+      ],
+      [
+        "aearep-3691",
+        2
+      ],
+      [
+        "AEAREP-352",
+        2
+      ],
+      [
+        "aearep-3451",
+        2
+      ],
+      [
+        "aearep-3789",
+        2
+      ],
+      [
+        "AEAREP-103-ssh",
+        2
+      ],
+      [
+        "aearep-2238",
+        2
+      ],
+      [
+        "aearep-3774",
+        2
+      ],
+      [
+        "aearep-2854",
+        2
+      ],
+      [
+        "aearep-3727",
+        2
+      ],
+      [
+        "AEAREP-3381",
+        2
+      ],
+      [
+        "AEAREP-3524",
+        2
+      ],
+      [
+        "aearep-2808",
+        2
+      ],
+      [
+        "aearep-3719",
+        2
+      ],
+      [
+        "aearep-3513",
+        2
+      ],
+      [
+        "aearep-2215",
+        2
+      ],
+      [
+        "aearep-3734",
+        2
+      ],
+      [
+        "aearep-3756",
+        2
+      ],
+      [
+        "AEAREP-1379",
+        2
+      ],
+      [
+        "aearep-3026",
+        2
+      ],
+      [
+        "aearep-3670",
+        2
+      ],
+      [
+        "AEAREP-340",
+        2
+      ],
+      [
+        "AEAREP-3480",
+        2
+      ],
+      [
+        "aearep-3657",
+        2
+      ],
+      [
+        "aearep-3802",
+        2
+      ],
+      [
+        "aearep-3692",
+        2
+      ],
+      [
+        "aearep-3660",
+        2
+      ],
+      [
+        "aearep-3693",
+        2
+      ],
+      [
+        "aearep-3724",
+        2
+      ],
+      [
+        "aearep-3723",
+        2
+      ],
+      [
+        "aearep-3741",
+        2
+      ]
+    ],
+    "common_features": [
+      "Maintains logs"
+    ]
+  },
+  "common_issues": {},
+  "statistical_methods": {},
+  "reproducibility_features": {
+    "master_scripts": 7,
+    "percentage_with_master": 1.8134715025906734
+  }
+}

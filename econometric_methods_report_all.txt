@@ -1,0 +1,70 @@
+================================================================================
+ECONOMETRIC METHODS ANALYSIS REPORT
+================================================================================
+
+### STATA ECONOMETRIC METHODS ###
+Time Series: 11632 repositories
+DID: 3942 repositories
+OLS: 3761 repositories
+Clustering: 2911 repositories
+Fixed Effects: 2272 repositories
+Probit/Logit: 1152 repositories
+Bootstrap: 1108 repositories
+Panel: 879 repositories
+IV/2SLS: 452 repositories
+Quantile: 383 repositories
+Machine Learning: 249 repositories
+Random Effects: 220 repositories
+Synthetic Control: 172 repositories
+Structural: 164 repositories
+GMM: 78 repositories
+RDD: 50 repositories
+Matching: 40 repositories
+Survival: 37 repositories
+Tobit: 25 repositories
+
+### R STATISTICAL METHODS ###
+Bayesian: 470 repositories
+OLS: 253 repositories
+Time Series: 129 repositories
+Causal: 95 repositories
+Panel: 46 repositories
+ML: 36 repositories
+IV: 6 repositories
+
+### PYTHON/ML METHODS ###
+ML: 47 repositories
+Time Series: 24 repositories
+OLS: 13 repositories
+
+### ROBUSTNESS CHECKS ###
+alternative_specifications: 3486 repositories
+winsorize: 1257 repositories
+bootstrap: 1233 repositories
+heterogeneity: 802 repositories
+cross_validation: 481 repositories
+placebo_tests: 436 repositories
+sensitivity_analysis: 90 repositories
+jackknife: 28 repositories
+
+### DATA CLEANING PRACTICES ###
+recoding: 15325 repositories
+missing_values: 11033 repositories
+merging: 9639 repositories
+reshaping: 4555 repositories
+duplicates: 3642 repositories
+outliers: 2277 repositories
+
+### ADVANCED TECHNIQUES ###
+machine_learning: 151 repositories
+  Examples: aearep-3495, aearep-2578, aearep-1331
+causal_inference: 321 repositories
+  Examples: AEAREP-2547, aearep-3495, aearep-2578
+structural_models: 53 repositories
+  Examples: AEAREP-2547, aearep-3495, aearep-3450
+bayesian: 340 repositories
+  Examples: AEAREP-2547, aearep-3495, aearep-2578
+text_analysis: 7 repositories
+  Examples: aearep-3495, aearep-1796, AEAREP-103-ssh
+network_analysis: 339 repositories
+  Examples: AEAREP-2547, aearep-3495, aearep-2578
