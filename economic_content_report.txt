@@ -1,0 +1,97 @@
+================================================================================
+COMPREHENSIVE ECONOMIC RESEARCH CONTENT ANALYSIS
+================================================================================
+Total Repositories Analyzed: 1053
+
+ECONOMIC RESEARCH TOPICS
+----------------------------------------
+trade: 46431 repos (4409.4%)
+development: 19883 repos (1888.2%)
+education: 19507 repos (1852.5%)
+behavioral: 18755 repos (1781.1%)
+labor: 18642 repos (1770.4%)
+urban: 18363 repos (1743.9%)
+health: 14625 repos (1388.9%)
+macroeconomic: 10690 repos (1015.2%)
+finance: 5623 repos (534.0%)
+environment: 4456 repos (423.2%)
+
+POLICY RESEARCH AREAS
+----------------------------------------
+fiscal_policy: 13313 repos (1264.3%)
+trade_policy: 8365 repos (794.4%)
+education_policy: 3538 repos (336.0%)
+health_policy: 3272 repos (310.7%)
+labor_policy: 2999 repos (284.8%)
+social_policy: 2219 repos (210.7%)
+monetary_policy: 1849 repos (175.6%)
+environmental_policy: 231 repos (21.9%)
+
+DATA SOURCES
+----------------------------------------
+text: 57727 repos (5482.1%)
+trade: 41931 repos (3982.1%)
+survey: 28625 repos (2718.4%)
+experimental: 24826 repos (2357.6%)
+administrative: 17340 repos (1646.7%)
+financial: 14319 repos (1359.8%)
+satellite: 203 repos (19.3%)
+
+GEOGRAPHIC FOCUS
+----------------------------------------
+uk: 21582 repos (2049.6%)
+usa: 11865 repos (1126.8%)
+asia: 3899 repos (370.3%)
+india: 3837 repos (364.4%)
+africa: 2880 repos (273.5%)
+united states: 1851 repos (175.8%)
+france: 1107 repos (105.1%)
+china: 1103 repos (104.7%)
+mexico: 851 repos (80.8%)
+europe: 812 repos (77.1%)
+korea: 569 repos (54.0%)
+canada: 568 repos (53.9%)
+brazil: 565 repos (53.7%)
+japan: 554 repos (52.6%)
+germany: 507 repos (48.1%)
+
+METHODOLOGICAL APPROACHES
+----------------------------------------
+iv: 61296 repos (5821.1%)
+ml: 38838 repos (3688.3%)
+ols: 23104 repos (2194.1%)
+did: 13392 repos (1271.8%)
+panel: 8038 repos (763.3%)
+gmm: 4228 repos (401.5%)
+rdd: 3961 repos (376.2%)
+matching: 2753 repos (261.4%)
+bootstrap: 2727 repos (259.0%)
+fixed effects: 1558 repos (148.0%)
+structural: 688 repos (65.3%)
+2sls: 653 repos (62.0%)
+calibration: 427 repos (40.6%)
+bayesian: 126 repos (12.0%)
+machine learning: 73 repos (6.9%)
+random effects: 51 repos (4.8%)
+random forest: 39 repos (3.7%)
+neural network: 4 repos (0.4%)
+
+SAMPLE SIZE DISTRIBUTION
+----------------------------------------
+Small (<1K): 175 repos (31.2%)
+Medium (1K-10K): 303 repos (54.1%)
+Large (10K-100K): 46 repos (8.2%)
+Very Large (>100K): 36 repos (6.4%)
+
+TOP REPOSITORIES BY TOPIC COVERAGE
+----------------------------------------
+AEAREP-103-ssh: 25 topics (macroeconomic, health, trade)
+aearep-7429: 24 topics (macroeconomic, health, trade)
+aearep-6174: 24 topics (macroeconomic, health, trade)
+aearep-2573: 24 topics (macroeconomic, health, trade)
+aearep-2256: 24 topics (macroeconomic, health, trade)
+aearep-5469: 24 topics (macroeconomic, health, trade)
+aearep-1600: 24 topics (macroeconomic, health, trade)
+aearep-4831: 24 topics (macroeconomic, health, trade)
+aearep-7817: 24 topics (macroeconomic, health, trade)
+AEAREP-328: 24 topics (macroeconomic, health, trade)
